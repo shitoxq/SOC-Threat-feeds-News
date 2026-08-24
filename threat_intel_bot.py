@@ -19,7 +19,16 @@ STATE_FILE = "sent_alerts.json"
 FEEDS = {
     "cisa_kev": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
     "the_hacker_news": "https://feeds.feedburner.com/TheHackersNews",
-    "bleeping_computer": "https://www.bleepingcomputer.com/feed/"
+    "bleeping_computer": "https://www.bleepingcomputer.com/feed/",
+    "ipurple_team": "https://ipurple.team/feed/",
+    "securityweek": "https://www.securityweek.com/feed/",
+    "sc_magazine": "https://www.scworld.com/feed/",
+    "dark_reading": "https://www.darkreading.com/rss/all.xml",
+    "infosecurity_magazine": "https://www.infosecurity-magazine.com/rss/news/",
+    "help_net_security": "https://www.helpnetsecurity.com/feed/",
+    "ciso_series": "https://cisoseries.com/feed/",
+    "security_boulevard": "https://securityboulevard.com/feed/",
+    "ehackingnews": "https://www.ehackingnews.com/feeds/posts/default?alt=rss"
 }
 
 HEADERS = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) GDPFMIT-SOC-Realtime/4.0"}
@@ -182,7 +191,7 @@ def main():
     sent_cache = load_sent_cache()
     new_items_found = 0
 
-    # 1. Check CISA KEV for new additions
+    # 1. Check CISA KEV (JSON payload structure)
     kev_alerts = check_cisa_kev(sent_cache)
     for h, alert_text in kev_alerts:
         print(f"[+] Sending new KEV alert: {h}")
@@ -190,21 +199,18 @@ def main():
             sent_cache.add(h)
             new_items_found += 1
 
-    # 2. Check The Hacker News
-    thn_alerts = check_rss_feed("the_hacker_news", FEEDS["the_hacker_news"], sent_cache)
-    for h, alert_text in thn_alerts:
-        print(f"[+] Sending new THN alert: {h}")
-        if send_telegram_alert(alert_text):
-            sent_cache.add(h)
-            new_items_found += 1
-
-    # 3. Check BleepingComputer
-    bc_alerts = check_rss_feed("bleeping_computer", FEEDS["bleeping_computer"], sent_cache)
-    for h, alert_text in bc_alerts:
-        print(f"[+] Sending new BleepingComputer alert: {h}")
-        if send_telegram_alert(alert_text):
-            sent_cache.add(h)
-            new_items_found += 1
+    # 2. Check all RSS Feeds dynamically
+    for feed_key, feed_url in FEEDS.items():
+        if feed_key == "cisa_kev":
+            continue
+        
+        print(f"[*] Scanning feed: {feed_key}...")
+        rss_alerts = check_rss_feed(feed_key, feed_url, sent_cache)
+        for h, alert_text in rss_alerts:
+            print(f"[+] Sending new {feed_key} alert: {h}")
+            if send_telegram_alert(alert_text):
+                sent_cache.add(h)
+                new_items_found += 1
 
     # Save state
     save_sent_cache(sent_cache)
