@@ -2,12 +2,17 @@ name: SOC Real-Time Threat Intelligence Monitor
 
 on:
   schedule:
-    # Runs every 30 minutes 24/7
+    # Runs automatically every 30 minutes 24/7
     - cron: '*/30 * * * *'
-  workflow_dispatch: # Manual 1-click execution
+  workflow_dispatch: # Enables manual 1-click execution button
 
 permissions:
-  contents: write # Grants permission to commit state back to repository
+  contents: write # Grants permission to commit sent_alerts.json back to repository
+
+# Prevents simultaneous runs from colliding on git commits
+concurrency:
+  group: threat-intel-monitor
+  cancel-in-progress: false
 
 jobs:
   check-and-alert:
@@ -16,7 +21,7 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0 # Fetches full history so git push works cleanly
+          fetch-depth: 0 # Fetches full history so git pull/push works cleanly
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -36,12 +41,14 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           
+          # Pull latest remote changes first to prevent non-fast-forward merge conflicts
+          git pull --rebase origin main || true
+          
           # Only commit if sent_alerts.json was created or modified
           if [ -f sent_alerts.json ]; then
             git add sent_alerts.json
             if ! git diff-index --quiet HEAD; then
               git commit -m "chore(bot): update sent_alerts state [skip ci]"
-              git pull --rebase origin main
               git push
             else
               echo "[*] No state changes detected."
