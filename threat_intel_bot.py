@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """
 GDPFMIT SOC Real-Time Threat Intelligence Monitor
-Fetches security news, deduplicates against state cache, synthesizes alerts 
-using Gemini AI, and dispatches dynamic HTML alerts to Telegram.
+Fetches feeds, processes items sequentially (waiting for Gemini AI summaries),
+and sends structured HTML alerts to Telegram.
 """
 
 import os
@@ -12,11 +12,12 @@ import re
 import html
 import hashlib
 import tempfile
+import time
 import urllib.request
+import urllib.error
 import xml.etree.ElementTree as ET
 from datetime import datetime
 
-# Environment Variables & Secrets
 BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
 CHAT_ID = os.getenv("TELEGRAM_CHAT_ID")
 STATE_FILE = "sent_alerts.json"
@@ -49,7 +50,6 @@ def sanitize_html(text):
     return html.escape(html.unescape(clean)).strip()
 
 def load_sent_cache():
-    """Loads cache safely while ignoring invalid formatting or missing files."""
     if os.path.exists(STATE_FILE):
         try:
             with open(STATE_FILE, "r", encoding="utf-8") as f:
@@ -62,24 +62,21 @@ def load_sent_cache():
     return []
 
 def save_sent_cache(sent_list):
-    """
-    Atomic save operation using tempfile + os.replace.
-    Prevents corrupt/half-written JSON files and double alerts in production.
-    """
+    """Atomic save operation to prevent state corruption."""
     try:
-        trimmed = sent_list[-500:]  # Preserve explicit FIFO order
+        trimmed = sent_list[-500:]
         dir_name = os.path.dirname(STATE_FILE) or "."
         with tempfile.NamedTemporaryFile("w", dir=dir_name, delete=False, encoding="utf-8") as tf:
             json.dump(trimmed, tf, indent=2)
             temp_name = tf.name
         os.replace(temp_name, STATE_FILE)
     except Exception as e:
-        print(f"[-] Critical error saving cache state: {e}", file=sys.stderr)
+        print(f"[-] Error saving cache state: {e}", file=sys.stderr)
 
 def fetch_url(url):
     try:
         req = urllib.request.Request(url, headers=HEADERS)
-        with urllib.request.urlopen(req, timeout=15) as resp:
+        with urllib.request.urlopen(req, timeout=20) as resp:
             return resp.read()
     except Exception as e:
         print(f"[-] Error fetching {url}: {e}", file=sys.stderr)
@@ -103,7 +100,7 @@ def send_telegram_alert(message_html):
         headers={"Content-Type": "application/json", "User-Agent": HEADERS["User-Agent"]}
     )
     try:
-        with urllib.request.urlopen(req, timeout=15) as resp:
+        with urllib.request.urlopen(req, timeout=20) as resp:
             res = json.loads(resp.read().decode("utf-8"))
             return res.get("ok", False)
     except Exception as e:
@@ -111,7 +108,10 @@ def send_telegram_alert(message_html):
         return False
 
 def generate_dynamic_alert(title, pub_date, desc, link):
-    """Synthesizes CTI reports dynamically via Gemini API."""
+    """
+    Blocks execution and waits for Gemini to analyze and summarize the news.
+    Includes explicit API diagnostics to debug any failure.
+    """
     api_key = os.getenv("GEMINI_API_KEY")
     
     fallback_alert = f"""🚨 <b>SOC Cyber Threat Intelligence Alert</b>
@@ -140,7 +140,7 @@ See source link for full indicator listing.
 🔗 <b>Source:</b> {link}"""
 
     if not api_key:
-        print("[-] Warning: GEMINI_API_KEY missing. Falling back to static template.", file=sys.stderr)
+        print("[-] Missing GEMINI_API_KEY. Using fallback template.", file=sys.stderr)
         return fallback_alert
 
     prompt = f"""You are a Senior Cyber Threat Intelligence Analyst.
@@ -149,20 +149,20 @@ Title: {title}
 Description: {desc}
 URL: {link}
 
-Generate a concise, analytical threat alert in HTML format using this EXACT template:
+Generate a concise threat alert using HTML tags following this EXACT template structure:
 
 🚨 <b>SOC Cyber Threat Intelligence Alert</b>
 
-<b>Title:</b> [Synthesize a short, professional, threat-focused title]
+<b>Title:</b> [Synthesize a clear, threat-focused professional title]
 <b>Date:</b> {pub_date[:16]}
-<b>Severity:</b> [🔴 Critical / 🟠 High / 🟡 Medium / 🟢 Low based on business/security impact]
+<b>Severity:</b> [🔴 Critical / 🟠 High / 🟡 Medium / 🟢 Low]
 <b>Category:</b> [Specific category, e.g., Ransomware, Zero-Day, Critical Infrastructure, APT, Phishing, etc.]
-<b>Threat Actor:</b> [Name of APT or threat group if explicitly mentioned, e.g., "Iranian Threat Actors", otherwise "Unknown / Unspecified"]
-<b>Affected Product/Organization:</b> [Identify specific software, OS, enterprise sector, or infrastructure, e.g., "UK Power Plant / CNI"]
+<b>Threat Actor:</b> [Name of APT or group if mentioned, e.g., "Iranian Threat Actors", otherwise "Unknown / Unspecified"]
+<b>Affected Product/Organization:</b> [Identify specific targeted software, vendor, or infrastructure, e.g., "UK Power Plant / CNI Infrastructure"]
 <b>CVE:</b> [CVE ID(s) if mentioned, otherwise "N/A"]
 
 📝 <b>Summary:</b> 
-[2–3 concise sentences written by you summarizing what happened, the vector, and current status]
+[Write 2–3 concise sentences summarizing the event, threat vector, and target impact]
 
 💥 <b>Impact:</b> 
 [Direct technical, operational, or business risk]
@@ -172,34 +172,36 @@ Generate a concise, analytical threat alert in HTML format using this EXACT temp
 
 🛡️ <b>Recommended Action:</b> 
 • [Specific remediation step 1]
-• [Specific operational monitoring step 2]
+• [Specific monitoring step 2]
 
 🔗 <b>Source:</b> {link}
 
-Return raw HTML only. Do NOT use markdown code blocks like ```html or ```."""
+Output raw HTML only. Do NOT output markdown code blocks like ```html or ```."""
 
-    url = "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent"
+    url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key={api_key}"
     payload = {
         "contents": [{
             "parts": [{"text": prompt}]
-        }]
+        }],
+        "generationConfig": {
+            "temperature": 0.2,
+            "maxOutputTokens": 800
+        }
     }
     
     try:
         req = urllib.request.Request(
             url,
             data=json.dumps(payload).encode("utf-8"),
-            headers={
-                "Content-Type": "application/json",
-                "x-goog-api-key": api_key
-            }
+            headers={"Content-Type": "application/json"}
         )
-        with urllib.request.urlopen(req, timeout=25) as resp:
+        # Block and wait up to 30 seconds for Gemini response
+        with urllib.request.urlopen(req, timeout=30) as resp:
             data = json.loads(resp.read().decode("utf-8"))
             
             candidates = data.get("candidates", [])
             if not candidates:
-                print("[-] Gemini response was blocked by safety filters. Using fallback.", file=sys.stderr)
+                print("[-] Gemini safety block triggered. Reverting to fallback.", file=sys.stderr)
                 return fallback_alert
                 
             parts = candidates[0].get("content", {}).get("parts", [])
@@ -207,20 +209,43 @@ Return raw HTML only. Do NOT use markdown code blocks like ```html or ```."""
                 return fallback_alert
                 
             generated_text = parts[0].get("text", "")
-            
-            # Remove any backtick code fences cleanly
             cleaned_text = re.sub(r'^```html\s*|^```markdown\s*|^```\s*|```$', '', generated_text.strip(), flags=re.MULTILINE).strip()
             return cleaned_text
             
+    except urllib.error.HTTPError as e:
+        error_body = e.read().decode("utf-8")
+        print(f"[-] Gemini API HTTP Error {e.code}: {error_body}", file=sys.stderr)
+        return fallback_alert
     except Exception as e:
-        print(f"[-] Gemini API Failure: {e}", file=sys.stderr)
+        print(f"[-] Gemini API Request Failed: {e}", file=sys.stderr)
         return fallback_alert
 
+def process_single_item(title, pub_date, desc, link, item_hash, sent_cache):
+    """Processes a single news item end-to-end sequentially."""
+    if item_hash in sent_cache:
+        return False
+
+    print(f"[>] Generating AI summary for: {title[:50]}...")
+    
+    # 1. Wait until AI generates summary
+    alert_text = generate_dynamic_alert(title, pub_date, desc, link)
+    
+    # 2. Dispatch alert to Telegram
+    print(f"[+] Sending alert to Telegram for hash: {item_hash[:10]}...")
+    if send_telegram_alert(alert_text):
+        sent_cache.append(item_hash)
+        save_sent_cache(sent_cache)
+        # 3. Pause 2 seconds before moving to the next item to prevent API rate limiting
+        time.sleep(2)
+        return True
+    
+    return False
+
 def check_cisa_kev(sent_cache):
-    new_alerts = []
+    new_count = 0
     data = fetch_url(FEEDS["cisa_kev"])
     if not data:
-        return new_alerts
+        return new_count
     try:
         payload = json.loads(data.decode("utf-8"))
         vulns = payload.get("vulnerabilities", [])
@@ -228,10 +253,6 @@ def check_cisa_kev(sent_cache):
             cve_id = item.get("cveID", "")
             item_hash = f"KEV_{cve_id}"
             
-            # Deduplication Check
-            if item_hash in sent_cache:
-                continue
-
             vendor = item.get("vendorProject", "Unknown")
             product = item.get("product", "Unknown")
             date_added = item.get("dateAdded", datetime.now().strftime("%Y-%m-%d"))
@@ -242,17 +263,17 @@ def check_cisa_kev(sent_cache):
             raw_title = f"CISA KEV: Active Exploitation of {vendor} {product} ({cve_id})"
             raw_desc = f"{desc} Required Action: {action}"
             
-            alert = generate_dynamic_alert(raw_title, date_added, raw_desc, link)
-            new_alerts.append((item_hash, alert))
+            if process_single_item(raw_title, date_added, raw_desc, link, item_hash, sent_cache):
+                new_count += 1
     except Exception as e:
         print(f"[-] KEV check error: {e}", file=sys.stderr)
-    return new_alerts
+    return new_count
 
 def check_rss_feed(feed_key, feed_url, sent_cache):
-    new_alerts = []
+    new_count = 0
     data = fetch_url(feed_url)
     if not data:
-        return new_alerts
+        return new_count
     try:
         root = ET.fromstring(data)
         for item in root.findall(".//item")[:3]:
@@ -261,48 +282,30 @@ def check_rss_feed(feed_key, feed_url, sent_cache):
             pub_date = item.findtext("pubDate", datetime.now().strftime("%Y-%m-%d"))
             desc = sanitize_html(item.findtext("description", ""))[:350]
             
-            # Unique Hash based on URL link
             item_hash = hashlib.sha256(link.encode("utf-8")).hexdigest()
             
-            # Deduplication Check
-            if item_hash in sent_cache:
-                continue
-
-            alert = generate_dynamic_alert(title, pub_date, desc, link)
-            new_alerts.append((item_hash, alert))
+            if process_single_item(title, pub_date, desc, link, item_hash, sent_cache):
+                new_count += 1
     except Exception as e:
         print(f"[-] RSS {feed_key} error: {e}", file=sys.stderr)
-    return new_alerts
+    return new_count
 
 def main():
     print(f"[*] Starting Real-Time Threat Intel Scan at {datetime.now().isoformat()}...")
     sent_cache = load_sent_cache()
-    new_items_found = 0
+    total_new = 0
 
-    # 1. Process CISA KEV Feed via AI
-    kev_alerts = check_cisa_kev(sent_cache)
-    for h, alert_text in kev_alerts:
-        print(f"[+] Sending new KEV alert: {h}")
-        if send_telegram_alert(alert_text):
-            sent_cache.append(h)
-            new_items_found += 1
+    # 1. Process CISA KEV
+    total_new += check_cisa_kev(sent_cache)
 
-    # 2. Process RSS Feeds via AI
+    # 2. Process RSS Feeds sequentially
     for feed_key, feed_url in FEEDS.items():
         if feed_key == "cisa_kev":
             continue
-        
-        print(f"[*] Scanning feed: {feed_key}...")
-        rss_alerts = check_rss_feed(feed_key, feed_url, sent_cache)
-        for h, alert_text in rss_alerts:
-            print(f"[+] Sending new {feed_key} alert: {h}")
-            if send_telegram_alert(alert_text):
-                sent_cache.append(h)
-                new_items_found += 1
+        print(f"[*] Checking feed: {feed_key}...")
+        total_new += check_rss_feed(feed_key, feed_url, sent_cache)
 
-    # Atomic Save preserving history state
-    save_sent_cache(sent_cache)
-    print(f"[*] Scan complete. Delivered {new_items_found} new alerts.")
+    print(f"[*] Scan complete. Delivered {total_new} new alerts.")
 
 if __name__ == "__main__":
     main()
