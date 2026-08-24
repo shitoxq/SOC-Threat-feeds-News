@@ -1,20 +1,20 @@
 #!/usr/bin/env python3
 """
-GDPFMIT SOC Cybersecurity Threat Intelligence Engine
-Automated Feed Gatherer, Formatter & Telegram Dispatcher
+GDPFMIT SOC Real-Time Threat Intelligence Monitor
+Fetches feeds, deduplicates against past alerts, and only sends NEW news items to Telegram.
 """
 
 import os
 import sys
 import json
+import hashlib
 import urllib.request
-import urllib.parse
 import xml.etree.ElementTree as ET
 from datetime import datetime
 
-# Configuration (read from environment variables with defaults)
 BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN", "8851782460:AAHjRPVhHzMoWDf3_DFsC-TPQz_UF-qu92s")
 CHAT_ID = os.getenv("TELEGRAM_CHAT_ID", "-1004385697303")
+STATE_FILE = "sent_alerts.json"
 
 FEEDS = {
     "cisa_kev": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
@@ -22,7 +22,25 @@ FEEDS = {
     "bleeping_computer": "https://www.bleepingcomputer.com/feed/"
 }
 
-HEADERS = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) GDPFMIT-SOC/4.0"}
+HEADERS = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) GDPFMIT-SOC-Realtime/4.0"}
+
+def load_sent_cache():
+    if os.path.exists(STATE_FILE):
+        try:
+            with open(STATE_FILE, "r", encoding="utf-8") as f:
+                return set(json.load(f))
+        except Exception:
+            return set()
+    return set()
+
+def save_sent_cache(sent_set):
+    try:
+        # Keep last 500 hashes to maintain reasonable cache size
+        trimmed = list(sent_set)[-500:]
+        with open(STATE_FILE, "w", encoding="utf-8") as f:
+            json.dump(trimmed, f, indent=2)
+    except Exception as e:
+        print(f"[-] Error saving cache: {e}", file=sys.stderr)
 
 def fetch_url(url):
     try:
@@ -32,19 +50,6 @@ def fetch_url(url):
     except Exception as e:
         print(f"[-] Error fetching {url}: {e}", file=sys.stderr)
         return None
-
-def get_cisa_kev_items():
-    data = fetch_url(FEEDS["cisa_kev"])
-    if not data:
-        return []
-    try:
-        payload = json.loads(data.decode("utf-8"))
-        vulns = payload.get("vulnerabilities", [])
-        sorted_vulns = sorted(vulns, key=lambda x: x.get("dateAdded", ""), reverse=True)
-        return sorted_vulns[:2]
-    except Exception as e:
-        print(f"[-] Error parsing CISA KEV: {e}", file=sys.stderr)
-        return []
 
 def send_telegram_alert(message_text):
     endpoint = f"https://api.telegram.org/bot{BOT_TOKEN}/sendMessage"
@@ -66,25 +71,33 @@ def send_telegram_alert(message_text):
     try:
         with urllib.request.urlopen(req, timeout=15) as resp:
             res = json.loads(resp.read().decode("utf-8"))
-            if res.get("ok"):
-                print(f"[+] Alert sent successfully.")
-                return True
-            else:
-                print(f"[-] Telegram error: {res}", file=sys.stderr)
-                return False
+            return res.get("ok", False)
     except Exception as e:
-        print(f"[-] Telegram dispatch exception: {e}", file=sys.stderr)
+        print(f"[-] Telegram dispatch error: {e}", file=sys.stderr)
         return False
 
-def build_kev_alert(kev_item):
-    cve_id = kev_item.get("cveID", "N/A")
-    vendor = kev_item.get("vendorProject", "Unknown")
-    product = kev_item.get("product", "Unknown")
-    date_added = kev_item.get("dateAdded", datetime.now().strftime("%Y-%m-%d"))
-    desc = kev_item.get("shortDescription", "")
-    action = kev_item.get("requiredAction", "Apply official vendor security patches immediately.")
-    
-    alert = f"""🚨 *CRITICAL Cybersecurity Threat Alert*
+def check_cisa_kev(sent_cache):
+    new_alerts = []
+    data = fetch_url(FEEDS["cisa_kev"])
+    if not data:
+        return new_alerts
+    try:
+        payload = json.loads(data.decode("utf-8"))
+        vulns = payload.get("vulnerabilities", [])
+        # Check newest 5 entries
+        for item in sorted(vulns, key=lambda x: x.get("dateAdded", ""), reverse=True)[:5]:
+            cve_id = item.get("cveID", "")
+            item_hash = f"KEV_{cve_id}"
+            if item_hash in sent_cache:
+                continue
+
+            vendor = item.get("vendorProject", "Unknown")
+            product = item.get("product", "Unknown")
+            date_added = item.get("dateAdded", datetime.now().strftime("%Y-%m-%d"))
+            desc = item.get("shortDescription", "")
+            action = item.get("requiredAction", "Apply official security update.")
+
+            alert = f"""🚨 *CRITICAL Cybersecurity Threat Alert*
 
 📌 *Title:* Active Exploitation of {vendor} {product} ({cve_id})
 📅 *Date:* {date_added}
@@ -94,32 +107,108 @@ def build_kev_alert(kev_item):
 🔢 *CVE / IOC:* {cve_id} (CISA KEV)
 
 📝 *What Happened:*
-CISA has added {cve_id} affecting {vendor} {product} to the Known Exploited Vulnerabilities catalog. {desc} Threat actors are actively exploiting this in the wild.
+CISA has added {cve_id} ({vendor} {product}) to the Known Exploited Vulnerabilities catalog. {desc} Threat actors are actively exploiting this in the wild.
 
 💥 *Impact:*
-Unauthenticated access, unauthorized code execution, potential hypervisor or server compromise, and lateral movement.
+Unauthorized system compromise, remote execution, and lateral enterprise risk.
 
 🛡️ *Recommended Action:*
 • {action}
-• Isolate management interfaces from direct public internet exposure.
-• Audit recent access logs and user accounts for abnormal persistence.
+• Isolate management interfaces from direct internet access.
+• Check logs for indicators of compromise.
 
 🔍 *SOC Detection:*
-Monitor perimeter firewall, reverse proxy, and web server access logs for anomalous requests targeting {product}. Alert on unexpected child process creation under service accounts. MITRE ATT&CK: T1190 (Exploit Public-Facing Application).
+Monitor perimeter logs and WAF for exploitation attempts against {product}. MITRE ATT&CK: T1190 (Exploit Public-Facing Application).
 
 🔗 *Source:* https://www.cisa.gov/known-exploited-vulnerabilities-catalog"""
-    return alert
+            
+            new_alerts.append((item_hash, alert))
+    except Exception as e:
+        print(f"[-] KEV check error: {e}", file=sys.stderr)
+    return new_alerts
+
+def check_rss_feed(feed_key, feed_url, sent_cache):
+    new_alerts = []
+    data = fetch_url(feed_url)
+    if not data:
+        return new_alerts
+    try:
+        root = ET.fromstring(data)
+        for item in root.findall(".//item")[:3]:
+            title = item.find("title").text if item.find("title") is not None else ""
+            link = item.find("link").text if item.find("link") is not None else ""
+            pub_date = item.find("pubDate").text if item.find("pubDate") is not None else datetime.now().strftime("%Y-%m-%d")
+            desc = item.find("description").text if item.find("description") is not None else ""
+            
+            # Clean HTML tags from description if needed
+            clean_desc = desc.replace("<p>", "").replace("</p>", "").replace("<b>", "").replace("</b>", "")[:350]
+
+            item_hash = hashlib.sha256(link.strip().encode("utf-8")).hexdigest()
+            if item_hash in sent_cache:
+                continue
+
+            alert = f"""🚨 *HIGH Cybersecurity Threat Alert*
+
+📌 *Title:* {title.strip()}
+📅 *Date:* {pub_date[:16]}
+🏷️ *Threat Type:* Malware / Vulnerability / Threat Campaign
+⚡ *Severity:* 🟠 High
+🎯 *Target:* Enterprise Infrastructure & Software Systems
+🔢 *CVE / IOC:* See linked advisory
+
+📝 *What Happened:*
+{clean_desc.strip()}...
+
+💥 *Impact:*
+Potential unauthorized access, service disruption, or data compromise depending on affected systems.
+
+🛡️ *Recommended Action:*
+• Review affected software versions in your environment.
+• Apply relevant vendor updates or mitigations.
+• Verify firewall and endpoint monitoring rules.
+
+🔍 *SOC Detection:*
+Inspect perimeter network and endpoint telemetry for related IOCs. MITRE ATT&CK: T1190, T1059.
+
+🔗 *Source:* {link.strip()}"""
+
+            new_alerts.append((item_hash, alert))
+    except Exception as e:
+        print(f"[-] RSS {feed_key} error: {e}", file=sys.stderr)
+    return new_alerts
 
 def main():
-    print(f"[*] Starting GDPFMIT Threat Intelligence Run at {datetime.now().isoformat()}...")
-    kev_items = get_cisa_kev_items()
-    if kev_items:
-        for item in kev_items[:2]:
-            alert_text = build_kev_alert(item)
-            print(f"[*] Sending KEV Alert: {item.get('cveID')}")
-            send_telegram_alert(alert_text)
-            
-    print("[*] Threat Intelligence Run Complete.")
+    print(f"[*] Starting Real-Time Threat Intel Scan at {datetime.now().isoformat()}...")
+    sent_cache = load_sent_cache()
+    new_items_found = 0
+
+    # 1. Check CISA KEV for new additions
+    kev_alerts = check_cisa_kev(sent_cache)
+    for h, alert_text in kev_alerts:
+        print(f"[+] Sending new KEV alert: {h}")
+        if send_telegram_alert(alert_text):
+            sent_cache.add(h)
+            new_items_found += 1
+
+    # 2. Check The Hacker News
+    thn_alerts = check_rss_feed("the_hacker_news", FEEDS["the_hacker_news"], sent_cache)
+    for h, alert_text in thn_alerts:
+        print(f"[+] Sending new THN alert: {h}")
+        if send_telegram_alert(alert_text):
+            sent_cache.add(h)
+            new_items_found += 1
+
+    # 3. Check BleepingComputer
+    bc_alerts = check_rss_feed("bleeping_computer", FEEDS["bleeping_computer"], sent_cache)
+    for h, alert_text in bc_alerts:
+        print(f"[+] Sending new BleepingComputer alert: {h}")
+        if send_telegram_alert(alert_text):
+            sent_cache.add(h)
+            new_items_found += 1
+
+    # Save state
+    save_sent_cache(sent_cache)
+    print(f"[*] Scan complete. Delivered {new_items_found} new alerts.")
 
 if __name__ == "__main__":
     main()
