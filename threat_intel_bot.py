@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
 """
 GDPFMIT SOC Real-Time Threat Intelligence Monitor
+Fetches feeds, deduplicates against past alerts, structures details into 
+a standardized CTI template via Gemini AI, and dispatches alerts to Telegram.
 """
 
 import os
@@ -13,6 +15,7 @@ import urllib.request
 import xml.etree.ElementTree as ET
 from datetime import datetime
 
+# Load Secrets from Environment Variables
 BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
 CHAT_ID = os.getenv("TELEGRAM_CHAT_ID")
 STATE_FILE = "sent_alerts.json"
@@ -38,7 +41,7 @@ FEEDS = {
 HEADERS = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) GDPFMIT-SOC-Realtime/4.0"}
 
 def sanitize_html(text):
-    """Strips HTML tags and unescapes entities for Telegram HTML mode."""
+    """Strips raw HTML tags and unescapes entities for Telegram HTML mode."""
     if not text:
         return ""
     clean = re.sub(r'<[^>]+>', '', text)
@@ -48,14 +51,14 @@ def load_sent_cache():
     if os.path.exists(STATE_FILE):
         try:
             with open(STATE_FILE, "r", encoding="utf-8") as f:
-                return json.load(f)  # List preserves FIFO order
+                return json.load(f)
         except Exception:
             return []
     return []
 
 def save_sent_cache(sent_list):
     try:
-        # Keep last 500 items preserving order
+        # Keep last 500 items preserving explicit FIFO order
         trimmed = sent_list[-500:]
         with open(STATE_FILE, "w", encoding="utf-8") as f:
             json.dump(trimmed, f, indent=2)
@@ -96,6 +99,94 @@ def send_telegram_alert(message_html):
         print(f"[-] Telegram dispatch error: {e}", file=sys.stderr)
         return False
 
+def generate_dynamic_alert(title, pub_date, desc, link):
+    api_key = os.getenv("GEMINI_API_KEY")
+    
+    # Static HTML Fallback matching exact requested template schema
+    fallback_alert = f"""🚨 <b>SOC Cyber Threat Intelligence Alert</b>
+
+<b>Title:</b> {sanitize_html(title.strip())}
+<b>Date:</b> {pub_date[:16]}
+<b>Severity:</b> 🟠 High
+<b>Category:</b> Vulnerability / Exploit / Malware
+<b>Threat Actor:</b> Unknown / Unspecified
+<b>Affected Product/Organization:</b> Software Systems
+<b>CVE:</b> See source link
+
+📝 <b>Summary:</b> 
+{sanitize_html(desc.strip()[:350])}...
+
+💥 <b>Impact:</b> 
+Potential unauthorized system compromise, remote execution, or enterprise risk.
+
+🔍 <b>IOCs:</b> 
+See source link for full indicator listing.
+
+🛡️ <b>Recommended Action:</b> 
+• Apply relevant vendor security patches immediately.
+• Review perimeter firewall logs and endpoint monitoring rules.
+
+🔗 <b>Source:</b> {link}"""
+
+    if not api_key:
+        return fallback_alert
+
+    prompt = f"""You are a Senior Cyber Threat Intelligence Analyst.
+Analyze this threat news item:
+Title: {title}
+Description: {desc}
+URL: {link}
+
+Generate a concise threat alert using HTML tags (like <b>bold</b>) following this EXACT template structure:
+
+🚨 <b>SOC Cyber Threat Intelligence Alert</b>
+
+<b>Title:</b> [Concise, professional title summarizing the threat]
+<b>Date:</b> {pub_date[:16]}
+<b>Severity:</b> [🔴 Critical / 🟠 High / 🟡 Medium / 🟢 Low]
+<b>Category:</b> [Malware, Ransomware, Vulnerability, Phishing, APT, Zero-Day, etc.]
+<b>Threat Actor:</b> [APT/Group Name if mentioned, otherwise "Unknown / Unspecified"]
+<b>Affected Product/Organization:</b> [Specific software, OS, vendor, or target industry]
+<b>CVE:</b> [CVE ID(s) if mentioned, otherwise "N/A"]
+
+📝 <b>Summary:</b> 
+[2–3 concise sentences summarizing what happened]
+
+💥 <b>Impact:</b> 
+[Direct business or enterprise security impact]
+
+🔍 <b>IOCs:</b> 
+[Hashes, IPs, domains, or "See source link"]
+
+🛡️ <b>Recommended Action:</b> 
+• [Specific mitigation step 1]
+• [Specific mitigation step 2]
+
+🔗 <b>Source:</b> {link}
+
+Output ONLY the final HTML alert. Do NOT wrap output in markdown code blocks like ```html or ```markdown."""
+
+    url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key={api_key}"
+    payload = {
+        "contents": [{
+            "parts": [{"text": prompt}]
+        }]
+    }
+    try:
+        req = urllib.request.Request(
+            url,
+            data=json.dumps(payload).encode("utf-8"),
+            headers={"Content-Type": "application/json"}
+        )
+        with urllib.request.urlopen(req, timeout=20) as resp:
+            data = json.loads(resp.read().decode("utf-8"))
+            generated_text = data["candidates"][0]["content"]["parts"][0]["text"]
+            cleaned_text = generated_text.replace("```html", "").replace("```markdown", "").replace("```", "").strip()
+            return cleaned_text
+    except Exception as e:
+        print(f"[-] Gemini API failed, using fallback template: {e}", file=sys.stderr)
+        return fallback_alert
+
 def check_cisa_kev(sent_cache):
     new_alerts = []
     data = fetch_url(FEEDS["cisa_kev"])
@@ -110,33 +201,18 @@ def check_cisa_kev(sent_cache):
             if item_hash in sent_cache:
                 continue
 
-            vendor = html.escape(item.get("vendorProject", "Unknown"))
-            product = html.escape(item.get("product", "Unknown"))
+            vendor = item.get("vendorProject", "Unknown")
+            product = item.get("product", "Unknown")
             date_added = item.get("dateAdded", datetime.now().strftime("%Y-%m-%d"))
-            desc = html.escape(item.get("shortDescription", ""))
-            action = html.escape(item.get("requiredAction", "Apply official security update."))
+            desc = item.get("shortDescription", "")
+            action = item.get("requiredAction", "")
+            link = "[https://www.cisa.gov/known-exploited-vulnerabilities-catalog](https://www.cisa.gov/known-exploited-vulnerabilities-catalog)"
 
-            alert = f"""🚨 <b>CRITICAL Cybersecurity Threat Alert</b>
-
-📌 <b>Title:</b> Active Exploitation of {vendor} {product} ({cve_id})
-📅 <b>Date:</b> {date_added}
-🏷️ <b>Threat Type:</b> Vulnerability / Exploit
-⚡ <b>Severity:</b> 🔴 Critical
-🎯 <b>Target:</b> {vendor} {product} Deployments
-🔢 <b>CVE / IOC:</b> {cve_id} (CISA KEV)
-
-📝 <b>What Happened:</b>
-CISA added {cve_id} ({vendor} {product}) to KEV catalog. {desc} Active in wild.
-
-💥 <b>Impact:</b>
-Unauthorized system compromise and remote execution.
-
-🛡️ <b>Recommended Action:</b>
-• {action}
-• Isolate management interfaces from direct internet access.
-
-🔗 <b>Source:</b> https://www.cisa.gov/known-exploited-vulnerabilities-catalog"""
+            raw_title = f"CISA KEV: Active Exploitation of {vendor} {product} ({cve_id})"
+            raw_desc = f"{desc} Required Action: {action}"
             
+            # Route KEV alert through Gemini for dynamic AI parsing & formatting
+            alert = generate_dynamic_alert(raw_title, date_added, raw_desc, link)
             new_alerts.append((item_hash, alert))
     except Exception as e:
         print(f"[-] KEV check error: {e}", file=sys.stderr)
@@ -159,19 +235,8 @@ def check_rss_feed(feed_key, feed_url, sent_cache):
             if item_hash in sent_cache:
                 continue
 
-            alert = f"""🚨 <b>HIGH Cybersecurity Threat Alert</b>
-
-📌 <b>Title:</b> {title}
-📅 <b>Date:</b> {pub_date[:16]}
-🏷️ <b>Threat Type:</b> Vulnerability / Exploit / Malware
-⚡ <b>Severity:</b> 🟠 High
-🎯 <b>Target:</b> Software Systems
-
-📝 <b>What Happened:</b>
-{desc}...
-
-🔗 <b>Source:</b> {link}"""
-            
+            # Route RSS item through Gemini for dynamic AI parsing & formatting
+            alert = generate_dynamic_alert(title, pub_date, desc, link)
             new_alerts.append((item_hash, alert))
     except Exception as e:
         print(f"[-] RSS {feed_key} error: {e}", file=sys.stderr)
@@ -182,21 +247,28 @@ def main():
     sent_cache = load_sent_cache()
     new_items_found = 0
 
+    # 1. Process CISA KEV Feed via AI
     kev_alerts = check_cisa_kev(sent_cache)
     for h, alert_text in kev_alerts:
+        print(f"[+] Sending new KEV alert: {h}")
         if send_telegram_alert(alert_text):
             sent_cache.append(h)
             new_items_found += 1
 
+    # 2. Process RSS Feeds via AI
     for feed_key, feed_url in FEEDS.items():
         if feed_key == "cisa_kev":
             continue
+        
+        print(f"[*] Scanning feed: {feed_key}...")
         rss_alerts = check_rss_feed(feed_key, feed_url, sent_cache)
         for h, alert_text in rss_alerts:
+            print(f"[+] Sending new {feed_key} alert: {h}")
             if send_telegram_alert(alert_text):
                 sent_cache.append(h)
                 new_items_found += 1
 
+    # Save cache preserving state order
     save_sent_cache(sent_cache)
     print(f"[*] Scan complete. Delivered {new_items_found} new alerts.")
 
