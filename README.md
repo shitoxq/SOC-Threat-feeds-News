@@ -1,7 +1,5 @@
 # SOC-Threat-feeds-News
 
-# SOC Threat Feeds & News Collection
-
 ## Overview
 
 **SOC-Threat-feeds-News** is a centralized collection of cybersecurity threat intelligence, security news, vulnerabilities, malware campaigns, attack techniques, and other relevant information for the SOC/InfoSec team.
