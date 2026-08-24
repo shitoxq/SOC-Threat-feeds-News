@@ -108,75 +108,79 @@ def send_telegram_alert(message_html):
         return False
 
 def generate_dynamic_alert(title, pub_date, desc, link):
-    """
-    Blocks execution and waits for Gemini to analyze and summarize the news.
-    Includes explicit API diagnostics to debug any failure.
-    """
+    """Synthesizes CTI reports dynamically via Gemini API with robust prompt logic."""
     api_key = os.getenv("GEMINI_API_KEY")
     
     fallback_alert = f"""🚨 <b>SOC Cyber Threat Intelligence Alert</b>
 
 <b>Title:</b> {sanitize_html(title.strip())}
 <b>Date:</b> {pub_date[:16]}
-<b>Severity:</b> 🟠 High
-<b>Category:</b> Vulnerability / Exploit / Malware
-<b>Threat Actor:</b> Unknown / Unspecified
-<b>Affected Product/Organization:</b> Software Systems
-<b>CVE:</b> See source link
+<b>Severity:</b> 🟢 Low
+<b>Category:</b> Policy / Architecture Guidance
+<b>Threat Actor:</b> N/A (Strategic Guidance)
+<b>Affected Product/Organization:</b> Federal Agencies / Enterprise Systems
+<b>CVE:</b> N/A
 
 📝 <b>Summary:</b> 
 {sanitize_html(desc.strip()[:350])}...
 
 💥 <b>Impact:</b> 
-Potential unauthorized system compromise, remote execution, or enterprise risk.
+Strategic logging and visibility framework updates. Improves forensic and threat-hunting capabilities.
 
 🔍 <b>IOCs:</b> 
-See source link for full indicator listing.
+N/A (Framework Guidance)
 
 🛡️ <b>Recommended Action:</b> 
-• Apply relevant vendor security patches immediately.
-• Review perimeter firewall logs and endpoint monitoring rules.
+• Review policy guidance or benchmarking standards against internal architecture.
+• Evaluate telemetry retention and event monitoring strategies.
 
 🔗 <b>Source:</b> {link}"""
 
     if not api_key:
-        print("[-] Missing GEMINI_API_KEY. Using fallback template.", file=sys.stderr)
+        print("[-] Missing GEMINI_API_KEY. Using static fallback.", file=sys.stderr)
         return fallback_alert
 
     prompt = f"""You are a Senior Cyber Threat Intelligence Analyst.
-Analyze and dynamically summarize this threat intelligence news item:
+Analyze and dynamically summarize this news item.
+
 Title: {title}
 Description: {desc}
 URL: {link}
 
-Generate a concise threat alert using HTML tags following this EXACT template structure:
+INSTRUCTIONS:
+1. Determine if this item is an ACTIVE THREAT (Exploit/Malware/Ransomware) OR STRATEGIC GUIDANCE (Policy/Framework/Best Practice).
+2. For Severity: Use 🔴 Critical / 🟠 High for active exploits or zero-days; 🟡 Medium for general vulnerabilities; 🟢 Low for framework/policy guidance.
+3. For Threat Actor / CVE: Write 'N/A' or 'Strategic Guidance' if none are mentioned.
+4. For Recommended Action: Tailor actions specifically to the article (e.g., if it's logging guidance, suggest architecture review rather than patching).
+
+Generate the response using HTML tags following this EXACT template:
 
 🚨 <b>SOC Cyber Threat Intelligence Alert</b>
 
-<b>Title:</b> [Synthesize a clear, threat-focused professional title]
+<b>Title:</b> [Synthesize a clear, threat or policy-focused professional title]
 <b>Date:</b> {pub_date[:16]}
 <b>Severity:</b> [🔴 Critical / 🟠 High / 🟡 Medium / 🟢 Low]
-<b>Category:</b> [Specific category, e.g., Ransomware, Zero-Day, Critical Infrastructure, APT, Phishing, etc.]
-<b>Threat Actor:</b> [Name of APT or group if mentioned, e.g., "Iranian Threat Actors", otherwise "Unknown / Unspecified"]
-<b>Affected Product/Organization:</b> [Identify specific targeted software, vendor, or infrastructure, e.g., "UK Power Plant / CNI Infrastructure"]
+<b>Category:</b> [e.g., Policy / Logging Architecture, Vulnerability, Malware, APT, Ransomware]
+<b>Threat Actor:</b> [APT group name if mentioned, otherwise "Unknown / Unspecified" or "N/A"]
+<b>Affected Product/Organization:</b> [Target software, vendor, or sector, e.g., "Enterprise Logging Systems / Federal Agencies"]
 <b>CVE:</b> [CVE ID(s) if mentioned, otherwise "N/A"]
 
 📝 <b>Summary:</b> 
-[Write 2–3 concise sentences summarizing the event, threat vector, and target impact]
+[2–3 concise sentences summarizing what happened, key takeaways, and why it matters]
 
 💥 <b>Impact:</b> 
-[Direct technical, operational, or business risk]
+[Direct technical, operational, or strategic risk]
 
 🔍 <b>IOCs:</b> 
-[Hashes, IP ranges, domains, or "See source link"]
+[Hashes, IP ranges, or "N/A (Strategic Guidance)"]
 
 🛡️ <b>Recommended Action:</b> 
-• [Specific remediation step 1]
-• [Specific monitoring step 2]
+• [Tailored action step 1]
+• [Tailored action step 2]
 
 🔗 <b>Source:</b> {link}
 
-Output raw HTML only. Do NOT output markdown code blocks like ```html or ```."""
+Return raw HTML only. Do NOT output markdown code blocks like ```html or ```."""
 
     url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key={api_key}"
     payload = {
@@ -184,7 +188,7 @@ Output raw HTML only. Do NOT output markdown code blocks like ```html or ```."""
             "parts": [{"text": prompt}]
         }],
         "generationConfig": {
-            "temperature": 0.2,
+            "temperature": 0.1,
             "maxOutputTokens": 800
         }
     }
@@ -195,7 +199,6 @@ Output raw HTML only. Do NOT output markdown code blocks like ```html or ```."""
             data=json.dumps(payload).encode("utf-8"),
             headers={"Content-Type": "application/json"}
         )
-        # Block and wait up to 30 seconds for Gemini response
         with urllib.request.urlopen(req, timeout=30) as resp:
             data = json.loads(resp.read().decode("utf-8"))
             
@@ -235,7 +238,7 @@ def process_single_item(title, pub_date, desc, link, item_hash, sent_cache):
     if send_telegram_alert(alert_text):
         sent_cache.append(item_hash)
         save_sent_cache(sent_cache)
-        # 3. Pause 2 seconds before moving to the next item to prevent API rate limiting
+        # 3. Pause 2 seconds before moving to the next item
         time.sleep(2)
         return True
     
