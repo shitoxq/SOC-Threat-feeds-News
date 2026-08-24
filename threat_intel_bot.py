@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """
 GDPFMIT SOC Real-Time Threat Intelligence Monitor
-Fetches feeds, deduplicates against past alerts, structures details into 
-a standardized CTI template via Gemini AI, and dispatches alerts to Telegram.
+Fetches security news, deduplicates against state cache, synthesizes alerts 
+using Gemini AI, and dispatches dynamic HTML alerts to Telegram.
 """
 
 import os
@@ -11,11 +11,12 @@ import json
 import re
 import html
 import hashlib
+import tempfile
 import urllib.request
 import xml.etree.ElementTree as ET
 from datetime import datetime
 
-# Load Secrets from Environment Variables
+# Environment Variables & Secrets
 BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
 CHAT_ID = os.getenv("TELEGRAM_CHAT_ID")
 STATE_FILE = "sent_alerts.json"
@@ -38,32 +39,42 @@ FEEDS = {
     "ehackingnews": "https://www.ehackingnews.com/feeds/posts/default?alt=rss"
 }
 
-HEADERS = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) GDPFMIT-SOC-Realtime/4.0"}
+HEADERS = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) GDPFMIT-SOC-Realtime/5.0"}
 
 def sanitize_html(text):
-    """Strips raw HTML tags and unescapes entities for Telegram HTML mode."""
+    """Strips raw HTML tags and unescapes entities safely for Telegram HTML mode."""
     if not text:
         return ""
     clean = re.sub(r'<[^>]+>', '', text)
     return html.escape(html.unescape(clean)).strip()
 
 def load_sent_cache():
+    """Loads cache safely while ignoring invalid formatting or missing files."""
     if os.path.exists(STATE_FILE):
         try:
             with open(STATE_FILE, "r", encoding="utf-8") as f:
-                return json.load(f)
-        except Exception:
+                data = json.load(f)
+                if isinstance(data, list):
+                    return data
+        except Exception as e:
+            print(f"[-] Cache load error (starting fresh): {e}", file=sys.stderr)
             return []
     return []
 
 def save_sent_cache(sent_list):
+    """
+    Atomic save operation using tempfile + os.replace.
+    Prevents corrupt/half-written JSON files and double alerts in production.
+    """
     try:
-        # Keep last 500 items preserving explicit FIFO order
-        trimmed = sent_list[-500:]
-        with open(STATE_FILE, "w", encoding="utf-8") as f:
-            json.dump(trimmed, f, indent=2)
+        trimmed = sent_list[-500:]  # Preserve explicit FIFO order
+        dir_name = os.path.dirname(STATE_FILE) or "."
+        with tempfile.NamedTemporaryFile("w", dir=dir_name, delete=False, encoding="utf-8") as tf:
+            json.dump(trimmed, tf, indent=2)
+            temp_name = tf.name
+        os.replace(temp_name, STATE_FILE)
     except Exception as e:
-        print(f"[-] Error saving cache: {e}", file=sys.stderr)
+        print(f"[-] Critical error saving cache state: {e}", file=sys.stderr)
 
 def fetch_url(url):
     try:
@@ -100,9 +111,9 @@ def send_telegram_alert(message_html):
         return False
 
 def generate_dynamic_alert(title, pub_date, desc, link):
+    """Synthesizes CTI reports dynamically via Gemini API."""
     api_key = os.getenv("GEMINI_API_KEY")
     
-    # Static HTML Fallback matching exact requested template schema
     fallback_alert = f"""🚨 <b>SOC Cyber Threat Intelligence Alert</b>
 
 <b>Title:</b> {sanitize_html(title.strip())}
@@ -129,62 +140,80 @@ See source link for full indicator listing.
 🔗 <b>Source:</b> {link}"""
 
     if not api_key:
+        print("[-] Warning: GEMINI_API_KEY missing. Falling back to static template.", file=sys.stderr)
         return fallback_alert
 
     prompt = f"""You are a Senior Cyber Threat Intelligence Analyst.
-Analyze this threat news item:
+Analyze and dynamically summarize this threat intelligence news item:
 Title: {title}
 Description: {desc}
 URL: {link}
 
-Generate a concise threat alert using HTML tags (like <b>bold</b>) following this EXACT template structure:
+Generate a concise, analytical threat alert in HTML format using this EXACT template:
 
 🚨 <b>SOC Cyber Threat Intelligence Alert</b>
 
-<b>Title:</b> [Concise, professional title summarizing the threat]
+<b>Title:</b> [Synthesize a short, professional, threat-focused title]
 <b>Date:</b> {pub_date[:16]}
-<b>Severity:</b> [🔴 Critical / 🟠 High / 🟡 Medium / 🟢 Low]
-<b>Category:</b> [Malware, Ransomware, Vulnerability, Phishing, APT, Zero-Day, etc.]
-<b>Threat Actor:</b> [APT/Group Name if mentioned, otherwise "Unknown / Unspecified"]
-<b>Affected Product/Organization:</b> [Specific software, OS, vendor, or target industry]
+<b>Severity:</b> [🔴 Critical / 🟠 High / 🟡 Medium / 🟢 Low based on business/security impact]
+<b>Category:</b> [Specific category, e.g., Ransomware, Zero-Day, Critical Infrastructure, APT, Phishing, etc.]
+<b>Threat Actor:</b> [Name of APT or threat group if explicitly mentioned, e.g., "Iranian Threat Actors", otherwise "Unknown / Unspecified"]
+<b>Affected Product/Organization:</b> [Identify specific software, OS, enterprise sector, or infrastructure, e.g., "UK Power Plant / CNI"]
 <b>CVE:</b> [CVE ID(s) if mentioned, otherwise "N/A"]
 
 📝 <b>Summary:</b> 
-[2–3 concise sentences summarizing what happened]
+[2–3 concise sentences written by you summarizing what happened, the vector, and current status]
 
 💥 <b>Impact:</b> 
-[Direct business or enterprise security impact]
+[Direct technical, operational, or business risk]
 
 🔍 <b>IOCs:</b> 
-[Hashes, IPs, domains, or "See source link"]
+[Hashes, IP ranges, domains, or "See source link"]
 
 🛡️ <b>Recommended Action:</b> 
-• [Specific mitigation step 1]
-• [Specific mitigation step 2]
+• [Specific remediation step 1]
+• [Specific operational monitoring step 2]
 
 🔗 <b>Source:</b> {link}
 
-Output ONLY the final HTML alert. Do NOT wrap output in markdown code blocks like ```html or ```markdown."""
+Return raw HTML only. Do NOT use markdown code blocks like ```html or ```."""
 
-    url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key={api_key}"
+    url = "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent"
     payload = {
         "contents": [{
             "parts": [{"text": prompt}]
         }]
     }
+    
     try:
         req = urllib.request.Request(
             url,
             data=json.dumps(payload).encode("utf-8"),
-            headers={"Content-Type": "application/json"}
+            headers={
+                "Content-Type": "application/json",
+                "x-goog-api-key": api_key
+            }
         )
-        with urllib.request.urlopen(req, timeout=20) as resp:
+        with urllib.request.urlopen(req, timeout=25) as resp:
             data = json.loads(resp.read().decode("utf-8"))
-            generated_text = data["candidates"][0]["content"]["parts"][0]["text"]
-            cleaned_text = generated_text.replace("```html", "").replace("```markdown", "").replace("```", "").strip()
+            
+            candidates = data.get("candidates", [])
+            if not candidates:
+                print("[-] Gemini response was blocked by safety filters. Using fallback.", file=sys.stderr)
+                return fallback_alert
+                
+            parts = candidates[0].get("content", {}).get("parts", [])
+            if not parts:
+                return fallback_alert
+                
+            generated_text = parts[0].get("text", "")
+            
+            # Remove any backtick code fences cleanly
+            cleaned_text = re.sub(r'^```html\s*|^```markdown\s*|^```\s*|```$', '', generated_text.strip(), flags=re.MULTILINE).strip()
             return cleaned_text
+            
     except Exception as e:
-        print(f"[-] Gemini API failed, using fallback template: {e}", file=sys.stderr)
+        print(f"[-] Gemini API Failure: {e}", file=sys.stderr)
         return fallback_alert
 
 def check_cisa_kev(sent_cache):
@@ -198,6 +227,8 @@ def check_cisa_kev(sent_cache):
         for item in sorted(vulns, key=lambda x: x.get("dateAdded", ""), reverse=True)[:5]:
             cve_id = item.get("cveID", "")
             item_hash = f"KEV_{cve_id}"
+            
+            # Deduplication Check
             if item_hash in sent_cache:
                 continue
 
@@ -206,12 +237,11 @@ def check_cisa_kev(sent_cache):
             date_added = item.get("dateAdded", datetime.now().strftime("%Y-%m-%d"))
             desc = item.get("shortDescription", "")
             action = item.get("requiredAction", "")
-            link = "[https://www.cisa.gov/known-exploited-vulnerabilities-catalog](https://www.cisa.gov/known-exploited-vulnerabilities-catalog)"
+            link = "https://www.cisa.gov/known-exploited-vulnerabilities-catalog"
 
             raw_title = f"CISA KEV: Active Exploitation of {vendor} {product} ({cve_id})"
             raw_desc = f"{desc} Required Action: {action}"
             
-            # Route KEV alert through Gemini for dynamic AI parsing & formatting
             alert = generate_dynamic_alert(raw_title, date_added, raw_desc, link)
             new_alerts.append((item_hash, alert))
     except Exception as e:
@@ -231,11 +261,13 @@ def check_rss_feed(feed_key, feed_url, sent_cache):
             pub_date = item.findtext("pubDate", datetime.now().strftime("%Y-%m-%d"))
             desc = sanitize_html(item.findtext("description", ""))[:350]
             
+            # Unique Hash based on URL link
             item_hash = hashlib.sha256(link.encode("utf-8")).hexdigest()
+            
+            # Deduplication Check
             if item_hash in sent_cache:
                 continue
 
-            # Route RSS item through Gemini for dynamic AI parsing & formatting
             alert = generate_dynamic_alert(title, pub_date, desc, link)
             new_alerts.append((item_hash, alert))
     except Exception as e:
@@ -268,7 +300,7 @@ def main():
                 sent_cache.append(h)
                 new_items_found += 1
 
-    # Save cache preserving state order
+    # Atomic Save preserving history state
     save_sent_cache(sent_cache)
     print(f"[*] Scan complete. Delivered {new_items_found} new alerts.")
 
