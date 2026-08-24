@@ -136,6 +136,113 @@ Monitor perimeter logs and WAF for exploitation attempts against {product}. MITR
         print(f"[-] KEV check error: {e}", file=sys.stderr)
     return new_alerts
 
+def generate_dynamic_alert(title, pub_date, desc, link):
+    api_key = os.getenv("GEMINI_API_KEY")
+    if not api_key:
+        print("[!] No GEMINI_API_KEY found. Falling back to static template.")
+        return f"""🚨 *HIGH Cybersecurity Threat Alert*
+
+📌 *Title:* {title.strip()}
+📅 *Date:* {pub_date[:16]}
+🏷️ *Threat Type:* Vulnerability / Exploit / Malware
+⚡ *Severity:* 🟠 High
+🎯 *Target:* Software Systems
+🔢 *CVE / IOC:* See linked source
+
+📝 *What Happened:*
+{desc.strip()[:350]}...
+
+💥 *Impact:*
+Unauthorized system compromise, remote execution, and lateral enterprise risk.
+
+🛡️ *Recommended Action:*
+• Apply relevant vendor security patches immediately.
+• Verify firewall and endpoint monitoring rules.
+
+🔍 *SOC Detection:*
+Inspect perimeter network and endpoint telemetry for related IOCs. MITRE ATT&CK: T1190, T1059.
+
+🔗 *Source:* {link}"""
+
+    prompt = f"""You are a Senior Cyber Threat Intelligence Analyst.
+Analyze the following threat news item:
+Title: {title}
+Description: {desc}
+URL: {link}
+
+Generate a concise, SOC/Infosec-focused threat alert using this EXACT template:
+
+🚨 *[THREAT LEVEL] Cybersecurity Threat Alert*
+
+📌 *Title:* [Analyze the title, make it short, clear and professional]
+📅 *Date:* {pub_date[:16]}
+🏷️ *Threat Type:* [Analyze if it is Malware, Ransomware, Vulnerability, Phishing, APT, Exploit, etc.]
+⚡ *Severity:* [🔴 Critical / 🟠 High / 🟡 Medium / 🟢 Low based on CVSS or impact]
+🎯 *Target:* [Specifically identify affected software, systems, vendors, or industry]
+🔢 *CVE / IOC:* [Specific CVE numbers or known malware/IOCs if mentioned, otherwise "See source link"]
+
+📝 *What Happened:*
+[2–4 concise sentences explaining the threat and why it matters, specific to the article.]
+
+💥 *Impact:*
+[Potential business/security impact specific to the threat.]
+
+🛡️ *Recommended Action:*
+• [Action 1: Specific remediation, patching, or mitigation]
+• [Action 2: Configuration or isolation steps]
+• [Action 3: Review / monitoring guidance]
+
+🔍 *SOC Detection:*
+[Specific SIEM/XDR/WAF/firewall detection opportunities, log sources, or MITRE ATT&CK techniques applicable to this threat.]
+
+🔗 *Source:* {link}
+
+Do not add any other conversational text or markdown blocks (like ```markdown). Output ONLY the formatted alert."""
+
+    url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key={api_key}"
+    payload = {
+        "contents": [{
+            "parts": [{"text": prompt}]
+        }]
+    }
+    try:
+        req = urllib.request.Request(
+            url,
+            data=json.dumps(payload).encode("utf-8"),
+            headers={"Content-Type": "application/json"}
+        )
+        with urllib.request.urlopen(req, timeout=20) as resp:
+            data = json.loads(resp.read().decode("utf-8"))
+            generated_text = data["candidates"][0]["content"]["parts"][0]["text"]
+            # Strip any ```markdown blocks if Gemini generated them
+            cleaned_text = generated_text.replace("```markdown", "").replace("```", "").strip()
+            return cleaned_text
+    except Exception as e:
+        print(f"[-] Gemini API call failed, falling back to static alert. Error: {e}", file=sys.stderr)
+        return f"""🚨 *HIGH Cybersecurity Threat Alert*
+
+📌 *Title:* {title.strip()}
+📅 *Date:* {pub_date[:16]}
+🏷️ *Threat Type:* Vulnerability / Exploit / Malware
+⚡ *Severity:* 🟠 High
+🎯 *Target:* Software Systems
+🔢 *CVE / IOC:* See linked source
+
+📝 *What Happened:*
+{desc.strip()[:350]}...
+
+💥 *Impact:*
+Unauthorized system compromise, remote execution, and lateral enterprise risk.
+
+🛡️ *Recommended Action:*
+• Apply relevant vendor security patches immediately.
+• Verify firewall and endpoint monitoring rules.
+
+🔍 *SOC Detection:*
+Inspect perimeter network and endpoint telemetry for related IOCs. MITRE ATT&CK: T1190, T1059.
+
+🔗 *Source:* {link}"""
+
 def check_rss_feed(feed_key, feed_url, sent_cache):
     new_alerts = []
     data = fetch_url(feed_url)
@@ -156,31 +263,7 @@ def check_rss_feed(feed_key, feed_url, sent_cache):
             if item_hash in sent_cache:
                 continue
 
-            alert = f"""🚨 *HIGH Cybersecurity Threat Alert*
-
-📌 *Title:* {title.strip()}
-📅 *Date:* {pub_date[:16]}
-🏷️ *Threat Type:* Malware / Vulnerability / Threat Campaign
-⚡ *Severity:* 🟠 High
-🎯 *Target:* Enterprise Infrastructure & Software Systems
-🔢 *CVE / IOC:* See linked advisory
-
-📝 *What Happened:*
-{clean_desc.strip()}...
-
-💥 *Impact:*
-Potential unauthorized access, service disruption, or data compromise depending on affected systems.
-
-🛡️ *Recommended Action:*
-• Review affected software versions in your environment.
-• Apply relevant vendor updates or mitigations.
-• Verify firewall and endpoint monitoring rules.
-
-🔍 *SOC Detection:*
-Inspect perimeter network and endpoint telemetry for related IOCs. MITRE ATT&CK: T1190, T1059.
-
-🔗 *Source:* {link.strip()}"""
-
+            alert = generate_dynamic_alert(title, pub_date, clean_desc, link)
             new_alerts.append((item_hash, alert))
     except Exception as e:
         print(f"[-] RSS {feed_key} error: {e}", file=sys.stderr)
