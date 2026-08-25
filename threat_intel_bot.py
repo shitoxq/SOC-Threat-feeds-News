@@ -22,6 +22,7 @@ BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN", "8851782460:AAHjRPVhHzMoWDf3_DFsC-TP
 CHAT_ID = os.getenv("TELEGRAM_CHAT_ID", "-1004385697303")
 GEMINI_MODEL = os.getenv("GEMINI_MODEL", "gemini-3.6-flash")
 ALERT_DELAY_SECONDS = int(os.getenv("ALERT_DELAY_SECONDS", "5"))
+MAX_ALERTS_PER_RUN = int(os.getenv("MAX_ALERTS_PER_RUN", "3"))
 STATE_FILE = "sent_alerts.json"
 
 if not BOT_TOKEN or not CHAT_ID:
@@ -91,11 +92,23 @@ def fetch_url(url):
         print(f"[-] Error fetching {url}: {e}", file=sys.stderr)
         return None
 
+def format_for_telegram(text):
+    """Normalizes AI output to clean, valid Telegram HTML."""
+    if not text:
+        return ""
+    # Convert **bold** to <b>bold</b>
+    cleaned = re.sub(r'\*\*(.*?)\*\*', r'<b>\1</b>', text)
+    # Convert markdown bullet points * or - to •
+    cleaned = re.sub(r'^\s*[\*\-]\s+', '• ', cleaned, flags=re.MULTILINE)
+    # Convert markdown headers ### to <b>
+    cleaned = re.sub(r'^#{1,6}\s*(.*?)$', r'<b>\1</b>', cleaned, flags=re.MULTILINE)
+    return cleaned.strip()
+
 def send_telegram_alert(message_html):
     endpoint = f"https://api.telegram.org/bot{BOT_TOKEN}/sendMessage"
     payload = {
         "chat_id": CHAT_ID,
-        "text": message_html,
+        "text": format_for_telegram(message_html),
         "parse_mode": "HTML",
         "link_preview_options": {
             "is_disabled": False,
@@ -369,6 +382,10 @@ def main():
 
     # 1. Process CISA KEV
     total_new += check_cisa_kev(sent_cache)
+    if total_new >= MAX_ALERTS_PER_RUN:
+        print(f"[*] Reached batch limit of {MAX_ALERTS_PER_RUN} alerts. Finishing run.")
+        print(f"[*] Scan complete. Delivered {total_new} new alerts.")
+        return
 
     # 2. Process RSS Feeds sequentially
     for feed_key, feed_url in FEEDS.items():
@@ -376,6 +393,9 @@ def main():
             continue
         print(f"[*] Checking feed: {feed_key}...")
         total_new += check_rss_feed(feed_key, feed_url, sent_cache)
+        if total_new >= MAX_ALERTS_PER_RUN:
+            print(f"[*] Reached batch limit of {MAX_ALERTS_PER_RUN} alerts. Finishing run.")
+            break
 
     print(f"[*] Scan complete. Delivered {total_new} new alerts.")
 
