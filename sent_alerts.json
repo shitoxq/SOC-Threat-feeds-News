@@ -45,5 +45,14 @@
   "slug_provisioning_packages",
   "58b6077886332459fcee546fce2d612b72d4048cb6b221cf500928c3438dee06",
   "https://www.securityweek.com/silent-patches-dont-stop-attackers-they-blind-defenders",
-  "slug_silent_patches_dont_stop_attackers_they"
+  "slug_silent_patches_dont_stop_attackers_they",
+  "2a7f9153c55ed3dec151b1ad1e720bc384484056d33a17df98ffca6aa51ce7bf",
+  "https://ipurple.team/2026/07/13/amsi-provider",
+  "slug_amsi_provider",
+  "5097c4c0313e8623768901f3ca2c96ff5f0c3c650f4de223428bb8ef4c2d1b93",
+  "https://www.infosecurity-magazine.com/news/australia-exploitation-teamcity",
+  "slug_australia_warns_active_exploitation_critical_teamcity",
+  "90c3afe8ab77fc5b35332657507bf43dfd34f4486db5eebf7c2a46b7a580ebf3",
+  "https://www.helpnetsecurity.com/2026/08/25/interpol-jackal-iv-west-african-crime-groups-arrests",
+  "slug_interpol_crackdown_west_african_crime_rings"
 ]
