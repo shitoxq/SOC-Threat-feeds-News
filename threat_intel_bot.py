@@ -20,6 +20,8 @@ from datetime import datetime
 
 BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN", "8851782460:AAHjRPVhHzMoWDf3_DFsC-TPQz_UF-qu92s")
 CHAT_ID = os.getenv("TELEGRAM_CHAT_ID", "-1004385697303")
+GEMINI_MODEL = os.getenv("GEMINI_MODEL", "gemini-1.5-flash")
+ALERT_DELAY_SECONDS = int(os.getenv("ALERT_DELAY_SECONDS", "5"))
 STATE_FILE = "sent_alerts.json"
 
 if not BOT_TOKEN or not CHAT_ID:
@@ -280,8 +282,8 @@ def process_single_item(title, pub_date, desc, link, item_hash, sent_cache):
     if send_telegram_alert(alert_text):
         sent_cache.append(item_hash)
         save_sent_cache(sent_cache)
-        # 3. Pause 2 seconds before moving to the next item
-        time.sleep(2)
+        # 3. Pause before moving to the next item
+        time.sleep(ALERT_DELAY_SECONDS)
         return True
     
     return False
