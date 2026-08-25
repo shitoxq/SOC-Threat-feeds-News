@@ -164,7 +164,7 @@ def call_gemini_api(api_key, prompt):
         }],
         "generationConfig": {
             "temperature": 0.1,
-            "maxOutputTokens": 900
+            "maxOutputTokens": 4096
         }
     }
 
@@ -191,10 +191,11 @@ def call_gemini_api(api_key, prompt):
                     if not parts:
                         continue
                     
-                    generated_text = parts[0].get("text", "")
+                    text_parts = [p.get("text", "") for p in parts if "text" in p]
+                    generated_text = "".join(text_parts)
                     cleaned_text = re.sub(r'^```html\s*|^```markdown\s*|^```\s*|```$', '', generated_text.strip(), flags=re.MULTILINE).strip()
                     WORKING_MODEL_ENDPOINT = endpoint
-                    print(f"[+] Gemini summary generated successfully via {endpoint.split('/models/')[1].split(':')[0]}!")
+                    print(f"[+] Gemini summary generated successfully via {endpoint.split('/models/')[1].split(':')[0]}! (Length: {len(cleaned_text)} chars)")
                     return cleaned_text
             except urllib.error.HTTPError as e:
                 error_msg = e.read().decode("utf-8")[:250]
