@@ -258,6 +258,7 @@ def generate_dynamic_alert(title, pub_date, desc, link):
     fallback_alert = f"""🚨 <b>HIGH Cybersecurity Threat Alert</b>
 
 📌 <b>Title:</b> {sanitize_html(title.strip())}
+
 📅 <b>Date:</b> {pub_date[:16]}
 🏷️ <b>Threat Type:</b> Vulnerability / Exploit / Threat Campaign
 ⚡ <b>Severity:</b> 🟠 High
@@ -265,17 +266,21 @@ def generate_dynamic_alert(title, pub_date, desc, link):
 🔢 <b>CVE / IOC:</b> See linked advisory
 
 📝 <b>What Happened:</b>
+
 {sanitize_html(desc.strip()[:350])}...
 
 💥 <b>Impact:</b>
+
 Potential unauthorized access, service disruption, or data compromise depending on affected systems.
 
 🛡️ <b>Recommended Action:</b>
+
 • Review affected software versions in your environment.
 • Apply relevant vendor updates or mitigations immediately.
 • Verify firewall and endpoint monitoring rules.
 
 🔍 <b>SOC Detection:</b>
+
 Inspect perimeter network and endpoint telemetry for related IOCs. MITRE ATT&CK: T1190, T1059.
 
 🔗 <b>Source:</b> {link}"""
@@ -303,6 +308,7 @@ Generate the response using HTML tags following this EXACT template:
 🚨 <b>[CRITICAL / HIGH / MEDIUM / LOW] Cybersecurity Threat Alert</b>
 
 📌 <b>Title:</b> [Synthesize a clear, professional incident title]
+
 📅 <b>Date:</b> {pub_date[:16]}
 🏷️ <b>Threat Type:</b> [Malware / Ransomware / Vulnerability / Phishing / APT / Data Breach / Exploit / Botnet / etc.]
 ⚡ <b>Severity:</b> [🔴 Critical / 🟠 High / 🟡 Medium / 🟢 Low]
@@ -310,17 +316,21 @@ Generate the response using HTML tags following this EXACT template:
 🔢 <b>CVE / IOC:</b> [CVE number, malware name, or "See linked advisory"]
 
 📝 <b>What Happened:</b>
+
 [2–4 concise sentences explaining the threat and why it matters, specific to the article.]
 
 💥 <b>Impact:</b>
+
 [Potential business/security impact specific to this incident.]
 
 🛡️ <b>Recommended Action:</b>
+
 • [Tailored action step 1]
 • [Tailored action step 2]
 • [Tailored action step 3]
 
 🔍 <b>SOC Detection:</b>
+
 [Relevant SIEM/XDR/WAF/firewall detection opportunities, log sources, or MITRE ATT&CK techniques.]
 
 🔗 <b>Source:</b> {link}
