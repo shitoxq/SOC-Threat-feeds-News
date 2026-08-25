@@ -59,6 +59,20 @@ def sanitize_html(text):
     clean = re.sub(r'<[^>]+>', '', text)
     return html.escape(html.unescape(clean)).strip()
 
+def format_for_telegram(text):
+    """Normalizes AI output to clean, valid Telegram HTML."""
+    if not text:
+        return ""
+    # Convert **bold** to <b>bold</b>
+    cleaned = re.sub(r'\*\*(.*?)\*\*', r'<b>\1</b>', text)
+    # Convert `code` to <code>code</code>
+    cleaned = re.sub(r'`(.*?)`', r'<code>\1</code>', cleaned)
+    # Convert markdown bullet points * or - to •
+    cleaned = re.sub(r'^\s*[\*\-]\s+', '• ', cleaned, flags=re.MULTILINE)
+    # Convert markdown headers ### to <b>
+    cleaned = re.sub(r'^#{1,6}\s*(.*?)$', r'<b>\1</b>', cleaned, flags=re.MULTILINE)
+    return cleaned.strip()
+
 def load_sent_cache():
     if os.path.exists(STATE_FILE):
         try:
@@ -92,18 +106,6 @@ def fetch_url(url):
         print(f"[-] Error fetching {url}: {e}", file=sys.stderr)
         return None
 
-def format_for_telegram(text):
-    """Normalizes AI output to clean, valid Telegram HTML."""
-    if not text:
-        return ""
-    # Convert **bold** to <b>bold</b>
-    cleaned = re.sub(r'\*\*(.*?)\*\*', r'<b>\1</b>', text)
-    # Convert markdown bullet points * or - to •
-    cleaned = re.sub(r'^\s*[\*\-]\s+', '• ', cleaned, flags=re.MULTILINE)
-    # Convert markdown headers ### to <b>
-    cleaned = re.sub(r'^#{1,6}\s*(.*?)$', r'<b>\1</b>', cleaned, flags=re.MULTILINE)
-    return cleaned.strip()
-
 def send_telegram_alert(message_html):
     endpoint = f"https://api.telegram.org/bot{BOT_TOKEN}/sendMessage"
     payload = {
@@ -130,12 +132,10 @@ def send_telegram_alert(message_html):
         return False
 
 def call_gemini_api(api_key, prompt):
-    """Calls Gemini API with automatic model & version fallback discovery."""
+    """Calls Gemini API with automatic model & version fallback discovery and 429 retry."""
     global WORKING_MODEL_ENDPOINT
     
-    # Candidate endpoints to try
     candidate_endpoints = []
-    
     custom_model = os.getenv("GEMINI_MODEL")
     if custom_model:
         candidate_endpoints.append(f"https://generativelanguage.googleapis.com/v1beta/models/{custom_model}:generateContent")
@@ -154,7 +154,6 @@ def call_gemini_api(api_key, prompt):
         "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent",
     ])
 
-    # If we already discovered a working endpoint, put it first
     if WORKING_MODEL_ENDPOINT and WORKING_MODEL_ENDPOINT in candidate_endpoints:
         candidate_endpoints.remove(WORKING_MODEL_ENDPOINT)
         candidate_endpoints.insert(0, WORKING_MODEL_ENDPOINT)
@@ -165,52 +164,57 @@ def call_gemini_api(api_key, prompt):
         }],
         "generationConfig": {
             "temperature": 0.1,
-            "maxOutputTokens": 800
+            "maxOutputTokens": 900
         }
     }
 
     last_error = None
     for endpoint in candidate_endpoints:
         url = f"{endpoint}?key={api_key.strip()}"
-        try:
-            req = urllib.request.Request(
-                url,
-                data=json.dumps(payload).encode("utf-8"),
-                headers={
-                    "Content-Type": "application/json",
-                    "User-Agent": "Mozilla/5.0",
-                    "x-goog-api-key": api_key.strip()
-                }
-            )
-            with urllib.request.urlopen(req, timeout=30) as resp:
-                data = json.loads(resp.read().decode("utf-8"))
-                candidates = data.get("candidates", [])
-                if not candidates:
+        for attempt in range(2):
+            try:
+                req = urllib.request.Request(
+                    url,
+                    data=json.dumps(payload).encode("utf-8"),
+                    headers={
+                        "Content-Type": "application/json",
+                        "User-Agent": "Mozilla/5.0",
+                        "x-goog-api-key": api_key.strip()
+                    }
+                )
+                with urllib.request.urlopen(req, timeout=30) as resp:
+                    data = json.loads(resp.read().decode("utf-8"))
+                    candidates = data.get("candidates", [])
+                    if not candidates:
+                        continue
+                    parts = candidates[0].get("content", {}).get("parts", [])
+                    if not parts:
+                        continue
+                    
+                    generated_text = parts[0].get("text", "")
+                    cleaned_text = re.sub(r'^```html\s*|^```markdown\s*|^```\s*|```$', '', generated_text.strip(), flags=re.MULTILINE).strip()
+                    WORKING_MODEL_ENDPOINT = endpoint
+                    print(f"[+] Gemini summary generated successfully via {endpoint.split('/models/')[1].split(':')[0]}!")
+                    return cleaned_text
+            except urllib.error.HTTPError as e:
+                error_msg = e.read().decode("utf-8")[:250]
+                last_error = f"HTTP {e.code}: {error_msg}"
+                if e.code == 429:
+                    print(f"[-] Rate limit 429 hit. Backing off 8 seconds...", file=sys.stderr)
+                    time.sleep(8)
                     continue
-                parts = candidates[0].get("content", {}).get("parts", [])
-                if not parts:
-                    continue
-                
-                generated_text = parts[0].get("text", "")
-                cleaned_text = re.sub(r'^```html\s*|^```markdown\s*|^```\s*|```$', '', generated_text.strip(), flags=re.MULTILINE).strip()
-                WORKING_MODEL_ENDPOINT = endpoint
-                print(f"[+] Gemini summary generated successfully via {endpoint.split('/models/')[1].split(':')[0]}!")
-                return cleaned_text
-        except urllib.error.HTTPError as e:
-            error_msg = e.read().decode("utf-8")[:250]
-            last_error = f"HTTP {e.code}: {error_msg}"
-            print(f"[-] Endpoint {endpoint.split('/models/')[1].split(':')[0]} returned {last_error}", file=sys.stderr)
-            continue
-        except Exception as e:
-            last_error = str(e)
-            print(f"[-] Endpoint error: {last_error}", file=sys.stderr)
-            continue
+                print(f"[-] Endpoint {endpoint.split('/models/')[1].split(':')[0]} returned {last_error}", file=sys.stderr)
+                break # Try next endpoint
+            except Exception as e:
+                last_error = str(e)
+                print(f"[-] Endpoint error: {last_error}", file=sys.stderr)
+                break
 
     print(f"[-] All Gemini endpoints failed. Last error: {last_error}", file=sys.stderr)
     return None
 
 def generate_dynamic_alert(title, pub_date, desc, link):
-    """Synthesizes CTI reports dynamically via Gemini API with robust prompt logic."""
+    """Synthesizes CTI reports dynamically via Gemini API with the exact user format template."""
     api_key = os.getenv("GEMINI_API_KEY")
     
     if not api_key:
@@ -218,28 +222,28 @@ def generate_dynamic_alert(title, pub_date, desc, link):
     else:
         print(f"[*] GEMINI_API_KEY found: {api_key[:6]}... (Length: {len(api_key)})")
     
-    fallback_alert = f"""🚨 <b>SOC Cyber Threat Intelligence Alert</b>
+    fallback_alert = f"""🚨 <b>HIGH Cybersecurity Threat Alert</b>
 
-<b>Title:</b> {sanitize_html(title.strip())}
-<b>Date:</b> {pub_date[:16]}
-<b>Severity:</b> 🟠 High
-<b>Category:</b> Vulnerability / Threat Intelligence
-<b>Threat Actor:</b> Unspecified
-<b>Affected Product/Organization:</b> Enterprise Software & Infrastructure
-<b>CVE:</b> N/A
+📌 <b>Title:</b> {sanitize_html(title.strip())}
+📅 <b>Date:</b> {pub_date[:16]}
+🏷️ <b>Threat Type:</b> Vulnerability / Exploit / Threat Campaign
+⚡ <b>Severity:</b> 🟠 High
+🎯 <b>Target:</b> Enterprise Infrastructure & Software Systems
+🔢 <b>CVE / IOC:</b> See linked advisory
 
-📝 <b>Summary:</b> 
+📝 <b>What Happened:</b>
 {sanitize_html(desc.strip()[:350])}...
 
-💥 <b>Impact:</b> 
-Potential security risk, system compromise, or operational impact depending on deployment.
+💥 <b>Impact:</b>
+Potential unauthorized access, service disruption, or data compromise depending on affected systems.
 
-🔍 <b>IOCs:</b> 
-See referenced advisory
+🛡️ <b>Recommended Action:</b>
+• Review affected software versions in your environment.
+• Apply relevant vendor updates or mitigations immediately.
+• Verify firewall and endpoint monitoring rules.
 
-🛡️ <b>Recommended Action:</b> 
-• Review affected systems and apply vendor patches.
-• Monitor logs and telemetry for anomalous activity.
+🔍 <b>SOC Detection:</b>
+Inspect perimeter network and endpoint telemetry for related IOCs. MITRE ATT&CK: T1190, T1059.
 
 🔗 <b>Source:</b> {link}"""
 
@@ -255,35 +259,36 @@ Description: {desc}
 URL: {link}
 
 INSTRUCTIONS:
-1. Determine if this item is an ACTIVE THREAT (Exploit/Malware/Ransomware) OR STRATEGIC GUIDANCE (Policy/Framework/Best Practice).
-2. For Severity: Use 🔴 Critical / 🟠 High for active exploits or zero-days; 🟡 Medium for general vulnerabilities; 🟢 Low for framework/policy guidance.
-3. For Threat Actor / CVE: Write 'N/A' or 'Strategic Guidance' if none are mentioned.
-4. For Recommended Action: Tailor actions specifically to the article (e.g., if it's logging guidance, suggest architecture review rather than patching).
+1. Determine if this item is an ACTIVE THREAT (Exploit/Malware/Ransomware) OR VULNERABILITY OR POLICY/GUIDANCE.
+2. For Severity: Use 🔴 Critical / 🟠 High for active exploits, zero-days, or severe RCE; 🟡 Medium for moderate vulnerabilities; 🟢 Low for guidance/policy.
+3. For CVE / IOC: Extract specific CVE numbers, malware names, hashes, or IPs if mentioned; otherwise write "See linked advisory".
+4. For Recommended Action: Provide 2-3 specific, actionable steps tailored directly to the story.
+5. For SOC Detection: Provide realistic SIEM, WAF, EDR, or MITRE ATT&CK detection guidance.
 
 Generate the response using HTML tags following this EXACT template:
 
-🚨 <b>SOC Cyber Threat Intelligence Alert</b>
+🚨 <b>[CRITICAL / HIGH / MEDIUM / LOW] Cybersecurity Threat Alert</b>
 
-<b>Title:</b> [Synthesize a clear, threat or policy-focused professional title]
-<b>Date:</b> {pub_date[:16]}
-<b>Severity:</b> [🔴 Critical / 🟠 High / 🟡 Medium / 🟢 Low]
-<b>Category:</b> [e.g., Policy / Logging Architecture, Vulnerability, Malware, APT, Ransomware]
-<b>Threat Actor:</b> [APT group name if mentioned, otherwise "Unknown / Unspecified" or "N/A"]
-<b>Affected Product/Organization:</b> [Target software, vendor, or sector, e.g., "Enterprise Logging Systems / Federal Agencies"]
-<b>CVE:</b> [CVE ID(s) if mentioned, otherwise "N/A"]
+📌 <b>Title:</b> [Synthesize a clear, professional incident title]
+📅 <b>Date:</b> {pub_date[:16]}
+🏷️ <b>Threat Type:</b> [Malware / Ransomware / Vulnerability / Phishing / APT / Data Breach / Exploit / Botnet / etc.]
+⚡ <b>Severity:</b> [🔴 Critical / 🟠 High / 🟡 Medium / 🟢 Low]
+🎯 <b>Target:</b> [Affected organization, product, industry, or country]
+🔢 <b>CVE / IOC:</b> [CVE number, malware name, or "See linked advisory"]
 
-📝 <b>Summary:</b> 
-[2–3 concise sentences summarizing what happened, key takeaways, and why it matters]
+📝 <b>What Happened:</b>
+[2–4 concise sentences explaining the threat and why it matters, specific to the article.]
 
-💥 <b>Impact:</b> 
-[Direct technical, operational, or strategic risk]
+💥 <b>Impact:</b>
+[Potential business/security impact specific to this incident.]
 
-🔍 <b>IOCs:</b> 
-[Hashes, IP ranges, or "N/A (Strategic Guidance)"]
-
-🛡️ <b>Recommended Action:</b> 
+🛡️ <b>Recommended Action:</b>
 • [Tailored action step 1]
 • [Tailored action step 2]
+• [Tailored action step 3]
+
+🔍 <b>SOC Detection:</b>
+[Relevant SIEM/XDR/WAF/firewall detection opportunities, log sources, or MITRE ATT&CK techniques.]
 
 🔗 <b>Source:</b> {link}
 
@@ -324,6 +329,8 @@ def check_cisa_kev(sent_cache):
         payload = json.loads(data.decode("utf-8"))
         vulns = payload.get("vulnerabilities", [])
         for item in sorted(vulns, key=lambda x: x.get("dateAdded", ""), reverse=True)[:5]:
+            if new_count >= MAX_ALERTS_PER_RUN:
+                break
             cve_id = item.get("cveID", "")
             item_hash = f"KEV_{cve_id}"
             
@@ -334,7 +341,7 @@ def check_cisa_kev(sent_cache):
             action = item.get("requiredAction", "")
             link = "https://www.cisa.gov/known-exploited-vulnerabilities-catalog"
 
-            raw_title = f"CISA KEV: Active Exploitation of {vendor} {product} ({cve_id})"
+            raw_title = f"Active Exploitation of {vendor} {product} ({cve_id})"
             raw_desc = f"{desc} Required Action: {action}"
             
             if process_single_item(raw_title, date_added, raw_desc, link, item_hash, sent_cache):
@@ -347,13 +354,12 @@ def sanitize_xml(xml_bytes):
     """Sanitizes raw XML by fixing unescaped ampersands and malformed characters."""
     try:
         text = xml_bytes.decode("utf-8", errors="replace")
-        # Replace unescaped & with &amp;
         cleaned = re.sub(r'&(?!amp;|lt;|gt;|quot;|apos;|#\d+;|#x[0-9a-fA-F]+;)', '&amp;', text)
         return cleaned.encode("utf-8")
     except Exception:
         return xml_bytes
 
-def check_rss_feed(feed_key, feed_url, sent_cache):
+def check_rss_feed(feed_key, feed_url, sent_cache, current_total):
     new_count = 0
     data = fetch_url(feed_url)
     if not data:
@@ -362,10 +368,12 @@ def check_rss_feed(feed_key, feed_url, sent_cache):
         clean_xml = sanitize_xml(data)
         root = ET.fromstring(clean_xml)
         for item in root.findall(".//item")[:3]:
+            if current_total + new_count >= MAX_ALERTS_PER_RUN:
+                break
             title = sanitize_html(item.findtext("title", ""))
             link = item.findtext("link", "").strip()
             pub_date = item.findtext("pubDate", datetime.now().strftime("%Y-%m-%d"))
-            desc = sanitize_html(item.findtext("description", ""))[:350]
+            desc = sanitize_html(item.findtext("description", ""))[:400]
             
             item_hash = hashlib.sha256(link.encode("utf-8")).hexdigest()
             
@@ -392,7 +400,7 @@ def main():
         if feed_key == "cisa_kev":
             continue
         print(f"[*] Checking feed: {feed_key}...")
-        total_new += check_rss_feed(feed_key, feed_url, sent_cache)
+        total_new += check_rss_feed(feed_key, feed_url, sent_cache, total_new)
         if total_new >= MAX_ALERTS_PER_RUN:
             print(f"[*] Reached batch limit of {MAX_ALERTS_PER_RUN} alerts. Finishing run.")
             break
