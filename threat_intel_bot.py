@@ -20,7 +20,7 @@ from datetime import datetime
 
 BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN", "8851782460:AAHjRPVhHzMoWDf3_DFsC-TPQz_UF-qu92s")
 CHAT_ID = os.getenv("TELEGRAM_CHAT_ID", "-1004385697303")
-GEMINI_MODEL = os.getenv("GEMINI_MODEL", "gemini-1.5-flash")
+GEMINI_MODEL = os.getenv("GEMINI_MODEL", "gemini-3.6-flash")
 ALERT_DELAY_SECONDS = int(os.getenv("ALERT_DELAY_SECONDS", "5"))
 STATE_FILE = "sent_alerts.json"
 
@@ -129,12 +129,15 @@ def call_gemini_api(api_key, prompt):
         candidate_endpoints.append(f"https://generativelanguage.googleapis.com/v1/models/{custom_model}:generateContent")
 
     candidate_endpoints.extend([
+        "https://generativelanguage.googleapis.com/v1beta/models/gemini-3.6-flash:generateContent",
+        "https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent",
+        "https://generativelanguage.googleapis.com/v1beta/models/gemini-3.0-flash:generateContent",
+        "https://generativelanguage.googleapis.com/v1beta/models/gemini-3.6-pro:generateContent",
+        "https://generativelanguage.googleapis.com/v1/models/gemini-3.6-flash:generateContent",
+        "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent",
         "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent",
-        "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent",
-        "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent",
-        "https://generativelanguage.googleapis.com/v1/models/gemini-1.5-flash:generateContent",
         "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent",
-        "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro-latest:generateContent",
+        "https://generativelanguage.googleapis.com/v1/models/gemini-1.5-flash:generateContent",
         "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent",
     ])
 
