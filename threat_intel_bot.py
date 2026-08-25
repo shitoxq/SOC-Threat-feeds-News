@@ -257,37 +257,41 @@ def generate_dynamic_alert(title, pub_date, desc, link):
     else:
         print(f"[*] GEMINI_API_KEY found: {api_key[:6]}... (Length: {len(api_key)})")
     
-    fallback_alert = f"""🚨 <b>{sanitize_html(title.strip())}</b>
+    fallback_alert = f"""<a href="{link}"><b>{sanitize_html(title.strip())}</b></a>
 
-<b>Threat Advisory:</b> {sanitize_html(desc.strip()[:250])}...
+{sanitize_html(desc.strip()[:300])}... Organizations using the affected software are advised to review systems and apply the latest security updates.
 
-See the exploitation details - {link}"""
+FMIS | OIS - SOC TEAM"""
 
     if not api_key:
         print("[!] WARNING: GEMINI_API_KEY environment variable is NOT set. Using fallback template.", file=sys.stderr)
         return fallback_alert
 
-    prompt = f"""You are a Cyber Threat Intelligence Reporter writing concise, high-impact breaking alerts for Telegram.
-Analyze this news item:
+    prompt = f"""You are a Cyber Threat Intelligence Specialist writing a clean, professional threat news post.
+Analyze this cybersecurity news item:
 
 Title: {title}
 Description: {desc}
 URL: {link}
 
 INSTRUCTIONS:
-1. Write a strong, attention-grabbing headline in line 1 starting with an emoji (🚨 for exploits/attacks, 🔴 for Critical CVSS/zero-days, 🟠 for High, 🟡 for Medium, 🟢 for Guidance).
-2. In paragraph 2, write 1-2 punchy, highly technical sentences highlighting the CVE ID, malware name, or threat actor in bold, explaining what attackers can do and which products/systems are affected.
-3. In paragraph 3, output: "See the exploitation details - {link}" (or "See the security details - {link}").
+1. First line MUST be a bold clickable hyperlink of the title leading to the URL using the exact format: <a href="{link}"><b>[Synthesized Threat News Title]</b></a>
+2. In the body paragraph, write a brief, high-impact summary of the threat news in 2–4 lines covering:
+   - What happened
+   - Who/what is affected (software, vendor, or organization)
+   - The main threat, vulnerability (CVE ID if any), malware, or attack technique
+   - Important security recommendation (patching, configuration, or monitoring)
+3. The footer MUST be: FMIS | OIS - SOC TEAM
 
-Generate the response following this EXACT 3-paragraph format:
+Generate the response following this EXACT structure:
 
-🚨 <b>[Punchy Breaking Headline with CVSS or Severity if critical]</b>
+<a href="{link}"><b>[Threat News Title]</b></a>
 
-<b>[CVE-YYYY-XXXXX or Threat Name]</b> [1-2 concise sentences explaining the vulnerability or attack, impact, and affected systems].
+[2–4 lines concise summary highlighting what happened, affected products, the key vulnerability/technique, and security recommendations.]
 
-See the exploitation details - {link}
+FMIS | OIS - SOC TEAM
 
-Return raw text with <b> tags only. Do NOT output markdown code blocks or extra text."""
+Return raw text with HTML tags only. Do NOT output markdown code blocks."""
 
     ai_result = call_gemini_api(api_key, prompt)
     if ai_result:
