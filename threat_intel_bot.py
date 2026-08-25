@@ -42,7 +42,8 @@ FEEDS = {
     "security_boulevard": "https://securityboulevard.com/feed/",
     "ehackingnews": "https://www.ehackingnews.com/feeds/posts/default?alt=rss",
     "vulncheck": "https://www.vulncheck.com/blog/rss.xml",
-    "cybersecurity_news": "https://cybersecuritynews.com/feed/"
+    "cybersecurity_news": "https://cybersecuritynews.com/feed/",
+    "gbhackers": "https://gbhackers.com/feed/"
 }
 
 HEADERS = {
