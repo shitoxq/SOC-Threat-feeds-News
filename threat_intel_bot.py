@@ -50,6 +50,37 @@ HEADERS = {
     "Accept-Language": "en-US,en;q=0.5"
 }
 
+# Target Enterprise Tech Stack & Tracked SOC Vendors
+TRACKED_VENDORS = [
+    "ibm", "microsoft", "windows", "azure", "office 365", "m365", "exchange", "active directory",
+    "palo alto", "pan-os", "globalprotect", "cortex", "fortinet", "fortios", "fortigate", "forticlient",
+    "f5", "big-ip", "cisco", "anyconnect", "catalyst", "ios-xe", "crowdstrike", "falcon",
+    "sentinelone", "splunk", "elastic", "elasticsearch", "kibana", "google", "gcp", "workspace",
+    "chrome", "tenable", "nessus", "qualys", "rapid7", "insightvm", "metasploit", "cyberark",
+    "okta", "proofpoint", "cloudflare", "zscaler", "check point", "sophos", "trellix",
+    "mandiant", "recorded future", "wiz", "servicenow", "manageengine", "zoho", "veeam",
+    "oracle", "weblogic", "netbackup", "veritas", "spring", "vmware", "vcenter", "esxi",
+    "apache", "linux", "confluence", "jira", "atlassian", "ivanti", "sonicwall"
+]
+
+MALWARE_TOPICS = [
+    "malware", "ransomware", "zero-day", "0-day", "cve-", "exploit", "trojan",
+    "stealer", "infostealer", "backdoor", "apt", "threat actor", "botnet",
+    "phishing campaign", "data breach", "supply chain", "rce", "privilege escalation",
+    "authentication bypass", "arbitrary code execution", "active exploitation"
+]
+
+def is_relevant_threat(title, desc):
+    """Filters news strictly to match tracked enterprise vendors or active malware threats."""
+    combined = f"{title} {desc}".lower()
+    for vendor in TRACKED_VENDORS:
+        if vendor in combined:
+            return True
+    for topic in MALWARE_TOPICS:
+        if topic in combined:
+            return True
+    return False
+
 # Cache the working model URL prefix once discovered
 WORKING_MODEL_ENDPOINT = None
 
@@ -370,8 +401,8 @@ def check_rss_feed(feed_key, feed_url, sent_cache, current_total):
     try:
         clean_xml = sanitize_xml(data)
         root = ET.fromstring(clean_xml)
-        # Take 1 new item per RSS feed to guarantee diverse news sources
-        for item in root.findall(".//item")[:3]:
+        # Look into the newest 8 items per RSS feed to find matched vendor items
+        for item in root.findall(".//item")[:8]:
             if current_total + new_count >= MAX_ALERTS_PER_RUN or new_count >= 1:
                 break
             title = sanitize_html(item.findtext("title", ""))
@@ -379,6 +410,10 @@ def check_rss_feed(feed_key, feed_url, sent_cache, current_total):
             pub_date = item.findtext("pubDate", datetime.now().strftime("%Y-%m-%d"))
             desc = sanitize_html(item.findtext("description", ""))[:400]
             
+            # Filter: Only process if it matches tracked vendors or malware topics
+            if not is_relevant_threat(title, desc):
+                continue
+
             item_hash = hashlib.sha256(link.encode("utf-8")).hexdigest()
             
             if process_single_item(title, pub_date, desc, link, item_hash, sent_cache):
