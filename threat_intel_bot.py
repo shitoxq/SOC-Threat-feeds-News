@@ -160,7 +160,11 @@ def call_gemini_api(api_key, prompt):
             req = urllib.request.Request(
                 url,
                 data=json.dumps(payload).encode("utf-8"),
-                headers={"Content-Type": "application/json", "User-Agent": "Mozilla/5.0"}
+                headers={
+                    "Content-Type": "application/json",
+                    "User-Agent": "Mozilla/5.0",
+                    "x-goog-api-key": api_key.strip()
+                }
             )
             with urllib.request.urlopen(req, timeout=30) as resp:
                 data = json.loads(resp.read().decode("utf-8"))
@@ -177,11 +181,13 @@ def call_gemini_api(api_key, prompt):
                 print(f"[+] Gemini summary generated successfully via {endpoint.split('/models/')[1].split(':')[0]}!")
                 return cleaned_text
         except urllib.error.HTTPError as e:
-            last_error = f"HTTP {e.code}: {e.read().decode('utf-8')[:200]}"
-            # If 404, try next candidate
+            error_msg = e.read().decode("utf-8")[:250]
+            last_error = f"HTTP {e.code}: {error_msg}"
+            print(f"[-] Endpoint {endpoint.split('/models/')[1].split(':')[0]} returned {last_error}", file=sys.stderr)
             continue
         except Exception as e:
             last_error = str(e)
+            print(f"[-] Endpoint error: {last_error}", file=sys.stderr)
             continue
 
     print(f"[-] All Gemini endpoints failed. Last error: {last_error}", file=sys.stderr)
@@ -190,6 +196,11 @@ def call_gemini_api(api_key, prompt):
 def generate_dynamic_alert(title, pub_date, desc, link):
     """Synthesizes CTI reports dynamically via Gemini API with robust prompt logic."""
     api_key = os.getenv("GEMINI_API_KEY")
+    
+    if not api_key:
+        print("[!] CRITICAL ERROR: GEMINI_API_KEY environment variable is EMPTY or NOT SET!", file=sys.stderr)
+    else:
+        print(f"[*] GEMINI_API_KEY found: {api_key[:6]}... (Length: {len(api_key)})")
     
     fallback_alert = f"""🚨 <b>SOC Cyber Threat Intelligence Alert</b>
 
