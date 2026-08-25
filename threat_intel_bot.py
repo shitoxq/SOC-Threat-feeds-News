@@ -298,8 +298,6 @@ def call_gemini_api(api_key, prompt):
     candidate_endpoints.extend([
         "https://generativelanguage.googleapis.com/v1beta/models/gemini-3.6-flash:generateContent",
         "https://generativelanguage.googleapis.com/v1/models/gemini-3.6-flash:generateContent",
-        "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent",
-        "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent",
     ])
 
     if WORKING_MODEL_ENDPOINT and WORKING_MODEL_ENDPOINT in candidate_endpoints:
