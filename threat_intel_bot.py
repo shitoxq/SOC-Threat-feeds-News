@@ -21,7 +21,7 @@ from datetime import datetime
 BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN", "8851782460:AAHjRPVhHzMoWDf3_DFsC-TPQz_UF-qu92s")
 CHAT_ID = os.getenv("TELEGRAM_CHAT_ID", "-1004385697303")
 GEMINI_MODEL = os.getenv("GEMINI_MODEL", "gemini-3.6-flash")
-ALERT_DELAY_SECONDS = int(os.getenv("ALERT_DELAY_SECONDS", "5"))
+ALERT_DELAY_SECONDS = int(os.getenv("ALERT_DELAY_SECONDS", "12"))
 MAX_ALERTS_PER_RUN = int(os.getenv("MAX_ALERTS_PER_RUN", "3"))
 STATE_FILE = "sent_alerts.json"
 
@@ -107,6 +107,60 @@ def format_for_telegram(text):
     cleaned = re.sub(r'^#{1,6}\s*(.*?)$', r'<b>\1</b>', cleaned, flags=re.MULTILINE)
     return cleaned.strip()
 
+def normalize_url(url):
+    """Strips query parameters, tracking tokens, and trailing slashes."""
+    if not url:
+        return ""
+    clean = re.sub(r'(\?|#).*$', '', url.strip())
+    return clean.rstrip('/')
+
+def extract_cve_ids(text):
+    """Extracts all CVE identifiers (e.g. CVE-2026-12345)."""
+    if not text:
+        return []
+    return re.findall(r'CVE-\d{4}-\d{4,7}', text, re.IGNORECASE)
+
+def create_title_slug(title):
+    """Creates a normalized semantic keyword slug to prevent cross-feed duplicate stories."""
+    if not title:
+        return ""
+    clean = re.sub(r'[^\w\s]', '', title.lower())
+    stopwords = {"a", "an", "the", "in", "on", "at", "for", "to", "of", "and", "or", "is", "are", "with", "by", "as", "flaw", "flaws", "alert"}
+    words = [w for w in clean.split() if w not in stopwords]
+    return "slug_" + "_".join(words[:6])
+
+def check_is_duplicate(title, desc, link, sent_cache):
+    """Multi-layer check: Normalized URL + CVE ID + Semantic Title Slug."""
+    norm_link = normalize_url(link)
+    link_hash = hashlib.sha256(norm_link.encode("utf-8")).hexdigest()
+    
+    # Layer 1: Exact URL Hash
+    if link_hash in sent_cache or norm_link in sent_cache:
+        return True, []
+
+    # Layer 2: CVE Identifiers (Cross-feed deduplication)
+    cves = extract_cve_ids(f"{title} {desc}")
+    for cve in cves:
+        cve_key = f"CVE_{cve.upper()}"
+        if cve_key in sent_cache:
+            print(f"[*] Skipping duplicate item (Already alerted on {cve}): {title[:40]}...")
+            return True, []
+
+    # Layer 3: Semantic Title Slug
+    slug_key = create_title_slug(title)
+    if slug_key and slug_key in sent_cache:
+        print(f"[*] Skipping duplicate item (Matching title slug): {title[:40]}...")
+        return True, []
+
+    # Build all fingerprint keys to save once dispatched
+    fingerprints = [link_hash, norm_link]
+    if slug_key:
+        fingerprints.append(slug_key)
+    for cve in cves:
+        fingerprints.append(f"CVE_{cve.upper()}")
+
+    return False, fingerprints
+
 def load_sent_cache():
     if os.path.exists(STATE_FILE):
         try:
@@ -122,7 +176,7 @@ def load_sent_cache():
 def save_sent_cache(sent_list):
     """Atomic save operation to prevent state corruption."""
     try:
-        trimmed = sent_list[-500:]
+        trimmed = sent_list[-1000:]
         dir_name = os.path.dirname(STATE_FILE) or "."
         with tempfile.NamedTemporaryFile("w", dir=dir_name, delete=False, encoding="utf-8") as tf:
             json.dump(trimmed, tf, indent=2)
@@ -232,7 +286,7 @@ def send_telegram_alert(message_html, image_url=None):
         return False
 
 def call_gemini_api(api_key, prompt):
-    """Calls Gemini API with automatic model & version fallback discovery and 429 retry."""
+    """Calls Gemini API with exponential retry backoff on rate limits."""
     global WORKING_MODEL_ENDPOINT
     
     candidate_endpoints = []
@@ -243,15 +297,9 @@ def call_gemini_api(api_key, prompt):
 
     candidate_endpoints.extend([
         "https://generativelanguage.googleapis.com/v1beta/models/gemini-3.6-flash:generateContent",
-        "https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent",
-        "https://generativelanguage.googleapis.com/v1beta/models/gemini-3.0-flash:generateContent",
-        "https://generativelanguage.googleapis.com/v1beta/models/gemini-3.6-pro:generateContent",
         "https://generativelanguage.googleapis.com/v1/models/gemini-3.6-flash:generateContent",
-        "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent",
-        "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent",
+        "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent",
         "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent",
-        "https://generativelanguage.googleapis.com/v1/models/gemini-1.5-flash:generateContent",
-        "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent",
     ])
 
     if WORKING_MODEL_ENDPOINT and WORKING_MODEL_ENDPOINT in candidate_endpoints:
@@ -271,7 +319,7 @@ def call_gemini_api(api_key, prompt):
     last_error = None
     for endpoint in candidate_endpoints:
         url = f"{endpoint}?key={api_key.strip()}"
-        for attempt in range(2):
+        for attempt in range(3):
             try:
                 req = urllib.request.Request(
                     url,
@@ -295,17 +343,18 @@ def call_gemini_api(api_key, prompt):
                     generated_text = "".join(text_parts)
                     cleaned_text = re.sub(r'^```html\s*|^```markdown\s*|^```\s*|```$', '', generated_text.strip(), flags=re.MULTILINE).strip()
                     WORKING_MODEL_ENDPOINT = endpoint
-                    print(f"[+] Gemini summary generated successfully via {endpoint.split('/models/')[1].split(':')[0]}! (Length: {len(cleaned_text)} chars)")
+                    print(f"[+] Gemini summary generated successfully via {endpoint.split('/models/')[1].split(':')[0]}!")
                     return cleaned_text
             except urllib.error.HTTPError as e:
                 error_msg = e.read().decode("utf-8")[:250]
                 last_error = f"HTTP {e.code}: {error_msg}"
                 if e.code == 429:
-                    print(f"[-] Rate limit 429 hit. Backing off 8 seconds...", file=sys.stderr)
-                    time.sleep(8)
+                    wait_time = (attempt + 1) * 12
+                    print(f"[-] Rate limit 429 hit. Backing off {wait_time} seconds (Attempt {attempt+1}/3)...", file=sys.stderr)
+                    time.sleep(wait_time)
                     continue
                 print(f"[-] Endpoint {endpoint.split('/models/')[1].split(':')[0]} returned {last_error}", file=sys.stderr)
-                break # Try next endpoint
+                break # Try next endpoint if not 429
             except Exception as e:
                 last_error = str(e)
                 print(f"[-] Endpoint error: {last_error}", file=sys.stderr)
@@ -364,9 +413,10 @@ Return raw text with HTML tags only. Do NOT output markdown code blocks."""
         return ai_result
     return fallback_alert
 
-def process_single_item(title, pub_date, desc, link, item_hash, sent_cache, image_url=None):
-    """Processes a single news item end-to-end sequentially."""
-    if item_hash in sent_cache:
+def process_single_item(title, pub_date, desc, link, sent_cache, image_url=None):
+    """Processes a single news item end-to-end with multi-layer deduplication."""
+    is_dup, fingerprints = check_is_duplicate(title, desc, link, sent_cache)
+    if is_dup:
         return False
 
     print(f"[>] Generating AI summary for: {title[:50]}...")
@@ -375,9 +425,12 @@ def process_single_item(title, pub_date, desc, link, item_hash, sent_cache, imag
     alert_text = generate_dynamic_alert(title, pub_date, desc, link)
     
     # 2. Dispatch alert to Telegram with featured photo
-    print(f"[+] Sending alert to Telegram for hash: {item_hash[:10]}...")
+    print(f"[+] Sending alert to Telegram for: {title[:40]}...")
     if send_telegram_alert(alert_text, image_url=image_url):
-        sent_cache.append(item_hash)
+        # Register all deduplication keys (Clean URL, CVE IDs, Title Slug)
+        for key in fingerprints:
+            if key and key not in sent_cache:
+                sent_cache.append(key)
         save_sent_cache(sent_cache)
         # 3. Pause before moving to the next item
         time.sleep(ALERT_DELAY_SECONDS)
@@ -398,19 +451,17 @@ def check_cisa_kev(sent_cache):
             if new_count >= 1: # Max 1 KEV per run
                 break
             cve_id = item.get("cveID", "")
-            item_hash = f"KEV_{cve_id}"
-            
             vendor = item.get("vendorProject", "Unknown")
             product = item.get("product", "Unknown")
             date_added = item.get("dateAdded", datetime.now().strftime("%Y-%m-%d"))
             desc = item.get("shortDescription", "")
             action = item.get("requiredAction", "")
-            link = "https://www.cisa.gov/known-exploited-vulnerabilities-catalog"
+            link = f"https://www.cisa.gov/known-exploited-vulnerabilities-catalog#{cve_id}"
 
             raw_title = f"Active Exploitation of {vendor} {product} ({cve_id})"
             raw_desc = f"{desc} Required Action: {action}"
             
-            if process_single_item(raw_title, date_added, raw_desc, link, item_hash, sent_cache):
+            if process_single_item(raw_title, date_added, raw_desc, link, sent_cache):
                 new_count += 1
     except Exception as e:
         print(f"[-] KEV check error: {e}", file=sys.stderr)
@@ -449,9 +500,8 @@ def check_rss_feed(feed_key, feed_url, sent_cache, current_total):
 
             # Extract high-res image from RSS tags or web OpenGraph
             image_url = extract_image_url(item, raw_desc, link)
-            item_hash = hashlib.sha256(link.encode("utf-8")).hexdigest()
             
-            if process_single_item(title, pub_date, desc, link, item_hash, sent_cache, image_url=image_url):
+            if process_single_item(title, pub_date, desc, link, sent_cache, image_url=image_url):
                 new_count += 1
     except Exception as e:
         print(f"[-] RSS {feed_key} error: {e}", file=sys.stderr)
