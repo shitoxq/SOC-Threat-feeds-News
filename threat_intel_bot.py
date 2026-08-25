@@ -329,8 +329,9 @@ def check_cisa_kev(sent_cache):
     try:
         payload = json.loads(data.decode("utf-8"))
         vulns = payload.get("vulnerabilities", [])
+        # Only take at most 1 KEV item per run to allow news feeds to share the quota
         for item in sorted(vulns, key=lambda x: x.get("dateAdded", ""), reverse=True)[:5]:
-            if new_count >= MAX_ALERTS_PER_RUN:
+            if new_count >= 1: # Max 1 KEV per run
                 break
             cve_id = item.get("cveID", "")
             item_hash = f"KEV_{cve_id}"
@@ -368,8 +369,9 @@ def check_rss_feed(feed_key, feed_url, sent_cache, current_total):
     try:
         clean_xml = sanitize_xml(data)
         root = ET.fromstring(clean_xml)
+        # Take 1 new item per RSS feed to guarantee diverse news sources
         for item in root.findall(".//item")[:3]:
-            if current_total + new_count >= MAX_ALERTS_PER_RUN:
+            if current_total + new_count >= MAX_ALERTS_PER_RUN or new_count >= 1:
                 break
             title = sanitize_html(item.findtext("title", ""))
             link = item.findtext("link", "").strip()
@@ -389,22 +391,18 @@ def main():
     sent_cache = load_sent_cache()
     total_new = 0
 
-    # 1. Process CISA KEV
+    # 1. Process CISA KEV (Takes max 1 item)
     total_new += check_cisa_kev(sent_cache)
-    if total_new >= MAX_ALERTS_PER_RUN:
-        print(f"[*] Reached batch limit of {MAX_ALERTS_PER_RUN} alerts. Finishing run.")
-        print(f"[*] Scan complete. Delivered {total_new} new alerts.")
-        return
 
-    # 2. Process RSS Feeds sequentially
+    # 2. Process RSS Feeds sequentially (Takes 1 item per feed until MAX_ALERTS_PER_RUN is reached)
     for feed_key, feed_url in FEEDS.items():
         if feed_key == "cisa_kev":
             continue
-        print(f"[*] Checking feed: {feed_key}...")
-        total_new += check_rss_feed(feed_key, feed_url, sent_cache, total_new)
         if total_new >= MAX_ALERTS_PER_RUN:
             print(f"[*] Reached batch limit of {MAX_ALERTS_PER_RUN} alerts. Finishing run.")
             break
+        print(f"[*] Checking feed: {feed_key}...")
+        total_new += check_rss_feed(feed_key, feed_url, sent_cache, total_new)
 
     print(f"[*] Scan complete. Delivered {total_new} new alerts.")
 
