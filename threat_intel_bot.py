@@ -140,11 +140,77 @@ def fetch_url(url):
         print(f"[-] Error fetching {url}: {e}", file=sys.stderr)
         return None
 
-def send_telegram_alert(message_html):
+def extract_image_url(item, raw_desc, link):
+    """Extracts high-resolution featured image URL from RSS XML or webpage OpenGraph tags."""
+    if item is not None:
+        # 1. Check enclosure tag
+        enclosure = item.find("enclosure")
+        if enclosure is not None:
+            url = enclosure.get("url")
+            if url and any(url.lower().endswith(ext) for ext in [".jpg", ".jpeg", ".png", ".webp"]):
+                return url
+
+        # 2. Check media:content or thumbnail tags
+        for child in item:
+            tag_lower = child.tag.lower()
+            if "content" in tag_lower or "thumbnail" in tag_lower:
+                url = child.get("url")
+                if url and any(url.lower().endswith(ext) for ext in [".jpg", ".jpeg", ".png", ".webp"]):
+                    return url
+
+    # 3. Check <img> tag inside description
+    if raw_desc:
+        img_match = re.search(r'<img[^>]+src=["\'](https?://[^"\']+\.(?:jpg|jpeg|png|webp)[^"\']*)["\']', raw_desc, re.IGNORECASE)
+        if img_match:
+            return img_match.group(1)
+
+    # 4. Fallback: Lookup OpenGraph og:image directly from the article webpage
+    if link and link.startswith("http"):
+        try:
+            page_data = fetch_url(link)
+            if page_data:
+                html_text = page_data.decode("utf-8", errors="ignore")
+                og_match = re.search(r'<meta[^>]+property=["\']og:image["\'][^>]+content=["\'](https?://[^"\']+)["\']', html_text, re.IGNORECASE)
+                if not og_match:
+                    og_match = re.search(r'<meta[^>]+content=["\'](https?://[^"\']+)["\'][^>]+property=["\']og:image["\']', html_text, re.IGNORECASE)
+                if og_match:
+                    return og_match.group(1)
+        except Exception:
+            pass
+
+    return None
+
+def send_telegram_alert(message_html, image_url=None):
+    formatted_text = format_for_telegram(message_html)
+    
+    # Attempt 1: If image_url is available, send directly as Photo with full caption
+    if image_url:
+        endpoint = f"https://api.telegram.org/bot{BOT_TOKEN}/sendPhoto"
+        payload = {
+            "chat_id": CHAT_ID,
+            "photo": image_url,
+            "caption": formatted_text,
+            "parse_mode": "HTML"
+        }
+        req = urllib.request.Request(
+            endpoint,
+            data=json.dumps(payload).encode("utf-8"),
+            headers={"Content-Type": "application/json", "User-Agent": HEADERS["User-Agent"]}
+        )
+        try:
+            with urllib.request.urlopen(req, timeout=25) as resp:
+                res = json.loads(resp.read().decode("utf-8"))
+                if res.get("ok", False):
+                    print(f"[+] Photo alert dispatched successfully with image: {image_url[:40]}...")
+                    return True
+        except Exception as e:
+            print(f"[-] sendPhoto failed ({e}), falling back to sendMessage...", file=sys.stderr)
+
+    # Attempt 2: Standard sendMessage with rich link preview
     endpoint = f"https://api.telegram.org/bot{BOT_TOKEN}/sendMessage"
     payload = {
         "chat_id": CHAT_ID,
-        "text": format_for_telegram(message_html),
+        "text": formatted_text,
         "parse_mode": "HTML",
         "link_preview_options": {
             "is_disabled": False,
@@ -298,7 +364,7 @@ Return raw text with HTML tags only. Do NOT output markdown code blocks."""
         return ai_result
     return fallback_alert
 
-def process_single_item(title, pub_date, desc, link, item_hash, sent_cache):
+def process_single_item(title, pub_date, desc, link, item_hash, sent_cache, image_url=None):
     """Processes a single news item end-to-end sequentially."""
     if item_hash in sent_cache:
         return False
@@ -308,9 +374,9 @@ def process_single_item(title, pub_date, desc, link, item_hash, sent_cache):
     # 1. Wait until AI generates summary
     alert_text = generate_dynamic_alert(title, pub_date, desc, link)
     
-    # 2. Dispatch alert to Telegram
+    # 2. Dispatch alert to Telegram with featured photo
     print(f"[+] Sending alert to Telegram for hash: {item_hash[:10]}...")
-    if send_telegram_alert(alert_text):
+    if send_telegram_alert(alert_text, image_url=image_url):
         sent_cache.append(item_hash)
         save_sent_cache(sent_cache)
         # 3. Pause before moving to the next item
@@ -374,15 +440,18 @@ def check_rss_feed(feed_key, feed_url, sent_cache, current_total):
             title = sanitize_html(item.findtext("title", ""))
             link = item.findtext("link", "").strip()
             pub_date = item.findtext("pubDate", datetime.now().strftime("%Y-%m-%d"))
-            desc = sanitize_html(item.findtext("description", ""))[:400]
+            raw_desc = item.findtext("description", "") or ""
+            desc = sanitize_html(raw_desc)[:400]
             
             # Filter: Only process if it matches tracked vendors or malware topics
             if not is_relevant_threat(title, desc):
                 continue
 
+            # Extract high-res image from RSS tags or web OpenGraph
+            image_url = extract_image_url(item, raw_desc, link)
             item_hash = hashlib.sha256(link.encode("utf-8")).hexdigest()
             
-            if process_single_item(title, pub_date, desc, link, item_hash, sent_cache):
+            if process_single_item(title, pub_date, desc, link, item_hash, sent_cache, image_url=image_url):
                 new_count += 1
     except Exception as e:
         print(f"[-] RSS {feed_key} error: {e}", file=sys.stderr)
