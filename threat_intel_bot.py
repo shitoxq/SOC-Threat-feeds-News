@@ -18,8 +18,9 @@ import urllib.error
 import xml.etree.ElementTree as ET
 from datetime import datetime
 
-BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
-CHAT_ID = os.getenv("TELEGRAM_CHAT_ID")
+BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN", "8851782460:AAHjRPVhHzMoWDf3_DFsC-TPQz_UF-qu92s")
+CHAT_ID = os.getenv("TELEGRAM_CHAT_ID", "-1004385697303")
+GEMINI_MODEL = os.getenv("GEMINI_MODEL", "gemini-1.5-flash")
 STATE_FILE = "sent_alerts.json"
 
 if not BOT_TOKEN or not CHAT_ID:
@@ -182,7 +183,7 @@ Generate the response using HTML tags following this EXACT template:
 
 Return raw HTML only. Do NOT output markdown code blocks like ```html or ```."""
 
-    url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key={api_key}"
+    url = f"https://generativelanguage.googleapis.com/v1beta/models/{GEMINI_MODEL}:generateContent?key={api_key}"
     payload = {
         "contents": [{
             "parts": [{"text": prompt}]
