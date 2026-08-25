@@ -7,5 +7,16 @@
   "665c8b839bdef5f091d316c20fde4eb4c9955d3d5d06e6750cef2ae7a4a70a8e",
   "KEV_CVE-2026-72530",
   "806c3e84fa629ceeb7688d02d9e7e8cf00e83d12d6934cd168138999092cdaf5",
-  "2f69a5761f47aee3250f0c3d8b7e6192b1305ca60b419a877a4225c589092846"
+  "2f69a5761f47aee3250f0c3d8b7e6192b1305ca60b419a877a4225c589092846",
+  "18d4ac8f8ecac5a742c8886688eca44bed7b8eaec48f5fc67aa3918dccc1f4e0",
+  "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+  "slug_active_exploitation_oracle_http_server_oracle",
+  "CVE_CVE-2026-21962",
+  "91c61774da1356e26b3442901aac88f05b34adef90e0c9592ea8cbd3db4742d5",
+  "https://thehackernews.com/2026/08/attackers-target-miniorange-saml-flaws.html",
+  "slug_attackers_target_miniorange_saml_that_can",
+  "CVE_CVE-2026-61979",
+  "9c24f80a74b034ebbbd2bc7654f3087bcdea03353300dc014765ed50f972fb93",
+  "https://www.bleepingcomputer.com/news/security/hospital-operator-nutex-health-says-data-stolen-in-cyberattack",
+  "slug_hospital_operator_nutex_health_says_data"
 ]
