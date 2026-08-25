@@ -72,5 +72,15 @@
   "slug_reliaquest_rejects_compromise_claims_after_shinyhunters",
   "2579b3de57a3b36f7b2000b9bfcf68b1237435bd96d1368646b91a997fc808d6",
   "https://www.helpnetsecurity.com/2026/08/25/fake-openai-codex-download-macos-users",
-  "slug_fake_openai_codex_download_tricks_macos"
+  "slug_fake_openai_codex_download_tricks_macos",
+  "c75621acaae903c2e940eb09b571a2f9dd453d029dc1d110afd6fb78ef03e7d3",
+  "https://ipurple.team/2026/06/09/winget",
+  "slug_winget",
+  "4ea61ae7eed72c08e56dce28398fef44fe5189674eef6bc8d964db60a4c48392",
+  "https://www.helpnetsecurity.com/2026/08/25/zimbra-cve-2026-73570-compromised",
+  "slug_unpatched_zimbra_servers_falling_cve202673570_attacks",
+  "CVE_CVE-2026-73570",
+  "ff7f43bb045f589b30df165d2882bb858d82ad6e75df130ff8bd096bf30b85a3",
+  "https://cybersecuritynews.com/alice-ai-security",
+  "slug_ai_security_startup_alice_raises_140"
 ]
