@@ -170,5 +170,14 @@
   "dc43d8be75a767b37ca58c66b609abf5c8a5e33c4cbd2e6470ff6abb3e10b747",
   "https://cybersecuritynews.com/translatepress-wordpress-plugin-vulnerability",
   "slug_wordpress_plugin_vulnerability_exposes_400000_sites",
-  "CVE_CVE-2026-19632"
+  "CVE_CVE-2026-19632",
+  "621ca1c7245aff5bfeb9fa5f62a2e53ac0ad4a5cd042ac0b9d0735f81d2ecb7a",
+  "https://thehackernews.com/2026/08/claude-opus-46-bypasses-gym-booking.html",
+  "slug_claude_opus_46_bypasses_gym_booking",
+  "19945f19a624baad90192ab72974a0c2ed5c775672ce9244ef1b9e51b19956b4",
+  "https://www.securityweek.com/chrome-152-patches-over-300-vulnerabilities",
+  "slug_chrome_152_patches_over_300_vulnerabilities",
+  "51442531e1632929ecb8cce27127b5a7c7d2754759082d2e43244c779c7cea3d",
+  "https://cybersecuritynews.com/hackers-abuse-legitimate-rmm-tools-3",
+  "slug_hackers_abuse_legitimate_rmm_tools_46country"
 ]
