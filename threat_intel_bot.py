@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """
 GDPFMIT SOC Real-Time Threat Intelligence Monitor
-Fetches feeds, processes items sequentially (waiting for Gemini AI summaries),
-and sends structured HTML alerts to Telegram.
+Fetches feeds, filters for tracked enterprise vendors, prevents duplicates,
+and sends executive threat news alerts with featured images to Telegram.
 """
 
 import os
@@ -32,24 +32,22 @@ FEEDS = {
     "cisa_kev": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
     "the_hacker_news": "https://feeds.feedburner.com/TheHackersNews",
     "bleeping_computer": "https://www.bleepingcomputer.com/feed/",
-    "ipurple_team": "https://ipurple.team/feed/",
+    "cybersecurity_news": "https://cybersecuritynews.com/feed/",
     "securityweek": "https://www.securityweek.com/feed/",
     "sc_magazine": "https://www.scworld.com/feed/",
-    "dark_reading": "https://www.darkreading.com/rss/all.xml",
-    "infosecurity_magazine": "https://www.infosecurity-magazine.com/rss/news/",
     "help_net_security": "https://www.helpnetsecurity.com/feed/",
+    "ipurple_team": "https://ipurple.team/feed/",
+    "infosecurity_magazine": "https://www.infosecurity-magazine.com/rss/news/",
     "ciso_series": "https://cisoseries.com/feed/",
     "security_boulevard": "https://securityboulevard.com/feed/",
-    "ehackingnews": "https://www.ehackingnews.com/feeds/posts/default?alt=rss",
-    "vulncheck": "https://www.vulncheck.com/blog/rss.xml",
-    "cybersecurity_news": "https://cybersecuritynews.com/feed/",
-    "gbhackers": "https://gbhackers.com/feed/"
+    "gbhackers": "https://gbhackers.com/feed/",
+    "vulncheck": "https://vulncheck.com/feed"
 }
 
 HEADERS = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36",
-    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
-    "Accept-Language": "en-US,en;q=0.5"
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8",
+    "Accept-Language": "en-US,en;q=0.9"
 }
 
 # Target Enterprise Tech Stack & Tracked SOC Vendors
@@ -188,7 +186,7 @@ def save_sent_cache(sent_list):
 def fetch_url(url):
     try:
         req = urllib.request.Request(url, headers=HEADERS)
-        with urllib.request.urlopen(req, timeout=20) as resp:
+        with urllib.request.urlopen(req, timeout=25) as resp:
             return resp.read()
     except Exception as e:
         print(f"[-] Error fetching {url}: {e}", file=sys.stderr)
@@ -352,7 +350,7 @@ def call_gemini_api(api_key, prompt):
                     time.sleep(wait_time)
                     continue
                 print(f"[-] Endpoint {endpoint.split('/models/')[1].split(':')[0]} returned {last_error}", file=sys.stderr)
-                break # Try next endpoint if not 429
+                break
             except Exception as e:
                 last_error = str(e)
                 print(f"[-] Endpoint error: {last_error}", file=sys.stderr)
@@ -362,7 +360,7 @@ def call_gemini_api(api_key, prompt):
     return None
 
 def generate_dynamic_alert(title, pub_date, desc, link):
-    """Synthesizes CTI reports dynamically via Gemini API with the exact user format template."""
+    """Synthesizes CTI reports dynamically via Gemini API."""
     api_key = os.getenv("GEMINI_API_KEY")
     
     if not api_key:
