@@ -197,5 +197,16 @@
   "slug_anonymouskit_phishingasaservice_uses_ai_voice_calls",
   "714f039766ffc8eb8f64487b4ee0d1e54c82f9198406b013ddfe4e04191ae9a4",
   "https://cybersecuritynews.com/hackers-use-fake-claude",
-  "slug_hackers_use_fake_claude_desktop_app"
+  "slug_hackers_use_fake_claude_desktop_app",
+  "f601fe4cfa27db520c709e146b5b58d7b3eabb0fc5bf66817c37564b0940aa8a",
+  "https://thehackernews.com/2026/08/unpatched-kaltura-mwembed-flaws-could.html",
+  "slug_unpatched_kaltura_mwembed_could_let_remote",
+  "CVE_CVE-2026-19913",
+  "CVE_CVE-2026-19912",
+  "9ce1867cdae2c890339737e6597f6c6b396af2b87434094678e1e68c68071b9f",
+  "https://www.bleepingcomputer.com/news/security/ubiquiti-patches-three-max-severity-security-vulnerabilities",
+  "slug_ubiquiti_patches_three_max_severity_security",
+  "4a05058beb25a22b4c585d4440744859e09d90c5313012be945e55fedb32cbaf",
+  "https://cybersecuritynews.com/iran-linked-hackers",
+  "slug_iranlinked_hackers_expand_attacks_new_backdoor"
 ]
