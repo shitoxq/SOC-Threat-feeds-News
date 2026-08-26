@@ -17,5 +17,14 @@
   "slug_ubiquiti_patches_three_max_severity_security",
   "242686c4c39141c314c448fe2dc15993ce009a41f554e7080050996ba843bead",
   "https://cybersecuritynews.com/21-critical-ubiquiti-unifi-flaws",
-  "slug_21_critical_ubiquiti_unifi_enable_authentication"
+  "slug_21_critical_ubiquiti_unifi_enable_authentication",
+  "58d51be061518586b4d4472f3422f79161ac04334a453427ab2f3d5b31bd7d47",
+  "https://thehackernews.com/2026/08/nimbus-manticore-expands-toolset-with.html",
+  "slug_nimbus_manticore_expands_toolset_twostrokelike_backdoor",
+  "301c8f0aaf7fb75d50a7fc33f6847499e12c4ae7dbd89ed6fb0739b1609a36dd",
+  "https://www.bleepingcomputer.com/news/security/new-gputhor-attack-defeats-nvidia-ecc-protection-for-root-access",
+  "slug_new_gputhor_attack_defeats_nvidia_ecc",
+  "3f1711b52995f3b5c851838736b4df565fb51dd64e97bf6d1f21978c76053234",
+  "https://www.securityweek.com/ai-speeds-up-malware-development-not-its-success-rate-analysis",
+  "slug_ai_speeds_up_malware_development_not"
 ]
