@@ -179,5 +179,14 @@
   "slug_chrome_152_patches_over_300_vulnerabilities",
   "51442531e1632929ecb8cce27127b5a7c7d2754759082d2e43244c779c7cea3d",
   "https://cybersecuritynews.com/hackers-abuse-legitimate-rmm-tools-3",
-  "slug_hackers_abuse_legitimate_rmm_tools_46country"
+  "slug_hackers_abuse_legitimate_rmm_tools_46country",
+  "dbcc68bdeabb4ec7e25eeef1cde5990a38efccef0869d888396293d28a97b87e",
+  "https://www.bleepingcomputer.com/news/security/hackers-now-exploit-critical-gitea-flaw-in-code-injection-attacks",
+  "slug_hackers_now_exploit_critical_gitea_code",
+  "cd2eb5c217b15c1a3ca32bd5f80233995ea28735517f27601880c2233fdfb40a",
+  "https://cybersecuritynews.com/24-malicious-npm-packages",
+  "slug_24_malicious_npm_packages_abuse_trusted",
+  "f2c379aeb643533a77edf9acba9cb1a1b698fe5603a8f0b74de3a47943be87fc",
+  "https://gbhackers.com/fake-cloudflare-clickfix-pages",
+  "slug_hackers_turn_trusted_npm_mirrors_into"
 ]
