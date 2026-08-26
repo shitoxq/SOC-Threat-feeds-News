@@ -160,5 +160,15 @@
   "slug_mirage2fa_phishing_kit_bypasses_mfa_hijack",
   "8086a422dd1847e37ba21049c1888111001ad4db0e6bcbd584ea2c5865ceac75",
   "https://gbhackers.com/28000-exposed-git-repositories",
-  "slug_28000_exposed_git_repositories_leak_active"
+  "slug_28000_exposed_git_repositories_leak_active",
+  "60e43032f1f0cd2d25c3f2541dde1e2fe8bfa3cff9e1579d135b05d3ab7f6558",
+  "https://thehackernews.com/2026/08/newly-sleepwalker-backdoor-waits-for.html",
+  "slug_newly_sleepwalker_backdoor_waits_one_crafted",
+  "1b090a3b2d8e3cb8a61be32f5cc7d0ae4b44d6ece93cef47cb5de32b9d460bf8",
+  "https://www.infosecurity-magazine.com/news/linux-foundation-trace-standard-ai",
+  "slug_linux_foundation_introduces_trace_standard_ai",
+  "dc43d8be75a767b37ca58c66b609abf5c8a5e33c4cbd2e6470ff6abb3e10b747",
+  "https://cybersecuritynews.com/translatepress-wordpress-plugin-vulnerability",
+  "slug_wordpress_plugin_vulnerability_exposes_400000_sites",
+  "CVE_CVE-2026-19632"
 ]
