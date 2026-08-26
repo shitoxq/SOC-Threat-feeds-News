@@ -128,5 +128,12 @@
   "5ba22f8ba2652d255ff1463095024db2d302998ebdf674096c0d5471bb35b004",
   "https://gbhackers.com/multiple-zscaler-client-connector-flaws",
   "slug_multiple_zscaler_client_connector_enable_remote",
-  "CVE_CVE-2026-59568"
+  "CVE_CVE-2026-59568",
+  "240bd10113addd2f1a03ccade0927c3940251cb89059def898c01f658f5a4b45",
+  "https://www.securityweek.com/cisa-warns-of-exploited-gitea-vulnerability",
+  "slug_cisa_warns_exploited_gitea_vulnerability",
+  "CVE_CVE-2026-60004",
+  "60fa2531b3246edcb6f25748da334545745c2a34bd93b5c3991cdc50aa55c5d0",
+  "https://www.helpnetsecurity.com/2026/08/26/ai-vulnerability-discovery-emerging-risks",
+  "slug_ai_vulnerability_discovery_scores_highest_impact"
 ]
