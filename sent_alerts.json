@@ -223,5 +223,12 @@
   "slug_ai_speeds_up_malware_development_not",
   "f0a7636116e66207885a8fed5623425dd5f13a28020892e492514549c1e75387",
   "https://cybersecuritynews.com/openai-bans-russia-linked-chatgpt",
-  "slug_openai_bans_russialinked_chatgpt_accounts_used"
+  "slug_openai_bans_russialinked_chatgpt_accounts_used",
+  "e12982d773c88bc2b6ce3ffba9dbb2c2dfba0de0a7751d179bf503b6dbd3a59b",
+  "https://cybersecuritynews.com/sonicwall-netextender-vulnerabilities",
+  "slug_sonicwall_netextender_vulnerabilities_allow_attacker_write",
+  "CVE_CVE-2026-66152",
+  "f4a51bd15cb23a414f0fc1fbfbcceae639489e6ab51f44f4529fe14b0b118b5c",
+  "https://gbhackers.com/reverse-ssh-tunnels",
+  "slug_iranlinked_hackers_use_reverse_ssh_tunnels"
 ]
