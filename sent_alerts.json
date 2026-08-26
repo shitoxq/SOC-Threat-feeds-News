@@ -141,5 +141,15 @@
   "slug_linux_foundation_takes_trace_hardwarebacked_runtime",
   "c87ffd71fe51df0d2d39b524c05fb1b22da42409cc44b0ca92e1da973cd3a176",
   "https://gbhackers.com/ai-powered-balonx-sistema",
-  "slug_aipowered_balonx_sistema_phaas_harvests_credentials"
+  "slug_aipowered_balonx_sistema_phaas_harvests_credentials",
+  "a65bf4f3679ac2a1c3efede7cfd709b45dc0ea6eb8a4f9b2add46d522f209fe5",
+  "https://www.securityweek.com/sensitive-information-exposed-in-nutex-health-data-breach",
+  "slug_sensitive_information_exposed_nutex_health_data",
+  "b6ff80d685b0e68f404f629e4b40b0c5922a78f220cfde45d003dc3b044be6cb",
+  "https://cybersecuritynews.com/nvidia-nemoclaw-flaw",
+  "slug_nvidia_nemoclaw_lets_attackers_hijack_ai",
+  "CVE_CVE-2026-65105",
+  "ae191caa2137d3e04449296ff5714f1ab1c3b904d19c0da64ebda1907e3fdba6",
+  "https://gbhackers.com/linux-turns-35-as-open-source-kernel",
+  "slug_linux_turns_35_opensource_kernel_powers"
 ]
