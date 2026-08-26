@@ -151,5 +151,14 @@
   "CVE_CVE-2026-65105",
   "ae191caa2137d3e04449296ff5714f1ab1c3b904d19c0da64ebda1907e3fdba6",
   "https://gbhackers.com/linux-turns-35-as-open-source-kernel",
-  "slug_linux_turns_35_opensource_kernel_powers"
+  "slug_linux_turns_35_opensource_kernel_powers",
+  "3e814fb29692cecd602902fa8029f3464cb9345af1e9c38b478336d1905eb4d3",
+  "https://www.helpnetsecurity.com/2026/08/26/meta-whatsapp-security-enhancements",
+  "slug_meta_adds_three_new_features_keep",
+  "359b592a250b6799313a04b21eb8b6d534519bacb7a09dd4df53467ffc9a0d07",
+  "https://cybersecuritynews.com/mirage2fa-phishing-kit-bypasses-mfa-to-hijack-microsoft-365-sessions-targeting-3500-organizations",
+  "slug_mirage2fa_phishing_kit_bypasses_mfa_hijack",
+  "8086a422dd1847e37ba21049c1888111001ad4db0e6bcbd584ea2c5865ceac75",
+  "https://gbhackers.com/28000-exposed-git-repositories",
+  "slug_28000_exposed_git_repositories_leak_active"
 ]
