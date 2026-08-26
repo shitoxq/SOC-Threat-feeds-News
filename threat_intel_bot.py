@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """
 GDPFMIT SOC Real-Time Threat Intelligence Monitor
-Fetches feeds, filters for tracked enterprise vendors, prevents duplicates,
-and sends executive threat news alerts with featured images to Telegram.
+Fetches feeds (including www.vulncheck.com), filters for tracked enterprise vendors,
+prevents duplicates, and sends executive threat news alerts with featured images to Telegram.
 """
 
 import os
@@ -21,7 +21,7 @@ from datetime import datetime
 BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN", "8851782460:AAHjRPVhHzMoWDf3_DFsC-TPQz_UF-qu92s")
 CHAT_ID = os.getenv("TELEGRAM_CHAT_ID", "-1004385697303")
 GEMINI_MODEL = os.getenv("GEMINI_MODEL", "gemini-3.6-flash")
-ALERT_DELAY_SECONDS = int(os.getenv("ALERT_DELAY_SECONDS", "12"))
+ALERT_DELAY_SECONDS = int(os.getenv("ALERT_DELAY_SECONDS", "15"))
 MAX_ALERTS_PER_RUN = int(os.getenv("MAX_ALERTS_PER_RUN", "3"))
 STATE_FILE = "sent_alerts.json"
 
@@ -34,26 +34,33 @@ FEEDS = {
     "bleeping_computer": "https://www.bleepingcomputer.com/feed/",
     "cybersecurity_news": "https://cybersecuritynews.com/feed/",
     "securityweek": "https://www.securityweek.com/feed/",
+    "vulncheck": "https://www.vulncheck.com/blog",
+    "gbhackers": "https://gbhackers.com/feed/",
     "sc_magazine": "https://www.scworld.com/feed/",
     "help_net_security": "https://www.helpnetsecurity.com/feed/",
     "ipurple_team": "https://ipurple.team/feed/",
     "infosecurity_magazine": "https://www.infosecurity-magazine.com/rss/news/",
     "ciso_series": "https://cisoseries.com/feed/",
-    "security_boulevard": "https://securityboulevard.com/feed/",
-    "gbhackers": "https://gbhackers.com/feed/",
-    "vulncheck": "https://vulncheck.com/feed"
+    "security_boulevard": "https://securityboulevard.com/feed/"
 }
 
 HEADERS = {
-    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36",
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36",
     "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8",
-    "Accept-Language": "en-US,en;q=0.9"
+    "Accept-Language": "en-US,en;q=0.9",
+    "Sec-Ch-Ua": '"Chromium";v="130", "Google Chrome";v="130", "Not?A_Brand";v="99"',
+    "Sec-Ch-Ua-Mobile": "?0",
+    "Sec-Ch-Ua-Platform": '"Windows"',
+    "Sec-Fetch-Dest": "document",
+    "Sec-Fetch-Mode": "navigate",
+    "Sec-Fetch-Site": "none",
+    "Sec-Fetch-User": "?1"
 }
 
 # Target Enterprise Tech Stack & Tracked SOC Vendors
 TRACKED_VENDORS = [
     "ibm", "microsoft", "windows", "azure", "office 365", "m365", "exchange", "active directory",
-    "palo alto", "pan-os", "globalprotect", "cortex", "fortinet", "fortios", "fortigate", "forticlient",
+    "sharepoint", "palo alto", "pan-os", "globalprotect", "cortex", "fortinet", "fortios", "fortigate",
     "f5", "big-ip", "cisco", "anyconnect", "catalyst", "ios-xe", "crowdstrike", "falcon",
     "sentinelone", "splunk", "elastic", "elasticsearch", "kibana", "google", "gcp", "workspace",
     "chrome", "tenable", "nessus", "qualys", "rapid7", "insightvm", "metasploit", "cyberark",
@@ -95,13 +102,9 @@ def format_for_telegram(text):
     """Normalizes AI output to clean, valid Telegram HTML."""
     if not text:
         return ""
-    # Convert **bold** to <b>bold</b>
     cleaned = re.sub(r'\*\*(.*?)\*\*', r'<b>\1</b>', text)
-    # Convert `code` to <code>code</code>
     cleaned = re.sub(r'`(.*?)`', r'<code>\1</code>', cleaned)
-    # Convert markdown bullet points * or - to •
     cleaned = re.sub(r'^\s*[\*\-]\s+', '• ', cleaned, flags=re.MULTILINE)
-    # Convert markdown headers ### to <b>
     cleaned = re.sub(r'^#{1,6}\s*(.*?)$', r'<b>\1</b>', cleaned, flags=re.MULTILINE)
     return cleaned.strip()
 
@@ -132,11 +135,9 @@ def check_is_duplicate(title, desc, link, sent_cache):
     norm_link = normalize_url(link)
     link_hash = hashlib.sha256(norm_link.encode("utf-8")).hexdigest()
     
-    # Layer 1: Exact URL Hash
     if link_hash in sent_cache or norm_link in sent_cache:
         return True, []
 
-    # Layer 2: CVE Identifiers (Cross-feed deduplication)
     cves = extract_cve_ids(f"{title} {desc}")
     for cve in cves:
         cve_key = f"CVE_{cve.upper()}"
@@ -144,13 +145,11 @@ def check_is_duplicate(title, desc, link, sent_cache):
             print(f"[*] Skipping duplicate item (Already alerted on {cve}): {title[:40]}...")
             return True, []
 
-    # Layer 3: Semantic Title Slug
     slug_key = create_title_slug(title)
     if slug_key and slug_key in sent_cache:
         print(f"[*] Skipping duplicate item (Matching title slug): {title[:40]}...")
         return True, []
 
-    # Build all fingerprint keys to save once dispatched
     fingerprints = [link_hash, norm_link]
     if slug_key:
         fingerprints.append(slug_key)
@@ -195,14 +194,12 @@ def fetch_url(url):
 def extract_image_url(item, raw_desc, link):
     """Extracts high-resolution featured image URL from RSS XML or webpage OpenGraph tags."""
     if item is not None:
-        # 1. Check enclosure tag
         enclosure = item.find("enclosure")
         if enclosure is not None:
             url = enclosure.get("url")
             if url and any(url.lower().endswith(ext) for ext in [".jpg", ".jpeg", ".png", ".webp"]):
                 return url
 
-        # 2. Check media:content or thumbnail tags
         for child in item:
             tag_lower = child.tag.lower()
             if "content" in tag_lower or "thumbnail" in tag_lower:
@@ -210,13 +207,11 @@ def extract_image_url(item, raw_desc, link):
                 if url and any(url.lower().endswith(ext) for ext in [".jpg", ".jpeg", ".png", ".webp"]):
                     return url
 
-    # 3. Check <img> tag inside description
     if raw_desc:
         img_match = re.search(r'<img[^>]+src=["\'](https?://[^"\']+\.(?:jpg|jpeg|png|webp)[^"\']*)["\']', raw_desc, re.IGNORECASE)
         if img_match:
             return img_match.group(1)
 
-    # 4. Fallback: Lookup OpenGraph og:image directly from the article webpage
     if link and link.startswith("http"):
         try:
             page_data = fetch_url(link)
@@ -235,7 +230,6 @@ def extract_image_url(item, raw_desc, link):
 def send_telegram_alert(message_html, image_url=None):
     formatted_text = format_for_telegram(message_html)
     
-    # Attempt 1: If image_url is available, send directly as Photo with full caption
     if image_url:
         endpoint = f"https://api.telegram.org/bot{BOT_TOKEN}/sendPhoto"
         payload = {
@@ -258,7 +252,6 @@ def send_telegram_alert(message_html, image_url=None):
         except Exception as e:
             print(f"[-] sendPhoto failed ({e}), falling back to sendMessage...", file=sys.stderr)
 
-    # Attempt 2: Standard sendMessage with rich link preview
     endpoint = f"https://api.telegram.org/bot{BOT_TOKEN}/sendMessage"
     payload = {
         "chat_id": CHAT_ID,
@@ -284,19 +277,13 @@ def send_telegram_alert(message_html, image_url=None):
         return False
 
 def call_gemini_api(api_key, prompt):
-    """Calls Gemini API with exponential retry backoff on rate limits."""
+    """Calls Gemini API with backoff on rate limits."""
     global WORKING_MODEL_ENDPOINT
     
-    candidate_endpoints = []
-    custom_model = os.getenv("GEMINI_MODEL")
-    if custom_model:
-        candidate_endpoints.append(f"https://generativelanguage.googleapis.com/v1beta/models/{custom_model}:generateContent")
-        candidate_endpoints.append(f"https://generativelanguage.googleapis.com/v1/models/{custom_model}:generateContent")
-
-    candidate_endpoints.extend([
+    candidate_endpoints = [
         "https://generativelanguage.googleapis.com/v1beta/models/gemini-3.6-flash:generateContent",
         "https://generativelanguage.googleapis.com/v1/models/gemini-3.6-flash:generateContent",
-    ])
+    ]
 
     if WORKING_MODEL_ENDPOINT and WORKING_MODEL_ENDPOINT in candidate_endpoints:
         candidate_endpoints.remove(WORKING_MODEL_ENDPOINT)
@@ -315,7 +302,7 @@ def call_gemini_api(api_key, prompt):
     last_error = None
     for endpoint in candidate_endpoints:
         url = f"{endpoint}?key={api_key.strip()}"
-        for attempt in range(3):
+        for attempt in range(2):
             try:
                 req = urllib.request.Request(
                     url,
@@ -345,9 +332,8 @@ def call_gemini_api(api_key, prompt):
                 error_msg = e.read().decode("utf-8")[:250]
                 last_error = f"HTTP {e.code}: {error_msg}"
                 if e.code == 429:
-                    wait_time = (attempt + 1) * 12
-                    print(f"[-] Rate limit 429 hit. Backing off {wait_time} seconds (Attempt {attempt+1}/3)...", file=sys.stderr)
-                    time.sleep(wait_time)
+                    print(f"[-] Rate limit 429 hit. Backing off 15 seconds...", file=sys.stderr)
+                    time.sleep(15)
                     continue
                 print(f"[-] Endpoint {endpoint.split('/models/')[1].split(':')[0]} returned {last_error}", file=sys.stderr)
                 break
@@ -363,11 +349,6 @@ def generate_dynamic_alert(title, pub_date, desc, link):
     """Synthesizes CTI reports dynamically via Gemini API."""
     api_key = os.getenv("GEMINI_API_KEY")
     
-    if not api_key:
-        print("[!] CRITICAL ERROR: GEMINI_API_KEY environment variable is EMPTY or NOT SET!", file=sys.stderr)
-    else:
-        print(f"[*] GEMINI_API_KEY found: {api_key[:6]}... (Length: {len(api_key)})")
-    
     fallback_alert = f"""<a href="{link}"><b>{sanitize_html(title.strip())}</b></a>
 
 {sanitize_html(desc.strip()[:300])}... Organizations using the affected software are advised to review systems and apply the latest security updates.
@@ -375,7 +356,6 @@ def generate_dynamic_alert(title, pub_date, desc, link):
 FMIS | OIS - SOC TEAM"""
 
     if not api_key:
-        print("[!] WARNING: GEMINI_API_KEY environment variable is NOT set. Using fallback template.", file=sys.stderr)
         return fallback_alert
 
     prompt = f"""You are a Cyber Threat Intelligence Specialist writing a clean, professional threat news post.
@@ -416,19 +396,14 @@ def process_single_item(title, pub_date, desc, link, sent_cache, image_url=None)
         return False
 
     print(f"[>] Generating AI summary for: {title[:50]}...")
-    
-    # 1. Wait until AI generates summary
     alert_text = generate_dynamic_alert(title, pub_date, desc, link)
     
-    # 2. Dispatch alert to Telegram with featured photo
     print(f"[+] Sending alert to Telegram for: {title[:40]}...")
     if send_telegram_alert(alert_text, image_url=image_url):
-        # Register all deduplication keys (Clean URL, CVE IDs, Title Slug)
         for key in fingerprints:
             if key and key not in sent_cache:
                 sent_cache.append(key)
         save_sent_cache(sent_cache)
-        # 3. Pause before moving to the next item
         time.sleep(ALERT_DELAY_SECONDS)
         return True
     
@@ -442,9 +417,8 @@ def check_cisa_kev(sent_cache):
     try:
         payload = json.loads(data.decode("utf-8"))
         vulns = payload.get("vulnerabilities", [])
-        # Only take at most 1 KEV item per run to allow news feeds to share the quota
         for item in sorted(vulns, key=lambda x: x.get("dateAdded", ""), reverse=True)[:5]:
-            if new_count >= 1: # Max 1 KEV per run
+            if new_count >= 1:
                 break
             cve_id = item.get("cveID", "")
             vendor = item.get("vendorProject", "Unknown")
@@ -461,6 +435,41 @@ def check_cisa_kev(sent_cache):
                 new_count += 1
     except Exception as e:
         print(f"[-] KEV check error: {e}", file=sys.stderr)
+    return new_count
+
+def check_vulncheck_source(sent_cache):
+    """Parses VulnCheck Blog posts directly."""
+    new_count = 0
+    page_html = fetch_url(FEEDS["vulncheck"])
+    if not page_html:
+        return new_count
+    try:
+        text = page_html.decode("utf-8", errors="ignore")
+        articles = re.findall(r'<a[^>]+href=["\'](/blog/[^"\']+)["\'][^>]*>(.*?)</a>', text, re.DOTALL)
+        seen_links = set()
+        for rel_link, raw_content in articles:
+            if new_count >= 1:
+                break
+            full_link = f"https://www.vulncheck.com{rel_link}"
+            if full_link in seen_links or rel_link == "/blog":
+                continue
+            seen_links.add(full_link)
+            
+            title = sanitize_html(raw_content)
+            if not title or len(title) < 10:
+                continue
+
+            pub_date = datetime.now().strftime("%Y-%m-%d")
+            desc = f"VulnCheck Research Advisory: {title}"
+
+            if not is_relevant_threat(title, desc):
+                continue
+
+            image_url = extract_image_url(None, None, full_link)
+            if process_single_item(title, pub_date, desc, full_link, sent_cache, image_url=image_url):
+                new_count += 1
+    except Exception as e:
+        print(f"[-] VulnCheck processing error: {e}", file=sys.stderr)
     return new_count
 
 def sanitize_xml(xml_bytes):
@@ -480,7 +489,6 @@ def check_rss_feed(feed_key, feed_url, sent_cache, current_total):
     try:
         clean_xml = sanitize_xml(data)
         root = ET.fromstring(clean_xml)
-        # Look into the newest 8 items per RSS feed to find matched vendor items
         for item in root.findall(".//item")[:8]:
             if current_total + new_count >= MAX_ALERTS_PER_RUN or new_count >= 1:
                 break
@@ -490,11 +498,9 @@ def check_rss_feed(feed_key, feed_url, sent_cache, current_total):
             raw_desc = item.findtext("description", "") or ""
             desc = sanitize_html(raw_desc)[:400]
             
-            # Filter: Only process if it matches tracked vendors or malware topics
             if not is_relevant_threat(title, desc):
                 continue
 
-            # Extract high-res image from RSS tags or web OpenGraph
             image_url = extract_image_url(item, raw_desc, link)
             
             if process_single_item(title, pub_date, desc, link, sent_cache, image_url=image_url):
@@ -508,18 +514,21 @@ def main():
     sent_cache = load_sent_cache()
     total_new = 0
 
-    # 1. Process CISA KEV (Takes max 1 item)
+    # 1. Process CISA KEV
     total_new += check_cisa_kev(sent_cache)
 
-    # 2. Process RSS Feeds sequentially (Takes 1 item per feed until MAX_ALERTS_PER_RUN is reached)
+    # 2. Process All Feeds (including VulnCheck)
     for feed_key, feed_url in FEEDS.items():
         if feed_key == "cisa_kev":
             continue
         if total_new >= MAX_ALERTS_PER_RUN:
             print(f"[*] Reached batch limit of {MAX_ALERTS_PER_RUN} alerts. Finishing run.")
             break
-        print(f"[*] Checking feed: {feed_key}...")
-        total_new += check_rss_feed(feed_key, feed_url, sent_cache, total_new)
+        print(f"[*] Checking feed: {feed_key} ({feed_url})...")
+        if feed_key == "vulncheck":
+            total_new += check_vulncheck_source(sent_cache)
+        else:
+            total_new += check_rss_feed(feed_key, feed_url, sent_cache, total_new)
 
     print(f"[*] Scan complete. Delivered {total_new} new alerts.")
 
