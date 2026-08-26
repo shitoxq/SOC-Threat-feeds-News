@@ -135,5 +135,11 @@
   "CVE_CVE-2026-60004",
   "60fa2531b3246edcb6f25748da334545745c2a34bd93b5c3991cdc50aa55c5d0",
   "https://www.helpnetsecurity.com/2026/08/26/ai-vulnerability-discovery-emerging-risks",
-  "slug_ai_vulnerability_discovery_scores_highest_impact"
+  "slug_ai_vulnerability_discovery_scores_highest_impact",
+  "8d60adc37e9c083809384604a4ad60945f4fe0ed1909a37ee97b0e33d59c55c7",
+  "https://www.helpnetsecurity.com/2026/08/26/the-linux-foundation-trace-ai-agent-security",
+  "slug_linux_foundation_takes_trace_hardwarebacked_runtime",
+  "c87ffd71fe51df0d2d39b524c05fb1b22da42409cc44b0ca92e1da973cd3a176",
+  "https://gbhackers.com/ai-powered-balonx-sistema",
+  "slug_aipowered_balonx_sistema_phaas_harvests_credentials"
 ]
