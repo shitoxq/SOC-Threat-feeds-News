@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 """
 GDPFMIT SOC Unified Threat Intelligence Engine
-- Real-Time Mode: Fetches feeds, filters for enterprise vendors, deduplicates, and sends photo alerts to Telegram.
+- Real-Time Mode: Fetches feeds (including VulnCheck & Acronis TRU), filters for enterprise vendors,
+  deduplicates, and sends photo alerts to Telegram.
 - Briefing Mode: Generates Top 5 Executive Threat Briefings (Morning 8:00 AM & Evening 5:30 PM ICT).
 Includes automatic 503/429 retry backoff and zero-downtime briefing fallback.
 """
@@ -37,6 +38,7 @@ FEEDS = {
     "cybersecurity_news": "https://cybersecuritynews.com/feed/",
     "securityweek": "https://www.securityweek.com/feed/",
     "vulncheck": "https://www.vulncheck.com/blog",
+    "acronis_tru": "https://www.acronis.com/en/tru/posts/",
     "gbhackers": "https://gbhackers.com/feed/",
     "sc_magazine": "https://www.scworld.com/feed/",
     "help_net_security": "https://www.helpnetsecurity.com/feed/",
@@ -52,6 +54,7 @@ HEADERS = {
     "Accept-Language": "en-US,en;q=0.9"
 }
 
+# Target Enterprise Tech Stack & Tracked SOC Vendors
 TRACKED_VENDORS = [
     "ibm", "microsoft", "windows", "azure", "office 365", "m365", "exchange", "active directory",
     "sharepoint", "palo alto", "pan-os", "globalprotect", "cortex", "fortinet", "fortios", "fortigate",
@@ -60,8 +63,9 @@ TRACKED_VENDORS = [
     "chrome", "tenable", "nessus", "qualys", "rapid7", "insightvm", "metasploit", "cyberark",
     "okta", "proofpoint", "cloudflare", "zscaler", "check point", "sophos", "trellix",
     "mandiant", "recorded future", "wiz", "servicenow", "manageengine", "zoho", "veeam",
-    "oracle", "weblogic", "netbackup", "veritas", "spring", "vmware", "vcenter", "esxi",
-    "apache", "linux", "confluence", "jira", "atlassian", "ivanti", "sonicwall"
+    "acronis", "acronis cyber protect", "oracle", "weblogic", "netbackup", "veritas",
+    "spring", "vmware", "vcenter", "esxi", "apache", "linux", "confluence", "jira",
+    "atlassian", "ivanti", "sonicwall"
 ]
 
 MALWARE_TOPICS = [
@@ -94,6 +98,7 @@ def format_for_telegram(text):
         return ""
     cleaned = re.sub(r'\*\*(.*?)\*\*', r'<b>\1</b>', text)
     cleaned = re.sub(r'`(.*?)`', r'<code>\1</code>', cleaned)
+    cleaned = re.sub(r'^\s*[\*\-]\s+', '• ', cleaned, flags=re.MULTILINE)
     cleaned = re.sub(r'^#{1,6}\s*(.*?)$', r'<b>\1</b>', cleaned, flags=re.MULTILINE)
     return cleaned.strip()
 
@@ -441,6 +446,41 @@ def check_vulncheck_source(sent_cache):
         print(f"[-] VulnCheck processing error: {e}", file=sys.stderr)
     return new_count
 
+def check_acronis_source(sent_cache):
+    """Parses Acronis Threat Research Unit (TRU) posts directly."""
+    new_count = 0
+    page_html = fetch_url(FEEDS["acronis_tru"])
+    if not page_html:
+        return new_count
+    try:
+        text = page_html.decode("utf-8", errors="ignore")
+        articles = re.findall(r'<a[^>]+href=["\'](/en/tru/posts/[^"\']+)["\'][^>]*>(.*?)</a>', text, re.DOTALL)
+        seen_links = set()
+        for rel_link, raw_content in articles:
+            if new_count >= 1:
+                break
+            full_link = f"https://www.acronis.com{rel_link}"
+            if full_link in seen_links or rel_link == "/en/tru/posts/":
+                continue
+            seen_links.add(full_link)
+            
+            title = sanitize_html(raw_content)
+            if not title or len(title) < 10:
+                continue
+
+            pub_date = datetime.now().strftime("%Y-%m-%d")
+            desc = f"Acronis Threat Research Unit Advisory: {title}"
+
+            if not is_relevant_threat(title, desc):
+                continue
+
+            image_url = extract_image_url(None, None, full_link)
+            if process_single_item(title, pub_date, desc, full_link, sent_cache, image_url=image_url):
+                new_count += 1
+    except Exception as e:
+        print(f"[-] Acronis TRU processing error: {e}", file=sys.stderr)
+    return new_count
+
 def sanitize_xml(xml_bytes):
     try:
         text = xml_bytes.decode("utf-8", errors="replace")
@@ -481,7 +521,7 @@ def check_rss_feed(feed_key, feed_url, sent_cache, current_total):
 # ─────────────────────────────────────────────────────────────
 
 def collect_top_threats_for_briefing():
-    """Aggregates all fresh threat items from CISA, VulnCheck, and RSS for the briefing."""
+    """Aggregates all fresh threat items from CISA, VulnCheck, Acronis, and RSS for the briefing."""
     items = []
     # 1. CISA KEV
     cisa_data = fetch_url(FEEDS["cisa_kev"])
@@ -531,10 +571,10 @@ def build_fallback_briefing(threats, edition_label, today_str):
         sev = severities[i] if i < len(severities) else "🟡 Medium"
         cat = categories[i] if i < len(categories) else "Threat Advisory"
         items_html.append(f"""<b>{idx}. <a href="{t['link']}">{t['title']}</a></b>
-- <b>Severity:</b> {sev}
-- <b>Category:</b> {cat}
-- <b>Analysis:</b> {t['desc'][:220]}...
-- <b>Reference:</b> <a href="{t['link']}">Source</a>""")
+• <b>Severity:</b> {sev}
+• <b>Category:</b> {cat}
+• <b>Analysis:</b> {t['desc'][:220]}...
+• <b>Reference:</b> <a href="{t['link']}">Technical Advisory / Source</a>""")
 
     items_block = "\n\n".join(items_html)
     return f"""<b>GDPFMIT SOC DAILY THREAT BRIEFING</b>
@@ -548,10 +588,10 @@ def build_fallback_briefing(threats, edition_label, today_str):
 
 <b>RECOMMENDED SOC ACTIONS</b>
 
-- <b>Patch:</b> Prioritize critical updates for affected enterprise software and perimeter assets.
-- <b>Monitor:</b> Audit SIEM correlation rules and inspect telemetry for unauthorized command execution.
-- <b>Block:</b> Ingest high-confidence indicators of compromise (IOCs) into perimeter firewalls and EDR.
-- <b>Investigate:</b> Perform identity triage and verify authentication logs for anomalous admin activity.
+• <b>Patch:</b> Prioritize critical updates for affected enterprise software and perimeter assets.
+• <b>Monitor:</b> Audit SIEM correlation rules and inspect telemetry for unauthorized command execution.
+• <b>Block:</b> Ingest high-confidence indicators of compromise (IOCs) into perimeter firewalls and EDR.
+• <b>Investigate:</b> Perform identity triage and verify authentication logs for anomalous admin activity.
 
 <b>FMIS | OIS — Security Operations Center</b>
 <i>Cybersecurity Intelligence &amp; Incident Response</i>"""
@@ -576,18 +616,18 @@ Available news items:
 {threat_text}
 
 INSTRUCTIONS:
-1. Select the top 5 most critical/impactful threat items (prioritize Microsoft, Palo Alto, Cisco, Oracle, VMware, Fortinet, Veeam, Zero-days, Ransomware).
+1. Select the top 5 most critical/impactful threat items (prioritize Microsoft, Palo Alto, Cisco, Oracle, VMware, Fortinet, Veeam, Acronis, Zero-days, Ransomware).
 2. For each of the 5 items, strictly follow this structure:
    <b>1. <a href="[URL]">[Title]</a></b>
- - <b>Severity:</b> [🔴 Critical / 🟠 High / 🟡 Medium]
- - <b>Category:</b> [Vulnerability / Active Exploitation / Malware / APT / Authentication Bypass / Zero-Day]
- - <b>Analysis:</b> [1–2 sentence executive summary describing the threat, vector, and operational impact.]
- - <b>Reference:</b> <a href="[URL]">Source</a>
+   • <b>Severity:</b> [🔴 Critical / 🟠 High / 🟡 Medium]
+   • <b>Category:</b> [Vulnerability / Active Exploitation / Malware / APT / Authentication Bypass / Zero-Day]
+   • <b>Analysis:</b> [1–2 sentence executive summary describing the threat, vector, and operational impact.]
+   • <b>Reference:</b> <a href="[URL]">Technical Advisory / Source</a>
 3. Conclude with RECOMMENDED SOC ACTIONS:
- - <b>Patch:</b> [Specific patching guidance]
- - <b>Monitor:</b> [Specific monitoring guidance]
- - <b>Block:</b> [Specific blocking guidance]
- - <b>Investigate:</b> [Specific triage guidance]
+   • <b>Patch:</b> [Specific patching guidance]
+   • <b>Monitor:</b> [Specific monitoring guidance]
+   • <b>Block:</b> [Specific blocking guidance]
+   • <b>Investigate:</b> [Specific triage guidance]
 4. End with footer:
    <b>FMIS | OIS — Security Operations Center</b>
    <i>Cybersecurity Intelligence & Incident Response</i>
@@ -601,41 +641,41 @@ OUTPUT THIS EXACT HTML STRUCTURE:
 <b>PRIORITY THREAT INTELLIGENCE &amp; INCIDENTS</b>
 
 <b>1. <a href="[URL]">[Threat / Incident Title 1]</a></b>
-- <b>Severity:</b> [🔴 Critical / 🟠 High]
-- <b>Category:</b> [Category]
-- <b>Analysis:</b> [1–2 sentence executive summary.]
-- <b>Reference:</b> <a href="[URL]">Source</a>
+• <b>Severity:</b> [🔴 Critical / 🟠 High]
+• <b>Category:</b> [Category]
+• <b>Analysis:</b> [1–2 sentence executive summary.]
+• <b>Reference:</b> <a href="[URL]">Technical Advisory / Source</a>
 
 <b>2. <a href="[URL]">[Threat / Incident Title 2]</a></b>
-- <b>Severity:</b> [🔴 Critical / 🟠 High]
-- <b>Category:</b> [Category]
-- <b>Analysis:</b> [1–2 sentence executive summary.]
-- <b>Reference:</b> <a href="[URL]">Source</a>
+• <b>Severity:</b> [🔴 Critical / 🟠 High]
+• <b>Category:</b> [Category]
+• <b>Analysis:</b> [1–2 sentence executive summary.]
+• <b>Reference:</b> <a href="[URL]">Technical Advisory / Source</a>
 
 <b>3. <a href="[URL]">[Threat / Incident Title 3]</a></b>
-- <b>Severity:</b> [🟠 High / 🟡 Medium]
-- <b>Category:</b> [Category]
-- <b>Analysis:</b> [1–2 sentence executive summary.]
-- <b>Reference:</b> <a href="[URL]">Source</a>
+• <b>Severity:</b> [🟠 High / 🟡 Medium]
+• <b>Category:</b> [Category]
+• <b>Analysis:</b> [1–2 sentence executive summary.]
+• <b>Reference:</b> <a href="[URL]">Technical Advisory / Source</a>
 
 <b>4. <a href="[URL]">[Threat / Incident Title 4]</a></b>
-- <b>Severity:</b> [🟠 High / 🟡 Medium]
-- <b>Category:</b> [Category]
-- <b>Analysis:</b> [1–2 sentence executive summary.]
-- <b>Reference:</b> <a href="[URL]">Source</a>
+• <b>Severity:</b> [🟠 High / 🟡 Medium]
+• <b>Category:</b> [Category]
+• <b>Analysis:</b> [1–2 sentence executive summary.]
+• <b>Reference:</b> <a href="[URL]">Technical Advisory / Source</a>
 
 <b>5. <a href="[URL]">[Threat / Incident Title 5]</a></b>
-- <b>Severity:</b> [🟡 Medium / 🟢 Low]
-- <b>Category:</b> [Category]
-- <b>Analysis:</b> [1–2 sentence executive summary.]
-- <b>Reference:</b> <a href="[URL]">Source</a>
+• <b>Severity:</b> [🟡 Medium / 🟢 Low]
+• <b>Category:</b> [Category]
+• <b>Analysis:</b> [1–2 sentence executive summary.]
+• <b>Reference:</b> <a href="[URL]">Technical Advisory / Source</a>
 
 <b>RECOMMENDED SOC ACTIONS</b>
 
-- <b>Patch:</b> [Specific patching guidance]
-- <b>Monitor:</b> [Specific monitoring guidance]
-- <b>Block:</b> [Specific blocking guidance]
-- <b>Investigate:</b> [Specific triage guidance]
+• <b>Patch:</b> [Specific patching guidance]
+• <b>Monitor:</b> [Specific monitoring guidance]
+• <b>Block:</b> [Specific blocking guidance]
+• <b>Investigate:</b> [Specific triage guidance]
 
 <b>FMIS | OIS — Security Operations Center</b>
 <i>Cybersecurity Intelligence &amp; Incident Response</i>
@@ -698,6 +738,8 @@ def main():
         print(f"[*] Checking feed: {feed_key} ({feed_url})...")
         if feed_key == "vulncheck":
             total_new += check_vulncheck_source(sent_cache)
+        elif feed_key == "acronis_tru":
+            total_new += check_acronis_source(sent_cache)
         else:
             total_new += check_rss_feed(feed_key, feed_url, sent_cache, total_new)
 
