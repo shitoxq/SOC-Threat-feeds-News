@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """
-GDPFMIT SOC Real-Time Threat Intelligence Monitor
-Fetches feeds (including www.vulncheck.com), filters for tracked enterprise vendors,
-prevents duplicates, and sends executive threat news alerts with featured images to Telegram.
+GDPFMIT SOC Unified Threat Intelligence Engine
+- Real-Time Mode: Fetches feeds, filters for vendors, deduplicates, and sends photo alerts to Telegram.
+- Briefing Mode: Generates Top 5 Executive Threat Briefings (Morning 8:00 AM & Evening 5:30 PM ICT).
 """
 
 import os
@@ -23,6 +23,7 @@ CHAT_ID = os.getenv("TELEGRAM_CHAT_ID", "-1004385697303")
 GEMINI_MODEL = os.getenv("GEMINI_MODEL", "gemini-3.6-flash")
 ALERT_DELAY_SECONDS = int(os.getenv("ALERT_DELAY_SECONDS", "15"))
 MAX_ALERTS_PER_RUN = int(os.getenv("MAX_ALERTS_PER_RUN", "3"))
+BRIEFING_MODE = os.getenv("BRIEFING_MODE", "").lower() # 'morning', 'evening', or empty
 STATE_FILE = "sent_alerts.json"
 
 if not BOT_TOKEN or not CHAT_ID:
@@ -88,18 +89,15 @@ def is_relevant_threat(title, desc):
             return True
     return False
 
-# Cache the working model URL prefix once discovered
 WORKING_MODEL_ENDPOINT = None
 
 def sanitize_html(text):
-    """Strips raw HTML tags and unescapes entities safely for Telegram HTML mode."""
     if not text:
         return ""
     clean = re.sub(r'<[^>]+>', '', text)
     return html.escape(html.unescape(clean)).strip()
 
 def format_for_telegram(text):
-    """Normalizes AI output to clean, valid Telegram HTML."""
     if not text:
         return ""
     cleaned = re.sub(r'\*\*(.*?)\*\*', r'<b>\1</b>', text)
@@ -109,20 +107,17 @@ def format_for_telegram(text):
     return cleaned.strip()
 
 def normalize_url(url):
-    """Strips query parameters, tracking tokens, and trailing slashes."""
     if not url:
         return ""
     clean = re.sub(r'(\?|#).*$', '', url.strip())
     return clean.rstrip('/')
 
 def extract_cve_ids(text):
-    """Extracts all CVE identifiers (e.g. CVE-2026-12345)."""
     if not text:
         return []
     return re.findall(r'CVE-\d{4}-\d{4,7}', text, re.IGNORECASE)
 
 def create_title_slug(title):
-    """Creates a normalized semantic keyword slug to prevent cross-feed duplicate stories."""
     if not title:
         return ""
     clean = re.sub(r'[^\w\s]', '', title.lower())
@@ -131,7 +126,6 @@ def create_title_slug(title):
     return "slug_" + "_".join(words[:6])
 
 def check_is_duplicate(title, desc, link, sent_cache):
-    """Multi-layer check: Normalized URL + CVE ID + Semantic Title Slug."""
     norm_link = normalize_url(link)
     link_hash = hashlib.sha256(norm_link.encode("utf-8")).hexdigest()
     
@@ -166,12 +160,10 @@ def load_sent_cache():
                 if isinstance(data, list):
                     return data
         except Exception as e:
-            print(f"[-] Cache load error (starting fresh): {e}", file=sys.stderr)
             return []
     return []
 
 def save_sent_cache(sent_list):
-    """Atomic save operation to prevent state corruption."""
     try:
         trimmed = sent_list[-1000:]
         dir_name = os.path.dirname(STATE_FILE) or "."
@@ -188,11 +180,9 @@ def fetch_url(url):
         with urllib.request.urlopen(req, timeout=25) as resp:
             return resp.read()
     except Exception as e:
-        print(f"[-] Error fetching {url}: {e}", file=sys.stderr)
         return None
 
 def extract_image_url(item, raw_desc, link):
-    """Extracts high-resolution featured image URL from RSS XML or webpage OpenGraph tags."""
     if item is not None:
         enclosure = item.find("enclosure")
         if enclosure is not None:
@@ -290,13 +280,8 @@ def call_gemini_api(api_key, prompt):
         candidate_endpoints.insert(0, WORKING_MODEL_ENDPOINT)
 
     payload = {
-        "contents": [{
-            "parts": [{"text": prompt}]
-        }],
-        "generationConfig": {
-            "temperature": 0.1,
-            "maxOutputTokens": 4096
-        }
+        "contents": [{"parts": [{"text": prompt}]}],
+        "generationConfig": {"temperature": 0.1, "maxOutputTokens": 4096}
     }
 
     last_error = None
@@ -307,11 +292,7 @@ def call_gemini_api(api_key, prompt):
                 req = urllib.request.Request(
                     url,
                     data=json.dumps(payload).encode("utf-8"),
-                    headers={
-                        "Content-Type": "application/json",
-                        "User-Agent": "Mozilla/5.0",
-                        "x-goog-api-key": api_key.strip()
-                    }
+                    headers={"Content-Type": "application/json", "x-goog-api-key": api_key.strip()}
                 )
                 with urllib.request.urlopen(req, timeout=30) as resp:
                     data = json.loads(resp.read().decode("utf-8"))
@@ -346,7 +327,6 @@ def call_gemini_api(api_key, prompt):
     return None
 
 def generate_dynamic_alert(title, pub_date, desc, link):
-    """Synthesizes CTI reports dynamically via Gemini API."""
     api_key = os.getenv("GEMINI_API_KEY")
     
     fallback_alert = f"""<a href="{link}"><b>{sanitize_html(title.strip())}</b></a>
@@ -390,7 +370,6 @@ Return raw text with HTML tags only. Do NOT output markdown code blocks."""
     return fallback_alert
 
 def process_single_item(title, pub_date, desc, link, sent_cache, image_url=None):
-    """Processes a single news item end-to-end with multi-layer deduplication."""
     is_dup, fingerprints = check_is_duplicate(title, desc, link, sent_cache)
     if is_dup:
         return False
@@ -438,7 +417,6 @@ def check_cisa_kev(sent_cache):
     return new_count
 
 def check_vulncheck_source(sent_cache):
-    """Parses VulnCheck Blog posts directly."""
     new_count = 0
     page_html = fetch_url(FEEDS["vulncheck"])
     if not page_html:
@@ -473,7 +451,6 @@ def check_vulncheck_source(sent_cache):
     return new_count
 
 def sanitize_xml(xml_bytes):
-    """Sanitizes raw XML by fixing unescaped ampersands and malformed characters."""
     try:
         text = xml_bytes.decode("utf-8", errors="replace")
         cleaned = re.sub(r'&(?!amp;|lt;|gt;|quot;|apos;|#\d+;|#x[0-9a-fA-F]+;)', '&amp;', text)
@@ -502,14 +479,165 @@ def check_rss_feed(feed_key, feed_url, sent_cache, current_total):
                 continue
 
             image_url = extract_image_url(item, raw_desc, link)
-            
             if process_single_item(title, pub_date, desc, link, sent_cache, image_url=image_url):
                 new_count += 1
     except Exception as e:
         print(f"[-] RSS {feed_key} error: {e}", file=sys.stderr)
     return new_count
 
+# ─────────────────────────────────────────────────────────────
+# 🌟 TOP 5 EXECUTIVE BRIEFING ENGINE (Morning & Evening)
+# ─────────────────────────────────────────────────────────────
+
+def collect_top_threats_for_briefing():
+    """Aggregates all fresh threat items from CISA, VulnCheck, and RSS for the briefing."""
+    items = []
+    # 1. CISA KEV
+    cisa_data = fetch_url(FEEDS["cisa_kev"])
+    if cisa_data:
+        try:
+            payload = json.loads(cisa_data.decode("utf-8"))
+            for v in payload.get("vulnerabilities", [])[:5]:
+                cve = v.get("cveID", "")
+                vendor = v.get("vendorProject", "")
+                prod = v.get("product", "")
+                desc = v.get("shortDescription", "")
+                items.append({
+                    "title": f"Active Exploitation of {vendor} {prod} ({cve})",
+                    "desc": desc,
+                    "link": f"https://www.cisa.gov/known-exploited-vulnerabilities-catalog#{cve}"
+                })
+        except Exception:
+            pass
+
+    # 2. Key Feeds
+    for feed_key in ["the_hacker_news", "bleeping_computer", "cybersecurity_news", "gbhackers", "securityweek"]:
+        data = fetch_url(FEEDS[feed_key])
+        if not data:
+            continue
+        try:
+            clean_xml = sanitize_xml(data)
+            root = ET.fromstring(clean_xml)
+            for entry in root.findall(".//item")[:4]:
+                t = sanitize_html(entry.findtext("title", ""))
+                l = entry.findtext("link", "").strip()
+                d = sanitize_html(entry.findtext("description", "") or "")[:350]
+                if t and l and is_relevant_threat(t, d):
+                    items.append({"title": t, "link": l, "desc": d})
+        except Exception:
+            pass
+
+    return items[:18]
+
+def run_executive_briefing(edition_label):
+    """Generates and delivers the Top 5 Executive Threat Briefing to Telegram."""
+    api_key = os.getenv("GEMINI_API_KEY")
+    if not api_key:
+        print("[!] GEMINI_API_KEY not set for briefing.", file=sys.stderr)
+        return False
+
+    print(f"[*] Generating Top 5 Executive Briefing ({edition_label})...")
+    threats = collect_top_threats_for_briefing()
+    today_str = datetime.now().strftime("%Y-%m-%d")
+    threat_text = "\n".join([f"- Title: {x['title']}\n  Link: {x['link']}\n  Desc: {x['desc']}" for x in threats])
+
+    prompt = f"""You are a Senior Cyber Threat Intelligence Lead.
+Create an executive 'TOP 5 CYBERSECURITY THREAT BRIEFING' for leadership and the SOC team.
+
+Edition: {edition_label}
+Date: {today_str}
+
+Available news items:
+{threat_text}
+
+INSTRUCTIONS:
+1. Select the top 5 most critical/impactful threat items (prioritize Microsoft, Palo Alto, Cisco, Oracle, VMware, Fortinet, Veeam, Zero-days, Ransomware).
+2. For each of the 5 items, output:
+   - Numbered title as clickable HTML hyperlink: <a href="URL"><b>[Title]</b></a>
+   - Severity and Threat Category (🔴 Critical / 🟠 High / 🟡 Medium)
+   - 1-2 sentence plain-language technical summary.
+3. Add a concise 'KEY SOC ACTIONS' section with 2-3 specific bullet points.
+4. End with footer: FMIS | OIS - SOC TEAM
+
+OUTPUT HTML STRUCTURE:
+🛡️ <b>GDPFMIT SOC Daily Threat Briefing — {edition_label}</b>
+📅 <b>Date:</b> {today_str} · {edition_label} ICT
+🔒 <b>Overall Threat Level:</b> [🔴 Elevated / 🟠 Moderate / 🟢 Normal]
+
+━━━━━━━━━━━━━━━━━━━━
+📌 <b>TOP 5 CYBERSECURITY THREATS & INCIDENTS</b>
+━━━━━━━━━━━━━━━━━━━━
+
+1️⃣ <a href="[URL]"><b>[Title 1]</b></a>
+⚡ <b>Severity:</b> [🔴 Critical / 🟠 High] | 🏷️ <b>Category:</b> [Category]
+📝 [1-2 sentence executive summary]
+
+2️⃣ <a href="[URL]"><b>[Title 2]</b></a>
+⚡ <b>Severity:</b> [🔴 Critical / 🟠 High] | 🏷️ <b>Category:</b> [Category]
+📝 [1-2 sentence executive summary]
+
+3️⃣ <a href="[URL]"><b>[Title 3]</b></a>
+⚡ <b>Severity:</b> [🔴 Critical / 🟠 High / 🟡 Medium] | 🏷️ <b>Category:</b> [Category]
+📝 [1-2 sentence executive summary]
+
+4️⃣ <a href="[URL]"><b>[Title 4]</b></a>
+⚡ <b>Severity:</b> [🟠 High / 🟡 Medium] | 🏷️ <b>Category:</b> [Category]
+📝 [1-2 sentence executive summary]
+
+5️⃣ <a href="[URL]"><b>[Title 5]</b></a>
+⚡ <b>Severity:</b> [🟡 Medium / 🟢 Low] | 🏷️ <b>Category:</b> [Category]
+📝 [1-2 sentence executive summary]
+
+━━━━━━━━━━━━━━━━━━━━
+🛡️ <b>KEY SOC ACTIONS</b>
+• [Specific SOC Action 1]
+• [Specific SOC Action 2]
+━━━━━━━━━━━━━━━━━━━━
+FMIS | OIS - SOC TEAM
+
+Return clean HTML only. Do NOT include markdown blocks."""
+
+    briefing_html = call_gemini_api(api_key, prompt)
+    if not briefing_html:
+        print("[-] Failed to generate AI briefing.", file=sys.stderr)
+        return False
+
+    endpoint = f"https://api.telegram.org/bot{BOT_TOKEN}/sendMessage"
+    payload = {
+        "chat_id": CHAT_ID,
+        "text": format_for_telegram(briefing_html),
+        "parse_mode": "HTML",
+        "link_preview_options": {"is_disabled": True}
+    }
+    req = urllib.request.Request(
+        endpoint,
+        data=json.dumps(payload).encode("utf-8"),
+        headers={"Content-Type": "application/json"}
+    )
+    try:
+        with urllib.request.urlopen(req, timeout=25) as resp:
+            res = json.loads(resp.read().decode("utf-8"))
+            if res.get("ok", False):
+                print(f"[+] Successfully delivered {edition_label} Briefing to Telegram!")
+                return True
+    except Exception as e:
+        print(f"[-] Telegram dispatch error for briefing: {e}", file=sys.stderr)
+    return False
+
 def main():
+    # Check CLI arguments or environment variable for briefing mode
+    mode = BRIEFING_MODE
+    if len(sys.argv) > 1 and sys.argv[1].startswith("--briefing"):
+        mode = sys.argv[2].lower() if len(sys.argv) > 2 else "morning"
+
+    if mode in ["morning", "morning ☀️", "8:00 am"]:
+        run_executive_briefing("Morning ☀️ (8:00 AM)")
+        return
+    elif mode in ["evening", "evening 🌙", "5:30 pm"]:
+        run_executive_briefing("Evening 🌙 (5:30 PM)")
+        return
+
+    # Default: Real-Time Threat Intel Scan
     print(f"[*] Starting Real-Time Threat Intel Scan at {datetime.now().isoformat()}...")
     sent_cache = load_sent_cache()
     total_new = 0
