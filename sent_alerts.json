@@ -26,5 +26,17 @@
   "slug_new_gputhor_attack_defeats_nvidia_ecc",
   "3f1711b52995f3b5c851838736b4df565fb51dd64e97bf6d1f21978c76053234",
   "https://www.securityweek.com/ai-speeds-up-malware-development-not-its-success-rate-analysis",
-  "slug_ai_speeds_up_malware_development_not"
+  "slug_ai_speeds_up_malware_development_not",
+  "f601fe4cfa27db520c709e146b5b58d7b3eabb0fc5bf66817c37564b0940aa8a",
+  "https://thehackernews.com/2026/08/unpatched-kaltura-mwembed-flaws-could.html",
+  "slug_unpatched_kaltura_mwembed_could_let_remote",
+  "CVE_CVE-2026-19913",
+  "CVE_CVE-2026-19912",
+  "130c4c420beb465c4d8743cda7f2fcc1361c1f1e141e747bd96386392cfba1a7",
+  "https://www.bleepingcomputer.com/news/security/critical-avada-wordpress-theme-flaw-enables-zero-click-rce",
+  "slug_critical_avada_wordpress_theme_enables_zeroclick",
+  "4f3cf383a7e5d3e45e1cb76c1d891f66cd1b221f1f6f834c7ed2df2f63982c53",
+  "https://cybersecuritynews.com/next-js-vulnerabilities",
+  "slug_critical_nextjs_vulnerabilities_enables_remote_code",
+  "CVE_CVE-2026-75604"
 ]
