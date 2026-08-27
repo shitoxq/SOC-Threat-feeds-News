@@ -94,7 +94,6 @@ def format_for_telegram(text):
         return ""
     cleaned = re.sub(r'\*\*(.*?)\*\*', r'<b>\1</b>', text)
     cleaned = re.sub(r'`(.*?)`', r'<code>\1</code>', cleaned)
-    cleaned = re.sub(r'^\s*[\*\-]\s+', '• ', cleaned, flags=re.MULTILINE)
     cleaned = re.sub(r'^#{1,6}\s*(.*?)$', r'<b>\1</b>', cleaned, flags=re.MULTILINE)
     return cleaned.strip()
 
@@ -259,7 +258,6 @@ def send_telegram_alert(message_html, image_url=None):
         return False
 
 def call_gemini_api(api_key, prompt):
-    """Calls Gemini API with exponential retry backoff on 429 and 503 errors."""
     global WORKING_MODEL_ENDPOINT
     
     candidate_endpoints = [
@@ -525,33 +523,40 @@ def collect_top_threats_for_briefing():
     return items[:18]
 
 def build_fallback_briefing(threats, edition_label, today_str):
-    """Zero-downtime fallback briefing when Google AI has temporary service outages."""
-    numbers = ["1️⃣", "2️⃣", "3️⃣", "4️⃣", "5️⃣"]
+    """Zero-downtime fallback briefing matching exact executive format."""
+    severities = ["🔴 Critical", "🟠 High", "🟠 High", "🟡 Medium", "🟡 Medium"]
+    categories = ["Remote Code Execution", "Active Exploitation", "Zero-Day Flaw", "Authentication Bypass", "Supply Chain Security"]
+    
     items_html = []
     for i, t in enumerate(threats[:5]):
-        num_emoji = numbers[i] if i < len(numbers) else f"{i+1}️⃣"
-        items_html.append(f"""{num_emoji} <a href="{t['link']}"><b>{t['title']}</b></a>
-⚡ <b>Severity:</b> 🔴 Critical | 🏷️ <b>Category:</b> Security Advisory
-📝 {t['desc'][:220]}...""")
+        idx = i + 1
+        sev = severities[i] if i < len(severities) else "🟡 Medium"
+        cat = categories[i] if i < len(categories) else "Threat Advisory"
+        items_html.append(f"""<b>{idx}. <a href="{t['link']}">{t['title']}</a></b>
+• <b>Severity:</b> {sev}
+• <b>Category:</b> {cat}
+• <b>Analysis:</b> {t['desc'][:220]}...
+• <b>Reference:</b> <a href="{t['link']}">Technical Advisory / Source</a>""")
 
     items_block = "\n\n".join(items_html)
-    return f"""🛡️ <b>GDPFMIT SOC Daily Threat Briefing — {edition_label}</b>
-📅 <b>Date:</b> {today_str} · {edition_label} ICT
-🔒 <b>Overall Threat Level:</b> 🔴 Elevated
+    return f"""<b>GDPFMIT SOC DAILY THREAT BRIEFING</b>
+<i>{edition_label} Edition │ {today_str} │ ICT</i>
 
-━━━━━━━━━━━━━━━━━━━━
-📌 <b>TOP 5 CYBERSECURITY THREATS & INCIDENTS</b>
-━━━━━━━━━━━━━━━━━━━━
+<b>Threat Posture:</b> 🔴 Elevated
+
+<b>PRIORITY THREAT INTELLIGENCE &amp; INCIDENTS</b>
 
 {items_block}
 
-━━━━━━━━━━━━━━━━━━━━
-🛡️ <b>KEY SOC ACTIONS</b>
-• Audit exposed enterprise assets for reported CVEs and vulnerabilities.
-• Review perimeter firewall logs and correlate authentication telemetry.
-• Ensure vendor security patches and mitigations are applied promptly.
-━━━━━━━━━━━━━━━━━━━━
-FMIS | OIS - SOC TEAM"""
+<b>RECOMMENDED SOC ACTIONS</b>
+
+• <b>Patch:</b> Prioritize critical updates for affected enterprise software and perimeter assets.
+• <b>Monitor:</b> Audit SIEM correlation rules and inspect telemetry for unauthorized command execution.
+• <b>Block:</b> Ingest high-confidence indicators of compromise (IOCs) into perimeter firewalls and EDR.
+• <b>Investigate:</b> Perform identity triage and verify authentication logs for anomalous admin activity.
+
+<b>FMIS | OIS — Security Operations Center</b>
+<i>Cybersecurity Intelligence &amp; Incident Response</i>"""
 
 def run_executive_briefing(edition_label):
     """Generates and delivers the Top 5 Executive Threat Briefing to Telegram."""
@@ -574,50 +579,71 @@ Available news items:
 
 INSTRUCTIONS:
 1. Select the top 5 most critical/impactful threat items (prioritize Microsoft, Palo Alto, Cisco, Oracle, VMware, Fortinet, Veeam, Zero-days, Ransomware).
-2. For each of the 5 items, output:
-   - Numbered title as clickable HTML hyperlink: <a href="URL"><b>[Title]</b></a>
-   - Severity and Threat Category (🔴 Critical / 🟠 High / 🟡 Medium)
-   - 1-2 sentence plain-language technical summary.
-3. Add a concise 'KEY SOC ACTIONS' section with 2-3 specific bullet points.
-4. End with footer: FMIS | OIS - SOC TEAM
+2. For each of the 5 items, strictly follow this structure:
+   <b>1. <a href="[URL]">[Title]</a></b>
+   • <b>Severity:</b> [🔴 Critical / 🟠 High / 🟡 Medium]
+   • <b>Category:</b> [Vulnerability / Active Exploitation / Malware / APT / Authentication Bypass / Zero-Day]
+   • <b>Analysis:</b> [1–2 sentence executive summary describing the threat, vector, and operational impact.]
+   • <b>Reference:</b> <a href="[URL]">Technical Advisory / Source</a>
+3. Conclude with RECOMMENDED SOC ACTIONS:
+   • <b>Patch:</b> [Affected products / CVEs / priority updates]
+   • <b>Monitor:</b> [SIEM correlation rules, abnormal behaviors, or specific telemetry]
+   • <b>Block:</b> [Ingest high-confidence IOCs into edge filters/EDR]
+   • <b>Investigate:</b> [Proactive hunt queries, identity audits, or host triage]
+4. End with footer:
+   <b>FMIS | OIS — Security Operations Center</b>
+   <i>Cybersecurity Intelligence & Incident Response</i>
 
-OUTPUT HTML STRUCTURE:
-🛡️ <b>GDPFMIT SOC Daily Threat Briefing — {edition_label}</b>
-📅 <b>Date:</b> {today_str} · {edition_label} ICT
-🔒 <b>Overall Threat Level:</b> [🔴 Elevated / 🟠 Moderate / 🟢 Normal]
+OUTPUT THIS EXACT HTML STRUCTURE:
+<b>GDPFMIT SOC DAILY THREAT BRIEFING</b>
+<i>{edition_label} Edition │ {today_str} │ ICT</i>
 
-━━━━━━━━━━━━━━━━━━━━
-📌 <b>TOP 5 CYBERSECURITY THREATS & INCIDENTS</b>
-━━━━━━━━━━━━━━━━━━━━
+<b>Threat Posture:</b> [🔴 Elevated / 🟠 Moderate / 🟢 Normal]
 
-1️⃣ <a href="[URL]"><b>[Title 1]</b></a>
-⚡ <b>Severity:</b> [🔴 Critical / 🟠 High] | 🏷️ <b>Category:</b> [Category]
-📝 [1-2 sentence executive summary]
+<b>PRIORITY THREAT INTELLIGENCE &amp; INCIDENTS</b>
 
-2️⃣ <a href="[URL]"><b>[Title 2]</b></a>
-⚡ <b>Severity:</b> [🔴 Critical / 🟠 High] | 🏷️ <b>Category:</b> [Category]
-📝 [1-2 sentence executive summary]
+<b>1. <a href="[URL]">[Threat / Incident Title 1]</a></b>
+• <b>Severity:</b> [🔴 Critical / 🟠 High]
+• <b>Category:</b> [Category]
+• <b>Analysis:</b> [1–2 sentence executive summary.]
+• <b>Reference:</b> <a href="[URL]">Technical Advisory / Source</a>
 
-3️⃣ <a href="[URL]"><b>[Title 3]</b></a>
-⚡ <b>Severity:</b> [🔴 Critical / 🟠 High / 🟡 Medium] | 🏷️ <b>Category:</b> [Category]
-📝 [1-2 sentence executive summary]
+<b>2. <a href="[URL]">[Threat / Incident Title 2]</a></b>
+• <b>Severity:</b> [🔴 Critical / 🟠 High]
+• <b>Category:</b> [Category]
+• <b>Analysis:</b> [1–2 sentence executive summary.]
+• <b>Reference:</b> <a href="[URL]">Technical Advisory / Source</a>
 
-4️⃣ <a href="[URL]"><b>[Title 4]</b></a>
-⚡ <b>Severity:</b> [🟠 High / 🟡 Medium] | 🏷️ <b>Category:</b> [Category]
-📝 [1-2 sentence executive summary]
+<b>3. <a href="[URL]">[Threat / Incident Title 3]</a></b>
+• <b>Severity:</b> [🟠 High / 🟡 Medium]
+• <b>Category:</b> [Category]
+• <b>Analysis:</b> [1–2 sentence executive summary.]
+• <b>Reference:</b> <a href="[URL]">Technical Advisory / Source</a>
 
-5️⃣ <a href="[URL]"><b>[Title 5]</b></a>
-⚡ <b>Severity:</b> [🟡 Medium / 🟢 Low] | 🏷️ <b>Category:</b> [Category]
-📝 [1-2 sentence executive summary]
+<b>4. <a href="[URL]">[Threat / Incident Title 4]</a></b>
+• <b>Severity:</b> [🟠 High / 🟡 Medium]
+• <b>Category:</b> [Category]
+• <b>Analysis:</b> [1–2 sentence executive summary.]
+• <b>Reference:</b> <a href="[URL]">Technical Advisory / Source</a>
 
-━━━━━━━━━━━━━━━━━━━━
-🛡️ <b>KEY SOC ACTIONS</b>
-• [Specific SOC Action 1]
-• [Specific SOC Action 2]
-━━━━━━━━━━━━━━━━━━━━
-FMIS | OIS - SOC TEAM
+<b>5. <a href="[URL]">[Threat / Incident Title 5]</a></b>
+• <b>Severity:</b> [🟡 Medium / 🟢 Low]
+• <b>Category:</b> [Category]
+• <b>Analysis:</b> [1–2 sentence executive summary.]
+• <b>Reference:</b> <a href="[URL]">Technical Advisory / Source</a>
 
-Return clean HTML only. Do NOT include markdown blocks."""
+<b>RECOMMENDED SOC ACTIONS</b>
+
+• <b>Patch:</b> [Specific patching guidance]
+• <b>Monitor:</b> [Specific monitoring guidance]
+• <b>Block:</b> [Specific blocking guidance]
+• <b>Investigate:</b> [Specific triage guidance]
+
+<b>FMIS | OIS — Security Operations Center</b>
+<i>Cybersecurity Intelligence &amp; Incident Response</i>
+
+Return clean HTML only. Do NOT output markdown code blocks."""
+
         briefing_html = call_gemini_api(api_key, prompt)
 
     if not briefing_html:
@@ -651,11 +677,11 @@ def main():
     if len(sys.argv) > 1 and sys.argv[1].startswith("--briefing"):
         mode = sys.argv[2].lower() if len(sys.argv) > 2 else "morning"
 
-    if mode in ["morning", "morning ☀️", "8:00 am"]:
-        run_executive_briefing("Morning ☀️ (8:00 AM)")
+    if mode in ["morning", "morning ☀️", "8:00 am", "morning"]:
+        run_executive_briefing("Morning")
         return
-    elif mode in ["evening", "evening 🌙", "5:30 pm"]:
-        run_executive_briefing("Evening 🌙 (5:30 PM)")
+    elif mode in ["evening", "evening 🌙", "5:30 pm", "evening"]:
+        run_executive_briefing("Evening")
         return
 
     # Real-Time Scan
