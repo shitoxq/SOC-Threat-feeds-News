@@ -49,5 +49,16 @@
   "https://www.vulncheck.com/blog/cve-2026-63520-sharepoint-unsafe-type-rce",
   "slug_exploiting_sharepoint_cve202655040_cve202663520_rce_chainbuilding",
   "CVE_CVE-2026-55040",
-  "CVE_CVE-2026-63520"
+  "CVE_CVE-2026-63520",
+  "038c6cd0b2efdcfa57a79b6c8af3bbc97151b7405d712e8baee25a88e56ce256",
+  "https://thehackernews.com/2026/08/cisa-adds-six-exploited-flaws-to-kev.html",
+  "slug_cisa_adds_six_exploited_kev_including",
+  "CVE_CVE-2019-1068",
+  "a765ef138bf200700022bf2b8806f53ac32576dcb6ee46e2ffd78522c4d07774",
+  "https://cybersecuritynews.com/ai-powered-anonymouskit-phaas",
+  "slug_aipowered_anonymouskit_phaas_steals_apple_ids",
+  "3a29533fbb7c9ac81da4431d95c9011f0b0cc05f65a4edb0fa11f399a530e7a4",
+  "https://www.securityweek.com/recent-citrix-netscaler-vulnerability-exploited-in-the-wild",
+  "slug_recent_citrix_netscaler_vulnerability_exploited_wild",
+  "CVE_CVE-2026-8452"
 ]
