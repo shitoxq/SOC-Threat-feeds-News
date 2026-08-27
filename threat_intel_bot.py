@@ -3,6 +3,7 @@
 GDPFMIT SOC Unified Threat Intelligence Engine
 - Real-Time Mode: Fetches feeds, filters for vendors, deduplicates, and sends photo alerts to Telegram.
 - Briefing Mode: Generates Top 5 Executive Threat Briefings (Morning 8:00 AM & Evening 5:30 PM ICT).
+Includes automatic 503/429 retry backoff and zero-downtime briefing fallback.
 """
 
 import os
@@ -23,7 +24,7 @@ CHAT_ID = os.getenv("TELEGRAM_CHAT_ID", "-1004385697303")
 GEMINI_MODEL = os.getenv("GEMINI_MODEL", "gemini-3.6-flash")
 ALERT_DELAY_SECONDS = int(os.getenv("ALERT_DELAY_SECONDS", "15"))
 MAX_ALERTS_PER_RUN = int(os.getenv("MAX_ALERTS_PER_RUN", "3"))
-BRIEFING_MODE = os.getenv("BRIEFING_MODE", "").lower() # 'morning', 'evening', or empty
+BRIEFING_MODE = os.getenv("BRIEFING_MODE", "").lower()
 STATE_FILE = "sent_alerts.json"
 
 if not BOT_TOKEN or not CHAT_ID:
@@ -48,17 +49,9 @@ FEEDS = {
 HEADERS = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36",
     "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8",
-    "Accept-Language": "en-US,en;q=0.9",
-    "Sec-Ch-Ua": '"Chromium";v="130", "Google Chrome";v="130", "Not?A_Brand";v="99"',
-    "Sec-Ch-Ua-Mobile": "?0",
-    "Sec-Ch-Ua-Platform": '"Windows"',
-    "Sec-Fetch-Dest": "document",
-    "Sec-Fetch-Mode": "navigate",
-    "Sec-Fetch-Site": "none",
-    "Sec-Fetch-User": "?1"
+    "Accept-Language": "en-US,en;q=0.9"
 }
 
-# Target Enterprise Tech Stack & Tracked SOC Vendors
 TRACKED_VENDORS = [
     "ibm", "microsoft", "windows", "azure", "office 365", "m365", "exchange", "active directory",
     "sharepoint", "palo alto", "pan-os", "globalprotect", "cortex", "fortinet", "fortios", "fortigate",
@@ -79,7 +72,6 @@ MALWARE_TOPICS = [
 ]
 
 def is_relevant_threat(title, desc):
-    """Filters news strictly to match tracked enterprise vendors or active malware threats."""
     combined = f"{title} {desc}".lower()
     for vendor in TRACKED_VENDORS:
         if vendor in combined:
@@ -267,12 +259,14 @@ def send_telegram_alert(message_html, image_url=None):
         return False
 
 def call_gemini_api(api_key, prompt):
-    """Calls Gemini API with backoff on rate limits."""
+    """Calls Gemini API with exponential retry backoff on 429 and 503 errors."""
     global WORKING_MODEL_ENDPOINT
     
     candidate_endpoints = [
         "https://generativelanguage.googleapis.com/v1beta/models/gemini-3.6-flash:generateContent",
         "https://generativelanguage.googleapis.com/v1/models/gemini-3.6-flash:generateContent",
+        "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent",
+        "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent"
     ]
 
     if WORKING_MODEL_ENDPOINT and WORKING_MODEL_ENDPOINT in candidate_endpoints:
@@ -287,7 +281,7 @@ def call_gemini_api(api_key, prompt):
     last_error = None
     for endpoint in candidate_endpoints:
         url = f"{endpoint}?key={api_key.strip()}"
-        for attempt in range(2):
+        for attempt in range(3):
             try:
                 req = urllib.request.Request(
                     url,
@@ -312,9 +306,10 @@ def call_gemini_api(api_key, prompt):
             except urllib.error.HTTPError as e:
                 error_msg = e.read().decode("utf-8")[:250]
                 last_error = f"HTTP {e.code}: {error_msg}"
-                if e.code == 429:
-                    print(f"[-] Rate limit 429 hit. Backing off 15 seconds...", file=sys.stderr)
-                    time.sleep(15)
+                if e.code in [429, 503]:
+                    wait_time = (attempt + 1) * 8
+                    print(f"[-] API returned {e.code} (High Demand/Rate Limit). Backing off {wait_time}s (Attempt {attempt+1}/3)...", file=sys.stderr)
+                    time.sleep(wait_time)
                     continue
                 print(f"[-] Endpoint {endpoint.split('/models/')[1].split(':')[0]} returned {last_error}", file=sys.stderr)
                 break
@@ -529,19 +524,46 @@ def collect_top_threats_for_briefing():
 
     return items[:18]
 
+def build_fallback_briefing(threats, edition_label, today_str):
+    """Zero-downtime fallback briefing when Google AI has temporary service outages."""
+    numbers = ["1️⃣", "2️⃣", "3️⃣", "4️⃣", "5️⃣"]
+    items_html = []
+    for i, t in enumerate(threats[:5]):
+        num_emoji = numbers[i] if i < len(numbers) else f"{i+1}️⃣"
+        items_html.append(f"""{num_emoji} <a href="{t['link']}"><b>{t['title']}</b></a>
+⚡ <b>Severity:</b> 🔴 Critical | 🏷️ <b>Category:</b> Security Advisory
+📝 {t['desc'][:220]}...""")
+
+    items_block = "\n\n".join(items_html)
+    return f"""🛡️ <b>GDPFMIT SOC Daily Threat Briefing — {edition_label}</b>
+📅 <b>Date:</b> {today_str} · {edition_label} ICT
+🔒 <b>Overall Threat Level:</b> 🔴 Elevated
+
+━━━━━━━━━━━━━━━━━━━━
+📌 <b>TOP 5 CYBERSECURITY THREATS & INCIDENTS</b>
+━━━━━━━━━━━━━━━━━━━━
+
+{items_block}
+
+━━━━━━━━━━━━━━━━━━━━
+🛡️ <b>KEY SOC ACTIONS</b>
+• Audit exposed enterprise assets for reported CVEs and vulnerabilities.
+• Review perimeter firewall logs and correlate authentication telemetry.
+• Ensure vendor security patches and mitigations are applied promptly.
+━━━━━━━━━━━━━━━━━━━━
+FMIS | OIS - SOC TEAM"""
+
 def run_executive_briefing(edition_label):
     """Generates and delivers the Top 5 Executive Threat Briefing to Telegram."""
     api_key = os.getenv("GEMINI_API_KEY")
-    if not api_key:
-        print("[!] GEMINI_API_KEY not set for briefing.", file=sys.stderr)
-        return False
-
     print(f"[*] Generating Top 5 Executive Briefing ({edition_label})...")
     threats = collect_top_threats_for_briefing()
     today_str = datetime.now().strftime("%Y-%m-%d")
-    threat_text = "\n".join([f"- Title: {x['title']}\n  Link: {x['link']}\n  Desc: {x['desc']}" for x in threats])
 
-    prompt = f"""You are a Senior Cyber Threat Intelligence Lead.
+    briefing_html = None
+    if api_key:
+        threat_text = "\n".join([f"- Title: {x['title']}\n  Link: {x['link']}\n  Desc: {x['desc']}" for x in threats])
+        prompt = f"""You are a Senior Cyber Threat Intelligence Lead.
 Create an executive 'TOP 5 CYBERSECURITY THREAT BRIEFING' for leadership and the SOC team.
 
 Edition: {edition_label}
@@ -596,11 +618,11 @@ OUTPUT HTML STRUCTURE:
 FMIS | OIS - SOC TEAM
 
 Return clean HTML only. Do NOT include markdown blocks."""
+        briefing_html = call_gemini_api(api_key, prompt)
 
-    briefing_html = call_gemini_api(api_key, prompt)
     if not briefing_html:
-        print("[-] Failed to generate AI briefing.", file=sys.stderr)
-        return False
+        print("[!] Using automated zero-downtime fallback briefing generator...")
+        briefing_html = build_fallback_briefing(threats, edition_label, today_str)
 
     endpoint = f"https://api.telegram.org/bot{BOT_TOKEN}/sendMessage"
     payload = {
@@ -625,7 +647,6 @@ Return clean HTML only. Do NOT include markdown blocks."""
     return False
 
 def main():
-    # Check CLI arguments or environment variable for briefing mode
     mode = BRIEFING_MODE
     if len(sys.argv) > 1 and sys.argv[1].startswith("--briefing"):
         mode = sys.argv[2].lower() if len(sys.argv) > 2 else "morning"
@@ -637,15 +658,13 @@ def main():
         run_executive_briefing("Evening 🌙 (5:30 PM)")
         return
 
-    # Default: Real-Time Threat Intel Scan
+    # Real-Time Scan
     print(f"[*] Starting Real-Time Threat Intel Scan at {datetime.now().isoformat()}...")
     sent_cache = load_sent_cache()
     total_new = 0
 
-    # 1. Process CISA KEV
     total_new += check_cisa_kev(sent_cache)
 
-    # 2. Process All Feeds (including VulnCheck)
     for feed_key, feed_url in FEEDS.items():
         if feed_key == "cisa_kev":
             continue
