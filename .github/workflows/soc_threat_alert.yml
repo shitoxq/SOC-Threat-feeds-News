@@ -2,33 +2,15 @@ name: SOC Real-Time Threat Intelligence Monitor
 
 on:
   schedule:
-    # 1. 24/7 Scan: Every 30 minutes
+    # Runs every 30 minutes 24/7
     - cron: '15,45 * * * *'
-    # 2. Morning Top 5 Briefing: 8:00 AM ICT (01:00 UTC)
-    - cron: '0 1 * * *'
-    # 3. Evening Top 5 Briefing: 5:30 PM ICT (10:30 UTC)
-    - cron: '30 10 * * *'
   workflow_dispatch:
-    inputs:
-      mode:
-        description: 'Execution Mode'
-        required: true
-        default: 'realtime'
-        type: choice
-        options:
-          - 'realtime'
-          - 'morning'
-          - 'evening'
 
 permissions:
   contents: write
 
-concurrency:
-  group: threat-intel-monitor
-  cancel-in-progress: false
-
 jobs:
-  run-intel:
+  realtime-scan:
     runs-on: ubuntu-latest
     timeout-minutes: 10
 
@@ -43,32 +25,7 @@ jobs:
         with:
           python-version: '3.11'
 
-      - name: Determine Run Mode
-        id: run_mode
-        run: |
-          HOUR=$(date -u +'%H')
-          MIN=$(date -u +'%M')
-          
-          # Default mode is realtime
-          MODE="realtime"
-          
-          # Check if scheduled cron matches 8:00 AM ICT (01:00 UTC)
-          if [ "$HOUR" -eq "01" ] && [ "$MIN" -lt "10" ]; then
-            MODE="morning"
-          # Check if scheduled cron matches 5:30 PM ICT (10:30 UTC)
-          elif [ "$HOUR" -eq "10" ] && [ "$MIN" -ge "25" ] && [ "$MIN" -le "35" ]; then
-            MODE="evening"
-          fi
-          
-          # Override if manually triggered
-          if [ "${{ inputs.mode }}" != "" ]; then
-            MODE="${{ inputs.mode }}"
-          fi
-          
-          echo "MODE=$MODE" >> $GITHUB_ENV
-          echo "[*] Triggered Mode: $MODE"
-
-      - name: Execute Threat Intel Engine
+      - name: Run Real-Time Scan
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
@@ -76,12 +33,10 @@ jobs:
           GEMINI_MODEL: ${{ vars.GEMINI_MODEL || 'gemini-3.6-flash' }}
           ALERT_DELAY_SECONDS: "15"
           MAX_ALERTS_PER_RUN: "3"
-          BRIEFING_MODE: ${{ env.MODE }}
         run: |
           python threat_intel_bot.py
 
       - name: Save Alert State back to GitHub
-        if: env.MODE == 'realtime'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
