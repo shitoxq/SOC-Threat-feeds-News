@@ -531,10 +531,10 @@ def build_fallback_briefing(threats, edition_label, today_str):
         sev = severities[i] if i < len(severities) else "🟡 Medium"
         cat = categories[i] if i < len(categories) else "Threat Advisory"
         items_html.append(f"""<b>{idx}. <a href="{t['link']}">{t['title']}</a></b>
-• <b>Severity:</b> {sev}
-• <b>Category:</b> {cat}
-• <b>Analysis:</b> {t['desc'][:220]}...
-• <b>Reference:</b> <a href="{t['link']}">Source</a>""")
+- <b>Severity:</b> {sev}
+- <b>Category:</b> {cat}
+- <b>Analysis:</b> {t['desc'][:220]}...
+- <b>Reference:</b> <a href="{t['link']}">Source</a>""")
 
     items_block = "\n\n".join(items_html)
     return f"""<b>GDPFMIT SOC DAILY THREAT BRIEFING</b>
@@ -548,10 +548,10 @@ def build_fallback_briefing(threats, edition_label, today_str):
 
 <b>RECOMMENDED SOC ACTIONS</b>
 
-• <b>Patch:</b> Prioritize critical updates for affected enterprise software and perimeter assets.
-• <b>Monitor:</b> Audit SIEM correlation rules and inspect telemetry for unauthorized command execution.
-• <b>Block:</b> Ingest high-confidence indicators of compromise (IOCs) into perimeter firewalls and EDR.
-• <b>Investigate:</b> Perform identity triage and verify authentication logs for anomalous admin activity.
+- <b>Patch:</b> Prioritize critical updates for affected enterprise software and perimeter assets.
+- <b>Monitor:</b> Audit SIEM correlation rules and inspect telemetry for unauthorized command execution.
+- <b>Block:</b> Ingest high-confidence indicators of compromise (IOCs) into perimeter firewalls and EDR.
+- <b>Investigate:</b> Perform identity triage and verify authentication logs for anomalous admin activity.
 
 <b>FMIS | OIS — Security Operations Center</b>
 <i>Cybersecurity Intelligence &amp; Incident Response</i>"""
@@ -579,15 +579,15 @@ INSTRUCTIONS:
 1. Select the top 5 most critical/impactful threat items (prioritize Microsoft, Palo Alto, Cisco, Oracle, VMware, Fortinet, Veeam, Zero-days, Ransomware).
 2. For each of the 5 items, strictly follow this structure:
    <b>1. <a href="[URL]">[Title]</a></b>
-   • <b>Severity:</b> [🔴 Critical / 🟠 High / 🟡 Medium]
-   • <b>Category:</b> [Vulnerability / Active Exploitation / Malware / APT / Authentication Bypass / Zero-Day]
-   • <b>Analysis:</b> [1–2 sentence executive summary describing the threat, vector, and operational impact.]
-   • <b>Reference:</b> <a href="[URL]">Source</a>
+ - <b>Severity:</b> [🔴 Critical / 🟠 High / 🟡 Medium]
+ - <b>Category:</b> [Vulnerability / Active Exploitation / Malware / APT / Authentication Bypass / Zero-Day]
+ - <b>Analysis:</b> [1–2 sentence executive summary describing the threat, vector, and operational impact.]
+ - <b>Reference:</b> <a href="[URL]">Source</a>
 3. Conclude with RECOMMENDED SOC ACTIONS:
-   • <b>Patch:</b> [Specific patching guidance]
-   • <b>Monitor:</b> [Specific monitoring guidance]
-   • <b>Block:</b> [Specific blocking guidance]
-   • <b>Investigate:</b> [Specific triage guidance]
+ - <b>Patch:</b> [Specific patching guidance]
+ - <b>Monitor:</b> [Specific monitoring guidance]
+ - <b>Block:</b> [Specific blocking guidance]
+ - <b>Investigate:</b> [Specific triage guidance]
 4. End with footer:
    <b>FMIS | OIS — Security Operations Center</b>
    <i>Cybersecurity Intelligence & Incident Response</i>
@@ -601,41 +601,41 @@ OUTPUT THIS EXACT HTML STRUCTURE:
 <b>PRIORITY THREAT INTELLIGENCE &amp; INCIDENTS</b>
 
 <b>1. <a href="[URL]">[Threat / Incident Title 1]</a></b>
-• <b>Severity:</b> [🔴 Critical / 🟠 High]
-• <b>Category:</b> [Category]
-• <b>Analysis:</b> [1–2 sentence executive summary.]
-• <b>Reference:</b> <a href="[URL]">Source</a>
+- <b>Severity:</b> [🔴 Critical / 🟠 High]
+- <b>Category:</b> [Category]
+- <b>Analysis:</b> [1–2 sentence executive summary.]
+- <b>Reference:</b> <a href="[URL]">Source</a>
 
 <b>2. <a href="[URL]">[Threat / Incident Title 2]</a></b>
-• <b>Severity:</b> [🔴 Critical / 🟠 High]
-• <b>Category:</b> [Category]
-• <b>Analysis:</b> [1–2 sentence executive summary.]
-• <b>Reference:</b> <a href="[URL]">Source</a>
+- <b>Severity:</b> [🔴 Critical / 🟠 High]
+- <b>Category:</b> [Category]
+- <b>Analysis:</b> [1–2 sentence executive summary.]
+- <b>Reference:</b> <a href="[URL]">Source</a>
 
 <b>3. <a href="[URL]">[Threat / Incident Title 3]</a></b>
-• <b>Severity:</b> [🟠 High / 🟡 Medium]
-• <b>Category:</b> [Category]
-• <b>Analysis:</b> [1–2 sentence executive summary.]
-• <b>Reference:</b> <a href="[URL]">Source</a>
+- <b>Severity:</b> [🟠 High / 🟡 Medium]
+- <b>Category:</b> [Category]
+- <b>Analysis:</b> [1–2 sentence executive summary.]
+- <b>Reference:</b> <a href="[URL]">Source</a>
 
 <b>4. <a href="[URL]">[Threat / Incident Title 4]</a></b>
-• <b>Severity:</b> [🟠 High / 🟡 Medium]
-• <b>Category:</b> [Category]
-• <b>Analysis:</b> [1–2 sentence executive summary.]
-• <b>Reference:</b> <a href="[URL]">Source</a>
+- <b>Severity:</b> [🟠 High / 🟡 Medium]
+- <b>Category:</b> [Category]
+- <b>Analysis:</b> [1–2 sentence executive summary.]
+- <b>Reference:</b> <a href="[URL]">Source</a>
 
 <b>5. <a href="[URL]">[Threat / Incident Title 5]</a></b>
-• <b>Severity:</b> [🟡 Medium / 🟢 Low]
-• <b>Category:</b> [Category]
-• <b>Analysis:</b> [1–2 sentence executive summary.]
-• <b>Reference:</b> <a href="[URL]">Source</a>
+- <b>Severity:</b> [🟡 Medium / 🟢 Low]
+- <b>Category:</b> [Category]
+- <b>Analysis:</b> [1–2 sentence executive summary.]
+- <b>Reference:</b> <a href="[URL]">Source</a>
 
 <b>RECOMMENDED SOC ACTIONS</b>
 
-• <b>Patch:</b> [Specific patching guidance]
-• <b>Monitor:</b> [Specific monitoring guidance]
-• <b>Block:</b> [Specific blocking guidance]
-• <b>Investigate:</b> [Specific triage guidance]
+- <b>Patch:</b> [Specific patching guidance]
+- <b>Monitor:</b> [Specific monitoring guidance]
+- <b>Block:</b> [Specific blocking guidance]
+- <b>Investigate:</b> [Specific triage guidance]
 
 <b>FMIS | OIS — Security Operations Center</b>
 <i>Cybersecurity Intelligence &amp; Incident Response</i>
