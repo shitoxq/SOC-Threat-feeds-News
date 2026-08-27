@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 GDPFMIT SOC Unified Threat Intelligence Engine
-- Real-Time Mode: Fetches feeds, filters for vendors, deduplicates, and sends photo alerts to Telegram.
+- Real-Time Mode: Fetches feeds, filters for enterprise vendors, deduplicates, and sends photo alerts to Telegram.
 - Briefing Mode: Generates Top 5 Executive Threat Briefings (Morning 8:00 AM & Evening 5:30 PM ICT).
 Includes automatic 503/429 retry backoff and zero-downtime briefing fallback.
 """
@@ -258,13 +258,13 @@ def send_telegram_alert(message_html, image_url=None):
         return False
 
 def call_gemini_api(api_key, prompt):
+    """Calls Gemini API with backoff; uses gemini-3.6-flash with clean fallback."""
     global WORKING_MODEL_ENDPOINT
     
     candidate_endpoints = [
         "https://generativelanguage.googleapis.com/v1beta/models/gemini-3.6-flash:generateContent",
         "https://generativelanguage.googleapis.com/v1/models/gemini-3.6-flash:generateContent",
-        "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent",
-        "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent"
+        "https://generativelanguage.googleapis.com/v1beta/models/gemini-3.6-pro:generateContent"
     ]
 
     if WORKING_MODEL_ENDPOINT and WORKING_MODEL_ENDPOINT in candidate_endpoints:
@@ -279,14 +279,15 @@ def call_gemini_api(api_key, prompt):
     last_error = None
     for endpoint in candidate_endpoints:
         url = f"{endpoint}?key={api_key.strip()}"
-        for attempt in range(3):
+        model_name = endpoint.split('/models/')[1].split(':')[0]
+        for attempt in range(2):
             try:
                 req = urllib.request.Request(
                     url,
                     data=json.dumps(payload).encode("utf-8"),
                     headers={"Content-Type": "application/json", "x-goog-api-key": api_key.strip()}
                 )
-                with urllib.request.urlopen(req, timeout=30) as resp:
+                with urllib.request.urlopen(req, timeout=25) as resp:
                     data = json.loads(resp.read().decode("utf-8"))
                     candidates = data.get("candidates", [])
                     if not candidates:
@@ -299,24 +300,21 @@ def call_gemini_api(api_key, prompt):
                     generated_text = "".join(text_parts)
                     cleaned_text = re.sub(r'^```html\s*|^```markdown\s*|^```\s*|```$', '', generated_text.strip(), flags=re.MULTILINE).strip()
                     WORKING_MODEL_ENDPOINT = endpoint
-                    print(f"[+] Gemini summary generated successfully via {endpoint.split('/models/')[1].split(':')[0]}!")
+                    print(f"[+] AI generated successfully via {model_name}!")
                     return cleaned_text
             except urllib.error.HTTPError as e:
-                error_msg = e.read().decode("utf-8")[:250]
+                error_msg = e.read().decode("utf-8")[:200]
                 last_error = f"HTTP {e.code}: {error_msg}"
                 if e.code in [429, 503]:
-                    wait_time = (attempt + 1) * 8
-                    print(f"[-] API returned {e.code} (High Demand/Rate Limit). Backing off {wait_time}s (Attempt {attempt+1}/3)...", file=sys.stderr)
+                    wait_time = (attempt + 1) * 6
+                    print(f"[-] {model_name} busy ({e.code}). Pausing {wait_time}s...", file=sys.stderr)
                     time.sleep(wait_time)
                     continue
-                print(f"[-] Endpoint {endpoint.split('/models/')[1].split(':')[0]} returned {last_error}", file=sys.stderr)
                 break
             except Exception as e:
                 last_error = str(e)
-                print(f"[-] Endpoint error: {last_error}", file=sys.stderr)
                 break
 
-    print(f"[-] All Gemini endpoints failed. Last error: {last_error}", file=sys.stderr)
     return None
 
 def generate_dynamic_alert(title, pub_date, desc, link):
@@ -536,7 +534,7 @@ def build_fallback_briefing(threats, edition_label, today_str):
 • <b>Severity:</b> {sev}
 • <b>Category:</b> {cat}
 • <b>Analysis:</b> {t['desc'][:220]}...
-• <b>Reference:</b> <a href="{t['link']}">Technical Advisory / Source</a>""")
+• <b>Reference:</b> <a href="{t['link']}">Source</a>""")
 
     items_block = "\n\n".join(items_html)
     return f"""<b>GDPFMIT SOC DAILY THREAT BRIEFING</b>
@@ -584,12 +582,12 @@ INSTRUCTIONS:
    • <b>Severity:</b> [🔴 Critical / 🟠 High / 🟡 Medium]
    • <b>Category:</b> [Vulnerability / Active Exploitation / Malware / APT / Authentication Bypass / Zero-Day]
    • <b>Analysis:</b> [1–2 sentence executive summary describing the threat, vector, and operational impact.]
-   • <b>Reference:</b> <a href="[URL]">Technical Advisory / Source</a>
+   • <b>Reference:</b> <a href="[URL]">Source</a>
 3. Conclude with RECOMMENDED SOC ACTIONS:
-   • <b>Patch:</b> [Affected products / CVEs / priority updates]
-   • <b>Monitor:</b> [SIEM correlation rules, abnormal behaviors, or specific telemetry]
-   • <b>Block:</b> [Ingest high-confidence IOCs into edge filters/EDR]
-   • <b>Investigate:</b> [Proactive hunt queries, identity audits, or host triage]
+   • <b>Patch:</b> [Specific patching guidance]
+   • <b>Monitor:</b> [Specific monitoring guidance]
+   • <b>Block:</b> [Specific blocking guidance]
+   • <b>Investigate:</b> [Specific triage guidance]
 4. End with footer:
    <b>FMIS | OIS — Security Operations Center</b>
    <i>Cybersecurity Intelligence & Incident Response</i>
@@ -606,31 +604,31 @@ OUTPUT THIS EXACT HTML STRUCTURE:
 • <b>Severity:</b> [🔴 Critical / 🟠 High]
 • <b>Category:</b> [Category]
 • <b>Analysis:</b> [1–2 sentence executive summary.]
-• <b>Reference:</b> <a href="[URL]">Technical Advisory / Source</a>
+• <b>Reference:</b> <a href="[URL]">Source</a>
 
 <b>2. <a href="[URL]">[Threat / Incident Title 2]</a></b>
 • <b>Severity:</b> [🔴 Critical / 🟠 High]
 • <b>Category:</b> [Category]
 • <b>Analysis:</b> [1–2 sentence executive summary.]
-• <b>Reference:</b> <a href="[URL]">Technical Advisory / Source</a>
+• <b>Reference:</b> <a href="[URL]">Source</a>
 
 <b>3. <a href="[URL]">[Threat / Incident Title 3]</a></b>
 • <b>Severity:</b> [🟠 High / 🟡 Medium]
 • <b>Category:</b> [Category]
 • <b>Analysis:</b> [1–2 sentence executive summary.]
-• <b>Reference:</b> <a href="[URL]">Technical Advisory / Source</a>
+• <b>Reference:</b> <a href="[URL]">Source</a>
 
 <b>4. <a href="[URL]">[Threat / Incident Title 4]</a></b>
 • <b>Severity:</b> [🟠 High / 🟡 Medium]
 • <b>Category:</b> [Category]
 • <b>Analysis:</b> [1–2 sentence executive summary.]
-• <b>Reference:</b> <a href="[URL]">Technical Advisory / Source</a>
+• <b>Reference:</b> <a href="[URL]">Source</a>
 
 <b>5. <a href="[URL]">[Threat / Incident Title 5]</a></b>
 • <b>Severity:</b> [🟡 Medium / 🟢 Low]
 • <b>Category:</b> [Category]
 • <b>Analysis:</b> [1–2 sentence executive summary.]
-• <b>Reference:</b> <a href="[URL]">Technical Advisory / Source</a>
+• <b>Reference:</b> <a href="[URL]">Source</a>
 
 <b>RECOMMENDED SOC ACTIONS</b>
 
