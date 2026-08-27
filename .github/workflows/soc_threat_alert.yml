@@ -2,12 +2,12 @@ name: SOC Real-Time Threat Intelligence Monitor
 
 on:
   schedule:
-    # Runs automatically every 30 minutes 24/7 in the cloud
-    - cron: '*/30 * * * *'
-  workflow_dispatch: # Enables manual 1-click execution button
+    # Runs every 30 minutes
+    - cron: '0,30 * * * *'
+  workflow_dispatch:
 
 permissions:
-  contents: write # Grants write permission to commit sent_alerts.json back to repo
+  contents: write
 
 concurrency:
   group: threat-intel-monitor
@@ -22,7 +22,7 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0 # Fetches full history so git pull/push works cleanly
+          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -49,7 +49,6 @@ jobs:
             git add sent_alerts.json
             if ! git diff-index --quiet HEAD; then
               git commit -m "chore(bot): update sent_alerts state [skip ci]"
-              # Automatically merge state and prevent push failures
               git pull --rebase -X ours origin main || true
               git push origin main || true
             else
