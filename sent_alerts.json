@@ -60,5 +60,14 @@
   "3a29533fbb7c9ac81da4431d95c9011f0b0cc05f65a4edb0fa11f399a530e7a4",
   "https://www.securityweek.com/recent-citrix-netscaler-vulnerability-exploited-in-the-wild",
   "slug_recent_citrix_netscaler_vulnerability_exploited_wild",
-  "CVE_CVE-2026-8452"
+  "CVE_CVE-2026-8452",
+  "1cf6d1f508fdcde09b718977a42aeda863156440e2d0255764b76d900619b7ff",
+  "https://thehackernews.com/2026/08/gputhor-rowhammer-defeats-ecc-on-nvidia.html",
+  "slug_new_gputhor_rowhammer_defeats_ecc_nvidia",
+  "4e5032b20f68f467e7716772694f83d07f01f44b801c8901f9766b3379fa087b",
+  "https://www.bleepingcomputer.com/news/security/atf-confirms-major-incident-after-recent-qilin-breach-claims",
+  "slug_atf_confirms_major_incident_after_recent",
+  "a65bf4f3679ac2a1c3efede7cfd709b45dc0ea6eb8a4f9b2add46d522f209fe5",
+  "https://www.securityweek.com/sensitive-information-exposed-in-nutex-health-data-breach",
+  "slug_sensitive_information_exposed_nutex_health_data"
 ]
