@@ -96,5 +96,15 @@
   "slug_android_17_adds_ech_support_make",
   "b78cfe209d6cf8f98bb46badbc303ca2a1c40be3753d9232db66bc73c8806021",
   "https://cybersecuritynews.com/two-australians-teampcp-supply-chain",
-  "slug_two_australians_charged_over_teampcp_supplychain"
+  "slug_two_australians_charged_over_teampcp_supplychain",
+  "e2642e92805118546c6faf35ce725beba27cae97bf4963066390fb0780b224e9",
+  "https://thehackernews.com/2026/08/amazon-kiro-prompt-injection-can.html",
+  "slug_amazon_kiro_prompt_injection_can_exfiltrate",
+  "c093356a31076adfd71a0e1c930884daaa2fbc569df4d0f4936e577741df4228",
+  "https://www.bleepingcomputer.com/news/microsoft/microsoft-rolls-out-fix-for-windows-11-crashes-gaming-issues",
+  "slug_microsoft_rolls_out_fix_windows_11",
+  "7ec38443741b402015872aa3fc7225c95f910b73e3f969c87fe3bcd3b7ed99b0",
+  "https://cybersecuritynews.com/multiple-teamviewer-vulnerability",
+  "slug_multiple_teamviewer_vulnerabilities_enable_remote_code",
+  "CVE_CVE-2026-16444"
 ]
