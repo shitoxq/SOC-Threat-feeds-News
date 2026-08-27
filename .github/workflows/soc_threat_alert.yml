@@ -2,8 +2,8 @@ name: SOC Real-Time Threat Intelligence Monitor
 
 on:
   schedule:
-    # Runs every 30 minutes 24/7
-    - cron: '15,45 * * * *'
+    # Runs every 10 minutes 24/7
+    - cron: '*/10 * * * *'
   workflow_dispatch:
 
 permissions:
