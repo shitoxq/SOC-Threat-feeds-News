@@ -38,5 +38,16 @@
   "4f3cf383a7e5d3e45e1cb76c1d891f66cd1b221f1f6f834c7ed2df2f63982c53",
   "https://cybersecuritynews.com/next-js-vulnerabilities",
   "slug_critical_nextjs_vulnerabilities_enables_remote_code",
-  "CVE_CVE-2026-75604"
+  "CVE_CVE-2026-75604",
+  "621ca1c7245aff5bfeb9fa5f62a2e53ac0ad4a5cd042ac0b9d0735f81d2ecb7a",
+  "https://thehackernews.com/2026/08/claude-opus-46-bypasses-gym-booking.html",
+  "slug_claude_opus_46_bypasses_gym_booking",
+  "19945f19a624baad90192ab72974a0c2ed5c775672ce9244ef1b9e51b19956b4",
+  "https://www.securityweek.com/chrome-152-patches-over-300-vulnerabilities",
+  "slug_chrome_152_patches_over_300_vulnerabilities",
+  "dc77f70d96e38d2e02192fdf301144e9e3cc261b447a7cae965fe3b202a5d21e",
+  "https://www.vulncheck.com/blog/cve-2026-63520-sharepoint-unsafe-type-rce",
+  "slug_exploiting_sharepoint_cve202655040_cve202663520_rce_chainbuilding",
+  "CVE_CVE-2026-55040",
+  "CVE_CVE-2026-63520"
 ]
