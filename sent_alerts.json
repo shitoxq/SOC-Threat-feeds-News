@@ -69,5 +69,14 @@
   "slug_atf_confirms_major_incident_after_recent",
   "a65bf4f3679ac2a1c3efede7cfd709b45dc0ea6eb8a4f9b2add46d522f209fe5",
   "https://www.securityweek.com/sensitive-information-exposed-in-nutex-health-data-breach",
-  "slug_sensitive_information_exposed_nutex_health_data"
+  "slug_sensitive_information_exposed_nutex_health_data",
+  "9229e49adc62366b972c3e8aafcb117452bae3003bd1c003b865a92b40c21027",
+  "https://www.bleepingcomputer.com/news/security/cisa-hackers-now-exploiting-citrix-netscaler-rce-flaw-in-attacks",
+  "slug_cisa_orders_feds_patch_citrix_netscaler",
+  "1ecdd5b6e036b7edaf9adf6fc35516f70a9b8ea17a44337a497e87b899dd9f71",
+  "https://cybersecuritynews.com/nutex-health-data-breach",
+  "slug_nutex_health_data_breach_hackers_gained",
+  "628fc3790860a7c67fa37485106e36c4dd8d31c69e8b63c9fe64e2e7882e73e5",
+  "https://www.vulncheck.com/blog/death-by-20k-pocs",
+  "slug_death_20000_pocsvulnchecks_research_team_shares"
 ]
