@@ -143,5 +143,14 @@
   "slug_servicenow_warns_three_max_severity_security",
   "c67aa1370a696db55863dcaa693664ae1c50811e2f2f468957d1d6a3e3dfe5ef",
   "https://www.securityweek.com/think-youve-eliminated-chinese-ai-check-the-models-lineage-cisco-says",
-  "slug_think_youve_eliminated_chinese_ai_check"
+  "slug_think_youve_eliminated_chinese_ai_check",
+  "65777cda99e57c318fe1f1f1a1056e8d6fe6796f87be463e2cd9eb57319535cf",
+  "https://thehackernews.com/2026/08/cosmos-evm-flaw-exploited-after-cosmos.html",
+  "slug_cosmos_evm_exploited_after_cosmos_labs",
+  "e3dd4b8681cef31d5588e22b1fbb358fce4e604a369d682050caba0047f73774",
+  "https://www.bleepingcomputer.com/news/security/papercut-releases-second-emergency-patch-for-exploited-flaws",
+  "slug_papercut_releases_second_emergency_patch_exploited",
+  "2207300d637f05c5a6e39f7c9e959f88c166fd5ab4c729b9a2442f140b7b2126",
+  "https://cybersecuritynews.com/hackers-target-ai-infrastructure",
+  "slug_hackers_target_ai_infrastructure_rce_prompt"
 ]
