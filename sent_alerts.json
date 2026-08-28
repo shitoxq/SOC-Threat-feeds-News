@@ -133,5 +133,15 @@
   "slug_chinese_implants_supply_chainin_our_previous",
   "b1a070ea20ca6f4a1d436de59c9ca6b88910e24484e3aeae77c3f9b5b96e1ef5",
   "https://www.helpnetsecurity.com/2026/08/28/new-infosec-products-of-the-month-august-2026",
-  "slug_new_infosec_products_month_august_2026"
+  "slug_new_infosec_products_month_august_2026",
+  "c079f13fec47f90b7c10669bcd9792da1532c6fe7638ce5c75e5d2f61750f081",
+  "https://thehackernews.com/2026/08/critical-cpanel-flaw-could-let-one.html",
+  "slug_critical_cpanel_could_let_one_hosting",
+  "CVE_CVE-2026-65643",
+  "ecab0ad3a063fc252cb71f13606c01ddca7cf441ce9bc749a9296dee3a7f511e",
+  "https://www.bleepingcomputer.com/news/security/servicenow-warns-of-three-max-severity-security-vulnerabilities",
+  "slug_servicenow_warns_three_max_severity_security",
+  "c67aa1370a696db55863dcaa693664ae1c50811e2f2f468957d1d6a3e3dfe5ef",
+  "https://www.securityweek.com/think-youve-eliminated-chinese-ai-check-the-models-lineage-cisco-says",
+  "slug_think_youve_eliminated_chinese_ai_check"
 ]
