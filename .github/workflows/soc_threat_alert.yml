@@ -1,18 +1,27 @@
-name: SOC Real-Time Threat Intelligence Monitor
+name: SOC Threat Intelligence Engine
 
 on:
   schedule:
-    # Runs every 10 minutes 24/7
     - cron: '*/10 * * * *'
   workflow_dispatch:
+    inputs:
+      mode:
+        description: 'Execution Mode'
+        required: true
+        default: 'realtime'
+        type: choice
+        options:
+          - 'realtime'
+          - 'morning'
+          - 'evening'
 
 permissions:
   contents: write
 
 jobs:
-  realtime-scan:
+  run-engine:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 8
 
     steps:
       - name: Checkout Repository
@@ -25,7 +34,33 @@ jobs:
         with:
           python-version: '3.11'
 
-      - name: Run Real-Time Scan
+      - name: Detect Mode
+        run: |
+          MODE="realtime"
+          
+          # Auto-detect briefing time (Cambodia ICT = UTC+7)
+          HOUR_UTC=$(date -u +'%H')
+          MIN_UTC=$(date -u +'%M')
+          
+          # 8:00 AM ICT = 01:00 UTC (match 01:00-01:09)
+          if [ "$HOUR_UTC" = "01" ] && [ "$MIN_UTC" -lt "10" ]; then
+            MODE="morning"
+          fi
+          
+          # 5:30 PM ICT = 10:30 UTC (match 10:30-10:39)
+          if [ "$HOUR_UTC" = "10" ] && [ "$MIN_UTC" -ge "30" ] && [ "$MIN_UTC" -lt "40" ]; then
+            MODE="evening"
+          fi
+          
+          # Manual override
+          if [ "${{ inputs.mode }}" != "" ] && [ "${{ inputs.mode }}" != "realtime" ]; then
+            MODE="${{ inputs.mode }}"
+          fi
+          
+          echo "MODE=$MODE" >> $GITHUB_ENV
+          echo "[*] Engine Mode: $MODE (UTC $HOUR_UTC:$MIN_UTC)"
+
+      - name: Run Threat Intel Engine
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
@@ -33,10 +68,11 @@ jobs:
           GEMINI_MODEL: ${{ vars.GEMINI_MODEL || 'gemini-3.6-flash' }}
           ALERT_DELAY_SECONDS: "15"
           MAX_ALERTS_PER_RUN: "3"
+          BRIEFING_MODE: ${{ env.MODE }}
         run: |
           python threat_intel_bot.py
 
-      - name: Save Alert State back to GitHub
+      - name: Save State
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
@@ -47,7 +83,5 @@ jobs:
               git commit -m "chore(bot): update sent_alerts state [skip ci]"
               git pull --rebase -X ours origin main || true
               git push origin main || true
-            else
-              echo "[*] No state changes detected."
             fi
           fi
