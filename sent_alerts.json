@@ -200,5 +200,16 @@
   "slug_papercut_releases_emergency_patch_exploited_zeroday",
   "0a87e7e2ec15eb138eb8e2eb0de3f302ad71e1fe00ad1b8dd0ee757be6d34748",
   "https://www.vulncheck.com/blog/pwning-the-ai-stack",
-  "slug_same_target_different_playbooks_two_attackers"
+  "slug_same_target_different_playbooks_two_attackers",
+  "6d2eb85116012530edb2ec7c649093d8b558789d48ca8188e2a00058ee60cf04",
+  "https://thehackernews.com/2026/08/two-unitree-g1-edu-humanoid-robot-flaws.html",
+  "slug_two_unitree_g1_edu_humanoid_robot",
+  "CVE_CVE-2026-76639",
+  "CVE_CVE-2026-76640",
+  "0de6e8ffad49ea45dcf9d70a9fef575e283d806bcaeeb7579bf95368d9bb66a8",
+  "https://www.vulncheck.com/blog/zbt-endlessdoors",
+  "slug_endlessdoors_phoning_home_pick_uptwenty_router",
+  "324fe7bb330da0035eed4fffc3f08c79382c3502990642a97fd35f9829c68b9e",
+  "https://www.helpnetsecurity.com/2026/08/28/android-17-network-security-features",
+  "slug_android_17_adds_new_protections_against"
 ]
