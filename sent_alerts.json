@@ -161,5 +161,14 @@
   "slug_ai_accelerating_vulnerability_discovery_can_defenders",
   "2b9e765c5316e8295bbc8af89deebc8faee233a29ca530799fb24211880f7518",
   "https://www.securityweek.com/in-other-news-log4j-rce-scare-minimus-shutdown-iranian-hacker-sanctions",
-  "slug_other_news_log4j_rce_scare_minimus"
+  "slug_other_news_log4j_rce_scare_minimus",
+  "45f31e534b0be3b7f2472ef667954c2ddc408fc23749e36de844f5a5d7a4bc6d",
+  "https://thehackernews.com/2026/08/android-17-adds-os-wide-ech-to-hide.html",
+  "slug_android_17_adds_oswide_ech_hide",
+  "f5d907fcf0e1d41f59f0dc83095188497f39524b7c1fcf41c5e808d54b89d360",
+  "https://www.bleepingcomputer.com/news/security/over-8-300-gitea-servers-vulnerable-to-code-execution-attacks",
+  "slug_over_8300_gitea_servers_vulnerable_code",
+  "23c3016c893d746ebd0632bc7d191381d28d7c3918f88310d8f57246e6f453c0",
+  "https://www.securityweek.com/atf-confirms-cyber-incident-after-ransomware-group-claims-attack",
+  "slug_atf_confirms_cyber_incident_after_ransomware"
 ]
