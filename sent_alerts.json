@@ -180,5 +180,16 @@
   "slug_toymaking_giant_hasbro_disclose_data_breach",
   "7cf92b91522b6c92d79791d8aba45c4f9aa67fc375ae5c0067582e6b113a0020",
   "https://www.securityweek.com/hasbro-data-breach-exposed-employee-personal-information",
-  "slug_hasbro_data_breach_exposed_employee_personal"
+  "slug_hasbro_data_breach_exposed_employee_personal",
+  "20d327a204a5298e63074340c6e8ca4de0e808c3f887b5d17f1252a2384ab3f2",
+  "https://thehackernews.com/2026/08/five-critical-wordpress-plugin-and.html",
+  "slug_five_critical_wordpress_plugin_theme_enable",
+  "CVE_CVE-2026-76581",
+  "480a6dcd921795099789905e06d141f8465ddd37b1c7f4078b697666f3a39864",
+  "https://cybersecuritynews.com/servicenow-fixes-critical-flaws",
+  "slug_critical_servicenow_let_attackers_execute_code",
+  "0f67175071027cc5706d8d8515a431cdb72627dc3eefefd616f2f3fd5b64393b",
+  "https://www.securityweek.com/openai-agents-exploited-linux-kernel-flaw-on-companys-own-systems",
+  "slug_openai_agents_exploited_linux_kernel_companys",
+  "CVE_CVE-2026-53362"
 ]
