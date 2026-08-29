@@ -191,5 +191,14 @@
   "0f67175071027cc5706d8d8515a431cdb72627dc3eefefd616f2f3fd5b64393b",
   "https://www.securityweek.com/openai-agents-exploited-linux-kernel-flaw-on-companys-own-systems",
   "slug_openai_agents_exploited_linux_kernel_companys",
-  "CVE_CVE-2026-53362"
+  "CVE_CVE-2026-53362",
+  "fbf67621099f4f5de497d4b1484b82268a0cf9a54559c4b5e1e05feabe22f52b",
+  "https://thehackernews.com/2026/08/19-chrome-and-edge-extensions-found.html",
+  "slug_19_chrome_edge_extensions_found_walletstealing",
+  "34444dab934959809ebaaeca3cfc44d0442b14a342fcdd5ed6df7110f99581a8",
+  "https://www.securityweek.com/papercut-releases-emergency-patch-for-exploited-zero-day",
+  "slug_papercut_releases_emergency_patch_exploited_zeroday",
+  "0a87e7e2ec15eb138eb8e2eb0de3f302ad71e1fe00ad1b8dd0ee757be6d34748",
+  "https://www.vulncheck.com/blog/pwning-the-ai-stack",
+  "slug_same_target_different_playbooks_two_attackers"
 ]
