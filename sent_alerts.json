@@ -170,5 +170,15 @@
   "slug_over_8300_gitea_servers_vulnerable_code",
   "23c3016c893d746ebd0632bc7d191381d28d7c3918f88310d8f57246e6f453c0",
   "https://www.securityweek.com/atf-confirms-cyber-incident-after-ransomware-group-claims-attack",
-  "slug_atf_confirms_cyber_incident_after_ransomware"
+  "slug_atf_confirms_cyber_incident_after_ransomware",
+  "9ef134c66a5565349f262358941bc45f48518dc3129233f9b2968490ac4be2df",
+  "https://thehackernews.com/2026/08/snowflake-github-actions-flaw-lets.html",
+  "slug_owncloud_exploited_steal_nuclear_records_from",
+  "CVE_CVE-2023-49105",
+  "bb949743612313a353c3c7398217df4ae9e35e7da4e79b06fd0702033e6e418d",
+  "https://www.bleepingcomputer.com/news/security/toy-making-giant-hasbro-disclose-data-breach-affecting-employees",
+  "slug_toymaking_giant_hasbro_disclose_data_breach",
+  "7cf92b91522b6c92d79791d8aba45c4f9aa67fc375ae5c0067582e6b113a0020",
+  "https://www.securityweek.com/hasbro-data-breach-exposed-employee-personal-information",
+  "slug_hasbro_data_breach_exposed_employee_personal"
 ]
