@@ -152,5 +152,14 @@
   "slug_papercut_releases_second_emergency_patch_exploited",
   "2207300d637f05c5a6e39f7c9e959f88c166fd5ab4c729b9a2442f140b7b2126",
   "https://cybersecuritynews.com/hackers-target-ai-infrastructure",
-  "slug_hackers_target_ai_infrastructure_rce_prompt"
+  "slug_hackers_target_ai_infrastructure_rce_prompt",
+  "ba3feda904b048f64d900cc61e220afc6a28d5320eb320d0a2ffd695dcc3042b",
+  "https://thehackernews.com/2026/08/attackers-chain-two-papercut-flaws-to.html",
+  "slug_attackers_chain_two_papercut_execute_code",
+  "174e3018905f336a0c4bd04a73ee223bcf077a563fae4c361f7c06e775b9d70d",
+  "https://www.bleepingcomputer.com/news/security/ai-is-accelerating-vulnerability-discovery-can-defenders-keep-up",
+  "slug_ai_accelerating_vulnerability_discovery_can_defenders",
+  "2b9e765c5316e8295bbc8af89deebc8faee233a29ca530799fb24211880f7518",
+  "https://www.securityweek.com/in-other-news-log4j-rce-scare-minimus-shutdown-iranian-hacker-sanctions",
+  "slug_other_news_log4j_rce_scare_minimus"
 ]
