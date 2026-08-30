@@ -231,5 +231,17 @@
   "CVE_CVE-2026-81578",
   "25722a03df89a0848c034e06ffa87304c86980dd79c4a1edc4674903ba75c3da",
   "https://ipurple.team/2026/08/11/mandatory-user-profile",
-  "slug_mandatory_user_profile"
+  "slug_mandatory_user_profile",
+  "e7fd30e89bca0fc1e82164ea014a1d32e5de6c4218698a0c3105386e4bd80457",
+  "https://thehackernews.com/2026/08/terminalfix-uses-fake-cloudflare.html",
+  "slug_terminalfix_uses_fake_cloudflare_captchas_deploy",
+  "081f991a134abbe52bc59369ba427be63d27024dcb731b2756ec578cd3233abf",
+  "https://www.vulncheck.com/blog/wp2shell",
+  "slug_wp2shell_vulnerabilities_cve202660137_cve202663030two_new_wordpress",
+  "CVE_CVE-2026-60137",
+  "CVE_CVE-2026-63030",
+  "a9a00c2bbf8639e04469cd67d119503c042627e26c6eb0ba1c1d0302fe459e6f",
+  "https://www.helpnetsecurity.com/2026/08/30/week-in-review-compromised-zimbra-servers-previously-patched-citrix-netscaler-flaw-exploited",
+  "slug_week_review_compromised_zimbra_servers_previously",
+  "CVE_CVE-2026-73570"
 ]
