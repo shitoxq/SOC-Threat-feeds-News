@@ -243,5 +243,14 @@
   "a9a00c2bbf8639e04469cd67d119503c042627e26c6eb0ba1c1d0302fe459e6f",
   "https://www.helpnetsecurity.com/2026/08/30/week-in-review-compromised-zimbra-servers-previously-patched-citrix-netscaler-flaw-exploited",
   "slug_week_review_compromised_zimbra_servers_previously",
-  "CVE_CVE-2026-73570"
+  "CVE_CVE-2026-73570",
+  "8350932633fe07fe3755f74667f69ccba70a1553883e5224e9ba5b7f3da1d2dc",
+  "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-warns-infostealer-malware-is-hijacking-claude-sessions-to-drain-usage",
+  "slug_anthropic_warns_infostealer_malware_hijacking_claude",
+  "ffa29d171fbd5e700bacb413b61bfd73193786d4bf21bbe1cd8969c6b460c472",
+  "https://cybersecuritynews.com/iran-linked-hackers-2",
+  "slug_iranlinked_hackers_reportedly_knock_uk_power",
+  "da6a6aee817912704e114f1fe3180ca2780138d792350e8422282bf81be84c76",
+  "https://www.vulncheck.com/blog/nvidia-gen3c-unauth-pickle-rce",
+  "slug_nvidia_gen3c_unauthenticated_rce_via_pickle"
 ]
