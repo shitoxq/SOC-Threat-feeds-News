@@ -252,5 +252,16 @@
   "slug_iranlinked_hackers_reportedly_knock_uk_power",
   "da6a6aee817912704e114f1fe3180ca2780138d792350e8422282bf81be84c76",
   "https://www.vulncheck.com/blog/nvidia-gen3c-unauth-pickle-rce",
-  "slug_nvidia_gen3c_unauthenticated_rce_via_pickle"
+  "slug_nvidia_gen3c_unauthenticated_rce_via_pickle",
+  "84f685770c0f51b44b406690dc99e390f8706b54af95f917d4b46545167bae6e",
+  "https://www.bleepingcomputer.com/news/security/chrome-web-store-extensions-caught-stealing-crypto-browser-data",
+  "slug_chrome_web_store_extensions_caught_stealing",
+  "9636c568e50e698a97bc03a5b02984a27b84edccc0a7f033daefebc51cb31b5c",
+  "https://www.vulncheck.com/blog/fossbilling-auth-bypass-ssti-rce",
+  "slug_cve202628496_fossbilling_auth_bypass_twig_ssti",
+  "CVE_CVE-2026-28496",
+  "7773ca084f1066b60e98b8a8771c018e0c3fb10fd3655244a6ebd2e7de8c22b3",
+  "https://gbhackers.com/critical-gogs-flaw-enables-remote-code-execution",
+  "slug_critical_gogs_enables_remote_code_execution",
+  "CVE_CVE-2026-52813"
 ]
