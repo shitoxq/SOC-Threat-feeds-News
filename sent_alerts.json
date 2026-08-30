@@ -263,5 +263,14 @@
   "7773ca084f1066b60e98b8a8771c018e0c3fb10fd3655244a6ebd2e7de8c22b3",
   "https://gbhackers.com/critical-gogs-flaw-enables-remote-code-execution",
   "slug_critical_gogs_enables_remote_code_execution",
-  "CVE_CVE-2026-52813"
+  "CVE_CVE-2026-52813",
+  "951314c27b65e520fe8f034e40358d0a416fa69912cf1f408600de654921f2ad",
+  "https://www.vulncheck.com/blog/copy-fails-descendants-recent-linux-lpes",
+  "slug_copy_fail_its_descendants_real_humanx27s",
+  "64fea056a4840bde324d04c1df41bd51ff41f9fed75a6156d269925c1e7fe3d8",
+  "https://gbhackers.com/hackers-use-fake-cloudflare-captcha",
+  "slug_hackers_use_fake_cloudflare_captcha_deploy",
+  "30c32e408bf70bc21f42c4302706cea081d8b6d13841cf8f75ab79766499b591",
+  "https://ipurple.team/2026/08/04/provisioning-packages",
+  "slug_provisioning_packages"
 ]
