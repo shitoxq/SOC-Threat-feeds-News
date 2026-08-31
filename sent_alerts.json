@@ -272,5 +272,14 @@
   "slug_hackers_use_fake_cloudflare_captcha_deploy",
   "30c32e408bf70bc21f42c4302706cea081d8b6d13841cf8f75ab79766499b591",
   "https://ipurple.team/2026/08/04/provisioning-packages",
-  "slug_provisioning_packages"
+  "slug_provisioning_packages",
+  "ef82d9f6c0879c3dcdc5139d077f28e800d4bd80b0f77886f83cbfcd9574062c",
+  "https://www.vulncheck.com/blog/anthropic-ledger",
+  "slug_observations_anthropics_vulnerability_disclosure_ledgerpublic_cve",
+  "d3ad454e092e34c0731730d1817be052b7f9c66cfcf880e72df0d75f24019d6b",
+  "https://gbhackers.com/chinese-hackers-deploy-packclient-rat",
+  "slug_chinese_hackers_deploy_packclient_rat_via",
+  "2a7f9153c55ed3dec151b1ad1e720bc384484056d33a17df98ffca6aa51ce7bf",
+  "https://ipurple.team/2026/07/13/amsi-provider",
+  "slug_amsi_provider"
 ]
