@@ -326,5 +326,14 @@
   "slug_microsoft_exchange_online_outage_causes_email",
   "1f8a781c6e6e8ac147d2f5ffe181e8fab8b867733eb3195841a9550ab6a8e26c",
   "https://cybersecuritynews.com/microsof-new-exchange-online",
-  "slug_microsoft_investigating_new_exchange_online_outage"
+  "slug_microsoft_investigating_new_exchange_online_outage",
+  "a645320d36fc7caf347dd76939d329238e28bc6a09eb396085eccaac1fd124c4",
+  "https://thehackernews.com/2026/08/china-linked-fire-ant-hijacks-cisco.html",
+  "slug_chinalinked_fire_ant_hijacks_cisco_routers",
+  "11c86572051ce856f5731689c2414d7b0f2a471e05c3a33e24180fb1620157ca",
+  "https://www.bleepingcomputer.com/news/security/chinese-fire-ant-hackers-turn-cisco-routers-into-spying-platforms",
+  "slug_chinese_fire_ant_hackers_turn_cisco",
+  "4f1680a799fc4fbadef7476cbfc4215b531f7338f2fccab2cc71b55dfc3502d0",
+  "https://www.securityweek.com/servicenow-patches-3-critical-code-injection-vulnerabilities",
+  "slug_servicenow_patches_3_critical_code_injection"
 ]
