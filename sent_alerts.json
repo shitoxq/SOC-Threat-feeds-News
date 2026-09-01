@@ -353,5 +353,15 @@
   "slug_novocure_data_breach_affects_more_than",
   "bc0512820d8bbe6609efa9f4c6d1928440bfb650808d01501e327d3c438e38d5",
   "https://cybersecuritynews.com/trusted-cloud-services-phishing-attacks",
-  "slug_attackers_abuse_trusted_cloud_services_hide"
+  "slug_attackers_abuse_trusted_cloud_services_hide",
+  "5d60f3c3ebe6483c7e77cf92dc0d749e3274f46e5ef52c57e48cd8afd9111afb",
+  "https://thehackernews.com/2026/09/attackers-exploit-critical-jfrog.html",
+  "slug_attackers_exploit_critical_jfrog_artifactory_mint",
+  "CVE_CVE-2026-82329",
+  "522f5f0c1de5fc9dbf540c4f860c0c9d907a82fd712186748f7d2417bbb88c0c",
+  "https://www.bleepingcomputer.com/news/security/aesto-health-says-data-breach-affects-over-95-million-patients",
+  "slug_aesto_health_says_data_breach_affects",
+  "1164bec085e1f6427fb7ffbe92055f00d177318e916991d81a5470774df88bff",
+  "https://cybersecuritynews.com/hackers-plead-guilty-to-atm-jackpotting-attacks",
+  "slug_five_hackers_plead_guilty_atm_jackpotting"
 ]
