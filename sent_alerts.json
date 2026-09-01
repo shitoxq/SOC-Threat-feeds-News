@@ -363,5 +363,15 @@
   "slug_aesto_health_says_data_breach_affects",
   "1164bec085e1f6427fb7ffbe92055f00d177318e916991d81a5470774df88bff",
   "https://cybersecuritynews.com/hackers-plead-guilty-to-atm-jackpotting-attacks",
-  "slug_five_hackers_plead_guilty_atm_jackpotting"
+  "slug_five_hackers_plead_guilty_atm_jackpotting",
+  "dff23f3c8b114063949c38cdb7f9843799edcc5895fa4139578c049c5d65fa75",
+  "https://thehackernews.com/2026/09/breeze-comet-executes-hundreds-of.html",
+  "slug_breeze_comet_executes_hundreds_fraudulent_transactions",
+  "20f2f9e2f38a7a695e67c025de8d9b99e39b021d6b62ec039a046c67f5c23f30",
+  "https://www.bleepingcomputer.com/news/security/critical-langflow-flaw-exploited-to-steal-openai-and-aws-keys",
+  "slug_critical_langflow_exploited_steal_openai_aws",
+  "CVE_CVE-2026-0768",
+  "3bf57668a7f6a581a736ca1ac1fabe0e5e28a1ead9c3241149185839a45cb597",
+  "https://cybersecuritynews.com/fake-coding-tests",
+  "slug_hackers_pose_recruiters_send_fake_coding"
 ]
