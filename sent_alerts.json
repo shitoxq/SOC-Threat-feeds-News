@@ -335,5 +335,14 @@
   "slug_chinese_fire_ant_hackers_turn_cisco",
   "4f1680a799fc4fbadef7476cbfc4215b531f7338f2fccab2cc71b55dfc3502d0",
   "https://www.securityweek.com/servicenow-patches-3-critical-code-injection-vulnerabilities",
-  "slug_servicenow_patches_3_critical_code_injection"
+  "slug_servicenow_patches_3_critical_code_injection",
+  "6a32dcc2b873f1220704b7f36fe9ecb57a081c072d6c57fdab250c430e566b3d",
+  "https://thehackernews.com/2026/09/threat-actors-dont-want-better-attacks.html",
+  "slug_threat_actors_dont_want_better_attacks",
+  "588327545256385caee6f688afdf078c7b2477c82a7b252f8071197de25d1998",
+  "https://www.bleepingcomputer.com/news/security/nearly-22-000-microsoft-exchange-servers-vulnerable-to-hijack-attacks",
+  "slug_nearly_22000_microsoft_exchange_servers_vulnerable",
+  "6ae21ac7c29ee48eac11a5f9070aa943a5b4ad0d5bb6831b6fb252271863063d",
+  "https://cybersecuritynews.com/hackers-abuse-real-chatgpt-links",
+  "slug_hackers_abuse_real_chatgpt_links_trick"
 ]
