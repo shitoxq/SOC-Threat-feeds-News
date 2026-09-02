@@ -382,5 +382,15 @@
   "slug_why_even_best_edge_security_still",
   "65da466ee51a3d8392a14c9507c74390233abb31ec0760174eab88fa522696a3",
   "https://cybersecuritynews.com/hackers-weaponize-microsoft-teams",
-  "slug_hackers_weaponize_microsoft_teams_help_desk"
+  "slug_hackers_weaponize_microsoft_teams_help_desk",
+  "77a2412a7854a80789d9bff3a4809936fdaad0cde9bc6e0f36d163d087883714",
+  "https://www.bleepingcomputer.com/news/security/five-venezuelans-plead-guilty-to-atm-jackpotting-attacks-in-us",
+  "slug_five_venezuelans_plead_guilty_atm_jackpotting",
+  "de8de5ec6b8969e4a699256da597f9e92626b52573ab841d2cebf72efd9217c5",
+  "https://www.securityweek.com/palo-alto-networks-acquires-ai-agent-platform-console",
+  "slug_palo_alto_networks_acquires_ai_agent",
+  "d667e6f88587edd93237cf18ebf745b845a28118ae27fc302be81812257653be",
+  "https://www.vulncheck.com/blog/cve-2017-9841",
+  "slug_9_yearold_php_vulnerability_keeps_swinging",
+  "CVE_CVE-2017-9841"
 ]
