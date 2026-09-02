@@ -429,5 +429,15 @@
   "slug_microsoft_defender_flags_legitimate_google_search",
   "e0be1eacdce7baae858e8e54b0bf7cf5ca914a30e07cd0bcb169a23f6ef8c8f5",
   "https://cybersecuritynews.com/microsoft-365-session-hijacking",
-  "slug_hackers_target_us_eu_firms_microsoft"
+  "slug_hackers_target_us_eu_firms_microsoft",
+  "64ac102057daee2e8ab43e28e0bce328f9d3deb30428b0379e4bdc0169015af2",
+  "https://thehackernews.com/2026/09/fake-software-installers-disable.html",
+  "slug_fake_software_installers_disable_windows_update",
+  "68b76c3eabe4dd38065a33b7da3ccecc54c267e85b47d6c1cba1533214628140",
+  "https://www.bleepingcomputer.com/news/security/hackers-exploit-sangoma-switchvox-flaw-to-deploy-reverse-shells",
+  "slug_hackers_exploit_sangoma_switchvox_deploy_reverse",
+  "CVE_CVE-2026-9586",
+  "e492d14c6ffaf0dacd4fa07aaec91991c53664f48460c7f0b33e2766ecd1c5d0",
+  "https://www.securityweek.com/openleash-adds-a-human-check-to-risky-ai-agent-actions",
+  "slug_openleash_adds_human_check_risky_ai"
 ]
