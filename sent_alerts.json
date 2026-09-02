@@ -373,5 +373,14 @@
   "CVE_CVE-2026-0768",
   "3bf57668a7f6a581a736ca1ac1fabe0e5e28a1ead9c3241149185839a45cb597",
   "https://cybersecuritynews.com/fake-coding-tests",
-  "slug_hackers_pose_recruiters_send_fake_coding"
+  "slug_hackers_pose_recruiters_send_fake_coding",
+  "5b862f142a978c2bc9c231db7d1f619233dff725581d1c3773bd83cc6b98aeb0",
+  "https://thehackernews.com/2026/09/russia-aligned-uac-0099-plants-nuclear.html",
+  "slug_russiaaligned_uac0099_plants_nuclear_weapon_prompt",
+  "555a3703aabc040e7564820999fda01b581c74db68833d354328c3038fd35a8b",
+  "https://www.bleepingcomputer.com/news/security/why-even-the-best-edge-security-still-misses-high-risk-sessions",
+  "slug_why_even_best_edge_security_still",
+  "65da466ee51a3d8392a14c9507c74390233abb31ec0760174eab88fa522696a3",
+  "https://cybersecuritynews.com/hackers-weaponize-microsoft-teams",
+  "slug_hackers_weaponize_microsoft_teams_help_desk"
 ]
