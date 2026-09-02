@@ -392,5 +392,15 @@
   "d667e6f88587edd93237cf18ebf745b845a28118ae27fc302be81812257653be",
   "https://www.vulncheck.com/blog/cve-2017-9841",
   "slug_9_yearold_php_vulnerability_keeps_swinging",
-  "CVE_CVE-2017-9841"
+  "CVE_CVE-2017-9841",
+  "fd47abd976ef000e6b0d6e16c094e2fd55fe312338f74da66fc7394e180fb92f",
+  "https://thehackernews.com/2026/09/researchers-use-claude-to-port-pre-auth.html",
+  "slug_researchers_use_claude_port_preauth_rce",
+  "CVE_CVE-2021-31886",
+  "5e466f54e06ba989e816f8897364a84a789daf19778ccdc6c0fc5c8a186901c2",
+  "https://www.bleepingcomputer.com/news/security/us-charges-russian-for-infecting-80-000-freelancers-with-malware",
+  "slug_us_charges_russian_infecting_80000_freelancers",
+  "d85fd557378f7f73dca6b62aeabfd22f3a1d1f0ac5149d917200179a2e5fe59e",
+  "https://www.securityweek.com/chrome-and-firefox-updates-patch-dozens-of-vulnerabilities",
+  "slug_chrome_firefox_updates_patch_dozens_vulnerabilities"
 ]
