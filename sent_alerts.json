@@ -495,5 +495,15 @@
   "slug_coderx27s_registry_infrastructure_compromised_push_malicious",
   "9573b5c2cdde9f1b14ab65e808a0846600edf96ec3a16e9845f97c081cf6b07e",
   "https://cybersecuritynews.com/fewer-attacks-more-force-link11s-european-cyber-report-finds-new-ddos-records-for-the-first-half-of-2026",
-  "slug_fewer_attacks_more_force_link11s_european"
+  "slug_fewer_attacks_more_force_link11s_european",
+  "0ffead6ad9f846a17b980f621d70737df02f62acbec41c5db285151c3ee86cb4",
+  "https://thehackernews.com/2026/09/attackers-turn-trusted-nodejs-runtime.html",
+  "slug_attackers_turn_trusted_nodejs_runtime_into",
+  "3a90b5a484afadf6acb4a817799ebcc10c48294b5584028d28c4eeba73d5b24e",
+  "https://www.bleepingcomputer.com/news/security/critical-elementor-pro-flaw-exploited-to-take-over-wordpress-sites",
+  "slug_critical_elementor_pro_exploited_take_over",
+  "CVE_CVE-2026-32475",
+  "2db8937381582019e818db7157665948b91834237d36eccb26ce41fd1c84e186",
+  "https://cybersecuritynews.com/hackers-weaponize-screenconnect",
+  "slug_hackers_weaponize_screenconnect_spread_wormlike_malware"
 ]
