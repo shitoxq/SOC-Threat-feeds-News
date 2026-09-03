@@ -476,5 +476,15 @@
   "slug_your_employees_password_appeared_infostealer_log",
   "5cc4a0f1dc1cfe36ce1aec066040e79968fb536b14482abfc8315732100872e1",
   "https://cybersecuritynews.com/memory-integrity-protection-windows",
-  "slug_microsoft_expand_memory_integrity_protection_across"
+  "slug_microsoft_expand_memory_integrity_protection_across",
+  "10869e1cb2f94267097db0303e292e744802aa16350ebfbffb0af4494701542b",
+  "https://thehackernews.com/2026/09/critical-cisco-nexus-9000-flaw-lets.html",
+  "slug_critical_cisco_nexus_9000_lets_unauthenticated",
+  "CVE_CVE-2026-20212",
+  "e4e4d5699d68084ae296bbf687f6c654ccbfaf3a9bbe30955ecfebe9b9e787b5",
+  "https://www.bleepingcomputer.com/news/microsoft/microsoft-kb5120998-mouse-reset-bug-affects-only-non-english-pcs",
+  "slug_microsoft_kb5120998_mouse_reset_bug_affects",
+  "96e2fd59ead7d98e5c352e6f503d1cf874373d3bbd3608d8dd42dee80322527e",
+  "https://www.securityweek.com/ai-agent-firewall-startup-air-security-emerges-from-stealth-with-50-million",
+  "slug_ai_agent_firewall_startup_air_security"
 ]
