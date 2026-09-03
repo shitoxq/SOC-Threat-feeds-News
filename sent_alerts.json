@@ -439,5 +439,14 @@
   "CVE_CVE-2026-9586",
   "e492d14c6ffaf0dacd4fa07aaec91991c53664f48460c7f0b33e2766ecd1c5d0",
   "https://www.securityweek.com/openleash-adds-a-human-check-to-risky-ai-agent-actions",
-  "slug_openleash_adds_human_check_risky_ai"
+  "slug_openleash_adds_human_check_risky_ai",
+  "cc6eebb4ccdc34f3f6671b29775230fa5e74f4b0380a1d74ffdbde62af83d05c",
+  "https://thehackernews.com/2026/09/malicious-apache-modules-hijack.html",
+  "slug_malicious_apache_modules_hijack_brazilian_government",
+  "3ce23c1a0169d87ebb54e084eef727091c5ba86413535037552fb98e179602b0",
+  "https://www.bleepingcomputer.com/news/security/sality-botnet-infrastructure-dismantled-in-joint-global-takedown",
+  "slug_sality_botnet_infrastructure_dismantled_joint_global",
+  "e442e064250d9870ef470ace2dd43d5bc3b14e3b99bb7aa07a1653e0d97a2f84",
+  "https://cybersecuritynews.com/dropbox-lenovo-id-flaw",
+  "slug_dropbox_says_5000_accounts_were_compromised"
 ]
