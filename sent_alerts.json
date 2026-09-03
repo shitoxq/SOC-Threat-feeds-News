@@ -448,5 +448,15 @@
   "slug_sality_botnet_infrastructure_dismantled_joint_global",
   "e442e064250d9870ef470ace2dd43d5bc3b14e3b99bb7aa07a1653e0d97a2f84",
   "https://cybersecuritynews.com/dropbox-lenovo-id-flaw",
-  "slug_dropbox_says_5000_accounts_were_compromised"
+  "slug_dropbox_says_5000_accounts_were_compromised",
+  "8071e541fd79f3e371c05b831ac68f2c723d387e5cf5a1de02ca6dc76856301c",
+  "https://thehackernews.com/2026/09/attackers-exploit-two-sonicwall-sma.html",
+  "slug_attackers_exploit_two_sonicwall_sma_1000",
+  "CVE_CVE-2026-83548",
+  "156c10a8a9303a821f750fa31b52c1aa2ae01fd6fa0c8d976ede7c52e25ba2be",
+  "https://www.securityweek.com/uk-moves-to-block-high-risk-tech-suppliers-from-critical-infrastructure",
+  "slug_uk_moves_block_highrisk_tech_suppliers",
+  "9e184f7cdec715a04d889fb69d1761930c4a7a721cb63a05269ea387f9754bf7",
+  "https://www.vulncheck.com/blog/ai-assisted-vulnerability-discovery",
+  "slug_first_cve_wave_signs_that_aiassisted"
 ]
