@@ -458,5 +458,14 @@
   "slug_uk_moves_block_highrisk_tech_suppliers",
   "9e184f7cdec715a04d889fb69d1761930c4a7a721cb63a05269ea387f9754bf7",
   "https://www.vulncheck.com/blog/ai-assisted-vulnerability-discovery",
-  "slug_first_cve_wave_signs_that_aiassisted"
+  "slug_first_cve_wave_signs_that_aiassisted",
+  "21d7fb2ca2b3641ce8b901ccaed2c58af30e54baec778d247254217167e0bf6b",
+  "https://thehackernews.com/2026/09/researcher-releases-falconflank-poc.html",
+  "slug_researcher_releases_falconflank_poc_showing_privilege",
+  "e109cdc493d20607e519e9c0a6425f2d8aa7074665977b9780d1d96521d7bdd6",
+  "https://www.bleepingcomputer.com/news/microsoft/microsoft-teams-outlook-fail-to-launch-on-arm-based-windows-pcs",
+  "slug_microsoft_teams_outlook_fail_launch_armbased",
+  "66716786d8324f014a41e620ab1215db8150128135d96330cdec203b22abae99",
+  "https://cybersecuritynews.com/the-gentlemen-ransomware",
+  "slug_gentlemen_ransomware_hackers_disable_edr_backups"
 ]
