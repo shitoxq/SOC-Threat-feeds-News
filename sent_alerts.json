@@ -554,5 +554,15 @@
   "slug_idscan_sued_over_alleged_data_breach",
   "4ed4ab168dcd90325e44d5f24ed479173ee3c208ac377b6cc2902bc3415de0f6",
   "https://cybersecuritynews.com/project-zenith-windows-pcs",
-  "slug_microsoft_unveils_project_zenith_windows_pcs"
+  "slug_microsoft_unveils_project_zenith_windows_pcs",
+  "b1ea25ffc3704bdbcc3c50b2d0aa533cf7122efe320a6cc6a318c0758b53d0be",
+  "https://thehackernews.com/2026/09/new-ted-backdoor-hides-inside-victims.html",
+  "slug_new_ted_backdoor_hides_inside_victimsx27",
+  "b8b1aa72eba38071510c771be4df18ab45a0ac94760190d545e3be6f3b64cc75",
+  "https://www.bleepingcomputer.com/news/security/hackers-target-critical-citrix-netscaler-auth-bypass-in-attacks",
+  "slug_critical_citrix_netscaler_auth_bypass_now",
+  "CVE_CVE-2026-19490",
+  "95e67a2601c458c927a934023553454f0171baceb927f88ab909763cfc661d7b",
+  "https://www.securityweek.com/in-other-news-microsofts-cloud-patches-hacked-dropbox-accounts-guardios-1-1b-valuation",
+  "slug_other_news_microsofts_cloud_patches_hacked"
 ]
