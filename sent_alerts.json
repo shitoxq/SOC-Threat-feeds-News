@@ -505,5 +505,15 @@
   "CVE_CVE-2026-32475",
   "2db8937381582019e818db7157665948b91834237d36eccb26ce41fd1c84e186",
   "https://cybersecuritynews.com/hackers-weaponize-screenconnect",
-  "slug_hackers_weaponize_screenconnect_spread_wormlike_malware"
+  "slug_hackers_weaponize_screenconnect_spread_wormlike_malware",
+  "28b73ab0049071506ea9029b461b823e9fb5f1de93c7b1ade20bc678320360d2",
+  "https://thehackernews.com/2026/09/shai-huluds-reach-just-grew-to-469.html",
+  "slug_shaihuludx27s_reach_just_grew_469_credential",
+  "a0ebe15960fb12ef0d1fd6b97cc7a86b4c1cec0bdbb19b04a9606d3fdd622e02",
+  "https://cybersecuritynews.com/avast-antivirus-0-day-vulnerability-poc-released",
+  "slug_chaotic_eclipse_claims_avast_antivirus_0day",
+  "be188fd5a946eee6e4052f5ea60a5f6a58c663b0a553649b02158fe217936df5",
+  "https://www.securityweek.com/over-3-million-wordpress-sites-affected-by-migration-plugin-vulnerability",
+  "slug_over_3_million_wordpress_sites_affected",
+  "CVE_CVE-2026-19949"
 ]
