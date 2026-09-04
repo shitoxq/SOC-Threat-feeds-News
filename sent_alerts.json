@@ -573,5 +573,15 @@
   "slug_microsoft_says_some_users_cant_open",
   "95c9968bf23bf6a36ec3e765bacef132e4fba165c15d507116fe81f302c2ae1f",
   "https://cybersecuritynews.com/popular-messaging-services",
-  "slug_hackers_use_popular_messaging_services_control"
+  "slug_hackers_use_popular_messaging_services_control",
+  "d16d663650cdf0909761f2f1dec16b41f7fec21219bd645a14763afde1773c0d",
+  "https://www.bleepingcomputer.com/news/microsoft/exchange-online-outage-causes-email-delays-server-busy-errors",
+  "slug_exchange_online_outage_causes_email_delays",
+  "4ded8a3c82d5529f8867834f4f679b6a101ac584df78d8187944a70f1497629b",
+  "https://cybersecuritynews.com/nodestealer-record-everything",
+  "slug_nodestealer_can_now_record_everything_victims",
+  "20522a1cb72e62283f16666b0d404101b34d888655aa25c8fcc1e0a654ca2a36",
+  "https://www.securityweek.com/hpe-patches-critical-rce-vulnerabilities-in-aos-cx",
+  "slug_hpe_patches_critical_rce_vulnerabilities_aoscx",
+  "CVE_CVE-2026-73749"
 ]
