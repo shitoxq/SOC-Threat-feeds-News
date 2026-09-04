@@ -564,5 +564,14 @@
   "CVE_CVE-2026-19490",
   "95e67a2601c458c927a934023553454f0171baceb927f88ab909763cfc661d7b",
   "https://www.securityweek.com/in-other-news-microsofts-cloud-patches-hacked-dropbox-accounts-guardios-1-1b-valuation",
-  "slug_other_news_microsofts_cloud_patches_hacked"
+  "slug_other_news_microsofts_cloud_patches_hacked",
+  "09bf1e9a868fb64ec57d8e633cdf795a24ff9eee3900064159566ea93b40a775",
+  "https://thehackernews.com/2026/09/gpt-6-astra-scores-100-on-exploitbench.html",
+  "slug_gpt6_astra_scores_100_exploitbench_openai",
+  "ae12b0b8995e822b9f57d88ded764ae3a57dd8580d7dbd13d64ab67fbf866bea",
+  "https://www.bleepingcomputer.com/news/microsoft/microsoft-says-some-users-cant-open-the-teams-desktop-client",
+  "slug_microsoft_says_some_users_cant_open",
+  "95c9968bf23bf6a36ec3e765bacef132e4fba165c15d507116fe81f302c2ae1f",
+  "https://cybersecuritynews.com/popular-messaging-services",
+  "slug_hackers_use_popular_messaging_services_control"
 ]
