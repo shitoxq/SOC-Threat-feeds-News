@@ -524,5 +524,15 @@
   "slug_cisco_warns_unpatched_secure_email_patches",
   "4ad381d57bc8a51f4d1bc750d9b11737cbfb4723a3f2f6d04b725128148cab51",
   "https://www.vulncheck.com/blog/vulncheck-exploit-intelligence-app-in-splunkbase",
-  "slug_learn_how_operationalize_exploit_intelligence_splunk"
+  "slug_learn_how_operationalize_exploit_intelligence_splunk",
+  "49749711ba07df5a4d9ea4b4f1812555860772af23fd3219e591fde608fd2cc8",
+  "https://thehackernews.com/2026/09/google-releases-chrome-update-to-patch.html",
+  "slug_google_releases_chrome_update_patch_actively",
+  "CVE_CVE-2026-85046",
+  "dd743a0f7bb4cec5dec3258da73991baa8d3136c555393734d8a929e3a017d6d",
+  "https://cybersecuritynews.com/14-fake-macos-installers",
+  "slug_14_fake_macos_installers_linked_dprk",
+  "78dba48bcdf2229a1dbdf292c4ee969f72886ad84894e368a5b1a2d786400ad6",
+  "https://www.vulncheck.com/blog/anthropic-glasswing-cves",
+  "slug_tracking_cves_attributed_anthropic_researchers_project"
 ]
