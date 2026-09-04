@@ -545,5 +545,14 @@
   "39c7734ca57162f9f40e76399676a4dc1f66d94ae5f422da001ab5ab33a37c86",
   "https://www.securityweek.com/12-year-old-postgresql-vulnerability-enables-database-server-takeover",
   "slug_12yearold_postgresql_vulnerability_enables_database_server",
-  "CVE_CVE-2026-6471"
+  "CVE_CVE-2026-6471",
+  "ffe72a79b189453f28a961058607b2b0bf76089bdef51b97428a33af70666598",
+  "https://thehackernews.com/2026/09/phishing-campaign-sends-millions-of.html",
+  "slug_phishing_campaign_sends_millions_emails_using",
+  "3d69c192271a8e735f2df86dac11377abe000bd8be23286562a2bcdc10a3b331",
+  "https://www.bleepingcomputer.com/news/security/idscan-sued-over-alleged-data-breach-affecting-153-million-drivers",
+  "slug_idscan_sued_over_alleged_data_breach",
+  "4ed4ab168dcd90325e44d5f24ed479173ee3c208ac377b6cc2902bc3415de0f6",
+  "https://cybersecuritynews.com/project-zenith-windows-pcs",
+  "slug_microsoft_unveils_project_zenith_windows_pcs"
 ]
