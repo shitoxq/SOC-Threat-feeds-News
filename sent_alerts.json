@@ -534,5 +534,16 @@
   "slug_14_fake_macos_installers_linked_dprk",
   "78dba48bcdf2229a1dbdf292c4ee969f72886ad84894e368a5b1a2d786400ad6",
   "https://www.vulncheck.com/blog/anthropic-glasswing-cves",
-  "slug_tracking_cves_attributed_anthropic_researchers_project"
+  "slug_tracking_cves_attributed_anthropic_researchers_project",
+  "7eb26d7003dcb87e477704e8847eae18615b5255444eec6470d3131d13709387",
+  "https://thehackernews.com/2026/09/over-440000-exploit-attempts-target.html",
+  "slug_over_440000_exploit_attempts_target_super",
+  "CVE_CVE-2026-14894",
+  "8a0e2780f6893da63c138424a50d19f85e0a89f26073a19638a58c5685b1f3d6",
+  "https://www.bleepingcomputer.com/news/security/new-crowdstrike-falconflank-zero-day-grants-system-privileges",
+  "slug_new_crowdstrike_x27falconflankx27_zeroday_grants_system",
+  "39c7734ca57162f9f40e76399676a4dc1f66d94ae5f422da001ab5ab33a37c86",
+  "https://www.securityweek.com/12-year-old-postgresql-vulnerability-enables-database-server-takeover",
+  "slug_12yearold_postgresql_vulnerability_enables_database_server",
+  "CVE_CVE-2026-6471"
 ]
