@@ -515,5 +515,14 @@
   "be188fd5a946eee6e4052f5ea60a5f6a58c663b0a553649b02158fe217936df5",
   "https://www.securityweek.com/over-3-million-wordpress-sites-affected-by-migration-plugin-vulnerability",
   "slug_over_3_million_wordpress_sites_affected",
-  "CVE_CVE-2026-19949"
+  "CVE_CVE-2026-19949",
+  "b6e02e04385587bfc94fbc2569c3b9baa87beadc68c8d5cebde9ffd9a973bae1",
+  "https://thehackernews.com/2026/09/pegasus-zero-click-spyware-exploit.html",
+  "slug_pegasus_zeroclick_spyware_exploit_infects_serbian",
+  "63a0a8e05880e72d52dbc52fbd717ce3a748531927d6550a2e9c1b4708f361d1",
+  "https://www.securityweek.com/cisco-warns-of-unpatched-secure-email-flaws-patches-critical-switch-vulnerabilities",
+  "slug_cisco_warns_unpatched_secure_email_patches",
+  "4ad381d57bc8a51f4d1bc750d9b11737cbfb4723a3f2f6d04b725128148cab51",
+  "https://www.vulncheck.com/blog/vulncheck-exploit-intelligence-app-in-splunkbase",
+  "slug_learn_how_operationalize_exploit_intelligence_splunk"
 ]
