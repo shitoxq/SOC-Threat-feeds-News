@@ -593,5 +593,17 @@
   "c24dc62865bc341a3432c2112ce3b1e1ce92f1a6ac266dd70b50c52d14ac9f2c",
   "https://www.vulncheck.com/blog/cisco-fmc-auth-bypass-cve-2026-20079",
   "slug_cve202620079_cisco_fmc_authentication_bypass_rce",
-  "CVE_CVE-2026-20079"
+  "CVE_CVE-2026-20079",
+  "e8ed5758cb94cee0c3d62eb9ce76812b67ebcfa92972d578be97073d57fbbbd3",
+  "https://www.securityweek.com/google-patches-6th-chrome-zero-day-of-2026",
+  "slug_google_patches_6th_chrome_zeroday_2026",
+  "01f7e1fced898888d22da7cb1a586d324df2b8b1009732050d8380edb0db247a",
+  "https://www.vulncheck.com/blog/return-of-the-kinsing",
+  "slug_return_kinsingcanary_intelligence_linked_exploitation_cve202346604",
+  "CVE_CVE-2023-46604",
+  "CVE_CVE-2023-38646",
+  "CVE_CVE-2025-55182",
+  "67d07132c6f5e5f1d2d7bf3af7a1b52736671501448fe37b385fd5702bd4371c",
+  "https://www.helpnetsecurity.com/2026/09/04/microsoft-teams-qr-code-phishing-protection",
+  "slug_microsoft_teams_about_make_qr_code"
 ]
