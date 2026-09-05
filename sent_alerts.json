@@ -605,5 +605,14 @@
   "CVE_CVE-2025-55182",
   "67d07132c6f5e5f1d2d7bf3af7a1b52736671501448fe37b385fd5702bd4371c",
   "https://www.helpnetsecurity.com/2026/09/04/microsoft-teams-qr-code-phishing-protection",
-  "slug_microsoft_teams_about_make_qr_code"
+  "slug_microsoft_teams_about_make_qr_code",
+  "56c3620d2b89d48303c0ec59e0d2bec900c62d9af0f6344218fc7912b146c6d9",
+  "https://cybersecuritynews.com/microsoft-teams-desktop-client-fails",
+  "slug_microsoft_teams_desktop_client_fails_load",
+  "a821996a2d0f5a0e43407402faf1f4833713d8e25a6afcc6558ce0986d90eec8",
+  "https://www.vulncheck.com/blog/network-edge-device-report-2026",
+  "slug_2026_state_exploitation_exploiting_network_edgewhats",
+  "500875b4bce7efe066e6c01e3b6197f824089f1a7b67271a47804d160ae5f453",
+  "https://gbhackers.com/chainguard-hits-1-billion-build-manifests",
+  "slug_chainguard_hits_1_billion_build_manifests"
 ]
