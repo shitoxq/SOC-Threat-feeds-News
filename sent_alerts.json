@@ -583,5 +583,15 @@
   "20522a1cb72e62283f16666b0d404101b34d888655aa25c8fcc1e0a654ca2a36",
   "https://www.securityweek.com/hpe-patches-critical-rce-vulnerabilities-in-aos-cx",
   "slug_hpe_patches_critical_rce_vulnerabilities_aoscx",
-  "CVE_CVE-2026-73749"
+  "CVE_CVE-2026-73749",
+  "14b1ea90767ef9616659bfad43321edba93d3e061aafecb6c7d6b253af71fddf",
+  "https://www.bleepingcomputer.com/news/security/google-warns-of-new-chrome-zero-day-flaw-exploited-in-attacks",
+  "slug_google_warns_new_chrome_zeroday_exploited",
+  "eca0744b0f2483497a32c39c33f1f26a7d9a748ff9cecb7ac7ded4cf5b07ed45",
+  "https://www.securityweek.com/vmware-workstation-and-fusion-updates-patch-critical-vulnerability",
+  "slug_vmware_workstation_fusion_updates_patch_critical",
+  "c24dc62865bc341a3432c2112ce3b1e1ce92f1a6ac266dd70b50c52d14ac9f2c",
+  "https://www.vulncheck.com/blog/cisco-fmc-auth-bypass-cve-2026-20079",
+  "slug_cve202620079_cisco_fmc_authentication_bypass_rce",
+  "CVE_CVE-2026-20079"
 ]
