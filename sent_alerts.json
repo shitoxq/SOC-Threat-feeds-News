@@ -625,5 +625,15 @@
   "CVE_CVE-2026-21858",
   "a76d1a219c01e16555412959ff8215c71b77d3f8e0531f414e103ebe92f5d627",
   "https://gbhackers.com/russian-apt28-linked-hackers-deploy-hookedge-backdoor",
-  "slug_russian_hackers_deploy_new_hookedge_backdoor"
+  "slug_russian_hackers_deploy_new_hookedge_backdoor",
+  "551866af22287070ec00fe6cd7df06e57345755d4463a6909ccfd4cc4c9d5a40",
+  "https://cybersecuritynews.com/ai-agents-for-real-world-cyberattacks",
+  "slug_hackers_turn_claude_qwen_deepseek_into",
+  "435bd94b9a602296659790bbdbea37c863470d0ec0c9fa571380a430f7c4ff3c",
+  "https://www.vulncheck.com/blog/cisco-sd-wan-manager-vulns",
+  "slug_herding_cats_recent_cisco_sdwan_manager",
+  "CVE_CVE-2026-20127",
+  "d6b3d23e63d18bc4c52106742ed8f6547ae1a4cbcc619052830022d16ec9efba",
+  "https://gbhackers.com/new-panzer-ransomware-hits-16-victim",
+  "slug_new_panzer_ransomware_hits_16_victims"
 ]
