@@ -682,5 +682,15 @@
   "slug_openai_putting_1_billion_behind_daybreak",
   "ad5c01cff9d35d86a1f98be60b7784edde8b9d710bf8633d57459e5a8dcb18e3",
   "https://ipurple.team/2026/07/06/windows-service",
-  "slug_windows_service"
+  "slug_windows_service",
+  "9631f0b592162fd02392563884c5f3195a846f3855232542839450beeef271c5",
+  "https://cybersecuritynews.com/magento-and-adobe-commerce-0-day-rce",
+  "slug_hackers_actively_exploiting_magento_adobe_commerce",
+  "c21db5e5719b6ff94228ef25be61f7b6779fbfd303a26bf76ec89dbd5fffa56c",
+  "https://www.vulncheck.com/blog/smartermail-connecttohub-rce-cve-2026-24423",
+  "slug_street_smarts_smartermail_connecttohub_unauthenticated_rce",
+  "CVE_CVE-2026-24423",
+  "d50b94565d692bfbb947bab80283445824f6ae22fb0a972471bec3404136dbdb",
+  "https://gbhackers.com/hivemq-powers-backdoor",
+  "slug_hackers_turn_hivemq_element_messenger_into"
 ]
