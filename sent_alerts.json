@@ -692,5 +692,14 @@
   "CVE_CVE-2026-24423",
   "d50b94565d692bfbb947bab80283445824f6ae22fb0a972471bec3404136dbdb",
   "https://gbhackers.com/hivemq-powers-backdoor",
-  "slug_hackers_turn_hivemq_element_messenger_into"
+  "slug_hackers_turn_hivemq_element_messenger_into",
+  "bec3d4c719cb03958c036b9d2272ba2b2c5f6d783c02fbc9de6264c5a2938164",
+  "https://thehackernews.com/2026/09/attackers-hijack-mikrotik-routers.html",
+  "slug_attackers_hijack_mikrotik_routers_through_internetexposed",
+  "df16f3107e9fe17e1d303bb80bc8e80568819131b858ce3298c0297ffea0388e",
+  "https://www.vulncheck.com/blog/state-of-exploitation-2026",
+  "slug_vulncheck_state_exploitation_2026key_trends_findings",
+  "0b0d0b66f54c8bc5016416fddce03401dbe8d845f1eaef3e68c4f0a845971694",
+  "https://www.helpnetsecurity.com/2026/09/06/week-in-review-claude-accounts-compromised-through-infostealer-patch-tuesday-forecast",
+  "slug_week_review_claude_accounts_compromised_through"
 ]
