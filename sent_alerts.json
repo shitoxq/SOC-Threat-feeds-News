@@ -710,5 +710,15 @@
   "slug_attackers_conceal_phishing_lures_using_invisible",
   "9d553818931e53f34b8bb7eb047a1e6f2eb50a59b1b8e477bf6445310daacbc8",
   "https://cybersecuritynews.com/crowdstrike-launches-safemind",
-  "slug_crowdstrike_launches_safemind_first_agentic_cybersecurity"
+  "slug_crowdstrike_launches_safemind_first_agentic_cybersecurity",
+  "303f0dc16bcc3777e7e374096f521ac155c546d4d1b42d61a72061302935315b",
+  "https://cybersecuritynews.com/asus-control-center-vulnerability",
+  "slug_asus_control_center_allows_attackers_gain",
+  "CVE_CVE-2026-75754",
+  "d70478c2d2d873d5195251b8d7ffb91bcf4a628082f30acde10d63a8efe56f5c",
+  "https://www.vulncheck.com/blog/forticloud-sso-login-bypass",
+  "slug_forticloud_sso_login_bypass_vulnerabilities_exploited",
+  "e456d86bc3ea13648ab7494591e98a86da6dfa45b5f5165b322209a1eed5f9b6",
+  "https://gbhackers.com/openai-agents-collude-on-public-wiki",
+  "slug_openai_agents_collude_public_wiki_share"
 ]
