@@ -739,5 +739,11 @@
   "slug_winget",
   "94e558ccbd8d4c96e56de89288b747f6eb309eb010d638562fca58c2286beeab",
   "https://www.infosecurity-magazine.com/news/outsider-phishing-kit-survives",
-  "slug_outsider_phishing_kit_survives_takedown_700"
+  "slug_outsider_phishing_kit_survives_takedown_700",
+  "d22c4aa767cf58ec92e6a277ba43cca38228c7d2b1a6a30afb1d3fd4a491b8c4",
+  "https://www.vulncheck.com/blog/react2shell-github",
+  "slug_react2shell_exploits_githubvulncheck_reviewed_full_wave",
+  "ce7b87ad3c43d63e1a7f610392bd65f44806c03952f005fec1477d0d1e0f901a",
+  "https://www.infosecurity-magazine.com/news/international-operation-disrupts",
+  "slug_international_operation_disrupts_sality_p2p_botnet"
 ]
