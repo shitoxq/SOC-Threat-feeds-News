@@ -720,5 +720,15 @@
   "slug_forticloud_sso_login_bypass_vulnerabilities_exploited",
   "e456d86bc3ea13648ab7494591e98a86da6dfa45b5f5165b322209a1eed5f9b6",
   "https://gbhackers.com/openai-agents-collude-on-public-wiki",
-  "slug_openai_agents_collude_public_wiki_share"
+  "slug_openai_agents_collude_public_wiki_share",
+  "935f495f66e01e67be2c8ff8ce852927207983d9fea74232da627dda602dc75f",
+  "https://www.vulncheck.com/blog/triofox-exploit-cve-2025-12480",
+  "slug_tales_from_exploit_mines_gladinet_triofox",
+  "CVE_CVE-2025-12480",
+  "90994d6b9c7e4de5418b3456b567532f8eaec9a6980a547f65cc89d8dd15f0b1",
+  "https://ipurple.team/2026/06/17/qos-policies",
+  "slug_qos_policies",
+  "c69aad9994f4400dfd583c42664bdf0fba667a44747e1a0c288121ea5e7fdb2a",
+  "https://www.infosecurity-magazine.com/news/pegasus-zero-click-exploit",
+  "slug_pegasus_zeroclick_exploit_infects_serbian_student"
 ]
