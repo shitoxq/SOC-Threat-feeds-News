@@ -730,5 +730,14 @@
   "slug_qos_policies",
   "c69aad9994f4400dfd583c42664bdf0fba667a44747e1a0c288121ea5e7fdb2a",
   "https://www.infosecurity-magazine.com/news/pegasus-zero-click-exploit",
-  "slug_pegasus_zeroclick_exploit_infects_serbian_student"
+  "slug_pegasus_zeroclick_exploit_infects_serbian_student",
+  "b7a287cfbcada699c54933236ff485e9e5a539066c7b99a23362d48358b2660c",
+  "https://www.vulncheck.com/blog/cvss-severity",
+  "slug_critical_cves_cvss_v4_adoption_gap",
+  "c75621acaae903c2e940eb09b571a2f9dd453d029dc1d110afd6fb78ef03e7d3",
+  "https://ipurple.team/2026/06/09/winget",
+  "slug_winget",
+  "94e558ccbd8d4c96e56de89288b747f6eb309eb010d638562fca58c2286beeab",
+  "https://www.infosecurity-magazine.com/news/outsider-phishing-kit-survives",
+  "slug_outsider_phishing_kit_survives_takedown_700"
 ]
