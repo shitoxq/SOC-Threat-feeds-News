@@ -799,5 +799,14 @@
   "slug_hackers_exploit_new_mikrotik_routeros_hijack",
   "d70a518200b3328d332eb8531cd8ef9452985a90c0dfb5b09200bae87882368a",
   "https://www.securityweek.com/adobe-commerce-zero-day-exploited-to-backdoor-online-stores",
-  "slug_adobe_commerce_zeroday_exploited_backdoor_online"
+  "slug_adobe_commerce_zeroday_exploited_backdoor_online",
+  "ff2a8ecee2aa5028dadc3df9b235308488ffba6cd23fc1241f999b132355bdfc",
+  "https://thehackernews.com/2026/09/telerik-ui-padding-oracle-bug-chained.html",
+  "slug_telerik_ui_paddingoracle_bug_chained_unauthenticated",
+  "7cde922df0a0022ee88d1bbe3c92e10fe99faa5f1a503d8ad64f3a4cba497340",
+  "https://www.bleepingcomputer.com/news/security/n-able-patches-max-severity-n-central-flaw-amid-ongoing-attacks",
+  "slug_nable_patches_max_severity_ncentral_amid",
+  "e08b5f96bc33849d9aa01da06a4ff3721b14d1e79d3cf3764ca50502f350a063",
+  "https://www.securityweek.com/modified-screenconnect-clients-used-in-worm-like-campaign",
+  "slug_modified_screenconnect_clients_used_wormlike_campaign"
 ]
