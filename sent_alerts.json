@@ -808,5 +808,16 @@
   "slug_nable_patches_max_severity_ncentral_amid",
   "e08b5f96bc33849d9aa01da06a4ff3721b14d1e79d3cf3764ca50502f350a063",
   "https://www.securityweek.com/modified-screenconnect-clients-used-in-worm-like-campaign",
-  "slug_modified_screenconnect_clients_used_wormlike_campaign"
+  "slug_modified_screenconnect_clients_used_wormlike_campaign",
+  "2fdb7e2328900989dfc88cb081d19ce88b569381d5f03c16232fd6b010817483",
+  "https://thehackernews.com/2026/09/adobe-patches-magento-zero-day.html",
+  "slug_adobe_patches_magento_zeroday_exploited_deploy",
+  "CVE_CVE-2026-75650",
+  "ac68ec43cbf2f30745116ed544c9f82f6a87c728654d8ca269d5201482543c71",
+  "https://www.securityweek.com/mathspace-data-breach-exposes-over-1-million-people",
+  "slug_mathspace_data_breach_exposes_over_1",
+  "aec8daffc0c2837f247ef9cc9673f84baf064659509adc5437cad58401d66f38",
+  "https://www.vulncheck.com/blog/frost-checks-first",
+  "slug_frost_checks_first_selective_exploitationnew_cve20252611",
+  "CVE_CVE-2025-2611"
 ]
