@@ -819,5 +819,14 @@
   "aec8daffc0c2837f247ef9cc9673f84baf064659509adc5437cad58401d66f38",
   "https://www.vulncheck.com/blog/frost-checks-first",
   "slug_frost_checks_first_selective_exploitationnew_cve20252611",
-  "CVE_CVE-2025-2611"
+  "CVE_CVE-2025-2611",
+  "9af5dfe944e1aeb426f02e2b4b754369e7cbb2b7962f02b1e034a5f2368b7bb3",
+  "https://thehackernews.com/2026/09/freeipa-flaw-chain-lets-anonymous.html",
+  "slug_freeipa_chain_lets_anonymous_clients_create",
+  "f9a86150e0337469d96774ca107524ebec820e93d043ad9c263b173473821ec1",
+  "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-says-gpt-6-astra-can-find-zero-days-but-is-also-harder-to-monitor",
+  "slug_openai_says_gpt6_astra_can_find",
+  "41e8345b07b4c7495da918401ab5658461a920e3ae05257b00378ab3a9fd940e",
+  "https://cybersecuritynews.com/claude-mythos-ai",
+  "slug_claude_mythos_ai_autonomously_executes_full"
 ]
