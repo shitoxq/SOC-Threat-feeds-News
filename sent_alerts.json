@@ -846,5 +846,15 @@
   "slug_eu_crax27s_real_question_what_shipped",
   "a1a9858e1b0243e2a2d6d9ea17a726859fdcc0d712438c7c03a6e82a8f58ac57",
   "https://cybersecuritynews.com/microsoft-patch-tuesday-update-september-2026",
-  "slug_massive_microsoft_patch_tuesday_september_2026"
+  "slug_massive_microsoft_patch_tuesday_september_2026",
+  "c096727d1faeeea25820f32219de24087a53ad6dabe4ae9407a5f6099ee9bdd1",
+  "https://thehackernews.com/2026/09/autonomous-ai-agents-compromise.html",
+  "slug_autonomous_ai_agents_compromise_thousands_credentials",
+  "4b151b7286971f3dda2719f4fcdcc355ee34ddaef38c54b2177d7348cec3e06b",
+  "https://www.bleepingcomputer.com/news/security/hackers-breach-f5-big-ip-apm-devices-to-deploy-linux-rootkit",
+  "slug_hackers_breach_f5_bigip_apm_devices",
+  "956fda6f4a96a5a4478b99c6947b5c412e311c9ea7c00161a52ce55a5176ea21",
+  "https://cybersecuritynews.com/fortios-and-fortiproxy-ztna-validation-vulnerability",
+  "slug_fortios_fortiproxy_ztna_validation_vulnerability_allows",
+  "CVE_CVE-2026-84393"
 ]
