@@ -892,5 +892,15 @@
   "slug_veradigm_warns_patient_data_breach_after",
   "97c3b82998d980687bce88d30de95271027227607278e5bfd121cfe33a1e3fe6",
   "https://cybersecuritynews.com/papercut-flaws-compromised-using-ai",
-  "slug_hackers_use_hundreds_ai_agents_exploit"
+  "slug_hackers_use_hundreds_ai_agents_exploit",
+  "375dd8a3b2ed53b2a949659779634d8e6b3b1ed0987325eac351e3335fe5c1a0",
+  "https://thehackernews.com/2026/09/chrome-v8-zero-day-exploited-in-wild.html",
+  "slug_chrome_v8_zeroday_exploited_wild_enables",
+  "CVE_CVE-2026-87491",
+  "c5f2ff27bdb5bb0fb1597dedf85fe73029ca1bb7aff8c6a16e46287d7e08f8c4",
+  "https://cybersecuritynews.com/bluemoon-exploit-chain",
+  "slug_hackers_chain_chrome_windows_zerodays_new",
+  "919d0f0ddfc3583d1548cde4ea0b5acee9f956d04fbf0fa15f1e84fd588130d4",
+  "https://www.securityweek.com/ai-is-giving-lesser-resourced-attackers-nation-state-level-reach-google-warns",
+  "slug_ai_giving_lesserresourced_attackers_nationstatelevel_reach"
 ]
