@@ -865,5 +865,14 @@
   "slug_microsoft_patches_record_974_vulnerabilities_including",
   "10da45e9ae675ce5bba287425416eb70729a8c32a49f22a7611bd449d97034dc",
   "https://www.vulncheck.com/blog/mystery-oast",
-  "slug_mystery_oast_host_behind_regionally_focused"
+  "slug_mystery_oast_host_behind_regionally_focused",
+  "07d47a2f7f2e37713fd5fcb4fea08efb3e6fa232cc8c8da31e37b26f3e7b9a75",
+  "https://thehackernews.com/2026/09/microsoft-patches-record-974-flaws.html",
+  "slug_microsoft_patches_record_974_including_two",
+  "729d444e01b0d3e5dd69eae08017353721b963a05c6866035c54a1afaa552bd4",
+  "https://www.bleepingcomputer.com/news/security/google-patches-seventh-chrome-zero-day-exploited-in-attacks-this-year",
+  "slug_google_warns_new_chrome_zeroday_bug",
+  "5e53df8de633060e48e8e6c5b456559270335810cb2d4e5f2d78cc7db4aaa687",
+  "https://cybersecuritynews.com/chrome-153-released",
+  "slug_chrome_153_fixes_230_vulnerabilities_including"
 ]
