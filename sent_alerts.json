@@ -874,5 +874,14 @@
   "slug_google_warns_new_chrome_zeroday_bug",
   "5e53df8de633060e48e8e6c5b456559270335810cb2d4e5f2d78cc7db4aaa687",
   "https://cybersecuritynews.com/chrome-153-released",
-  "slug_chrome_153_fixes_230_vulnerabilities_including"
+  "slug_chrome_153_fixes_230_vulnerabilities_including",
+  "c33829733f1a8e1bb99008c13e51c6a04377b35d772d5f55e215d6c417eaa53b",
+  "https://thehackernews.com/2026/09/deepseek-harness-flaw-let-ai-agents.html",
+  "slug_deepseek_harness_let_ai_agents_disable",
+  "bb8d4748c52432ecba8a76b24d44a507cc26657b4f395cf623dc5abe395c5a85",
+  "https://www.bleepingcomputer.com/news/security/new-microsoft-defender-shieldcrash-zero-day-grants-system-access",
+  "slug_new_microsoft_defender_x27shieldcrashx27_zeroday_grants",
+  "da172f4538119c97471658759df3cd84771cd31a8cb001536b0e8ebe26b74783",
+  "https://cybersecuritynews.com/ai-agents-2",
+  "slug_hackers_target_claude_cursor_codex_ai"
 ]
