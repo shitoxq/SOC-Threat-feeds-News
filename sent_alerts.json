@@ -856,5 +856,14 @@
   "956fda6f4a96a5a4478b99c6947b5c412e311c9ea7c00161a52ce55a5176ea21",
   "https://cybersecuritynews.com/fortios-and-fortiproxy-ztna-validation-vulnerability",
   "slug_fortios_fortiproxy_ztna_validation_vulnerability_allows",
-  "CVE_CVE-2026-84393"
+  "CVE_CVE-2026-84393",
+  "b1c145804aaacc7a1dfa59a85fd70dccaf53bf767550e010ea9c31ea1bf4782c",
+  "https://www.bleepingcomputer.com/news/microsoft/microsoft-adds-age-awareness-apis-that-can-tell-if-users-are-children-teens-or-adults",
+  "slug_microsoft_adds_ageawareness_apis_that_can",
+  "693c0e9b4dfc7936dba405c2f6ad5d3762f554cee2975eb6dc1871260a33366a",
+  "https://www.securityweek.com/microsoft-patches-record-974-vulnerabilities-including-two-exploited-zero-days",
+  "slug_microsoft_patches_record_974_vulnerabilities_including",
+  "10da45e9ae675ce5bba287425416eb70729a8c32a49f22a7611bd449d97034dc",
+  "https://www.vulncheck.com/blog/mystery-oast",
+  "slug_mystery_oast_host_behind_regionally_focused"
 ]
