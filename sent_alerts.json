@@ -940,5 +940,14 @@
   "slug_product_showcase_gitguardian_honeytoken_catches_credential",
   "59730e2407b364de01a7249da986087d56b93894626ea4f6f58a09e1f487420d",
   "https://ipurple.team/2026/09/09/windows-security-center",
-  "slug_windows_security_center"
+  "slug_windows_security_center",
+  "fd5c4de796254afd16a8d5dcaa51b43a48813486778e27e9e4069b47a0ebc279",
+  "https://thehackernews.com/2026/09/nearly-1-in-10-exposed-litellm-gateways.html",
+  "slug_nearly_1_10_exposed_litellm_gateways",
+  "4d5dcef40e2b88b83e27f7e2508f3be7736713c7579768ffc4a79ef38e4fe967",
+  "https://www.bleepingcomputer.com/news/microsoft/microsoft-resolves-mouse-settings-reset-bug-windows-11-update",
+  "slug_microsoft_says_september_updates_fix_mouse",
+  "fec0b887796a9646f086e89821d130bbf6553be34fa718e6bcfaad83376e6766",
+  "https://www.securityweek.com/4-1-million-impacted-by-adapthealth-data-breach",
+  "slug_41_million_impacted_adapthealth_data_breach"
 ]
