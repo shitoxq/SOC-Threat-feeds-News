@@ -920,5 +920,15 @@
   "slug_fortinet_patches_critical_vulnerabilities_fortimonitoronsight_chrome",
   "f84b183e212a78ce508d930f6deee090c2b6753d1c8ba89f480a27d50074a690",
   "https://www.vulncheck.com/blog/introducing-vulncheck-canary-intelligence",
-  "slug_introducing_vulncheck_canary_intelligenceintroducing_vulncheck_canary"
+  "slug_introducing_vulncheck_canary_intelligenceintroducing_vulncheck_canary",
+  "e90ed309de9e5efdc5bfc86dbebee5113b1876d0376a15cf4d927b634122f716",
+  "https://www.securityweek.com/us-agencies-warn-china-is-systematically-extracting-frontier-ai-capabilities",
+  "slug_us_agencies_warn_china_systematically_extracting",
+  "9959f25d0007181218f94a9b5acc1ae39aea4a1dcbf05396262e581569292fc1",
+  "https://www.vulncheck.com/blog/fortinet-forti-web-exploitation-hits-silently-patched-vulnerability",
+  "slug_fortinet_fortiweb_exploitation_hits_silently_patched",
+  "CVE_CVE-2025-64446",
+  "75ddf15187c30ac237546f185908ea14cb646da2f2561649aa39a4afcd7e4e54",
+  "https://www.helpnetsecurity.com/2026/09/09/akeyless-agentic-runtime-authority-identity-control-layer",
+  "slug_akeyless_adds_realtime_enforcement_ai_agents"
 ]
