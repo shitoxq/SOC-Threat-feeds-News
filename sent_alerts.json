@@ -930,5 +930,15 @@
   "CVE_CVE-2025-64446",
   "75ddf15187c30ac237546f185908ea14cb646da2f2561649aa39a4afcd7e4e54",
   "https://www.helpnetsecurity.com/2026/09/09/akeyless-agentic-runtime-authority-identity-control-layer",
-  "slug_akeyless_adds_realtime_enforcement_ai_agents"
+  "slug_akeyless_adds_realtime_enforcement_ai_agents",
+  "d54a890b110ea2aba369f5443c9d4fa740bef9d494639cd46d10bc966baa0ab8",
+  "https://www.vulncheck.com/blog/xwiki-under-increased-attack",
+  "slug_xwiki_under_increased_attackwhat_began_one",
+  "CVE_CVE-2025-24893",
+  "4c848476dd6bbc44b9b913a47586a11d6b1d1772210d3b4c18d6e4d501b5a86f",
+  "https://www.helpnetsecurity.com/2026/09/10/product-showcase-gitguardian-honeytoken-decoy-service",
+  "slug_product_showcase_gitguardian_honeytoken_catches_credential",
+  "59730e2407b364de01a7249da986087d56b93894626ea4f6f58a09e1f487420d",
+  "https://ipurple.team/2026/09/09/windows-security-center",
+  "slug_windows_security_center"
 ]
