@@ -1,14 +1,4 @@
 [
-  "slug_critical_avada_wordpress_theme_enables_zeroclick",
-  "4f3cf383a7e5d3e45e1cb76c1d891f66cd1b221f1f6f834c7ed2df2f63982c53",
-  "https://cybersecuritynews.com/next-js-vulnerabilities",
-  "slug_critical_nextjs_vulnerabilities_enables_remote_code",
-  "CVE_CVE-2026-75604",
-  "621ca1c7245aff5bfeb9fa5f62a2e53ac0ad4a5cd042ac0b9d0735f81d2ecb7a",
-  "https://thehackernews.com/2026/08/claude-opus-46-bypasses-gym-booking.html",
-  "slug_claude_opus_46_bypasses_gym_booking",
-  "19945f19a624baad90192ab72974a0c2ed5c775672ce9244ef1b9e51b19956b4",
-  "https://www.securityweek.com/chrome-152-patches-over-300-vulnerabilities",
   "slug_chrome_152_patches_over_300_vulnerabilities",
   "dc77f70d96e38d2e02192fdf301144e9e3cc261b447a7cae965fe3b202a5d21e",
   "https://www.vulncheck.com/blog/cve-2026-63520-sharepoint-unsafe-type-rce",
@@ -998,5 +988,15 @@
   "slug_how_threat_actors_turning_trusted_ai",
   "37a1fd237436a1740e5c5e50a807989dd7d6e70e583be9dbf441ca8599a80f74",
   "https://cybersecuritynews.com/hackers-guardbreaker-prompt-injection",
-  "slug_russiaaligned_hackers_use_guardbreaker_prompt_injection"
+  "slug_russiaaligned_hackers_use_guardbreaker_prompt_injection",
+  "a8b89596a45d74f224ef68bc8f12267559b424fc23b6ddc8fd4de3d5ee46e479",
+  "https://thehackernews.com/2026/09/gitlab-cvss-10-file-read-flaw-draws-in.html",
+  "slug_gitlab_cvss_10_fileread_draws_inthewild",
+  "CVE_CVE-2026-85706",
+  "0fbd39958205d3e9f2cdda4972c63da7cb67c0bd55d303f5690351995a6a43a0",
+  "https://www.bleepingcomputer.com/news/security/passkey-themed-phishing-attacks-lead-to-microsoft-365-data-theft",
+  "slug_passkeythemed_phishing_attacks_lead_microsoft_365",
+  "ed8ca42f83a6629ee534feda533a230a3309fe17c81f16bbb18e4626d5f71a52",
+  "https://cybersecuritynews.com/new-kataru-iot-malware",
+  "slug_new_kataru_iot_malware_packs_linux"
 ]
