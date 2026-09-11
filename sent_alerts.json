@@ -1,13 +1,4 @@
 [
-  "https://www.securityweek.com/ai-speeds-up-malware-development-not-its-success-rate-analysis",
-  "slug_ai_speeds_up_malware_development_not",
-  "f601fe4cfa27db520c709e146b5b58d7b3eabb0fc5bf66817c37564b0940aa8a",
-  "https://thehackernews.com/2026/08/unpatched-kaltura-mwembed-flaws-could.html",
-  "slug_unpatched_kaltura_mwembed_could_let_remote",
-  "CVE_CVE-2026-19913",
-  "CVE_CVE-2026-19912",
-  "130c4c420beb465c4d8743cda7f2fcc1361c1f1e141e747bd96386392cfba1a7",
-  "https://www.bleepingcomputer.com/news/security/critical-avada-wordpress-theme-flaw-enables-zero-click-rce",
   "slug_critical_avada_wordpress_theme_enables_zeroclick",
   "4f3cf383a7e5d3e45e1cb76c1d891f66cd1b221f1f6f834c7ed2df2f63982c53",
   "https://cybersecuritynews.com/next-js-vulnerabilities",
@@ -998,5 +989,14 @@
   "https://www.securityweek.com/check-point-patches-critical-vpn-vulnerabilities",
   "slug_check_point_patches_critical_vpn_vulnerabilities",
   "CVE_CVE-2026-85102",
-  "CVE_CVE-2026-85103"
+  "CVE_CVE-2026-85103",
+  "11c8b517d375b0496d90fd5b7053a9fccbb014769553e3bd5d643eace4869326",
+  "https://thehackernews.com/2026/09/china-linked-unc3569-exploited-sogou.html",
+  "slug_chinalinked_unc3569_exploited_sogou_input_method",
+  "fa4f4d6db04213aa3234d930a39ec9d961811d4ed0d5f3c04ce27952f8ab8cce",
+  "https://www.bleepingcomputer.com/news/security/how-threat-actors-are-turning-trusted-ai-platforms-into-an-attack-surface",
+  "slug_how_threat_actors_turning_trusted_ai",
+  "37a1fd237436a1740e5c5e50a807989dd7d6e70e583be9dbf441ca8599a80f74",
+  "https://cybersecuritynews.com/hackers-guardbreaker-prompt-injection",
+  "slug_russiaaligned_hackers_use_guardbreaker_prompt_injection"
 ]
