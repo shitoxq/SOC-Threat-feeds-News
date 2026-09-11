@@ -1,13 +1,4 @@
 [
-  "slug_chrome_152_patches_over_300_vulnerabilities",
-  "dc77f70d96e38d2e02192fdf301144e9e3cc261b447a7cae965fe3b202a5d21e",
-  "https://www.vulncheck.com/blog/cve-2026-63520-sharepoint-unsafe-type-rce",
-  "slug_exploiting_sharepoint_cve202655040_cve202663520_rce_chainbuilding",
-  "CVE_CVE-2026-55040",
-  "CVE_CVE-2026-63520",
-  "038c6cd0b2efdcfa57a79b6c8af3bbc97151b7405d712e8baee25a88e56ce256",
-  "https://thehackernews.com/2026/08/cisa-adds-six-exploited-flaws-to-kev.html",
-  "slug_cisa_adds_six_exploited_kev_including",
   "CVE_CVE-2019-1068",
   "a765ef138bf200700022bf2b8806f53ac32576dcb6ee46e2ffd78522c4d07774",
   "https://cybersecuritynews.com/ai-powered-anonymouskit-phaas",
@@ -998,5 +989,14 @@
   "slug_passkeythemed_phishing_attacks_lead_microsoft_365",
   "ed8ca42f83a6629ee534feda533a230a3309fe17c81f16bbb18e4626d5f71a52",
   "https://cybersecuritynews.com/new-kataru-iot-malware",
-  "slug_new_kataru_iot_malware_packs_linux"
+  "slug_new_kataru_iot_malware_packs_linux",
+  "0f8accb03f1064f009f1e4a63788af7c39eaed1b9322b8e221e5d82ad3c1a73e",
+  "https://thehackernews.com/2026/09/claude-used-to-automate-exploitation.html",
+  "slug_claude_used_automate_exploitation_data_theft",
+  "c414e2b2f270da761d741e0bacd586ba9b21c6304dd62319cddc0f76a46b8812",
+  "https://www.bleepingcomputer.com/news/security/florida-confirms-dmv-database-breached-via-stolen-police-account",
+  "slug_florida_confirms_dmv_database_breached_via",
+  "bbb4bbdff63c2540f57c15fa58efac5f518bff3f1d4a3000f208cb20764b876b",
+  "https://cybersecuritynews.com/windows-11-security-update-kb5124008",
+  "slug_windows_11_security_update_kb5124008_breaks"
 ]
