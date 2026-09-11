@@ -1,9 +1,4 @@
 [
-  "18d4ac8f8ecac5a742c8886688eca44bed7b8eaec48f5fc67aa3918dccc1f4e0",
-  "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
-  "slug_active_exploitation_gitea_gitea_cve202660004",
-  "CVE_CVE-2026-60004",
-  "26c52789df0be9e6ea0ae81b8e74922c7363fcc2e6b4b2704372755bb15b953b",
   "https://thehackernews.com/2026/08/novacookies-campaigns-abuse-genuine.html",
   "slug_novacookies_campaigns_abuse_genuine_docusign_notifications",
   "356a7f991b0feb25020f5f477f7c10fc753f9ebd581423c44b78d2a1c36f3f18",
@@ -994,5 +989,14 @@
   "slug_hackers_exploit_critical_cisco_firewall_gain",
   "e46079a9cb617066fedd28962bac3b6500cdc5c08b9e617b343bafd2f80bb3ef",
   "https://www.securityweek.com/cybersecurity-ma-roundup-33-deals-announced-in-august-2026",
-  "slug_cybersecurity_mampa_roundup_33_deals_announced"
+  "slug_cybersecurity_mampa_roundup_33_deals_announced",
+  "8ffaf3fc581623239e00bf87b1c320a8ad8d1cd479e87a42acd5f0974601aa8d",
+  "https://www.bleepingcomputer.com/news/microsoft/microsoft-excel-kb5002914-update-breaks-copy-and-paste-for-some-users",
+  "slug_microsoft_excel_kb5002914_update_breaks_copy",
+  "6a98439566a3507b48ed9327ce3da21059ae2ffbd638641d99bb7bbf1f7cc2d0",
+  "https://www.securityweek.com/deceptive-android-apps-exploit-google-play-early-access-to-evade-reviews",
+  "slug_deceptive_android_apps_exploit_google_play",
+  "aed7533007a48c8c40e813719962dc59466f8bd1b1d26af2040a1a5ae2a7d9cf",
+  "https://www.vulncheck.com/blog/making-dotnet-gadgets",
+  "slug_making_serialization_gadgets_hand_netcreating_languagenative"
 ]
