@@ -1,14 +1,4 @@
 [
-  "https://thehackernews.com/2026/08/novacookies-campaigns-abuse-genuine.html",
-  "slug_novacookies_campaigns_abuse_genuine_docusign_notifications",
-  "356a7f991b0feb25020f5f477f7c10fc753f9ebd581423c44b78d2a1c36f3f18",
-  "https://www.bleepingcomputer.com/news/security/hackers-target-microsoft-sharepoint-rce-chain-with-poc-exploit",
-  "slug_hackers_target_microsoft_sharepoint_rce_chain",
-  "607917c11c838a5405f5bb096eb346ca06f560318ea29b7e180ed3bef7f2a6a2",
-  "https://thehackernews.com/2026/08/fbi-disrupts-china-linked-qtfy.html",
-  "slug_fbi_disrupts_chinalinked_qtfy_infrastructure_used",
-  "9ce1867cdae2c890339737e6597f6c6b396af2b87434094678e1e68c68071b9f",
-  "https://www.bleepingcomputer.com/news/security/ubiquiti-patches-three-max-severity-security-vulnerabilities",
   "slug_ubiquiti_patches_three_max_severity_security",
   "242686c4c39141c314c448fe2dc15993ce009a41f554e7080050996ba843bead",
   "https://cybersecuritynews.com/21-critical-ubiquiti-unifi-flaws",
@@ -998,5 +988,15 @@
   "slug_deceptive_android_apps_exploit_google_play",
   "aed7533007a48c8c40e813719962dc59466f8bd1b1d26af2040a1a5ae2a7d9cf",
   "https://www.vulncheck.com/blog/making-dotnet-gadgets",
-  "slug_making_serialization_gadgets_hand_netcreating_languagenative"
+  "slug_making_serialization_gadgets_hand_netcreating_languagenative",
+  "18d4ac8f8ecac5a742c8886688eca44bed7b8eaec48f5fc67aa3918dccc1f4e0",
+  "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+  "slug_active_exploitation_mikrotik_routeros_cve202686060",
+  "CVE_CVE-2026-86060",
+  "585a6b302ab351d2f88d657ab1eda7ff5de361f24489640074902bc34f088b04",
+  "https://www.bleepingcomputer.com/news/security/cisco-fmc-flaws-exploited-by-ransomware-gang-state-sponsored-hackers",
+  "slug_cisco_fmc_exploited_ransomware_gang_statesponsored",
+  "3976d280b310ffa7772f1932f82ff8753a61afea077a615026c2d6951860281c",
+  "https://cybersecuritynews.com/remote-desktop-services-failures",
+  "slug_remote_desktop_services_failures_windows_servers"
 ]
