@@ -1,15 +1,4 @@
 [
-  "7259f0b8cf3015421cf7ce7eb8b440d8675aa3f3119be64fd8f1cf8776a8ba61",
-  "https://thehackernews.com/2026/08/spark-rat-targets-cambodia-abuses.html",
-  "slug_spark_rat_targets_cambodia_abuses_vulnerable",
-  "886c4d0ea9316b492c84ddc7ebf9b96d91b0ef26dbccc4e7e0a883330ff04c9a",
-  "https://www.bleepingcomputer.com/news/security/webinar-how-google-workspace-breaches-happen-and-what-to-do-next",
-  "slug_webinar_how_google_workspace_breaches_happen",
-  "80d381f76041f3834f895d6aa50f6b96fffeaabc750189e16d3dd8b7c118ce5a",
-  "https://www.securityweek.com/trump-order-aims-to-block-foreign-backdoors-in-us-power-grid-gear",
-  "slug_trump_order_aims_block_foreign_backdoors",
-  "5ae4e5704828d1e253eb5ef5c3e017aa37614aeb9432eb37c8dfbb93fabd622b",
-  "https://thehackernews.com/2026/08/openai-says-reward-hacking-drove-ai.html",
   "slug_openai_says_reward_hacking_drove_ai",
   "42e411368c60b6788f766f95b9081517d66af61cb2237ac96b78b4459ea43b68",
   "https://www.bleepingcomputer.com/news/security/papercut-warns-of-ng-mf-flaw-exploited-in-zero-day-attacks",
@@ -998,5 +987,16 @@
   "CVE_CVE-2025-61882",
   "d13d854a83663bd56ceb89a41b7b25a72f7e16a3c641fbc24b340da53a304c43",
   "https://www.infosecurity-magazine.com/news/hackers-us-business-hours-m365",
-  "slug_hackers_favor_us_eastern_business_hours"
+  "slug_hackers_favor_us_eastern_business_hours",
+  "0ddc7c58e041304080d6a0b0c9112048113b0133c17e5268e4c73655190613eb",
+  "https://thehackernews.com/2026/09/cisa-adds-5-actively-exploited.html",
+  "slug_cisa_adds_5_actively_exploited_artifactory",
+  "CVE_CVE-2026-42016",
+  "e42043f62c15c8816844f61d2e29debb42bb7eaf69fff46febca3834981e5205",
+  "https://www.vulncheck.com/blog/cve-2025-10035-fortra-go-anywhere-mft",
+  "slug_cve202510035_critical_vulnerability_fortra_goanywhere_mfta",
+  "CVE_CVE-2025-10035",
+  "958fef12b7d227af37a5e12c61c978669b1411d9b999d7fc69000e1d842defb2",
+  "https://www.helpnetsecurity.com/2026/09/11/ransomware-decision-tree-video",
+  "slug_building_ransomware_decision_tree_before_call"
 ]
