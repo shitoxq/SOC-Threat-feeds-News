@@ -1,13 +1,4 @@
 [
-  "slug_openai_says_reward_hacking_drove_ai",
-  "42e411368c60b6788f766f95b9081517d66af61cb2237ac96b78b4459ea43b68",
-  "https://www.bleepingcomputer.com/news/security/papercut-warns-of-ng-mf-flaw-exploited-in-zero-day-attacks",
-  "slug_papercut_warns_ng_mf_exploited_zeroday",
-  "8ec5c2bbb08a09a64d3db902d2053b0f95c57e93d852036a3fafd8b50bb2bea8",
-  "https://www.securityweek.com/okta-shares-surge-on-strong-earnings-growing-demand-for-ai-identity-security",
-  "slug_okta_shares_surge_strong_earnings_growing",
-  "468035db37f9e8fac0f996e0b17329b10d5df22746ea1869b9ee8e9707325cf2",
-  "https://thehackernews.com/2026/08/nextjs-patches-critical-avif-and.html",
   "slug_nextjs_patches_critical_avif_windows_enabling",
   "05a5a1aee543e61cea3cfbc3a097f7773276c420dcefb48f9381511dd9e2707d",
   "https://www.vulncheck.com/blog/zbt-darklantern-speakingstone",
@@ -998,5 +989,14 @@
   "CVE_CVE-2025-10035",
   "958fef12b7d227af37a5e12c61c978669b1411d9b999d7fc69000e1d842defb2",
   "https://www.helpnetsecurity.com/2026/09/11/ransomware-decision-tree-video",
-  "slug_building_ransomware_decision_tree_before_call"
+  "slug_building_ransomware_decision_tree_before_call",
+  "e06f16de0f43e3c70505aad2ad91c27818a4e931bbcc03f064f0240ea3594051",
+  "https://www.vulncheck.com/blog/vulncheck-initial-access",
+  "slug_getting_ahead_exploitation_initial_access_intelligenceiai",
+  "4a65f1a409bfe4624dfe612a4ca88992043e4f7f8d573c715346b9706c607af9",
+  "https://www.helpnetsecurity.com/2026/09/11/pistachio-employee-phishing-risk-report",
+  "slug_companies_may_be_measuring_phishing_resilience",
+  "47d093ffec1d4cbcbcbebc8216e3ce2e6a10592782eab962a0ff72139a1dc474",
+  "https://www.infosecurity-magazine.com/news/organizations-skip-permissions-ai",
+  "slug_most_organizations_skip_permissions_reviews_before"
 ]
