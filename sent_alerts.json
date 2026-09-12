@@ -1,13 +1,4 @@
 [
-  "1ecdd5b6e036b7edaf9adf6fc35516f70a9b8ea17a44337a497e87b899dd9f71",
-  "https://cybersecuritynews.com/nutex-health-data-breach",
-  "slug_nutex_health_data_breach_hackers_gained",
-  "628fc3790860a7c67fa37485106e36c4dd8d31c69e8b63c9fe64e2e7882e73e5",
-  "https://www.vulncheck.com/blog/death-by-20k-pocs",
-  "slug_death_20000_pocsvulnchecks_research_team_shares",
-  "89ba8a41a1ee0be07879dd6b06ecae43cee5c3370fad66c88f0b09cc1e218801",
-  "https://thehackernews.com/2026/08/learn-how-to-build-security-operations.html",
-  "slug_learn_how_build_security_operations_ready",
   "8d26288ea89cd836f6335eb242bbead7fe9798b05f0f16cbfb26a73a908ab56b",
   "https://www.bleepingcomputer.com/news/security/australia-arrests-alleged-teampcp-hackers-behind-supply-chain-attacks",
   "slug_australia_arrests_alleged_teampcp_hackers_behind",
@@ -998,5 +989,14 @@
   "CVE_CVE-2026-63520",
   "f9f92b67bdd99c76e133ea797ecf376164f08751efac15f59a36f1ac997e48d6",
   "https://www.helpnetsecurity.com/2026/09/11/ai-agents-papercut-ng-mf-attack-campaign",
-  "slug_ai_agents_exploited_papercut_breach_395"
+  "slug_ai_agents_exploited_papercut_breach_395",
+  "af3b87dfbf9c12604305a1c0d7c39537afe6ee92275ca2a8ea6af80ed1fc02e9",
+  "https://thehackernews.com/2026/09/papercut-replaces-emergency-patches.html",
+  "slug_papercut_replaces_emergency_patches_fixes_two",
+  "a9f8bb9e5ff51b2893bbc5f01c91afcde3eceb727624c4713079906a6f24e540",
+  "https://cybersecuritynews.com/openai-agents-flood-rubygems",
+  "slug_openai_agents_flood_rubygems_2000_packages",
+  "ea6cdd59e51d4877a6ea2b64a804650d40a8c75a63a766b739bb13e635c28348",
+  "https://www.securityweek.com/ukrainian-conti-ransomware-developer-sentenced-to-4-years-in-us-prison",
+  "slug_ukrainian_conti_ransomware_developer_sentenced_4"
 ]
