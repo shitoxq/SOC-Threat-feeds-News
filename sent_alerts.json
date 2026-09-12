@@ -1,13 +1,4 @@
 [
-  "8d26288ea89cd836f6335eb242bbead7fe9798b05f0f16cbfb26a73a908ab56b",
-  "https://www.bleepingcomputer.com/news/security/australia-arrests-alleged-teampcp-hackers-behind-supply-chain-attacks",
-  "slug_australia_arrests_alleged_teampcp_hackers_behind",
-  "9169489f05d8419c825ace3fa0f5d687eccdb1ab3fd8dd2f9f6e2cf473af2d7c",
-  "https://cybersecuritynews.com/hackers-exploit-owncloud",
-  "slug_hackers_exploit_owncloud_wordpress_steal_philippine",
-  "2d87a31b8a90daad0ddf1380bee94d84ba0860a6c3893a607f41db4e354178b4",
-  "https://thehackernews.com/2026/08/alleged-teampcp-hackers-charged-in.html",
-  "slug_alleged_teampcp_hackers_charged_australia_over",
   "cfc53e71e420641fefb12e35efd72db089c7bf1646e0fa4d00d6437d52c43b3b",
   "https://www.bleepingcomputer.com/news/security/android-17-adds-ech-support-to-make-web-browsing-harder-to-track",
   "slug_android_17_adds_ech_support_make",
@@ -998,5 +989,14 @@
   "slug_openai_agents_flood_rubygems_2000_packages",
   "ea6cdd59e51d4877a6ea2b64a804650d40a8c75a63a766b739bb13e635c28348",
   "https://www.securityweek.com/ukrainian-conti-ransomware-developer-sentenced-to-4-years-in-us-prison",
-  "slug_ukrainian_conti_ransomware_developer_sentenced_4"
+  "slug_ukrainian_conti_ransomware_developer_sentenced_4",
+  "f05890c0a6ffeeaa8052a314a8ec36a82f351ccab9309b2c97f40414913d9ead",
+  "https://thehackernews.com/2026/09/openai-agents-linked-to-rubygems.html",
+  "slug_openai_agents_linked_rubygems_campaign_that",
+  "628fc3790860a7c67fa37485106e36c4dd8d31c69e8b63c9fe64e2e7882e73e5",
+  "https://www.vulncheck.com/blog/death-by-20k-pocs",
+  "slug_death_20000_pocsvulnchecks_research_team_shares",
+  "cbe14c1969f3b7091ca08a857c97c38063ca9c906e048d0930c31d5018336946",
+  "https://www.helpnetsecurity.com/2026/09/11/kiteworks-bonfy-ai-acquisition",
+  "slug_kiteworks_expands_runtime_data_governance_bonfyai"
 ]
