@@ -1,15 +1,4 @@
 [
-  "https://thehackernews.com/2026/08/gputhor-rowhammer-defeats-ecc-on-nvidia.html",
-  "slug_new_gputhor_rowhammer_defeats_ecc_nvidia",
-  "4e5032b20f68f467e7716772694f83d07f01f44b801c8901f9766b3379fa087b",
-  "https://www.bleepingcomputer.com/news/security/atf-confirms-major-incident-after-recent-qilin-breach-claims",
-  "slug_atf_confirms_major_incident_after_recent",
-  "a65bf4f3679ac2a1c3efede7cfd709b45dc0ea6eb8a4f9b2add46d522f209fe5",
-  "https://www.securityweek.com/sensitive-information-exposed-in-nutex-health-data-breach",
-  "slug_sensitive_information_exposed_nutex_health_data",
-  "9229e49adc62366b972c3e8aafcb117452bae3003bd1c003b865a92b40c21027",
-  "https://www.bleepingcomputer.com/news/security/cisa-hackers-now-exploiting-citrix-netscaler-rce-flaw-in-attacks",
-  "slug_cisa_orders_feds_patch_citrix_netscaler",
   "1ecdd5b6e036b7edaf9adf6fc35516f70a9b8ea17a44337a497e87b899dd9f71",
   "https://cybersecuritynews.com/nutex-health-data-breach",
   "slug_nutex_health_data_breach_hackers_gained",
@@ -998,5 +987,16 @@
   "slug_artifactory_chained_attacks_deploying_backdoor_malware",
   "773dc3b5b5ee8bdbf5f8b56823af83227eb82c5811968b7905da7a334d03f53a",
   "https://cybersecuritynews.com/conti-ransomware-hacker-sentenced",
-  "slug_conti_ransomware_hacker_sentenced_after_group"
+  "slug_conti_ransomware_hacker_sentenced_after_group",
+  "a1aa3879887914d7843e185c0c5d72249f1b69bdafe9cec2e3c1dcac7cd3efe0",
+  "https://www.securityweek.com/gitlab-vulnerability-exploited-one-day-after-disclosure",
+  "slug_gitlab_vulnerability_exploited_one_day_after",
+  "dc77f70d96e38d2e02192fdf301144e9e3cc261b447a7cae965fe3b202a5d21e",
+  "https://www.vulncheck.com/blog/cve-2026-63520-sharepoint-unsafe-type-rce",
+  "slug_exploiting_sharepoint_cve202655040_cve202663520_rce_chainbuilding",
+  "CVE_CVE-2026-55040",
+  "CVE_CVE-2026-63520",
+  "f9f92b67bdd99c76e133ea797ecf376164f08751efac15f59a36f1ac997e48d6",
+  "https://www.helpnetsecurity.com/2026/09/11/ai-agents-papercut-ng-mf-attack-campaign",
+  "slug_ai_agents_exploited_papercut_breach_395"
 ]
