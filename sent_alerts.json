@@ -1,13 +1,4 @@
 [
-  "cfc53e71e420641fefb12e35efd72db089c7bf1646e0fa4d00d6437d52c43b3b",
-  "https://www.bleepingcomputer.com/news/security/android-17-adds-ech-support-to-make-web-browsing-harder-to-track",
-  "slug_android_17_adds_ech_support_make",
-  "b78cfe209d6cf8f98bb46badbc303ca2a1c40be3753d9232db66bc73c8806021",
-  "https://cybersecuritynews.com/two-australians-teampcp-supply-chain",
-  "slug_two_australians_charged_over_teampcp_supplychain",
-  "e2642e92805118546c6faf35ce725beba27cae97bf4963066390fb0780b224e9",
-  "https://thehackernews.com/2026/08/amazon-kiro-prompt-injection-can.html",
-  "slug_amazon_kiro_prompt_injection_can_exfiltrate",
   "c093356a31076adfd71a0e1c930884daaa2fbc569df4d0f4936e577741df4228",
   "https://www.bleepingcomputer.com/news/microsoft/microsoft-rolls-out-fix-for-windows-11-crashes-gaming-issues",
   "slug_microsoft_rolls_out_fix_windows_11",
@@ -998,5 +989,14 @@
   "slug_death_20000_pocsvulnchecks_research_team_shares",
   "cbe14c1969f3b7091ca08a857c97c38063ca9c906e048d0930c31d5018336946",
   "https://www.helpnetsecurity.com/2026/09/11/kiteworks-bonfy-ai-acquisition",
-  "slug_kiteworks_expands_runtime_data_governance_bonfyai"
+  "slug_kiteworks_expands_runtime_data_governance_bonfyai",
+  "c3b4c85a24a792d2ab3caa0e599dbe4c5c825a09a2181a046d6a1376cb8d9c51",
+  "https://cybersecuritynews.com/beyond-the-perimeter-building-resilience-against-cloud-and-saas-supply-chain-attacks",
+  "slug_beyond_perimeter_building_resilience_against_cloud",
+  "bb53dc8d49334b1fb958a1970594037a4be3cc63afabe2430dc9fab2ed823ffd",
+  "https://www.securityweek.com/bluemoon-exploit-kit-chains-recent-chrome-windows-zero-days",
+  "slug_bluemoon_exploit_kit_chains_recent_chrome",
+  "45ade7ed19bf905bd1ea8c3caee1d7e348716e2199827a04ffef4fd3999b1764",
+  "https://www.vulncheck.com/blog/november-2025-research-highlights",
+  "slug_vulncheck_research_highlights_november_2025insights_emerging"
 ]
