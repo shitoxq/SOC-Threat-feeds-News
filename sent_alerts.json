@@ -1,11 +1,4 @@
 [
-  "c093356a31076adfd71a0e1c930884daaa2fbc569df4d0f4936e577741df4228",
-  "https://www.bleepingcomputer.com/news/microsoft/microsoft-rolls-out-fix-for-windows-11-crashes-gaming-issues",
-  "slug_microsoft_rolls_out_fix_windows_11",
-  "7ec38443741b402015872aa3fc7225c95f910b73e3f969c87fe3bcd3b7ed99b0",
-  "https://cybersecuritynews.com/multiple-teamviewer-vulnerability",
-  "slug_multiple_teamviewer_vulnerabilities_enable_remote_code",
-  "CVE_CVE-2026-16444",
   "7259f0b8cf3015421cf7ce7eb8b440d8675aa3f3119be64fd8f1cf8776a8ba61",
   "https://thehackernews.com/2026/08/spark-rat-targets-cambodia-abuses.html",
   "slug_spark_rat_targets_cambodia_abuses_vulnerable",
@@ -998,5 +991,12 @@
   "slug_bluemoon_exploit_kit_chains_recent_chrome",
   "45ade7ed19bf905bd1ea8c3caee1d7e348716e2199827a04ffef4fd3999b1764",
   "https://www.vulncheck.com/blog/november-2025-research-highlights",
-  "slug_vulncheck_research_highlights_november_2025insights_emerging"
+  "slug_vulncheck_research_highlights_november_2025insights_emerging",
+  "54857a42b21b7ac336a8d44e2ab2620158306cea6047022e8bbcbc5a3c1ca17a",
+  "https://www.vulncheck.com/blog/oracle-e-business-suite-cve-2025-61882-exploited-in-extortion-attacks",
+  "slug_oracle_ebusiness_suite_cve202561882_exploited_extortion",
+  "CVE_CVE-2025-61882",
+  "d13d854a83663bd56ceb89a41b7b25a72f7e16a3c641fbc24b340da53a304c43",
+  "https://www.infosecurity-magazine.com/news/hackers-us-business-hours-m365",
+  "slug_hackers_favor_us_eastern_business_hours"
 ]
