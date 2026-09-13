@@ -1,10 +1,4 @@
 [
-  "https://www.bleepingcomputer.com/news/security/papercut-releases-second-emergency-patch-for-exploited-flaws",
-  "slug_papercut_releases_second_emergency_patch_exploited",
-  "2207300d637f05c5a6e39f7c9e959f88c166fd5ab4c729b9a2442f140b7b2126",
-  "https://cybersecuritynews.com/hackers-target-ai-infrastructure",
-  "slug_hackers_target_ai_infrastructure_rce_prompt",
-  "ba3feda904b048f64d900cc61e220afc6a28d5320eb320d0a2ffd695dcc3042b",
   "https://thehackernews.com/2026/08/attackers-chain-two-papercut-flaws-to.html",
   "slug_attackers_chain_two_papercut_execute_code",
   "174e3018905f336a0c4bd04a73ee223bcf077a563fae4c361f7c06e775b9d70d",
@@ -998,5 +992,11 @@
   "slug_ai_changing_what_salesforce_security_needs",
   "9d8aba1ab272a92d826acf0a4fe0d88c690b6f2e254ee21a893fc786e7289725",
   "https://www.infosecurity-magazine.com/news/mantaxotax-android-malware",
-  "slug_mantaxotax_android_malware_combines_ransomware_spyware"
+  "slug_mantaxotax_android_malware_combines_ransomware_spyware",
+  "44b91678301b5ad624430e3a2c8228a0466def76ac347aaa1dc46bd8d2957f15",
+  "https://www.vulncheck.com/blog/scriptcase-rce",
+  "slug_scriptcase_hunt_it_exploit_it_defend",
+  "0b9b5323560c5e38b7ec82acd28395939bc1c7f772fd39a9c1a7b0fb2c5b289c",
+  "https://www.infosecurity-magazine.com/news/fbi-cyber-strategy-disrupting",
+  "slug_fbi_publishes_firstever_cyber_strategy_focus"
 ]
