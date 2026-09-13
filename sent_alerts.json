@@ -1,15 +1,4 @@
 [
-  "https://thehackernews.com/2026/08/attackers-chain-two-papercut-flaws-to.html",
-  "slug_attackers_chain_two_papercut_execute_code",
-  "174e3018905f336a0c4bd04a73ee223bcf077a563fae4c361f7c06e775b9d70d",
-  "https://www.bleepingcomputer.com/news/security/ai-is-accelerating-vulnerability-discovery-can-defenders-keep-up",
-  "slug_ai_accelerating_vulnerability_discovery_can_defenders",
-  "2b9e765c5316e8295bbc8af89deebc8faee233a29ca530799fb24211880f7518",
-  "https://www.securityweek.com/in-other-news-log4j-rce-scare-minimus-shutdown-iranian-hacker-sanctions",
-  "slug_other_news_log4j_rce_scare_minimus",
-  "45f31e534b0be3b7f2472ef667954c2ddc408fc23749e36de844f5a5d7a4bc6d",
-  "https://thehackernews.com/2026/08/android-17-adds-os-wide-ech-to-hide.html",
-  "slug_android_17_adds_oswide_ech_hide",
   "f5d907fcf0e1d41f59f0dc83095188497f39524b7c1fcf41c5e808d54b89d360",
   "https://www.bleepingcomputer.com/news/security/over-8-300-gitea-servers-vulnerable-to-code-execution-attacks",
   "slug_over_8300_gitea_servers_vulnerable_code",
@@ -998,5 +987,16 @@
   "slug_scriptcase_hunt_it_exploit_it_defend",
   "0b9b5323560c5e38b7ec82acd28395939bc1c7f772fd39a9c1a7b0fb2c5b289c",
   "https://www.infosecurity-magazine.com/news/fbi-cyber-strategy-disrupting",
-  "slug_fbi_publishes_firstever_cyber_strategy_focus"
+  "slug_fbi_publishes_firstever_cyber_strategy_focus",
+  "fa59062d0b2fe8ab1a853f667c534cb06d6355b4cf6778aaaadbbc2a6f7a2981",
+  "https://thehackernews.com/2026/09/attackers-use-passkey-phishing-to.html",
+  "slug_attackers_use_passkey_phishing_hijack_microsoft",
+  "4b763108e4358d9a102f14d2c85bc417a4b6253c398fa2ed2cddd3e1e5877d4b",
+  "https://www.bleepingcomputer.com/news/security/hackers-exploit-tencent-app-flaw-to-deploy-grayrabbit-malware",
+  "slug_hackers_exploit_tencent_app_deploy_grayrabbit",
+  "CVE_CVE-2026-51990",
+  "fd9f023eb549e2e45811dbba74103fbed215aab142dd118a0baae877a38ad93e",
+  "https://www.vulncheck.com/blog/git-parameter-rce",
+  "slug_command_injection_jenkins_via_git_parameter",
+  "CVE_CVE-2025-53652"
 ]
