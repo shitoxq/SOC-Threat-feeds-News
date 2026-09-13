@@ -1,11 +1,4 @@
 [
-  "CVE_CVE-2026-76581",
-  "480a6dcd921795099789905e06d141f8465ddd37b1c7f4078b697666f3a39864",
-  "https://cybersecuritynews.com/servicenow-fixes-critical-flaws",
-  "slug_critical_servicenow_let_attackers_execute_code",
-  "0f67175071027cc5706d8d8515a431cdb72627dc3eefefd616f2f3fd5b64393b",
-  "https://www.securityweek.com/openai-agents-exploited-linux-kernel-flaw-on-companys-own-systems",
-  "slug_openai_agents_exploited_linux_kernel_companys",
   "CVE_CVE-2026-53362",
   "fbf67621099f4f5de497d4b1484b82268a0cf9a54559c4b5e1e05feabe22f52b",
   "https://thehackernews.com/2026/08/19-chrome-and-edge-extensions-found.html",
@@ -998,5 +991,12 @@
   "slug_state_exploitation_look_into_1h2025_vulnerability",
   "b265e2d9d5071500a55b35c5281e87eacbf97f9d4512d93fcf938e0cc06bc2fa",
   "https://gbhackers.com/new-phishing-campaign-abuses-windows-mshta-exe",
-  "slug_new_phishing_campaign_abuses_windows_mshtaexe"
+  "slug_new_phishing_campaign_abuses_windows_mshtaexe",
+  "54af798cb12528bb230212c6b01067844a5387dcb746804b8b4e5bcc7f59936b",
+  "https://www.vulncheck.com/blog/hikvision-mount-shell",
+  "slug_novel_use_quotmountquot_spotted_hikvision_attacksvulncheck",
+  "CVE_CVE-2021-36260",
+  "bcc47d6e369292a7a729ec9eb81b553ea24d6b2ca178cfc476f9d009434cc38a",
+  "https://www.helpnetsecurity.com/2026/09/13/week-in-review-linux-rootkit-deployed-on-f5-big-ip-apm-devices-cisco-fmc-bugs-exploited",
+  "slug_week_review_linux_rootkit_deployed_f5"
 ]
