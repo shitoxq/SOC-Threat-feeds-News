@@ -1,14 +1,4 @@
 [
-  "f5d907fcf0e1d41f59f0dc83095188497f39524b7c1fcf41c5e808d54b89d360",
-  "https://www.bleepingcomputer.com/news/security/over-8-300-gitea-servers-vulnerable-to-code-execution-attacks",
-  "slug_over_8300_gitea_servers_vulnerable_code",
-  "23c3016c893d746ebd0632bc7d191381d28d7c3918f88310d8f57246e6f453c0",
-  "https://www.securityweek.com/atf-confirms-cyber-incident-after-ransomware-group-claims-attack",
-  "slug_atf_confirms_cyber_incident_after_ransomware",
-  "9ef134c66a5565349f262358941bc45f48518dc3129233f9b2968490ac4be2df",
-  "https://thehackernews.com/2026/08/snowflake-github-actions-flaw-lets.html",
-  "slug_owncloud_exploited_steal_nuclear_records_from",
-  "CVE_CVE-2023-49105",
   "bb949743612313a353c3c7398217df4ae9e35e7da4e79b06fd0702033e6e418d",
   "https://www.bleepingcomputer.com/news/security/toy-making-giant-hasbro-disclose-data-breach-affecting-employees",
   "slug_toymaking_giant_hasbro_disclose_data_breach",
@@ -998,5 +988,15 @@
   "fd9f023eb549e2e45811dbba74103fbed215aab142dd118a0baae877a38ad93e",
   "https://www.vulncheck.com/blog/git-parameter-rce",
   "slug_command_injection_jenkins_via_git_parameter",
-  "CVE_CVE-2025-53652"
+  "CVE_CVE-2025-53652",
+  "af709002515a4c538adbd6402cfadde2aa62c949df6551473b1d61abe5aaedb3",
+  "https://cybersecuritynews.com/dell-objectscale-vulnerabilities",
+  "slug_critical_dell_objectscale_vulnerabilities_allows_malicious",
+  "CVE_CVE-2026-70416",
+  "901c46431c759142fefd7d37757c1f93040ce5c2a012630d7bca3b697502f980",
+  "https://www.vulncheck.com/blog/stillup-stillevil",
+  "slug_still_up_still_evilvulncheck_tracked_thousands",
+  "fc6062203301d5ea51f2a53941778c042d08722b41e1a488ff2e0edd547025d2",
+  "https://gbhackers.com/china-linked-hackers-chain-chrome-zero-day",
+  "slug_chinalinked_hackers_chain_chrome_zeroday_windows"
 ]
