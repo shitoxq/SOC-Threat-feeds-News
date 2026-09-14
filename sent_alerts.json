@@ -1,13 +1,4 @@
 [
-  "slug_two_alleged_teampcp_hackers_arrested_over",
-  "ccc11eebb8ec70bcfacc68562e56ccda4476a20c51fd65ab9cfc19809a7a8e69",
-  "https://ipurple.team/2026/08/24/text-template",
-  "slug_text_template",
-  "cb62f7559c4f6ae9494e1cf1ef6167f30e7079f6f738aa3d9caf2f53c36b1820",
-  "https://www.vulncheck.com/blog/state-of-exploitation-1h-2026",
-  "slug_vulncheck_state_exploitation_1h2026key_trends_findings",
-  "c5607bad2c7ad39125cd6eb26fc8de88d44257ad18b63f12e832e96b296301f8",
-  "https://www.helpnetsecurity.com/2026/08/27/papercut-ng-mf-vulnerability-attack",
   "slug_papercut_ngmf_vulnerabilities_exploited_zeroday_attacks",
   "CVE_CVE-2026-82078",
   "CVE_CVE-2026-81578",
@@ -998,5 +989,14 @@
   "slug_hackers_target_exposed_vite_dev_servers",
   "13b525029ca81bda1b90854f0b7a94d94ad39a06723313cef8ce4fffd4953e30",
   "https://www.securityweek.com/personal-financial-info-exposed-in-revolut-data-breach",
-  "slug_personal_financial_info_exposed_revolut_data"
+  "slug_personal_financial_info_exposed_revolut_data",
+  "2e4ea22accc39550c1ec2a6ae5eb27806ba23a0f4beed8fc531c0cfbb3f00226",
+  "https://thehackernews.com/2026/09/3bb-attacker-used-meshcentral-backdoor.html",
+  "slug_3bb_attacker_used_meshcentral_backdoor_root",
+  "2cc915664cfa0d6911ff7de47a9d4fd6576655b488e9e73f429a98671edae1ce",
+  "https://www.bleepingcomputer.com/news/security/twitch-extension-with-30k-installs-exposes-users-oauth-tokens",
+  "slug_twitch_extension_30k_installs_exposes_users",
+  "f08e6f6629170956b8e6a092a65ed087e57f1191022998bad3910d4d65c289b5",
+  "https://cybersecuritynews.com/fortigate-ssl-vpn-vulnerability",
+  "slug_hackers_exploit_fortigate_sslvpn_vulnerability_attack"
 ]
