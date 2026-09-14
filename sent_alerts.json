@@ -1,13 +1,4 @@
 [
-  "slug_endlessdoors_phoning_home_pick_uptwenty_router",
-  "324fe7bb330da0035eed4fffc3f08c79382c3502990642a97fd35f9829c68b9e",
-  "https://www.helpnetsecurity.com/2026/08/28/android-17-network-security-features",
-  "slug_android_17_adds_new_protections_against",
-  "1eb7892752fbb3017096d90ce76f720cc285d3b8edb6570a7c9a54243005190b",
-  "https://www.vulncheck.com/blog/aimy-captcha-less-form-guard-object-injection",
-  "slug_aimy_captchaless_form_guard_antibot_plugin",
-  "af7953427db5c69ba5bda76b53f5f9852a001f80278ba44bce1246412c9bfd27",
-  "https://www.helpnetsecurity.com/2026/08/27/alleged-teampcp-hackers-arrested-australia",
   "slug_two_alleged_teampcp_hackers_arrested_over",
   "ccc11eebb8ec70bcfacc68562e56ccda4476a20c51fd65ab9cfc19809a7a8e69",
   "https://ipurple.team/2026/08/24/text-template",
@@ -998,5 +989,14 @@
   "slug_same_target_different_playbooks_two_attackers",
   "337d6e804632ebddc70fca2eb83dbeec375861827c9ca301078ef58a98231d52",
   "https://www.helpnetsecurity.com/2026/09/14/manageengine-cybersecurity-breach-confidence-report",
-  "slug_cybersecurity_attention_fades_within_months_after"
+  "slug_cybersecurity_attention_fades_within_months_after",
+  "161dd11ccccf6c5948903133bc0fedeb9d4da64a5c9e3e768ebeba05bc4dbabe",
+  "https://thehackernews.com/2026/09/weekly-recap-rogue-ai-agents-wechat.html",
+  "slug_weekly_recap_rogue_ai_agents_wechat",
+  "43819476aab2a60a049702409c1bcfc47be08b02cc4fa116a777ee5afe1ecb50",
+  "https://www.bleepingcomputer.com/news/security/hackers-target-exposed-vite-dev-servers-to-steal-aws-azure-secrets",
+  "slug_hackers_target_exposed_vite_dev_servers",
+  "13b525029ca81bda1b90854f0b7a94d94ad39a06723313cef8ce4fffd4953e30",
+  "https://www.securityweek.com/personal-financial-info-exposed-in-revolut-data-breach",
+  "slug_personal_financial_info_exposed_revolut_data"
 ]
