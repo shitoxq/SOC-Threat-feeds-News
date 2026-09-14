@@ -1,13 +1,4 @@
 [
-  "slug_papercut_ngmf_vulnerabilities_exploited_zeroday_attacks",
-  "CVE_CVE-2026-82078",
-  "CVE_CVE-2026-81578",
-  "25722a03df89a0848c034e06ffa87304c86980dd79c4a1edc4674903ba75c3da",
-  "https://ipurple.team/2026/08/11/mandatory-user-profile",
-  "slug_mandatory_user_profile",
-  "e7fd30e89bca0fc1e82164ea014a1d32e5de6c4218698a0c3105386e4bd80457",
-  "https://thehackernews.com/2026/08/terminalfix-uses-fake-cloudflare.html",
-  "slug_terminalfix_uses_fake_cloudflare_captchas_deploy",
   "081f991a134abbe52bc59369ba427be63d27024dcb731b2756ec578cd3233abf",
   "https://www.vulncheck.com/blog/wp2shell",
   "slug_wp2shell_vulnerabilities_cve202660137_cve202663030two_new_wordpress",
@@ -998,5 +989,14 @@
   "slug_twitch_extension_30k_installs_exposes_users",
   "f08e6f6629170956b8e6a092a65ed087e57f1191022998bad3910d4d65c289b5",
   "https://cybersecuritynews.com/fortigate-ssl-vpn-vulnerability",
-  "slug_hackers_exploit_fortigate_sslvpn_vulnerability_attack"
+  "slug_hackers_exploit_fortigate_sslvpn_vulnerability_attack",
+  "09d1dd4eafdffbfc8d8e23989218f89b5c06920b5a513a18d45db57a93dba409",
+  "https://thehackernews.com/2026/09/red-heron-exploits-gitea-rce-to.html",
+  "slug_red_heron_exploits_gitea_rce_compromise",
+  "942b54556b13e0d8d9631c0db48c43c80efd48b1e5b228346ddb54648a8ac4c5",
+  "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-emergency-windows-updates-to-fix-rds-failures",
+  "slug_microsoft_releases_emergency_windows_updates_fix",
+  "e8e1329cbf195e0e75ae992df4ec5ae78c3d7b0ca4f0a5feb9fe591b85a9cf9f",
+  "https://cybersecuritynews.com/vite-servers-under-attack",
+  "slug_hackers_massscan_exposed_vite_servers_steal"
 ]
