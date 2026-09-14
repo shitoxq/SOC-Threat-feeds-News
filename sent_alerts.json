@@ -1,15 +1,4 @@
 [
-  "CVE_CVE-2026-53362",
-  "fbf67621099f4f5de497d4b1484b82268a0cf9a54559c4b5e1e05feabe22f52b",
-  "https://thehackernews.com/2026/08/19-chrome-and-edge-extensions-found.html",
-  "slug_19_chrome_edge_extensions_found_walletstealing",
-  "34444dab934959809ebaaeca3cfc44d0442b14a342fcdd5ed6df7110f99581a8",
-  "https://www.securityweek.com/papercut-releases-emergency-patch-for-exploited-zero-day",
-  "slug_papercut_releases_emergency_patch_exploited_zeroday",
-  "0a87e7e2ec15eb138eb8e2eb0de3f302ad71e1fe00ad1b8dd0ee757be6d34748",
-  "https://www.vulncheck.com/blog/pwning-the-ai-stack",
-  "slug_same_target_different_playbooks_two_attackers",
-  "6d2eb85116012530edb2ec7c649093d8b558789d48ca8188e2a00058ee60cf04",
   "https://thehackernews.com/2026/08/two-unitree-g1-edu-humanoid-robot-flaws.html",
   "slug_two_unitree_g1_edu_humanoid_robot",
   "CVE_CVE-2026-76639",
@@ -998,5 +987,16 @@
   "CVE_CVE-2021-36260",
   "bcc47d6e369292a7a729ec9eb81b553ea24d6b2ca178cfc476f9d009434cc38a",
   "https://www.helpnetsecurity.com/2026/09/13/week-in-review-linux-rootkit-deployed-on-f5-big-ip-apm-devices-cisco-fmc-bugs-exploited",
-  "slug_week_review_linux_rootkit_deployed_f5"
+  "slug_week_review_linux_rootkit_deployed_f5",
+  "3a9498c278b7e25ac1b92b861aff6ac76e14cccf9a3112595bf328df362caa2e",
+  "https://cybersecuritynews.com/plesk-backup-manager-flaw",
+  "slug_plesk_backup_manager_lets_lowprivileged_users",
+  "CVE_CVE-2026-68488",
+  "db16a8f83d7a6175d3131114e919fd4b4537f4e0b2afd58cf267f2d633be7c4a",
+  "https://www.vulncheck.com/blog/linuxsys-cryptominer",
+  "slug_linuxsys_cryptominervulncheck_observes_exploitation_cve202141773_wild",
+  "CVE_CVE-2021-41773",
+  "bd4e61007b5e7ac2611ec70930b4f50ed10392e79ed850700cfe741592110aa8",
+  "https://gbhackers.com/10000-malware-loaders",
+  "slug_researchers_uncover_10000_malware_loaders_behind"
 ]
