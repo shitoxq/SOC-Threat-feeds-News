@@ -1,13 +1,4 @@
 [
-  "https://cybersecuritynews.com/hackers-own-malware-infection",
-  "slug_hackers_own_malware_infection_exposes_their",
-  "782a519327351ce8026373bdccb4466355217a0874d40188db4941065e55ddca",
-  "https://www.vulncheck.com/blog/routinely-targeted-vulnerabilities-may-2026",
-  "slug_quantifying_2026_routinely_targeted_vulnerabilities_so",
-  "8d4ae5773b2f4032001003f0d36bc75ad7b6467330415b150e93272c482bf282",
-  "https://gbhackers.com/hackers-use-infostealer-malware-to-steal-claude-session-cookies",
-  "slug_hackers_use_infostealer_malware_steal_claude",
-  "50276d2dc3e7e3b98ac7d21f1021034c8c5bbc50379be3db6aa8274531d626e2",
   "https://thehackernews.com/2026/08/valleyrat-backdoor-hides-in-signed.html",
   "slug_valleyrat_backdoor_hides_signed_adware_that",
   "51a33f7c69bd5c57062134ed9ca1157a323eafe05a7f3864e65acbba2de34448",
@@ -998,5 +989,14 @@
   "slug_hackers_target_wordpress_sites_via_thirdparty",
   "37c465f666d8d39e5037a905bb56d520eeab26f53ceda2776358f63dbace6ce9",
   "https://cybersecuritynews.com/how-to-keep-malwares-rotating-infrastructure-from-becoming-a-detection-gap",
-  "slug_how_keep_malwares_rotating_infrastructure_from"
+  "slug_how_keep_malwares_rotating_infrastructure_from",
+  "41594bea7c5a5865e1a5e566afed0d95545304bdb6a20898d7a088c50552b813",
+  "https://thehackernews.com/2026/09/iranian-hackers-use-telegram-controlled.html",
+  "slug_iranian_hackers_use_telegramcontrolled_malware_spy",
+  "cb917a784d2701d24e0a3e80d0435d0b43477b21511c510b2c39fd7ca258b1e9",
+  "https://www.bleepingcomputer.com/news/security/acronis-warns-of-actively-exploited-flaw-in-its-cpanel-backup-plugin",
+  "slug_acronis_warns_actively_exploited_its_cpanel",
+  "bece35069d85e08d4e300cecce6fa0fd7089d7f02e7b35548d411d8a3f956cce",
+  "https://www.securityweek.com/microsoft-commits-to-sweeping-ai-privacy-rules-for-students-will-other-tech-giants-follow",
+  "slug_microsoft_commits_sweeping_ai_privacy_rules"
 ]
