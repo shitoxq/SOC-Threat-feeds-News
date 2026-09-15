@@ -1,13 +1,4 @@
 [
-  "https://www.vulncheck.com/blog/anthropic-ledger",
-  "slug_observations_anthropics_vulnerability_disclosure_ledgerpublic_cve",
-  "d3ad454e092e34c0731730d1817be052b7f9c66cfcf880e72df0d75f24019d6b",
-  "https://gbhackers.com/chinese-hackers-deploy-packclient-rat",
-  "slug_chinese_hackers_deploy_packclient_rat_via",
-  "2a7f9153c55ed3dec151b1ad1e720bc384484056d33a17df98ffca6aa51ce7bf",
-  "https://ipurple.team/2026/07/13/amsi-provider",
-  "slug_amsi_provider",
-  "51502d56b27ea224140e4824b1d80511b503c2a2e277bc19a6e35138511da14c",
   "https://cybersecuritynews.com/hackers-own-malware-infection",
   "slug_hackers_own_malware_infection_exposes_their",
   "782a519327351ce8026373bdccb4466355217a0874d40188db4941065e55ddca",
@@ -998,5 +989,14 @@
   "slug_bambootoken_malware_controls_windows_linux_systems",
   "ed25bd2b64139d753ee41781d0142874d5b4c81e4e9b239e8f6b6b507c0ae006",
   "https://cybersecuritynews.com/cisa-active-directory-attack-techniques",
-  "slug_cisa_shares_17_techniques_used_hackers"
+  "slug_cisa_shares_17_techniques_used_hackers",
+  "e6910dbe4779350d338164fc7f7ea0ad74196d5245a1da9fcff3875f86de541d",
+  "https://thehackernews.com/2026/09/kremlin-banking-malware-hijacks-chrome.html",
+  "slug_kremlin_banking_malware_hijacks_chrome_edge",
+  "a2307bc073cf862e670599bbfb0e6e5da3c047e3af3e5b85a67407640049f86d",
+  "https://www.bleepingcomputer.com/news/security/hackers-target-wordpress-sites-via-third-party-woocommerce-plugin",
+  "slug_hackers_target_wordpress_sites_via_thirdparty",
+  "37c465f666d8d39e5037a905bb56d520eeab26f53ceda2776358f63dbace6ce9",
+  "https://cybersecuritynews.com/how-to-keep-malwares-rotating-infrastructure-from-becoming-a-detection-gap",
+  "slug_how_keep_malwares_rotating_infrastructure_from"
 ]
