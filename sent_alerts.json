@@ -1,13 +1,4 @@
 [
-  "https://www.vulncheck.com/blog/copy-fails-descendants-recent-linux-lpes",
-  "slug_copy_fail_its_descendants_real_humanx27s",
-  "64fea056a4840bde324d04c1df41bd51ff41f9fed75a6156d269925c1e7fe3d8",
-  "https://gbhackers.com/hackers-use-fake-cloudflare-captcha",
-  "slug_hackers_use_fake_cloudflare_captcha_deploy",
-  "30c32e408bf70bc21f42c4302706cea081d8b6d13841cf8f75ab79766499b591",
-  "https://ipurple.team/2026/08/04/provisioning-packages",
-  "slug_provisioning_packages",
-  "ef82d9f6c0879c3dcdc5139d077f28e800d4bd80b0f77886f83cbfcd9574062c",
   "https://www.vulncheck.com/blog/anthropic-ledger",
   "slug_observations_anthropics_vulnerability_disclosure_ledgerpublic_cve",
   "d3ad454e092e34c0731730d1817be052b7f9c66cfcf880e72df0d75f24019d6b",
@@ -998,5 +989,14 @@
   "970f4e1ad144447316ece785436fab43e8a3927cff38f93852b9e2e458edee82",
   "https://cybersecuritynews.com/hackers-exploit-woocommerce-plugin",
   "slug_hackers_exploit_woocommerce_plugin_bug_take",
-  "CVE_CVE-2026-27540"
+  "CVE_CVE-2026-27540",
+  "999d56a1d8090cc951ae928aff63b8b928cec9d9030aaecaf901341e431937bf",
+  "https://thehackernews.com/2026/09/bambootoken-malware-uses-mqtt-to.html",
+  "slug_bambootoken_malware_uses_mqtt_control_windows",
+  "c19aea47c3662d773e949db9ed323ab2a8e871dcecd7480d28c7af68011244cf",
+  "https://www.bleepingcomputer.com/news/security/bambootoken-malware-controls-windows-and-linux-systems-via-mqtt",
+  "slug_bambootoken_malware_controls_windows_linux_systems",
+  "ed25bd2b64139d753ee41781d0142874d5b4c81e4e9b239e8f6b6b507c0ae006",
+  "https://cybersecuritynews.com/cisa-active-directory-attack-techniques",
+  "slug_cisa_shares_17_techniques_used_hackers"
 ]
