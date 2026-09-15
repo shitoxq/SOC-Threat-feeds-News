@@ -1,14 +1,4 @@
 [
-  "slug_chrome_web_store_extensions_caught_stealing",
-  "9636c568e50e698a97bc03a5b02984a27b84edccc0a7f033daefebc51cb31b5c",
-  "https://www.vulncheck.com/blog/fossbilling-auth-bypass-ssti-rce",
-  "slug_cve202628496_fossbilling_auth_bypass_twig_ssti",
-  "CVE_CVE-2026-28496",
-  "7773ca084f1066b60e98b8a8771c018e0c3fb10fd3655244a6ebd2e7de8c22b3",
-  "https://gbhackers.com/critical-gogs-flaw-enables-remote-code-execution",
-  "slug_critical_gogs_enables_remote_code_execution",
-  "CVE_CVE-2026-52813",
-  "951314c27b65e520fe8f034e40358d0a416fa69912cf1f408600de654921f2ad",
   "https://www.vulncheck.com/blog/copy-fails-descendants-recent-linux-lpes",
   "slug_copy_fail_its_descendants_real_humanx27s",
   "64fea056a4840bde324d04c1df41bd51ff41f9fed75a6156d269925c1e7fe3d8",
@@ -998,5 +988,15 @@
   "slug_hackers_hijack_hbo_max_reddit_account",
   "3ab0f1256d13f938c415ecebe08a10d8f24a9d7d6a24150f604e6daafd40e59a",
   "https://cybersecuritynews.com/best-kubernetes-security-tools",
-  "slug_top_10_best_kubernetes_security_tools"
+  "slug_top_10_best_kubernetes_security_tools",
+  "f78f80e44815d15028f54b90e61e70b03d0caa6c7148838043f211381cb454d9",
+  "https://thehackernews.com/2026/09/human-attacker-exploits-marimo-rce.html",
+  "slug_human_attacker_exploits_marimo_rce_reaches",
+  "e6762e88a598286a299e203d4e0ce9847dd7c14b611adac5acae5bdf31843985",
+  "https://www.bleepingcomputer.com/news/microsoft/microsoft-september-kb5002914-security-update-breaks-excel-copy-and-paste",
+  "slug_microsoft_confirms_kb5002914_excel_update_breaks",
+  "970f4e1ad144447316ece785436fab43e8a3927cff38f93852b9e2e458edee82",
+  "https://cybersecuritynews.com/hackers-exploit-woocommerce-plugin",
+  "slug_hackers_exploit_woocommerce_plugin_bug_take",
+  "CVE_CVE-2026-27540"
 ]
