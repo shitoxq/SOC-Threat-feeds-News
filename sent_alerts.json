@@ -1,14 +1,4 @@
 [
-  "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-warns-infostealer-malware-is-hijacking-claude-sessions-to-drain-usage",
-  "slug_anthropic_warns_infostealer_malware_hijacking_claude",
-  "ffa29d171fbd5e700bacb413b61bfd73193786d4bf21bbe1cd8969c6b460c472",
-  "https://cybersecuritynews.com/iran-linked-hackers-2",
-  "slug_iranlinked_hackers_reportedly_knock_uk_power",
-  "da6a6aee817912704e114f1fe3180ca2780138d792350e8422282bf81be84c76",
-  "https://www.vulncheck.com/blog/nvidia-gen3c-unauth-pickle-rce",
-  "slug_nvidia_gen3c_unauthenticated_rce_via_pickle",
-  "84f685770c0f51b44b406690dc99e390f8706b54af95f917d4b46545167bae6e",
-  "https://www.bleepingcomputer.com/news/security/chrome-web-store-extensions-caught-stealing-crypto-browser-data",
   "slug_chrome_web_store_extensions_caught_stealing",
   "9636c568e50e698a97bc03a5b02984a27b84edccc0a7f033daefebc51cb31b5c",
   "https://www.vulncheck.com/blog/fossbilling-auth-bypass-ssti-rce",
@@ -998,5 +988,15 @@
   "49987561e58ca9addc47f583fa4b2ff627c77d170764ac229edd70b93e393c9b",
   "https://cybersecuritynews.com/nintendo-switch-code-execution-flaw",
   "slug_nintendo_switch_vulnerability_allows_attackers_run",
-  "CVE_CVE-2026-82079"
+  "CVE_CVE-2026-82079",
+  "afc835b3ebd293cb78098b197b87636fea7485b9b61cdbac5dc98511b1a22d9f",
+  "https://thehackernews.com/2026/09/cisco-secure-email-gateway-flaw.html",
+  "slug_cisco_secure_email_gateway_exploited_wild",
+  "CVE_CVE-2026-76461",
+  "38e9dd836aa730982e7cb0dfd7e5effbcc886fe1116c925e46d0c715459faf69",
+  "https://www.bleepingcomputer.com/news/security/hackers-hijack-hbo-max-reddit-account-to-push-malware-in-clickfix-ads",
+  "slug_hackers_hijack_hbo_max_reddit_account",
+  "3ab0f1256d13f938c415ecebe08a10d8f24a9d7d6a24150f604e6daafd40e59a",
+  "https://cybersecuritynews.com/best-kubernetes-security-tools",
+  "slug_top_10_best_kubernetes_security_tools"
 ]
