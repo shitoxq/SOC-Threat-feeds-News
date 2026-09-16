@@ -1,13 +1,4 @@
 [
-  "slug_aurora_ransomware_operators_use_cursor_ai",
-  "cb90621589fe2293e93241ced1601417d4f9b10d6667e22ad019e127285ab748",
-  "https://www.bleepingcomputer.com/news/microsoft/microsoft-exchange-online-outage-causes-email-failures-auth-issues",
-  "slug_microsoft_exchange_online_outage_causes_email",
-  "1f8a781c6e6e8ac147d2f5ffe181e8fab8b867733eb3195841a9550ab6a8e26c",
-  "https://cybersecuritynews.com/microsof-new-exchange-online",
-  "slug_microsoft_investigating_new_exchange_online_outage",
-  "a645320d36fc7caf347dd76939d329238e28bc6a09eb396085eccaac1fd124c4",
-  "https://thehackernews.com/2026/08/china-linked-fire-ant-hijacks-cisco.html",
   "slug_chinalinked_fire_ant_hijacks_cisco_routers",
   "11c86572051ce856f5731689c2414d7b0f2a471e05c3a33e24180fb1620157ca",
   "https://www.bleepingcomputer.com/news/security/chinese-fire-ant-hackers-turn-cisco-routers-into-spying-platforms",
@@ -998,5 +989,14 @@
   "slug_critical_screenconnect_now_actively_exploited_attacks",
   "3cca9610b4e7da03f674c360c5a0af529676b9695a5907e6842cac1dab5e95bd",
   "https://cybersecuritynews.com/700-openai-agents",
-  "slug_700_openai_agents_built_their_own"
+  "slug_700_openai_agents_built_their_own",
+  "ffa867bf23d68de49dd7d37c89d87fdf3d7e4e0c75f6fbc716a4ac2b6d1c7982",
+  "https://thehackernews.com/2026/09/attacker-hijacks-ai-coding-assistant.html",
+  "slug_attacker_hijacks_ai_coding_assistant_session",
+  "27a47a0a9fc9a11136a4808c9040d10ee9eb995d3be68a18bb20d6672089047f",
+  "https://www.bleepingcomputer.com/news/security/the-true-cost-of-a-ransomware-attack-with-and-without-bcdr",
+  "slug_true_cost_ransomware_attack_without_bcdr",
+  "4e6a86d74a043e4760916c36f29ebd721781daa12ffd06171b81e5a6a081a904",
+  "https://cybersecuritynews.com/german-manufacturer-security-alerts",
+  "slug_german_manufacturer_shrinks_security_response_while"
 ]
