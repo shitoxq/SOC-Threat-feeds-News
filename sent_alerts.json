@@ -1,14 +1,4 @@
 [
-  "https://thehackernews.com/2026/08/north-korean-job-fraud-expands-beyond.html",
-  "slug_north_korean_job_fraud_expands_beyond",
-  "a33bda7d2d1fa083f9d04439f9103d501b2cd469b8f5dc8ecc6d59c792050c63",
-  "https://www.bleepingcomputer.com/news/security/microsoft-warns-of-terminalfix-attacks-deploying-reverse-tunnels",
-  "slug_microsoft_warns_terminalfix_attacks_deploying_reverse",
-  "762bbeab9db09c315259aa7eeda00677e3fbe0b3a88487282883c450e72b6178",
-  "https://cybersecuritynews.com/broadcom-vmware-ai-factory",
-  "slug_broadcom_launches_vmware_ai_factory_secure",
-  "46defbbddb217e9ff0017193e38e5dbf81c818620a32aa53f448cde65931cf2a",
-  "https://thehackernews.com/2026/08/weekly-recap-chinese-spy-proxy-ai.html",
   "slug_weekly_recap_chinese_spy_proxy_ai",
   "18a4a12b20dce98c8d7a7a66621a8c8b8c9adea87ed811d0a7b340a01f6df884",
   "https://www.bleepingcomputer.com/news/security/cronos-blockchain-restarts-after-74-million-tectonic-exploit",
@@ -998,5 +988,15 @@
   "slug_malcious_admin_menu_editor_pro_plugin",
   "615e5bf1b482d22c4f3882c393e7e8734e7f90d1e3aaa3374fea25e8eed3612f",
   "https://www.securityweek.com/1-million-sandbox-challenge-uncovers-linux-kernel-flaws",
-  "slug_1_million_sandbox_challenge_uncovers_linux"
+  "slug_1_million_sandbox_challenge_uncovers_linux",
+  "7c09d00af3deeda7e85aae44adb90e2765a05b33592d3659134a4c8a95d07901",
+  "https://thehackernews.com/2026/09/litespeed-enterprise-flaw-could-let-one.html",
+  "slug_litespeed_enterprise_could_let_one_hosting",
+  "fbebea31c1d436ff15854621a38eeaa8e11662b8c8a7159424fbe5bf9f150fca",
+  "https://www.bleepingcomputer.com/news/security/what-zero-day-response-should-be-in-the-post-mythos-era",
+  "slug_what_zeroday_response_should_be_postmythos",
+  "131e125bb8d6f7f828ca3f258a70eb12089722b7cfbe1c736ddb09df3c8a73d8",
+  "https://cybersecuritynews.com/google-chrome-fixes-42-flaws",
+  "slug_google_chrome_153_update_fixes_42",
+  "CVE_CVE-2026-91721"
 ]
