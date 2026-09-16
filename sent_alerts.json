@@ -1,14 +1,4 @@
 [
-  "slug_chinalinked_fire_ant_hijacks_cisco_routers",
-  "11c86572051ce856f5731689c2414d7b0f2a471e05c3a33e24180fb1620157ca",
-  "https://www.bleepingcomputer.com/news/security/chinese-fire-ant-hackers-turn-cisco-routers-into-spying-platforms",
-  "slug_chinese_fire_ant_hackers_turn_cisco",
-  "4f1680a799fc4fbadef7476cbfc4215b531f7338f2fccab2cc71b55dfc3502d0",
-  "https://www.securityweek.com/servicenow-patches-3-critical-code-injection-vulnerabilities",
-  "slug_servicenow_patches_3_critical_code_injection",
-  "6a32dcc2b873f1220704b7f36fe9ecb57a081c072d6c57fdab250c430e566b3d",
-  "https://thehackernews.com/2026/09/threat-actors-dont-want-better-attacks.html",
-  "slug_threat_actors_dont_want_better_attacks",
   "588327545256385caee6f688afdf078c7b2477c82a7b252f8071197de25d1998",
   "https://www.bleepingcomputer.com/news/security/nearly-22-000-microsoft-exchange-servers-vulnerable-to-hijack-attacks",
   "slug_nearly_22000_microsoft_exchange_servers_vulnerable",
@@ -998,5 +988,15 @@
   "slug_true_cost_ransomware_attack_without_bcdr",
   "4e6a86d74a043e4760916c36f29ebd721781daa12ffd06171b81e5a6a081a904",
   "https://cybersecuritynews.com/german-manufacturer-security-alerts",
-  "slug_german_manufacturer_shrinks_security_response_while"
+  "slug_german_manufacturer_shrinks_security_response_while",
+  "4a519778a75aa182655b26560c0ed80a317816ee4868817e7b0281b80b3fb6f4",
+  "https://thehackernews.com/2026/09/attackers-exploit-issabel-framework.html",
+  "slug_attackers_exploit_issabel_framework_enabling_unauthenticated",
+  "CVE_CVE-2026-89026",
+  "4f9fc237051cbd811fc567dc9a6fcc8db52abf53ca0bd330b57f8bb253c1f87e",
+  "https://www.bleepingcomputer.com/news/security/malware-bypasses-browser-checks-to-force-install-chrome-edge-extensions",
+  "slug_malware_bypasses_browser_checks_force_install",
+  "1fb6c9f688ad7fa6ef6248424f0fa54cb9d6ba2cd2a332822983f24f8ec91bd7",
+  "https://www.securityweek.com/first-agentic-ai-data-breach-reported-to-spanish-regulator",
+  "slug_first_agentic_ai_data_breach_reported"
 ]
