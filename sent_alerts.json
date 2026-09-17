@@ -1,14 +1,4 @@
 [
-  "20f2f9e2f38a7a695e67c025de8d9b99e39b021d6b62ec039a046c67f5c23f30",
-  "https://www.bleepingcomputer.com/news/security/critical-langflow-flaw-exploited-to-steal-openai-and-aws-keys",
-  "slug_critical_langflow_exploited_steal_openai_aws",
-  "CVE_CVE-2026-0768",
-  "3bf57668a7f6a581a736ca1ac1fabe0e5e28a1ead9c3241149185839a45cb597",
-  "https://cybersecuritynews.com/fake-coding-tests",
-  "slug_hackers_pose_recruiters_send_fake_coding",
-  "5b862f142a978c2bc9c231db7d1f619233dff725581d1c3773bd83cc6b98aeb0",
-  "https://thehackernews.com/2026/09/russia-aligned-uac-0099-plants-nuclear.html",
-  "slug_russiaaligned_uac0099_plants_nuclear_weapon_prompt",
   "555a3703aabc040e7564820999fda01b581c74db68833d354328c3038fd35a8b",
   "https://www.bleepingcomputer.com/news/security/why-even-the-best-edge-security-still-misses-high-risk-sessions",
   "slug_why_even_best_edge_security_still",
@@ -998,5 +988,15 @@
   "slug_spainx27s_data_agency_gets_first_report",
   "a9b06a1c0df7936cdd561a2dbd73740e60c3229e2b6057d6df8e5e753afd1af2",
   "https://cybersecuritynews.com/windows-11-kb5124008-update",
-  "slug_windows_11_kb5124008_update_breaks_active"
+  "slug_windows_11_kb5124008_update_breaks_active",
+  "8f4404937cb63f29b4d89ed4a114969e028ca131e8756bfc016f2a6d90bca3e7",
+  "https://thehackernews.com/2026/09/google-patches-pixel-modem-flaw-amid.html",
+  "slug_google_patches_pixel_modem_amid_signs",
+  "CVE_CVE-2026-58704",
+  "ce681f5c4b2479941fcf23373dcd95e58e9f064efa7f628b96a680eaba8312e9",
+  "https://www.bleepingcomputer.com/news/security/chinese-hackers-use-sparrowocky-malware-in-govt-espionage-attacks",
+  "slug_chinese_hackers_use_sparrowocky_malware_govt",
+  "757e20e77195e00bf8f3e77584178ead5511f1180d1b94082d4b36aa994e2eb8",
+  "https://www.securityweek.com/active-exploitation-triggers-emergency-patch-for-cisco-ise-zero-day",
+  "slug_active_exploitation_triggers_emergency_patch_cisco"
 ]
