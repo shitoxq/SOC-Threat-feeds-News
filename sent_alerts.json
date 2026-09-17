@@ -1,13 +1,4 @@
 [
-  "522f5f0c1de5fc9dbf540c4f860c0c9d907a82fd712186748f7d2417bbb88c0c",
-  "https://www.bleepingcomputer.com/news/security/aesto-health-says-data-breach-affects-over-95-million-patients",
-  "slug_aesto_health_says_data_breach_affects",
-  "1164bec085e1f6427fb7ffbe92055f00d177318e916991d81a5470774df88bff",
-  "https://cybersecuritynews.com/hackers-plead-guilty-to-atm-jackpotting-attacks",
-  "slug_five_hackers_plead_guilty_atm_jackpotting",
-  "dff23f3c8b114063949c38cdb7f9843799edcc5895fa4139578c049c5d65fa75",
-  "https://thehackernews.com/2026/09/breeze-comet-executes-hundreds-of.html",
-  "slug_breeze_comet_executes_hundreds_fraudulent_transactions",
   "20f2f9e2f38a7a695e67c025de8d9b99e39b021d6b62ec039a046c67f5c23f30",
   "https://www.bleepingcomputer.com/news/security/critical-langflow-flaw-exploited-to-steal-openai-and-aws-keys",
   "slug_critical_langflow_exploited_steal_openai_aws",
@@ -998,5 +989,14 @@
   "slug_iranian_hackers_use_chosen_brick_windows",
   "5cefcec91ba14ed3d6b9a8960664a788cfdcf365170424339467d29b87e4de3a",
   "https://www.securityweek.com/eu-chief-warns-of-ai-powered-hacking-moves-to-rein-in-social-media",
-  "slug_eu_chief_warns_aipowered_hacking_moves"
+  "slug_eu_chief_warns_aipowered_hacking_moves",
+  "f2f24ea2e19aab10b99a954d8bb93591f31df9e7f12c4d0081c7e99616aabf6c",
+  "https://thehackernews.com/2026/09/n0va-phishkit-targets-us-and-eu.html",
+  "slug_n0va_phishkit_targets_us_eu_businesses",
+  "c3bcb92126698d29a6c86d48d09601150d31fbd7cf2f9b41563146db5a5c6778",
+  "https://www.bleepingcomputer.com/news/security/spains-data-agency-gets-first-report-of-ai-powered-data-breach",
+  "slug_spainx27s_data_agency_gets_first_report",
+  "a9b06a1c0df7936cdd561a2dbd73740e60c3229e2b6057d6df8e5e753afd1af2",
+  "https://cybersecuritynews.com/windows-11-kb5124008-update",
+  "slug_windows_11_kb5124008_update_breaks_active"
 ]
