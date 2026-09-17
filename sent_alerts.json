@@ -1,14 +1,4 @@
 [
-  "555a3703aabc040e7564820999fda01b581c74db68833d354328c3038fd35a8b",
-  "https://www.bleepingcomputer.com/news/security/why-even-the-best-edge-security-still-misses-high-risk-sessions",
-  "slug_why_even_best_edge_security_still",
-  "65da466ee51a3d8392a14c9507c74390233abb31ec0760174eab88fa522696a3",
-  "https://cybersecuritynews.com/hackers-weaponize-microsoft-teams",
-  "slug_hackers_weaponize_microsoft_teams_help_desk",
-  "77a2412a7854a80789d9bff3a4809936fdaad0cde9bc6e0f36d163d087883714",
-  "https://www.bleepingcomputer.com/news/security/five-venezuelans-plead-guilty-to-atm-jackpotting-attacks-in-us",
-  "slug_five_venezuelans_plead_guilty_atm_jackpotting",
-  "de8de5ec6b8969e4a699256da597f9e92626b52573ab841d2cebf72efd9217c5",
   "https://www.securityweek.com/palo-alto-networks-acquires-ai-agent-platform-console",
   "slug_palo_alto_networks_acquires_ai_agent",
   "d667e6f88587edd93237cf18ebf745b845a28118ae27fc302be81812257653be",
@@ -998,5 +988,15 @@
   "slug_chinese_hackers_use_sparrowocky_malware_govt",
   "757e20e77195e00bf8f3e77584178ead5511f1180d1b94082d4b36aa994e2eb8",
   "https://www.securityweek.com/active-exploitation-triggers-emergency-patch-for-cisco-ise-zero-day",
-  "slug_active_exploitation_triggers_emergency_patch_cisco"
+  "slug_active_exploitation_triggers_emergency_patch_cisco",
+  "4341f2269a01efb541fca4c9782a3e8abfa4e76385981cd8f206066292ab0169",
+  "https://thehackernews.com/2026/09/critical-unbound-dnssec-validator-flaw.html",
+  "slug_critical_unbound_dnssec_validator_could_allow",
+  "CVE_CVE-2026-81642",
+  "2b588c8830716627b73a866a876a50bdb9baa1bbd9de87dfd4053e8c6ec74ed3",
+  "https://www.bleepingcomputer.com/news/microsoft/windows-11-24h2-home-and-pro-reach-end-of-support-in-october",
+  "slug_windows_11_24h2_home_pro_reach",
+  "f5b40792290899e9e178198de55935c12b589f854fb9014b3ecca217d6de284e",
+  "https://cybersecuritynews.com/cisa-fake-credentials-catch-hackers",
+  "slug_cisa_wants_defenders_plant_fake_credentials"
 ]
