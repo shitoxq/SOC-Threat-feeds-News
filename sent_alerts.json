@@ -1,13 +1,4 @@
 [
-  "https://www.bleepingcomputer.com/news/security/novocure-data-breach-affects-more-than-1-400-cancer-patients",
-  "slug_novocure_data_breach_affects_more_than",
-  "bc0512820d8bbe6609efa9f4c6d1928440bfb650808d01501e327d3c438e38d5",
-  "https://cybersecuritynews.com/trusted-cloud-services-phishing-attacks",
-  "slug_attackers_abuse_trusted_cloud_services_hide",
-  "5d60f3c3ebe6483c7e77cf92dc0d749e3274f46e5ef52c57e48cd8afd9111afb",
-  "https://thehackernews.com/2026/09/attackers-exploit-critical-jfrog.html",
-  "slug_attackers_exploit_critical_jfrog_artifactory_mint",
-  "CVE_CVE-2026-82329",
   "522f5f0c1de5fc9dbf540c4f860c0c9d907a82fd712186748f7d2417bbb88c0c",
   "https://www.bleepingcomputer.com/news/security/aesto-health-says-data-breach-affects-over-95-million-patients",
   "slug_aesto_health_says_data_breach_affects",
@@ -998,5 +989,14 @@
   "3c22897a5787ca0a32d66a6276b4aeb0a1cf7925043fe6d314e4a090ebb8f34e",
   "https://cybersecuritynews.com/check-point-root-access-flaw",
   "slug_check_point_vulnerability_lets_remote_hackers",
-  "CVE_CVE-2026-91843"
+  "CVE_CVE-2026-91843",
+  "d58c7f1a86f68a9cf2d5118d4d5c82f623776cd849dfc126357cec5be73c76fb",
+  "https://thehackernews.com/2026/09/one-extension-could-hijack-ai.html",
+  "slug_one_extension_could_hijack_ai_assistants",
+  "932e95369cfbef9cfde59639a4e637011914b4e6f25fa83b6228c85b2aaabfa5",
+  "https://www.bleepingcomputer.com/news/security/iranian-hackers-use-chosen-brick-windows-malware-to-spy-on-targets",
+  "slug_iranian_hackers_use_chosen_brick_windows",
+  "5cefcec91ba14ed3d6b9a8960664a788cfdcf365170424339467d29b87e4de3a",
+  "https://www.securityweek.com/eu-chief-warns-of-ai-powered-hacking-moves-to-rein-in-social-media",
+  "slug_eu_chief_warns_aipowered_hacking_moves"
 ]
