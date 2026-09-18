@@ -1,13 +1,4 @@
 [
-  "slug_google_anthropic_openai_unveil_cyber_ai",
-  "5932f06118d51b842aea40fd93feac319b2611b5f6c39997e67ade95397fff31",
-  "https://www.bleepingcomputer.com/news/security/microsoft-defender-flags-legitimate-google-search-links-as-malicious",
-  "slug_microsoft_defender_flags_legitimate_google_search",
-  "e0be1eacdce7baae858e8e54b0bf7cf5ca914a30e07cd0bcb169a23f6ef8c8f5",
-  "https://cybersecuritynews.com/microsoft-365-session-hijacking",
-  "slug_hackers_target_us_eu_firms_microsoft",
-  "64ac102057daee2e8ab43e28e0bce328f9d3deb30428b0379e4bdc0169015af2",
-  "https://thehackernews.com/2026/09/fake-software-installers-disable.html",
   "slug_fake_software_installers_disable_windows_update",
   "68b76c3eabe4dd38065a33b7da3ccecc54c267e85b47d6c1cba1533214628140",
   "https://www.bleepingcomputer.com/news/security/hackers-exploit-sangoma-switchvox-flaw-to-deploy-reverse-shells",
@@ -998,5 +989,14 @@
   "slug_steam_windows_0day_vulnerability_allows_users",
   "8f81e12b43a774f19beced3ce0c0e6641de0a81f5a285850e285cc2abab86d2e",
   "https://www.securityweek.com/isc-patches-14-vulnerabilities-in-bind-9-security-update",
-  "slug_isc_patches_14_vulnerabilities_bind_9"
+  "slug_isc_patches_14_vulnerabilities_bind_9",
+  "d520678c4afb9aa5d54fa93c9be6ac4af465778271027f86fa7fcd0d35c1d8ef",
+  "https://thehackernews.com/2026/09/rathat-android-malware-abuses-adb-to.html",
+  "slug_rathat_android_malware_abuses_adb_retain",
+  "35f50263d0e778da37010cfc5ffaf1c2cfc2a27701855d79734a859d2444c87c",
+  "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-broken-copy-and-paste-for-excel-2016-users",
+  "slug_microsoft_fixes_broken_copy_paste_excel",
+  "3ab4f086d127b5c4d907a8ea3b965d3ca38bc18ab8a9cc9404cd5fcdf1643089",
+  "https://cybersecuritynews.com/brevo-supply-chain-attack",
+  "slug_brevo_supply_chain_attack_pushes_wordpress"
 ]
