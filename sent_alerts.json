@@ -1,13 +1,4 @@
 [
-  "slug_fake_software_installers_disable_windows_update",
-  "68b76c3eabe4dd38065a33b7da3ccecc54c267e85b47d6c1cba1533214628140",
-  "https://www.bleepingcomputer.com/news/security/hackers-exploit-sangoma-switchvox-flaw-to-deploy-reverse-shells",
-  "slug_hackers_exploit_sangoma_switchvox_deploy_reverse",
-  "CVE_CVE-2026-9586",
-  "e492d14c6ffaf0dacd4fa07aaec91991c53664f48460c7f0b33e2766ecd1c5d0",
-  "https://www.securityweek.com/openleash-adds-a-human-check-to-risky-ai-agent-actions",
-  "slug_openleash_adds_human_check_risky_ai",
-  "cc6eebb4ccdc34f3f6671b29775230fa5e74f4b0380a1d74ffdbde62af83d05c",
   "https://thehackernews.com/2026/09/malicious-apache-modules-hijack.html",
   "slug_malicious_apache_modules_hijack_brazilian_government",
   "3ce23c1a0169d87ebb54e084eef727091c5ba86413535037552fb98e179602b0",
@@ -998,5 +989,14 @@
   "slug_microsoft_fixes_broken_copy_paste_excel",
   "3ab4f086d127b5c4d907a8ea3b965d3ca38bc18ab8a9cc9404cd5fcdf1643089",
   "https://cybersecuritynews.com/brevo-supply-chain-attack",
-  "slug_brevo_supply_chain_attack_pushes_wordpress"
+  "slug_brevo_supply_chain_attack_pushes_wordpress",
+  "987fdbb14989de685462b433ba7cbc14ffc65a10b8e1cf46b8b9be5364b66e66",
+  "https://thehackernews.com/2026/09/weaselbiscuit-stealer-spreads-via-13.html",
+  "slug_weaselbiscuit_stealer_spreads_via_13_npm",
+  "011d41b8c9e8cff46617c808e9019ad893bf6739968151fa23b091f478bf316f",
+  "https://www.bleepingcomputer.com/news/security/webinar-which-google-workspace-security-controls-actually-matter",
+  "slug_webinar_which_google_workspace_security_controls",
+  "9d71115024b9abde2d56fbcb37bc9feaccc14b89657a31561b68925106528241",
+  "https://www.securityweek.com/ai-built-exploit-and-sign-in-flaw-opened-path-to-internal-openai-code",
+  "slug_aibuilt_exploit_signin_opened_path_internal"
 ]
