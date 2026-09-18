@@ -1,13 +1,4 @@
 [
-  "slug_malicious_git_configs_can_make_claude",
-  "cb82f5f1980e976fb45410d25440f50afa7a7c70624f071bfe8f556c47401727",
-  "https://www.bleepingcomputer.com/news/security/ransomware-protection-for-msps-a-6-point-checklist-for-faster-recovery",
-  "slug_ransomware_protection_msps_6point_checklist_faster",
-  "109fa86a105b1157c003f5612b79b7071ba82f45bfd8ff246f67ea14db1b3bcd",
-  "https://cybersecuritynews.com/gemini-3-8-flash-cyber",
-  "slug_google_launches_gemini_38_flash_cyber",
-  "9885e3b9c4a2864eae0b8b69b387455d0db56558d7c730c4007961a5c24171b7",
-  "https://thehackernews.com/2026/09/google-anthropic-and-openai-unveil.html",
   "slug_google_anthropic_openai_unveil_cyber_ai",
   "5932f06118d51b842aea40fd93feac319b2611b5f6c39997e67ade95397fff31",
   "https://www.bleepingcomputer.com/news/security/microsoft-defender-flags-legitimate-google-search-links-as-malicious",
@@ -998,5 +989,14 @@
   "slug_microsoft_shares_workaround_windows_domain_login",
   "831e59baba6ecebb5a9c962a4ef17991f2602787ea66c0b8de526de4fd82bd0b",
   "https://cybersecuritynews.com/bind-dns-servers-hit-by-14-security-flaws",
-  "slug_bind_dns_servers_hit_14_security"
+  "slug_bind_dns_servers_hit_14_security",
+  "1276fb6b0a48564d56b14a05a98e6966749b52436e91b2a0186dc195ab8a132f",
+  "https://thehackernews.com/2026/09/critical-check-point-management-server.html",
+  "slug_critical_check_point_management_lets_unauthenticated",
+  "0d442d2ccf8563023c0ddb6dd919bac48319fff0f3f07573a9ba515876794f10",
+  "https://cybersecuritynews.com/steam-windows-0-day-vulnerability",
+  "slug_steam_windows_0day_vulnerability_allows_users",
+  "8f81e12b43a774f19beced3ce0c0e6641de0a81f5a285850e285cc2abab86d2e",
+  "https://www.securityweek.com/isc-patches-14-vulnerabilities-in-bind-9-security-update",
+  "slug_isc_patches_14_vulnerabilities_bind_9"
 ]
