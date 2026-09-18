@@ -1,13 +1,4 @@
 [
-  "https://thehackernews.com/2026/09/malicious-apache-modules-hijack.html",
-  "slug_malicious_apache_modules_hijack_brazilian_government",
-  "3ce23c1a0169d87ebb54e084eef727091c5ba86413535037552fb98e179602b0",
-  "https://www.bleepingcomputer.com/news/security/sality-botnet-infrastructure-dismantled-in-joint-global-takedown",
-  "slug_sality_botnet_infrastructure_dismantled_joint_global",
-  "e442e064250d9870ef470ace2dd43d5bc3b14e3b99bb7aa07a1653e0d97a2f84",
-  "https://cybersecuritynews.com/dropbox-lenovo-id-flaw",
-  "slug_dropbox_says_5000_accounts_were_compromised",
-  "8071e541fd79f3e371c05b831ac68f2c723d387e5cf5a1de02ca6dc76856301c",
   "https://thehackernews.com/2026/09/attackers-exploit-two-sonicwall-sma.html",
   "slug_attackers_exploit_two_sonicwall_sma_1000",
   "CVE_CVE-2026-83548",
@@ -998,5 +989,14 @@
   "slug_webinar_which_google_workspace_security_controls",
   "9d71115024b9abde2d56fbcb37bc9feaccc14b89657a31561b68925106528241",
   "https://www.securityweek.com/ai-built-exploit-and-sign-in-flaw-opened-path-to-internal-openai-code",
-  "slug_aibuilt_exploit_signin_opened_path_internal"
+  "slug_aibuilt_exploit_signin_opened_path_internal",
+  "eb5aad65b2515888fa52ac01678a356827d1a2ce9d19415e9f1136433440610d",
+  "https://thehackernews.com/2026/09/transparent-tribe-deploys-new-rust.html",
+  "slug_transparent_tribe_deploys_new_rust_backdoor",
+  "b4610ef23810c67714fcca7ebfca2e9bc68cb9097a75181a089dcfd2e0ef469e",
+  "https://www.bleepingcomputer.com/news/security/gyazo-server-flaw-exploited-to-steal-236-million-user-records",
+  "slug_gyazo_server_exploited_steal_236_million",
+  "4b0cb8cbbf871a462a77a84ef855ddd38861abe699e08425631b9188444644c1",
+  "https://www.securityweek.com/in-other-news-ransomware-developer-sentenced-plugin4shell-ai-attack-critical-sap-flaw",
+  "slug_other_news_ransomware_developer_sentenced_plugin4shell"
 ]
