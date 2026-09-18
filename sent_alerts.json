@@ -1,13 +1,4 @@
 [
-  "slug_meta_ads_push_streamrat_android_trojan",
-  "e963a8449e10668640b84c21a21ddf7c3ebf4265768bdd3de0b7606833122fd9",
-  "https://www.bleepingcomputer.com/news/security/dropbox-accounts-breached-through-lenovo-email-verification-flaw",
-  "slug_dropbox_accounts_breached_through_lenovo_email",
-  "6a0410c4e5159e49af6f544582ff864ce27b251c636ee72ff99ab242dd35c348",
-  "https://cybersecuritynews.com/breeze-comet-hackers",
-  "slug_breeze_comet_hackers_use_aiassisted_malware",
-  "335721a8136cc299e91a1e581f90399c4f6392fcdb777730335e00903afaef05",
-  "https://thehackernews.com/2026/09/malicious-git-configs-can-make-claude.html",
   "slug_malicious_git_configs_can_make_claude",
   "cb82f5f1980e976fb45410d25440f50afa7a7c70624f071bfe8f556c47401727",
   "https://www.bleepingcomputer.com/news/security/ransomware-protection-for-msps-a-6-point-checklist-for-faster-recovery",
@@ -998,5 +989,14 @@
   "slug_new_rathat_android_malware_uses_ai",
   "b7b3f8e3f5504c647ccac2ebbcfeb387f37257e1a7b8015cdcb546796c5ec432",
   "https://cybersecuritynews.com/openai-models-api-key-leaks",
-  "slug_openai_models_searched_leaked_api_keys"
+  "slug_openai_models_searched_leaked_api_keys",
+  "f355c5f46acfcc3ba3b66a78fb66cb83c057989b00bb6973c89fac2afbf20158",
+  "https://thehackernews.com/2026/09/china-aligned-famoussparrow-deploys.html",
+  "slug_chinaaligned_famoussparrow_deploys_sparrowocky_backdoor_across",
+  "7ed3b8ecfcfb9b4533fd5c17cebf88149d2cbfe5fb3a3ada2f40b776b12ec506",
+  "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-workaround-for-windows-domain-login-authentication-issues",
+  "slug_microsoft_shares_workaround_windows_domain_login",
+  "831e59baba6ecebb5a9c962a4ef17991f2602787ea66c0b8de526de4fd82bd0b",
+  "https://cybersecuritynews.com/bind-dns-servers-hit-by-14-security-flaws",
+  "slug_bind_dns_servers_hit_14_security"
 ]
