@@ -1,14 +1,4 @@
 [
-  "https://thehackernews.com/2026/09/attackers-exploit-two-sonicwall-sma.html",
-  "slug_attackers_exploit_two_sonicwall_sma_1000",
-  "CVE_CVE-2026-83548",
-  "156c10a8a9303a821f750fa31b52c1aa2ae01fd6fa0c8d976ede7c52e25ba2be",
-  "https://www.securityweek.com/uk-moves-to-block-high-risk-tech-suppliers-from-critical-infrastructure",
-  "slug_uk_moves_block_highrisk_tech_suppliers",
-  "9e184f7cdec715a04d889fb69d1761930c4a7a721cb63a05269ea387f9754bf7",
-  "https://www.vulncheck.com/blog/ai-assisted-vulnerability-discovery",
-  "slug_first_cve_wave_signs_that_aiassisted",
-  "21d7fb2ca2b3641ce8b901ccaed2c58af30e54baec778d247254217167e0bf6b",
   "https://thehackernews.com/2026/09/researcher-releases-falconflank-poc.html",
   "slug_researcher_releases_falconflank_poc_showing_privilege",
   "e109cdc493d20607e519e9c0a6425f2d8aa7074665977b9780d1d96521d7bdd6",
@@ -998,5 +988,15 @@
   "slug_gyazo_server_exploited_steal_236_million",
   "4b0cb8cbbf871a462a77a84ef855ddd38861abe699e08425631b9188444644c1",
   "https://www.securityweek.com/in-other-news-ransomware-developer-sentenced-plugin4shell-ai-attack-critical-sap-flaw",
-  "slug_other_news_ransomware_developer_sentenced_plugin4shell"
+  "slug_other_news_ransomware_developer_sentenced_plugin4shell",
+  "55eb40df3f2670c86d6a63354fd2954b90264b101384c69fb384188632936015",
+  "https://thehackernews.com/2026/09/new-wordpress-click2shell-flaw-forces.html",
+  "slug_new_wordpress_click2shell_forces_theme_installs",
+  "119203d8f3dba0d3f0ff000cee07619f3c8c14bd5c412cf6ee414eb0cfaa5449",
+  "https://www.bleepingcomputer.com/news/security/fake-lastpass-authenticator-github-repos-push-new-rapuncel-infostealer",
+  "slug_fake_lastpass_authenticator_github_repos_push",
+  "6fcfa656542fbbee1f48a99da82a247fac607981611d957c2c2f5562be9d2b49",
+  "https://cybersecuritynews.com/microsoft-azure-ai-foundry-vulnerability",
+  "slug_critical_microsoft_azure_ai_foundry_vulnerability",
+  "CVE_CVE-2026-85889"
 ]
