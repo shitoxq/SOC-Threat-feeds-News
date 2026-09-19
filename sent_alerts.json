@@ -1,13 +1,4 @@
 [
-  "slug_over_440000_exploit_attempts_target_super",
-  "CVE_CVE-2026-14894",
-  "8a0e2780f6893da63c138424a50d19f85e0a89f26073a19638a58c5685b1f3d6",
-  "https://www.bleepingcomputer.com/news/security/new-crowdstrike-falconflank-zero-day-grants-system-privileges",
-  "slug_new_crowdstrike_x27falconflankx27_zeroday_grants_system",
-  "39c7734ca57162f9f40e76399676a4dc1f66d94ae5f422da001ab5ab33a37c86",
-  "https://www.securityweek.com/12-year-old-postgresql-vulnerability-enables-database-server-takeover",
-  "slug_12yearold_postgresql_vulnerability_enables_database_server",
-  "CVE_CVE-2026-6471",
   "ffe72a79b189453f28a961058607b2b0bf76089bdef51b97428a33af70666598",
   "https://thehackernews.com/2026/09/phishing-campaign-sends-millions-of.html",
   "slug_phishing_campaign_sends_millions_emails_using",
@@ -998,5 +989,14 @@
   "slug_shinyhunters_hacks_clop_leak_site_threatens",
   "34f78417b6de57905508e1ecb72ed9d33437fc1c4ee50b8cc00876347615fe2a",
   "https://www.securityweek.com/brevo-supply-chain-attack-injects-malware-into-100000-websites",
-  "slug_brevo_supply_chain_attack_injects_malware"
+  "slug_brevo_supply_chain_attack_injects_malware",
+  "b22814fcb0fc7eec80e3b3970d2786bc181cdce6a929fb5d890c8de993cc29fb",
+  "https://cybersecuritynews.com/google-gemini-ai-hacked-3-real-companies",
+  "slug_google_gemini_ai_hacked_3_real",
+  "0de6e8ffad49ea45dcf9d70a9fef575e283d806bcaeeb7579bf95368d9bb66a8",
+  "https://www.vulncheck.com/blog/zbt-endlessdoors",
+  "slug_endlessdoors_phoning_home_pick_uptwenty_router",
+  "717e17a7378ca494c6d8643f5a0ac65e48da6580197c7fe799dce68321042a56",
+  "https://gbhackers.com/north-korean-waterplum-hackers-target-it-professionals",
+  "slug_north_korean_waterplum_hackers_target_it"
 ]
