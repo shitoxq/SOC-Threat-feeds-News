@@ -1,13 +1,4 @@
 [
-  "https://thehackernews.com/2026/09/us-becomes-top-target-in-rmm-phishing.html",
-  "slug_us_becomes_top_target_rmm_phishing",
-  "220fdea6c47a42b105665c1cb5d29f222ba47c149ae2efa0b9d7a8261230ab35",
-  "https://www.bleepingcomputer.com/news/security/your-employees-password-appeared-in-an-infostealer-log-now-what",
-  "slug_your_employees_password_appeared_infostealer_log",
-  "5cc4a0f1dc1cfe36ce1aec066040e79968fb536b14482abfc8315732100872e1",
-  "https://cybersecuritynews.com/memory-integrity-protection-windows",
-  "slug_microsoft_expand_memory_integrity_protection_across",
-  "10869e1cb2f94267097db0303e292e744802aa16350ebfbffb0af4494701542b",
   "https://thehackernews.com/2026/09/critical-cisco-nexus-9000-flaw-lets.html",
   "slug_critical_cisco_nexus_9000_lets_unauthenticated",
   "CVE_CVE-2026-20212",
@@ -998,5 +989,14 @@
   "slug_secure_enterprise_sharing_access_reviews_microsoft",
   "352b876f836adf694c1c887d6efefd8f3e077dfe09b5fab73e9a2561ec055731",
   "https://cybersecuritynews.com/feral-wolf-ransomware",
-  "slug_feral_wolf_ransomware_attacks_exploit_atlassian"
+  "slug_feral_wolf_ransomware_attacks_exploit_atlassian",
+  "1963d1923e71383cfdc7ff37dd1f76ca0a56f0d28f67f1caa48dbd847001cd69",
+  "https://thehackernews.com/2026/09/claimed-bug-bounty-hunter-likely-used.html",
+  "slug_claimed_bug_bounty_hunter_likely_used",
+  "5697d4b4ea172b133cf55fccc1632594325f84e208a08ff9d866846a522c97cf",
+  "https://www.bleepingcomputer.com/news/security/microsoft-teams-will-let-admins-block-custom-file-extensions",
+  "slug_microsoft_teams_will_let_admins_block",
+  "dcd058df63e311915e27ef579d4700b5bff0defbd6882d72b92138b6d1b5b850",
+  "https://cybersecuritynews.com/new-settra-ransomware",
+  "slug_new_settra_ransomware_uses_meshagent_rmm"
 ]
