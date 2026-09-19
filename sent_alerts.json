@@ -1,14 +1,4 @@
 [
-  "9d9736b815d582ed8ce686114c0b3206d9ce0fde65ef624de23d744802199b9b",
-  "https://thehackernews.com/2026/09/brazetsu-malware-turns-compromised.html",
-  "slug_brazetsu_malware_turns_compromised_windows_hosts",
-  "3f3e69d4bd74a63bab19507f3b58a4f073c023a5d56b7ada01ca88f1f3588a5f",
-  "https://www.bleepingcomputer.com/news/security/coders-registry-infrastructure-compromised-to-push-malicious-modules",
-  "slug_coderx27s_registry_infrastructure_compromised_push_malicious",
-  "9573b5c2cdde9f1b14ab65e808a0846600edf96ec3a16e9845f97c081cf6b07e",
-  "https://cybersecuritynews.com/fewer-attacks-more-force-link11s-european-cyber-report-finds-new-ddos-records-for-the-first-half-of-2026",
-  "slug_fewer_attacks_more_force_link11s_european",
-  "0ffead6ad9f846a17b980f621d70737df02f62acbec41c5db285151c3ee86cb4",
   "https://thehackernews.com/2026/09/attackers-turn-trusted-nodejs-runtime.html",
   "slug_attackers_turn_trusted_nodejs_runtime_into",
   "3a90b5a484afadf6acb4a817799ebcc10c48294b5584028d28c4eeba73d5b24e",
@@ -998,5 +988,15 @@
   "slug_bragjack_attack_lets_malicious_extensions_hijack",
   "d1c97c9c317566bdc5aebd2e858fbf2a8167795fc543f2bde94d6213b3e33cd6",
   "https://www.securityweek.com/23-million-user-records-compromised-in-gyazo-data-breach",
-  "slug_23_million_user_records_compromised_gyazo"
+  "slug_23_million_user_records_compromised_gyazo",
+  "c8cb9ca3b0db57d241ce2a34df40a81ddd7981ee0b088a26ce35816eec74f0af",
+  "https://thehackernews.com/2026/09/critical-pre-auth-rce-in-orkes.html",
+  "slug_critical_preauth_rce_orkes_conductor_workflow",
+  "CVE_CVE-2026-58138",
+  "30d68e4eb1613f0853c0dacd20af31fd3611bc7212a0bc82eabf5417a9a0ea16",
+  "https://www.bleepingcomputer.com/news/security/check-point-warns-critical-flaw-lets-hackers-execute-code-as-root",
+  "slug_new_check_point_lets_hackers_execute",
+  "8d52b0aedd235d577f5766e63473f9030d196db204be1fc48b8e1547e9131b4f",
+  "https://cybersecuritynews.com/click2shell-wordpress-vulnerability",
+  "slug_click2shell_wordpress_lets_attackers_gain_rce"
 ]
