@@ -1,13 +1,4 @@
 [
-  "CVE_CVE-2026-85046",
-  "dd743a0f7bb4cec5dec3258da73991baa8d3136c555393734d8a929e3a017d6d",
-  "https://cybersecuritynews.com/14-fake-macos-installers",
-  "slug_14_fake_macos_installers_linked_dprk",
-  "78dba48bcdf2229a1dbdf292c4ee969f72886ad84894e368a5b1a2d786400ad6",
-  "https://www.vulncheck.com/blog/anthropic-glasswing-cves",
-  "slug_tracking_cves_attributed_anthropic_researchers_project",
-  "7eb26d7003dcb87e477704e8847eae18615b5255444eec6470d3131d13709387",
-  "https://thehackernews.com/2026/09/over-440000-exploit-attempts-target.html",
   "slug_over_440000_exploit_attempts_target_super",
   "CVE_CVE-2026-14894",
   "8a0e2780f6893da63c138424a50d19f85e0a89f26073a19638a58c5685b1f3d6",
@@ -998,5 +989,14 @@
   "slug_cisa_warns_linux_kernel_vulnerabilities_actively",
   "CVE_CVE-2025-39682",
   "CVE_CVE-2026-53266",
-  "CVE_CVE-2025-39964"
+  "CVE_CVE-2025-39964",
+  "47bdb82a4099c8a13414e0e4332d7173637768086f2d58c187dad0daefa0ec0b",
+  "https://thehackernews.com/2026/09/crowdsec-says-tanstack-npm-attack-led.html",
+  "slug_crowdsec_says_tanstack_npm_attack_led",
+  "9112ec33d6152498bf06c3aeeee6dfe0175431965548b3435ce10b471f77543a",
+  "https://www.bleepingcomputer.com/news/security/shinyhunters-hacks-clop-leak-site-threatens-to-extort-ransomware-gang",
+  "slug_shinyhunters_hacks_clop_leak_site_threatens",
+  "34f78417b6de57905508e1ecb72ed9d33437fc1c4ee50b8cc00876347615fe2a",
+  "https://www.securityweek.com/brevo-supply-chain-attack-injects-malware-into-100000-websites",
+  "slug_brevo_supply_chain_attack_injects_malware"
 ]
