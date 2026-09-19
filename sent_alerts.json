@@ -1,14 +1,4 @@
 [
-  "https://thehackernews.com/2026/09/attackers-turn-trusted-nodejs-runtime.html",
-  "slug_attackers_turn_trusted_nodejs_runtime_into",
-  "3a90b5a484afadf6acb4a817799ebcc10c48294b5584028d28c4eeba73d5b24e",
-  "https://www.bleepingcomputer.com/news/security/critical-elementor-pro-flaw-exploited-to-take-over-wordpress-sites",
-  "slug_critical_elementor_pro_exploited_take_over",
-  "CVE_CVE-2026-32475",
-  "2db8937381582019e818db7157665948b91834237d36eccb26ce41fd1c84e186",
-  "https://cybersecuritynews.com/hackers-weaponize-screenconnect",
-  "slug_hackers_weaponize_screenconnect_spread_wormlike_malware",
-  "28b73ab0049071506ea9029b461b823e9fb5f1de93c7b1ade20bc678320360d2",
   "https://thehackernews.com/2026/09/shai-huluds-reach-just-grew-to-469.html",
   "slug_shaihuludx27s_reach_just_grew_469_credential",
   "a0ebe15960fb12ef0d1fd6b97cc7a86b4c1cec0bdbb19b04a9606d3fdd622e02",
@@ -998,5 +988,15 @@
   "slug_new_check_point_lets_hackers_execute",
   "8d52b0aedd235d577f5766e63473f9030d196db204be1fc48b8e1547e9131b4f",
   "https://cybersecuritynews.com/click2shell-wordpress-vulnerability",
-  "slug_click2shell_wordpress_lets_attackers_gain_rce"
+  "slug_click2shell_wordpress_lets_attackers_gain_rce",
+  "531e97a39e7b550ac33407aca33814f5c1c95d286679ee3e9b63f936a746a9fe",
+  "https://thehackernews.com/2026/09/solarwinds-patches-arm-hard-coded-key.html",
+  "slug_solarwinds_patches_arm_hardcoded_key_enabling",
+  "CVE_CVE-2026-28326",
+  "ccf96f83f1b21f1636e8d6dec879dd37de93be34773d51c6561bc2b8af80a82c",
+  "https://cybersecuritynews.com/tanstack-supply-chain-attack",
+  "slug_tanstack_supply_chain_attack_lets_hackers",
+  "f48af9c3b8a8a97f33e17e2ab7042cdc42d2fe0ec95ba2c5c2afc9eedf60e868",
+  "https://www.securityweek.com/microsoft-patches-18-vulnerabilities-in-ai-cloud-products",
+  "slug_microsoft_patches_18_vulnerabilities_ai_cloud"
 ]
