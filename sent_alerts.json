@@ -1,13 +1,4 @@
 [
-  "https://thehackernews.com/2026/09/shai-huluds-reach-just-grew-to-469.html",
-  "slug_shaihuludx27s_reach_just_grew_469_credential",
-  "a0ebe15960fb12ef0d1fd6b97cc7a86b4c1cec0bdbb19b04a9606d3fdd622e02",
-  "https://cybersecuritynews.com/avast-antivirus-0-day-vulnerability-poc-released",
-  "slug_chaotic_eclipse_claims_avast_antivirus_0day",
-  "be188fd5a946eee6e4052f5ea60a5f6a58c663b0a553649b02158fe217936df5",
-  "https://www.securityweek.com/over-3-million-wordpress-sites-affected-by-migration-plugin-vulnerability",
-  "slug_over_3_million_wordpress_sites_affected",
-  "CVE_CVE-2026-19949",
   "b6e02e04385587bfc94fbc2569c3b9baa87beadc68c8d5cebde9ffd9a973bae1",
   "https://thehackernews.com/2026/09/pegasus-zero-click-spyware-exploit.html",
   "slug_pegasus_zeroclick_spyware_exploit_infects_serbian",
@@ -998,5 +989,14 @@
   "slug_tanstack_supply_chain_attack_lets_hackers",
   "f48af9c3b8a8a97f33e17e2ab7042cdc42d2fe0ec95ba2c5c2afc9eedf60e868",
   "https://www.securityweek.com/microsoft-patches-18-vulnerabilities-in-ai-cloud-products",
-  "slug_microsoft_patches_18_vulnerabilities_ai_cloud"
+  "slug_microsoft_patches_18_vulnerabilities_ai_cloud",
+  "830c117275ef8fb3a00ef0cc25272743d6fad3d6477d3f5f15acf01b699e3de8",
+  "https://thehackernews.com/2026/09/identity-visibility-in-2026-foundation.html",
+  "slug_identity_visibility_2026_foundation_identity_security",
+  "cc5d6512f04ba8d7a9b54fdd9305ea396b602fa5e7864b92545b351dc89b8903",
+  "https://www.bleepingcomputer.com/news/security/bragjack-attacks-hijack-ai-browser-agents-through-malicious-extensions",
+  "slug_bragjack_attacks_hijack_ai_browser_agents",
+  "d020c9f7fb39c1deb73b9ff832f7f1cdcda6953cba51d13117c452b30b61163a",
+  "https://www.securityweek.com/tigerbyte-cyber-emerges-from-stealth-with-3-million-in-funding",
+  "slug_tigerbyte_cyber_emerges_from_stealth_3"
 ]
