@@ -1,13 +1,4 @@
 [
-  "https://thehackernews.com/2026/09/critical-cisco-nexus-9000-flaw-lets.html",
-  "slug_critical_cisco_nexus_9000_lets_unauthenticated",
-  "CVE_CVE-2026-20212",
-  "e4e4d5699d68084ae296bbf687f6c654ccbfaf3a9bbe30955ecfebe9b9e787b5",
-  "https://www.bleepingcomputer.com/news/microsoft/microsoft-kb5120998-mouse-reset-bug-affects-only-non-english-pcs",
-  "slug_microsoft_kb5120998_mouse_reset_bug_affects",
-  "96e2fd59ead7d98e5c352e6f503d1cf874373d3bbd3608d8dd42dee80322527e",
-  "https://www.securityweek.com/ai-agent-firewall-startup-air-security-emerges-from-stealth-with-50-million",
-  "slug_ai_agent_firewall_startup_air_security",
   "9d9736b815d582ed8ce686114c0b3206d9ce0fde65ef624de23d744802199b9b",
   "https://thehackernews.com/2026/09/brazetsu-malware-turns-compromised.html",
   "slug_brazetsu_malware_turns_compromised_windows_hosts",
@@ -998,5 +989,14 @@
   "slug_microsoft_teams_will_let_admins_block",
   "dcd058df63e311915e27ef579d4700b5bff0defbd6882d72b92138b6d1b5b850",
   "https://cybersecuritynews.com/new-settra-ransomware",
-  "slug_new_settra_ransomware_uses_meshagent_rmm"
+  "slug_new_settra_ransomware_uses_meshagent_rmm",
+  "de830d54b24be68133c0de06def8785092d55e368019e3fcb39731b3f56c0cff",
+  "https://www.bleepingcomputer.com/news/security/microsoft-fixes-bug-behind-defender-antivirus-is-turned-off-alerts",
+  "slug_microsoft_fixes_bug_behind_defender_antivirus",
+  "25a05be0a8f9c9f66ffa32908a63a92be34b6ffdb31a131643790e6915b11b15",
+  "https://cybersecuritynews.com/bragjack-ai-agent-hijacking",
+  "slug_bragjack_attack_lets_malicious_extensions_hijack",
+  "d1c97c9c317566bdc5aebd2e858fbf2a8167795fc543f2bde94d6213b3e33cd6",
+  "https://www.securityweek.com/23-million-user-records-compromised-in-gyazo-data-breach",
+  "slug_23_million_user_records_compromised_gyazo"
 ]
