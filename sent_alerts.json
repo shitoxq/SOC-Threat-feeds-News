@@ -1,13 +1,4 @@
 [
-  "67d07132c6f5e5f1d2d7bf3af7a1b52736671501448fe37b385fd5702bd4371c",
-  "https://www.helpnetsecurity.com/2026/09/04/microsoft-teams-qr-code-phishing-protection",
-  "slug_microsoft_teams_about_make_qr_code",
-  "56c3620d2b89d48303c0ec59e0d2bec900c62d9af0f6344218fc7912b146c6d9",
-  "https://cybersecuritynews.com/microsoft-teams-desktop-client-fails",
-  "slug_microsoft_teams_desktop_client_fails_load",
-  "a821996a2d0f5a0e43407402faf1f4833713d8e25a6afcc6558ce0986d90eec8",
-  "https://www.vulncheck.com/blog/network-edge-device-report-2026",
-  "slug_2026_state_exploitation_exploiting_network_edgewhats",
   "500875b4bce7efe066e6c01e3b6197f824089f1a7b67271a47804d160ae5f453",
   "https://gbhackers.com/chainguard-hits-1-billion-build-manifests",
   "slug_chainguard_hits_1_billion_build_manifests",
@@ -998,5 +989,14 @@
   "slug_feral_wolf_hackers_exploit_confluence_1c",
   "38a56bf5f560f2eeed205e9974ee195abca6252e2dd0deec6f93de4404e7b512",
   "https://www.helpnetsecurity.com/2026/09/18/arcjet-agent-runtime-security",
-  "slug_arcjet_brings_security_controls_audit_trails"
+  "slug_arcjet_brings_security_controls_audit_trails",
+  "ef82d9f6c0879c3dcdc5139d077f28e800d4bd80b0f77886f83cbfcd9574062c",
+  "https://www.vulncheck.com/blog/anthropic-ledger",
+  "slug_observations_anthropics_vulnerability_disclosure_ledgerpublic_cve",
+  "55cfb0c9e3f0b0634430262972ed3a3e3cd7747b7b381f2d62dcc8a76b07665a",
+  "https://gbhackers.com/agentic-ransomware-to-target-ai-models",
+  "slug_jadepuffer_evolves_agentic_ransomware_target_ai",
+  "c48b94c19bc14db4df2841881d449bb599cc1ed6001e798da3e63942690524b2",
+  "https://www.helpnetsecurity.com/2026/09/18/plugin4shell-ai-coding-agents-vulnerability",
+  "slug_zeroclick_rce_vulnerability_hit_four_major"
 ]
