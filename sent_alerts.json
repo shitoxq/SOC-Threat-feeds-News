@@ -1,14 +1,4 @@
 [
-  "14b1ea90767ef9616659bfad43321edba93d3e061aafecb6c7d6b253af71fddf",
-  "https://www.bleepingcomputer.com/news/security/google-warns-of-new-chrome-zero-day-flaw-exploited-in-attacks",
-  "slug_google_warns_new_chrome_zeroday_exploited",
-  "eca0744b0f2483497a32c39c33f1f26a7d9a748ff9cecb7ac7ded4cf5b07ed45",
-  "https://www.securityweek.com/vmware-workstation-and-fusion-updates-patch-critical-vulnerability",
-  "slug_vmware_workstation_fusion_updates_patch_critical",
-  "c24dc62865bc341a3432c2112ce3b1e1ce92f1a6ac266dd70b50c52d14ac9f2c",
-  "https://www.vulncheck.com/blog/cisco-fmc-auth-bypass-cve-2026-20079",
-  "slug_cve202620079_cisco_fmc_authentication_bypass_rce",
-  "CVE_CVE-2026-20079",
   "e8ed5758cb94cee0c3d62eb9ce76812b67ebcfa92972d578be97073d57fbbbd3",
   "https://www.securityweek.com/google-patches-6th-chrome-zero-day-of-2026",
   "slug_google_patches_6th_chrome_zeroday_2026",
@@ -998,5 +988,15 @@
   "slug_nvidia_gen3c_unauthenticated_rce_via_pickle",
   "af3e849df1bce2364d09243da62b05abc90a84f258430116f70cf88eda5b87f5",
   "https://gbhackers.com/casino-domains-hide-c2-traffic",
-  "slug_peckbirdy_c2_traffic_seen_across_enterprise"
+  "slug_peckbirdy_c2_traffic_seen_across_enterprise",
+  "9636c568e50e698a97bc03a5b02984a27b84edccc0a7f033daefebc51cb31b5c",
+  "https://www.vulncheck.com/blog/fossbilling-auth-bypass-ssti-rce",
+  "slug_cve202628496_fossbilling_auth_bypass_twig_ssti",
+  "CVE_CVE-2026-28496",
+  "deda642c60153d75a74f5aec4897203da0f0bf20b9da4cc2ba8bc546d4a3f5d9",
+  "https://www.helpnetsecurity.com/2026/09/20/week-in-review-cisco-patches-exploited-email-gateway-0-day-revolut-breach",
+  "slug_week_review_cisco_patches_exploited_email",
+  "25722a03df89a0848c034e06ffa87304c86980dd79c4a1edc4674903ba75c3da",
+  "https://ipurple.team/2026/08/11/mandatory-user-profile",
+  "slug_mandatory_user_profile"
 ]
