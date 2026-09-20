@@ -1,15 +1,4 @@
 [
-  "slug_other_news_microsofts_cloud_patches_hacked",
-  "09bf1e9a868fb64ec57d8e633cdf795a24ff9eee3900064159566ea93b40a775",
-  "https://thehackernews.com/2026/09/gpt-6-astra-scores-100-on-exploitbench.html",
-  "slug_gpt6_astra_scores_100_exploitbench_openai",
-  "ae12b0b8995e822b9f57d88ded764ae3a57dd8580d7dbd13d64ab67fbf866bea",
-  "https://www.bleepingcomputer.com/news/microsoft/microsoft-says-some-users-cant-open-the-teams-desktop-client",
-  "slug_microsoft_says_some_users_cant_open",
-  "95c9968bf23bf6a36ec3e765bacef132e4fba165c15d507116fe81f302c2ae1f",
-  "https://cybersecuritynews.com/popular-messaging-services",
-  "slug_hackers_use_popular_messaging_services_control",
-  "d16d663650cdf0909761f2f1dec16b41f7fec21219bd645a14763afde1773c0d",
   "https://www.bleepingcomputer.com/news/microsoft/exchange-online-outage-causes-email-delays-server-busy-errors",
   "slug_exchange_online_outage_causes_email_delays",
   "4ded8a3c82d5529f8867834f4f679b6a101ac584df78d8187944a70f1497629b",
@@ -998,5 +987,16 @@
   "slug_vulncheck_state_exploitation_1h2026key_trends_findings",
   "c80ee4ab14062b83c78cd81538609241aadbaf91242bfe4a597cc09b517c77a1",
   "https://gbhackers.com/ai-powered-rathat-android-trojan-steals-bank-credentials",
-  "slug_aipowered_rathat_android_trojan_steals_bank"
+  "slug_aipowered_rathat_android_trojan_steals_bank",
+  "af7a0c4b82883166d74bfd2932ba87c8b80aff91acb2ce8462286c38172df275",
+  "https://cybersecuritynews.com/when-ransomware-targets-ai-models-defending-the-ai-ml-recovery-chain",
+  "slug_when_ransomware_targets_ai_models_defending",
+  "081f991a134abbe52bc59369ba427be63d27024dcb731b2756ec578cd3233abf",
+  "https://www.vulncheck.com/blog/wp2shell",
+  "slug_wp2shell_vulnerabilities_cve202660137_cve202663030two_new_wordpress",
+  "CVE_CVE-2026-60137",
+  "CVE_CVE-2026-63030",
+  "59156dc5243793c7ebd6523a57a0ad53698b2cdb60f09394d0bfb5fd871630ce",
+  "https://gbhackers.com/powershell-malware-abuses-registry-and-dns-txt-records",
+  "slug_powershell_malware_abuses_registry_dns_txt"
 ]
