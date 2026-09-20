@@ -1,13 +1,4 @@
 [
-  "https://www.bleepingcomputer.com/news/microsoft/exchange-online-outage-causes-email-delays-server-busy-errors",
-  "slug_exchange_online_outage_causes_email_delays",
-  "4ded8a3c82d5529f8867834f4f679b6a101ac584df78d8187944a70f1497629b",
-  "https://cybersecuritynews.com/nodestealer-record-everything",
-  "slug_nodestealer_can_now_record_everything_victims",
-  "20522a1cb72e62283f16666b0d404101b34d888655aa25c8fcc1e0a654ca2a36",
-  "https://www.securityweek.com/hpe-patches-critical-rce-vulnerabilities-in-aos-cx",
-  "slug_hpe_patches_critical_rce_vulnerabilities_aoscx",
-  "CVE_CVE-2026-73749",
   "14b1ea90767ef9616659bfad43321edba93d3e061aafecb6c7d6b253af71fddf",
   "https://www.bleepingcomputer.com/news/security/google-warns-of-new-chrome-zero-day-flaw-exploited-in-attacks",
   "slug_google_warns_new_chrome_zeroday_exploited",
@@ -998,5 +989,14 @@
   "CVE_CVE-2026-63030",
   "59156dc5243793c7ebd6523a57a0ad53698b2cdb60f09394d0bfb5fd871630ce",
   "https://gbhackers.com/powershell-malware-abuses-registry-and-dns-txt-records",
-  "slug_powershell_malware_abuses_registry_dns_txt"
+  "slug_powershell_malware_abuses_registry_dns_txt",
+  "401fcab5596dc0a6a0b0a2dd48b04436912c5b28140dee1c97b174c7728d85a8",
+  "https://www.bleepingcomputer.com/news/security/malicious-npm-packages-evade-install-script-defenses-at-runtime",
+  "slug_malicious_npm_packages_evade_installscript_defenses",
+  "da6a6aee817912704e114f1fe3180ca2780138d792350e8422282bf81be84c76",
+  "https://www.vulncheck.com/blog/nvidia-gen3c-unauth-pickle-rce",
+  "slug_nvidia_gen3c_unauthenticated_rce_via_pickle",
+  "af3e849df1bce2364d09243da62b05abc90a84f258430116f70cf88eda5b87f5",
+  "https://gbhackers.com/casino-domains-hide-c2-traffic",
+  "slug_peckbirdy_c2_traffic_seen_across_enterprise"
 ]
