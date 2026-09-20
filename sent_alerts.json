@@ -1,13 +1,4 @@
 [
-  "b1ea25ffc3704bdbcc3c50b2d0aa533cf7122efe320a6cc6a318c0758b53d0be",
-  "https://thehackernews.com/2026/09/new-ted-backdoor-hides-inside-victims.html",
-  "slug_new_ted_backdoor_hides_inside_victimsx27",
-  "b8b1aa72eba38071510c771be4df18ab45a0ac94760190d545e3be6f3b64cc75",
-  "https://www.bleepingcomputer.com/news/security/hackers-target-critical-citrix-netscaler-auth-bypass-in-attacks",
-  "slug_critical_citrix_netscaler_auth_bypass_now",
-  "CVE_CVE-2026-19490",
-  "95e67a2601c458c927a934023553454f0171baceb927f88ab909763cfc661d7b",
-  "https://www.securityweek.com/in-other-news-microsofts-cloud-patches-hacked-dropbox-accounts-guardios-1-1b-valuation",
   "slug_other_news_microsofts_cloud_patches_hacked",
   "09bf1e9a868fb64ec57d8e633cdf795a24ff9eee3900064159566ea93b40a775",
   "https://thehackernews.com/2026/09/gpt-6-astra-scores-100-on-exploitbench.html",
@@ -998,5 +989,14 @@
   "slug_bots_good_manners_better_fooling_people",
   "ccc11eebb8ec70bcfacc68562e56ccda4476a20c51fd65ab9cfc19809a7a8e69",
   "https://ipurple.team/2026/08/24/text-template",
-  "slug_text_template"
+  "slug_text_template",
+  "36bcc9b9b8f63cb394f4853acf70fbc3bc6cb95af594796ab7d383c47400a643",
+  "https://cybersecuritynews.com/autonomous-ai-attacks-the-hugging-face-reality-check",
+  "slug_autonomous_ai_attacks_hugging_face_reality",
+  "cb62f7559c4f6ae9494e1cf1ef6167f30e7079f6f738aa3d9caf2f53c36b1820",
+  "https://www.vulncheck.com/blog/state-of-exploitation-1h-2026",
+  "slug_vulncheck_state_exploitation_1h2026key_trends_findings",
+  "c80ee4ab14062b83c78cd81538609241aadbaf91242bfe4a597cc09b517c77a1",
+  "https://gbhackers.com/ai-powered-rathat-android-trojan-steals-bank-credentials",
+  "slug_aipowered_rathat_android_trojan_steals_bank"
 ]
