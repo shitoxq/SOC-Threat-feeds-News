@@ -1,13 +1,4 @@
 [
-  "ffe72a79b189453f28a961058607b2b0bf76089bdef51b97428a33af70666598",
-  "https://thehackernews.com/2026/09/phishing-campaign-sends-millions-of.html",
-  "slug_phishing_campaign_sends_millions_emails_using",
-  "3d69c192271a8e735f2df86dac11377abe000bd8be23286562a2bcdc10a3b331",
-  "https://www.bleepingcomputer.com/news/security/idscan-sued-over-alleged-data-breach-affecting-153-million-drivers",
-  "slug_idscan_sued_over_alleged_data_breach",
-  "4ed4ab168dcd90325e44d5f24ed479173ee3c208ac377b6cc2902bc3415de0f6",
-  "https://cybersecuritynews.com/project-zenith-windows-pcs",
-  "slug_microsoft_unveils_project_zenith_windows_pcs",
   "b1ea25ffc3704bdbcc3c50b2d0aa533cf7122efe320a6cc6a318c0758b53d0be",
   "https://thehackernews.com/2026/09/new-ted-backdoor-hides-inside-victims.html",
   "slug_new_ted_backdoor_hides_inside_victimsx27",
@@ -998,5 +989,14 @@
   "slug_endlessdoors_phoning_home_pick_uptwenty_router",
   "717e17a7378ca494c6d8643f5a0ac65e48da6580197c7fe799dce68321042a56",
   "https://gbhackers.com/north-korean-waterplum-hackers-target-it-professionals",
-  "slug_north_korean_waterplum_hackers_target_it"
+  "slug_north_korean_waterplum_hackers_target_it",
+  "1eb7892752fbb3017096d90ce76f720cc285d3b8edb6570a7c9a54243005190b",
+  "https://www.vulncheck.com/blog/aimy-captcha-less-form-guard-object-injection",
+  "slug_aimy_captchaless_form_guard_antibot_plugin",
+  "71b0735f414c20b9ab6117c09adef6b2454f89e0bb5f3f3f91ee74dc59c97d8e",
+  "https://www.helpnetsecurity.com/2026/09/18/social-media-bot-detection-study",
+  "slug_bots_good_manners_better_fooling_people",
+  "ccc11eebb8ec70bcfacc68562e56ccda4476a20c51fd65ab9cfc19809a7a8e69",
+  "https://ipurple.team/2026/08/24/text-template",
+  "slug_text_template"
 ]
