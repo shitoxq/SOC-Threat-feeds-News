@@ -1,13 +1,4 @@
 [
-  "https://cybersecuritynews.com/exchange-online-outage-delaying-emails",
-  "slug_microsoft_confirms_new_exchange_online_outage",
-  "25650ccc1da1c220b9459ea9a33a64f7b4c9217c57c3cfe9a00e2986e7b5ccc7",
-  "https://www.vulncheck.com/blog/siftrank_canaries",
-  "slug_siftranking_canary_intelligencecanary_intelligence_captures_thousands",
-  "e74c4bc78631a2537c1666a1f85bb666592c6c9619df8b8ac895f947854f7b99",
-  "https://thehackernews.com/2026/09/critical-vmware-workstation-and-fusion.html",
-  "slug_critical_vmware_workstation_fusion_lets_vm",
-  "CVE_CVE-2026-59346",
   "7bf6d5eb186443ef0d21f76e7a86cd8a914d7e6334a881ecb3e6c6d0b06f8dce",
   "https://www.vulncheck.com/blog/2026-vulncheck-exploit-intelligence-report",
   "slug_introducing_2026_vulncheck_exploit_intelligence_reportindepth",
@@ -998,5 +989,14 @@
   "slug_hackers_hide_malware_servers_blockchain_steal",
   "1cb8c9ba7f4fd160a109b929cece69b78249763d7a4a162cb9b1269fb8d13ef9",
   "https://www.securityweek.com/organizations-warned-of-3-exploited-linux-kernel-vulnerabilities",
-  "slug_organizations_warned_3_exploited_linux_kernel"
+  "slug_organizations_warned_3_exploited_linux_kernel",
+  "f81c96de5547c387ed8125a28581f44a90076f391b7fefd86cfc80296378a102",
+  "https://thehackernews.com/2026/09/weekly-recap-cisco-0-day-ai-agent-rce.html",
+  "slug_weekly_recap_cisco_0day_ai_agent",
+  "c7ddcbf006edb04f8b6f5b0feccf47992194ba373247f12f8fe25d7abcd3e9f2",
+  "https://www.bleepingcomputer.com/news/security/google-fined-403-million-over-location-data-privacy-violations",
+  "slug_google_fined_403_million_over_location",
+  "cfc6d5ee327768fbb190068edb088fcfbd61b2cbf9564d738e7557077ae11ccb",
+  "https://www.securityweek.com/fake-lastpass-installers-push-kernel-level-edr-killer-rapuncel-stealer",
+  "slug_fake_lastpass_installers_push_kernellevel_edr"
 ]
