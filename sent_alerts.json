@@ -1,13 +1,4 @@
 [
-  "b3829597ab40e1153953e630ef1a36e27c5a16466383e99e11916e2df4030f96",
-  "https://www.vulncheck.com/blog/economic-value-lead-time",
-  "slug_what_28_days_faster_vulnerability_intelligence",
-  "01f77599df9efb4cce1802681b60723dc024f9b477aff4b170b3a9657a415ce0",
-  "https://gbhackers.com/hackers-use-frontier-ai-agents",
-  "slug_hackers_use_frontier_ai_agents_breach",
-  "afccb2950c0f74aabeede061cd9e431db3f0458e4af0d6c10a5531336e9d6c87",
-  "https://www.vulncheck.com/blog/making-java-gadgets",
-  "slug_making_serialization_gadgets_hand_javalearn_how",
   "c576ff2b092f003d230fa482078bf20f748e1ba0dcc77ec520fc63cb624a2148",
   "https://gbhackers.com/cars24-data-breach-exposes-3100-customer-records",
   "slug_cars24_data_breach_exposes_3100_customer",
@@ -998,5 +989,14 @@
   "slug_cisa_alerts_active_exploitation_three_linux",
   "79b5ab842cf881c12b16d3bda8bb0fded4b233add68e93e291f5b533235d013d",
   "https://cybersecuritynews.com/google-fined-e403-million",
-  "slug_google_fined_403_million_gdpr_violations"
+  "slug_google_fined_403_million_gdpr_violations",
+  "c533abc4730ac9558e06dea033f36be81b0a90c224d07f3426cbec08722969d1",
+  "https://thehackernews.com/2026/09/contagious-interview-campaign.html",
+  "slug_contagious_interview_campaign_compromises_30000_devices",
+  "47ac25acbe40e06a0aca60aa667bfcd4670a440119a1a3d5eebb3e90523ca2b8",
+  "https://www.bleepingcomputer.com/news/security/bigcommerce-alerts-merchants-of-data-breach-linked-to-ribon-apps",
+  "slug_bigcommerce_alerts_merchants_data_breach_linked",
+  "c1cce31f5707ac4c92879507fc60825dbe5d020c1c01c9b9d9f295a66280ac40",
+  "https://cybersecuritynews.com/claude-code-agent-file-deletion",
+  "slug_claude_code_agent_allegedly_deletes_48000"
 ]
