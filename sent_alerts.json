@@ -1,14 +1,4 @@
 [
-  "CVE_CVE-2025-68613",
-  "CVE_CVE-2026-21858",
-  "a76d1a219c01e16555412959ff8215c71b77d3f8e0531f414e103ebe92f5d627",
-  "https://gbhackers.com/russian-apt28-linked-hackers-deploy-hookedge-backdoor",
-  "slug_russian_hackers_deploy_new_hookedge_backdoor",
-  "551866af22287070ec00fe6cd7df06e57345755d4463a6909ccfd4cc4c9d5a40",
-  "https://cybersecuritynews.com/ai-agents-for-real-world-cyberattacks",
-  "slug_hackers_turn_claude_qwen_deepseek_into",
-  "435bd94b9a602296659790bbdbea37c863470d0ec0c9fa571380a430f7c4ff3c",
-  "https://www.vulncheck.com/blog/cisco-sd-wan-manager-vulns",
   "slug_herding_cats_recent_cisco_sdwan_manager",
   "CVE_CVE-2026-20127",
   "d6b3d23e63d18bc4c52106742ed8f6547ae1a4cbcc619052830022d16ec9efba",
@@ -998,5 +988,15 @@
   "slug_98_fraudulent_hires_have_company_credentials",
   "30c32e408bf70bc21f42c4302706cea081d8b6d13841cf8f75ab79766499b591",
   "https://ipurple.team/2026/08/04/provisioning-packages",
-  "slug_provisioning_packages"
+  "slug_provisioning_packages",
+  "5b0b7c536c0e3c52f67d938bfbaa666a13a47e56ce84b270f903ee343a85d38b",
+  "https://cybersecuritynews.com/weekly-cybersecurity-newsletter-sept-21",
+  "slug_weekly_cybersecurity_newsletter_bulletin_cisco_android",
+  "d667e6f88587edd93237cf18ebf745b845a28118ae27fc302be81812257653be",
+  "https://www.vulncheck.com/blog/cve-2017-9841",
+  "slug_9_yearold_php_vulnerability_keeps_swinging",
+  "CVE_CVE-2017-9841",
+  "b8bbbdc83212705c2fd8627f75a3416e951974ef8de8b466cc4ab374ca957f18",
+  "https://www.helpnetsecurity.com/2026/09/21/ai-compliance-issues-research",
+  "slug_ai_compliance_issues_hit_2_5"
 ]
