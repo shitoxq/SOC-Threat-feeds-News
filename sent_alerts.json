@@ -1,13 +1,4 @@
 [
-  "slug_herding_cats_recent_cisco_sdwan_manager",
-  "CVE_CVE-2026-20127",
-  "d6b3d23e63d18bc4c52106742ed8f6547ae1a4cbcc619052830022d16ec9efba",
-  "https://gbhackers.com/new-panzer-ransomware-hits-16-victim",
-  "slug_new_panzer_ransomware_hits_16_victims",
-  "913cdf66682bb19c7843ef56b2996c1bd59057aaffd4466496885b6c64289550",
-  "https://thehackernews.com/2026/09/attackers-breached-jetbrains-cadence.html",
-  "slug_attackers_breached_jetbrains_cadence_via_unpatched",
-  "a17633febb4161479376a9547b74d59f4a4ef0b0033b08401952cc8be7f40266",
   "https://cybersecuritynews.com/exchange-online-outage-delaying-emails",
   "slug_microsoft_confirms_new_exchange_online_outage",
   "25650ccc1da1c220b9459ea9a33a64f7b4c9217c57c3cfe9a00e2986e7b5ccc7",
@@ -998,5 +989,14 @@
   "CVE_CVE-2017-9841",
   "b8bbbdc83212705c2fd8627f75a3416e951974ef8de8b466cc4ab374ca957f18",
   "https://www.helpnetsecurity.com/2026/09/21/ai-compliance-issues-research",
-  "slug_ai_compliance_issues_hit_2_5"
+  "slug_ai_compliance_issues_hit_2_5",
+  "5b62ce8df6dfa4f31b546c84425f9bd0209fe33d94778b46d9f99000d2904ad9",
+  "https://thehackernews.com/2026/09/clickfix-lures-deploy-chainscript-rat.html",
+  "slug_clickfix_lures_deploy_chainscript_rat_using",
+  "35ce63a6e96d301344460ba7316ed7cf0f6625d9c73c225abd98f4d977061924",
+  "https://cybersecuritynews.com/hackers-hide-malware-servers",
+  "slug_hackers_hide_malware_servers_blockchain_steal",
+  "1cb8c9ba7f4fd160a109b929cece69b78249763d7a4a162cb9b1269fb8d13ef9",
+  "https://www.securityweek.com/organizations-warned-of-3-exploited-linux-kernel-vulnerabilities",
+  "slug_organizations_warned_3_exploited_linux_kernel"
 ]
