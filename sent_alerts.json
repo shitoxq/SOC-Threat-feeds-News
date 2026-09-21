@@ -1,13 +1,4 @@
 [
-  "7bf6d5eb186443ef0d21f76e7a86cd8a914d7e6334a881ecb3e6c6d0b06f8dce",
-  "https://www.vulncheck.com/blog/2026-vulncheck-exploit-intelligence-report",
-  "slug_introducing_2026_vulncheck_exploit_intelligence_reportindepth",
-  "b6f645323d5b6f4c72a52536b8923766dbd1f7fde4b6f085b600ba9321bfa170",
-  "https://www.helpnetsecurity.com/2026/09/04/september-2026-patch-tuesday-forecast",
-  "slug_september_2026_patch_tuesday_forecast_all",
-  "9eeec10be375e2cad531eca6b5069c09b66a3c2d7fee881e2b2939645a062ae4",
-  "https://thehackernews.com/2026/09/unpatched-magento-and-adobe-commerce.html",
-  "slug_unpatched_magento_adobe_commerce_zeroday_exploited",
   "b3829597ab40e1153953e630ef1a36e27c5a16466383e99e11916e2df4030f96",
   "https://www.vulncheck.com/blog/economic-value-lead-time",
   "slug_what_28_days_faster_vulnerability_intelligence",
@@ -998,5 +989,14 @@
   "slug_google_fined_403_million_over_location",
   "cfc6d5ee327768fbb190068edb088fcfbd61b2cbf9564d738e7557077ae11ccb",
   "https://www.securityweek.com/fake-lastpass-installers-push-kernel-level-edr-killer-rapuncel-stealer",
-  "slug_fake_lastpass_installers_push_kernellevel_edr"
+  "slug_fake_lastpass_installers_push_kernellevel_edr",
+  "f2aa6f9693d4bf840038ffaf83992ca8accac35557fd46618b02a59c5bb9538f",
+  "https://thehackernews.com/2026/09/fake-lastpass-authenticator-installer.html",
+  "slug_fake_lastpass_authenticator_installer_abuses_microsoftsigned",
+  "3848bc7f1327d4267dc4464905f17a132abbeef3ac3d14fa51db4e8a373f3206",
+  "https://www.bleepingcomputer.com/news/security/cisa-alerts-of-active-exploitation-of-three-linux-kernel-flaws",
+  "slug_cisa_alerts_active_exploitation_three_linux",
+  "79b5ab842cf881c12b16d3bda8bb0fded4b233add68e93e291f5b533235d013d",
+  "https://cybersecuritynews.com/google-fined-e403-million",
+  "slug_google_fined_403_million_gdpr_violations"
 ]
