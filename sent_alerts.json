@@ -1,13 +1,4 @@
 [
-  "c576ff2b092f003d230fa482078bf20f748e1ba0dcc77ec520fc63cb624a2148",
-  "https://gbhackers.com/cars24-data-breach-exposes-3100-customer-records",
-  "slug_cars24_data_breach_exposes_3100_customer",
-  "a1e8dae97cf4deaddbb6fa4189c7ab2450a7b13d1a8a560de0468a39d48a6ccf",
-  "https://www.helpnetsecurity.com/2026/09/04/scam-texts-peak-research",
-  "slug_scammers_have_figured_out_best_time",
-  "0c8973450c0343fc310d92f1d57876e0a035c38c20f61482da06294517f4ba35",
-  "https://www.vulncheck.com/blog/metro4shell_eitw",
-  "slug_metro4shell_exploitation_react_natives_metro_server",
   "CVE_CVE-2025-11953",
   "447a598b4d3679e68fae72db6645e3a2f4d1a9df68c57d345e05512cf1ad9724",
   "https://www.helpnetsecurity.com/2026/09/04/openai-daybreak-frontline-defenders-access",
@@ -998,5 +989,14 @@
   "slug_bigcommerce_alerts_merchants_data_breach_linked",
   "c1cce31f5707ac4c92879507fc60825dbe5d020c1c01c9b9d9f295a66280ac40",
   "https://cybersecuritynews.com/claude-code-agent-file-deletion",
-  "slug_claude_code_agent_allegedly_deletes_48000"
+  "slug_claude_code_agent_allegedly_deletes_48000",
+  "d1a929f886de84bb1316c36c2fe4e03be61c403f9327e0c96af75f3eece4a0db",
+  "https://thehackernews.com/2026/09/google-fined-403-million-over-gdpr.html",
+  "slug_google_fined_403_million_over_gdpr",
+  "d58af62f079f24c4956a2964aa2eabbf942d003dafcb2856eff100c9387a611d",
+  "https://www.bleepingcomputer.com/news/security/wordpress-click2shell-flaw-lets-hackers-execute-php-on-the-server",
+  "slug_wordpress_click2shell_lets_hackers_execute_php",
+  "cf5f5478a2ce33792417c4b8f45e7e11b8cfc3a2a310f07e65e2d71bf6abdc4f",
+  "https://www.securityweek.com/google-hit-with-463-million-fine-for-eu-location-data-rule-breach",
+  "slug_google_hit_463_million_fine_eu"
 ]
