@@ -1,15 +1,4 @@
 [
-  "https://thehackernews.com/2026/09/attackers-hijack-mikrotik-routers.html",
-  "slug_attackers_hijack_mikrotik_routers_through_internetexposed",
-  "df16f3107e9fe17e1d303bb80bc8e80568819131b858ce3298c0297ffea0388e",
-  "https://www.vulncheck.com/blog/state-of-exploitation-2026",
-  "slug_vulncheck_state_exploitation_2026key_trends_findings",
-  "0b0d0b66f54c8bc5016416fddce03401dbe8d845f1eaef3e68c4f0a845971694",
-  "https://www.helpnetsecurity.com/2026/09/06/week-in-review-claude-accounts-compromised-through-infostealer-patch-tuesday-forecast",
-  "slug_week_review_claude_accounts_compromised_through",
-  "1a8ef3d227d42f337d6845e073f8a8301fc8f94275479b07c6b9ec602d34765f",
-  "https://thehackernews.com/2026/09/four-revstealer-linked-modules-disable.html",
-  "slug_four_revstealerlinked_modules_disable_windows_update",
   "9f76a23f3b8f655eade4f6a5d689bc1dbf27fa9bc5ad6639824d052552cd5ea6",
   "https://www.bleepingcomputer.com/news/security/attackers-conceal-phishing-lures-using-invisible-unicode-characters",
   "slug_attackers_conceal_phishing_lures_using_invisible",
@@ -998,5 +987,16 @@
   "slug_new_windows_defender_zeroday_blocks_microsoft",
   "68c3931e8d4a251a1353f21281ac32ea78de95a91e5ac96651e96fc597709caa",
   "https://www.securityweek.com/recent-zyxel-switch-vulnerability-exploited-by-chinese-hackers",
-  "slug_recent_zyxel_switch_vulnerability_exploited_chinese"
+  "slug_recent_zyxel_switch_vulnerability_exploited_chinese",
+  "f619ad1c6009e9220eed33fe462286a56e9002373131360e8ae5c398ee336d65",
+  "https://thehackernews.com/2026/09/new-cvss-100-velocloud-orchestrator.html",
+  "slug_new_cvss_100_velocloud_orchestrator_actively",
+  "CVE_CVE-2026-93952",
+  "30a8db9908ca80fdd5921540a0476ba5a2f74a6cabf4b1089098bfbf07577939",
+  "https://www.bleepingcomputer.com/news/security/check-point-patches-management-server-zero-day-exploited-in-attacks",
+  "slug_check_point_warns_management_server_zeroday",
+  "3a3bf6f8fde3edfa05cbb760b7e06c51c4889d8476b7bdd86dafbdda5c12b376",
+  "https://cybersecuritynews.com/check-point-management-server-0-day-exploited",
+  "slug_check_point_management_server_0day_vulnerability",
+  "CVE_CVE-2026-93616"
 ]
