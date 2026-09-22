@@ -1,14 +1,4 @@
 [
-  "CVE_CVE-2026-75754",
-  "d70478c2d2d873d5195251b8d7ffb91bcf4a628082f30acde10d63a8efe56f5c",
-  "https://www.vulncheck.com/blog/forticloud-sso-login-bypass",
-  "slug_forticloud_sso_login_bypass_vulnerabilities_exploited",
-  "e456d86bc3ea13648ab7494591e98a86da6dfa45b5f5165b322209a1eed5f9b6",
-  "https://gbhackers.com/openai-agents-collude-on-public-wiki",
-  "slug_openai_agents_collude_public_wiki_share",
-  "935f495f66e01e67be2c8ff8ce852927207983d9fea74232da627dda602dc75f",
-  "https://www.vulncheck.com/blog/triofox-exploit-cve-2025-12480",
-  "slug_tales_from_exploit_mines_gladinet_triofox",
   "CVE_CVE-2025-12480",
   "90994d6b9c7e4de5418b3456b567532f8eaec9a6980a547f65cc89d8dd15f0b1",
   "https://ipurple.team/2026/06/17/qos-policies",
@@ -998,5 +988,15 @@
   "slug_shinyhunters_claims_fbi_hack_data_theft",
   "627d26bb6557efb1a4335d8cb8cb747abc1f467ce00214810870ac5fe09503b8",
   "https://www.securityweek.com/bigcommerce-data-stolen-via-ribon-apps-hack",
-  "slug_bigcommerce_data_stolen_via_ribon_apps"
+  "slug_bigcommerce_data_stolen_via_ribon_apps",
+  "ba859ad0f6f0f955274dc328cf9d5889219202359e5a89f0c0065772b1a7d094",
+  "https://thehackernews.com/2026/09/critical-bifrost-ai-gateway-flaw-lets.html",
+  "slug_critical_bifrost_ai_gateway_lets_attackers",
+  "CVE_CVE-2026-90898",
+  "1f45ce782405ff66f1d589510c3a5fd6cbfc817f8473fc37170efb08e3d93465",
+  "https://www.bleepingcomputer.com/news/security/chinese-hackers-exploit-multiple-technologies-to-steal-govt-data",
+  "slug_chinese_hackers_exploit_wordpress_zyxel_steal",
+  "a4488d9503f1b5f60d1ce1b29f89f161bcbfd99f8ab91c6823c8c0dd8537e0cb",
+  "https://cybersecuritynews.com/aembit-launches-support-for-okta-cross-app-access-extending-enterprise-identity-controls-to-ai-agents",
+  "slug_aembit_launches_support_okta_cross_app"
 ]
