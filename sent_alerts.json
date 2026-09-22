@@ -1,13 +1,4 @@
 [
-  "slug_hackers_actively_exploiting_magento_adobe_commerce",
-  "c21db5e5719b6ff94228ef25be61f7b6779fbfd303a26bf76ec89dbd5fffa56c",
-  "https://www.vulncheck.com/blog/smartermail-connecttohub-rce-cve-2026-24423",
-  "slug_street_smarts_smartermail_connecttohub_unauthenticated_rce",
-  "CVE_CVE-2026-24423",
-  "d50b94565d692bfbb947bab80283445824f6ae22fb0a972471bec3404136dbdb",
-  "https://gbhackers.com/hivemq-powers-backdoor",
-  "slug_hackers_turn_hivemq_element_messenger_into",
-  "bec3d4c719cb03958c036b9d2272ba2b2c5f6d783c02fbc9de6264c5a2938164",
   "https://thehackernews.com/2026/09/attackers-hijack-mikrotik-routers.html",
   "slug_attackers_hijack_mikrotik_routers_through_internetexposed",
   "df16f3107e9fe17e1d303bb80bc8e80568819131b858ce3298c0297ffea0388e",
@@ -998,5 +989,14 @@
   "slug_microsoft_retire_microsoft_365_companion_apps",
   "e93e863384f738935d965fba90fd57f32fd7b23f8e0ac94609aef8d7dfba6e18",
   "https://www.securityweek.com/rathat-android-trojan-uses-ai-for-automation",
-  "slug_rathat_android_trojan_uses_ai_automation"
+  "slug_rathat_android_trojan_uses_ai_automation",
+  "7a101672fcceea643a088456ace896f81df8d047068fe63124cfc43a58196c0f",
+  "https://thehackernews.com/2026/09/dora-year-two-can-your-soc-actually-see.html",
+  "slug_dora_year_two_can_your_soc",
+  "eb556aa662a9dc66459146568c40c6a7bce9ed8c6fe4263da46e5cac92a01766",
+  "https://www.bleepingcomputer.com/news/security/new-windows-defender-zero-day-blocks-microsoft-antivirus-updates",
+  "slug_new_windows_defender_zeroday_blocks_microsoft",
+  "68c3931e8d4a251a1353f21281ac32ea78de95a91e5ac96651e96fc597709caa",
+  "https://www.securityweek.com/recent-zyxel-switch-vulnerability-exploited-by-chinese-hackers",
+  "slug_recent_zyxel_switch_vulnerability_exploited_chinese"
 ]
