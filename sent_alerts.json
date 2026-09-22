@@ -1,13 +1,4 @@
 [
-  "9f76a23f3b8f655eade4f6a5d689bc1dbf27fa9bc5ad6639824d052552cd5ea6",
-  "https://www.bleepingcomputer.com/news/security/attackers-conceal-phishing-lures-using-invisible-unicode-characters",
-  "slug_attackers_conceal_phishing_lures_using_invisible",
-  "9d553818931e53f34b8bb7eb047a1e6f2eb50a59b1b8e477bf6445310daacbc8",
-  "https://cybersecuritynews.com/crowdstrike-launches-safemind",
-  "slug_crowdstrike_launches_safemind_first_agentic_cybersecurity",
-  "303f0dc16bcc3777e7e374096f521ac155c546d4d1b42d61a72061302935315b",
-  "https://cybersecuritynews.com/asus-control-center-vulnerability",
-  "slug_asus_control_center_allows_attackers_gain",
   "CVE_CVE-2026-75754",
   "d70478c2d2d873d5195251b8d7ffb91bcf4a628082f30acde10d63a8efe56f5c",
   "https://www.vulncheck.com/blog/forticloud-sso-login-bypass",
@@ -998,5 +989,14 @@
   "3a3bf6f8fde3edfa05cbb760b7e06c51c4889d8476b7bdd86dafbdda5c12b376",
   "https://cybersecuritynews.com/check-point-management-server-0-day-exploited",
   "slug_check_point_management_server_0day_vulnerability",
-  "CVE_CVE-2026-93616"
+  "CVE_CVE-2026-93616",
+  "ac1280aee3db8b04969375111d710499a08beb96cdf62a62cd703a7d8d26aac4",
+  "https://thehackernews.com/2026/09/microsoft-takes-down-eviltokens-device.html",
+  "slug_microsoft_takes_down_eviltokens_devicecode_phishing",
+  "4fb6e315e8d0c1fc4fbeb44181390cdc954bf44d2ba36398005ab77d8c8f4ccb",
+  "https://www.bleepingcomputer.com/news/security/shinyhunters-claims-fbi-hack-data-theft-in-peoplesoft-zero-day-breach",
+  "slug_shinyhunters_claims_fbi_hack_data_theft",
+  "627d26bb6557efb1a4335d8cb8cb747abc1f467ce00214810870ac5fe09503b8",
+  "https://www.securityweek.com/bigcommerce-data-stolen-via-ribon-apps-hack",
+  "slug_bigcommerce_data_stolen_via_ribon_apps"
 ]
