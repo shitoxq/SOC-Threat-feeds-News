@@ -1,13 +1,4 @@
 [
-  "CVE_CVE-2025-12480",
-  "90994d6b9c7e4de5418b3456b567532f8eaec9a6980a547f65cc89d8dd15f0b1",
-  "https://ipurple.team/2026/06/17/qos-policies",
-  "slug_qos_policies",
-  "c69aad9994f4400dfd583c42664bdf0fba667a44747e1a0c288121ea5e7fdb2a",
-  "https://www.infosecurity-magazine.com/news/pegasus-zero-click-exploit",
-  "slug_pegasus_zeroclick_exploit_infects_serbian_student",
-  "b7a287cfbcada699c54933236ff485e9e5a539066c7b99a23362d48358b2660c",
-  "https://www.vulncheck.com/blog/cvss-severity",
   "slug_critical_cves_cvss_v4_adoption_gap",
   "c75621acaae903c2e940eb09b571a2f9dd453d029dc1d110afd6fb78ef03e7d3",
   "https://ipurple.team/2026/06/09/winget",
@@ -998,5 +989,14 @@
   "slug_chinese_hackers_exploit_wordpress_zyxel_steal",
   "a4488d9503f1b5f60d1ce1b29f89f161bcbfd99f8ab91c6823c8c0dd8537e0cb",
   "https://cybersecuritynews.com/aembit-launches-support-for-okta-cross-app-access-extending-enterprise-identity-controls-to-ai-agents",
-  "slug_aembit_launches_support_okta_cross_app"
+  "slug_aembit_launches_support_okta_cross_app",
+  "fa09678c05a66ffcc797baed32f5b7807b4faa02b8a9d8129a31acc3b3bb3795",
+  "https://thehackernews.com/2026/09/researcher-drops-bigdiskbuster-zero-day.html",
+  "slug_researcher_drops_bigdiskbuster_zeroday_poc_that",
+  "8089d29e8ae85f04fddc2169c6b5b1c233b832ccc2d0f390b0aa6c64d0b5e0a1",
+  "https://www.bleepingcomputer.com/news/security/new-closedquorum-windows-malware-uses-ai-for-attack-decisions",
+  "slug_new_closedquorum_windows_malware_uses_ai",
+  "cfb1ae851dd4b36eb1aa6bb13998cd65e9aa2b5b8d4eadcbc8dbe8e680f6aab4",
+  "https://cybersecuritynews.com/scaling-soc-capabilities-how-threat-intelligence-cuts-triage-time-and-burnout",
+  "slug_scaling_soc_capabilities_how_threat_intelligence"
 ]
