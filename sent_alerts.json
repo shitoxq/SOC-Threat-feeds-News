@@ -1,13 +1,4 @@
 [
-  "ce7b87ad3c43d63e1a7f610392bd65f44806c03952f005fec1477d0d1e0f901a",
-  "https://www.infosecurity-magazine.com/news/international-operation-disrupts",
-  "slug_international_operation_disrupts_sality_p2p_botnet",
-  "553e3c4389c2f36d65910aceeedd0064c2eebea5ca82fed3be255d8b55671873",
-  "https://cybersecuritynews.com/weekly-cybersecurity-newsletter-bulletin-sept-2026",
-  "slug_weekly_cybersecurity_newsletter_bulletin_crowdstrike_falcon",
-  "74eb2f41f5f5f652b004b879a9d969fefea3b8455a75e3e3c98565de6def4d15",
-  "https://www.vulncheck.com/blog/react2shell-canaries",
-  "slug_react2shell_what_our_canaries_seewex27re_already",
   "a377bf56f92a687b1a2118c342fbf17d905a8defab8021bd02d66ad09125d3bb",
   "https://gbhackers.com/peep-chrome-extension",
   "slug_hackers_can_use_peep_chrome_extension",
@@ -998,5 +989,14 @@
   "CVE_CVE-2026-94127",
   "5b7cf289afcdabe38b3871996367f3b01493a2ab02a98790f9c318ad66ee7c55",
   "https://www.securityweek.com/check-point-patches-exploited-management-server-zero-day",
-  "slug_check_point_patches_exploited_management_server"
+  "slug_check_point_patches_exploited_management_server",
+  "cda8fee2780106d9dce056e5e48523e592663bb8084e4b205bd4242623f899f9",
+  "https://thehackernews.com/2026/09/critical-nextjs-imageresponse-flaw-can.html",
+  "slug_critical_nextjs_imageresponse_can_lead_server",
+  "9717b342ed5a42088c7bc815454860ff3d455a86a163a91db4eeae953d38335f",
+  "https://www.bleepingcomputer.com/news/microsoft/microsoft-september-2026-windows-updates-break-always-on-vpn-connections",
+  "slug_microsoft_september_windows_updates_break_always",
+  "0f92bf899a1e69274cfe1d39b40fdfa7af0e041baff45cd7448ce065cc6d7bf2",
+  "https://www.securityweek.com/adobe-patches-critical-flaws-in-connect-aem-forms",
+  "slug_adobe_patches_critical_connect_aem_forms"
 ]
