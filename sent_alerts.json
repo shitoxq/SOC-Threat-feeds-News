@@ -1,14 +1,4 @@
 [
-  "74cd351846534007838dc843e8717739d0fa78334715f4f62dff55dafb2a92b1",
-  "https://cybersecuritynews.com/dprk-linked-hackers",
-  "slug_dprklinked_hackers_deploy_ted_backdoor_curlrat",
-  "9c92a7066f1fef34bc1e189dc2bf7953e6f91148a662e98752dc5ac0beff83a4",
-  "https://thehackernews.com/2026/09/microsoft-365-attackers-use-help-desk.html",
-  "slug_fake_it_calls_target_executives_microsoft",
-  "231d7171e28b1b9c3ac78aaff2784d51a9509280456d21c26775d79e2ba3fead",
-  "https://www.bleepingcomputer.com/news/security/magento-stylesmuggler-zero-day-exploited-to-deploy-linux-backdoor",
-  "slug_magento_stylesmuggler_zeroday_exploited_deploy_linux",
-  "dc7965a5ca98504c0941f568e4b7db2e4c395eaf2bfd2f80682acdc10ed8b1e1",
   "https://cybersecuritynews.com/bimbo-oracle-ebs-data-breach",
   "slug_bimbo_bakeries_usa_confirms_data_breach",
   "6c94379fcb16ef16a14e5b6429e4c707bc22b0f07b7ec7383ca52fbd26dd3f91",
@@ -998,5 +988,15 @@
   "slug_malicious_ai_agents_steal_600k_credit",
   "41a17aa5083fdb244dd329e3916729e20ea1bf5f31642a5e5f94fb6e68488224",
   "https://www.securityweek.com/ai-powered-phishing-platform-eviltokens-disrupted-by-microsoft",
-  "slug_aipowered_phishing_platform_eviltokens_disrupted_microsoft"
+  "slug_aipowered_phishing_platform_eviltokens_disrupted_microsoft",
+  "d1ccb5f32ae97e153e401137d41045a9ab60f2e49544bedfccc0c75a3cc63714",
+  "https://thehackernews.com/2026/09/attackers-use-malicious-terraform.html",
+  "slug_attackers_use_malicious_terraform_providers_deliver",
+  "85fca72ffc21acc73780ad90df0e587cef4ad1f62117ddc4db8c39f7557707f1",
+  "https://www.bleepingcomputer.com/news/security/hackers-start-exploiting-critical-wordpress-flaw-for-code-execution",
+  "slug_hackers_start_exploiting_critical_wordpress_code",
+  "CVE_CVE-2026-87902",
+  "5d98225b1ce3ee72eb28ec987ca7916e5d358bed60bfa8b9f3d0c7e42a9f3bcc",
+  "https://www.securityweek.com/chrome-154-patches-108-vulnerabilities",
+  "slug_chrome_154_patches_108_vulnerabilities"
 ]
