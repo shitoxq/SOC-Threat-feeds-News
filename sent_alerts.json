@@ -1,13 +1,4 @@
 [
-  "https://cybersecuritynews.com/bimbo-oracle-ebs-data-breach",
-  "slug_bimbo_bakeries_usa_confirms_data_breach",
-  "6c94379fcb16ef16a14e5b6429e4c707bc22b0f07b7ec7383ca52fbd26dd3f91",
-  "https://thehackernews.com/2026/09/peep-turns-chrome-and-edge-into-post.html",
-  "slug_peep_turns_chrome_edge_into_postcompromise",
-  "116eddb8a671649dbe4601942a7e2692d4a11e4299a0172cf7370c19a9a390e1",
-  "https://www.bleepingcomputer.com/news/security/bigbear-microsoft-365-phishing-service-bypassed-mfa-at-258-organizations",
-  "slug_bigbear_microsoft_365_phishing_service_bypassed",
-  "cf59e475efb6a113c6878c178715f23b2fb4d89b8f88a9ddae4020e9bb9f49b3",
   "https://www.securityweek.com/nightmare-eclipse-drops-crowdstrike-nvidia-avast-zero-day-exploits",
   "slug_nightmare_eclipse_drops_crowdstrike_nvidia_avast",
   "24d56919cba73a5c6b6a6f6bf13aa24a0bf3e2f5069d0aca36e253aa95ccc781",
@@ -998,5 +989,14 @@
   "CVE_CVE-2026-87902",
   "5d98225b1ce3ee72eb28ec987ca7916e5d358bed60bfa8b9f3d0c7e42a9f3bcc",
   "https://www.securityweek.com/chrome-154-patches-108-vulnerabilities",
-  "slug_chrome_154_patches_108_vulnerabilities"
+  "slug_chrome_154_patches_108_vulnerabilities",
+  "344fcd62c82a77ffaa2e28235f4c5a864f5d626d211310920735c7ed0ffca763",
+  "https://thehackernews.com/2026/09/compromised-memtensor-packages-deliver.html",
+  "slug_compromised_memtensor_packages_deliver_sckit_credential",
+  "8bfc479773c02457ce4f01f0669f34c0f2f947f26954e51bb0ee51352ec14070",
+  "https://www.bleepingcomputer.com/news/security/placeholder-domain-used-in-dev-docs-now-serves-clickfix-attacks",
+  "slug_placeholder_domain_used_dev_docs_now",
+  "aefb25f5aaadb2126afff3b1373245ab048020f006241ca730e67c70417c03be",
+  "https://cybersecuritynews.com/the-visibility-gap-in-phishing-detection-where-sandboxing-makes-a-difference",
+  "slug_visibility_gap_phishing_detection_where_sandboxing"
 ]
