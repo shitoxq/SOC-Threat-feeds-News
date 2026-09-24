@@ -1,13 +1,4 @@
 [
-  "slug_openai_says_gpt6_astra_can_find",
-  "41e8345b07b4c7495da918401ab5658461a920e3ae05257b00378ab3a9fd940e",
-  "https://cybersecuritynews.com/claude-mythos-ai",
-  "slug_claude_mythos_ai_autonomously_executes_full",
-  "08a6dd084273587070f7cad316dae99e8c501b3ac723bd15922bdc85fc7f6a54",
-  "https://thehackernews.com/2026/09/slim-spider-steals-crypto-custody.html",
-  "slug_slim_spider_steals_crypto_custody_secrets",
-  "8457ba948947ae68d4edcbfadc8c758b4733ea70f10fff8bee6616390ef62e79",
-  "https://www.bleepingcomputer.com/news/microsoft/microsoft-september-2026-patch-tuesday-fixes-966-flaws-2-zero-days",
   "slug_microsoft_september_2026_patch_tuesday_fixes",
   "58bdddb80ddd5b617b05542767f182e7e841380058c22d37e2d9faa73e3452f3",
   "https://www.securityweek.com/cylake-raises-245-million-ahead-of-cybersecurity-platform-beta",
@@ -998,5 +989,14 @@
   "slug_new_carbonato_malware_uses_ai_agents",
   "2e92d26279fa1f1b65c8e8b3b2be426279f5932f21c63a563a90a7b025f917cc",
   "https://cybersecuritynews.com/scoutz-prospect-intelligence-platform-launches-for-msps-with-30-day-beta",
-  "slug_scoutz_prospect_intelligence_platform_launches_msps"
+  "slug_scoutz_prospect_intelligence_platform_launches_msps",
+  "f6922c0e9c4bde56aac64c55d2bd337e7df48ddd3aa59ed638b66be93d4073c4",
+  "https://thehackernews.com/2026/09/hacked-ukrainian-sites-serve-fake.html",
+  "slug_hacked_ukrainian_sites_serve_fake_cloudflare",
+  "d72b93fd7d8fd75be09816d0db7b948427687a5866d952f71506535af8b3e76d",
+  "https://www.bleepingcomputer.com/news/security/macsync-malware-uses-public-icloud-calendars-to-deliver-new-payloads",
+  "slug_macsync_malware_uses_public_icloud_calendars",
+  "eb572b626c4f757096b4bb24ffa1c41aba2ea181cd79a1a364b76f6fb0243116",
+  "https://cybersecuritynews.com/konni-malware-campaign",
+  "slug_fake_pdf_files_hide_konni_malware"
 ]
