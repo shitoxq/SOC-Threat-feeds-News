@@ -1,13 +1,4 @@
 [
-  "https://www.securityweek.com/north-korean-hackers-deploy-new-linux-espionage-toolkit",
-  "slug_north_korean_hackers_deploy_new_linux",
-  "c09a5ec87b1fa293571074b7212cb7411274abe4287b354e7dc61233fdcb7166",
-  "https://thehackernews.com/2026/09/your-cloud-security-checklist-doesnt.html",
-  "slug_your_cloud_security_checklist_doesnx27t_work",
-  "db90b4fe1f6382bc2c6bb404e95ff61919bfd978a3e282186badff593da46384",
-  "https://www.bleepingcomputer.com/news/security/hackers-exploit-new-mikrotik-routeros-flaws-to-hijack-routers",
-  "slug_hackers_exploit_new_mikrotik_routeros_hijack",
-  "d70a518200b3328d332eb8531cd8ef9452985a90c0dfb5b09200bae87882368a",
   "https://www.securityweek.com/adobe-commerce-zero-day-exploited-to-backdoor-online-stores",
   "slug_adobe_commerce_zeroday_exploited_backdoor_online",
   "ff2a8ecee2aa5028dadc3df9b235308488ffba6cd23fc1241f999b132355bdfc",
@@ -998,5 +989,14 @@
   "slug_virtualizor_login_parameter_that_skips_loginvulncheckx27s",
   "09bee31e38537924af00465d1b4db7176ca2f69a9e942eb2442e2e1b7aac128b",
   "https://www.helpnetsecurity.com/2026/09/23/portnox-shadow-ai-control-and-visibility",
-  "slug_portnox_detects_removes_unauthorized_ai_applications"
+  "slug_portnox_detects_removes_unauthorized_ai_applications",
+  "475dc601afb7d058931acda58c75acd3a7c0101a447b0703405db0cd83dff876",
+  "https://www.bleepingcomputer.com/news/security/infratrust-report-warns-network-management-systems-under-attack",
+  "slug_infratrust_report_warns_network_management_systems",
+  "7360d5fabda9a4eb72bdbb678aaf5fa5ac38801c362d5d789849583d1438fe14",
+  "https://cybersecuritynews.com/apache-tomcat-update",
+  "slug_apache_tomcat_update_fixes_websocket_http2",
+  "9e184f7cdec715a04d889fb69d1761930c4a7a721cb63a05269ea387f9754bf7",
+  "https://www.vulncheck.com/blog/ai-assisted-vulnerability-discovery",
+  "slug_first_cve_wave_signs_that_aiassisted"
 ]
