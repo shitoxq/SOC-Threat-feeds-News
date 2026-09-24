@@ -1,13 +1,4 @@
 [
-  "https://www.securityweek.com/nightmare-eclipse-drops-crowdstrike-nvidia-avast-zero-day-exploits",
-  "slug_nightmare_eclipse_drops_crowdstrike_nvidia_avast",
-  "24d56919cba73a5c6b6a6f6bf13aa24a0bf3e2f5069d0aca36e253aa95ccc781",
-  "https://thehackernews.com/2026/09/weekly-recap-chrome-0-day-router.html",
-  "slug_weekly_recap_chrome_0day_router_hijacks",
-  "a82f42d13ac58f9bd59b26e8630fecbb2d6ba46bc674adeba7b81d8599aeb044",
-  "https://www.bleepingcomputer.com/news/security/mathspace-discloses-data-breach-affecting-over-1-million-people",
-  "slug_mathspace_discloses_data_breach_affecting_over",
-  "2267b2960a6b9853c13c81a0b93855b4632a2f1057eea6644b2e6cd07a8699fb",
   "https://www.securityweek.com/north-korean-hackers-deploy-new-linux-espionage-toolkit",
   "slug_north_korean_hackers_deploy_new_linux",
   "c09a5ec87b1fa293571074b7212cb7411274abe4287b354e7dc61233fdcb7166",
@@ -998,5 +989,14 @@
   "slug_placeholder_domain_used_dev_docs_now",
   "aefb25f5aaadb2126afff3b1373245ab048020f006241ca730e67c70417c03be",
   "https://cybersecuritynews.com/the-visibility-gap-in-phishing-detection-where-sandboxing-makes-a-difference",
-  "slug_visibility_gap_phishing_detection_where_sandboxing"
+  "slug_visibility_gap_phishing_detection_where_sandboxing",
+  "0cd0437c9bfc7d372c0657e9b19c40bff8b9ea819efd262c047fd67ceac5bc1d",
+  "https://www.bleepingcomputer.com/news/security/new-remcontrol-android-banking-malware-targets-users-in-europe-and-canada",
+  "slug_new_remcontrol_android_banking_malware_targets",
+  "1946ff799b3393ee0f7d240d3108e018992d5d5b739e98558543da976a396f36",
+  "https://www.vulncheck.com/blog/virtualizor-billing-hook-unauthenticated-root-rce",
+  "slug_virtualizor_login_parameter_that_skips_loginvulncheckx27s",
+  "09bee31e38537924af00465d1b4db7176ca2f69a9e942eb2442e2e1b7aac128b",
+  "https://www.helpnetsecurity.com/2026/09/23/portnox-shadow-ai-control-and-visibility",
+  "slug_portnox_detects_removes_unauthorized_ai_applications"
 ]
