@@ -1,13 +1,4 @@
 [
-  "aec8daffc0c2837f247ef9cc9673f84baf064659509adc5437cad58401d66f38",
-  "https://www.vulncheck.com/blog/frost-checks-first",
-  "slug_frost_checks_first_selective_exploitationnew_cve20252611",
-  "CVE_CVE-2025-2611",
-  "9af5dfe944e1aeb426f02e2b4b754369e7cbb2b7962f02b1e034a5f2368b7bb3",
-  "https://thehackernews.com/2026/09/freeipa-flaw-chain-lets-anonymous.html",
-  "slug_freeipa_chain_lets_anonymous_clients_create",
-  "f9a86150e0337469d96774ca107524ebec820e93d043ad9c263b173473821ec1",
-  "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-says-gpt-6-astra-can-find-zero-days-but-is-also-harder-to-monitor",
   "slug_openai_says_gpt6_astra_can_find",
   "41e8345b07b4c7495da918401ab5658461a920e3ae05257b00378ab3a9fd940e",
   "https://cybersecuritynews.com/claude-mythos-ai",
@@ -998,5 +989,14 @@
   "slug_hackers_now_exploit_critical_roundcube_code",
   "7f27f6b01524d7c0f2ea99be60525b1d23748a4481bb662173b473662c23268b",
   "https://www.securityweek.com/kontext-security-emerges-with-4-million-for-ai-agent-runtime-controls",
-  "slug_kontext_security_emerges_4_million_ai"
+  "slug_kontext_security_emerges_4_million_ai",
+  "37f6b04fa6f0fe4e6aba10f57fe51f7b894b9ff40f9150f8dc716ece7f40ff48",
+  "https://thehackernews.com/2026/09/threatsday-ai-search-poisoning-ai.html",
+  "slug_threatsday_ai_search_poisoning_ai_coding",
+  "8d960a1b97a6878bde4092cc97b56f6f8392791189302bbe5069fc261dd560d4",
+  "https://www.bleepingcomputer.com/news/security/new-carbonato-malware-uses-ai-agents-to-hijack-exposed-docker-hosts",
+  "slug_new_carbonato_malware_uses_ai_agents",
+  "2e92d26279fa1f1b65c8e8b3b2be426279f5932f21c63a563a90a7b025f917cc",
+  "https://cybersecuritynews.com/scoutz-prospect-intelligence-platform-launches-for-msps-with-30-day-beta",
+  "slug_scoutz_prospect_intelligence_platform_launches_msps"
 ]
