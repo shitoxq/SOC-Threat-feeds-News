@@ -1,15 +1,4 @@
 [
-  "slug_eu_crax27s_real_question_what_shipped",
-  "a1a9858e1b0243e2a2d6d9ea17a726859fdcc0d712438c7c03a6e82a8f58ac57",
-  "https://cybersecuritynews.com/microsoft-patch-tuesday-update-september-2026",
-  "slug_massive_microsoft_patch_tuesday_september_2026",
-  "c096727d1faeeea25820f32219de24087a53ad6dabe4ae9407a5f6099ee9bdd1",
-  "https://thehackernews.com/2026/09/autonomous-ai-agents-compromise.html",
-  "slug_autonomous_ai_agents_compromise_thousands_credentials",
-  "4b151b7286971f3dda2719f4fcdcc355ee34ddaef38c54b2177d7348cec3e06b",
-  "https://www.bleepingcomputer.com/news/security/hackers-breach-f5-big-ip-apm-devices-to-deploy-linux-rootkit",
-  "slug_hackers_breach_f5_bigip_apm_devices",
-  "956fda6f4a96a5a4478b99c6947b5c412e311c9ea7c00161a52ce55a5176ea21",
   "https://cybersecuritynews.com/fortios-and-fortiproxy-ztna-validation-vulnerability",
   "slug_fortios_fortiproxy_ztna_validation_vulnerability_allows",
   "CVE_CVE-2026-84393",
@@ -998,5 +987,16 @@
   "slug_windows_11_kb5124010_update_released_46",
   "df31b360c110d97daeea9102b7138d5a3d7ff0985b03c330f06c8e3795540947",
   "https://www.securityweek.com/ai-powered-campaign-targets-hundreds-of-online-retailers",
-  "slug_aipowered_campaign_targets_hundreds_online_retailers"
+  "slug_aipowered_campaign_targets_hundreds_online_retailers",
+  "b6378b315cd4f7dbd6c94541e56b9b7f0659395d04262e9b0bfb19b7b7a5b454",
+  "https://thehackernews.com/2026/09/cloudflare-fixes-flaw-that-let-one.html",
+  "slug_cloudflare_fixes_that_let_one_container",
+  "d16265fbe0cb42803fb28de3048e4a4328e7c8ddf6282b42d5703af2a42eb3d1",
+  "https://www.bleepingcomputer.com/news/security/openai-hacked-australian-medicare-govt-site-probed-data-providers",
+  "slug_openai_hacked_australian_medicare_govt_site",
+  "6cba29c108f8aed3a7d7bd010f00429b42423a17eb5176636527c47b7aa9abf2",
+  "https://www.securityweek.com/solarwinds-patches-critical-rce-flaws-in-observability-self-hosted",
+  "slug_solarwinds_patches_critical_rce_observability_selfhosted",
+  "CVE_CVE-2026-28324",
+  "CVE_CVE-2026-28325"
 ]
