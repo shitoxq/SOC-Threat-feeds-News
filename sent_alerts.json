@@ -1,13 +1,4 @@
 [
-  "slug_microsoft_september_2026_patch_tuesday_fixes",
-  "58bdddb80ddd5b617b05542767f182e7e841380058c22d37e2d9faa73e3452f3",
-  "https://www.securityweek.com/cylake-raises-245-million-ahead-of-cybersecurity-platform-beta",
-  "slug_cylake_raises_245_million_ahead_cybersecurity",
-  "7233e2d9b1b1aaba19ad8cbbf9be8fdb3926087abebfb18d3b0657cd92fed0cc",
-  "https://thehackernews.com/2026/09/chatgpt-flaw-let-planted-prompt-send.html",
-  "slug_chatgpt_let_planted_prompt_send_victimx27s",
-  "e4f959aeff03617d316b8c3701806fde5cda209c4542281b8c87353971955310",
-  "https://www.bleepingcomputer.com/news/security/the-eu-cras-real-question-what-shipped-and-when-did-you-know",
   "slug_eu_crax27s_real_question_what_shipped",
   "a1a9858e1b0243e2a2d6d9ea17a726859fdcc0d712438c7c03a6e82a8f58ac57",
   "https://cybersecuritynews.com/microsoft-patch-tuesday-update-september-2026",
@@ -998,5 +989,14 @@
   "slug_macsync_malware_uses_public_icloud_calendars",
   "eb572b626c4f757096b4bb24ffa1c41aba2ea181cd79a1a364b76f6fb0243116",
   "https://cybersecuritynews.com/konni-malware-campaign",
-  "slug_fake_pdf_files_hide_konni_malware"
+  "slug_fake_pdf_files_hide_konni_malware",
+  "00d7c4958ac55b4f1ea8bd666fb46335c0335c18541406d947b2b0b9ac6a6aab",
+  "https://thehackernews.com/2026/09/corp-mdm-spyware-targets-logistics.html",
+  "slug_corp_mdm_spyware_targets_logistics_firms",
+  "8ff810830637340efbd5317ddd91426d8f320694e59578d99d2185f4315a53a4",
+  "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5124010-update-released-with-46-changes-and-fixes",
+  "slug_windows_11_kb5124010_update_released_46",
+  "df31b360c110d97daeea9102b7138d5a3d7ff0985b03c330f06c8e3795540947",
+  "https://www.securityweek.com/ai-powered-campaign-targets-hundreds-of-online-retailers",
+  "slug_aipowered_campaign_targets_hundreds_online_retailers"
 ]
