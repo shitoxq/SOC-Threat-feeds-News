@@ -1,13 +1,4 @@
 [
-  "https://cybersecuritynews.com/fortios-and-fortiproxy-ztna-validation-vulnerability",
-  "slug_fortios_fortiproxy_ztna_validation_vulnerability_allows",
-  "CVE_CVE-2026-84393",
-  "b1c145804aaacc7a1dfa59a85fd70dccaf53bf767550e010ea9c31ea1bf4782c",
-  "https://www.bleepingcomputer.com/news/microsoft/microsoft-adds-age-awareness-apis-that-can-tell-if-users-are-children-teens-or-adults",
-  "slug_microsoft_adds_ageawareness_apis_that_can",
-  "693c0e9b4dfc7936dba405c2f6ad5d3762f554cee2975eb6dc1871260a33366a",
-  "https://www.securityweek.com/microsoft-patches-record-974-vulnerabilities-including-two-exploited-zero-days",
-  "slug_microsoft_patches_record_974_vulnerabilities_including",
   "10da45e9ae675ce5bba287425416eb70729a8c32a49f22a7611bd449d97034dc",
   "https://www.vulncheck.com/blog/mystery-oast",
   "slug_mystery_oast_host_behind_regionally_focused",
@@ -998,5 +989,14 @@
   "https://www.securityweek.com/solarwinds-patches-critical-rce-flaws-in-observability-self-hosted",
   "slug_solarwinds_patches_critical_rce_observability_selfhosted",
   "CVE_CVE-2026-28324",
-  "CVE_CVE-2026-28325"
+  "CVE_CVE-2026-28325",
+  "0fba6d21f98399f0f411d430897caf3a6946e6bbd50ea209d4ed7d1f76034cbf",
+  "https://thehackernews.com/2026/09/bitget-says-suspected-north-korean.html",
+  "slug_bitget_says_suspected_north_korean_hackers",
+  "94b2d7164ba92baa4324efc412b2708136f2627beef3e767c63ab01a0793e3b2",
+  "https://www.bleepingcomputer.com/news/microsoft/microsoft-recent-windows-updates-cause-desktop-loading-issues",
+  "slug_microsoft_recent_windows_updates_cause_desktop",
+  "5fbcfe6e95de9264e19cc63090c5c56d956c7332ad866fcadaf0bdf3277bb250",
+  "https://cybersecuritynews.com/business-emails",
+  "slug_attackers_turning_everyday_business_emails_into"
 ]
