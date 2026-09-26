@@ -1,13 +1,4 @@
 [
-  "https://www.securityweek.com/ai-is-giving-lesser-resourced-attackers-nation-state-level-reach-google-warns",
-  "slug_ai_giving_lesserresourced_attackers_nationstatelevel_reach",
-  "8df866a72a613bf82dc20578093fdcd5aa0c1582b0e8677741791f4a601fb1f6",
-  "https://thehackernews.com/2026/09/us-disrupts-xinbi-guarantee-scam.html",
-  "slug_us_disrupts_xinbi_guarantee_scam_marketplace",
-  "f5083bd242195c5fed8c0876d3acc232d56880f3ae2ff0860324e9a2ca313a7e",
-  "https://www.bleepingcomputer.com/news/security/adapthealth-confirms-41-million-people-exposed-in-july-cyberattack",
-  "slug_adapthealth_confirms_41_million_people_exposed",
-  "baa3339451f35242f9e9d8a1b78834b2018a30f3be73c8b16f8e2b4cfdda70f6",
   "https://cybersecuritynews.com/veradigm-patient-data-breach",
   "slug_veradigm_confirms_patient_data_exposed_thirdparty",
   "9927501cbbee3b724e98e57628c97305d129e939bf3064dfe2f8b3e85c6cf12e",
@@ -998,5 +989,14 @@
   "slug_shinyhunters_hacked_clop_leak_site_using",
   "14330cf1d73ded74138f69d0d2f794d2421cc4fd7dbde8b7cf0e09f36fa85e89",
   "https://cybersecuritynews.com/botnet-uses-ai-agent",
-  "slug_researchers_found_botnet_that_uses_ai"
+  "slug_researchers_found_botnet_that_uses_ai",
+  "954598ffa0c2058b73a80b26bfc222370ce56c44433da32d1716db081a5d41e4",
+  "https://www.bleepingcomputer.com/news/microsoft/microsoft-to-deprecate-windows-deployment-services-after-windows-server-2025",
+  "slug_microsoft_plans_deprecate_windows_deployment_services",
+  "a20863113833b621498792201a183492839ef00813d32299938fc423694f00b7",
+  "https://www.securityweek.com/in-other-news-clop-leak-site-takeover-docker-botnet-hunts-ai-keys-water-utility-exposure",
+  "slug_other_news_clop_leak_site_takeover",
+  "4ad381d57bc8a51f4d1bc750d9b11737cbfb4723a3f2f6d04b725128148cab51",
+  "https://www.vulncheck.com/blog/vulncheck-exploit-intelligence-app-in-splunkbase",
+  "slug_learn_how_operationalize_exploit_intelligence_splunk"
 ]
