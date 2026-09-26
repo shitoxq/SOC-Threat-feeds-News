@@ -1,14 +1,4 @@
 [
-  "https://cybersecuritynews.com/papercut-flaws-compromised-using-ai",
-  "slug_hackers_use_hundreds_ai_agents_exploit",
-  "375dd8a3b2ed53b2a949659779634d8e6b3b1ed0987325eac351e3335fe5c1a0",
-  "https://thehackernews.com/2026/09/chrome-v8-zero-day-exploited-in-wild.html",
-  "slug_chrome_v8_zeroday_exploited_wild_enables",
-  "CVE_CVE-2026-87491",
-  "c5f2ff27bdb5bb0fb1597dedf85fe73029ca1bb7aff8c6a16e46287d7e08f8c4",
-  "https://cybersecuritynews.com/bluemoon-exploit-chain",
-  "slug_hackers_chain_chrome_windows_zerodays_new",
-  "919d0f0ddfc3583d1548cde4ea0b5acee9f956d04fbf0fa15f1e84fd588130d4",
   "https://www.securityweek.com/ai-is-giving-lesser-resourced-attackers-nation-state-level-reach-google-warns",
   "slug_ai_giving_lesserresourced_attackers_nationstatelevel_reach",
   "8df866a72a613bf82dc20578093fdcd5aa0c1582b0e8677741791f4a601fb1f6",
@@ -998,5 +988,15 @@
   "slug_kiteworks_urges_6hour_server_shutdown_over",
   "89764ae3a2ace700ac53559fd28314a807849ba215dcd5368c8aa208cc2ccec1",
   "https://cybersecuritynews.com/14-year-old-linux-kernel-flaw",
-  "slug_14yearold_linux_kernel_lets_local_users"
+  "slug_14yearold_linux_kernel_lets_local_users",
+  "8479bfbd51e5d520d267043fb08ba45c7a5cb472a83a35c26c15fae2856b0027",
+  "https://thehackernews.com/2026/09/roundcube-pre-auth-sql-injection-flaw.html",
+  "slug_roundcube_preauth_sql_injection_actively_exploited",
+  "CVE_CVE-2026-48842",
+  "d018bdaaeea772c0d69fbc17340f46c86bbc4ad01b3df08a522e84b0144d9e96",
+  "https://www.bleepingcomputer.com/news/security/shinyhunters-hacked-clop-leak-site-using-grav-cms-path-traversal-flaw",
+  "slug_shinyhunters_hacked_clop_leak_site_using",
+  "14330cf1d73ded74138f69d0d2f794d2421cc4fd7dbde8b7cf0e09f36fa85e89",
+  "https://cybersecuritynews.com/botnet-uses-ai-agent",
+  "slug_researchers_found_botnet_that_uses_ai"
 ]
