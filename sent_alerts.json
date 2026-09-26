@@ -1,14 +1,4 @@
 [
-  "https://www.vulncheck.com/blog/introducing-vulncheck-canary-intelligence",
-  "slug_introducing_vulncheck_canary_intelligenceintroducing_vulncheck_canary",
-  "e90ed309de9e5efdc5bfc86dbebee5113b1876d0376a15cf4d927b634122f716",
-  "https://www.securityweek.com/us-agencies-warn-china-is-systematically-extracting-frontier-ai-capabilities",
-  "slug_us_agencies_warn_china_systematically_extracting",
-  "9959f25d0007181218f94a9b5acc1ae39aea4a1dcbf05396262e581569292fc1",
-  "https://www.vulncheck.com/blog/fortinet-forti-web-exploitation-hits-silently-patched-vulnerability",
-  "slug_fortinet_fortiweb_exploitation_hits_silently_patched",
-  "CVE_CVE-2025-64446",
-  "75ddf15187c30ac237546f185908ea14cb646da2f2561649aa39a4afcd7e4e54",
   "https://www.helpnetsecurity.com/2026/09/09/akeyless-agentic-runtime-authority-identity-control-layer",
   "slug_akeyless_adds_realtime_enforcement_ai_agents",
   "d54a890b110ea2aba369f5443c9d4fa740bef9d494639cd46d10bc966baa0ab8",
@@ -998,5 +988,15 @@
   "slug_new_x47c_windows_botnet_weaponizes_xai",
   "78dba48bcdf2229a1dbdf292c4ee969f72886ad84894e368a5b1a2d786400ad6",
   "https://www.vulncheck.com/blog/anthropic-glasswing-cves",
-  "slug_tracking_cves_attributed_anthropic_researchers_project"
+  "slug_tracking_cves_attributed_anthropic_researchers_project",
+  "124ca5b2bbe434fe47a02f4a37c34f078e07c17b83a8c8337611fcbbcef512c3",
+  "https://thehackernews.com/2026/09/attackers-bypass-wafs-to-exploit-oracle.html",
+  "slug_attackers_bypass_wafs_exploit_oracle_peoplesoft",
+  "CVE_CVE-2026-35273",
+  "ebc391a2cf31409295907b46cb7eefccda3d38f7b6d30ade45d89b59d41024d8",
+  "https://www.bleepingcomputer.com/news/microsoft/microsoft-365-kb5002907-update-paused-after-office-license-deactivations",
+  "slug_microsoft_pauses_kb5002907_update_after_office",
+  "8140ef385ba517fbcac2ace56b9f32d4e48147c817bc349f2a737295ed94f55a",
+  "https://cybersecuritynews.com/f-droid-2-0-released",
+  "slug_fdroid_20_released_after_10_years"
 ]
