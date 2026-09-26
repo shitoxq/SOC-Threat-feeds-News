@@ -1,13 +1,4 @@
 [
-  "https://cybersecuritynews.com/veradigm-patient-data-breach",
-  "slug_veradigm_confirms_patient_data_exposed_thirdparty",
-  "9927501cbbee3b724e98e57628c97305d129e939bf3064dfe2f8b3e85c6cf12e",
-  "https://thehackernews.com/2026/09/four-spy-groups-used-same-chrome-and.html",
-  "slug_four_spy_groups_used_same_chrome",
-  "094b8be7fd682031dba3248a81e88f0bb7b1663e833ab7dfe1757ca06391c538",
-  "https://www.securityweek.com/fortinet-patches-critical-vulnerabilities-in-fortimonitoronsight-chrome-extension",
-  "slug_fortinet_patches_critical_vulnerabilities_fortimonitoronsight_chrome",
-  "f84b183e212a78ce508d930f6deee090c2b6753d1c8ba89f480a27d50074a690",
   "https://www.vulncheck.com/blog/introducing-vulncheck-canary-intelligence",
   "slug_introducing_vulncheck_canary_intelligenceintroducing_vulncheck_canary",
   "e90ed309de9e5efdc5bfc86dbebee5113b1876d0376a15cf4d927b634122f716",
@@ -998,5 +989,14 @@
   "slug_other_news_clop_leak_site_takeover",
   "4ad381d57bc8a51f4d1bc750d9b11737cbfb4723a3f2f6d04b725128148cab51",
   "https://www.vulncheck.com/blog/vulncheck-exploit-intelligence-app-in-splunkbase",
-  "slug_learn_how_operationalize_exploit_intelligence_splunk"
+  "slug_learn_how_operationalize_exploit_intelligence_splunk",
+  "087d84aa6c29cc3476c4ebd5d79a361ac2aae1083f04b35ef77834b4dd657b93",
+  "https://thehackernews.com/2026/09/elementor-csrf-flaw-lets-attackers-take.html",
+  "slug_elementor_csrf_lets_attackers_take_over",
+  "075a7dcf04287024a57d7faa74d3813eb4eafcf873873763275f9a576f5dd7f4",
+  "https://www.securityweek.com/new-x47-c-windows-botnet-weaponizes-xai-grok-ai-api-draining",
+  "slug_new_x47c_windows_botnet_weaponizes_xai",
+  "78dba48bcdf2229a1dbdf292c4ee969f72886ad84894e368a5b1a2d786400ad6",
+  "https://www.vulncheck.com/blog/anthropic-glasswing-cves",
+  "slug_tracking_cves_attributed_anthropic_researchers_project"
 ]
