@@ -1,13 +1,4 @@
 [
-  "slug_google_play_early_access_abused_push",
-  "c22f22acb6c19b6521b6554a57de202ad70b662d1754af30d051f1bf67d46214",
-  "https://www.bleepingcomputer.com/news/security/new-bluemoon-kit-exploited-windows-and-chrome-zero-day-flaws",
-  "slug_new_x27bluemoonx27_kit_exploited_windows_chrome",
-  "9e6ea74b0810704c1693db4edff5e1f9326c3bbea38dc7f8e918c8f5d4377b98",
-  "https://cybersecuritynews.com/fake-gta-6-downloads",
-  "slug_hackers_use_fake_gta_6_downloads",
-  "33af29f71c8c922142379d8629f55388d5af9ede192d46f6db112e2f7ad771c0",
-  "https://thehackernews.com/2026/09/check-point-discloses-two-98-rated-vpn.html",
   "slug_check_point_discloses_two_98rated_vpn",
   "dee12289918b47dafaebf181e1ecfe851ea0619b7691e796f859a174755af128",
   "https://www.bleepingcomputer.com/news/security/cisa-watchguard-rce-flaw-now-exploited-in-ransomware-attacks",
@@ -998,5 +989,14 @@
   "slug_return_kinsingcanary_intelligence_linked_exploitation_cve202346604",
   "CVE_CVE-2023-46604",
   "CVE_CVE-2023-38646",
-  "CVE_CVE-2025-55182"
+  "CVE_CVE-2025-55182",
+  "16e6f1ff0925d12742d7cd1e6825145759de7217e8c4389ff77303a9407bdb96",
+  "https://thehackernews.com/2026/09/kiteworks-urges-customers-to-shut-down.html",
+  "slug_kiteworks_urges_customers_shut_down_systems",
+  "a821996a2d0f5a0e43407402faf1f4833713d8e25a6afcc6558ce0986d90eec8",
+  "https://www.vulncheck.com/blog/network-edge-device-report-2026",
+  "slug_2026_state_exploitation_exploiting_network_edgewhats",
+  "93a5342ecc3bbf2ae26f9aa52263e8465d6d3b74073a6b1866ba789f81766cb5",
+  "https://www.helpnetsecurity.com/2026/09/25/macsync-info-stealing-malware-for-macos",
+  "slug_macsync_infostealing_malware_hides_malicious_commands"
 ]
