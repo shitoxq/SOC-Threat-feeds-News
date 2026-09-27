@@ -1,15 +1,4 @@
 [
-  "e46079a9cb617066fedd28962bac3b6500cdc5c08b9e617b343bafd2f80bb3ef",
-  "https://www.securityweek.com/cybersecurity-ma-roundup-33-deals-announced-in-august-2026",
-  "slug_cybersecurity_mampa_roundup_33_deals_announced",
-  "8ffaf3fc581623239e00bf87b1c320a8ad8d1cd479e87a42acd5f0974601aa8d",
-  "https://www.bleepingcomputer.com/news/microsoft/microsoft-excel-kb5002914-update-breaks-copy-and-paste-for-some-users",
-  "slug_microsoft_excel_kb5002914_update_breaks_copy",
-  "6a98439566a3507b48ed9327ce3da21059ae2ffbd638641d99bb7bbf1f7cc2d0",
-  "https://www.securityweek.com/deceptive-android-apps-exploit-google-play-early-access-to-evade-reviews",
-  "slug_deceptive_android_apps_exploit_google_play",
-  "aed7533007a48c8c40e813719962dc59466f8bd1b1d26af2040a1a5ae2a7d9cf",
-  "https://www.vulncheck.com/blog/making-dotnet-gadgets",
   "slug_making_serialization_gadgets_hand_netcreating_languagenative",
   "18d4ac8f8ecac5a742c8886688eca44bed7b8eaec48f5fc67aa3918dccc1f4e0",
   "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
@@ -998,5 +987,16 @@
   "slug_siftranking_canary_intelligencecanary_intelligence_captures_thousands",
   "fac26e3b136607111a36ce74ee65f21bf81a999e2db73b8036216158a268cb3e",
   "https://gbhackers.com/windows-11-update-causes-black-screen",
-  "slug_windows_11_update_causes_black_screen"
+  "slug_windows_11_update_causes_black_screen",
+  "37307b66ca009ae41c1bd144b0c99723da3c39fee14e47175fccfd9bac50d5bc",
+  "https://www.bleepingcomputer.com/news/security/citrix-admins-warned-to-shut-down-netscalers-over-2-exploited-zero-days",
+  "slug_citrix_confirms_two_netscaler_rce_zerodays",
+  "CVE_CVE-2026-88771",
+  "CVE_CVE-2026-88772",
+  "7bf6d5eb186443ef0d21f76e7a86cd8a914d7e6334a881ecb3e6c6d0b06f8dce",
+  "https://www.vulncheck.com/blog/2026-vulncheck-exploit-intelligence-report",
+  "slug_introducing_2026_vulncheck_exploit_intelligence_reportindepth",
+  "b8ae156808120c0c982f8c9b190f00ba86ff0fe8a319fd8dd95673b663d4b20c",
+  "https://www.helpnetsecurity.com/2026/09/25/docker-launches-cloud-sandboxes",
+  "slug_docker_introduces_ocibased_kits_package_agents"
 ]
