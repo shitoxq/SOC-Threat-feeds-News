@@ -1,13 +1,4 @@
 [
-  "fe0a36a2af19a7d66c7b54df9ad55760cb8c0b3314362f7fb13c72a341d563f4",
-  "https://www.securityweek.com/mandiant-founder-kevin-mandia-joins-amazon-board",
-  "slug_mandiant_founder_kevin_mandia_joins_amazon",
-  "27a25cc2599b060ca5c121f4594989b9dd257644a6fb51ec3270cfa6b40463a5",
-  "https://www.bleepingcomputer.com/news/security/new-android-malware-encrypts-files-steals-data-and-harasses-victims",
-  "slug_new_android_malware_encrypts_files_steals",
-  "ea36d46ce3d2b1f33e1f9319502840abcc051593cb60fb91a0601f21ced0ed0a",
-  "https://cybersecuritynews.com/cisco-firewall-root-access-flaw",
-  "slug_hackers_exploit_critical_cisco_firewall_gain",
   "e46079a9cb617066fedd28962bac3b6500cdc5c08b9e617b343bafd2f80bb3ef",
   "https://www.securityweek.com/cybersecurity-ma-roundup-33-deals-announced-in-august-2026",
   "slug_cybersecurity_mampa_roundup_33_deals_announced",
@@ -998,5 +989,14 @@
   "435bd94b9a602296659790bbdbea37c863470d0ec0c9fa571380a430f7c4ff3c",
   "https://www.vulncheck.com/blog/cisco-sd-wan-manager-vulns",
   "slug_herding_cats_recent_cisco_sdwan_manager",
-  "CVE_CVE-2026-20127"
+  "CVE_CVE-2026-20127",
+  "c6c75256eedfa72f7a8f56cdd00f3745981abaf0851c763c3bca9784c424ff8f",
+  "https://www.bleepingcomputer.com/news/security/cloudflare-fixes-containers-cross-tenant-flaw-exposing-customer-data",
+  "slug_cloudflare_fixes_containers_crosstenant_exposing_customer",
+  "25650ccc1da1c220b9459ea9a33a64f7b4c9217c57c3cfe9a00e2986e7b5ccc7",
+  "https://www.vulncheck.com/blog/siftrank_canaries",
+  "slug_siftranking_canary_intelligencecanary_intelligence_captures_thousands",
+  "fac26e3b136607111a36ce74ee65f21bf81a999e2db73b8036216158a268cb3e",
+  "https://gbhackers.com/windows-11-update-causes-black-screen",
+  "slug_windows_11_update_causes_black_screen"
 ]
