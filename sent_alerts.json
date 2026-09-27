@@ -1,13 +1,4 @@
 [
-  "slug_making_serialization_gadgets_hand_netcreating_languagenative",
-  "18d4ac8f8ecac5a742c8886688eca44bed7b8eaec48f5fc67aa3918dccc1f4e0",
-  "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
-  "slug_active_exploitation_mikrotik_routeros_cve202686060",
-  "CVE_CVE-2026-86060",
-  "585a6b302ab351d2f88d657ab1eda7ff5de361f24489640074902bc34f088b04",
-  "https://www.bleepingcomputer.com/news/security/cisco-fmc-flaws-exploited-by-ransomware-gang-state-sponsored-hackers",
-  "slug_cisco_fmc_exploited_ransomware_gang_statesponsored",
-  "3976d280b310ffa7772f1932f82ff8753a61afea077a615026c2d6951860281c",
   "https://cybersecuritynews.com/remote-desktop-services-failures",
   "slug_remote_desktop_services_failures_windows_servers",
   "6d77d0f66755e664316574d6dc01a3211b0c46ad7969092097387309098cc45e",
@@ -998,5 +989,14 @@
   "slug_introducing_2026_vulncheck_exploit_intelligence_reportindepth",
   "b8ae156808120c0c982f8c9b190f00ba86ff0fe8a319fd8dd95673b663d4b20c",
   "https://www.helpnetsecurity.com/2026/09/25/docker-launches-cloud-sandboxes",
-  "slug_docker_introduces_ocibased_kits_package_agents"
+  "slug_docker_introduces_ocibased_kits_package_agents",
+  "5f69db7f313e857daa1cc91636e12493b4c5e37c74addfb1811cac8466edee45",
+  "https://cybersecuritynews.com/windows-process-injection-evades-edr",
+  "slug_new_windows_process_injection_attack_evades",
+  "b3829597ab40e1153953e630ef1a36e27c5a16466383e99e11916e2df4030f96",
+  "https://www.vulncheck.com/blog/economic-value-lead-time",
+  "slug_what_28_days_faster_vulnerability_intelligence",
+  "81162ac00f292e2eecb6c741ffc0c9a9776b75ccebb7b450ec8a687c5f727721",
+  "https://gbhackers.com/kiteworks-systems-offline-amid-suspected-zero-day",
+  "slug_kiteworks_warns_users_take_systems_offline"
 ]
