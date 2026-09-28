@@ -1,15 +1,4 @@
 [
-  "https://cybersecuritynews.com/remote-desktop-services-failures",
-  "slug_remote_desktop_services_failures_windows_servers",
-  "6d77d0f66755e664316574d6dc01a3211b0c46ad7969092097387309098cc45e",
-  "https://thehackernews.com/2026/09/attackers-chain-jfrog-artifactory-flaws.html",
-  "slug_attackers_chain_jfrog_artifactory_gain_admin",
-  "d435211606dc27934de0e3b787f55332ae7adcf7b477ac6f1286b84d5c5c3aed",
-  "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-teams-outlook-launch-failures-on-arm-windows-pcs",
-  "slug_microsoft_fixes_teams_outlook_launch_failures",
-  "e0be12ca942b3a91ece5345a60e3aba7c7301eac45d76ec35e60ae15ed0f5d7e",
-  "https://www.securityweek.com/check-point-patches-critical-vpn-vulnerabilities",
-  "slug_check_point_patches_critical_vpn_vulnerabilities",
   "CVE_CVE-2026-85102",
   "CVE_CVE-2026-85103",
   "11c8b517d375b0496d90fd5b7053a9fccbb014769553e3bd5d643eace4869326",
@@ -998,5 +987,16 @@
   "slug_what_28_days_faster_vulnerability_intelligence",
   "81162ac00f292e2eecb6c741ffc0c9a9776b75ccebb7b450ec8a687c5f727721",
   "https://gbhackers.com/kiteworks-systems-offline-amid-suspected-zero-day",
-  "slug_kiteworks_warns_users_take_systems_offline"
+  "slug_kiteworks_warns_users_take_systems_offline",
+  "18d4ac8f8ecac5a742c8886688eca44bed7b8eaec48f5fc67aa3918dccc1f4e0",
+  "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+  "slug_active_exploitation_mikrotik_routeros_cve202667279",
+  "CVE_CVE-2026-67279",
+  "CVE_CVE-2026-86060",
+  "afccb2950c0f74aabeede061cd9e431db3f0458e4af0d6c10a5531336e9d6c87",
+  "https://www.vulncheck.com/blog/making-java-gadgets",
+  "slug_making_serialization_gadgets_hand_javalearn_how",
+  "0fff6cb532dc9d9549bfa21139e39504b8420b1c0027df9f34ec7c1ab3782886",
+  "https://www.helpnetsecurity.com/2026/09/25/sentinelone-extends-wayfinder-threat-hunting",
+  "slug_sentinelone_extends_wayfinder_coverage_across_endpoints"
 ]
