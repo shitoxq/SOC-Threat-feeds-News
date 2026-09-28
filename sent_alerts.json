@@ -1,14 +1,4 @@
 [
-  "CVE_CVE-2026-85102",
-  "CVE_CVE-2026-85103",
-  "11c8b517d375b0496d90fd5b7053a9fccbb014769553e3bd5d643eace4869326",
-  "https://thehackernews.com/2026/09/china-linked-unc3569-exploited-sogou.html",
-  "slug_chinalinked_unc3569_exploited_sogou_input_method",
-  "fa4f4d6db04213aa3234d930a39ec9d961811d4ed0d5f3c04ce27952f8ab8cce",
-  "https://www.bleepingcomputer.com/news/security/how-threat-actors-are-turning-trusted-ai-platforms-into-an-attack-surface",
-  "slug_how_threat_actors_turning_trusted_ai",
-  "37a1fd237436a1740e5c5e50a807989dd7d6e70e583be9dbf441ca8599a80f74",
-  "https://cybersecuritynews.com/hackers-guardbreaker-prompt-injection",
   "slug_russiaaligned_hackers_use_guardbreaker_prompt_injection",
   "a8b89596a45d74f224ef68bc8f12267559b424fc23b6ddc8fd4de3d5ee46e479",
   "https://thehackernews.com/2026/09/gitlab-cvss-10-file-read-flaw-draws-in.html",
@@ -998,5 +988,15 @@
   "slug_making_serialization_gadgets_hand_javalearn_how",
   "0fff6cb532dc9d9549bfa21139e39504b8420b1c0027df9f34ec7c1ab3782886",
   "https://www.helpnetsecurity.com/2026/09/25/sentinelone-extends-wayfinder-threat-hunting",
-  "slug_sentinelone_extends_wayfinder_coverage_across_endpoints"
+  "slug_sentinelone_extends_wayfinder_coverage_across_endpoints",
+  "ca3c0a27926084de2ff21026b0cd3e0ccd5d36227bac0c51ca7cafb4e65a487e",
+  "https://cybersecuritynews.com/wireshark-4-6-9-fixes-19-vulnerabilities",
+  "slug_wireshark_469_fixes_19_vulnerabilities_including",
+  "0c8973450c0343fc310d92f1d57876e0a035c38c20f61482da06294517f4ba35",
+  "https://www.vulncheck.com/blog/metro4shell_eitw",
+  "slug_metro4shell_exploitation_react_natives_metro_server",
+  "CVE_CVE-2025-11953",
+  "fb8da2685fbbe21258264e52b35c66bdf9ec2610a59508eaeece2c6ff9b9d493",
+  "https://gbhackers.com/16-year-old-researcher-discovers-microsoft-authentication-bug",
+  "slug_16yearold_researcher_discovers_microsoft_authentication_bug"
 ]
