@@ -1,13 +1,4 @@
 [
-  "slug_russiaaligned_hackers_use_guardbreaker_prompt_injection",
-  "a8b89596a45d74f224ef68bc8f12267559b424fc23b6ddc8fd4de3d5ee46e479",
-  "https://thehackernews.com/2026/09/gitlab-cvss-10-file-read-flaw-draws-in.html",
-  "slug_gitlab_cvss_10_fileread_draws_inthewild",
-  "CVE_CVE-2026-85706",
-  "0fbd39958205d3e9f2cdda4972c63da7cb67c0bd55d303f5690351995a6a43a0",
-  "https://www.bleepingcomputer.com/news/security/passkey-themed-phishing-attacks-lead-to-microsoft-365-data-theft",
-  "slug_passkeythemed_phishing_attacks_lead_microsoft_365",
-  "ed8ca42f83a6629ee534feda533a230a3309fe17c81f16bbb18e4626d5f71a52",
   "https://cybersecuritynews.com/new-kataru-iot-malware",
   "slug_new_kataru_iot_malware_packs_linux",
   "0f8accb03f1064f009f1e4a63788af7c39eaed1b9322b8e221e5d82ad3c1a73e",
@@ -998,5 +989,14 @@
   "CVE_CVE-2025-11953",
   "fb8da2685fbbe21258264e52b35c66bdf9ec2610a59508eaeece2c6ff9b9d493",
   "https://gbhackers.com/16-year-old-researcher-discovers-microsoft-authentication-bug",
-  "slug_16yearold_researcher_discovers_microsoft_authentication_bug"
+  "slug_16yearold_researcher_discovers_microsoft_authentication_bug",
+  "92a47b18db9bbe47493e7e5a1eff66c3bee58cbcc3b3fd3dda176dea32bcec0f",
+  "https://thehackernews.com/2026/09/weekly-recap-387m-crypto-hack-citrix.html",
+  "slug_weekly_recap_387m_crypto_hack_citrix",
+  "663bdb5bfe2648c7aeb9dc16b19977ea27b845ea9c76b65390814e210ec7f91c",
+  "https://www.bleepingcomputer.com/news/security/80-000-plus-organizations-had-ai-logins-stolen-from-shadow-ai-to-llmjacking",
+  "slug_80000_organizations_had_ai_logins_stolen",
+  "8f04e030c6bb0e3e520aa5749a4726db1d5bc91b61d0ffac566fcc3273c1f3c2",
+  "https://www.securityweek.com/nvidia-unveils-ai-agent-safety-platform-with-hardware-based-watchdog",
+  "slug_nvidia_unveils_ai_agent_safety_platform"
 ]
