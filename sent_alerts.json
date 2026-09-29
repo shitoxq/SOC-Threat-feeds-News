@@ -1,13 +1,4 @@
 [
-  "a1aa3879887914d7843e185c0c5d72249f1b69bdafe9cec2e3c1dcac7cd3efe0",
-  "https://www.securityweek.com/gitlab-vulnerability-exploited-one-day-after-disclosure",
-  "slug_gitlab_vulnerability_exploited_one_day_after",
-  "dc77f70d96e38d2e02192fdf301144e9e3cc261b447a7cae965fe3b202a5d21e",
-  "https://www.vulncheck.com/blog/cve-2026-63520-sharepoint-unsafe-type-rce",
-  "slug_exploiting_sharepoint_cve202655040_cve202663520_rce_chainbuilding",
-  "CVE_CVE-2026-55040",
-  "CVE_CVE-2026-63520",
-  "f9f92b67bdd99c76e133ea797ecf376164f08751efac15f59a36f1ac997e48d6",
   "https://www.helpnetsecurity.com/2026/09/11/ai-agents-papercut-ng-mf-attack-campaign",
   "slug_ai_agents_exploited_papercut_breach_395",
   "af3b87dfbf9c12604305a1c0d7c39537afe6ee92275ca2a8ea6af80ed1fc02e9",
@@ -998,5 +989,14 @@
   "c21db5e5719b6ff94228ef25be61f7b6779fbfd303a26bf76ec89dbd5fffa56c",
   "https://www.vulncheck.com/blog/smartermail-connecttohub-rce-cve-2026-24423",
   "slug_street_smarts_smartermail_connecttohub_unauthenticated_rce",
-  "CVE_CVE-2026-24423"
+  "CVE_CVE-2026-24423",
+  "cb8a6ba8d9499fadbc1ae52e4e4f15c555380a39a6156176f7a6d00ae5dd3c73",
+  "https://thehackernews.com/2026/09/bitget-says-attacker-exploited-third.html",
+  "slug_bitget_says_attacker_exploited_thirdparty_security",
+  "24d4e99becb681c2eb30f000cd6f39db4843eaed8b3b45241d5c73767d4e126b",
+  "https://www.bleepingcomputer.com/news/security/jadepuffer-agentic-ai-attacks-target-azure-destroy-cloud-resources",
+  "slug_jadepuffer_agentic_ai_attacks_target_azure",
+  "df16f3107e9fe17e1d303bb80bc8e80568819131b858ce3298c0297ffea0388e",
+  "https://www.vulncheck.com/blog/state-of-exploitation-2026",
+  "slug_vulncheck_state_exploitation_2026key_trends_findings"
 ]
