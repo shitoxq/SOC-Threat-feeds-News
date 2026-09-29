@@ -1,13 +1,4 @@
 [
-  "https://www.helpnetsecurity.com/2026/09/11/ai-agents-papercut-ng-mf-attack-campaign",
-  "slug_ai_agents_exploited_papercut_breach_395",
-  "af3b87dfbf9c12604305a1c0d7c39537afe6ee92275ca2a8ea6af80ed1fc02e9",
-  "https://thehackernews.com/2026/09/papercut-replaces-emergency-patches.html",
-  "slug_papercut_replaces_emergency_patches_fixes_two",
-  "a9f8bb9e5ff51b2893bbc5f01c91afcde3eceb727624c4713079906a6f24e540",
-  "https://cybersecuritynews.com/openai-agents-flood-rubygems",
-  "slug_openai_agents_flood_rubygems_2000_packages",
-  "ea6cdd59e51d4877a6ea2b64a804650d40a8c75a63a766b739bb13e635c28348",
   "https://www.securityweek.com/ukrainian-conti-ransomware-developer-sentenced-to-4-years-in-us-prison",
   "slug_ukrainian_conti_ransomware_developer_sentenced_4",
   "f05890c0a6ffeeaa8052a314a8ec36a82f351ccab9309b2c97f40414913d9ead",
@@ -998,5 +989,14 @@
   "slug_jadepuffer_agentic_ai_attacks_target_azure",
   "df16f3107e9fe17e1d303bb80bc8e80568819131b858ce3298c0297ffea0388e",
   "https://www.vulncheck.com/blog/state-of-exploitation-2026",
-  "slug_vulncheck_state_exploitation_2026key_trends_findings"
+  "slug_vulncheck_state_exploitation_2026key_trends_findings",
+  "50972d407b47a0bfb0cedf6bdc92556a31718753e17e4658e3f2318a27816447",
+  "https://thehackernews.com/2026/09/openai-pauses-tool-use-after-agent.html",
+  "slug_openai_pauses_tool_use_after_agent",
+  "47882102f2f6c7d57a55fe3257ebee2edd6532ed2cc02e44c88f7994c9d780b8",
+  "https://www.bleepingcomputer.com/news/security/apple-patches-coregraphics-zero-day-flaw-exploited-in-attacks",
+  "slug_apple_patches_coregraphics_zeroday_exploited_attacks",
+  "0159142fc9952a9f52e40d72a6002f08640b3b28e95ec32bee30109b2612d0a6",
+  "https://cybersecuritynews.com/gpt-6-astra-hack-software-supply-chains",
+  "slug_gpt6_astra_ai_agent_tried_deceive"
 ]
