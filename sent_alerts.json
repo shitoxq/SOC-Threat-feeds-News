@@ -1,13 +1,4 @@
 [
-  "https://www.helpnetsecurity.com/2026/09/11/kiteworks-bonfy-ai-acquisition",
-  "slug_kiteworks_expands_runtime_data_governance_bonfyai",
-  "c3b4c85a24a792d2ab3caa0e599dbe4c5c825a09a2181a046d6a1376cb8d9c51",
-  "https://cybersecuritynews.com/beyond-the-perimeter-building-resilience-against-cloud-and-saas-supply-chain-attacks",
-  "slug_beyond_perimeter_building_resilience_against_cloud",
-  "bb53dc8d49334b1fb958a1970594037a4be3cc63afabe2430dc9fab2ed823ffd",
-  "https://www.securityweek.com/bluemoon-exploit-kit-chains-recent-chrome-windows-zero-days",
-  "slug_bluemoon_exploit_kit_chains_recent_chrome",
-  "45ade7ed19bf905bd1ea8c3caee1d7e348716e2199827a04ffef4fd3999b1764",
   "https://www.vulncheck.com/blog/november-2025-research-highlights",
   "slug_vulncheck_research_highlights_november_2025insights_emerging",
   "54857a42b21b7ac336a8d44e2ab2620158306cea6047022e8bbcbc5a3c1ca17a",
@@ -998,5 +989,14 @@
   "slug_former_us_air_force_members_sent",
   "36422fad905b4570d126b0266155eff7fb9f845aba72893072f6813daa3bc58a",
   "https://cybersecuritynews.com/malware-inside-7-zip-installers",
-  "slug_hackers_hide_malware_inside_7zip_installers"
+  "slug_hackers_hide_malware_inside_7zip_installers",
+  "ca7def1fee7c7d15815f2bfa445727775564d8fc953fa07255bc72ce2ff8e956",
+  "https://thehackernews.com/2026/09/russias-star-blizzard-targets-100.html",
+  "slug_russiax27s_star_blizzard_targets_100_organizations",
+  "27b19d8d98c357280f8145160602388c61478645a8c936779506a95267b75784",
+  "https://www.bleepingcomputer.com/news/security/signal-adds-encypted-local-backup-support-to-ios-desktop-apps",
+  "slug_signal_adds_encypted_local_backup_support",
+  "fb84161af7e3b9f5a0d4f80f6293e26e4827ca966ac80403de6495360ab00689",
+  "https://cybersecuritynews.com/hackers-built-a-botnet",
+  "slug_hackers_built_botnet_that_doesnt_just"
 ]
