@@ -1,14 +1,4 @@
 [
-  "slug_windows_11_security_update_kb5124008_breaks",
-  "dae251a2004b33d7081c3866d7bae670ccb32ad7fd294222f0b710e847a2428b",
-  "https://thehackernews.com/2026/09/russian-state-sponsored-hackers-use.html",
-  "slug_russian_statesponsored_hackers_use_claude_rebuild",
-  "41cfd5817ebb0c2fede8e77b98209f6bd3f78d2c697ee10807550ccfc4f5ad6a",
-  "https://www.bleepingcomputer.com/news/security/artifactory-flaws-chained-in-attacks-deploying-backdoor-malware",
-  "slug_artifactory_chained_attacks_deploying_backdoor_malware",
-  "773dc3b5b5ee8bdbf5f8b56823af83227eb82c5811968b7905da7a334d03f53a",
-  "https://cybersecuritynews.com/conti-ransomware-hacker-sentenced",
-  "slug_conti_ransomware_hacker_sentenced_after_group",
   "a1aa3879887914d7843e185c0c5d72249f1b69bdafe9cec2e3c1dcac7cd3efe0",
   "https://www.securityweek.com/gitlab-vulnerability-exploited-one-day-after-disclosure",
   "slug_gitlab_vulnerability_exploited_one_day_after",
@@ -998,5 +988,15 @@
   "slug_times_car_confirms_data_breach_affecting",
   "8a8fd3c3ebbdb94d743c09702d1c52e892a02666e4f8ccd319d86abca85cca02",
   "https://cybersecuritynews.com/needymantis-malware-secret-network-access",
-  "slug_microsoft_finds_new_malware_used_hackers"
+  "slug_microsoft_finds_new_malware_used_hackers",
+  "bef7f6a21fd6f32c4da3d0b40a12882536d8ffbe23b9f3339834b795c4292cd5",
+  "https://thehackernews.com/2026/09/hackers-use-needymantis-to-maintain.html",
+  "slug_hackers_use_needymantis_maintain_longterm_access",
+  "57c942caaea37adebc61a753aacf6b7610f48f7bee2e304654bb8e05ab29b6d4",
+  "https://www.bleepingcomputer.com/news/security/japans-keio-confirms-ransomware-attack-disrupted-business-systems",
+  "slug_japanx27s_keio_confirms_ransomware_attack_disrupted",
+  "c21db5e5719b6ff94228ef25be61f7b6779fbfd303a26bf76ec89dbd5fffa56c",
+  "https://www.vulncheck.com/blog/smartermail-connecttohub-rce-cve-2026-24423",
+  "slug_street_smarts_smartermail_connecttohub_unauthenticated_rce",
+  "CVE_CVE-2026-24423"
 ]
