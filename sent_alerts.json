@@ -1,13 +1,4 @@
 [
-  "https://www.securityweek.com/ukrainian-conti-ransomware-developer-sentenced-to-4-years-in-us-prison",
-  "slug_ukrainian_conti_ransomware_developer_sentenced_4",
-  "f05890c0a6ffeeaa8052a314a8ec36a82f351ccab9309b2c97f40414913d9ead",
-  "https://thehackernews.com/2026/09/openai-agents-linked-to-rubygems.html",
-  "slug_openai_agents_linked_rubygems_campaign_that",
-  "628fc3790860a7c67fa37485106e36c4dd8d31c69e8b63c9fe64e2e7882e73e5",
-  "https://www.vulncheck.com/blog/death-by-20k-pocs",
-  "slug_death_20000_pocsvulnchecks_research_team_shares",
-  "cbe14c1969f3b7091ca08a857c97c38063ca9c906e048d0930c31d5018336946",
   "https://www.helpnetsecurity.com/2026/09/11/kiteworks-bonfy-ai-acquisition",
   "slug_kiteworks_expands_runtime_data_governance_bonfyai",
   "c3b4c85a24a792d2ab3caa0e599dbe4c5c825a09a2181a046d6a1376cb8d9c51",
@@ -998,5 +989,14 @@
   "slug_apple_patches_coregraphics_zeroday_exploited_attacks",
   "0159142fc9952a9f52e40d72a6002f08640b3b28e95ec32bee30109b2612d0a6",
   "https://cybersecuritynews.com/gpt-6-astra-hack-software-supply-chains",
-  "slug_gpt6_astra_ai_agent_tried_deceive"
+  "slug_gpt6_astra_ai_agent_tried_deceive",
+  "f429d2e637ac61626a595a0a6bef732447fcb8f2135750c35c1d84f2a3b3d6c9",
+  "https://thehackernews.com/2026/09/new-spectre-v2-btr-attack-leaks-linux.html",
+  "slug_new_spectrev2_btr_attack_leaks_linux",
+  "00578a4b6c93743ad82a9b69bffdd2b8389a35a076ee57bd4a1383f223709a61",
+  "https://www.bleepingcomputer.com/news/security/former-us-air-force-members-sent-to-prison-over-bec-attacks",
+  "slug_former_us_air_force_members_sent",
+  "36422fad905b4570d126b0266155eff7fb9f845aba72893072f6813daa3bc58a",
+  "https://cybersecuritynews.com/malware-inside-7-zip-installers",
+  "slug_hackers_hide_malware_inside_7zip_installers"
 ]
