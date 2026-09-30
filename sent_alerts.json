@@ -1,13 +1,4 @@
 [
-  "https://www.helpnetsecurity.com/2026/09/11/ransomware-decision-tree-video",
-  "slug_building_ransomware_decision_tree_before_call",
-  "e06f16de0f43e3c70505aad2ad91c27818a4e931bbcc03f064f0240ea3594051",
-  "https://www.vulncheck.com/blog/vulncheck-initial-access",
-  "slug_getting_ahead_exploitation_initial_access_intelligenceiai",
-  "4a65f1a409bfe4624dfe612a4ca88992043e4f7f8d573c715346b9706c607af9",
-  "https://www.helpnetsecurity.com/2026/09/11/pistachio-employee-phishing-risk-report",
-  "slug_companies_may_be_measuring_phishing_resilience",
-  "47d093ffec1d4cbcbcbebc8216e3ce2e6a10592782eab962a0ff72139a1dc474",
   "https://www.infosecurity-magazine.com/news/organizations-skip-permissions-ai",
   "slug_most_organizations_skip_permissions_reviews_before",
   "36ba4eb905c2ff0f801b912d272d78534f3649d7e1572ee643cef860f9c7b66a",
@@ -998,5 +989,14 @@
   "slug_mcp_python_sdk_oauth_lets_malicious",
   "2e9375e4363009c04bec6fb878aa2b50c659371db3d8219749c3969f77cd4b8d",
   "https://www.securityweek.com/high-severity-vulnerabilities-patched-in-openssl-wolfssl",
-  "slug_highseverity_vulnerabilities_patched_openssl_wolfssl"
+  "slug_highseverity_vulnerabilities_patched_openssl_wolfssl",
+  "4e63cd870861b1c90480cb308a4de3f0f43d7b1cddbd358a82099b095da34a64",
+  "https://thehackernews.com/2026/09/us-focused-csuite-phishing-steals.html",
+  "slug_usfocused_csuite_phishing_steals_microsoft_365",
+  "6b38840ee17685c158384f66d277de1e614bd6d10fe92743ab01bdf8f17925ff",
+  "https://www.bleepingcomputer.com/news/security/microsoft-to-block-entra-id-script-injection-attacks-starting-october",
+  "slug_microsoft_block_entra_id_script_injection",
+  "133897217c1668f92445ad519d0039a3b0ff28778577ac2aee9110f07fbad922",
+  "https://cybersecuritynews.com/hackers-turned-a-papercut-print-server",
+  "slug_hackers_turned_papercut_print_server_into"
 ]
