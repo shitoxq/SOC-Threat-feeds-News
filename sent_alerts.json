@@ -1,14 +1,4 @@
 [
-  "https://www.infosecurity-magazine.com/news/organizations-skip-permissions-ai",
-  "slug_most_organizations_skip_permissions_reviews_before",
-  "36ba4eb905c2ff0f801b912d272d78534f3649d7e1572ee643cef860f9c7b66a",
-  "https://cybersecuritynews.com/multiple-vlc-media-player-vulnerabilities",
-  "slug_multiple_vlc_media_player_vulnerabilities_allow",
-  "CVE_CVE-2026-56711",
-  "CVE_CVE-2026-73324",
-  "30e67d6ef7bbcdc0f7dabb4be33891e473fd8490e934ff73be68b3b137111492",
-  "https://www.vulncheck.com/blog/new-citrix-netscaler-zero-day-vulnerability-exploited-in-the-wild",
-  "slug_new_citrix_netscaler_zeroday_vulnerability_exploited",
   "CVE_CVE-2025-7775",
   "512ace7cb64cd9bb8d1c2276d98a124dea2f279cd66db283e7c836c36cd54b1e",
   "https://gbhackers.com/threat-actors-use-claude-ai-agents-to-automate-cyberattacks-and-steal-sensitive-data",
@@ -998,5 +988,15 @@
   "slug_microsoft_block_entra_id_script_injection",
   "133897217c1668f92445ad519d0039a3b0ff28778577ac2aee9110f07fbad922",
   "https://cybersecuritynews.com/hackers-turned-a-papercut-print-server",
-  "slug_hackers_turned_papercut_print_server_into"
+  "slug_hackers_turned_papercut_print_server_into",
+  "fe95a2c38cafc89756761d9175c1528791319f6830228b0baf81d1657f0521cc",
+  "https://thehackernews.com/2026/09/attackers-exploit-zimbra-flaw-to-deploy.html",
+  "slug_attackers_exploit_zimbra_deploy_web_shells",
+  "CVE_CVE-2026-73570",
+  "ff744366d8b7408a6c1bfdc5aba98eadf74a1b6752aa48787b9d0a2de416936a",
+  "https://www.bleepingcomputer.com/news/security/cisa-warns-of-critical-pre-auth-rce-flaw-in-mikrotik-routeros",
+  "slug_cisa_warns_critical_preauth_rce_mikrotik",
+  "1cac40fa99ee0742fc1ca2cd273a34f4512a6e368035dc1bfaa4cd626ed63964",
+  "https://cybersecuritynews.com/cloudflare-post-quantum-ca",
+  "slug_cloudflare_builds_postquantum_ca_merkle_tree"
 ]
