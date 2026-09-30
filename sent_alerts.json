@@ -1,13 +1,4 @@
 [
-  "https://www.vulncheck.com/blog/november-2025-research-highlights",
-  "slug_vulncheck_research_highlights_november_2025insights_emerging",
-  "54857a42b21b7ac336a8d44e2ab2620158306cea6047022e8bbcbc5a3c1ca17a",
-  "https://www.vulncheck.com/blog/oracle-e-business-suite-cve-2025-61882-exploited-in-extortion-attacks",
-  "slug_oracle_ebusiness_suite_cve202561882_exploited_extortion",
-  "CVE_CVE-2025-61882",
-  "d13d854a83663bd56ceb89a41b7b25a72f7e16a3c641fbc24b340da53a304c43",
-  "https://www.infosecurity-magazine.com/news/hackers-us-business-hours-m365",
-  "slug_hackers_favor_us_eastern_business_hours",
   "0ddc7c58e041304080d6a0b0c9112048113b0133c17e5268e4c73655190613eb",
   "https://thehackernews.com/2026/09/cisa-adds-5-actively-exploited.html",
   "slug_cisa_adds_5_actively_exploited_artifactory",
@@ -998,5 +989,14 @@
   "slug_signal_adds_encypted_local_backup_support",
   "fb84161af7e3b9f5a0d4f80f6293e26e4827ca966ac80403de6495360ab00689",
   "https://cybersecuritynews.com/hackers-built-a-botnet",
-  "slug_hackers_built_botnet_that_doesnt_just"
+  "slug_hackers_built_botnet_that_doesnt_just",
+  "a748e8f0fd47be447ad8fc8a27456c107d93969a79c81a18a281d242470ceec4",
+  "https://thehackernews.com/2026/09/101-malicious-npm-packages-add.html",
+  "slug_101_malicious_npm_packages_add_developersx27",
+  "822640c668025c49ee378046f9095eb13b6a1e87578229c7392f40945b02b31a",
+  "https://www.bleepingcomputer.com/news/microsoft/microsoft-is-rolling-out-linux-container-support-to-wsl",
+  "slug_microsoft_rolling_out_linux_container_support",
+  "e0a8ae41a23bb958e5b3dc0f22235b274177f387a31e79bdf03bd5b1863da76a",
+  "https://www.securityweek.com/pentagon-personnel-agency-data-breach-impacts-3-million-people",
+  "slug_pentagon_personnel_agency_data_breach_impacts"
 ]
