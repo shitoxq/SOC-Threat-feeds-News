@@ -1,13 +1,4 @@
 [
-  "CVE_CVE-2025-7775",
-  "512ace7cb64cd9bb8d1c2276d98a124dea2f279cd66db283e7c836c36cd54b1e",
-  "https://gbhackers.com/threat-actors-use-claude-ai-agents-to-automate-cyberattacks-and-steal-sensitive-data",
-  "slug_threat_actors_use_claude_ai_agents",
-  "05a5a1aee543e61cea3cfbc3a097f7773276c420dcefb48f9381511dd9e2707d",
-  "https://www.vulncheck.com/blog/zbt-darklantern-speakingstone",
-  "slug_chinese_implants_supply_chainin_our_previous",
-  "12af699ef5a0a08c1b24a37f816781541ab38c215184d7efbcac70e86a3f4164",
-  "https://www.helpnetsecurity.com/2026/09/11/withsecure-salesforce-ai-trust-governance-paper",
   "slug_ai_changing_what_salesforce_security_needs",
   "9d8aba1ab272a92d826acf0a4fe0d88c690b6f2e254ee21a893fc786e7289725",
   "https://www.infosecurity-magazine.com/news/mantaxotax-android-malware",
@@ -998,5 +989,14 @@
   "slug_cisa_warns_critical_preauth_rce_mikrotik",
   "1cac40fa99ee0742fc1ca2cd273a34f4512a6e368035dc1bfaa4cd626ed63964",
   "https://cybersecuritynews.com/cloudflare-post-quantum-ca",
-  "slug_cloudflare_builds_postquantum_ca_merkle_tree"
+  "slug_cloudflare_builds_postquantum_ca_merkle_tree",
+  "cb2af8d2a0d2744bb1110a6b2de1091fdfa4e845037b6c5611d4828af8809313",
+  "https://thehackernews.com/2026/09/attackers-abuse-msp360-to-deploy.html",
+  "slug_attackers_abuse_msp360_deploy_screenconnect_dualrmm",
+  "7be42d4d62a22932c2555252f2070e749ecb77face502a3239cf6a6479edf4d4",
+  "https://www.bleepingcomputer.com/news/security/russian-state-hackers-use-new-redflick-technique-to-push-malware",
+  "slug_russian_state_hackers_use_new_redflick",
+  "727c3ecd659de5a46fe077807d0243268fde64fc7f0454b7e1583bea819aad78",
+  "https://cybersecuritynews.com/chrome-update-with-32-security-fixes",
+  "slug_google_releases_chrome_update_32_security"
 ]
