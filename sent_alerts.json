@@ -1,13 +1,4 @@
 [
-  "0ddc7c58e041304080d6a0b0c9112048113b0133c17e5268e4c73655190613eb",
-  "https://thehackernews.com/2026/09/cisa-adds-5-actively-exploited.html",
-  "slug_cisa_adds_5_actively_exploited_artifactory",
-  "CVE_CVE-2026-42016",
-  "e42043f62c15c8816844f61d2e29debb42bb7eaf69fff46febca3834981e5205",
-  "https://www.vulncheck.com/blog/cve-2025-10035-fortra-go-anywhere-mft",
-  "slug_cve202510035_critical_vulnerability_fortra_goanywhere_mfta",
-  "CVE_CVE-2025-10035",
-  "958fef12b7d227af37a5e12c61c978669b1411d9b999d7fc69000e1d842defb2",
   "https://www.helpnetsecurity.com/2026/09/11/ransomware-decision-tree-video",
   "slug_building_ransomware_decision_tree_before_call",
   "e06f16de0f43e3c70505aad2ad91c27818a4e931bbcc03f064f0240ea3594051",
@@ -998,5 +989,14 @@
   "slug_microsoft_rolling_out_linux_container_support",
   "e0a8ae41a23bb958e5b3dc0f22235b274177f387a31e79bdf03bd5b1863da76a",
   "https://www.securityweek.com/pentagon-personnel-agency-data-breach-impacts-3-million-people",
-  "slug_pentagon_personnel_agency_data_breach_impacts"
+  "slug_pentagon_personnel_agency_data_breach_impacts",
+  "af99e8f3c52bcb81e153fd30b9396b577c917bed56e06fb62d94f184e1f6253c",
+  "https://www.bleepingcomputer.com/news/security/custom-chatgpts-push-clickfix-attacks-to-deploy-rat-malware",
+  "slug_custom_chatgpts_push_clickfix_attacks_deploy",
+  "8b2c1c42f7da450298530cf389176b49c6bb415f0158fb7896664149a966d1f4",
+  "https://cybersecuritynews.com/mcp-python-sdk-oauth-flaw",
+  "slug_mcp_python_sdk_oauth_lets_malicious",
+  "2e9375e4363009c04bec6fb878aa2b50c659371db3d8219749c3969f77cd4b8d",
+  "https://www.securityweek.com/high-severity-vulnerabilities-patched-in-openssl-wolfssl",
+  "slug_highseverity_vulnerabilities_patched_openssl_wolfssl"
 ]
