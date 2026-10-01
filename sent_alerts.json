@@ -1,13 +1,4 @@
 [
-  "fc6062203301d5ea51f2a53941778c042d08722b41e1a488ff2e0edd547025d2",
-  "https://gbhackers.com/china-linked-hackers-chain-chrome-zero-day",
-  "slug_chinalinked_hackers_chain_chrome_zeroday_windows",
-  "4f1d02ceef59c4def80539f353bc700c65c4366599795a8a5752bcff3c51ba81",
-  "https://cybersecuritynews.com/revolut-data-breach",
-  "slug_revolut_data_breach_exposes_customers_passport",
-  "2aeaf3567366b70c4b1698fa479039fdd0dbfc09a7ffd6c44f34ab77cd9051d6",
-  "https://www.vulncheck.com/blog/state-of-exploitation-1h-2025",
-  "slug_state_exploitation_look_into_1h2025_vulnerability",
   "b265e2d9d5071500a55b35c5281e87eacbf97f9d4512d93fcf938e0cc06bc2fa",
   "https://gbhackers.com/new-phishing-campaign-abuses-windows-mshta-exe",
   "slug_new_phishing_campaign_abuses_windows_mshtaexe",
@@ -998,5 +989,14 @@
   "slug_police_dismantle_killsec_ransomware_gang_allegedly",
   "de6654ace24150ed6e51be1c3717726848e0830779edb7a267d40b69f9eee11c",
   "https://cybersecuritynews.com/16-year-old-leader-killsec-ransomware",
-  "slug_16yearold_alleged_killsec_ransomware_group_leader"
+  "slug_16yearold_alleged_killsec_ransomware_group_leader",
+  "1ba8da53d09e99343886ecfafc67449967d1f73bbe706904874b2042476cecdc",
+  "https://thehackernews.com/2026/10/police-arrest-16-year-old-suspected-of.html",
+  "slug_police_arrest_16yearold_suspected_running_killsec",
+  "573dc06a1fd2caf6eeee94966aea932b513fabaaa45034e95f94d0d109b57a3e",
+  "https://www.bleepingcomputer.com/news/security/microsoft-says-threat-actors-are-ahead-in-the-early-ai-race",
+  "slug_microsoft_says_threat_actors_ahead_early",
+  "74df9b959e43707ac0a8d7ae54b187cf521bb12d1467c3e3d599c34da7f842cb",
+  "https://cybersecuritynews.com/hackers-built-a-windows-backdoor",
+  "slug_hackers_built_windows_backdoor_whose_entire"
 ]
