@@ -1,13 +1,4 @@
 [
-  "slug_command_injection_jenkins_via_git_parameter",
-  "CVE_CVE-2025-53652",
-  "af709002515a4c538adbd6402cfadde2aa62c949df6551473b1d61abe5aaedb3",
-  "https://cybersecuritynews.com/dell-objectscale-vulnerabilities",
-  "slug_critical_dell_objectscale_vulnerabilities_allows_malicious",
-  "CVE_CVE-2026-70416",
-  "901c46431c759142fefd7d37757c1f93040ce5c2a012630d7bca3b697502f980",
-  "https://www.vulncheck.com/blog/stillup-stillevil",
-  "slug_still_up_still_evilvulncheck_tracked_thousands",
   "fc6062203301d5ea51f2a53941778c042d08722b41e1a488ff2e0edd547025d2",
   "https://gbhackers.com/china-linked-hackers-chain-chrome-zero-day",
   "slug_chinalinked_hackers_chain_chrome_zeroday_windows",
@@ -998,5 +989,14 @@
   "slug_critical_teamviewer_vulnerabilities_enable_code_execution",
   "3c7689b66a713e949338406096ea6e85c5a948f5b073fd8bba2b7e3f43c3e0db",
   "https://www.securityweek.com/cisco-patches-exploited-catalyst-sd-wan-zero-day-vulnerability",
-  "slug_cisco_patches_exploited_catalyst_sdwan_zeroday"
+  "slug_cisco_patches_exploited_catalyst_sdwan_zeroday",
+  "dcd4b62c704ac0a9913324912247813b1c03adbf90baaa6e72cc249100724d1c",
+  "https://thehackernews.com/2026/10/wordpress-backdoor-rebuilds-itself.html",
+  "slug_wordpress_backdoor_rebuilds_itself_after_cleanup",
+  "32527eb88a0f77fd3806d7e65e640acb9f9703d53a96501815984fda5d373cce",
+  "https://www.bleepingcomputer.com/news/security/police-dismantle-killsec-ransomware-gang-allegedly-led-by-16-year-old",
+  "slug_police_dismantle_killsec_ransomware_gang_allegedly",
+  "de6654ace24150ed6e51be1c3717726848e0830779edb7a267d40b69f9eee11c",
+  "https://cybersecuritynews.com/16-year-old-leader-killsec-ransomware",
+  "slug_16yearold_alleged_killsec_ransomware_group_leader"
 ]
