@@ -1,13 +1,4 @@
 [
-  "fa59062d0b2fe8ab1a853f667c534cb06d6355b4cf6778aaaadbbc2a6f7a2981",
-  "https://thehackernews.com/2026/09/attackers-use-passkey-phishing-to.html",
-  "slug_attackers_use_passkey_phishing_hijack_microsoft",
-  "4b763108e4358d9a102f14d2c85bc417a4b6253c398fa2ed2cddd3e1e5877d4b",
-  "https://www.bleepingcomputer.com/news/security/hackers-exploit-tencent-app-flaw-to-deploy-grayrabbit-malware",
-  "slug_hackers_exploit_tencent_app_deploy_grayrabbit",
-  "CVE_CVE-2026-51990",
-  "fd9f023eb549e2e45811dbba74103fbed215aab142dd118a0baae877a38ad93e",
-  "https://www.vulncheck.com/blog/git-parameter-rce",
   "slug_command_injection_jenkins_via_git_parameter",
   "CVE_CVE-2025-53652",
   "af709002515a4c538adbd6402cfadde2aa62c949df6551473b1d61abe5aaedb3",
@@ -998,5 +989,14 @@
   "slug_divd_says_zammad_zerodays_enabled_aidriven",
   "b8e7abff46ccb69a738876cc57184d0f047586197f062ca082b12e1be5272cb4",
   "https://cybersecuritynews.com/citrix-0-day-vulnerabilities-webshells",
-  "slug_google_warns_hackers_actively_exploiting_citrix"
+  "slug_google_warns_hackers_actively_exploiting_citrix",
+  "0a705b1644e1dc140778fdc1526bda0a0102ac9edbd89307708dffad6608554a",
+  "https://thehackernews.com/2026/10/google-rolls-out-gemini-4-argon-to.html",
+  "slug_google_rolls_out_gemini_4_argon",
+  "264f10671eac2b397ed6a86406ac69099e5dca80c1fb66f6ccb16f897f351fd2",
+  "https://cybersecuritynews.com/teamviewer-vulnerabilities",
+  "slug_critical_teamviewer_vulnerabilities_enable_code_execution",
+  "3c7689b66a713e949338406096ea6e85c5a948f5b073fd8bba2b7e3f43c3e0db",
+  "https://www.securityweek.com/cisco-patches-exploited-catalyst-sd-wan-zero-day-vulnerability",
+  "slug_cisco_patches_exploited_catalyst_sdwan_zeroday"
 ]
