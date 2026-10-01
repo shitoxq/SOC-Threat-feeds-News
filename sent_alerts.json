@@ -1,14 +1,4 @@
 [
-  "slug_ai_changing_what_salesforce_security_needs",
-  "9d8aba1ab272a92d826acf0a4fe0d88c690b6f2e254ee21a893fc786e7289725",
-  "https://www.infosecurity-magazine.com/news/mantaxotax-android-malware",
-  "slug_mantaxotax_android_malware_combines_ransomware_spyware",
-  "44b91678301b5ad624430e3a2c8228a0466def76ac347aaa1dc46bd8d2957f15",
-  "https://www.vulncheck.com/blog/scriptcase-rce",
-  "slug_scriptcase_hunt_it_exploit_it_defend",
-  "0b9b5323560c5e38b7ec82acd28395939bc1c7f772fd39a9c1a7b0fb2c5b289c",
-  "https://www.infosecurity-magazine.com/news/fbi-cyber-strategy-disrupting",
-  "slug_fbi_publishes_firstever_cyber_strategy_focus",
   "fa59062d0b2fe8ab1a853f667c534cb06d6355b4cf6778aaaadbbc2a6f7a2981",
   "https://thehackernews.com/2026/09/attackers-use-passkey-phishing-to.html",
   "slug_attackers_use_passkey_phishing_hijack_microsoft",
@@ -998,5 +988,15 @@
   "slug_russian_state_hackers_use_new_redflick",
   "727c3ecd659de5a46fe077807d0243268fde64fc7f0454b7e1583bea819aad78",
   "https://cybersecuritynews.com/chrome-update-with-32-security-fixes",
-  "slug_google_releases_chrome_update_32_security"
+  "slug_google_releases_chrome_update_32_security",
+  "9475c717ac1e72751f86ed7fe483239d5df1ee431e31497e23c97ffcce6ab050",
+  "https://thehackernews.com/2026/09/cisco-warns-of-attackers-exploiting.html",
+  "slug_cisco_warns_attackers_exploiting_critical_authentication",
+  "CVE_CVE-2026-76504",
+  "e68cbc7e3a9017fd09b0dc6bf3b978a31bb2af560e6994c112e42dc732c59e7b",
+  "https://www.bleepingcomputer.com/news/security/divd-says-zammad-zero-days-enabled-ai-driven-network-breach",
+  "slug_divd_says_zammad_zerodays_enabled_aidriven",
+  "b8e7abff46ccb69a738876cc57184d0f047586197f062ca082b12e1be5272cb4",
+  "https://cybersecuritynews.com/citrix-0-day-vulnerabilities-webshells",
+  "slug_google_warns_hackers_actively_exploiting_citrix"
 ]
