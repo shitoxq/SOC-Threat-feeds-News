@@ -1,13 +1,4 @@
 [
-  "https://thehackernews.com/2026/09/weekly-recap-rogue-ai-agents-wechat.html",
-  "slug_weekly_recap_rogue_ai_agents_wechat",
-  "43819476aab2a60a049702409c1bcfc47be08b02cc4fa116a777ee5afe1ecb50",
-  "https://www.bleepingcomputer.com/news/security/hackers-target-exposed-vite-dev-servers-to-steal-aws-azure-secrets",
-  "slug_hackers_target_exposed_vite_dev_servers",
-  "13b525029ca81bda1b90854f0b7a94d94ad39a06723313cef8ce4fffd4953e30",
-  "https://www.securityweek.com/personal-financial-info-exposed-in-revolut-data-breach",
-  "slug_personal_financial_info_exposed_revolut_data",
-  "2e4ea22accc39550c1ec2a6ae5eb27806ba23a0f4beed8fc531c0cfbb3f00226",
   "https://thehackernews.com/2026/09/3bb-attacker-used-meshcentral-backdoor.html",
   "slug_3bb_attacker_used_meshcentral_backdoor_root",
   "2cc915664cfa0d6911ff7de47a9d4fd6576655b488e9e73f429a98671edae1ce",
@@ -998,5 +989,14 @@
   "slug_microsofts_x_account_hacked_crypto_pumpanddump",
   "fc33325fa5b8b52b8e24d2e4fc02e3d2861e2daa70515a79b4062e90e40602a1",
   "https://cybersecuritynews.com/ps5-security-update",
-  "slug_sony_rolls_out_ps5_security_update"
+  "slug_sony_rolls_out_ps5_security_update",
+  "2fb0abb39d71922812ae99c167e45492c1cf26f035bd56f26093f4765697c204",
+  "https://thehackernews.com/2026/10/antino-backdoor-uses-outlook-and.html",
+  "slug_antino_backdoor_uses_outlook_onedrive_c2",
+  "4f4e016349669a16fbe9ca444ad5c15edd973fc51e4144a27b29ae783f550a04",
+  "https://www.bleepingcomputer.com/news/security/gitlab-warns-of-critical-rce-vulnerability-in-ai-gateway-service",
+  "slug_gitlab_warns_critical_rce_vulnerability_ai",
+  "14c6a8861104906e15809718bea40438f24de6cb1080eedcacca59658a52ded6",
+  "https://cybersecuritynews.com/hackers-turned-a-microsoft-sql-server",
+  "slug_hackers_turned_microsoft_sql_server_into"
 ]
