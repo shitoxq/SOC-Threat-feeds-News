@@ -1,14 +1,4 @@
 [
-  "b265e2d9d5071500a55b35c5281e87eacbf97f9d4512d93fcf938e0cc06bc2fa",
-  "https://gbhackers.com/new-phishing-campaign-abuses-windows-mshta-exe",
-  "slug_new_phishing_campaign_abuses_windows_mshtaexe",
-  "54af798cb12528bb230212c6b01067844a5387dcb746804b8b4e5bcc7f59936b",
-  "https://www.vulncheck.com/blog/hikvision-mount-shell",
-  "slug_novel_use_quotmountquot_spotted_hikvision_attacksvulncheck",
-  "CVE_CVE-2021-36260",
-  "bcc47d6e369292a7a729ec9eb81b553ea24d6b2ca178cfc476f9d009434cc38a",
-  "https://www.helpnetsecurity.com/2026/09/13/week-in-review-linux-rootkit-deployed-on-f5-big-ip-apm-devices-cisco-fmc-bugs-exploited",
-  "slug_week_review_linux_rootkit_deployed_f5",
   "3a9498c278b7e25ac1b92b861aff6ac76e14cccf9a3112595bf328df362caa2e",
   "https://cybersecuritynews.com/plesk-backup-manager-flaw",
   "slug_plesk_backup_manager_lets_lowprivileged_users",
@@ -998,5 +988,15 @@
   "slug_microsoft_says_threat_actors_ahead_early",
   "74df9b959e43707ac0a8d7ae54b187cf521bb12d1467c3e3d599c34da7f842cb",
   "https://cybersecuritynews.com/hackers-built-a-windows-backdoor",
-  "slug_hackers_built_windows_backdoor_whose_entire"
+  "slug_hackers_built_windows_backdoor_whose_entire",
+  "ab51ae9f2bbed371b21a57ed5862a8b05852b5f48be2e70e30eaa9e4ad123970",
+  "https://thehackernews.com/2026/10/threatsday-ai-powered-zero-day-chain.html",
+  "slug_threatsday_aipowered_zeroday_chain_543k_live",
+  "f976444fc13ca998876fc2b5776144a3c8318dd7f3b1559693f330cee313311b",
+  "https://www.bleepingcomputer.com/news/security/fortinet-warns-of-critical-fortimail-flaw-exploited-in-zero-day-attacks",
+  "slug_fortinet_warns_critical_fortimail_exploited_zeroday",
+  "CVE_CVE-2026-104286",
+  "d110e1884522f76b6cb948ff92ac2a10007ec488982a2a2b226bd7e3b18b9368",
+  "https://www.securityweek.com/police-shut-down-killsec-ransomware-identify-alleged-teen-leader",
+  "slug_police_shut_down_killsec_ransomware_identify"
 ]
