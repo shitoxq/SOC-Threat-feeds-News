@@ -1,13 +1,4 @@
 [
-  "https://gbhackers.com/10000-malware-loaders",
-  "slug_researchers_uncover_10000_malware_loaders_behind",
-  "0a87e7e2ec15eb138eb8e2eb0de3f302ad71e1fe00ad1b8dd0ee757be6d34748",
-  "https://www.vulncheck.com/blog/pwning-the-ai-stack",
-  "slug_same_target_different_playbooks_two_attackers",
-  "337d6e804632ebddc70fca2eb83dbeec375861827c9ca301078ef58a98231d52",
-  "https://www.helpnetsecurity.com/2026/09/14/manageengine-cybersecurity-breach-confidence-report",
-  "slug_cybersecurity_attention_fades_within_months_after",
-  "161dd11ccccf6c5948903133bc0fedeb9d4da64a5c9e3e768ebeba05bc4dbabe",
   "https://thehackernews.com/2026/09/weekly-recap-rogue-ai-agents-wechat.html",
   "slug_weekly_recap_rogue_ai_agents_wechat",
   "43819476aab2a60a049702409c1bcfc47be08b02cc4fa116a777ee5afe1ecb50",
@@ -998,5 +989,14 @@
   "slug_autonomous_ai_agents_tried_hack_us",
   "ea3d6d4785d021a6f52474da4e1c3db63859a5b6d05475b60c7b3227d1423348",
   "https://cybersecuritynews.com/apache-http-server-vulnerabilities-2",
-  "slug_multiple_apache_http_server_vulnerabilities_could"
+  "slug_multiple_apache_http_server_vulnerabilities_could",
+  "e9bd716f670acca907d4305b03bf53cfe0394b45e73f197f2e97eee59e3584e8",
+  "https://thehackernews.com/2026/10/android-17-advanced-protection-locks.html",
+  "slug_android_17_advanced_protection_locks_accessibility",
+  "8d3352921da70b7d6a2c19c1b1b04dc32ba7dedec84305eeab6586d0e2511388",
+  "https://www.bleepingcomputer.com/news/security/microsofts-x-account-hacked-in-crypto-token-pump-and-dump-scheme",
+  "slug_microsofts_x_account_hacked_crypto_pumpanddump",
+  "fc33325fa5b8b52b8e24d2e4fc02e3d2861e2daa70515a79b4062e90e40602a1",
+  "https://cybersecuritynews.com/ps5-security-update",
+  "slug_sony_rolls_out_ps5_security_update"
 ]
