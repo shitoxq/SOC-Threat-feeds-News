@@ -1,14 +1,4 @@
 [
-  "https://thehackernews.com/2026/09/cisco-secure-email-gateway-flaw.html",
-  "slug_cisco_secure_email_gateway_exploited_wild",
-  "CVE_CVE-2026-76461",
-  "38e9dd836aa730982e7cb0dfd7e5effbcc886fe1116c925e46d0c715459faf69",
-  "https://www.bleepingcomputer.com/news/security/hackers-hijack-hbo-max-reddit-account-to-push-malware-in-clickfix-ads",
-  "slug_hackers_hijack_hbo_max_reddit_account",
-  "3ab0f1256d13f938c415ecebe08a10d8f24a9d7d6a24150f604e6daafd40e59a",
-  "https://cybersecuritynews.com/best-kubernetes-security-tools",
-  "slug_top_10_best_kubernetes_security_tools",
-  "f78f80e44815d15028f54b90e61e70b03d0caa6c7148838043f211381cb454d9",
   "https://thehackernews.com/2026/09/human-attacker-exploits-marimo-rce.html",
   "slug_human_attacker_exploits_marimo_rce_reaches",
   "e6762e88a598286a299e203d4e0ce9847dd7c14b611adac5acae5bdf31843985",
@@ -998,5 +988,15 @@
   "slug_same_target_different_playbooks_two_attackers",
   "7d96c85341cf3b2bcf45add157d1b01210a93b104ad368ab9759c5426b342365",
   "https://ipurple.team/2026/09/21/dump-encoding-library",
-  "slug_dump_encoding_library"
+  "slug_dump_encoding_library",
+  "bd18b57a89a822b3fe69cba32139cacd122efbdb181df554ea458e6fbb747434",
+  "https://cybersecuritynews.com/gitlab-ai-gateway-vulnerability",
+  "slug_critical_gitlab_ai_gateway_vulnerability_enables",
+  "CVE_CVE-2026-90970",
+  "04d07d847c1f27e3c414789ea6d774acebfeadd54f0aab95fce381296ebc6dea",
+  "https://www.securityweek.com/warlock-expands-sharepoint-exploitation-in-critical-infrastructure-attacks",
+  "slug_warlock_expands_sharepoint_exploitation_critical_infrastructure",
+  "05a5a1aee543e61cea3cfbc3a097f7773276c420dcefb48f9381511dd9e2707d",
+  "https://www.vulncheck.com/blog/zbt-darklantern-speakingstone",
+  "slug_chinese_implants_supply_chainin_our_previous"
 ]
