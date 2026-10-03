@@ -1,13 +1,4 @@
 [
-  "slug_malicious_twitch_browser_extension_leaks_oauth",
-  "0e8db38d2abd4588ada9d0b91b526aeb0551d8ee6e82c49ca188d52c89ecfea2",
-  "https://www.bleepingcomputer.com/news/security/japans-digital-agency-says-vpn-flaw-exposed-246-000-personnel-records",
-  "slug_japanx27s_digital_agency_says_vpn_exposed",
-  "49987561e58ca9addc47f583fa4b2ff627c77d170764ac229edd70b93e393c9b",
-  "https://cybersecuritynews.com/nintendo-switch-code-execution-flaw",
-  "slug_nintendo_switch_vulnerability_allows_attackers_run",
-  "CVE_CVE-2026-82079",
-  "afc835b3ebd293cb78098b197b87636fea7485b9b61cdbac5dc98511b1a22d9f",
   "https://thehackernews.com/2026/09/cisco-secure-email-gateway-flaw.html",
   "slug_cisco_secure_email_gateway_exploited_wild",
   "CVE_CVE-2026-76461",
@@ -998,5 +989,14 @@
   "slug_hackers_poison_trusted_software_updates_steal",
   "16384a18ae1ec6f276e9132dabc49050344c9567556634487a6ed6e9647a5c03",
   "https://www.securityweek.com/macos-users-targeted-by-fake-zoom-installer-carrying-cloudsyncd-backdoor",
-  "slug_macos_users_targeted_fake_zoom_installer"
+  "slug_macos_users_targeted_fake_zoom_installer",
+  "619298c41e95319a96d6b21cac1b9ef2d1874d1943f8e66b80c1618f1af4aaa3",
+  "https://www.securityweek.com/crypto-scammers-hijack-microsofts-official-x-account",
+  "slug_crypto_scammers_hijack_microsofts_official_x",
+  "0a87e7e2ec15eb138eb8e2eb0de3f302ad71e1fe00ad1b8dd0ee757be6d34748",
+  "https://www.vulncheck.com/blog/pwning-the-ai-stack",
+  "slug_same_target_different_playbooks_two_attackers",
+  "7d96c85341cf3b2bcf45add157d1b01210a93b104ad368ab9759c5426b342365",
+  "https://ipurple.team/2026/09/21/dump-encoding-library",
+  "slug_dump_encoding_library"
 ]
