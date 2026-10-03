@@ -1,13 +1,4 @@
 [
-  "slug_kremlin_banking_malware_hijacks_chrome_edge",
-  "a2307bc073cf862e670599bbfb0e6e5da3c047e3af3e5b85a67407640049f86d",
-  "https://www.bleepingcomputer.com/news/security/hackers-target-wordpress-sites-via-third-party-woocommerce-plugin",
-  "slug_hackers_target_wordpress_sites_via_thirdparty",
-  "37c465f666d8d39e5037a905bb56d520eeab26f53ceda2776358f63dbace6ce9",
-  "https://cybersecuritynews.com/how-to-keep-malwares-rotating-infrastructure-from-becoming-a-detection-gap",
-  "slug_how_keep_malwares_rotating_infrastructure_from",
-  "41594bea7c5a5865e1a5e566afed0d95545304bdb6a20898d7a088c50552b813",
-  "https://thehackernews.com/2026/09/iranian-hackers-use-telegram-controlled.html",
   "slug_iranian_hackers_use_telegramcontrolled_malware_spy",
   "cb917a784d2701d24e0a3e80d0435d0b43477b21511c510b2c39fd7ca258b1e9",
   "https://www.bleepingcomputer.com/news/security/acronis-warns-of-actively-exploited-flaw-in-its-cpanel-backup-plugin",
@@ -998,5 +989,14 @@
   "slug_shinyhunters_member_detained_jordan_reportedly_helping",
   "628fc3790860a7c67fa37485106e36c4dd8d31c69e8b63c9fe64e2e7882e73e5",
   "https://www.vulncheck.com/blog/death-by-20k-pocs",
-  "slug_death_20000_pocsvulnchecks_research_team_shares"
+  "slug_death_20000_pocsvulnchecks_research_team_shares",
+  "d5c541420322babeb3c1152b2e114e9fef6f46497bd59021f547ca128e5ef104",
+  "https://cybersecuritynews.com/microsoft-reissues-exchange-server-update",
+  "slug_microsoft_pushes_new_exchange_v2_update",
+  "d70478c2d2d873d5195251b8d7ffb91bcf4a628082f30acde10d63a8efe56f5c",
+  "https://www.vulncheck.com/blog/forticloud-sso-login-bypass",
+  "slug_forticloud_sso_login_bypass_vulnerabilities_exploited",
+  "e9798f994f19abfb402814b679f558de129c3f66f3db10bf11f0d40710a47290",
+  "https://gbhackers.com/cling-malware-masquerades-as-google-stun-traffic",
+  "slug_cling_malware_masquerades_google_stun_traffic"
 ]
