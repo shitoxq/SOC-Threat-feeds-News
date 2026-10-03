@@ -1,15 +1,4 @@
 [
-  "https://thehackernews.com/2026/09/human-attacker-exploits-marimo-rce.html",
-  "slug_human_attacker_exploits_marimo_rce_reaches",
-  "e6762e88a598286a299e203d4e0ce9847dd7c14b611adac5acae5bdf31843985",
-  "https://www.bleepingcomputer.com/news/microsoft/microsoft-september-kb5002914-security-update-breaks-excel-copy-and-paste",
-  "slug_microsoft_confirms_kb5002914_excel_update_breaks",
-  "970f4e1ad144447316ece785436fab43e8a3927cff38f93852b9e2e458edee82",
-  "https://cybersecuritynews.com/hackers-exploit-woocommerce-plugin",
-  "slug_hackers_exploit_woocommerce_plugin_bug_take",
-  "CVE_CVE-2026-27540",
-  "999d56a1d8090cc951ae928aff63b8b928cec9d9030aaecaf901341e431937bf",
-  "https://thehackernews.com/2026/09/bambootoken-malware-uses-mqtt-to.html",
   "slug_bambootoken_malware_uses_mqtt_control_windows",
   "c19aea47c3662d773e949db9ed323ab2a8e871dcecd7480d28c7af68011244cf",
   "https://www.bleepingcomputer.com/news/security/bambootoken-malware-controls-windows-and-linux-systems-via-mqtt",
@@ -998,5 +987,16 @@
   "slug_warlock_expands_sharepoint_exploitation_critical_infrastructure",
   "05a5a1aee543e61cea3cfbc3a097f7773276c420dcefb48f9381511dd9e2707d",
   "https://www.vulncheck.com/blog/zbt-darklantern-speakingstone",
-  "slug_chinese_implants_supply_chainin_our_previous"
+  "slug_chinese_implants_supply_chainin_our_previous",
+  "3cc5b30efe782c628ff51883c929b3d8f1706250b9fdb4bd7d5f4be50d69ffd9",
+  "https://cybersecuritynews.com/citrix-netscaler-0-day-patch",
+  "slug_citrix_netscaler_keeps_rebooting_following_0day",
+  "a12b8aebc2b4232e6bfd801fb66ebf32efd6b640bce6fc4bbb694fe65b6874cf",
+  "https://www.securityweek.com/fortra-patches-critical-vulnerabilities-in-boks",
+  "slug_fortra_patches_critical_vulnerabilities_boks",
+  "dc77f70d96e38d2e02192fdf301144e9e3cc261b447a7cae965fe3b202a5d21e",
+  "https://www.vulncheck.com/blog/cve-2026-63520-sharepoint-unsafe-type-rce",
+  "slug_exploiting_sharepoint_cve202655040_cve202663520_rce_chainbuilding",
+  "CVE_CVE-2026-55040",
+  "CVE_CVE-2026-63520"
 ]
