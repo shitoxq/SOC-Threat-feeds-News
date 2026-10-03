@@ -1,13 +1,4 @@
 [
-  "slug_bambootoken_malware_uses_mqtt_control_windows",
-  "c19aea47c3662d773e949db9ed323ab2a8e871dcecd7480d28c7af68011244cf",
-  "https://www.bleepingcomputer.com/news/security/bambootoken-malware-controls-windows-and-linux-systems-via-mqtt",
-  "slug_bambootoken_malware_controls_windows_linux_systems",
-  "ed25bd2b64139d753ee41781d0142874d5b4c81e4e9b239e8f6b6b507c0ae006",
-  "https://cybersecuritynews.com/cisa-active-directory-attack-techniques",
-  "slug_cisa_shares_17_techniques_used_hackers",
-  "e6910dbe4779350d338164fc7f7ea0ad74196d5245a1da9fcff3875f86de541d",
-  "https://thehackernews.com/2026/09/kremlin-banking-malware-hijacks-chrome.html",
   "slug_kremlin_banking_malware_hijacks_chrome_edge",
   "a2307bc073cf862e670599bbfb0e6e5da3c047e3af3e5b85a67407640049f86d",
   "https://www.bleepingcomputer.com/news/security/hackers-target-wordpress-sites-via-third-party-woocommerce-plugin",
@@ -998,5 +989,14 @@
   "https://www.vulncheck.com/blog/cve-2026-63520-sharepoint-unsafe-type-rce",
   "slug_exploiting_sharepoint_cve202655040_cve202663520_rce_chainbuilding",
   "CVE_CVE-2026-55040",
-  "CVE_CVE-2026-63520"
+  "CVE_CVE-2026-63520",
+  "d5d7c3b1775bb907651a5209a9a02d959c4f1dc67651df4f839696133b3aac2b",
+  "https://thehackernews.com/2026/10/warlock-exploits-sharepoint-flaws-to.html",
+  "slug_warlock_exploits_sharepoint_disable_security_tools",
+  "cf6b796173d090fea0dd85bce92a9a3052caa7f107ab4bc9d8fd8a84c821a73c",
+  "https://cybersecuritynews.com/shinyhunters-hacker-helping-fbi",
+  "slug_shinyhunters_member_detained_jordan_reportedly_helping",
+  "628fc3790860a7c67fa37485106e36c4dd8d31c69e8b63c9fe64e2e7882e73e5",
+  "https://www.vulncheck.com/blog/death-by-20k-pocs",
+  "slug_death_20000_pocsvulnchecks_research_team_shares"
 ]
