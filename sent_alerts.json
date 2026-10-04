@@ -1,14 +1,4 @@
 [
-  "slug_attacker_hijacks_ai_coding_assistant_session",
-  "27a47a0a9fc9a11136a4808c9040d10ee9eb995d3be68a18bb20d6672089047f",
-  "https://www.bleepingcomputer.com/news/security/the-true-cost-of-a-ransomware-attack-with-and-without-bcdr",
-  "slug_true_cost_ransomware_attack_without_bcdr",
-  "4e6a86d74a043e4760916c36f29ebd721781daa12ffd06171b81e5a6a081a904",
-  "https://cybersecuritynews.com/german-manufacturer-security-alerts",
-  "slug_german_manufacturer_shrinks_security_response_while",
-  "4a519778a75aa182655b26560c0ed80a317816ee4868817e7b0281b80b3fb6f4",
-  "https://thehackernews.com/2026/09/attackers-exploit-issabel-framework.html",
-  "slug_attackers_exploit_issabel_framework_enabling_unauthenticated",
   "CVE_CVE-2026-89026",
   "4f9fc237051cbd811fc567dc9a6fcc8db52abf53ca0bd330b57f8bb253c1f87e",
   "https://www.bleepingcomputer.com/news/security/malware-bypasses-browser-checks-to-force-install-chrome-edge-extensions",
@@ -998,5 +988,15 @@
   "slug_trump_names_national_intelligence_director_jay",
   "74eb2f41f5f5f652b004b879a9d969fefea3b8455a75e3e3c98565de6def4d15",
   "https://www.vulncheck.com/blog/react2shell-canaries",
-  "slug_react2shell_what_our_canaries_seewex27re_already"
+  "slug_react2shell_what_our_canaries_seewex27re_already",
+  "aec8daffc0c2837f247ef9cc9673f84baf064659509adc5437cad58401d66f38",
+  "https://www.vulncheck.com/blog/frost-checks-first",
+  "slug_frost_checks_first_selective_exploitationnew_cve20252611",
+  "CVE_CVE-2025-2611",
+  "d41953a1f1ceb15fd48e86b320791f45bb7666ab3761532ced5adc63c7434c44",
+  "https://gbhackers.com/microsoft-warns-clickfix-attacks-use-fake-captcha",
+  "slug_microsoft_warns_clickfix_attacks_use_fake",
+  "8dfcd7e0aa6b20f58a52d43ceca28a5b25381ec8c63bac7e304268b7536c9ffa",
+  "https://www.helpnetsecurity.com/2026/10/04/week-in-review-researcher-breaks-into-microsoft-analytics-service-netscaler-rce-0-day-exploited",
+  "slug_week_review_researcher_breaks_into_microsoft"
 ]
