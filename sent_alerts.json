@@ -1,14 +1,4 @@
 [
-  "CVE_CVE-2026-89026",
-  "4f9fc237051cbd811fc567dc9a6fcc8db52abf53ca0bd330b57f8bb253c1f87e",
-  "https://www.bleepingcomputer.com/news/security/malware-bypasses-browser-checks-to-force-install-chrome-edge-extensions",
-  "slug_malware_bypasses_browser_checks_force_install",
-  "1fb6c9f688ad7fa6ef6248424f0fa54cb9d6ba2cd2a332822983f24f8ec91bd7",
-  "https://www.securityweek.com/first-agentic-ai-data-breach-reported-to-spanish-regulator",
-  "slug_first_agentic_ai_data_breach_reported",
-  "27afdbdfcf69780c5afb5914a3674bd638ae6f9d12d48dd6fa1077e2761d07e5",
-  "https://thehackernews.com/2026/09/three-threat-groups-target-russian.html",
-  "slug_three_threat_groups_target_russian_enterprises",
   "dee5aa01bd9d41e1acaffd864645be6237a89214174414f63ddbbccab7967d55",
   "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5124008-update-breaks-domain-trust-for-some-users",
   "slug_windows_11_kb5124008_update_breaks_domain",
@@ -998,5 +988,15 @@
   "slug_microsoft_warns_clickfix_attacks_use_fake",
   "8dfcd7e0aa6b20f58a52d43ceca28a5b25381ec8c63bac7e304268b7536c9ffa",
   "https://www.helpnetsecurity.com/2026/10/04/week-in-review-researcher-breaks-into-microsoft-analytics-service-netscaler-rce-0-day-exploited",
-  "slug_week_review_researcher_breaks_into_microsoft"
+  "slug_week_review_researcher_breaks_into_microsoft",
+  "ad1b2d493b1cdb8257f61f312f8bcffb5914eb886c9c3807c5d1fb5de13a690c",
+  "https://www.bleepingcomputer.com/news/security/citrix-patches-netscaler-saml-zero-day-exploited-in-attacks",
+  "slug_citrix_patches_netscaler_saml_zeroday_exploited",
+  "CVE_CVE-2026-88779",
+  "6cf1b11488e515facfa63da88541f8fcf369d5f808226baaf26c348901b1905c",
+  "https://cybersecuritynews.com/debian-1313-security-flaws",
+  "slug_debian_has_patched_1313_massive_update",
+  "10da45e9ae675ce5bba287425416eb70729a8c32a49f22a7611bd449d97034dc",
+  "https://www.vulncheck.com/blog/mystery-oast",
+  "slug_mystery_oast_host_behind_regionally_focused"
 ]
