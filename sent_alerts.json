@@ -1,13 +1,4 @@
 [
-  "slug_attackers_exploit_woocommerce_wholesale_lead_capture",
-  "a4e1856073525f80dfbc84773daa53b8ff8b48c8238aae3d353c81e6c500e1ff",
-  "https://www.bleepingcomputer.com/news/security/cisa-warns-of-hackers-exploiting-critical-screenconnect-flaw",
-  "slug_critical_screenconnect_now_actively_exploited_attacks",
-  "3cca9610b4e7da03f674c360c5a0af529676b9695a5907e6842cac1dab5e95bd",
-  "https://cybersecuritynews.com/700-openai-agents",
-  "slug_700_openai_agents_built_their_own",
-  "ffa867bf23d68de49dd7d37c89d87fdf3d7e4e0c75f6fbc716a4ac2b6d1c7982",
-  "https://thehackernews.com/2026/09/attacker-hijacks-ai-coding-assistant.html",
   "slug_attacker_hijacks_ai_coding_assistant_session",
   "27a47a0a9fc9a11136a4808c9040d10ee9eb995d3be68a18bb20d6672089047f",
   "https://www.bleepingcomputer.com/news/security/the-true-cost-of-a-ransomware-attack-with-and-without-bcdr",
@@ -998,5 +989,14 @@
   "slug_south_korean_president_orders_full_security",
   "d22c4aa767cf58ec92e6a277ba43cca38228c7d2b1a6a30afb1d3fd4a491b8c4",
   "https://www.vulncheck.com/blog/react2shell-github",
-  "slug_react2shell_exploits_githubvulncheck_reviewed_full_wave"
+  "slug_react2shell_exploits_githubvulncheck_reviewed_full_wave",
+  "b43811755f4371ef2b078851aa74fedddf9c1524436a9eb084a99240a3aef7b8",
+  "https://cybersecuritynews.com/kvm-zero-day-vm-escape",
+  "slug_vercel_confirms_kvm_zeroday_vm_escape",
+  "0e7bd557c102a452dd77b1d2be2cab5292240de5ad275d89f62bc71488e48789",
+  "https://www.securityweek.com/trump-names-national-intelligence-director-jay-clayton-to-lead-a-new-federal-ai-task-force",
+  "slug_trump_names_national_intelligence_director_jay",
+  "74eb2f41f5f5f652b004b879a9d969fefea3b8455a75e3e3c98565de6def4d15",
+  "https://www.vulncheck.com/blog/react2shell-canaries",
+  "slug_react2shell_what_our_canaries_seewex27re_already"
 ]
