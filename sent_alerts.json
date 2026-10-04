@@ -1,13 +1,4 @@
 [
-  "dcdfbcf4078e006a0c9ef45a08dd3252a6baa08cd453119402c48f4300805393",
-  "https://www.bleepingcomputer.com/news/security/malcious-admin-menu-editor-pro-plugin-backdoors-1-500-wordpress-sites",
-  "slug_malcious_admin_menu_editor_pro_plugin",
-  "615e5bf1b482d22c4f3882c393e7e8734e7f90d1e3aaa3374fea25e8eed3612f",
-  "https://www.securityweek.com/1-million-sandbox-challenge-uncovers-linux-kernel-flaws",
-  "slug_1_million_sandbox_challenge_uncovers_linux",
-  "7c09d00af3deeda7e85aae44adb90e2765a05b33592d3659134a4c8a95d07901",
-  "https://thehackernews.com/2026/09/litespeed-enterprise-flaw-could-let-one.html",
-  "slug_litespeed_enterprise_could_let_one_hosting",
   "fbebea31c1d436ff15854621a38eeaa8e11662b8c8a7159424fbe5bf9f150fca",
   "https://www.bleepingcomputer.com/news/security/what-zero-day-response-should-be-in-the-post-mythos-era",
   "slug_what_zeroday_response_should_be_postmythos",
@@ -998,5 +989,14 @@
   "CVE_CVE-2025-12480",
   "fdd03f8f52cae5454e66b9618815e37c80e967eaddbdac726fd5d34341464915",
   "https://www.helpnetsecurity.com/2026/10/02/ai-cybersecurity-threats-microsoft-report",
-  "slug_ai_giving_attackers_head_start_microsoft"
+  "slug_ai_giving_attackers_head_start_microsoft",
+  "b7a287cfbcada699c54933236ff485e9e5a539066c7b99a23362d48358b2660c",
+  "https://www.vulncheck.com/blog/cvss-severity",
+  "slug_critical_cves_cvss_v4_adoption_gap",
+  "93bf12fa973ba05d97e70376f00d18787634a2c7f330a4e642986a342f5ef476",
+  "https://www.helpnetsecurity.com/2026/10/02/china-aligned-ta419-phishing-ai-policy-experts",
+  "slug_chinese_spies_impersonate_white_house_anthropic",
+  "59730e2407b364de01a7249da986087d56b93894626ea4f6f58a09e1f487420d",
+  "https://ipurple.team/2026/09/09/windows-security-center",
+  "slug_windows_security_center"
 ]
