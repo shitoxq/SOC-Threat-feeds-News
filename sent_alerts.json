@@ -1,13 +1,4 @@
 [
-  "fbebea31c1d436ff15854621a38eeaa8e11662b8c8a7159424fbe5bf9f150fca",
-  "https://www.bleepingcomputer.com/news/security/what-zero-day-response-should-be-in-the-post-mythos-era",
-  "slug_what_zeroday_response_should_be_postmythos",
-  "131e125bb8d6f7f828ca3f258a70eb12089722b7cfbe1c736ddb09df3c8a73d8",
-  "https://cybersecuritynews.com/google-chrome-fixes-42-flaws",
-  "slug_google_chrome_153_update_fixes_42",
-  "CVE_CVE-2026-91721",
-  "eee1a3572e34c6fdafebf2591e3dec3e0f826cc7e7cdcc14e007c9e54fbfe6dc",
-  "https://thehackernews.com/2026/09/attackers-exploit-woocommerce-wholesale.html",
   "slug_attackers_exploit_woocommerce_wholesale_lead_capture",
   "a4e1856073525f80dfbc84773daa53b8ff8b48c8238aae3d353c81e6c500e1ff",
   "https://www.bleepingcomputer.com/news/security/cisa-warns-of-hackers-exploiting-critical-screenconnect-flaw",
@@ -998,5 +989,14 @@
   "slug_chinese_spies_impersonate_white_house_anthropic",
   "59730e2407b364de01a7249da986087d56b93894626ea4f6f58a09e1f487420d",
   "https://ipurple.team/2026/09/09/windows-security-center",
-  "slug_windows_security_center"
+  "slug_windows_security_center",
+  "aac5cc1a7d26e13fa0a5f7d7365a0ed8fd8515b8b7334c47b468a810f22db7f6",
+  "https://thehackernews.com/2026/10/china-aligned-ta419-targets-us-ai.html",
+  "slug_chinaaligned_ta419_targets_us_ai_policy",
+  "cc1d9e2b58c258db7c4104eb8dbd1a8d455c4a28ba99dc89e895de283d3bb545",
+  "https://cybersecuritynews.com/south-korean-president-orders-full-security-checks",
+  "slug_south_korean_president_orders_full_security",
+  "d22c4aa767cf58ec92e6a277ba43cca38228c7d2b1a6a30afb1d3fd4a491b8c4",
+  "https://www.vulncheck.com/blog/react2shell-github",
+  "slug_react2shell_exploits_githubvulncheck_reviewed_full_wave"
 ]
