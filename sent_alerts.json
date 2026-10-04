@@ -1,14 +1,4 @@
 [
-  "slug_iranian_hackers_use_telegramcontrolled_malware_spy",
-  "cb917a784d2701d24e0a3e80d0435d0b43477b21511c510b2c39fd7ca258b1e9",
-  "https://www.bleepingcomputer.com/news/security/acronis-warns-of-actively-exploited-flaw-in-its-cpanel-backup-plugin",
-  "slug_acronis_warns_actively_exploited_its_cpanel",
-  "bece35069d85e08d4e300cecce6fa0fd7089d7f02e7b35548d411d8a3f956cce",
-  "https://www.securityweek.com/microsoft-commits-to-sweeping-ai-privacy-rules-for-students-will-other-tech-giants-follow",
-  "slug_microsoft_commits_sweeping_ai_privacy_rules",
-  "bf27a701dddcbc6001e31a4407137f507e369e6d1e7e7d92d392b03eb657033c",
-  "https://thehackernews.com/2026/09/mass-scanning-campaign-exploits-vite.html",
-  "slug_massscanning_campaign_exploits_vite_extract_cloud",
   "dcdfbcf4078e006a0c9ef45a08dd3252a6baa08cd453119402c48f4300805393",
   "https://www.bleepingcomputer.com/news/security/malcious-admin-menu-editor-pro-plugin-backdoors-1-500-wordpress-sites",
   "slug_malcious_admin_menu_editor_pro_plugin",
@@ -998,5 +988,15 @@
   "slug_forticloud_sso_login_bypass_vulnerabilities_exploited",
   "e9798f994f19abfb402814b679f558de129c3f66f3db10bf11f0d40710a47290",
   "https://gbhackers.com/cling-malware-masquerades-as-google-stun-traffic",
-  "slug_cling_malware_masquerades_google_stun_traffic"
+  "slug_cling_malware_masquerades_google_stun_traffic",
+  "73e8ac4f22faee52ebd68e4c571abccd3777d8c246e8c014392cfc904b8a0de3",
+  "https://www.bleepingcomputer.com/news/google/google-gemini-could-soon-get-full-access-to-your-macs-files-apps-and-the-web",
+  "slug_google_gemini_could_soon_get_full",
+  "935f495f66e01e67be2c8ff8ce852927207983d9fea74232da627dda602dc75f",
+  "https://www.vulncheck.com/blog/triofox-exploit-cve-2025-12480",
+  "slug_tales_from_exploit_mines_gladinet_triofox",
+  "CVE_CVE-2025-12480",
+  "fdd03f8f52cae5454e66b9618815e37c80e967eaddbdac726fd5d34341464915",
+  "https://www.helpnetsecurity.com/2026/10/02/ai-cybersecurity-threats-microsoft-report",
+  "slug_ai_giving_attackers_head_start_microsoft"
 ]
