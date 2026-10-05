@@ -1,15 +1,4 @@
 [
-  "slug_n0va_phishkit_targets_us_eu_businesses",
-  "c3bcb92126698d29a6c86d48d09601150d31fbd7cf2f9b41563146db5a5c6778",
-  "https://www.bleepingcomputer.com/news/security/spains-data-agency-gets-first-report-of-ai-powered-data-breach",
-  "slug_spainx27s_data_agency_gets_first_report",
-  "a9b06a1c0df7936cdd561a2dbd73740e60c3229e2b6057d6df8e5e753afd1af2",
-  "https://cybersecuritynews.com/windows-11-kb5124008-update",
-  "slug_windows_11_kb5124008_update_breaks_active",
-  "8f4404937cb63f29b4d89ed4a114969e028ca131e8756bfc016f2a6d90bca3e7",
-  "https://thehackernews.com/2026/09/google-patches-pixel-modem-flaw-amid.html",
-  "slug_google_patches_pixel_modem_amid_signs",
-  "CVE_CVE-2026-58704",
   "ce681f5c4b2479941fcf23373dcd95e58e9f064efa7f628b96a680eaba8312e9",
   "https://www.bleepingcomputer.com/news/security/chinese-hackers-use-sparrowocky-malware-in-govt-espionage-attacks",
   "slug_chinese_hackers_use_sparrowocky_malware_govt",
@@ -998,5 +987,16 @@
   "slug_denmark_population_registry_data_breach_affects",
   "805cad631d351a78f7fb701e0969792d3efb4c96b9897fdabe8c966e4412691c",
   "https://www.securityweek.com/google-narrows-open-source-bug-bounty-amid-wave-of-invalid-automated-reports",
-  "slug_google_narrows_open_source_bug_bounty"
+  "slug_google_narrows_open_source_bug_bounty",
+  "00260114e73039a46463a30a660066468c9584241fcb3af8c2accb8943f1194c",
+  "https://thehackernews.com/2026/10/microsoft-exchange-flaw-lets.html",
+  "slug_microsoft_exchange_lets_authenticated_attackers_read",
+  "CVE_CVE-2026-96940",
+  "0d95aed7cfa060c29cb99f271d78be5accf022e40b120dc5e7120b6637a27072",
+  "https://www.bleepingcomputer.com/news/security/rejetto-hfs-servers-now-actively-scanned-for-critical-rce-flaw",
+  "slug_rejetto_hfs_servers_now_actively_scanned",
+  "CVE_CVE-2026-61500",
+  "7319aa33c92308f5f8b5615a1fab388ce10f4a554237b0f8662c6bcdd5f584a5",
+  "https://www.securityweek.com/linux-backdoor-abuses-stun-protocol-exploits-dozens-of-flaws",
+  "slug_linux_backdoor_abuses_stun_protocol_exploits"
 ]
