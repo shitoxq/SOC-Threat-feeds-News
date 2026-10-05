@@ -1,13 +1,4 @@
 [
-  "dee5aa01bd9d41e1acaffd864645be6237a89214174414f63ddbbccab7967d55",
-  "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5124008-update-breaks-domain-trust-for-some-users",
-  "slug_windows_11_kb5124008_update_breaks_domain",
-  "3c22897a5787ca0a32d66a6276b4aeb0a1cf7925043fe6d314e4a090ebb8f34e",
-  "https://cybersecuritynews.com/check-point-root-access-flaw",
-  "slug_check_point_vulnerability_lets_remote_hackers",
-  "CVE_CVE-2026-91843",
-  "d58c7f1a86f68a9cf2d5118d4d5c82f623776cd849dfc126357cec5be73c76fb",
-  "https://thehackernews.com/2026/09/one-extension-could-hijack-ai.html",
   "slug_one_extension_could_hijack_ai_assistants",
   "932e95369cfbef9cfde59639a4e637011914b4e6f25fa83b6228c85b2aaabfa5",
   "https://www.bleepingcomputer.com/news/security/iranian-hackers-use-chosen-brick-windows-malware-to-spy-on-targets",
@@ -998,5 +989,14 @@
   "slug_debian_has_patched_1313_massive_update",
   "10da45e9ae675ce5bba287425416eb70729a8c32a49f22a7611bd449d97034dc",
   "https://www.vulncheck.com/blog/mystery-oast",
-  "slug_mystery_oast_host_behind_regionally_focused"
+  "slug_mystery_oast_host_behind_regionally_focused",
+  "f84b183e212a78ce508d930f6deee090c2b6753d1c8ba89f480a27d50074a690",
+  "https://www.vulncheck.com/blog/introducing-vulncheck-canary-intelligence",
+  "slug_introducing_vulncheck_canary_intelligenceintroducing_vulncheck_canary",
+  "60721b6127c9da8d579d3baf48f12046e54bc6d695c41b4973aabd7679a44e0f",
+  "https://www.helpnetsecurity.com/2026/10/05/keyorix-open-source-on-premise-secrets-management",
+  "slug_keyorix_opensource_secrets_management_teams_that",
+  "2a7f9153c55ed3dec151b1ad1e720bc384484056d33a17df98ffca6aa51ce7bf",
+  "https://ipurple.team/2026/07/13/amsi-provider",
+  "slug_amsi_provider"
 ]
