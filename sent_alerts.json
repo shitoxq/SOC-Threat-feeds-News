@@ -1,13 +1,4 @@
 [
-  "ce681f5c4b2479941fcf23373dcd95e58e9f064efa7f628b96a680eaba8312e9",
-  "https://www.bleepingcomputer.com/news/security/chinese-hackers-use-sparrowocky-malware-in-govt-espionage-attacks",
-  "slug_chinese_hackers_use_sparrowocky_malware_govt",
-  "757e20e77195e00bf8f3e77584178ead5511f1180d1b94082d4b36aa994e2eb8",
-  "https://www.securityweek.com/active-exploitation-triggers-emergency-patch-for-cisco-ise-zero-day",
-  "slug_active_exploitation_triggers_emergency_patch_cisco",
-  "4341f2269a01efb541fca4c9782a3e8abfa4e76385981cd8f206066292ab0169",
-  "https://thehackernews.com/2026/09/critical-unbound-dnssec-validator-flaw.html",
-  "slug_critical_unbound_dnssec_validator_could_allow",
   "CVE_CVE-2026-81642",
   "2b588c8830716627b73a866a876a50bdb9baa1bbd9de87dfd4053e8c6ec74ed3",
   "https://www.bleepingcomputer.com/news/microsoft/windows-11-24h2-home-and-pro-reach-end-of-support-in-october",
@@ -998,5 +989,14 @@
   "CVE_CVE-2026-61500",
   "7319aa33c92308f5f8b5615a1fab388ce10f4a554237b0f8662c6bcdd5f584a5",
   "https://www.securityweek.com/linux-backdoor-abuses-stun-protocol-exploits-dozens-of-flaws",
-  "slug_linux_backdoor_abuses_stun_protocol_exploits"
+  "slug_linux_backdoor_abuses_stun_protocol_exploits",
+  "b5ce63915515734944ec090ebb2ab6e62f2e0d9c1735d84e7034187f9b4115e9",
+  "https://thehackernews.com/2026/10/realtek-jungle-sdk-exploit-attempts.html",
+  "slug_realtek_jungle_sdk_exploit_attempts_deliver",
+  "5f3bbf3b5453a94a9761e74a9be1153fdf6d91fceaaf9b3e028c9ec707fac5cb",
+  "https://www.bleepingcomputer.com/news/security/tenfold-ce-our-free-identity-governance-tool-just-got-2-new-features",
+  "slug_tenfold_ce_our_free_identity_governance",
+  "6104e2d282389158d4639a9bf37c1f36a7e48d056976c41845fa0d120dce4d31",
+  "https://cybersecuritynews.com/zammad-zero-day",
+  "slug_zammad_zeroday_chain_lets_ai_agent"
 ]
