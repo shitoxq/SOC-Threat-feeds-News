@@ -1,14 +1,4 @@
 [
-  "CVE_CVE-2026-81642",
-  "2b588c8830716627b73a866a876a50bdb9baa1bbd9de87dfd4053e8c6ec74ed3",
-  "https://www.bleepingcomputer.com/news/microsoft/windows-11-24h2-home-and-pro-reach-end-of-support-in-october",
-  "slug_windows_11_24h2_home_pro_reach",
-  "f5b40792290899e9e178198de55935c12b589f854fb9014b3ecca217d6de284e",
-  "https://cybersecuritynews.com/cisa-fake-credentials-catch-hackers",
-  "slug_cisa_wants_defenders_plant_fake_credentials",
-  "852ff302b4ad29e14138d39ba46052549c9ec4e0cf18e855a15e032c406bf426",
-  "https://thehackernews.com/2026/09/can-you-prove-new-cve-is-exploitable.html",
-  "slug_can_you_prove_new_cve_exploitable",
   "ac794e2681f26e275b0be76dd41e0799c9760e7c27aaa5bb09004a37c918c29e",
   "https://www.bleepingcomputer.com/news/security/brevo-supply-chain-attack-injected-clickfix-scripts-on-customer-sites",
   "slug_brevo_supplychain_attack_injected_clickfix_scripts",
@@ -998,5 +988,15 @@
   "slug_tenfold_ce_our_free_identity_governance",
   "6104e2d282389158d4639a9bf37c1f36a7e48d056976c41845fa0d120dce4d31",
   "https://cybersecuritynews.com/zammad-zero-day",
-  "slug_zammad_zeroday_chain_lets_ai_agent"
+  "slug_zammad_zeroday_chain_lets_ai_agent",
+  "f57b4be0b51a470e49c854e28c3b47b423c03f4ae85e5ddffa6e8b6091db56c5",
+  "https://thehackernews.com/2026/10/critical-atlassian-flaw-lets.html",
+  "slug_critical_atlassian_lets_unauthenticated_attackers_read",
+  "CVE_CVE-2026-21589",
+  "8da16a39e01985ea6f2220f87bfbaf2f59dfd8f7d1bcaa83a70c2b4d7af16096",
+  "https://www.bleepingcomputer.com/news/security/engineer-sentenced-for-locking-thousands-of-devices-on-employer-network",
+  "slug_engineer_sentenced_locking_over_3000_devices",
+  "3be158071409894d1caf06d796bfd33b3ede515ef79601e02d5cdc8de398b175",
+  "https://www.securityweek.com/250000-impacted-by-data-breaches-at-new-jersey-texas-healthcare-firms",
+  "slug_250000_impacted_data_breaches_new_jersey"
 ]
