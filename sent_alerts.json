@@ -1,13 +1,4 @@
 [
-  "ac794e2681f26e275b0be76dd41e0799c9760e7c27aaa5bb09004a37c918c29e",
-  "https://www.bleepingcomputer.com/news/security/brevo-supply-chain-attack-injected-clickfix-scripts-on-customer-sites",
-  "slug_brevo_supplychain_attack_injected_clickfix_scripts",
-  "94e925be31f454cf70c916e9c708e50f99ea0852a99d905aa16fb6bb2a2370e8",
-  "https://www.securityweek.com/revolut-data-breach-5-months-680-high-profile-accounts-3m-ransom",
-  "slug_revolut_data_breach_5_months_680",
-  "3cc3e48c3179ac60da07e7967326c4515455bae6c15c8372f0a74540b230a186",
-  "https://thehackernews.com/2026/09/cisos-expert-guide-to-agentic.html",
-  "slug_cisox27s_expert_guide_agentic_pentesting_websites",
   "1ea5aeee76d7e5e4717ec1b17fa5a7464b1940692fc07347509abf499d08374f",
   "https://www.bleepingcomputer.com/news/security/new-rathat-android-malware-uses-ai-to-automate-device-control",
   "slug_new_rathat_android_malware_uses_ai",
@@ -998,5 +989,14 @@
   "slug_engineer_sentenced_locking_over_3000_devices",
   "3be158071409894d1caf06d796bfd33b3ede515ef79601e02d5cdc8de398b175",
   "https://www.securityweek.com/250000-impacted-by-data-breaches-at-new-jersey-texas-healthcare-firms",
-  "slug_250000_impacted_data_breaches_new_jersey"
+  "slug_250000_impacted_data_breaches_new_jersey",
+  "0d2a51b21028dbfb807b576a115673f2b5f1977f4857a379b50021e8c738fa40",
+  "https://thehackernews.com/2026/10/libreoffice-and-openoffice-flaws-let.html",
+  "slug_libreoffice_openoffice_let_malicious_spreadsheets_run",
+  "6af1267f376a010af79bb08cfa988cb9beb965561fc9c4278191aaf359ae8ead",
+  "https://www.bleepingcomputer.com/news/security/how-to-secure-rmm-software-8-controls-msps-should-test",
+  "slug_how_secure_rmm_software_8_controls",
+  "4a8c04ab7a085d7ed8974bcccbaea60ff8586b0d5a8ae4bdd480af17c4303838",
+  "https://cybersecuritynews.com/former-infrastructure-engineer-sentenced",
+  "slug_former_infrastructure_engineer_sentenced_sabotaging_employers"
 ]
