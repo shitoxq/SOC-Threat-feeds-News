@@ -1,13 +1,4 @@
 [
-  "7ed3b8ecfcfb9b4533fd5c17cebf88149d2cbfe5fb3a3ada2f40b776b12ec506",
-  "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-workaround-for-windows-domain-login-authentication-issues",
-  "slug_microsoft_shares_workaround_windows_domain_login",
-  "831e59baba6ecebb5a9c962a4ef17991f2602787ea66c0b8de526de4fd82bd0b",
-  "https://cybersecuritynews.com/bind-dns-servers-hit-by-14-security-flaws",
-  "slug_bind_dns_servers_hit_14_security",
-  "1276fb6b0a48564d56b14a05a98e6966749b52436e91b2a0186dc195ab8a132f",
-  "https://thehackernews.com/2026/09/critical-check-point-management-server.html",
-  "slug_critical_check_point_management_lets_unauthenticated",
   "0d442d2ccf8563023c0ddb6dd919bac48319fff0f3f07573a9ba515876794f10",
   "https://cybersecuritynews.com/steam-windows-0-day-vulnerability",
   "slug_steam_windows_0day_vulnerability_allows_users",
@@ -998,5 +989,14 @@
   "slug_hackers_exploit_32_zerodays_first_day",
   "ef3cb8f130c97fc5162b0e909f49e12ab5c80547299c8a2e0bc8d07d6315c5ed",
   "https://www.securityweek.com/fbi-blames-contractors-missed-patch-for-shinyhunters-breach",
-  "slug_fbi_blames_contractors_missed_patch_shinyhunters"
+  "slug_fbi_blames_contractors_missed_patch_shinyhunters",
+  "4bb0cd016dafda1dac27c663f4cc496f63bdb7b85cc8bb2808b71170095ae06d",
+  "https://thehackernews.com/2026/10/linux-backdoors-impersonate-email.html",
+  "slug_linux_backdoors_impersonate_email_security_tools",
+  "24c1770321189cb9f9cd7d670f1978b646d76c89773e2e0dcce37a38bd4188df",
+  "https://www.bleepingcomputer.com/news/security/ninja-forms-plugin-flaw-exploited-to-hack-wordpress-sites",
+  "slug_ninja_forms_plugin_exploited_hack_wordpress",
+  "73e29d10c96120d6a727e01cf45970f128d22c8d794a369519ce2c2378d120bd",
+  "https://www.securityweek.com/fbi-arrests-most-wanted-developer-of-ploutus-atm-malware",
+  "slug_fbi_arrests_most_wanted_developer_ploutus"
 ]
