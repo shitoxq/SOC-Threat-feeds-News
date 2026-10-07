@@ -1,13 +1,4 @@
 [
-  "35f50263d0e778da37010cfc5ffaf1c2cfc2a27701855d79734a859d2444c87c",
-  "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-broken-copy-and-paste-for-excel-2016-users",
-  "slug_microsoft_fixes_broken_copy_paste_excel",
-  "3ab4f086d127b5c4d907a8ea3b965d3ca38bc18ab8a9cc9404cd5fcdf1643089",
-  "https://cybersecuritynews.com/brevo-supply-chain-attack",
-  "slug_brevo_supply_chain_attack_pushes_wordpress",
-  "987fdbb14989de685462b433ba7cbc14ffc65a10b8e1cf46b8b9be5364b66e66",
-  "https://thehackernews.com/2026/09/weaselbiscuit-stealer-spreads-via-13.html",
-  "slug_weaselbiscuit_stealer_spreads_via_13_npm",
   "011d41b8c9e8cff46617c808e9019ad893bf6739968151fa23b091f478bf316f",
   "https://www.bleepingcomputer.com/news/security/webinar-which-google-workspace-security-controls-actually-matter",
   "slug_webinar_which_google_workspace_security_controls",
@@ -998,5 +989,14 @@
   "slug_asos_confirms_data_breach_after_hacked",
   "30ac4555f0044b08b2c68a57c365aa60aca6bf6dfa720f2c3f675cacafa7955d",
   "https://www.securityweek.com/cybersecurity-ma-roundup-39-deals-announced-in-september-2026",
-  "slug_cybersecurity_mampa_roundup_39_deals_announced"
+  "slug_cybersecurity_mampa_roundup_39_deals_announced",
+  "98f167473783047aae3ab93d4f0981529810bceca2913b52052d5b19ac0f566d",
+  "https://thehackernews.com/2026/10/fbi-warns-fortibleed-remains-active.html",
+  "slug_fbi_warns_fortibleed_remains_active_after",
+  "fca691efb94559174106b6c1034cd94b6a8048ac0270bbaf1d37cedad4658b79",
+  "https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-max-severity-ssrf-flaw-in-sma1000-gateways",
+  "slug_sonicwall_warns_max_severity_ssrf_sma1000",
+  "5bdcd74dc343c865ffdede6bbd6c13f3142bc4aebfc670958d392952d6b68d09",
+  "https://cybersecuritynews.com/spread-lunexstealer",
+  "slug_hackers_compromise_100_websites_fake_cloudflare"
 ]
