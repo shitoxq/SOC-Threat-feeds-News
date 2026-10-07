@@ -1,13 +1,4 @@
 [
-  "b4610ef23810c67714fcca7ebfca2e9bc68cb9097a75181a089dcfd2e0ef469e",
-  "https://www.bleepingcomputer.com/news/security/gyazo-server-flaw-exploited-to-steal-236-million-user-records",
-  "slug_gyazo_server_exploited_steal_236_million",
-  "4b0cb8cbbf871a462a77a84ef855ddd38861abe699e08425631b9188444644c1",
-  "https://www.securityweek.com/in-other-news-ransomware-developer-sentenced-plugin4shell-ai-attack-critical-sap-flaw",
-  "slug_other_news_ransomware_developer_sentenced_plugin4shell",
-  "55eb40df3f2670c86d6a63354fd2954b90264b101384c69fb384188632936015",
-  "https://thehackernews.com/2026/09/new-wordpress-click2shell-flaw-forces.html",
-  "slug_new_wordpress_click2shell_forces_theme_installs",
   "119203d8f3dba0d3f0ff000cee07619f3c8c14bd5c412cf6ee414eb0cfaa5449",
   "https://www.bleepingcomputer.com/news/security/fake-lastpass-authenticator-github-repos-push-new-rapuncel-infostealer",
   "slug_fake_lastpass_authenticator_github_repos_push",
@@ -998,5 +989,14 @@
   "slug_microsoft_outlook_block_msix_attachments_starting",
   "97e84b0db361d7aa99e7da90fb2ac5acb812a9c601f254633ffdac00432a4c44",
   "https://cybersecuritynews.com/alert-overload-tool-sprawl-and-evasive-phishing-the-5-bottlenecks-slowing-down-us-socs",
-  "slug_overload_tool_sprawl_evasive_phishing_5"
+  "slug_overload_tool_sprawl_evasive_phishing_5",
+  "39f490a9561dabbd8fe35b167ed728435fb6509d6e3ca9294bf0f7d05c76da58",
+  "https://thehackernews.com/2026/10/eight-malicious-npm-packages-downloaded.html",
+  "slug_eight_malicious_npm_packages_downloaded_40767",
+  "03e22b898c9379f9f37c5d1657449c6dfce9034568d9e1034593697345a779fa",
+  "https://www.bleepingcomputer.com/news/security/ransomware-recovery-ceo-charged-over-secret-ransom-payments",
+  "slug_ransomware_recovery_ceo_charged_over_secret",
+  "5fbc7292d5ad91b7cd1ef9b9d1386068e5d57aaa102dea90a6c6ba68debb91f9",
+  "https://cybersecuritynews.com/hackers-hijack-domain-registry",
+  "slug_hackers_hijack_gh_sl_registry_obtain"
 ]
