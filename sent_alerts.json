@@ -1,13 +1,4 @@
 [
-  "slug_public_exploits_released_four_linux_kernel",
-  "b369c3e1f7f0e5ca67f241fe311b2b363d4352c2af21f223917995e097d1a401",
-  "https://www.bleepingcomputer.com/news/security/secure-enterprise-sharing-with-access-reviews-for-microsoft-365",
-  "slug_secure_enterprise_sharing_access_reviews_microsoft",
-  "352b876f836adf694c1c887d6efefd8f3e077dfe09b5fab73e9a2561ec055731",
-  "https://cybersecuritynews.com/feral-wolf-ransomware",
-  "slug_feral_wolf_ransomware_attacks_exploit_atlassian",
-  "1963d1923e71383cfdc7ff37dd1f76ca0a56f0d28f67f1caa48dbd847001cd69",
-  "https://thehackernews.com/2026/09/claimed-bug-bounty-hunter-likely-used.html",
   "slug_claimed_bug_bounty_hunter_likely_used",
   "5697d4b4ea172b133cf55fccc1632594325f84e208a08ff9d866846a522c97cf",
   "https://www.bleepingcomputer.com/news/security/microsoft-teams-will-let-admins-block-custom-file-extensions",
@@ -998,5 +989,14 @@
   "slug_fbi_ongoing_fortibleed_attacks_lock_out",
   "7e53cb174fc6afea24fc8bbabacf94e73900cd410fcc70f7662f6e3eea5b506d",
   "https://www.securityweek.com/georgia-power-alabama-power-data-breach-hits-400000-accounts",
-  "slug_georgia_power_alabama_power_data_breach"
+  "slug_georgia_power_alabama_power_data_breach",
+  "0a0a43d53f75003578ecb780aebe5ef6562c36d71a430df8f9f54b886f5bfbc5",
+  "https://thehackernews.com/2026/10/16-malicious-firefox-extensions-pose-as.html",
+  "slug_16_malicious_firefox_extensions_pose_rabby",
+  "bd1cb388c205221de3a624062f9f259ab176e32eb3e0285ab6a492ea2081df15",
+  "https://www.bleepingcomputer.com/news/security/samsung-galaxy-s26-hacked-three-more-times-at-pwn2own-ireland",
+  "slug_samsung_galaxy_s26_hacked_three_more",
+  "219180b3a2de8c97195f8eb37abcb734d717bf8cceb71a607a904c0bf01d2726",
+  "https://cybersecuritynews.com/wolfssh-1-6-0-fixes-5-security-flaws",
+  "slug_wolfssh_160_fixes_5_security_including"
 ]
