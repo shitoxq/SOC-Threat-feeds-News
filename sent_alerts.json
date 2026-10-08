@@ -1,13 +1,4 @@
 [
-  "slug_claimed_bug_bounty_hunter_likely_used",
-  "5697d4b4ea172b133cf55fccc1632594325f84e208a08ff9d866846a522c97cf",
-  "https://www.bleepingcomputer.com/news/security/microsoft-teams-will-let-admins-block-custom-file-extensions",
-  "slug_microsoft_teams_will_let_admins_block",
-  "dcd058df63e311915e27ef579d4700b5bff0defbd6882d72b92138b6d1b5b850",
-  "https://cybersecuritynews.com/new-settra-ransomware",
-  "slug_new_settra_ransomware_uses_meshagent_rmm",
-  "de830d54b24be68133c0de06def8785092d55e368019e3fcb39731b3f56c0cff",
-  "https://www.bleepingcomputer.com/news/security/microsoft-fixes-bug-behind-defender-antivirus-is-turned-off-alerts",
   "slug_microsoft_fixes_bug_behind_defender_antivirus",
   "25a05be0a8f9c9f66ffa32908a63a92be34b6ffdb31a131643790e6915b11b15",
   "https://cybersecuritynews.com/bragjack-ai-agent-hijacking",
@@ -998,5 +989,14 @@
   "slug_samsung_galaxy_s26_hacked_three_more",
   "219180b3a2de8c97195f8eb37abcb734d717bf8cceb71a607a904c0bf01d2726",
   "https://cybersecuritynews.com/wolfssh-1-6-0-fixes-5-security-flaws",
-  "slug_wolfssh_160_fixes_5_security_including"
+  "slug_wolfssh_160_fixes_5_security_including",
+  "7624a715a1f8ab1f679ab534ee1d3326cec19b1cedf02ada2efab15ed2945001",
+  "https://thehackernews.com/2026/10/uac-0099-targets-ukrainian-government.html",
+  "slug_uac0099_targets_ukrainian_government_personnel_ashvein",
+  "8c1bbb95dd2b10b989b9e3155f772b96dd18266f42574a24e6007999ce6bea27",
+  "https://www.bleepingcomputer.com/news/security/fakegit-malware-campaign-returns-with-17-610-malicious-github-repos",
+  "slug_fakegit_malware_campaign_returns_17610_malicious",
+  "45ab108680b7232d1413445ee720002862470c6d37b3590630f3da252f050e34",
+  "https://www.securityweek.com/cisco-patches-a-dozen-critical-vulnerabilities",
+  "slug_cisco_patches_dozen_critical_vulnerabilities"
 ]
