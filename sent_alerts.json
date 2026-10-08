@@ -1,13 +1,4 @@
 [
-  "slug_microsoft_fixes_bug_behind_defender_antivirus",
-  "25a05be0a8f9c9f66ffa32908a63a92be34b6ffdb31a131643790e6915b11b15",
-  "https://cybersecuritynews.com/bragjack-ai-agent-hijacking",
-  "slug_bragjack_attack_lets_malicious_extensions_hijack",
-  "d1c97c9c317566bdc5aebd2e858fbf2a8167795fc543f2bde94d6213b3e33cd6",
-  "https://www.securityweek.com/23-million-user-records-compromised-in-gyazo-data-breach",
-  "slug_23_million_user_records_compromised_gyazo",
-  "c8cb9ca3b0db57d241ce2a34df40a81ddd7981ee0b088a26ce35816eec74f0af",
-  "https://thehackernews.com/2026/09/critical-pre-auth-rce-in-orkes.html",
   "slug_critical_preauth_rce_orkes_conductor_workflow",
   "CVE_CVE-2026-58138",
   "30d68e4eb1613f0853c0dacd20af31fd3611bc7212a0bc82eabf5417a9a0ea16",
@@ -998,5 +989,14 @@
   "slug_fakegit_malware_campaign_returns_17610_malicious",
   "45ab108680b7232d1413445ee720002862470c6d37b3590630f3da252f050e34",
   "https://www.securityweek.com/cisco-patches-a-dozen-critical-vulnerabilities",
-  "slug_cisco_patches_dozen_critical_vulnerabilities"
+  "slug_cisco_patches_dozen_critical_vulnerabilities",
+  "92f3696e16484178f00f49df4a6c67df3b79068c38e1683f7bb4b6d77724a4fe",
+  "https://thehackernews.com/2026/10/fbi-says-china-linked-hackers-ran.html",
+  "slug_fbi_says_chinalinked_hackers_ran_portal",
+  "05bcef4e5eefe03b0090a51c98a21966618d411443890bb6f1d68b214fa19585",
+  "https://www.bleepingcomputer.com/news/security/ransomware-attack-disrupts-japans-idcf-cloud-used-by-govt-clients",
+  "slug_ransomware_attack_disrupts_japanx27s_idcf_cloud",
+  "8c2789085563f08225d9ca4867d9353b1d18461bf55a64a9bfe62bcb04ab8f77",
+  "https://cybersecuritynews.com/tensorlake-npm-package",
+  "slug_tensorlake_npm_package_compromised_spread_shaihulud"
 ]
