@@ -1,13 +1,4 @@
 [
-  "119203d8f3dba0d3f0ff000cee07619f3c8c14bd5c412cf6ee414eb0cfaa5449",
-  "https://www.bleepingcomputer.com/news/security/fake-lastpass-authenticator-github-repos-push-new-rapuncel-infostealer",
-  "slug_fake_lastpass_authenticator_github_repos_push",
-  "6fcfa656542fbbee1f48a99da82a247fac607981611d957c2c2f5562be9d2b49",
-  "https://cybersecuritynews.com/microsoft-azure-ai-foundry-vulnerability",
-  "slug_critical_microsoft_azure_ai_foundry_vulnerability",
-  "CVE_CVE-2026-85889",
-  "23227162b6f68818e2591d62a82d8e818d0f1653482ccf496e70236a5f847126",
-  "https://thehackernews.com/2026/09/public-exploits-released-for-four-linux.html",
   "slug_public_exploits_released_four_linux_kernel",
   "b369c3e1f7f0e5ca67f241fe311b2b363d4352c2af21f223917995e097d1a401",
   "https://www.bleepingcomputer.com/news/security/secure-enterprise-sharing-with-access-reviews-for-microsoft-365",
@@ -998,5 +989,14 @@
   "slug_ransomware_recovery_ceo_charged_over_secret",
   "5fbc7292d5ad91b7cd1ef9b9d1386068e5d57aaa102dea90a6c6ba68debb91f9",
   "https://cybersecuritynews.com/hackers-hijack-domain-registry",
-  "slug_hackers_hijack_gh_sl_registry_obtain"
+  "slug_hackers_hijack_gh_sl_registry_obtain",
+  "6e23ba3132bb40b870711fe7b5b9d392ec69173b65473c3a0ed6d92ab6992ece",
+  "https://thehackernews.com/2026/10/sonicwall-patches-cvss-100-pre.html",
+  "slug_sonicwall_patches_cvss_100_preauthentication_ssrf",
+  "1bf1451c82ff048b5b27b994d0ff3adbd7d26cfd29177e750a20000e6ae38a21",
+  "https://www.bleepingcomputer.com/news/security/fbi-ongoing-fortibleed-attacks-lock-out-fortigate-vpn-admins",
+  "slug_fbi_ongoing_fortibleed_attacks_lock_out",
+  "7e53cb174fc6afea24fc8bbabacf94e73900cd410fcc70f7662f6e3eea5b506d",
+  "https://www.securityweek.com/georgia-power-alabama-power-data-breach-hits-400000-accounts",
+  "slug_georgia_power_alabama_power_data_breach"
 ]
