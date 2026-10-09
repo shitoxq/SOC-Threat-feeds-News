@@ -1,13 +1,4 @@
 [
-  "slug_solarwinds_patches_arm_hardcoded_key_enabling",
-  "CVE_CVE-2026-28326",
-  "ccf96f83f1b21f1636e8d6dec879dd37de93be34773d51c6561bc2b8af80a82c",
-  "https://cybersecuritynews.com/tanstack-supply-chain-attack",
-  "slug_tanstack_supply_chain_attack_lets_hackers",
-  "f48af9c3b8a8a97f33e17e2ab7042cdc42d2fe0ec95ba2c5c2afc9eedf60e868",
-  "https://www.securityweek.com/microsoft-patches-18-vulnerabilities-in-ai-cloud-products",
-  "slug_microsoft_patches_18_vulnerabilities_ai_cloud",
-  "830c117275ef8fb3a00ef0cc25272743d6fad3d6477d3f5f15acf01b699e3de8",
   "https://thehackernews.com/2026/09/identity-visibility-in-2026-foundation.html",
   "slug_identity_visibility_2026_foundation_identity_security",
   "cc5d6512f04ba8d7a9b54fdd9305ea396b602fa5e7864b92545b351dc89b8903",
@@ -998,5 +989,14 @@
   "91815192666016fbf0457d9c79b5e37428cff250d7263d5446cdd0a2880a7d44",
   "https://cybersecuritynews.com/citrix-netscaler-adc-and-gateway-rce",
   "slug_citrix_urges_netscaler_adc_gateway_customers",
-  "CVE_CVE-2026-107406"
+  "CVE_CVE-2026-107406",
+  "50bd0eed89791785b860b12122c7d987b89014d2d16b8b44a0a1e7025805b9e4",
+  "https://thehackernews.com/2026/10/artex-ai-pentesting-tool-used-in-data.html",
+  "slug_artex_ai_pentesting_tool_used_data",
+  "6ed2fa4a1567288428eddabc6dfcc14df1184366381a7d1de05eb6cbdd9d58dc",
+  "https://www.bleepingcomputer.com/news/security/citrix-warns-admins-to-patch-new-netscaler-rce-flaw-immediately",
+  "slug_citrix_warns_admins_patch_new_netscaler",
+  "85ac840b402d11a8f37c97c9f39401b1b16bf77df98c55d88291e8f906290f4b",
+  "https://cybersecuritynews.com/anthropic-oss-scanner",
+  "slug_new_anthropic_oss_scanner_tool_scan"
 ]
