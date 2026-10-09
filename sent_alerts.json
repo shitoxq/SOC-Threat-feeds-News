@@ -1,14 +1,4 @@
 [
-  "slug_critical_preauth_rce_orkes_conductor_workflow",
-  "CVE_CVE-2026-58138",
-  "30d68e4eb1613f0853c0dacd20af31fd3611bc7212a0bc82eabf5417a9a0ea16",
-  "https://www.bleepingcomputer.com/news/security/check-point-warns-critical-flaw-lets-hackers-execute-code-as-root",
-  "slug_new_check_point_lets_hackers_execute",
-  "8d52b0aedd235d577f5766e63473f9030d196db204be1fc48b8e1547e9131b4f",
-  "https://cybersecuritynews.com/click2shell-wordpress-vulnerability",
-  "slug_click2shell_wordpress_lets_attackers_gain_rce",
-  "531e97a39e7b550ac33407aca33814f5c1c95d286679ee3e9b63f936a746a9fe",
-  "https://thehackernews.com/2026/09/solarwinds-patches-arm-hard-coded-key.html",
   "slug_solarwinds_patches_arm_hardcoded_key_enabling",
   "CVE_CVE-2026-28326",
   "ccf96f83f1b21f1636e8d6dec879dd37de93be34773d51c6561bc2b8af80a82c",
@@ -998,5 +988,15 @@
   "slug_ransomware_attack_disrupts_japanx27s_idcf_cloud",
   "8c2789085563f08225d9ca4867d9353b1d18461bf55a64a9bfe62bcb04ab8f77",
   "https://cybersecuritynews.com/tensorlake-npm-package",
-  "slug_tensorlake_npm_package_compromised_spread_shaihulud"
+  "slug_tensorlake_npm_package_compromised_spread_shaihulud",
+  "d4fcba26f34220f81c4eb6bb2e7467aafc06b0a40260e6384e42d98fbd44c1bc",
+  "https://thehackernews.com/2026/10/threatsday-ransomware-affiliate.html",
+  "slug_threatsday_ransomware_affiliate_betrayal_whatsapp_rat",
+  "78e7c2a535ea391eca331cf62ea01e3d683f46669abb9d9adbee5c835b70f3af",
+  "https://www.bleepingcomputer.com/news/security/low-cost-android-phones-ship-with-residential-proxy-malware",
+  "slug_lowcost_android_phones_ship_residential_proxy",
+  "91815192666016fbf0457d9c79b5e37428cff250d7263d5446cdd0a2880a7d44",
+  "https://cybersecuritynews.com/citrix-netscaler-adc-and-gateway-rce",
+  "slug_citrix_urges_netscaler_adc_gateway_customers",
+  "CVE_CVE-2026-107406"
 ]
