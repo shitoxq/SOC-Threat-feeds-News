@@ -1,13 +1,4 @@
 [
-  "https://thehackernews.com/2026/09/google-gemini-broke-into-real-company.html",
-  "slug_google_gemini_broke_into_real_company",
-  "c549523ff50a2042a3d5574b09576fdc62a4ea5484b07b1b92306be06624bb42",
-  "https://www.bleepingcomputer.com/news/security/north-korean-waterplum-hackers-infected-30-000-devices-worldwide",
-  "slug_north_korean_waterplum_hackers_infected_30000",
-  "0c293eaf706a9d304c1ec57f022d6202bade78421ff0cc5d332f9c90d52d0d24",
-  "https://cybersecuritynews.com/linux-kernel-vulnerabilities-actively-exploited",
-  "slug_cisa_warns_linux_kernel_vulnerabilities_actively",
-  "CVE_CVE-2025-39682",
   "CVE_CVE-2026-53266",
   "CVE_CVE-2025-39964",
   "47bdb82a4099c8a13414e0e4332d7173637768086f2d58c187dad0daefa0ec0b",
@@ -998,5 +989,14 @@
   "slug_germany_arrests_alleged_core_qilin_ransomware",
   "f9bf89a754eb50a1103051850c6a90c66ac438bb1535737a426124e6650b3a87",
   "https://cybersecuritynews.com/castlestealer-malware",
-  "slug_castlestealer_malware_uses_browser_protection_bypass"
+  "slug_castlestealer_malware_uses_browser_protection_bypass",
+  "bf89595af7c39e7a025ec626eeeb09ce33b8e83a8d0e785473c5926e951fd3f1",
+  "https://thehackernews.com/2026/10/credential-stealing-github-actions.html",
+  "slug_credentialstealing_github_actions_workflows_planted_tens",
+  "c82eac134cb7c0f5d597b5df8cd175a88cb42d4510df6734ae0afc2fca447905",
+  "https://www.bleepingcomputer.com/news/security/hackers-abuse-google-ads-bing-redirects-to-push-claude-clickfix-attacks",
+  "slug_hackers_abuse_google_ads_bing_redirects",
+  "20e75d475cbf9ac1bc55efc4b72ec0ae61fc48098f9cf92c87940c531664ade5",
+  "https://www.securityweek.com/in-other-news-ai-used-in-korean-bank-breaches-poem-guided-botnet-empire-admin-gets-40-years",
+  "slug_other_news_ai_used_korean_bank"
 ]
