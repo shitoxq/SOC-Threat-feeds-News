@@ -1,13 +1,4 @@
 [
-  "CVE_CVE-2026-53266",
-  "CVE_CVE-2025-39964",
-  "47bdb82a4099c8a13414e0e4332d7173637768086f2d58c187dad0daefa0ec0b",
-  "https://thehackernews.com/2026/09/crowdsec-says-tanstack-npm-attack-led.html",
-  "slug_crowdsec_says_tanstack_npm_attack_led",
-  "9112ec33d6152498bf06c3aeeee6dfe0175431965548b3435ce10b471f77543a",
-  "https://www.bleepingcomputer.com/news/security/shinyhunters-hacks-clop-leak-site-threatens-to-extort-ransomware-gang",
-  "slug_shinyhunters_hacks_clop_leak_site_threatens",
-  "34f78417b6de57905508e1ecb72ed9d33437fc1c4ee50b8cc00876347615fe2a",
   "https://www.securityweek.com/brevo-supply-chain-attack-injects-malware-into-100000-websites",
   "slug_brevo_supply_chain_attack_injects_malware",
   "b22814fcb0fc7eec80e3b3970d2786bc181cdce6a929fb5d890c8de993cc29fb",
@@ -998,5 +989,14 @@
   "slug_hackers_abuse_google_ads_bing_redirects",
   "20e75d475cbf9ac1bc55efc4b72ec0ae61fc48098f9cf92c87940c531664ade5",
   "https://www.securityweek.com/in-other-news-ai-used-in-korean-bank-breaches-poem-guided-botnet-empire-admin-gets-40-years",
-  "slug_other_news_ai_used_korean_bank"
+  "slug_other_news_ai_used_korean_bank",
+  "2d8b2a661271f3ed2fea9ffea1009da3eb0d31cfcb71f22ceaa1c55663a4c0fb",
+  "https://thehackernews.com/2026/10/p7-darksword-ios-exploit-kit-adds.html",
+  "slug_p7_darksword_ios_exploit_kit_adds",
+  "6357cd14602a52ca9762e16100a4a3465b29db658ca32242bde61e3fd0eda9c1",
+  "https://www.bleepingcomputer.com/news/security/unpatched-ahsaycbs-flaws-exploited-to-deploy-webshells-mine-crypto",
+  "slug_unpatched_ahsaycbs_exploited_deploy_webshells_mine",
+  "45742b217c29393143479229395b5e15f96551bd2365436da001338aa3b725c8",
+  "https://www.securityweek.com/google-domains-impacted-by-recent-cctld-domain-hijacks",
+  "slug_google_domains_impacted_recent_cctld_hijacks"
 ]
