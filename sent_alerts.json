@@ -1,13 +1,4 @@
 [
-  "https://www.securityweek.com/brevo-supply-chain-attack-injects-malware-into-100000-websites",
-  "slug_brevo_supply_chain_attack_injects_malware",
-  "b22814fcb0fc7eec80e3b3970d2786bc181cdce6a929fb5d890c8de993cc29fb",
-  "https://cybersecuritynews.com/google-gemini-ai-hacked-3-real-companies",
-  "slug_google_gemini_ai_hacked_3_real",
-  "0de6e8ffad49ea45dcf9d70a9fef575e283d806bcaeeb7579bf95368d9bb66a8",
-  "https://www.vulncheck.com/blog/zbt-endlessdoors",
-  "slug_endlessdoors_phoning_home_pick_uptwenty_router",
-  "717e17a7378ca494c6d8643f5a0ac65e48da6580197c7fe799dce68321042a56",
   "https://gbhackers.com/north-korean-waterplum-hackers-target-it-professionals",
   "slug_north_korean_waterplum_hackers_target_it",
   "1eb7892752fbb3017096d90ce76f720cc285d3b8edb6570a7c9a54243005190b",
@@ -998,5 +989,14 @@
   "slug_unpatched_ahsaycbs_exploited_deploy_webshells_mine",
   "45742b217c29393143479229395b5e15f96551bd2365436da001338aa3b725c8",
   "https://www.securityweek.com/google-domains-impacted-by-recent-cctld-domain-hijacks",
-  "slug_google_domains_impacted_recent_cctld_hijacks"
+  "slug_google_domains_impacted_recent_cctld_hijacks",
+  "6df49761e69e4df829e7a2a170a85ff037fae5eb237d8351f6acebf8e004448f",
+  "https://thehackernews.com/2026/10/anthropic-launches-free-ai.html",
+  "slug_anthropic_launches_free_ai_vulnerability_scanner",
+  "8fdae48b6e18987622df20c4da4f7133a1c08ad31ed5ba3039520f7817ed4bb1",
+  "https://www.bleepingcomputer.com/news/security/how-to-keep-ai-agents-within-their-permissions",
+  "slug_how_keep_ai_agents_within_their",
+  "3d4c29ac23f8b637e048a6701a87f8b434ffba75da7f6d55543913127cff00e9",
+  "https://cybersecuritynews.com/teams-qr-code-protection",
+  "slug_microsoft_teams_warn_users_about_malicious"
 ]
