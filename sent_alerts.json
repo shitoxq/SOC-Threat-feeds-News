@@ -1,15 +1,4 @@
 [
-  "slug_text_template",
-  "36bcc9b9b8f63cb394f4853acf70fbc3bc6cb95af594796ab7d383c47400a643",
-  "https://cybersecuritynews.com/autonomous-ai-attacks-the-hugging-face-reality-check",
-  "slug_autonomous_ai_attacks_hugging_face_reality",
-  "cb62f7559c4f6ae9494e1cf1ef6167f30e7079f6f738aa3d9caf2f53c36b1820",
-  "https://www.vulncheck.com/blog/state-of-exploitation-1h-2026",
-  "slug_vulncheck_state_exploitation_1h2026key_trends_findings",
-  "c80ee4ab14062b83c78cd81538609241aadbaf91242bfe4a597cc09b517c77a1",
-  "https://gbhackers.com/ai-powered-rathat-android-trojan-steals-bank-credentials",
-  "slug_aipowered_rathat_android_trojan_steals_bank",
-  "af7a0c4b82883166d74bfd2932ba87c8b80aff91acb2ce8462286c38172df275",
   "https://cybersecuritynews.com/when-ransomware-targets-ai-models-defending-the-ai-ml-recovery-chain",
   "slug_when_ransomware_targets_ai_models_defending",
   "081f991a134abbe52bc59369ba427be63d27024dcb731b2756ec578cd3233abf",
@@ -998,5 +987,16 @@
   "CVE_CVE-2026-102255",
   "b45c4e673c3e586bc28bbecca3af0f675ad8c4b2621099876e11de86d81aee95",
   "https://cybersecuritynews.com/reverse-engineer-anything-tool",
-  "slug_rea_tool_connects_claude_code_cursor"
+  "slug_rea_tool_connects_claude_code_cursor",
+  "4e445b9b86a95c554a59927ffc6bb815ba719385ae7ee03eb5998fbfa39dc231",
+  "https://cybersecuritynews.com/agentcorruption-attack",
+  "slug_one_prompt_could_hijack_aws_ai",
+  "ed4cafcf9d3e69b08a192b21becd3cfdc7bc64b57ea40eab7e0d284b883c33ef",
+  "https://www.securityweek.com/unpatched-ahsaycbs-vulnerabilities-exploited-in-the-wild",
+  "slug_unpatched_ahsaycbs_vulnerabilities_exploited_wild",
+  "CVE_CVE-2026-105133",
+  "CVE_CVE-2026-105134",
+  "0de6e8ffad49ea45dcf9d70a9fef575e283d806bcaeeb7579bf95368d9bb66a8",
+  "https://www.vulncheck.com/blog/zbt-endlessdoors",
+  "slug_endlessdoors_phoning_home_pick_uptwenty_router"
 ]
