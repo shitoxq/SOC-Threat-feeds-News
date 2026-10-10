@@ -1,14 +1,4 @@
 [
-  "https://gbhackers.com/north-korean-waterplum-hackers-target-it-professionals",
-  "slug_north_korean_waterplum_hackers_target_it",
-  "1eb7892752fbb3017096d90ce76f720cc285d3b8edb6570a7c9a54243005190b",
-  "https://www.vulncheck.com/blog/aimy-captcha-less-form-guard-object-injection",
-  "slug_aimy_captchaless_form_guard_antibot_plugin",
-  "71b0735f414c20b9ab6117c09adef6b2454f89e0bb5f3f3f91ee74dc59c97d8e",
-  "https://www.helpnetsecurity.com/2026/09/18/social-media-bot-detection-study",
-  "slug_bots_good_manners_better_fooling_people",
-  "ccc11eebb8ec70bcfacc68562e56ccda4476a20c51fd65ab9cfc19809a7a8e69",
-  "https://ipurple.team/2026/08/24/text-template",
   "slug_text_template",
   "36bcc9b9b8f63cb394f4853acf70fbc3bc6cb95af594796ab7d383c47400a643",
   "https://cybersecuritynews.com/autonomous-ai-attacks-the-hugging-face-reality-check",
@@ -998,5 +988,15 @@
   "slug_how_keep_ai_agents_within_their",
   "3d4c29ac23f8b637e048a6701a87f8b434ffba75da7f6d55543913127cff00e9",
   "https://cybersecuritynews.com/teams-qr-code-protection",
-  "slug_microsoft_teams_warn_users_about_malicious"
+  "slug_microsoft_teams_warn_users_about_malicious",
+  "efd24bc6b14734d03e9ac7193fb1550b449dbf32ccc4fbc2a9aae45e0118f9bb",
+  "https://thehackernews.com/2026/10/anthropic-cuts-live-internet-access-for.html",
+  "slug_anthropic_cuts_live_internet_access_internal",
+  "392ae3e42bab5205fe60f560f95ebe695f8d4bde884887960ab9d59cab33cb14",
+  "https://www.bleepingcomputer.com/news/security/max-severity-sonicwall-sma1000-flaw-now-exploited-in-attacks",
+  "slug_max_severity_sonicwall_sma1000_now_exploited",
+  "CVE_CVE-2026-102255",
+  "b45c4e673c3e586bc28bbecca3af0f675ad8c4b2621099876e11de86d81aee95",
+  "https://cybersecuritynews.com/reverse-engineer-anything-tool",
+  "slug_rea_tool_connects_claude_code_cursor"
 ]
