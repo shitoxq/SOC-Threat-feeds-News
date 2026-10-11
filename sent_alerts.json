@@ -1,13 +1,4 @@
 [
-  "https://www.vulncheck.com/blog/copy-fails-descendants-recent-linux-lpes",
-  "slug_copy_fail_its_descendants_real_humanx27s",
-  "93210821e063638b7b09d7911779d17a9de7b30397f7787ae272548aa7f1b3ad",
-  "https://gbhackers.com/genielocker-ransomware",
-  "slug_feral_wolf_hackers_exploit_confluence_1c",
-  "38a56bf5f560f2eeed205e9974ee195abca6252e2dd0deec6f93de4404e7b512",
-  "https://www.helpnetsecurity.com/2026/09/18/arcjet-agent-runtime-security",
-  "slug_arcjet_brings_security_controls_audit_trails",
-  "ef82d9f6c0879c3dcdc5139d077f28e800d4bd80b0f77886f83cbfcd9574062c",
   "https://www.vulncheck.com/blog/anthropic-ledger",
   "slug_observations_anthropics_vulnerability_disclosure_ledgerpublic_cve",
   "55cfb0c9e3f0b0634430262972ed3a3e3cd7747b7b381f2d62dcc8a76b07665a",
@@ -998,5 +989,14 @@
   "ac5618404f49a04c44fa8bcd2f2922526ae90dc3b2d03e82ae02e77327c2fdd5",
   "https://www.helpnetsecurity.com/2026/10/09/nvidia-dcgm-exporter-vulnerability-cve-2026-47483",
   "slug_highseverity_nvidia_vulnerability_lets_unauthenticated_attackers",
-  "CVE_CVE-2026-47483"
+  "CVE_CVE-2026-47483",
+  "da6a6aee817912704e114f1fe3180ca2780138d792350e8422282bf81be84c76",
+  "https://www.vulncheck.com/blog/nvidia-gen3c-unauth-pickle-rce",
+  "slug_nvidia_gen3c_unauthenticated_rce_via_pickle",
+  "ebded08b2219cb4b1cda6036ef17fb2aa83077e91a2d7bb7164f2ad6456ffb70",
+  "https://www.helpnetsecurity.com/2026/10/09/anthropic-oss-scanner-ai-security-scans",
+  "slug_anthropic_offers_free_ai_security_scans",
+  "ccc11eebb8ec70bcfacc68562e56ccda4476a20c51fd65ab9cfc19809a7a8e69",
+  "https://ipurple.team/2026/08/24/text-template",
+  "slug_text_template"
 ]
