@@ -1,13 +1,4 @@
 [
-  "slug_powershell_malware_abuses_registry_dns_txt",
-  "401fcab5596dc0a6a0b0a2dd48b04436912c5b28140dee1c97b174c7728d85a8",
-  "https://www.bleepingcomputer.com/news/security/malicious-npm-packages-evade-install-script-defenses-at-runtime",
-  "slug_malicious_npm_packages_evade_installscript_defenses",
-  "da6a6aee817912704e114f1fe3180ca2780138d792350e8422282bf81be84c76",
-  "https://www.vulncheck.com/blog/nvidia-gen3c-unauth-pickle-rce",
-  "slug_nvidia_gen3c_unauthenticated_rce_via_pickle",
-  "af3e849df1bce2364d09243da62b05abc90a84f258430116f70cf88eda5b87f5",
-  "https://gbhackers.com/casino-domains-hide-c2-traffic",
   "slug_peckbirdy_c2_traffic_seen_across_enterprise",
   "9636c568e50e698a97bc03a5b02984a27b84edccc0a7f033daefebc51cb31b5c",
   "https://www.vulncheck.com/blog/fossbilling-auth-bypass-ssti-rce",
@@ -998,5 +989,14 @@
   "slug_prebaked_firmware_malware_hits_budget_android",
   "1eb7892752fbb3017096d90ce76f720cc285d3b8edb6570a7c9a54243005190b",
   "https://www.vulncheck.com/blog/aimy-captcha-less-form-guard-object-injection",
-  "slug_aimy_captchaless_form_guard_antibot_plugin"
+  "slug_aimy_captchaless_form_guard_antibot_plugin",
+  "509051bad08c466b929d785a3db7af42bfdcc47ad866880400333a2b4ce6789f",
+  "https://cybersecuritynews.com/anydesk-linux-vulnerability",
+  "slug_anydesk_linux_lets_remote_attackers_execute",
+  "ba4ed3b0311d755b4af4f883548a1df55b47da9f8a00e64f3745336dcf04a414",
+  "https://www.securityweek.com/us-disrupts-chinese-state-sponsored-hacking-tools",
+  "slug_us_disrupts_chinese_statesponsored_hacking_tools",
+  "cb62f7559c4f6ae9494e1cf1ef6167f30e7079f6f738aa3d9caf2f53c36b1820",
+  "https://www.vulncheck.com/blog/state-of-exploitation-1h-2026",
+  "slug_vulncheck_state_exploitation_1h2026key_trends_findings"
 ]
