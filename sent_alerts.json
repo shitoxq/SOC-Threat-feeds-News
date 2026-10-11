@@ -1,13 +1,4 @@
 [
-  "slug_quantifying_2026_routinely_targeted_vulnerabilities_so",
-  "1a65a08ccfd3ecf602e71f64cd61b00fa0eb082a72c322a1c6a40b30abfda3e2",
-  "https://www.helpnetsecurity.com/2026/09/18/hypr-hiring-fraud-detection-report",
-  "slug_98_fraudulent_hires_have_company_credentials",
-  "30c32e408bf70bc21f42c4302706cea081d8b6d13841cf8f75ab79766499b591",
-  "https://ipurple.team/2026/08/04/provisioning-packages",
-  "slug_provisioning_packages",
-  "5b0b7c536c0e3c52f67d938bfbaa666a13a47e56ce84b270f903ee343a85d38b",
-  "https://cybersecuritynews.com/weekly-cybersecurity-newsletter-sept-21",
   "slug_weekly_cybersecurity_newsletter_bulletin_cisco_android",
   "d667e6f88587edd93237cf18ebf745b845a28118ae27fc302be81812257653be",
   "https://www.vulncheck.com/blog/cve-2017-9841",
@@ -998,5 +989,14 @@
   "9636c568e50e698a97bc03a5b02984a27b84edccc0a7f033daefebc51cb31b5c",
   "https://www.vulncheck.com/blog/fossbilling-auth-bypass-ssti-rce",
   "slug_cve202628496_fossbilling_auth_bypass_twig_ssti",
-  "CVE_CVE-2026-28496"
+  "CVE_CVE-2026-28496",
+  "951314c27b65e520fe8f034e40358d0a416fa69912cf1f408600de654921f2ad",
+  "https://www.vulncheck.com/blog/copy-fails-descendants-recent-linux-lpes",
+  "slug_copy_fail_its_descendants_real_humanx27s",
+  "821b8662bae0971bb2aa0d9b0301507496de8a96eeda08c8b0d65fbbf411360c",
+  "https://www.helpnetsecurity.com/2026/10/09/fbi-flax-typhoon-microscan-fishhub-domains",
+  "slug_fbi_disrupts_flax_typhoon_hacking_tools",
+  "25722a03df89a0848c034e06ffa87304c86980dd79c4a1edc4674903ba75c3da",
+  "https://ipurple.team/2026/08/11/mandatory-user-profile",
+  "slug_mandatory_user_profile"
 ]
