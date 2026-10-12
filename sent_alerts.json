@@ -1,13 +1,4 @@
 [
-  "slug_weekly_recap_cisco_0day_ai_agent",
-  "c7ddcbf006edb04f8b6f5b0feccf47992194ba373247f12f8fe25d7abcd3e9f2",
-  "https://www.bleepingcomputer.com/news/security/google-fined-403-million-over-location-data-privacy-violations",
-  "slug_google_fined_403_million_over_location",
-  "cfc6d5ee327768fbb190068edb088fcfbd61b2cbf9564d738e7557077ae11ccb",
-  "https://www.securityweek.com/fake-lastpass-installers-push-kernel-level-edr-killer-rapuncel-stealer",
-  "slug_fake_lastpass_installers_push_kernellevel_edr",
-  "f2aa6f9693d4bf840038ffaf83992ca8accac35557fd46618b02a59c5bb9538f",
-  "https://thehackernews.com/2026/09/fake-lastpass-authenticator-installer.html",
   "slug_fake_lastpass_authenticator_installer_abuses_microsoftsigned",
   "3848bc7f1327d4267dc4464905f17a132abbeef3ac3d14fa51db4e8a373f3206",
   "https://www.bleepingcomputer.com/news/security/cisa-alerts-of-active-exploitation-of-three-linux-kernel-flaws",
@@ -998,5 +989,14 @@
   "7f9b71e2b36c64667fe97d75691d89b782ce5f7a515da8cf9256f271761f237d",
   "https://www.securityweek.com/bricksforge-wordpress-plugin-vulnerability-exploited-in-the-wild",
   "slug_bricksforge_wordpress_plugin_vulnerability_exploited_wild",
-  "CVE_CVE-2026-85097"
+  "CVE_CVE-2026-85097",
+  "7e4ca9da052231497996de39f1fdabe7d2c2d1df4c1b6cf47d04e771ffbf9177",
+  "https://thehackernews.com/2026/10/cyberxero-uses-claude-code-in-campaign.html",
+  "slug_cyberxero_uses_claude_code_campaign_that",
+  "24510e9c9f9260aa53595b66fb8d330baaeb9c5338bbe77d9d16f8db6abaa579",
+  "https://www.bleepingcomputer.com/news/security/norway-fines-microsoft-ad-firm-96-million-over-grindr-data-sharing",
+  "slug_norway_fines_microsoft_ad_firm_96",
+  "34ffc5ef9947bf1206adc3092de03c8222311fe73ba370acfae67965dfdee199",
+  "https://cybersecuritynews.com/critical-google-devsite-flaw",
+  "slug_google_devsite_let_attackers_execute_remote"
 ]
