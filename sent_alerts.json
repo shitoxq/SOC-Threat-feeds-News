@@ -1,14 +1,4 @@
 [
-  "https://thehackernews.com/2026/09/clickfix-lures-deploy-chainscript-rat.html",
-  "slug_clickfix_lures_deploy_chainscript_rat_using",
-  "35ce63a6e96d301344460ba7316ed7cf0f6625d9c73c225abd98f4d977061924",
-  "https://cybersecuritynews.com/hackers-hide-malware-servers",
-  "slug_hackers_hide_malware_servers_blockchain_steal",
-  "1cb8c9ba7f4fd160a109b929cece69b78249763d7a4a162cb9b1269fb8d13ef9",
-  "https://www.securityweek.com/organizations-warned-of-3-exploited-linux-kernel-vulnerabilities",
-  "slug_organizations_warned_3_exploited_linux_kernel",
-  "f81c96de5547c387ed8125a28581f44a90076f391b7fefd86cfc80296378a102",
-  "https://thehackernews.com/2026/09/weekly-recap-cisco-0-day-ai-agent-rce.html",
   "slug_weekly_recap_cisco_0day_ai_agent",
   "c7ddcbf006edb04f8b6f5b0feccf47992194ba373247f12f8fe25d7abcd3e9f2",
   "https://www.bleepingcomputer.com/news/security/google-fined-403-million-over-location-data-privacy-violations",
@@ -998,5 +988,15 @@
   "slug_observations_anthropics_vulnerability_disclosure_ledgerpublic_cve",
   "56e673b239c6908fb24012eb1edde38be6db5bf3078e20473d2325dd91173700",
   "https://gbhackers.com/ai-generated-event-lures",
-  "slug_hackers_use_aigenerated_event_lures_steal"
+  "slug_hackers_use_aigenerated_event_lures_steal",
+  "6297931f11be8be3b1576ac6ea66cef90802dddda730cb48ac08a94cbda4b3f8",
+  "https://thehackernews.com/2026/10/weekly-recap-helpdesk-0-days-rogue.html",
+  "slug_weekly_recap_helpdesk_0days_rogue_certs",
+  "926934a694d0abf2e1a33e58c8bcd2d804e915bb4db9ac08619a91394eb08ddf",
+  "https://www.bleepingcomputer.com/news/security/inside-avisloader-a-windows-malware-loader-built-to-resist-disruption",
+  "slug_inside_avisloader_windows_malware_loader_built",
+  "7f9b71e2b36c64667fe97d75691d89b782ce5f7a515da8cf9256f271761f237d",
+  "https://www.securityweek.com/bricksforge-wordpress-plugin-vulnerability-exploited-in-the-wild",
+  "slug_bricksforge_wordpress_plugin_vulnerability_exploited_wild",
+  "CVE_CVE-2026-85097"
 ]
