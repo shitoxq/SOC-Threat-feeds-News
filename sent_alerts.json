@@ -1,13 +1,4 @@
 [
-  "slug_weekly_cybersecurity_newsletter_bulletin_cisco_android",
-  "d667e6f88587edd93237cf18ebf745b845a28118ae27fc302be81812257653be",
-  "https://www.vulncheck.com/blog/cve-2017-9841",
-  "slug_9_yearold_php_vulnerability_keeps_swinging",
-  "CVE_CVE-2017-9841",
-  "b8bbbdc83212705c2fd8627f75a3416e951974ef8de8b466cc4ab374ca957f18",
-  "https://www.helpnetsecurity.com/2026/09/21/ai-compliance-issues-research",
-  "slug_ai_compliance_issues_hit_2_5",
-  "5b62ce8df6dfa4f31b546c84425f9bd0209fe33d94778b46d9f99000d2904ad9",
   "https://thehackernews.com/2026/09/clickfix-lures-deploy-chainscript-rat.html",
   "slug_clickfix_lures_deploy_chainscript_rat_using",
   "35ce63a6e96d301344460ba7316ed7cf0f6625d9c73c225abd98f4d977061924",
@@ -998,5 +989,14 @@
   "slug_fbi_disrupts_flax_typhoon_hacking_tools",
   "25722a03df89a0848c034e06ffa87304c86980dd79c4a1edc4674903ba75c3da",
   "https://ipurple.team/2026/08/11/mandatory-user-profile",
-  "slug_mandatory_user_profile"
+  "slug_mandatory_user_profile",
+  "ba6ce253b43ca689430a79d3dabc2af8e98ee9a42e6d17b0448419c6d8fb376e",
+  "https://cybersecuritynews.com/discourse-image-pipeline-exploit",
+  "slug_discourse_image_pipeline_exploit_chains_jpeg",
+  "ef82d9f6c0879c3dcdc5139d077f28e800d4bd80b0f77886f83cbfcd9574062c",
+  "https://www.vulncheck.com/blog/anthropic-ledger",
+  "slug_observations_anthropics_vulnerability_disclosure_ledgerpublic_cve",
+  "56e673b239c6908fb24012eb1edde38be6db5bf3078e20473d2325dd91173700",
+  "https://gbhackers.com/ai-generated-event-lures",
+  "slug_hackers_use_aigenerated_event_lures_steal"
 ]
