@@ -1,14 +1,4 @@
 [
-  "https://www.bleepingcomputer.com/news/security/wordpress-click2shell-flaw-lets-hackers-execute-php-on-the-server",
-  "slug_wordpress_click2shell_lets_hackers_execute_php",
-  "cf5f5478a2ce33792417c4b8f45e7e11b8cfc3a2a310f07e65e2d71bf6abdc4f",
-  "https://www.securityweek.com/google-hit-with-463-million-fine-for-eu-location-data-rule-breach",
-  "slug_google_hit_463_million_fine_eu",
-  "f549f03719ff52a60e2a739d43a4dce9c90558c60c1aa12a8924cbb015d20f53",
-  "https://thehackernews.com/2026/09/one-hidden-meta-muse-setting-could-let.html",
-  "slug_one_hidden_meta_muse_setting_could",
-  "1571fb4e9c91678912806a3c54b5ce0a7394a91dc7ab20d79d2a23468263ac7d",
-  "https://www.bleepingcomputer.com/news/microsoft/microsoft-to-retire-microsoft-365-companion-apps-in-december",
   "slug_microsoft_retire_microsoft_365_companion_apps",
   "e93e863384f738935d965fba90fd57f32fd7b23f8e0ac94609aef8d7dfba6e18",
   "https://www.securityweek.com/rathat-android-trojan-uses-ai-for-automation",
@@ -998,5 +988,15 @@
   "slug_top_10_best_mobile_application_security",
   "1f2590bc1e29ae0eaf5499c32c7a23ae6aa71f94a614c9c79006884f6fd0e8d9",
   "https://www.securityweek.com/ai-turns-familiar-cyberattacks-into-a-race-against-time",
-  "slug_ai_turns_familiar_cyberattacks_into_race"
+  "slug_ai_turns_familiar_cyberattacks_into_race",
+  "3d29c827bc05744dd0bcbb832c7261ff5d35ce963cfd73a3940868f1d32bc507",
+  "https://thehackernews.com/2026/10/github-tightens-npm-publishing-after.html",
+  "slug_github_tightens_npm_publishing_after_left",
+  "19dca54a76adbde053e8a87094705cfc7302078eedc695d641d72a32ed104bc7",
+  "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5127648-and-kb5126653-cumulative-updates-released",
+  "slug_windows_11_kb5127648_amp_kb5126653_cumulative",
+  "15eabb4936db4746ccb8b9a6157e677ab1ffcf0e634e76c77f695796064c1794",
+  "https://cybersecuritynews.com/fortisandbox-gui-vulnerability",
+  "slug_critical_fortisandbox_gui_vulnerability_allows_remote",
+  "CVE_CVE-2026-107656"
 ]
