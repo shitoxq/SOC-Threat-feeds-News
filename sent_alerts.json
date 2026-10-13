@@ -1,15 +1,4 @@
 [
-  "slug_fake_lastpass_authenticator_installer_abuses_microsoftsigned",
-  "3848bc7f1327d4267dc4464905f17a132abbeef3ac3d14fa51db4e8a373f3206",
-  "https://www.bleepingcomputer.com/news/security/cisa-alerts-of-active-exploitation-of-three-linux-kernel-flaws",
-  "slug_cisa_alerts_active_exploitation_three_linux",
-  "79b5ab842cf881c12b16d3bda8bb0fded4b233add68e93e291f5b533235d013d",
-  "https://cybersecuritynews.com/google-fined-e403-million",
-  "slug_google_fined_403_million_gdpr_violations",
-  "c533abc4730ac9558e06dea033f36be81b0a90c224d07f3426cbec08722969d1",
-  "https://thehackernews.com/2026/09/contagious-interview-campaign.html",
-  "slug_contagious_interview_campaign_compromises_30000_devices",
-  "47ac25acbe40e06a0aca60aa667bfcd4670a440119a1a3d5eebb3e90523ca2b8",
   "https://www.bleepingcomputer.com/news/security/bigcommerce-alerts-merchants-of-data-breach-linked-to-ribon-apps",
   "slug_bigcommerce_alerts_merchants_data_breach_linked",
   "c1cce31f5707ac4c92879507fc60825dbe5d020c1c01c9b9d9f295a66280ac40",
@@ -998,5 +987,16 @@
   "slug_norway_fines_microsoft_ad_firm_96",
   "34ffc5ef9947bf1206adc3092de03c8222311fe73ba370acfae67965dfdee199",
   "https://cybersecuritynews.com/critical-google-devsite-flaw",
-  "slug_google_devsite_let_attackers_execute_remote"
+  "slug_google_devsite_let_attackers_execute_remote",
+  "cbeefa878ff83c60ff0ae118380c1ca1e3883f2d1654b68e96c545e74bce8ae7",
+  "https://cybersecuritynews.com/lg-webos-flaws",
+  "slug_lg_webos_let_remote_attackers_execute",
+  "CVE_CVE-2023-6317",
+  "CVE_CVE-2023-6320",
+  "dd7cee5f6afa9ee1f6b7ab9a0e184665172c5c337cd64e70e078acfb283ed12c",
+  "https://www.securityweek.com/irhythm-data-breach-impacts-over-360000-people",
+  "slug_irhythm_data_breach_impacts_least_360000",
+  "782a519327351ce8026373bdccb4466355217a0874d40188db4941065e55ddca",
+  "https://www.vulncheck.com/blog/routinely-targeted-vulnerabilities-may-2026",
+  "slug_quantifying_2026_routinely_targeted_vulnerabilities_so"
 ]
