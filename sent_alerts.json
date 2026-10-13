@@ -1,13 +1,4 @@
 [
-  "slug_microsoft_retire_microsoft_365_companion_apps",
-  "e93e863384f738935d965fba90fd57f32fd7b23f8e0ac94609aef8d7dfba6e18",
-  "https://www.securityweek.com/rathat-android-trojan-uses-ai-for-automation",
-  "slug_rathat_android_trojan_uses_ai_automation",
-  "7a101672fcceea643a088456ace896f81df8d047068fe63124cfc43a58196c0f",
-  "https://thehackernews.com/2026/09/dora-year-two-can-your-soc-actually-see.html",
-  "slug_dora_year_two_can_your_soc",
-  "eb556aa662a9dc66459146568c40c6a7bce9ed8c6fe4263da46e5cac92a01766",
-  "https://www.bleepingcomputer.com/news/security/new-windows-defender-zero-day-blocks-microsoft-antivirus-updates",
   "slug_new_windows_defender_zeroday_blocks_microsoft",
   "68c3931e8d4a251a1353f21281ac32ea78de95a91e5ac96651e96fc597709caa",
   "https://www.securityweek.com/recent-zyxel-switch-vulnerability-exploited-by-chinese-hackers",
@@ -998,5 +989,14 @@
   "15eabb4936db4746ccb8b9a6157e677ab1ffcf0e634e76c77f695796064c1794",
   "https://cybersecuritynews.com/fortisandbox-gui-vulnerability",
   "slug_critical_fortisandbox_gui_vulnerability_allows_remote",
-  "CVE_CVE-2026-107656"
+  "CVE_CVE-2026-107656",
+  "eb29e636423df09f9deac81a51b4a506a229100489af4cc61b31c30336747ead",
+  "https://thehackernews.com/2026/10/anthropic-warns-small-ai-models-could.html",
+  "slug_anthropic_warns_small_ai_models_could",
+  "90c3851b2fc258bb13e03fe843012d0dfca27055d93691761fd2eb2a40e388a0",
+  "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-engineer-arrested-for-allegedly-planting-spy-device-in-office",
+  "slug_openai_engineer_arrested_allegedly_planting_spy",
+  "5f107bea1835867c9bab369bd3e1a00d6c153321d5046ef97357eb34d098019d",
+  "https://cybersecuritynews.com/microsoft-october-patch-tuesday-2026",
+  "slug_microsoft_fixes_1118_vulnerabilities_october_patch"
 ]
