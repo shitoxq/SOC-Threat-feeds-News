@@ -1,13 +1,4 @@
 [
-  "slug_chinese_hackers_exploit_wordpress_zyxel_steal",
-  "a4488d9503f1b5f60d1ce1b29f89f161bcbfd99f8ab91c6823c8c0dd8537e0cb",
-  "https://cybersecuritynews.com/aembit-launches-support-for-okta-cross-app-access-extending-enterprise-identity-controls-to-ai-agents",
-  "slug_aembit_launches_support_okta_cross_app",
-  "fa09678c05a66ffcc797baed32f5b7807b4faa02b8a9d8129a31acc3b3bb3795",
-  "https://thehackernews.com/2026/09/researcher-drops-bigdiskbuster-zero-day.html",
-  "slug_researcher_drops_bigdiskbuster_zeroday_poc_that",
-  "8089d29e8ae85f04fddc2169c6b5b1c233b832ccc2d0f390b0aa6c64d0b5e0a1",
-  "https://www.bleepingcomputer.com/news/security/new-closedquorum-windows-malware-uses-ai-for-attack-decisions",
   "slug_new_closedquorum_windows_malware_uses_ai",
   "cfb1ae851dd4b36eb1aa6bb13998cd65e9aa2b5b8d4eadcbc8dbe8e680f6aab4",
   "https://cybersecuritynews.com/scaling-soc-capabilities-how-threat-intelligence-cuts-triage-time-and-burnout",
@@ -998,5 +989,14 @@
   "slug_hirudo_android_malware_replaces_banking_apps",
   "c66d339c947fb5e3943472e9572dc809e5cd8ea2c0e6af14d29db599a470f483",
   "https://cybersecuritynews.com/virustotal-chatgpt-integration",
-  "slug_virustotal_integrates_threat_intelligence_chatgpt_malware"
+  "slug_virustotal_integrates_threat_intelligence_chatgpt_malware",
+  "6d011349c01c46dc04b8a0b81b3e1e8d62991f835d569a3a879e32821fe12c46",
+  "https://thehackernews.com/2026/10/us-shuts-down-over-40-laptop-farms.html",
+  "slug_us_shuts_down_over_40_laptop",
+  "b84c40d0c528ab6b72d268e85026a18f4fc3324f91d9f7124e36464cc6039a57",
+  "https://www.bleepingcomputer.com/news/security/cisco-patches-actively-exploited-secure-email-gateway-zero-day",
+  "slug_cisco_patches_new_secure_email_gateway",
+  "9fb38a0019d938ad5c3fa0fcff2c1258a5e686dde939e25efb22315b69fc9f06",
+  "https://www.securityweek.com/harmonic-security-raises-50-million-for-workforce-ai-protection",
+  "slug_harmonic_security_raises_50_million_workforce"
 ]
