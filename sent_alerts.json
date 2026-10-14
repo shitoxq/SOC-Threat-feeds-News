@@ -1,13 +1,4 @@
 [
-  "slug_new_closedquorum_windows_malware_uses_ai",
-  "cfb1ae851dd4b36eb1aa6bb13998cd65e9aa2b5b8d4eadcbc8dbe8e680f6aab4",
-  "https://cybersecuritynews.com/scaling-soc-capabilities-how-threat-intelligence-cuts-triage-time-and-burnout",
-  "slug_scaling_soc_capabilities_how_threat_intelligence",
-  "dad7e77a5585a71c3fd3e62e97f9646f08a329523d441f9305bb6164926530e1",
-  "https://www.bleepingcomputer.com/news/security/eviltokens-phaas-disrupted-after-compromising-12-000-microsoft-accounts",
-  "slug_eviltokens_phaas_disrupted_after_compromising_12000",
-  "b898d6b2cc0a54eff58bd78484c881200bce8a4a19ce71dc972be351a4e94f3b",
-  "https://cybersecuritynews.com/f5-big-ip-oauth-server-0-day-flaw",
   "slug_hackers_exploiting_f5_bigip_oauth_server",
   "CVE_CVE-2026-94127",
   "5b7cf289afcdabe38b3871996367f3b01493a2ab02a98790f9c318ad66ee7c55",
@@ -998,5 +989,14 @@
   "slug_cisco_patches_new_secure_email_gateway",
   "9fb38a0019d938ad5c3fa0fcff2c1258a5e686dde939e25efb22315b69fc9f06",
   "https://www.securityweek.com/harmonic-security-raises-50-million-for-workforce-ai-protection",
-  "slug_harmonic_security_raises_50_million_workforce"
+  "slug_harmonic_security_raises_50_million_workforce",
+  "402aaeff71af9a0903716f2ab9c965044fe95b98a71ddd82b1e9397fc681f0ef",
+  "https://thehackernews.com/2026/10/cisco-warns-of-active-attacks.html",
+  "slug_cisco_warns_active_attacks_exploiting_new",
+  "9d685e67024bc1a8025daaf39c93f062ec9c161e55b5591fb0c0efa51101b146",
+  "https://www.bleepingcomputer.com/news/security/fbi-raids-dprk-it-worker-laptop-farms-in-texas-us-nationals-arrested",
+  "slug_fbi_raids_dprk_it_worker_laptop",
+  "37356df481d16ae2ef2d6cbadd00b71e6dcfb9133380aaaa56d275d25499e492",
+  "https://cybersecuritynews.com/multiple-nginx-vulnerabilities",
+  "slug_multiple_nginx_let_remote_attackers_crash"
 ]
