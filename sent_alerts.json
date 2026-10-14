@@ -1,15 +1,4 @@
 [
-  "slug_new_windows_defender_zeroday_blocks_microsoft",
-  "68c3931e8d4a251a1353f21281ac32ea78de95a91e5ac96651e96fc597709caa",
-  "https://www.securityweek.com/recent-zyxel-switch-vulnerability-exploited-by-chinese-hackers",
-  "slug_recent_zyxel_switch_vulnerability_exploited_chinese",
-  "f619ad1c6009e9220eed33fe462286a56e9002373131360e8ae5c398ee336d65",
-  "https://thehackernews.com/2026/09/new-cvss-100-velocloud-orchestrator.html",
-  "slug_new_cvss_100_velocloud_orchestrator_actively",
-  "CVE_CVE-2026-93952",
-  "30a8db9908ca80fdd5921540a0476ba5a2f74a6cabf4b1089098bfbf07577939",
-  "https://www.bleepingcomputer.com/news/security/check-point-patches-management-server-zero-day-exploited-in-attacks",
-  "slug_check_point_warns_management_server_zeroday",
   "3a3bf6f8fde3edfa05cbb760b7e06c51c4889d8476b7bdd86dafbdda5c12b376",
   "https://cybersecuritynews.com/check-point-management-server-0-day-exploited",
   "slug_check_point_management_server_0day_vulnerability",
@@ -998,5 +987,16 @@
   "slug_openai_engineer_arrested_allegedly_planting_spy",
   "5f107bea1835867c9bab369bd3e1a00d6c153321d5046ef97357eb34d098019d",
   "https://cybersecuritynews.com/microsoft-october-patch-tuesday-2026",
-  "slug_microsoft_fixes_1118_vulnerabilities_october_patch"
+  "slug_microsoft_fixes_1118_vulnerabilities_october_patch",
+  "f459c5923c1f2f1f0f0399d778e50fd56cd0cc834f0c02647efe67e017a828a7",
+  "https://thehackernews.com/2026/10/docker-fixes-critical-two-year-old-hub.html",
+  "slug_docker_fixes_critical_twoyearold_hub_that",
+  "af713d77fa98c062541e63b37195314b51ea0349f86b44f16a2edc495adb1014",
+  "https://www.bleepingcomputer.com/news/security/ghostscript-flaw-lets-hackers-hijack-servers-via-pdf-uploads",
+  "slug_ghostscript_lets_hackers_hijack_servers_via",
+  "CVE_CVE-2026-39919",
+  "37e054a7ec8ca482be73f48db30e3a48f5da8c54f8887c1b14b4c3b0d442ccfd",
+  "https://www.securityweek.com/ivanti-zero-day-chain-gave-attackers-root-access-to-fully-patched-vpn",
+  "slug_ivanti_zeroday_chain_gave_attackers_root",
+  "CVE_CVE-2026-104935"
 ]
