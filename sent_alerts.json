@@ -1,14 +1,4 @@
 [
-  "3a3bf6f8fde3edfa05cbb760b7e06c51c4889d8476b7bdd86dafbdda5c12b376",
-  "https://cybersecuritynews.com/check-point-management-server-0-day-exploited",
-  "slug_check_point_management_server_0day_vulnerability",
-  "CVE_CVE-2026-93616",
-  "ac1280aee3db8b04969375111d710499a08beb96cdf62a62cd703a7d8d26aac4",
-  "https://thehackernews.com/2026/09/microsoft-takes-down-eviltokens-device.html",
-  "slug_microsoft_takes_down_eviltokens_devicecode_phishing",
-  "4fb6e315e8d0c1fc4fbeb44181390cdc954bf44d2ba36398005ab77d8c8f4ccb",
-  "https://www.bleepingcomputer.com/news/security/shinyhunters-claims-fbi-hack-data-theft-in-peoplesoft-zero-day-breach",
-  "slug_shinyhunters_claims_fbi_hack_data_theft",
   "627d26bb6557efb1a4335d8cb8cb747abc1f467ce00214810870ac5fe09503b8",
   "https://www.securityweek.com/bigcommerce-data-stolen-via-ribon-apps-hack",
   "slug_bigcommerce_data_stolen_via_ribon_apps",
@@ -998,5 +988,15 @@
   "37e054a7ec8ca482be73f48db30e3a48f5da8c54f8887c1b14b4c3b0d442ccfd",
   "https://www.securityweek.com/ivanti-zero-day-chain-gave-attackers-root-access-to-fully-patched-vpn",
   "slug_ivanti_zeroday_chain_gave_attackers_root",
-  "CVE_CVE-2026-104935"
+  "CVE_CVE-2026-104935",
+  "0c18f2a3df012bdd1f2e05bbbd286d4b4bd89ecbd922d3596274cabf2f7db028",
+  "https://thehackernews.com/2026/10/four-byte-write-and-timing-bug-let.html",
+  "slug_fourbyte_write_timing_bug_let_researchers",
+  "952c1975fabe325b2a0c9fde83d99a48463630e9c1313277487fafc253c64e98",
+  "https://www.bleepingcomputer.com/news/security/anthropic-warns-self-replicating-ai-could-spread-to-your-smart-devices",
+  "slug_anthropic_warns_selfreplicating_ai_could_spread",
+  "be99c903ff7f727c681b0bfa11c2eb7d6065ce2018d94a05a04283e2e521c734",
+  "https://cybersecuritynews.com/windows-shell-0-day-exploited",
+  "slug_microsoft_windows_shell_0day_vulnerability_actively",
+  "CVE_CVE-2026-96951"
 ]
