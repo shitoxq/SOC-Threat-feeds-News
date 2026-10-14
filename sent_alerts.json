@@ -1,14 +1,4 @@
 [
-  "slug_hackers_exploiting_f5_bigip_oauth_server",
-  "CVE_CVE-2026-94127",
-  "5b7cf289afcdabe38b3871996367f3b01493a2ab02a98790f9c318ad66ee7c55",
-  "https://www.securityweek.com/check-point-patches-exploited-management-server-zero-day",
-  "slug_check_point_patches_exploited_management_server",
-  "cda8fee2780106d9dce056e5e48523e592663bb8084e4b205bd4242623f899f9",
-  "https://thehackernews.com/2026/09/critical-nextjs-imageresponse-flaw-can.html",
-  "slug_critical_nextjs_imageresponse_can_lead_server",
-  "9717b342ed5a42088c7bc815454860ff3d455a86a163a91db4eeae953d38335f",
-  "https://www.bleepingcomputer.com/news/microsoft/microsoft-september-2026-windows-updates-break-always-on-vpn-connections",
   "slug_microsoft_september_windows_updates_break_always",
   "0f92bf899a1e69274cfe1d39b40fdfa7af0e041baff45cd7448ce065cc6d7bf2",
   "https://www.securityweek.com/adobe-patches-critical-flaws-in-connect-aem-forms",
@@ -998,5 +988,15 @@
   "slug_fbi_raids_dprk_it_worker_laptop",
   "37356df481d16ae2ef2d6cbadd00b71e6dcfb9133380aaaa56d275d25499e492",
   "https://cybersecuritynews.com/multiple-nginx-vulnerabilities",
-  "slug_multiple_nginx_let_remote_attackers_crash"
+  "slug_multiple_nginx_let_remote_attackers_crash",
+  "2720649a8fdd7cf6e4c8edecfb9604ba9a21cc78ab2d0373fb31c086339f95cf",
+  "https://thehackernews.com/2026/10/hackers-backdoor-nextcloud-servers.html",
+  "slug_hackers_backdoor_nextcloud_servers_through_critical",
+  "469f69b082b97ddb2a7b19a5068e13dd6c3616648e25b5139d5e74ecc05c73fa",
+  "https://www.bleepingcomputer.com/news/security/palo-alto-networks-warns-of-pan-os-rce-flaw-exploited-in-attacks",
+  "slug_palo_alto_networks_warns_panos_rce",
+  "CVE_CVE-2026-0322",
+  "c28ea0cccd9eb7ae9d248368047638780a6ea7a4ebd68630d8770943d5e5ce31",
+  "https://cybersecuritynews.com/microsoft-recent-update-remote-desktop",
+  "slug_microsofts_recent_windows_updates_break_remote"
 ]
