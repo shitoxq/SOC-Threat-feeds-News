@@ -1,13 +1,4 @@
 [
-  "https://www.bleepingcomputer.com/news/security/placeholder-domain-used-in-dev-docs-now-serves-clickfix-attacks",
-  "slug_placeholder_domain_used_dev_docs_now",
-  "aefb25f5aaadb2126afff3b1373245ab048020f006241ca730e67c70417c03be",
-  "https://cybersecuritynews.com/the-visibility-gap-in-phishing-detection-where-sandboxing-makes-a-difference",
-  "slug_visibility_gap_phishing_detection_where_sandboxing",
-  "0cd0437c9bfc7d372c0657e9b19c40bff8b9ea819efd262c047fd67ceac5bc1d",
-  "https://www.bleepingcomputer.com/news/security/new-remcontrol-android-banking-malware-targets-users-in-europe-and-canada",
-  "slug_new_remcontrol_android_banking_malware_targets",
-  "1946ff799b3393ee0f7d240d3108e018992d5d5b739e98558543da976a396f36",
   "https://www.vulncheck.com/blog/virtualizor-billing-hook-unauthenticated-root-rce",
   "slug_virtualizor_login_parameter_that_skips_loginvulncheckx27s",
   "09bee31e38537924af00465d1b4db7176ca2f69a9e942eb2442e2e1b7aac128b",
@@ -998,5 +989,14 @@
   "slug_police_arrests_95_suspects_international_csam",
   "09e12810b43dbdb36ea470a55a2774f363e4a400c40c0f786be880b4a99e510b",
   "https://www.securityweek.com/cikabika-bot-rat-uses-discord-for-cc",
-  "slug_cikabika_bot_rat_uses_discord_campc"
+  "slug_cikabika_bot_rat_uses_discord_campc",
+  "c4b7926adcfb8ca7088112a52fbbc844a15a3773a88ab5e8232942633c27f4ed",
+  "https://thehackernews.com/2026/10/silent-lynx-exploits-winrar-flaw-to.html",
+  "slug_silent_lynx_exploits_winrar_deploy_reverse",
+  "6c6c7e1d895a61ea95eb761d6f4e14ae1877b14f5faf72279bd896be16b54f11",
+  "https://www.bleepingcomputer.com/news/security/fake-arch-linux-packages-push-malware-with-root-privileges",
+  "slug_fake_arch_linux_packages_push_malware",
+  "a95fab72c9d5d64085887b824525703e0ab56750afe1953a7788ffd4543b2110",
+  "https://cybersecuritynews.com/burger-king-japan-data-breach",
+  "slug_burger_king_japan_confirms_data_breach"
 ]
