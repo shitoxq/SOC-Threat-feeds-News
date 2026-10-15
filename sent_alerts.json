@@ -1,13 +1,4 @@
 [
-  "slug_malicious_ai_agents_steal_600k_credit",
-  "41a17aa5083fdb244dd329e3916729e20ea1bf5f31642a5e5f94fb6e68488224",
-  "https://www.securityweek.com/ai-powered-phishing-platform-eviltokens-disrupted-by-microsoft",
-  "slug_aipowered_phishing_platform_eviltokens_disrupted_microsoft",
-  "d1ccb5f32ae97e153e401137d41045a9ab60f2e49544bedfccc0c75a3cc63714",
-  "https://thehackernews.com/2026/09/attackers-use-malicious-terraform.html",
-  "slug_attackers_use_malicious_terraform_providers_deliver",
-  "85fca72ffc21acc73780ad90df0e587cef4ad1f62117ddc4db8c39f7557707f1",
-  "https://www.bleepingcomputer.com/news/security/hackers-start-exploiting-critical-wordpress-flaw-for-code-execution",
   "slug_hackers_start_exploiting_critical_wordpress_code",
   "CVE_CVE-2026-87902",
   "5d98225b1ce3ee72eb28ec987ca7916e5d358bed60bfa8b9f3d0c7e42a9f3bcc",
@@ -998,5 +989,14 @@
   "slug_microsoft_fixes_vpn_issues_caused_september",
   "b8878da9165b8fb53edd43ca99bca1e39e1862a396b1bfb2163e2e0ac04cbfe2",
   "https://cybersecuritynews.com/west-african-scam-networks",
-  "slug_meta_google_microsoft_openai_join_global"
+  "slug_meta_google_microsoft_openai_join_global",
+  "8d01de033713a4844a3ccd01a059243ce975f05362b20225d853e7b457ee3b96",
+  "https://www.bleepingcomputer.com/news/security/global-takedown-hits-network-behind-1-billion-phishing-messages",
+  "slug_global_takedown_hits_network_behind_1",
+  "76cc12521d1e7eb740039a6f6527f0fe6a1557dd1773e0629a434fb3f48d7ba3",
+  "https://cybersecuritynews.com/fake-chrome-app",
+  "slug_fake_chrome_app_google_play_evades",
+  "cae07e36b99ca071f2cd3d60a04daa6196cfa7e11749de9db32cc1df0c64e795",
+  "https://www.securityweek.com/palo-alto-networks-patches-pan-os-zero-day-exploited-for-remote-code-execution",
+  "slug_palo_alto_networks_patches_panos_zeroday"
 ]
