@@ -1,13 +1,4 @@
 [
-  "slug_microsoft_september_windows_updates_break_always",
-  "0f92bf899a1e69274cfe1d39b40fdfa7af0e041baff45cd7448ce065cc6d7bf2",
-  "https://www.securityweek.com/adobe-patches-critical-flaws-in-connect-aem-forms",
-  "slug_adobe_patches_critical_connect_aem_forms",
-  "1e2c3d8631df9e51eed4d916238e3ca46086eb3d41241ff654fcde7613f23ce3",
-  "https://thehackernews.com/2026/09/windows-malware-is-built-to-let-up-to.html",
-  "slug_this_windows_malware_built_let_up",
-  "3406402a01687c3c016e1ca2f13eb6cfe36710e40a674e7a60a4abcc9b1c1e6b",
-  "https://www.bleepingcomputer.com/news/security/malicious-ai-agents-steal-600k-credit-cards-infect-100-plus-sites-with-skimmers",
   "slug_malicious_ai_agents_steal_600k_credit",
   "41a17aa5083fdb244dd329e3916729e20ea1bf5f31642a5e5f94fb6e68488224",
   "https://www.securityweek.com/ai-powered-phishing-platform-eviltokens-disrupted-by-microsoft",
@@ -998,5 +989,14 @@
   "CVE_CVE-2026-0322",
   "c28ea0cccd9eb7ae9d248368047638780a6ea7a4ebd68630d8770943d5e5ce31",
   "https://cybersecuritynews.com/microsoft-recent-update-remote-desktop",
-  "slug_microsofts_recent_windows_updates_break_remote"
+  "slug_microsofts_recent_windows_updates_break_remote",
+  "fbe33babcbabc6a0c3e7d55eb9e04074b2407a56aae3371c06f5eb77975f779d",
+  "https://thehackernews.com/2026/10/microsoft-disrupts-3-phishing-kits.html",
+  "slug_microsoft_disrupts_3_phishing_kits_linked",
+  "b4bcbb6518e68cb5a045ca319b2b0bf80be77567a5f73aeb90c4ec7d0462d94f",
+  "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-vpn-issues-caused-by-september-windows-updates",
+  "slug_microsoft_fixes_vpn_issues_caused_september",
+  "b8878da9165b8fb53edd43ca99bca1e39e1862a396b1bfb2163e2e0ac04cbfe2",
+  "https://cybersecuritynews.com/west-african-scam-networks",
+  "slug_meta_google_microsoft_openai_join_global"
 ]
