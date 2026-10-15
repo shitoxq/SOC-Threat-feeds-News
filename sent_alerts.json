@@ -1,14 +1,4 @@
 [
-  "https://www.vulncheck.com/blog/virtualizor-billing-hook-unauthenticated-root-rce",
-  "slug_virtualizor_login_parameter_that_skips_loginvulncheckx27s",
-  "09bee31e38537924af00465d1b4db7176ca2f69a9e942eb2442e2e1b7aac128b",
-  "https://www.helpnetsecurity.com/2026/09/23/portnox-shadow-ai-control-and-visibility",
-  "slug_portnox_detects_removes_unauthorized_ai_applications",
-  "475dc601afb7d058931acda58c75acd3a7c0101a447b0703405db0cd83dff876",
-  "https://www.bleepingcomputer.com/news/security/infratrust-report-warns-network-management-systems-under-attack",
-  "slug_infratrust_report_warns_network_management_systems",
-  "7360d5fabda9a4eb72bdbb678aaf5fa5ac38801c362d5d789849583d1438fe14",
-  "https://cybersecuritynews.com/apache-tomcat-update",
   "slug_apache_tomcat_update_fixes_websocket_http2",
   "9e184f7cdec715a04d889fb69d1761930c4a7a721cb63a05269ea387f9754bf7",
   "https://www.vulncheck.com/blog/ai-assisted-vulnerability-discovery",
@@ -998,5 +988,15 @@
   "slug_fake_arch_linux_packages_push_malware",
   "a95fab72c9d5d64085887b824525703e0ab56750afe1953a7788ffd4543b2110",
   "https://cybersecuritynews.com/burger-king-japan-data-breach",
-  "slug_burger_king_japan_confirms_data_breach"
+  "slug_burger_king_japan_confirms_data_breach",
+  "06720af8fb4892a0dc1df4b42e82b12d260b3cea7fdd36baa09acf5c4acfc2d2",
+  "https://thehackernews.com/2026/10/threatsday-adobe-rce-dns-wallet-theft.html",
+  "slug_threatsday_adobe_rce_dns_wallet_theft",
+  "0036aa34917d3bf0b601d5216937ef9b9c5b65b6fbeb95b281312d06933ad37e",
+  "https://www.bleepingcomputer.com/news/security/hackers-exploit-collabora-rce-flaw-to-backdoor-nextcloud-servers",
+  "slug_hackers_exploit_collabora_rce_backdoor_nextcloud",
+  "CVE_CVE-2026-110447",
+  "4d80c79f180cd3490f0cdc549466cce525b94dd655f2ef46b293ba81bc9614b0",
+  "https://cybersecuritynews.com/hackers-use-clickfix",
+  "slug_hackers_use_clickfix_python_tunnels_prepare"
 ]
