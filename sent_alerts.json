@@ -1,13 +1,4 @@
 [
-  "slug_hackers_start_exploiting_critical_wordpress_code",
-  "CVE_CVE-2026-87902",
-  "5d98225b1ce3ee72eb28ec987ca7916e5d358bed60bfa8b9f3d0c7e42a9f3bcc",
-  "https://www.securityweek.com/chrome-154-patches-108-vulnerabilities",
-  "slug_chrome_154_patches_108_vulnerabilities",
-  "344fcd62c82a77ffaa2e28235f4c5a864f5d626d211310920735c7ed0ffca763",
-  "https://thehackernews.com/2026/09/compromised-memtensor-packages-deliver.html",
-  "slug_compromised_memtensor_packages_deliver_sckit_credential",
-  "8bfc479773c02457ce4f01f0669f34c0f2f947f26954e51bb0ee51352ec14070",
   "https://www.bleepingcomputer.com/news/security/placeholder-domain-used-in-dev-docs-now-serves-clickfix-attacks",
   "slug_placeholder_domain_used_dev_docs_now",
   "aefb25f5aaadb2126afff3b1373245ab048020f006241ca730e67c70417c03be",
@@ -998,5 +989,14 @@
   "slug_fake_chrome_app_google_play_evades",
   "cae07e36b99ca071f2cd3d60a04daa6196cfa7e11749de9db32cc1df0c64e795",
   "https://www.securityweek.com/palo-alto-networks-patches-pan-os-zero-day-exploited-for-remote-code-execution",
-  "slug_palo_alto_networks_patches_panos_zeroday"
+  "slug_palo_alto_networks_patches_panos_zeroday",
+  "42bfa2e2916b0cdc5e7b46d1c6f3fc74e88804db75c6eda8824a4e785280a7ab",
+  "https://thehackernews.com/2026/10/drupal-patches-critical-core-rce-flaw.html",
+  "slug_drupal_patches_critical_core_rce_nologin",
+  "3f2ea439d67872821129d7c1a1d745789179406dd9bf46429bc8f25b7dc94695",
+  "https://www.bleepingcomputer.com/news/security/police-arrests-95-suspects-in-child-sexual-abuse-material-crackdown",
+  "slug_police_arrests_95_suspects_international_csam",
+  "09e12810b43dbdb36ea470a55a2774f363e4a400c40c0f786be880b4a99e510b",
+  "https://www.securityweek.com/cikabika-bot-rat-uses-discord-for-cc",
+  "slug_cikabika_bot_rat_uses_discord_campc"
 ]
