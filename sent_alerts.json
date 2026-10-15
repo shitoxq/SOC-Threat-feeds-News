@@ -1,14 +1,4 @@
 [
-  "slug_apache_tomcat_update_fixes_websocket_http2",
-  "9e184f7cdec715a04d889fb69d1761930c4a7a721cb63a05269ea387f9754bf7",
-  "https://www.vulncheck.com/blog/ai-assisted-vulnerability-discovery",
-  "slug_first_cve_wave_signs_that_aiassisted",
-  "5408002adacbee0dc276b1782d914fc4255fd4524f2e9f26a28dc6046ff213ec",
-  "https://thehackernews.com/2026/09/17000-urls-reveal-how-clickfix-turns.html",
-  "slug_17000_urls_reveal_how_clickfix_turns",
-  "75de105127e18eb1d91d162ca3a1e1f78ed5e362f08b95f1488a83fc683b1149",
-  "https://www.bleepingcomputer.com/news/security/cisa-ransomware-gangs-now-exploiting-critical-teamcity-flaw",
-  "slug_cisa_ransomware_gangs_now_exploiting_critical",
   "544d855d7c9e28aee265c5e281c8ebab21e9278c5f2c15a8415c0244715ae9c4",
   "https://cybersecuritynews.com/microsoft-rebuilds-the-soc",
   "slug_microsoft_rebuilds_soc_ai_agents_siem",
@@ -998,5 +988,15 @@
   "CVE_CVE-2026-110447",
   "4d80c79f180cd3490f0cdc549466cce525b94dd655f2ef46b293ba81bc9614b0",
   "https://cybersecuritynews.com/hackers-use-clickfix",
-  "slug_hackers_use_clickfix_python_tunnels_prepare"
+  "slug_hackers_use_clickfix_python_tunnels_prepare",
+  "e2089d243155ed7a05c2caf047206c938b1d7289ca984c3299fef5aac94b413c",
+  "https://thehackernews.com/2026/10/critical-pwnescape-linux-kernel.html",
+  "slug_critical_pwnescape_linux_kernel_vulnerability_lets",
+  "CVE_CVE-2026-99999",
+  "470fcf5377611ea1e436b183d4db5361ef448215d9f75863907feae8545ad322",
+  "https://www.bleepingcomputer.com/news/security/android-gets-ai-defenses-against-messaging-scams-fake-calls",
+  "slug_android_gets_ai_defenses_against_messaging",
+  "1a7b2c5f7f8c7aa14235d9ba114f0c12ccf862f7a34e587ea1062e1ccdad0266",
+  "https://www.securityweek.com/novel-android-banking-rat-hirudo-replaces-banking-apps-with-trojanized-copies",
+  "slug_novel_android_rat_hirudo_replaces_banking"
 ]
