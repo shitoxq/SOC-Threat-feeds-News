@@ -1,13 +1,4 @@
 [
-  "544d855d7c9e28aee265c5e281c8ebab21e9278c5f2c15a8415c0244715ae9c4",
-  "https://cybersecuritynews.com/microsoft-rebuilds-the-soc",
-  "slug_microsoft_rebuilds_soc_ai_agents_siem",
-  "e32e04002703753fcbb67283aec027750dae0149fdbad2e2461f2d2bfb387400",
-  "https://thehackernews.com/2026/09/placeholder-third-partycom-referenced.html",
-  "slug_placeholder_thirdpartycom_referenced_across_1700_repositories",
-  "8c0056a7006fd90abe9761431ce85f9f64e700cfb470d87027e1164f2a3959f8",
-  "https://www.bleepingcomputer.com/news/security/critical-roundcube-flaw-now-actively-exploited-in-code-injection-attacks",
-  "slug_hackers_now_exploit_critical_roundcube_code",
   "7f27f6b01524d7c0f2ea99be60525b1d23748a4481bb662173b473662c23268b",
   "https://www.securityweek.com/kontext-security-emerges-with-4-million-for-ai-agent-runtime-controls",
   "slug_kontext_security_emerges_4_million_ai",
@@ -998,5 +989,14 @@
   "slug_android_gets_ai_defenses_against_messaging",
   "1a7b2c5f7f8c7aa14235d9ba114f0c12ccf862f7a34e587ea1062e1ccdad0266",
   "https://www.securityweek.com/novel-android-banking-rat-hirudo-replaces-banking-apps-with-trojanized-copies",
-  "slug_novel_android_rat_hirudo_replaces_banking"
+  "slug_novel_android_rat_hirudo_replaces_banking",
+  "3d53c1d5457e34e77ba4a53a8bf3b42ad2be1fa8781514ba2c059e800bc9635b",
+  "https://thehackernews.com/2026/10/help-tds-linked-to-hotejka-as-20000.html",
+  "slug_help_tds_linked_hotejka_20000_cloudflare",
+  "f6fec61ee9ad4fef5537dbcf5ed060ebe4a7bd8cb9302a6867281057d8932c9c",
+  "https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-server-2022-reached-end-of-mainstream-support",
+  "slug_microsoft_windows_server_2022_reached_end",
+  "431e343436e70b9162e892e385b8de9f28c5b281b26be84274c93d648ff70579",
+  "https://cybersecuritynews.com/0-click-spyware-infects-devices",
+  "slug_just_viewing_online_ad_can_infect"
 ]
