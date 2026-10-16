@@ -1,13 +1,4 @@
 [
-  "slug_aipowered_campaign_targets_hundreds_online_retailers",
-  "b6378b315cd4f7dbd6c94541e56b9b7f0659395d04262e9b0bfb19b7b7a5b454",
-  "https://thehackernews.com/2026/09/cloudflare-fixes-flaw-that-let-one.html",
-  "slug_cloudflare_fixes_that_let_one_container",
-  "d16265fbe0cb42803fb28de3048e4a4328e7c8ddf6282b42d5703af2a42eb3d1",
-  "https://www.bleepingcomputer.com/news/security/openai-hacked-australian-medicare-govt-site-probed-data-providers",
-  "slug_openai_hacked_australian_medicare_govt_site",
-  "6cba29c108f8aed3a7d7bd010f00429b42423a17eb5176636527c47b7aa9abf2",
-  "https://www.securityweek.com/solarwinds-patches-critical-rce-flaws-in-observability-self-hosted",
   "slug_solarwinds_patches_critical_rce_observability_selfhosted",
   "CVE_CVE-2026-28324",
   "CVE_CVE-2026-28325",
@@ -998,5 +989,14 @@
   "slug_employees_using_personal_chatgpt_work_herex27s",
   "676b18d82b3dd7c553c827449f6221da59a7119436cb7d191763861df005befa",
   "https://cybersecuritynews.com/new-romulus-clickfix-platform",
-  "slug_hackers_use_new_romulus_clickfix_platform"
+  "slug_hackers_use_new_romulus_clickfix_platform",
+  "ebaf37949a88c936e530e83bfd13a0855d99a808c925f902d5ff17e1242b28eb",
+  "https://thehackernews.com/2026/10/researchers-demonstrate-openbsd-root.html",
+  "slug_researchers_demonstrate_openbsd_root_exploit_chaining",
+  "b337cc196c5b4695718d62391eb0459bf10efa9a0e66d54108c81b64d34f7e66",
+  "https://www.bleepingcomputer.com/news/security/burger-king-japan-data-breach-exposes-11-million-customer-records",
+  "slug_burger_king_japan_data_breach_exposes",
+  "01d9385d6c930d070f7e7a783d9ee3172ac48ed8415ef819eed5bda5e2314f02",
+  "https://cybersecuritynews.com/new-yuankong-android-rat",
+  "slug_new_yuankong_android_rat_hijacks_phones"
 ]
