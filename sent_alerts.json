@@ -1,13 +1,4 @@
 [
-  "slug_fake_pdf_files_hide_konni_malware",
-  "00d7c4958ac55b4f1ea8bd666fb46335c0335c18541406d947b2b0b9ac6a6aab",
-  "https://thehackernews.com/2026/09/corp-mdm-spyware-targets-logistics.html",
-  "slug_corp_mdm_spyware_targets_logistics_firms",
-  "8ff810830637340efbd5317ddd91426d8f320694e59578d99d2185f4315a53a4",
-  "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5124010-update-released-with-46-changes-and-fixes",
-  "slug_windows_11_kb5124010_update_released_46",
-  "df31b360c110d97daeea9102b7138d5a3d7ff0985b03c330f06c8e3795540947",
-  "https://www.securityweek.com/ai-powered-campaign-targets-hundreds-of-online-retailers",
   "slug_aipowered_campaign_targets_hundreds_online_retailers",
   "b6378b315cd4f7dbd6c94541e56b9b7f0659395d04262e9b0bfb19b7b7a5b454",
   "https://thehackernews.com/2026/09/cloudflare-fixes-flaw-that-let-one.html",
@@ -998,5 +989,14 @@
   "slug_microsoft_october_windows_update_may_break",
   "def25bb495d6a4cc7e0e9fec0837866321bbf000748cf71b9f2d22fbfcc332ff",
   "https://cybersecuritynews.com/new-aoki-malware",
-  "slug_new_aoki_malware_targets_chatgpt_claude"
+  "slug_new_aoki_malware_targets_chatgpt_claude",
+  "3f11a9ccfb4f1a93f7c7a87a7450dc27107411d9b2b2b37a6164cc993a79a347",
+  "https://thehackernews.com/2026/10/ai-decision-models-and-their-impact-on.html",
+  "slug_ai_decision_models_their_impact_ai",
+  "f0d31725ce6b131c61dc3898de919cef44fc5009837e3f8bc8e6c666f225c06c",
+  "https://www.bleepingcomputer.com/news/security/employees-using-personal-chatgpt-at-work-heres-what-it-admins-need-to-do",
+  "slug_employees_using_personal_chatgpt_work_herex27s",
+  "676b18d82b3dd7c553c827449f6221da59a7119436cb7d191763861df005befa",
+  "https://cybersecuritynews.com/new-romulus-clickfix-platform",
+  "slug_hackers_use_new_romulus_clickfix_platform"
 ]
