@@ -1,14 +1,4 @@
 [
-  "slug_solarwinds_patches_critical_rce_observability_selfhosted",
-  "CVE_CVE-2026-28324",
-  "CVE_CVE-2026-28325",
-  "0fba6d21f98399f0f411d430897caf3a6946e6bbd50ea209d4ed7d1f76034cbf",
-  "https://thehackernews.com/2026/09/bitget-says-suspected-north-korean.html",
-  "slug_bitget_says_suspected_north_korean_hackers",
-  "94b2d7164ba92baa4324efc412b2708136f2627beef3e767c63ab01a0793e3b2",
-  "https://www.bleepingcomputer.com/news/microsoft/microsoft-recent-windows-updates-cause-desktop-loading-issues",
-  "slug_microsoft_recent_windows_updates_cause_desktop",
-  "5fbcfe6e95de9264e19cc63090c5c56d956c7332ad866fcadaf0bdf3277bb250",
   "https://cybersecuritynews.com/business-emails",
   "slug_attackers_turning_everyday_business_emails_into",
   "6c0fd01aad01bafff2aecdafae279b8e141824d1f5214abb7969e49a88971c34",
@@ -998,5 +988,15 @@
   "slug_burger_king_japan_data_breach_exposes",
   "01d9385d6c930d070f7e7a783d9ee3172ac48ed8415ef819eed5bda5e2314f02",
   "https://cybersecuritynews.com/new-yuankong-android-rat",
-  "slug_new_yuankong_android_rat_hijacks_phones"
+  "slug_new_yuankong_android_rat_hijacks_phones",
+  "ffdcabb15288bf144b88d0dbd9598a1f314716e88738655af300cf637050828e",
+  "https://thehackernews.com/2026/10/attackers-tampered-with-aomei.html",
+  "slug_attackers_tampered_aomei_backupperx27s_update_servers",
+  "c0bd42b621bad7f686dba44568cc344233913d2ad7415250051c4af4d273a243",
+  "https://www.bleepingcomputer.com/news/security/critical-blockstrap-flaw-lets-hackers-run-code-on-magento-servers",
+  "slug_critical_blockstrap_lets_hackers_run_code",
+  "CVE_CVE-2026-103849",
+  "cf304ded909ede943cb840bd25e9f3341c8388026738d6e6c933c0997570044d",
+  "https://www.securityweek.com/in-other-news-ics-sniper-attack-hacking-xworm-malware-operators-250k-chrome-exploit",
+  "slug_other_news_icssniper_attack_hacking_xworm"
 ]
