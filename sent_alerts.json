@@ -1,14 +1,4 @@
 [
-  "7f27f6b01524d7c0f2ea99be60525b1d23748a4481bb662173b473662c23268b",
-  "https://www.securityweek.com/kontext-security-emerges-with-4-million-for-ai-agent-runtime-controls",
-  "slug_kontext_security_emerges_4_million_ai",
-  "37f6b04fa6f0fe4e6aba10f57fe51f7b894b9ff40f9150f8dc716ece7f40ff48",
-  "https://thehackernews.com/2026/09/threatsday-ai-search-poisoning-ai.html",
-  "slug_threatsday_ai_search_poisoning_ai_coding",
-  "8d960a1b97a6878bde4092cc97b56f6f8392791189302bbe5069fc261dd560d4",
-  "https://www.bleepingcomputer.com/news/security/new-carbonato-malware-uses-ai-agents-to-hijack-exposed-docker-hosts",
-  "slug_new_carbonato_malware_uses_ai_agents",
-  "2e92d26279fa1f1b65c8e8b3b2be426279f5932f21c63a563a90a7b025f917cc",
   "https://cybersecuritynews.com/scoutz-prospect-intelligence-platform-launches-for-msps-with-30-day-beta",
   "slug_scoutz_prospect_intelligence_platform_launches_msps",
   "f6922c0e9c4bde56aac64c55d2bd337e7df48ddd3aa59ed638b66be93d4073c4",
@@ -998,5 +988,15 @@
   "slug_microsoft_windows_server_2022_reached_end",
   "431e343436e70b9162e892e385b8de9f28c5b281b26be84274c93d648ff70579",
   "https://cybersecuritynews.com/0-click-spyware-infects-devices",
-  "slug_just_viewing_online_ad_can_infect"
+  "slug_just_viewing_online_ad_can_infect",
+  "a2dfa0394e0653a8dabfc5abcf52d6ba3f9cba0fd2cb2dd6fbc5b238df868190",
+  "https://thehackernews.com/2026/10/attackers-exploit-fortios-flaw-to.html",
+  "slug_peerstitch_malware_deployed_via_fortios_bypasses",
+  "CVE_CVE-2025-61624",
+  "379db0c8ad00f8039620736a4c0cf13b4678e0fd5ecb1878295b78c60452f469",
+  "https://www.bleepingcomputer.com/news/security/beyondtrust-patches-zero-day-exploited-in-attacks-since-august",
+  "slug_beyondtrust_patches_zeroday_exploited_attacks_since",
+  "26382fed63abf156d1acb6d50faf2e18afc5b6b3660cbe2a7ad28df6f7a23a30",
+  "https://www.securityweek.com/centerpoint-energy-data-breach-impacts-1-million-texans",
+  "slug_centerpoint_energy_data_breach_impacts_1"
 ]
