@@ -1,14 +1,4 @@
 [
-  "https://cybersecuritynews.com/scoutz-prospect-intelligence-platform-launches-for-msps-with-30-day-beta",
-  "slug_scoutz_prospect_intelligence_platform_launches_msps",
-  "f6922c0e9c4bde56aac64c55d2bd337e7df48ddd3aa59ed638b66be93d4073c4",
-  "https://thehackernews.com/2026/09/hacked-ukrainian-sites-serve-fake.html",
-  "slug_hacked_ukrainian_sites_serve_fake_cloudflare",
-  "d72b93fd7d8fd75be09816d0db7b948427687a5866d952f71506535af8b3e76d",
-  "https://www.bleepingcomputer.com/news/security/macsync-malware-uses-public-icloud-calendars-to-deliver-new-payloads",
-  "slug_macsync_malware_uses_public_icloud_calendars",
-  "eb572b626c4f757096b4bb24ffa1c41aba2ea181cd79a1a364b76f6fb0243116",
-  "https://cybersecuritynews.com/konni-malware-campaign",
   "slug_fake_pdf_files_hide_konni_malware",
   "00d7c4958ac55b4f1ea8bd666fb46335c0335c18541406d947b2b0b9ac6a6aab",
   "https://thehackernews.com/2026/09/corp-mdm-spyware-targets-logistics.html",
@@ -998,5 +988,15 @@
   "slug_beyondtrust_patches_zeroday_exploited_attacks_since",
   "26382fed63abf156d1acb6d50faf2e18afc5b6b3660cbe2a7ad28df6f7a23a30",
   "https://www.securityweek.com/centerpoint-energy-data-breach-impacts-1-million-texans",
-  "slug_centerpoint_energy_data_breach_impacts_1"
+  "slug_centerpoint_energy_data_breach_impacts_1",
+  "2f4ebff472d58347b5f4820386c92e2f654aff5966771c2acb787546316a49ac",
+  "https://thehackernews.com/2026/10/china-linked-hackers-exploited.html",
+  "slug_chinalinked_hackers_exploited_beyondtrust_zeroday_take",
+  "CVE_CVE-2026-102764",
+  "8df8bec4d0c190cb6bf9c3dbc06e7b1256b7a4b771e46feeae9af4cf4456e71e",
+  "https://www.bleepingcomputer.com/news/microsoft/kb5127648-windows-security-update-may-break-smart-app-control",
+  "slug_microsoft_october_windows_update_may_break",
+  "def25bb495d6a4cc7e0e9fec0837866321bbf000748cf71b9f2d22fbfcc332ff",
+  "https://cybersecuritynews.com/new-aoki-malware",
+  "slug_new_aoki_malware_targets_chatgpt_claude"
 ]
