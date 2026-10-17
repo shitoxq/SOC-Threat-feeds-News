@@ -1,13 +1,4 @@
 [
-  "slug_shinyhunters_hacked_clop_leak_site_using",
-  "14330cf1d73ded74138f69d0d2f794d2421cc4fd7dbde8b7cf0e09f36fa85e89",
-  "https://cybersecuritynews.com/botnet-uses-ai-agent",
-  "slug_researchers_found_botnet_that_uses_ai",
-  "954598ffa0c2058b73a80b26bfc222370ce56c44433da32d1716db081a5d41e4",
-  "https://www.bleepingcomputer.com/news/microsoft/microsoft-to-deprecate-windows-deployment-services-after-windows-server-2025",
-  "slug_microsoft_plans_deprecate_windows_deployment_services",
-  "a20863113833b621498792201a183492839ef00813d32299938fc423694f00b7",
-  "https://www.securityweek.com/in-other-news-clop-leak-site-takeover-docker-botnet-hunts-ai-keys-water-utility-exposure",
   "slug_other_news_clop_leak_site_takeover",
   "4ad381d57bc8a51f4d1bc750d9b11737cbfb4723a3f2f6d04b725128148cab51",
   "https://www.vulncheck.com/blog/vulncheck-exploit-intelligence-app-in-splunkbase",
@@ -998,5 +989,14 @@
   "slug_google_fixes_10_chrome_vulnerabilities_including",
   "1946ff799b3393ee0f7d240d3108e018992d5d5b739e98558543da976a396f36",
   "https://www.vulncheck.com/blog/virtualizor-billing-hook-unauthenticated-root-rce",
-  "slug_virtualizor_login_parameter_that_skips_loginvulncheckx27s"
+  "slug_virtualizor_login_parameter_that_skips_loginvulncheckx27s",
+  "219fd9eab491daf6e2fa95ed6dd86eea75a0ccb1886230efb6b82e44ee49d6c6",
+  "https://thehackernews.com/2026/10/malfex-npm-package-imgdecode-hides.html",
+  "slug_malfex_npm_package_x27imgdecodex27_hides_shellcode",
+  "5ada53a6ff00701fa6d19cd78b0887a4497d3022ed60da4c4ad0b8392e13e95c",
+  "https://cybersecuritynews.com/connectwise-credentials-microsoft-365-accounts",
+  "slug_hackers_used_compromised_connectwise_backup_credentials",
+  "ac6e3d37283a80f6a6580049a1ba8d25814e21a9728584ef34a482fdb08b270b",
+  "https://www.securityweek.com/israeli-ad-firm-doubled-as-candirus-zero-click-spyware-delivery-channel",
+  "slug_israeli_ad_firm_doubled_candirus_zeroclick"
 ]
