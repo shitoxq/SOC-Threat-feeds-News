@@ -1,14 +1,4 @@
 [
-  "e7242ab7eb4eeb38eec19e5582dba0eca107da117874a41d0dd4f82fe8f209be",
-  "https://cybersecuritynews.com/local-ai-bypasses-edr",
-  "slug_local_ai_model_modifies_windows_credential",
-  "01f7e1fced898888d22da7cb1a586d324df2b8b1009732050d8380edb0db247a",
-  "https://www.vulncheck.com/blog/return-of-the-kinsing",
-  "slug_return_kinsingcanary_intelligence_linked_exploitation_cve202346604",
-  "CVE_CVE-2023-46604",
-  "CVE_CVE-2023-38646",
-  "CVE_CVE-2025-55182",
-  "16e6f1ff0925d12742d7cd1e6825145759de7217e8c4389ff77303a9407bdb96",
   "https://thehackernews.com/2026/09/kiteworks-urges-customers-to-shut-down.html",
   "slug_kiteworks_urges_customers_shut_down_systems",
   "a821996a2d0f5a0e43407402faf1f4833713d8e25a6afcc6558ce0986d90eec8",
@@ -998,5 +988,15 @@
   "slug_openbsd_kernel_dating_back_37_years",
   "bb0c72e8fb5237ff5533b2c7343e4c4fc1e3545271614ad8d5bf9071b85d4275",
   "https://www.helpnetsecurity.com/2026/10/16/arch-linux-aur-malware-yay-paru",
-  "slug_fake_arch_linux_aur_packages_exploit"
+  "slug_fake_arch_linux_aur_packages_exploit",
+  "c24dc62865bc341a3432c2112ce3b1e1ce92f1a6ac266dd70b50c52d14ac9f2c",
+  "https://www.vulncheck.com/blog/cisco-fmc-auth-bypass-cve-2026-20079",
+  "slug_cve202620079_cisco_fmc_authentication_bypass_rce",
+  "CVE_CVE-2026-20079",
+  "0c4f10201be54e2f28e5a150d0dc9f21faca66ed23ab9515fe3b7270ce63a01c",
+  "https://gbhackers.com/ghostaction-hackers-hide-credential-stealing-malware",
+  "slug_ghostaction_hackers_hide_credentialstealing_malware_fake",
+  "4870b077e38c79cbb60a1080c6458b9061ab967fbb3f463a164fe5334a804149",
+  "https://www.helpnetsecurity.com/2026/10/16/android-enhanced-built-in-scam-protection",
+  "slug_android_adds_aipowered_scam_alerts_hangs"
 ]
