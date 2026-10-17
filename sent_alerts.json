@@ -1,13 +1,4 @@
 [
-  "https://cybersecuritynews.com/business-emails",
-  "slug_attackers_turning_everyday_business_emails_into",
-  "6c0fd01aad01bafff2aecdafae279b8e141824d1f5214abb7969e49a88971c34",
-  "https://thehackernews.com/2026/09/compromised-github-actions-came-back.html",
-  "slug_compromised_github_actions_came_back_online",
-  "474cb2e30caa08d1761484d3952bdafde8da4afc1a921e9a7ada327c32d1d279",
-  "https://www.bleepingcomputer.com/news/security/with-the-rise-of-ai-agents-soc-2-should-adapt-or-risk-irrelevance",
-  "slug_rise_ai_agents_soc_2_should",
-  "223ea7dafa41e01380f91f79c7352b93004c7c3b627cdf5bab1b5ab4e53790bd",
   "https://cybersecuritynews.com/samsung-flaw",
   "slug_hackers_used_samsung_build_cryptominer_inside",
   "4731c385479bc82a8039ea325ed1b7f154e1f032f80eed24d781206a73edf16c",
@@ -998,5 +989,14 @@
   "CVE_CVE-2026-103849",
   "cf304ded909ede943cb840bd25e9f3341c8388026738d6e6c933c0997570044d",
   "https://www.securityweek.com/in-other-news-ics-sniper-attack-hacking-xworm-malware-operators-250k-chrome-exploit",
-  "slug_other_news_icssniper_attack_hacking_xworm"
+  "slug_other_news_icssniper_attack_hacking_xworm",
+  "23e4826e2b125739a8b095fb52756c3fda2fc1f6eaf919f78459099bef8e2583",
+  "https://thehackernews.com/2026/10/uat-11985-uses-fake-event-invites-to.html",
+  "slug_uat11985_uses_fake_event_invites_target",
+  "7cca0e591c03bec44f9e919a2980fcabcffd53754d1db8cc229655b839c8d6d3",
+  "https://cybersecuritynews.com/37-year-old-kernel-openbsd-flaw",
+  "slug_37yearold_kernel_exploited_gain_root_access",
+  "470746d9a868cb54b002439550edfeeb371901cd07146a301c4241b0dea99597",
+  "https://www.securityweek.com/f5-juniper-networks-patch-critical-vulnerabilities",
+  "slug_f5_juniper_networks_patch_critical_vulnerabilities"
 ]
