@@ -1,13 +1,4 @@
 [
-  "https://cybersecuritynews.com/samsung-flaw",
-  "slug_hackers_used_samsung_build_cryptominer_inside",
-  "4731c385479bc82a8039ea325ed1b7f154e1f032f80eed24d781206a73edf16c",
-  "https://thehackernews.com/2026/09/pamstealer-macos-malware-adds-live-c2.html",
-  "slug_pamstealer_macos_malware_adds_live_c2",
-  "fafab2e206177b15fcd650379d4595f4ebbac58700babcc02d21dbf75dcee0c6",
-  "https://www.bleepingcomputer.com/news/security/cisa-warns-of-sharepoint-wso2-adobe-commerce-flaws-exploited-in-attacks",
-  "slug_cisa_warns_sharepoint_wso2_adobe_commerce",
-  "CVE_CVE-2026-5430",
   "ea0cd908195b0233ba1d9b2eb4747aba3772e7bbda13374937d6e40759cabef1",
   "https://cybersecuritynews.com/oneplus-15-flaws-zero-permission-apps",
   "slug_oneplus_15_let_zeropermission_apps_gain",
@@ -998,5 +989,14 @@
   "slug_37yearold_kernel_exploited_gain_root_access",
   "470746d9a868cb54b002439550edfeeb371901cd07146a301c4241b0dea99597",
   "https://www.securityweek.com/f5-juniper-networks-patch-critical-vulnerabilities",
-  "slug_f5_juniper_networks_patch_critical_vulnerabilities"
+  "slug_f5_juniper_networks_patch_critical_vulnerabilities",
+  "6b64c86706d393dbdbba53e391c171c94748a235e14d9c36462e2c17594ecd0b",
+  "https://cybersecuritynews.com/hackers-use-ai-generated-scripts",
+  "slug_hackers_use_aigenerated_scripts_hijack_linux",
+  "2ec11da078d25fee175ec458db20de93359af81552fa2f85af27ce71c96bee74",
+  "https://www.securityweek.com/microsoft-patches-two-dozen-rce-flaws-in-office",
+  "slug_microsoft_patches_two_dozen_rce_office",
+  "ebba1f4e2733c67859d7cec5339b77f6cc60d556571b1bf743d8f7ee0c885d5d",
+  "https://www.vulncheck.com/blog/xorbits-xoscar-unauth-cloudpickle-rce",
+  "slug_xorbits_xoscar_unauthenticated_rce_via_cloudpickle"
 ]
