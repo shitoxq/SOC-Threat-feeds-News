@@ -1,13 +1,4 @@
 [
-  "89764ae3a2ace700ac53559fd28314a807849ba215dcd5368c8aa208cc2ccec1",
-  "https://cybersecuritynews.com/14-year-old-linux-kernel-flaw",
-  "slug_14yearold_linux_kernel_lets_local_users",
-  "8479bfbd51e5d520d267043fb08ba45c7a5cb472a83a35c26c15fae2856b0027",
-  "https://thehackernews.com/2026/09/roundcube-pre-auth-sql-injection-flaw.html",
-  "slug_roundcube_preauth_sql_injection_actively_exploited",
-  "CVE_CVE-2026-48842",
-  "d018bdaaeea772c0d69fbc17340f46c86bbc4ad01b3df08a522e84b0144d9e96",
-  "https://www.bleepingcomputer.com/news/security/shinyhunters-hacked-clop-leak-site-using-grav-cms-path-traversal-flaw",
   "slug_shinyhunters_hacked_clop_leak_site_using",
   "14330cf1d73ded74138f69d0d2f794d2421cc4fd7dbde8b7cf0e09f36fa85e89",
   "https://cybersecuritynews.com/botnet-uses-ai-agent",
@@ -998,5 +989,14 @@
   "slug_proofpoint_inks_63_billion_allcash_deal",
   "4e31867fcf6f7c84838e390810a80ebb680b1871cea52dbe88aede73005796e6",
   "https://www.vulncheck.com/blog/integrity-technology-group-advisory",
-  "slug_expanding_visibility_into_chinese_governmentlinked_cyber"
+  "slug_expanding_visibility_into_chinese_governmentlinked_cyber",
+  "614eb364146c341c337919f1813cb668f6526229396ad4613cfe2a2f88155e03",
+  "https://thehackernews.com/2026/10/hackers-use-compromised-connectwise.html",
+  "slug_hackers_use_compromised_connectwise_credential_sign",
+  "6e2f1ad2a66d698966116a4c267b18c18521fdc409ff7506eaf4286c30a7690a",
+  "https://cybersecuritynews.com/google-fixes-10-chrome-vulnerabilities",
+  "slug_google_fixes_10_chrome_vulnerabilities_including",
+  "1946ff799b3393ee0f7d240d3108e018992d5d5b739e98558543da976a396f36",
+  "https://www.vulncheck.com/blog/virtualizor-billing-hook-unauthenticated-root-rce",
+  "slug_virtualizor_login_parameter_that_skips_loginvulncheckx27s"
 ]
