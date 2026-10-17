@@ -1,13 +1,4 @@
 [
-  "ea0cd908195b0233ba1d9b2eb4747aba3772e7bbda13374937d6e40759cabef1",
-  "https://cybersecuritynews.com/oneplus-15-flaws-zero-permission-apps",
-  "slug_oneplus_15_let_zeropermission_apps_gain",
-  "5859ebb6f1f83afa1ae9e559abd61f300c04a0dd34f3d0d98d90759bbe0a6a40",
-  "https://thehackernews.com/2026/09/the-soc-doesnt-need-to-start-over-with.html",
-  "slug_soc_doesnx27t_need_start_over_every",
-  "5e48870a7939d03b65f4ca707c50d3ff26fdca574da49fc7522ad7e56d3159b7",
-  "https://www.bleepingcomputer.com/news/security/kiteworks-urges-6-hour-server-shutdown-over-potential-zero-day-attacks",
-  "slug_kiteworks_urges_6hour_server_shutdown_over",
   "89764ae3a2ace700ac53559fd28314a807849ba215dcd5368c8aa208cc2ccec1",
   "https://cybersecuritynews.com/14-year-old-linux-kernel-flaw",
   "slug_14yearold_linux_kernel_lets_local_users",
@@ -998,5 +989,14 @@
   "slug_microsoft_patches_two_dozen_rce_office",
   "ebba1f4e2733c67859d7cec5339b77f6cc60d556571b1bf743d8f7ee0c885d5d",
   "https://www.vulncheck.com/blog/xorbits-xoscar-unauth-cloudpickle-rce",
-  "slug_xorbits_xoscar_unauthenticated_rce_via_cloudpickle"
+  "slug_xorbits_xoscar_unauthenticated_rce_via_cloudpickle",
+  "df2c740cd6f2771956563271e8826f869d3b8b1ce716cfe5974d7b331b5345e9",
+  "https://cybersecuritynews.com/openai-confirms-ai-model-hacked",
+  "slug_openai_confirms_its_ai_model_hacked",
+  "c81c8dc97699595287ae0c30b0e78137f35446b31f10b96a41575cbb8a1d13be",
+  "https://www.securityweek.com/proofpoint-inks-6-3-billion-all-cash-deal-to-acquire-varonis",
+  "slug_proofpoint_inks_63_billion_allcash_deal",
+  "4e31867fcf6f7c84838e390810a80ebb680b1871cea52dbe88aede73005796e6",
+  "https://www.vulncheck.com/blog/integrity-technology-group-advisory",
+  "slug_expanding_visibility_into_chinese_governmentlinked_cyber"
 ]
