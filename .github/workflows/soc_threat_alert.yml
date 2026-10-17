@@ -2,7 +2,12 @@ name: SOC Threat Intelligence Engine
 
 on:
   schedule:
+    # Real-time scanning every 10 minutes
     - cron: '*/10 * * * *'
+    # Morning Briefing: 8:00 AM ICT = 01:00 UTC
+    - cron: '0 1 * * *'
+    # Evening Briefing: 5:30 PM ICT = 10:30 UTC
+    - cron: '30 10 * * *'
   workflow_dispatch:
     inputs:
       mode:
@@ -14,6 +19,11 @@ on:
           - 'realtime'
           - 'morning'
           - 'evening'
+
+# Prevent duplicate runs at briefing times
+concurrency:
+  group: soc-engine
+  cancel-in-progress: false
 
 permissions:
   contents: write
@@ -37,27 +47,29 @@ jobs:
       - name: Detect Mode
         run: |
           MODE="realtime"
-          
+
           # Auto-detect briefing time (Cambodia ICT = UTC+7)
           HOUR_UTC=$(date -u +'%H')
           MIN_UTC=$(date -u +'%M')
-          
-          # 8:00 AM ICT = 01:00 UTC (match 01:00-01:09)
-          if [ "$HOUR_UTC" = "01" ] && [ "$MIN_UTC" -lt "10" ]; then
+
+          # 8:00 AM ICT = 01:00 UTC (match window 00:55 - 01:14 to handle cron delays)
+          if [ "$HOUR_UTC" = "00" ] && [ "$MIN_UTC" -ge "55" ]; then
+            MODE="morning"
+          elif [ "$HOUR_UTC" = "01" ] && [ "$MIN_UTC" -lt "15" ]; then
             MODE="morning"
           fi
-          
-          # 5:30 PM ICT = 10:30 UTC (match 10:30-10:39)
-          if [ "$HOUR_UTC" = "10" ] && [ "$MIN_UTC" -ge "30" ] && [ "$MIN_UTC" -lt "40" ]; then
+
+          # 5:30 PM ICT = 10:30 UTC (match window 10:25 - 10:44 to handle cron delays)
+          if [ "$HOUR_UTC" = "10" ] && [ "$MIN_UTC" -ge "25" ] && [ "$MIN_UTC" -lt "45" ]; then
             MODE="evening"
           fi
-          
-          # Manual override
+
+          # Manual override always wins
           if [ "${{ inputs.mode }}" != "" ] && [ "${{ inputs.mode }}" != "realtime" ]; then
             MODE="${{ inputs.mode }}"
           fi
-          
-          echo "MODE=$MODE" >> $GITHUB_ENV
+
+          echo "BRIEFING_MODE=$MODE" >> $GITHUB_ENV
           echo "[*] Engine Mode: $MODE (UTC $HOUR_UTC:$MIN_UTC)"
 
       - name: Run Threat Intel Engine
@@ -68,7 +80,7 @@ jobs:
           GEMINI_MODEL: ${{ vars.GEMINI_MODEL || 'gemini-3.6-flash' }}
           ALERT_DELAY_SECONDS: "15"
           MAX_ALERTS_PER_RUN: "3"
-          BRIEFING_MODE: ${{ env.MODE }}
+          BRIEFING_MODE: ${{ env.BRIEFING_MODE }}
         run: |
           python threat_intel_bot.py
 
@@ -76,7 +88,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          
+
           if [ -f sent_alerts.json ]; then
             git add sent_alerts.json
             if ! git diff-index --quiet HEAD; then
