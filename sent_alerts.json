@@ -1,14 +1,4 @@
 [
-  "slug_other_news_clop_leak_site_takeover",
-  "4ad381d57bc8a51f4d1bc750d9b11737cbfb4723a3f2f6d04b725128148cab51",
-  "https://www.vulncheck.com/blog/vulncheck-exploit-intelligence-app-in-splunkbase",
-  "slug_learn_how_operationalize_exploit_intelligence_splunk",
-  "087d84aa6c29cc3476c4ebd5d79a361ac2aae1083f04b35ef77834b4dd657b93",
-  "https://thehackernews.com/2026/09/elementor-csrf-flaw-lets-attackers-take.html",
-  "slug_elementor_csrf_lets_attackers_take_over",
-  "075a7dcf04287024a57d7faa74d3813eb4eafcf873873763275f9a576f5dd7f4",
-  "https://www.securityweek.com/new-x47-c-windows-botnet-weaponizes-xai-grok-ai-api-draining",
-  "slug_new_x47c_windows_botnet_weaponizes_xai",
   "78dba48bcdf2229a1dbdf292c4ee969f72886ad84894e368a5b1a2d786400ad6",
   "https://www.vulncheck.com/blog/anthropic-glasswing-cves",
   "slug_tracking_cves_attributed_anthropic_researchers_project",
@@ -998,5 +988,15 @@
   "slug_hackers_used_compromised_connectwise_backup_credentials",
   "ac6e3d37283a80f6a6580049a1ba8d25814e21a9728584ef34a482fdb08b270b",
   "https://www.securityweek.com/israeli-ad-firm-doubled-as-candirus-zero-click-spyware-delivery-channel",
-  "slug_israeli_ad_firm_doubled_candirus_zeroclick"
+  "slug_israeli_ad_firm_doubled_candirus_zeroclick",
+  "d667e6f88587edd93237cf18ebf745b845a28118ae27fc302be81812257653be",
+  "https://www.vulncheck.com/blog/cve-2017-9841",
+  "slug_9_yearold_php_vulnerability_keeps_swinging",
+  "CVE_CVE-2017-9841",
+  "4673f62a501522618cfd69a13c26b9864e657b7aa8ab4bfcee7d3c2a170177c7",
+  "https://www.helpnetsecurity.com/2026/10/16/usa-2026-midterm-election-scams",
+  "slug_scammers_clone_candidates_voices_steal_cash",
+  "30c32e408bf70bc21f42c4302706cea081d8b6d13841cf8f75ab79766499b591",
+  "https://ipurple.team/2026/08/04/provisioning-packages",
+  "slug_provisioning_packages"
 ]
