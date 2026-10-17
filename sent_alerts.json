@@ -1,13 +1,4 @@
 [
-  "slug_microsoft_pauses_kb5002907_update_after_office",
-  "8140ef385ba517fbcac2ace56b9f32d4e48147c817bc349f2a737295ed94f55a",
-  "https://cybersecuritynews.com/f-droid-2-0-released",
-  "slug_fdroid_20_released_after_10_years",
-  "9f09894f2cc84b8d206e83ce38e0c09c9ebbd1ec8da381ad6de0cc2905fe9c32",
-  "https://thehackernews.com/2026/09/lunex-stealer-abuses-amd-driver-to.html",
-  "slug_lunex_stealer_abuses_amd_driver_disable",
-  "294fe09f0c1444a031f06cf9f299d00f05ddf1a672d2fa35176c6a397923c8ed",
-  "https://www.securityweek.com/windows-linux-android-file-notification-systems-leak-user-activity",
   "slug_windows_linux_android_file_notification_systems",
   "c24dc62865bc341a3432c2112ce3b1e1ce92f1a6ac266dd70b50c52d14ac9f2c",
   "https://www.vulncheck.com/blog/cisco-fmc-auth-bypass-cve-2026-20079",
@@ -998,5 +989,14 @@
   "slug_first_cve_wave_signs_that_aiassisted",
   "362b8996fe1a3c9c0edd60d8a2420a6a49ff89bd0edf35a733a9b27b99de582d",
   "https://gbhackers.com/hackers-use-connectwise-skykick-credentials",
-  "slug_hackers_use_connectwise_skykick_credentials_access"
+  "slug_hackers_use_connectwise_skykick_credentials_access",
+  "58f47558d22e32b235c6f909a5b482a49e12ef9118f9b40647bf210b5b6ee566",
+  "https://www.bleepingcomputer.com/news/security/drupal-patches-critical-rce-flaws-warns-exploits-may-emerge-soon",
+  "slug_drupal_patches_critical_rce_warns_exploits",
+  "4ad381d57bc8a51f4d1bc750d9b11737cbfb4723a3f2f6d04b725128148cab51",
+  "https://www.vulncheck.com/blog/vulncheck-exploit-intelligence-app-in-splunkbase",
+  "slug_learn_how_operationalize_exploit_intelligence_splunk",
+  "e1a39548023b715875ab1b2f17c9100f5677b1b4fee56c61d2c9988cfe9f751a",
+  "https://gbhackers.com/critical-wordpress-flaws",
+  "slug_critical_wordpress_allow_attackers_execute_remote"
 ]
