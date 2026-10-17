@@ -1,13 +1,4 @@
 [
-  "slug_windows_linux_android_file_notification_systems",
-  "c24dc62865bc341a3432c2112ce3b1e1ce92f1a6ac266dd70b50c52d14ac9f2c",
-  "https://www.vulncheck.com/blog/cisco-fmc-auth-bypass-cve-2026-20079",
-  "slug_cve202620079_cisco_fmc_authentication_bypass_rce",
-  "CVE_CVE-2026-20079",
-  "049c4c6d156c4523b7940f437ee206be572af39e3d0df427fc2117d852d5c30e",
-  "https://thehackernews.com/2026/09/sharepoint-rce-and-mikrotik-routeros.html",
-  "slug_sharepoint_rce_mikrotik_routeros_actively_exploited",
-  "CVE_CVE-2026-65660",
   "e7242ab7eb4eeb38eec19e5582dba0eca107da117874a41d0dd4f82fe8f209be",
   "https://cybersecuritynews.com/local-ai-bypasses-edr",
   "slug_local_ai_model_modifies_windows_credential",
@@ -998,5 +989,14 @@
   "slug_learn_how_operationalize_exploit_intelligence_splunk",
   "e1a39548023b715875ab1b2f17c9100f5677b1b4fee56c61d2c9988cfe9f751a",
   "https://gbhackers.com/critical-wordpress-flaws",
-  "slug_critical_wordpress_allow_attackers_execute_remote"
+  "slug_critical_wordpress_allow_attackers_execute_remote",
+  "78dba48bcdf2229a1dbdf292c4ee969f72886ad84894e368a5b1a2d786400ad6",
+  "https://www.vulncheck.com/blog/anthropic-glasswing-cves",
+  "slug_tracking_cves_attributed_anthropic_researchers_project",
+  "98b1a9b7bc3b13222260037ada8a83f86684a56be6d865d2d2c9a782bbbc7d06",
+  "https://gbhackers.com/openbsd-kernel-flaw",
+  "slug_openbsd_kernel_dating_back_37_years",
+  "bb0c72e8fb5237ff5533b2c7343e4c4fc1e3545271614ad8d5bf9071b85d4275",
+  "https://www.helpnetsecurity.com/2026/10/16/arch-linux-aur-malware-yay-paru",
+  "slug_fake_arch_linux_aur_packages_exploit"
 ]
