@@ -1,13 +1,4 @@
 [
-  "CVE_CVE-2026-88771",
-  "CVE_CVE-2026-88772",
-  "7bf6d5eb186443ef0d21f76e7a86cd8a914d7e6334a881ecb3e6c6d0b06f8dce",
-  "https://www.vulncheck.com/blog/2026-vulncheck-exploit-intelligence-report",
-  "slug_introducing_2026_vulncheck_exploit_intelligence_reportindepth",
-  "b8ae156808120c0c982f8c9b190f00ba86ff0fe8a319fd8dd95673b663d4b20c",
-  "https://www.helpnetsecurity.com/2026/09/25/docker-launches-cloud-sandboxes",
-  "slug_docker_introduces_ocibased_kits_package_agents",
-  "5f69db7f313e857daa1cc91636e12493b4c5e37c74addfb1811cac8466edee45",
   "https://cybersecuritynews.com/windows-process-injection-evades-edr",
   "slug_new_windows_process_injection_attack_evades",
   "b3829597ab40e1153953e630ef1a36e27c5a16466383e99e11916e2df4030f96",
@@ -998,5 +989,14 @@
   "CVE_CVE-2026-20127",
   "bc30c42926ae42ee56de9d1451086a80b4b54181f70a731c1552d75bc5945bb9",
   "https://www.helpnetsecurity.com/2026/10/18/week-in-review-hidden-implant-in-ledger-wallets-linked-to-93m-theft-1500-npm-packages-exposed",
-  "slug_week_review_hidden_implant_ledger_wallets"
+  "slug_week_review_hidden_implant_ledger_wallets",
+  "25650ccc1da1c220b9459ea9a33a64f7b4c9217c57c3cfe9a00e2986e7b5ccc7",
+  "https://www.vulncheck.com/blog/siftrank_canaries",
+  "slug_siftranking_canary_intelligencecanary_intelligence_captures_thousands",
+  "3ed80a69971d806930c20333565eae8938db2d16d7ccb37d184fc3d70f65411b",
+  "https://www.helpnetsecurity.com/2026/10/16/stolen-ai-api-keys-autonomous-scans",
+  "slug_stolen_ai_api_keys_paying_hackers",
+  "8e57e2af1f9ba62a8b581de5de0f789d550ce703e0d2f5236a0ad0b50aedc947",
+  "https://www.infosecurity-magazine.com/news/ransomware-threats-physical",
+  "slug_ransomware_gangs_increasingly_turn_threats_physical"
 ]
