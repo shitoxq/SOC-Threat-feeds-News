@@ -1,13 +1,4 @@
 [
-  "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
-  "slug_active_exploitation_mikrotik_routeros_cve202667279",
-  "CVE_CVE-2026-67279",
-  "CVE_CVE-2026-86060",
-  "afccb2950c0f74aabeede061cd9e431db3f0458e4af0d6c10a5531336e9d6c87",
-  "https://www.vulncheck.com/blog/making-java-gadgets",
-  "slug_making_serialization_gadgets_hand_javalearn_how",
-  "0fff6cb532dc9d9549bfa21139e39504b8420b1c0027df9f34ec7c1ab3782886",
-  "https://www.helpnetsecurity.com/2026/09/25/sentinelone-extends-wayfinder-threat-hunting",
   "slug_sentinelone_extends_wayfinder_coverage_across_endpoints",
   "ca3c0a27926084de2ff21026b0cd3e0ccd5d36227bac0c51ca7cafb4e65a487e",
   "https://cybersecuritynews.com/wireshark-4-6-9-fixes-19-vulnerabilities",
@@ -998,5 +989,14 @@
   "slug_new_ghostbat_android_malware_targets_60",
   "1b6c768c6ed76a4d5182965004992a9a3c677fc02dcd61efe225709a1d6ad78c",
   "https://www.infosecurity-magazine.com/news/china-actor-beyondtrust-flaw-google",
-  "slug_china_espionage_actor_actively_targeting_critical"
+  "slug_china_espionage_actor_actively_targeting_critical",
+  "c96bea687e1c26b225816fa022d93a8d2cda1f66b9d08cad68a5e927f8a14a56",
+  "https://www.bleepingcomputer.com/news/security/hackers-exploit-siteguard-waf-flaw-to-run-commands-as-system-root",
+  "slug_hackers_exploit_siteguard_waf_run_commands",
+  "b3829597ab40e1153953e630ef1a36e27c5a16466383e99e11916e2df4030f96",
+  "https://www.vulncheck.com/blog/economic-value-lead-time",
+  "slug_what_28_days_faster_vulnerability_intelligence",
+  "657dd7743511efe8173daa0d86d93ec3167abcff94d775f7893b939553326743",
+  "https://gbhackers.com/romulus-malware-platform",
+  "slug_new_romulus_malware_platform_uses_six"
 ]
