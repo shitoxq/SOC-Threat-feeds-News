@@ -1,15 +1,4 @@
 [
-  "https://thehackernews.com/2026/09/warning-two-unpatched-citrix-netscaler.html",
-  "slug_warning_two_unpatched_citrix_netscaler_rce",
-  "0690891485c32100c6bcf2b96ce22d7d08065d06ad193612bdea8ba1b0a2ee02",
-  "https://cybersecuritynews.com/microsoft-auth-vulnerability-expose-records",
-  "slug_16yearold_researcher_finds_microsoft_auth_vulnerability",
-  "435bd94b9a602296659790bbdbea37c863470d0ec0c9fa571380a430f7c4ff3c",
-  "https://www.vulncheck.com/blog/cisco-sd-wan-manager-vulns",
-  "slug_herding_cats_recent_cisco_sdwan_manager",
-  "CVE_CVE-2026-20127",
-  "c6c75256eedfa72f7a8f56cdd00f3745981abaf0851c763c3bca9784c424ff8f",
-  "https://www.bleepingcomputer.com/news/security/cloudflare-fixes-containers-cross-tenant-flaw-exposing-customer-data",
   "slug_cloudflare_fixes_containers_crosstenant_exposing_customer",
   "25650ccc1da1c220b9459ea9a33a64f7b4c9217c57c3cfe9a00e2986e7b5ccc7",
   "https://www.vulncheck.com/blog/siftrank_canaries",
@@ -998,5 +987,16 @@
   "slug_cyber_talent_shortage_job_postings_just",
   "90994d6b9c7e4de5418b3456b567532f8eaec9a6980a547f65cc89d8dd15f0b1",
   "https://ipurple.team/2026/06/17/qos-policies",
-  "slug_qos_policies"
+  "slug_qos_policies",
+  "695f2d054a12200a3783a097d854a9067dce87a1900ca16c967d861c5db945bd",
+  "https://cybersecuritynews.com/opencode-security-breach",
+  "slug_opencode_security_breach_exposes_thirdparty_api",
+  "bcbc0a3ccc03e12eac56e4c729c042fde86e6fc6a0916c8eebd02ad34de5b98a",
+  "https://www.vulncheck.com/blog/n8n-needs-more-kev",
+  "slug_n8n_should_have_more_than_one",
+  "CVE_CVE-2025-68613",
+  "CVE_CVE-2026-21858",
+  "2f5899b75f0bb4c386ff446f57c317a32d1567aebe9f631f085566e577838c22",
+  "https://gbhackers.com/sidecopy-hackers-target-indian-organizations",
+  "slug_sidecopy_hackers_target_indian_organizations_reverserat"
 ]
