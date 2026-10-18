@@ -1,13 +1,4 @@
 [
-  "slug_16yearold_researcher_discovers_microsoft_authentication_bug",
-  "92a47b18db9bbe47493e7e5a1eff66c3bee58cbcc3b3fd3dda176dea32bcec0f",
-  "https://thehackernews.com/2026/09/weekly-recap-387m-crypto-hack-citrix.html",
-  "slug_weekly_recap_387m_crypto_hack_citrix",
-  "663bdb5bfe2648c7aeb9dc16b19977ea27b845ea9c76b65390814e210ec7f91c",
-  "https://www.bleepingcomputer.com/news/security/80-000-plus-organizations-had-ai-logins-stolen-from-shadow-ai-to-llmjacking",
-  "slug_80000_organizations_had_ai_logins_stolen",
-  "8f04e030c6bb0e3e520aa5749a4726db1d5bc91b61d0ffac566fcc3273c1f3c2",
-  "https://www.securityweek.com/nvidia-unveils-ai-agent-safety-platform-with-hardware-based-watchdog",
   "slug_nvidia_unveils_ai_agent_safety_platform",
   "3e5bc5aeb6b9864eff47897cd1a65f900961f1a78191bd08192ff69401c91b1a",
   "https://thehackernews.com/2026/09/apple-patches-coregraphics-flaw.html",
@@ -998,5 +989,14 @@
   "slug_making_serialization_gadgets_hand_javalearn_how",
   "140852184889494dd34ba47fd8728c3c841b725f5f708d8ff593fe480bcc66e9",
   "https://www.infosecurity-magazine.com/news/aoki-infostealer-ai-coding",
-  "slug_new_aoki_infostealer_targets_ai_coding"
+  "slug_new_aoki_infostealer_targets_ai_coding",
+  "0c8973450c0343fc310d92f1d57876e0a035c38c20f61482da06294517f4ba35",
+  "https://www.vulncheck.com/blog/metro4shell_eitw",
+  "slug_metro4shell_exploitation_react_natives_metro_server",
+  "CVE_CVE-2025-11953",
+  "71d5ed65887334393436801d4ab0074f44fb25cd2d48a18714357633ff669371",
+  "https://www.infosecurity-magazine.com/news/high-risk-vulnerabilities-llm-tool",
+  "slug_warning_over_highrisk_vulnerabilities_widely_used",
+  "CVE_CVE-2026-35029",
+  "CVE_CVE-2026-59823"
 ]
