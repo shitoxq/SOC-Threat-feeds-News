@@ -1,14 +1,4 @@
 [
-  "slug_cloudflare_fixes_containers_crosstenant_exposing_customer",
-  "25650ccc1da1c220b9459ea9a33a64f7b4c9217c57c3cfe9a00e2986e7b5ccc7",
-  "https://www.vulncheck.com/blog/siftrank_canaries",
-  "slug_siftranking_canary_intelligencecanary_intelligence_captures_thousands",
-  "fac26e3b136607111a36ce74ee65f21bf81a999e2db73b8036216158a268cb3e",
-  "https://gbhackers.com/windows-11-update-causes-black-screen",
-  "slug_windows_11_update_causes_black_screen",
-  "37307b66ca009ae41c1bd144b0c99723da3c39fee14e47175fccfd9bac50d5bc",
-  "https://www.bleepingcomputer.com/news/security/citrix-admins-warned-to-shut-down-netscalers-over-2-exploited-zero-days",
-  "slug_citrix_confirms_two_netscaler_rce_zerodays",
   "CVE_CVE-2026-88771",
   "CVE_CVE-2026-88772",
   "7bf6d5eb186443ef0d21f76e7a86cd8a914d7e6334a881ecb3e6c6d0b06f8dce",
@@ -998,5 +988,15 @@
   "CVE_CVE-2026-21858",
   "2f5899b75f0bb4c386ff446f57c317a32d1567aebe9f631f085566e577838c22",
   "https://gbhackers.com/sidecopy-hackers-target-indian-organizations",
-  "slug_sidecopy_hackers_target_indian_organizations_reverserat"
+  "slug_sidecopy_hackers_target_indian_organizations_reverserat",
+  "1a74dd4c9004a29993dc050f85457de1b53f76396882a7ca967835ba0ecc59c1",
+  "https://thehackernews.com/2026/10/connectwise-suspends-cloud-backup-after.html",
+  "slug_connectwise_suspends_cloud_backup_after_attackers",
+  "435bd94b9a602296659790bbdbea37c863470d0ec0c9fa571380a430f7c4ff3c",
+  "https://www.vulncheck.com/blog/cisco-sd-wan-manager-vulns",
+  "slug_herding_cats_recent_cisco_sdwan_manager",
+  "CVE_CVE-2026-20127",
+  "bc30c42926ae42ee56de9d1451086a80b4b54181f70a731c1552d75bc5945bb9",
+  "https://www.helpnetsecurity.com/2026/10/18/week-in-review-hidden-implant-in-ledger-wallets-linked-to-93m-theft-1500-npm-packages-exposed",
+  "slug_week_review_hidden_implant_ledger_wallets"
 ]
