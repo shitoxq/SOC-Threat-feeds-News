@@ -1,11 +1,4 @@
 [
-  "slug_nvidia_unveils_ai_agent_safety_platform",
-  "3e5bc5aeb6b9864eff47897cd1a65f900961f1a78191bd08192ff69401c91b1a",
-  "https://thehackernews.com/2026/09/apple-patches-coregraphics-flaw.html",
-  "slug_apple_patches_coregraphics_possibly_exploited_targeted",
-  "CVE_CVE-2026-86950",
-  "b0737336cb7918a11e26267ee33c37b8a1df9da15372f8de6aaa0deb7d62ac88",
-  "https://www.bleepingcomputer.com/news/security/times-car-confirms-data-breach-affecting-66-million-user-accounts",
   "slug_times_car_confirms_data_breach_affecting",
   "8a8fd3c3ebbdb94d743c09702d1c52e892a02666e4f8ccd319d86abca85cca02",
   "https://cybersecuritynews.com/needymantis-malware-secret-network-access",
@@ -998,5 +991,12 @@
   "https://www.infosecurity-magazine.com/news/high-risk-vulnerabilities-llm-tool",
   "slug_warning_over_highrisk_vulnerabilities_widely_used",
   "CVE_CVE-2026-35029",
-  "CVE_CVE-2026-59823"
+  "CVE_CVE-2026-59823",
+  "9959f25d0007181218f94a9b5acc1ae39aea4a1dcbf05396262e581569292fc1",
+  "https://www.vulncheck.com/blog/fortinet-forti-web-exploitation-hits-silently-patched-vulnerability",
+  "slug_fortinet_fortiweb_exploitation_hits_silently_patched",
+  "CVE_CVE-2025-64446",
+  "a85d713e1f8ca13870ba5f07113abd47d93090d893b62253507ef5596f95be39",
+  "https://www.infosecurity-magazine.com/news/microsoft-yam-store-one-billion",
+  "slug_microsoft_disrupts_global_yam_store_network"
 ]
