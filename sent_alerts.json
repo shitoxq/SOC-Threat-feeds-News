@@ -1,13 +1,4 @@
 [
-  "https://cybersecuritynews.com/windows-process-injection-evades-edr",
-  "slug_new_windows_process_injection_attack_evades",
-  "b3829597ab40e1153953e630ef1a36e27c5a16466383e99e11916e2df4030f96",
-  "https://www.vulncheck.com/blog/economic-value-lead-time",
-  "slug_what_28_days_faster_vulnerability_intelligence",
-  "81162ac00f292e2eecb6c741ffc0c9a9776b75ccebb7b450ec8a687c5f727721",
-  "https://gbhackers.com/kiteworks-systems-offline-amid-suspected-zero-day",
-  "slug_kiteworks_warns_users_take_systems_offline",
-  "18d4ac8f8ecac5a742c8886688eca44bed7b8eaec48f5fc67aa3918dccc1f4e0",
   "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
   "slug_active_exploitation_mikrotik_routeros_cve202667279",
   "CVE_CVE-2026-67279",
@@ -998,5 +989,14 @@
   "slug_stolen_ai_api_keys_paying_hackers",
   "8e57e2af1f9ba62a8b581de5de0f789d550ce703e0d2f5236a0ad0b50aedc947",
   "https://www.infosecurity-magazine.com/news/ransomware-threats-physical",
-  "slug_ransomware_gangs_increasingly_turn_threats_physical"
+  "slug_ransomware_gangs_increasingly_turn_threats_physical",
+  "7bf6d5eb186443ef0d21f76e7a86cd8a914d7e6334a881ecb3e6c6d0b06f8dce",
+  "https://www.vulncheck.com/blog/2026-vulncheck-exploit-intelligence-report",
+  "slug_introducing_2026_vulncheck_exploit_intelligence_reportindepth",
+  "da5353915a04cdbd3384b097de56bc157257a9108089e02c75e4133c674190c3",
+  "https://gbhackers.com/ghostbat-android-malware",
+  "slug_new_ghostbat_android_malware_targets_60",
+  "1b6c768c6ed76a4d5182965004992a9a3c677fc02dcd61efe225709a1d6ad78c",
+  "https://www.infosecurity-magazine.com/news/china-actor-beyondtrust-flaw-google",
+  "slug_china_espionage_actor_actively_targeting_critical"
 ]
