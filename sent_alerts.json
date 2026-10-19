@@ -1,13 +1,4 @@
 [
-  "CVE_CVE-2026-24423",
-  "cb8a6ba8d9499fadbc1ae52e4e4f15c555380a39a6156176f7a6d00ae5dd3c73",
-  "https://thehackernews.com/2026/09/bitget-says-attacker-exploited-third.html",
-  "slug_bitget_says_attacker_exploited_thirdparty_security",
-  "24d4e99becb681c2eb30f000cd6f39db4843eaed8b3b45241d5c73767d4e126b",
-  "https://www.bleepingcomputer.com/news/security/jadepuffer-agentic-ai-attacks-target-azure-destroy-cloud-resources",
-  "slug_jadepuffer_agentic_ai_attacks_target_azure",
-  "df16f3107e9fe17e1d303bb80bc8e80568819131b858ce3298c0297ffea0388e",
-  "https://www.vulncheck.com/blog/state-of-exploitation-2026",
   "slug_vulncheck_state_exploitation_2026key_trends_findings",
   "50972d407b47a0bfb0cedf6bdc92556a31718753e17e4658e3f2318a27816447",
   "https://thehackernews.com/2026/09/openai-pauses-tool-use-after-agent.html",
@@ -998,5 +989,14 @@
   "slug_making_serialization_gadgets_hand_netcreating_languagenative",
   "d87986d9ec810097e08be622b19c6d7ce202baf77c21f927dbb902f1e9f38ccd",
   "https://www.helpnetsecurity.com/2026/10/19/bearer-cli-free-code-security-scanning-tool-sast",
-  "slug_bearer_cli_free_sourceavailable_code_security"
+  "slug_bearer_cli_free_sourceavailable_code_security",
+  "0bba864fde4bc05b83f5e6d71df0236dbf7f847f9fc49e3658268340f5f0c0ec",
+  "https://cybersecuritynews.com/google-unveils-new-android-ai-protections",
+  "slug_google_unveils_new_android_ai_protections",
+  "45ade7ed19bf905bd1ea8c3caee1d7e348716e2199827a04ffef4fd3999b1764",
+  "https://www.vulncheck.com/blog/november-2025-research-highlights",
+  "slug_vulncheck_research_highlights_november_2025insights_emerging",
+  "33190709bb6fe4e211bb22262974d8e2b2cbb41de04f61c6ba3a5c822f76ee74",
+  "https://gbhackers.com/u-s-agencies-warn-ai-agents",
+  "slug_us_agencies_warn_ai_agents_could"
 ]
