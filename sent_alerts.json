@@ -1,11 +1,4 @@
 [
-  "slug_times_car_confirms_data_breach_affecting",
-  "8a8fd3c3ebbdb94d743c09702d1c52e892a02666e4f8ccd319d86abca85cca02",
-  "https://cybersecuritynews.com/needymantis-malware-secret-network-access",
-  "slug_microsoft_finds_new_malware_used_hackers",
-  "bef7f6a21fd6f32c4da3d0b40a12882536d8ffbe23b9f3339834b795c4292cd5",
-  "https://thehackernews.com/2026/09/hackers-use-needymantis-to-maintain.html",
-  "slug_hackers_use_needymantis_maintain_longterm_access",
   "57c942caaea37adebc61a753aacf6b7610f48f7bee2e304654bb8e05ab29b6d4",
   "https://www.bleepingcomputer.com/news/security/japans-keio-confirms-ransomware-attack-disrupted-business-systems",
   "slug_japanx27s_keio_confirms_ransomware_attack_disrupted",
@@ -998,5 +991,12 @@
   "CVE_CVE-2025-64446",
   "a85d713e1f8ca13870ba5f07113abd47d93090d893b62253507ef5596f95be39",
   "https://www.infosecurity-magazine.com/news/microsoft-yam-store-one-billion",
-  "slug_microsoft_disrupts_global_yam_store_network"
+  "slug_microsoft_disrupts_global_yam_store_network",
+  "d54a890b110ea2aba369f5443c9d4fa740bef9d494639cd46d10bc966baa0ab8",
+  "https://www.vulncheck.com/blog/xwiki-under-increased-attack",
+  "slug_xwiki_under_increased_attackwhat_began_one",
+  "CVE_CVE-2025-24893",
+  "c123cc6c1ceedbf6540224e16c4806c412dfb0e938cbc87e7ff928b8f43c0488",
+  "https://www.infosecurity-magazine.com/news/ico-reprimands-met-over-thirdparty",
+  "slug_ico_reprimands_met_over_thirdparty_data"
 ]
