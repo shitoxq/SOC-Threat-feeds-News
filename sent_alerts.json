@@ -1,14 +1,4 @@
 [
-  "ca7def1fee7c7d15815f2bfa445727775564d8fc953fa07255bc72ce2ff8e956",
-  "https://thehackernews.com/2026/09/russias-star-blizzard-targets-100.html",
-  "slug_russiax27s_star_blizzard_targets_100_organizations",
-  "27b19d8d98c357280f8145160602388c61478645a8c936779506a95267b75784",
-  "https://www.bleepingcomputer.com/news/security/signal-adds-encypted-local-backup-support-to-ios-desktop-apps",
-  "slug_signal_adds_encypted_local_backup_support",
-  "fb84161af7e3b9f5a0d4f80f6293e26e4827ca966ac80403de6495360ab00689",
-  "https://cybersecuritynews.com/hackers-built-a-botnet",
-  "slug_hackers_built_botnet_that_doesnt_just",
-  "a748e8f0fd47be447ad8fc8a27456c107d93969a79c81a18a281d242470ceec4",
   "https://thehackernews.com/2026/09/101-malicious-npm-packages-add.html",
   "slug_101_malicious_npm_packages_add_developersx27",
   "822640c668025c49ee378046f9095eb13b6a1e87578229c7392f40945b02b31a",
@@ -998,5 +988,15 @@
   "469494426858ce094090b3a3a342f68a62eb91a504e53017bdfc31a5f8b3e7d8",
   "https://cybersecuritynews.com/hackers-exploit-siteguard-waf-vulnerability",
   "slug_hackers_exploit_siteguard_waf_vulnerability_that",
-  "CVE_CVE-2026-106931"
+  "CVE_CVE-2026-106931",
+  "2b433345de9bc12f06d26b410f4eb7c15f9e8e41e93bceff981af75e3d4eaf09",
+  "https://thehackernews.com/2026/10/hackers-exploit-plex2shell-flaws-to.html",
+  "slug_hackers_exploit_plex2shell_install_crypto_miners",
+  "accf3c954e485cd109db73f7ba98366fab44e71f796df15c4b94374b6d998c0a",
+  "https://www.bleepingcomputer.com/news/security/hackers-hijack-aomei-update-servers-to-secretly-spread-malware",
+  "slug_hackers_hijack_aomei_update_servers_secretly",
+  "d2f1f1f89ec3c8d5dadf6fea18c920e3dd9b23d062e1568dea6512f0868b2fb0",
+  "https://cybersecuritynews.com/drupal-rce-vulnerability",
+  "slug_critical_drupal_rce_vulnerability_could_let",
+  "CVE_CVE-2026-108097"
 ]
