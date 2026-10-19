@@ -1,14 +1,4 @@
 [
-  "slug_gpt6_astra_ai_agent_tried_deceive",
-  "f429d2e637ac61626a595a0a6bef732447fcb8f2135750c35c1d84f2a3b3d6c9",
-  "https://thehackernews.com/2026/09/new-spectre-v2-btr-attack-leaks-linux.html",
-  "slug_new_spectrev2_btr_attack_leaks_linux",
-  "00578a4b6c93743ad82a9b69bffdd2b8389a35a076ee57bd4a1383f223709a61",
-  "https://www.bleepingcomputer.com/news/security/former-us-air-force-members-sent-to-prison-over-bec-attacks",
-  "slug_former_us_air_force_members_sent",
-  "36422fad905b4570d126b0266155eff7fb9f845aba72893072f6813daa3bc58a",
-  "https://cybersecuritynews.com/malware-inside-7-zip-installers",
-  "slug_hackers_hide_malware_inside_7zip_installers",
   "ca7def1fee7c7d15815f2bfa445727775564d8fc953fa07255bc72ce2ff8e956",
   "https://thehackernews.com/2026/09/russias-star-blizzard-targets-100.html",
   "slug_russiax27s_star_blizzard_targets_100_organizations",
@@ -998,5 +988,15 @@
   "slug_f5_releases_outofband_patches_critical_nginx",
   "17c77edc019b9131b0d86c5957889666378b69beddeafddce4fb52ada0a5b9e4",
   "https://www.securityweek.com/plex2shell-exploit-chain-weaponized-against-plex-servers-hours-after-disclosure",
-  "slug_plex2shell_exploit_chain_weaponized_against_plex"
+  "slug_plex2shell_exploit_chain_weaponized_against_plex",
+  "e6f76086848f718ff70f9bf84b6692c24974371aba24bfb2ef743b5309f12d42",
+  "https://thehackernews.com/2026/10/weekly-recap-98-zero-days-rogue-ai.html",
+  "slug_weekly_recap_98_zerodays_rogue_ai",
+  "9eca5e160adfccd045432eed4f36bcb3648cfd5d6ca802216380fdbfa760e034",
+  "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-game-app-crashes-caused-by-windows-kb5124010-preview-update",
+  "slug_microsoft_fixes_game_app_crashes_caused",
+  "469494426858ce094090b3a3a342f68a62eb91a504e53017bdfc31a5f8b3e7d8",
+  "https://cybersecuritynews.com/hackers-exploit-siteguard-waf-vulnerability",
+  "slug_hackers_exploit_siteguard_waf_vulnerability_that",
+  "CVE_CVE-2026-106931"
 ]
