@@ -1,13 +1,4 @@
 [
-  "https://thehackernews.com/2026/09/101-malicious-npm-packages-add.html",
-  "slug_101_malicious_npm_packages_add_developersx27",
-  "822640c668025c49ee378046f9095eb13b6a1e87578229c7392f40945b02b31a",
-  "https://www.bleepingcomputer.com/news/microsoft/microsoft-is-rolling-out-linux-container-support-to-wsl",
-  "slug_microsoft_rolling_out_linux_container_support",
-  "e0a8ae41a23bb958e5b3dc0f22235b274177f387a31e79bdf03bd5b1863da76a",
-  "https://www.securityweek.com/pentagon-personnel-agency-data-breach-impacts-3-million-people",
-  "slug_pentagon_personnel_agency_data_breach_impacts",
-  "af99e8f3c52bcb81e153fd30b9396b577c917bed56e06fb62d94f184e1f6253c",
   "https://www.bleepingcomputer.com/news/security/custom-chatgpts-push-clickfix-attacks-to-deploy-rat-malware",
   "slug_custom_chatgpts_push_clickfix_attacks_deploy",
   "8b2c1c42f7da450298530cf389176b49c6bb415f0158fb7896664149a966d1f4",
@@ -998,5 +989,14 @@
   "d2f1f1f89ec3c8d5dadf6fea18c920e3dd9b23d062e1568dea6512f0868b2fb0",
   "https://cybersecuritynews.com/drupal-rce-vulnerability",
   "slug_critical_drupal_rce_vulnerability_could_let",
-  "CVE_CVE-2026-108097"
+  "CVE_CVE-2026-108097",
+  "98fe862721adbe7cb835e226a2c58698efa3a9c6364425f27c644d8baf58f347",
+  "https://thehackernews.com/2026/10/popular-wordpress-seo-plugin-rank-math.html",
+  "slug_popular_wordpress_seo_plugin_rank_math",
+  "56cde8f81c9c3a2d5081189f0651550ac7553675593bb92835bf31ea94189fbf",
+  "https://www.bleepingcomputer.com/news/security/nikkei-discloses-third-data-breach-in-a-month-18m-records-exposed",
+  "slug_nikkei_discloses_third_data_breach_month",
+  "804de865bccc9d682208fe9d28cfff41566d139cd44c28837d3b03b930fb00dd",
+  "https://cybersecuritynews.com/ai-models-as-insider-threats",
+  "slug_microsoft_says_ai_agents_cannot_be"
 ]
