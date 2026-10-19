@@ -1,10 +1,4 @@
 [
-  "57c942caaea37adebc61a753aacf6b7610f48f7bee2e304654bb8e05ab29b6d4",
-  "https://www.bleepingcomputer.com/news/security/japans-keio-confirms-ransomware-attack-disrupted-business-systems",
-  "slug_japanx27s_keio_confirms_ransomware_attack_disrupted",
-  "c21db5e5719b6ff94228ef25be61f7b6779fbfd303a26bf76ec89dbd5fffa56c",
-  "https://www.vulncheck.com/blog/smartermail-connecttohub-rce-cve-2026-24423",
-  "slug_street_smarts_smartermail_connecttohub_unauthenticated_rce",
   "CVE_CVE-2026-24423",
   "cb8a6ba8d9499fadbc1ae52e4e4f15c555380a39a6156176f7a6d00ae5dd3c73",
   "https://thehackernews.com/2026/09/bitget-says-attacker-exploited-third.html",
@@ -998,5 +992,11 @@
   "CVE_CVE-2025-24893",
   "c123cc6c1ceedbf6540224e16c4806c412dfb0e938cbc87e7ff928b8f43c0488",
   "https://www.infosecurity-magazine.com/news/ico-reprimands-met-over-thirdparty",
-  "slug_ico_reprimands_met_over_thirdparty_data"
+  "slug_ico_reprimands_met_over_thirdparty_data",
+  "aed7533007a48c8c40e813719962dc59466f8bd1b1d26af2040a1a5ae2a7d9cf",
+  "https://www.vulncheck.com/blog/making-dotnet-gadgets",
+  "slug_making_serialization_gadgets_hand_netcreating_languagenative",
+  "d87986d9ec810097e08be622b19c6d7ce202baf77c21f927dbb902f1e9f38ccd",
+  "https://www.helpnetsecurity.com/2026/10/19/bearer-cli-free-code-security-scanning-tool-sast",
+  "slug_bearer_cli_free_sourceavailable_code_security"
 ]
