@@ -1,14 +1,4 @@
 [
-  "0a705b1644e1dc140778fdc1526bda0a0102ac9edbd89307708dffad6608554a",
-  "https://thehackernews.com/2026/10/google-rolls-out-gemini-4-argon-to.html",
-  "slug_google_rolls_out_gemini_4_argon",
-  "264f10671eac2b397ed6a86406ac69099e5dca80c1fb66f6ccb16f897f351fd2",
-  "https://cybersecuritynews.com/teamviewer-vulnerabilities",
-  "slug_critical_teamviewer_vulnerabilities_enable_code_execution",
-  "3c7689b66a713e949338406096ea6e85c5a948f5b073fd8bba2b7e3f43c3e0db",
-  "https://www.securityweek.com/cisco-patches-exploited-catalyst-sd-wan-zero-day-vulnerability",
-  "slug_cisco_patches_exploited_catalyst_sdwan_zeroday",
-  "dcd4b62c704ac0a9913324912247813b1c03adbf90baaa6e72cc249100724d1c",
   "https://thehackernews.com/2026/10/wordpress-backdoor-rebuilds-itself.html",
   "slug_wordpress_backdoor_rebuilds_itself_after_cleanup",
   "32527eb88a0f77fd3806d7e65e640acb9f9703d53a96501815984fda5d373cce",
@@ -998,5 +988,15 @@
   "slug_windows_server_2025_gets_support_quick",
   "3457d621d0b11e5370e0a5424f07c77fc91f5ecb8ff22c668204474c740bce5e",
   "https://cybersecuritynews.com/fbi-suspects-cybersecurity-executive-shinyhunters",
-  "slug_fbi_suspects_cybersecurity_executive_helped_shinyhunters"
+  "slug_fbi_suspects_cybersecurity_executive_helped_shinyhunters",
+  "584d35c71235748c5853ae0ee8facd11c2557a1afe12b5bae233b2cc206ecade",
+  "https://thehackernews.com/2026/10/critical-fortisiem-flaw-gets-public.html",
+  "slug_critical_fortisiem_gets_public_exploit_poc",
+  "CVE_CVE-2026-106173",
+  "b33188cb23d42b8ab56aa0946a7a519c2bd262991e2d709fc2eeee986b26174b",
+  "https://cybersecuritynews.com/google-cloud-outage",
+  "slug_google_cloud_outage_knocks_uk_banks",
+  "e576f652c7a1f74933a88d7529807e6fb10a6cb8fc9ce504f62d41f10d415050",
+  "https://www.securityweek.com/aomei-backupper-compromised-in-short-burst-supply-chain-campaign",
+  "slug_aomei_backupper_compromised_shortburst_supply_chain"
 ]
