@@ -1,14 +1,4 @@
 [
-  "https://thehackernews.com/2026/09/attackers-exploit-zimbra-flaw-to-deploy.html",
-  "slug_attackers_exploit_zimbra_deploy_web_shells",
-  "CVE_CVE-2026-73570",
-  "ff744366d8b7408a6c1bfdc5aba98eadf74a1b6752aa48787b9d0a2de416936a",
-  "https://www.bleepingcomputer.com/news/security/cisa-warns-of-critical-pre-auth-rce-flaw-in-mikrotik-routeros",
-  "slug_cisa_warns_critical_preauth_rce_mikrotik",
-  "1cac40fa99ee0742fc1ca2cd273a34f4512a6e368035dc1bfaa4cd626ed63964",
-  "https://cybersecuritynews.com/cloudflare-post-quantum-ca",
-  "slug_cloudflare_builds_postquantum_ca_merkle_tree",
-  "cb2af8d2a0d2744bb1110a6b2de1091fdfa4e845037b6c5611d4828af8809313",
   "https://thehackernews.com/2026/09/attackers-abuse-msp360-to-deploy.html",
   "slug_attackers_abuse_msp360_deploy_screenconnect_dualrmm",
   "7be42d4d62a22932c2555252f2070e749ecb77face502a3239cf6a6479edf4d4",
@@ -998,5 +988,15 @@
   "slug_opencode_hack_exposes_api_keys_amid",
   "b7d3f639b1676d54338f6865043cd53b28eb225e1d910af91d6b8da06cc4edf6",
   "https://www.securityweek.com/siemens-software-center-vulnerability-exploited-in-clickfix-malware-attacks",
-  "slug_siemens_software_center_vulnerability_exploited_clickfix"
+  "slug_siemens_software_center_vulnerability_exploited_clickfix",
+  "8aec3f414ba4d7d53ed495a2c530cf612b0449be043654da2e59a5f0d8e1a75c",
+  "https://thehackernews.com/2026/10/clickfix-attackers-exploit-siemens.html",
+  "slug_clickfix_attackers_exploit_siemens_software_center",
+  "CVE_CVE-2026-110936",
+  "cb1432e2ab3f057b6d052f8dd305039cc590bbca9b1ae11999ccf54b9d4a3a6a",
+  "https://cybersecuritynews.com/fake-google-meet-pages",
+  "slug_hackers_using_fake_google_meet_pages",
+  "bff8b4d59775cf8a938205f9a23914d9f6510d5a467a5bfc46586e3496d4240e",
+  "https://www.securityweek.com/drupal-warns-of-fast-exploitation-risk-for-critical-core-rce-flaw",
+  "slug_drupal_warns_fast_exploitation_risk_critical"
 ]
