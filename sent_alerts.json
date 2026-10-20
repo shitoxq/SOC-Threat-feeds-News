@@ -1,14 +1,4 @@
 [
-  "https://thehackernews.com/2026/10/wordpress-backdoor-rebuilds-itself.html",
-  "slug_wordpress_backdoor_rebuilds_itself_after_cleanup",
-  "32527eb88a0f77fd3806d7e65e640acb9f9703d53a96501815984fda5d373cce",
-  "https://www.bleepingcomputer.com/news/security/police-dismantle-killsec-ransomware-gang-allegedly-led-by-16-year-old",
-  "slug_police_dismantle_killsec_ransomware_gang_allegedly",
-  "de6654ace24150ed6e51be1c3717726848e0830779edb7a267d40b69f9eee11c",
-  "https://cybersecuritynews.com/16-year-old-leader-killsec-ransomware",
-  "slug_16yearold_alleged_killsec_ransomware_group_leader",
-  "1ba8da53d09e99343886ecfafc67449967d1f73bbe706904874b2042476cecdc",
-  "https://thehackernews.com/2026/10/police-arrest-16-year-old-suspected-of.html",
   "slug_police_arrest_16yearold_suspected_running_killsec",
   "573dc06a1fd2caf6eeee94966aea932b513fabaaa45034e95f94d0d109b57a3e",
   "https://www.bleepingcomputer.com/news/security/microsoft-says-threat-actors-are-ahead-in-the-early-ai-race",
@@ -998,5 +988,15 @@
   "slug_google_cloud_outage_knocks_uk_banks",
   "e576f652c7a1f74933a88d7529807e6fb10a6cb8fc9ce504f62d41f10d415050",
   "https://www.securityweek.com/aomei-backupper-compromised-in-short-burst-supply-chain-campaign",
-  "slug_aomei_backupper_compromised_shortburst_supply_chain"
+  "slug_aomei_backupper_compromised_shortburst_supply_chain",
+  "1e26274c4cd9491712143e4ae714dfefb589c69eb42ff55f03efa741c51fcb58",
+  "https://thehackernews.com/2026/10/eight-emudhra-ca-keys-compromised.html",
+  "slug_eight_emudhra_ca_keys_compromised_triggering",
+  "8faa1def84c10a61d67d929aa3ee48fe4f0e6758b063e87777e094e39b10f48f",
+  "https://www.securityweek.com/ahold-delhaize-restoring-services-disrupted-by-cyberattack",
+  "slug_ahold_delhaize_restoring_services_disrupted_cyberattack",
+  "180b7269a390e96408f3caecd58f9e5dfa0578642befc687911c8ef6122f7bbd",
+  "https://www.vulncheck.com/blog/revenge-of-the-sd-wan-cve-2026-76504",
+  "slug_revenge_sdwan_exploring_exploiting_yet_another",
+  "CVE_CVE-2026-76504"
 ]
