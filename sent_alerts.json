@@ -1,13 +1,4 @@
 [
-  "https://thehackernews.com/2026/09/attackers-abuse-msp360-to-deploy.html",
-  "slug_attackers_abuse_msp360_deploy_screenconnect_dualrmm",
-  "7be42d4d62a22932c2555252f2070e749ecb77face502a3239cf6a6479edf4d4",
-  "https://www.bleepingcomputer.com/news/security/russian-state-hackers-use-new-redflick-technique-to-push-malware",
-  "slug_russian_state_hackers_use_new_redflick",
-  "727c3ecd659de5a46fe077807d0243268fde64fc7f0454b7e1583bea819aad78",
-  "https://cybersecuritynews.com/chrome-update-with-32-security-fixes",
-  "slug_google_releases_chrome_update_32_security",
-  "9475c717ac1e72751f86ed7fe483239d5df1ee431e31497e23c97ffcce6ab050",
   "https://thehackernews.com/2026/09/cisco-warns-of-attackers-exploiting.html",
   "slug_cisco_warns_attackers_exploiting_critical_authentication",
   "CVE_CVE-2026-76504",
@@ -998,5 +989,14 @@
   "slug_hackers_using_fake_google_meet_pages",
   "bff8b4d59775cf8a938205f9a23914d9f6510d5a467a5bfc46586e3496d4240e",
   "https://www.securityweek.com/drupal-warns-of-fast-exploitation-risk-for-critical-core-rce-flaw",
-  "slug_drupal_warns_fast_exploitation_risk_critical"
+  "slug_drupal_warns_fast_exploitation_risk_critical",
+  "a960a69e2016cfacc55792cbacc379bd408451a0640729337e8e4283eebedcee",
+  "https://thehackernews.com/2026/10/russian-apt28-breaches-nato-naval.html",
+  "slug_russian_apt28_breaches_nato_naval_shipbuilder",
+  "35198a8c673263278efefa988435198314df731bbb796aa9b42417dda3331c69",
+  "https://www.bleepingcomputer.com/news/security/ovhcloud-cli-releases-backdoored-on-github-to-steal-developer-secrets",
+  "slug_ovhcloud_cli_releases_backdoored_github_steal",
+  "e290503e7f59ba7cd5248f4ca30073801182e8c79f9460f0ad4ddac40c1ffdee",
+  "https://cybersecuritynews.com/hackers-hijack-790-github-repositories",
+  "slug_hackers_hijack_790_github_repositories_steal"
 ]
