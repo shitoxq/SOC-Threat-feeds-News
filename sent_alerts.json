@@ -1,13 +1,4 @@
 [
-  "https://thehackernews.com/2026/09/us-focused-csuite-phishing-steals.html",
-  "slug_usfocused_csuite_phishing_steals_microsoft_365",
-  "6b38840ee17685c158384f66d277de1e614bd6d10fe92743ab01bdf8f17925ff",
-  "https://www.bleepingcomputer.com/news/security/microsoft-to-block-entra-id-script-injection-attacks-starting-october",
-  "slug_microsoft_block_entra_id_script_injection",
-  "133897217c1668f92445ad519d0039a3b0ff28778577ac2aee9110f07fbad922",
-  "https://cybersecuritynews.com/hackers-turned-a-papercut-print-server",
-  "slug_hackers_turned_papercut_print_server_into",
-  "fe95a2c38cafc89756761d9175c1528791319f6830228b0baf81d1657f0521cc",
   "https://thehackernews.com/2026/09/attackers-exploit-zimbra-flaw-to-deploy.html",
   "slug_attackers_exploit_zimbra_deploy_web_shells",
   "CVE_CVE-2026-73570",
@@ -998,5 +989,14 @@
   "slug_wordpress_seo_plugin_rank_math_compromised",
   "8705a4e7867a9dde41812b5ca438552fc0e54606fdd5ebba300fc323ed817870",
   "https://cybersecuritynews.com/bright-security-introduces-star-fuzzer-agentic-fuzzing-that-writes-its-own-harnesses-and-proves-every-finding",
-  "slug_bright_security_introduces_star_fuzzer_agentic"
+  "slug_bright_security_introduces_star_fuzzer_agentic",
+  "62badca6addc0ac9c83b2642b4361e5f1f19734989a09d5df8cacfc24a91e8e6",
+  "https://thehackernews.com/2026/10/fake-web3-accelerator-uses-npm-packages.html",
+  "slug_fake_web3_accelerator_uses_npm_packages",
+  "9a57b89ca868a05ddf09bc1df2578c1132d92cf92b5325b305dc9616ff2a2acb",
+  "https://www.bleepingcomputer.com/news/security/opencode-hack-exposes-api-keys-amid-ai-distillation-attacks",
+  "slug_opencode_hack_exposes_api_keys_amid",
+  "b7d3f639b1676d54338f6865043cd53b28eb225e1d910af91d6b8da06cc4edf6",
+  "https://www.securityweek.com/siemens-software-center-vulnerability-exploited-in-clickfix-malware-attacks",
+  "slug_siemens_software_center_vulnerability_exploited_clickfix"
 ]
