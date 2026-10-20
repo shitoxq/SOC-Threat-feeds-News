@@ -1,13 +1,4 @@
 [
-  "https://www.bleepingcomputer.com/news/security/custom-chatgpts-push-clickfix-attacks-to-deploy-rat-malware",
-  "slug_custom_chatgpts_push_clickfix_attacks_deploy",
-  "8b2c1c42f7da450298530cf389176b49c6bb415f0158fb7896664149a966d1f4",
-  "https://cybersecuritynews.com/mcp-python-sdk-oauth-flaw",
-  "slug_mcp_python_sdk_oauth_lets_malicious",
-  "2e9375e4363009c04bec6fb878aa2b50c659371db3d8219749c3969f77cd4b8d",
-  "https://www.securityweek.com/high-severity-vulnerabilities-patched-in-openssl-wolfssl",
-  "slug_highseverity_vulnerabilities_patched_openssl_wolfssl",
-  "4e63cd870861b1c90480cb308a4de3f0f43d7b1cddbd358a82099b095da34a64",
   "https://thehackernews.com/2026/09/us-focused-csuite-phishing-steals.html",
   "slug_usfocused_csuite_phishing_steals_microsoft_365",
   "6b38840ee17685c158384f66d277de1e614bd6d10fe92743ab01bdf8f17925ff",
@@ -998,5 +989,14 @@
   "slug_nikkei_discloses_third_data_breach_month",
   "804de865bccc9d682208fe9d28cfff41566d139cd44c28837d3b03b930fb00dd",
   "https://cybersecuritynews.com/ai-models-as-insider-threats",
-  "slug_microsoft_says_ai_agents_cannot_be"
+  "slug_microsoft_says_ai_agents_cannot_be",
+  "8674d78c6f98bb17df7573235af22d07577de646f580e8a0b07db4e2c0979eb2",
+  "https://thehackernews.com/2026/10/from-email-to-case-to-boardroom-how.html",
+  "slug_from_emailtocase_boardroom_how_inherited_agents",
+  "ae719e30f803e843f76dba682b0fcc3fbb7c6b5f33be886dcfe07013080f57d9",
+  "https://www.bleepingcomputer.com/news/security/wordpress-seo-plugin-rank-math-compromised-to-backdoor-websites",
+  "slug_wordpress_seo_plugin_rank_math_compromised",
+  "8705a4e7867a9dde41812b5ca438552fc0e54606fdd5ebba300fc323ed817870",
+  "https://cybersecuritynews.com/bright-security-introduces-star-fuzzer-agentic-fuzzing-that-writes-its-own-harnesses-and-proves-every-finding",
+  "slug_bright_security_introduces_star_fuzzer_agentic"
 ]
