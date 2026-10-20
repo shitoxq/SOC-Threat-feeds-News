@@ -1,13 +1,4 @@
 [
-  "https://thehackernews.com/2026/09/cisco-warns-of-attackers-exploiting.html",
-  "slug_cisco_warns_attackers_exploiting_critical_authentication",
-  "CVE_CVE-2026-76504",
-  "e68cbc7e3a9017fd09b0dc6bf3b978a31bb2af560e6994c112e42dc732c59e7b",
-  "https://www.bleepingcomputer.com/news/security/divd-says-zammad-zero-days-enabled-ai-driven-network-breach",
-  "slug_divd_says_zammad_zerodays_enabled_aidriven",
-  "b8e7abff46ccb69a738876cc57184d0f047586197f062ca082b12e1be5272cb4",
-  "https://cybersecuritynews.com/citrix-0-day-vulnerabilities-webshells",
-  "slug_google_warns_hackers_actively_exploiting_citrix",
   "0a705b1644e1dc140778fdc1526bda0a0102ac9edbd89307708dffad6608554a",
   "https://thehackernews.com/2026/10/google-rolls-out-gemini-4-argon-to.html",
   "slug_google_rolls_out_gemini_4_argon",
@@ -998,5 +989,14 @@
   "slug_ovhcloud_cli_releases_backdoored_github_steal",
   "e290503e7f59ba7cd5248f4ca30073801182e8c79f9460f0ad4ddac40c1ffdee",
   "https://cybersecuritynews.com/hackers-hijack-790-github-repositories",
-  "slug_hackers_hijack_790_github_repositories_steal"
+  "slug_hackers_hijack_790_github_repositories_steal",
+  "f000a8c0fede9d2d8cdb142840a7b493b5f08f31eff23495499a3ee94df92672",
+  "https://thehackernews.com/2026/10/pegasus-spyware-infection-confirmed-on.html",
+  "slug_pegasus_spyware_infection_confirmed_serbian_university",
+  "cf82a7c7a00534bd2127c6b04319217427ce1e89ce0ff356e0007f46f09ab45b",
+  "https://www.bleepingcomputer.com/news/microsoft/windows-server-2025-gets-support-for-quick-machine-recovery",
+  "slug_windows_server_2025_gets_support_quick",
+  "3457d621d0b11e5370e0a5424f07c77fc91f5ecb8ff22c668204474c740bce5e",
+  "https://cybersecuritynews.com/fbi-suspects-cybersecurity-executive-shinyhunters",
+  "slug_fbi_suspects_cybersecurity_executive_helped_shinyhunters"
 ]
