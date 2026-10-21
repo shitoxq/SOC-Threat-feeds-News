@@ -1,15 +1,4 @@
 [
-  "slug_android_17_advanced_protection_locks_accessibility",
-  "8d3352921da70b7d6a2c19c1b1b04dc32ba7dedec84305eeab6586d0e2511388",
-  "https://www.bleepingcomputer.com/news/security/microsofts-x-account-hacked-in-crypto-token-pump-and-dump-scheme",
-  "slug_microsofts_x_account_hacked_crypto_pumpanddump",
-  "fc33325fa5b8b52b8e24d2e4fc02e3d2861e2daa70515a79b4062e90e40602a1",
-  "https://cybersecuritynews.com/ps5-security-update",
-  "slug_sony_rolls_out_ps5_security_update",
-  "2fb0abb39d71922812ae99c167e45492c1cf26f035bd56f26093f4765697c204",
-  "https://thehackernews.com/2026/10/antino-backdoor-uses-outlook-and.html",
-  "slug_antino_backdoor_uses_outlook_onedrive_c2",
-  "4f4e016349669a16fbe9ca444ad5c15edd973fc51e4144a27b29ae783f550a04",
   "https://www.bleepingcomputer.com/news/security/gitlab-warns-of-critical-rce-vulnerability-in-ai-gateway-service",
   "slug_gitlab_warns_critical_rce_vulnerability_ai",
   "14c6a8861104906e15809718bea40438f24de6cb1080eedcacca59658a52ded6",
@@ -998,5 +987,16 @@
   "slug_mozilla_google_apple_block_compromised_emudhra",
   "1c5d65ff3019c65c58999191178f307f4a665dfd56b2a5a71ac695840c01abbc",
   "https://cybersecuritynews.com/wp2shell-attack",
-  "slug_wp2shell_attack_lets_hackers_create_wordpress"
+  "slug_wp2shell_attack_lets_hackers_create_wordpress",
+  "2f30cd1c0af42cce1757c5873c3564fe4b451ea3e55d8c245811f22327975e78",
+  "https://thehackernews.com/2026/10/state-bank-of-india-confirms-data-leak.html",
+  "slug_state_bank_india_confirms_data_leak",
+  "22d0c61a1535ae0793c779f80d1162cf5c1ce826f2722837a64ca5b632cbc159",
+  "https://www.bleepingcomputer.com/news/security/cisa-and-fbi-safepay-ransomware-has-hit-over-600-critical-infrastructure-organizations",
+  "slug_cisa_safepay_ransomware_hit_over_600",
+  "28f60572de277545d9ba3df50847a36409f1d749372b2abd08522c027a3f13ac",
+  "https://www.securityweek.com/php2shell-mass-exploitation-looms-for-leaked-critical-php-flaws",
+  "slug_php2shell_mass_exploitation_looms_leaked_critical",
+  "CVE_CVE-2026-109618",
+  "CVE_CVE-2026-109619"
 ]
