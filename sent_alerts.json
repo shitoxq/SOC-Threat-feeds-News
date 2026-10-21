@@ -1,13 +1,4 @@
 [
-  "slug_how_financial_services_companies_can_modernize",
-  "c5b60b042df43c76aaefc818d245cc6bc7761d81e771db4237a0035a916fbecf",
-  "https://www.bleepingcomputer.com/news/security/autonomous-ai-agents-tried-to-hack-us-canadian-government-websites",
-  "slug_autonomous_ai_agents_tried_hack_us",
-  "ea3d6d4785d021a6f52474da4e1c3db63859a5b6d05475b60c7b3227d1423348",
-  "https://cybersecuritynews.com/apache-http-server-vulnerabilities-2",
-  "slug_multiple_apache_http_server_vulnerabilities_could",
-  "e9bd716f670acca907d4305b03bf53cfe0394b45e73f197f2e97eee59e3584e8",
-  "https://thehackernews.com/2026/10/android-17-advanced-protection-locks.html",
   "slug_android_17_advanced_protection_locks_accessibility",
   "8d3352921da70b7d6a2c19c1b1b04dc32ba7dedec84305eeab6586d0e2511388",
   "https://www.bleepingcomputer.com/news/security/microsofts-x-account-hacked-in-crypto-token-pump-and-dump-scheme",
@@ -998,5 +989,14 @@
   "slug_hackers_exploit_open_banking_services_test",
   "ea6cbc17d7d18c8680ffe773b22d84e02d5a0d384ceaf529d72f939d439f312e",
   "https://www.securityweek.com/microsoft-targets-rogue-ai-agents-with-dynamic-permissions-risk-scoring",
-  "slug_microsoft_targets_rogue_ai_agents_dynamic"
+  "slug_microsoft_targets_rogue_ai_agents_dynamic",
+  "8231b6f9ea3f8bfffda492a722692ea691123db4b56577d66b077e9a6648656e",
+  "https://thehackernews.com/2026/10/php2shell-two-unpatched-critical-php.html",
+  "slug_php2shell_two_unpatched_critical_php_rce",
+  "0a8a1e3f4f528a68f5caad3c18420576995f84677e641c5a8d8c7263a5d77393",
+  "https://www.bleepingcomputer.com/news/security/mozilla-google-apple-block-compromised-emudhra-ca-certificates",
+  "slug_mozilla_google_apple_block_compromised_emudhra",
+  "1c5d65ff3019c65c58999191178f307f4a665dfd56b2a5a71ac695840c01abbc",
+  "https://cybersecuritynews.com/wp2shell-attack",
+  "slug_wp2shell_attack_lets_hackers_create_wordpress"
 ]
