@@ -1,14 +1,4 @@
 [
-  "slug_police_arrest_16yearold_suspected_running_killsec",
-  "573dc06a1fd2caf6eeee94966aea932b513fabaaa45034e95f94d0d109b57a3e",
-  "https://www.bleepingcomputer.com/news/security/microsoft-says-threat-actors-are-ahead-in-the-early-ai-race",
-  "slug_microsoft_says_threat_actors_ahead_early",
-  "74df9b959e43707ac0a8d7ae54b187cf521bb12d1467c3e3d599c34da7f842cb",
-  "https://cybersecuritynews.com/hackers-built-a-windows-backdoor",
-  "slug_hackers_built_windows_backdoor_whose_entire",
-  "ab51ae9f2bbed371b21a57ed5862a8b05852b5f48be2e70e30eaa9e4ad123970",
-  "https://thehackernews.com/2026/10/threatsday-ai-powered-zero-day-chain.html",
-  "slug_threatsday_aipowered_zeroday_chain_543k_live",
   "f976444fc13ca998876fc2b5776144a3c8318dd7f3b1559693f330cee313311b",
   "https://www.bleepingcomputer.com/news/security/fortinet-warns-of-critical-fortimail-flaw-exploited-in-zero-day-attacks",
   "slug_fortinet_warns_critical_fortimail_exploited_zeroday",
@@ -998,5 +988,15 @@
   "180b7269a390e96408f3caecd58f9e5dfa0578642befc687911c8ef6122f7bbd",
   "https://www.vulncheck.com/blog/revenge-of-the-sd-wan-cve-2026-76504",
   "slug_revenge_sdwan_exploring_exploiting_yet_another",
-  "CVE_CVE-2026-76504"
+  "CVE_CVE-2026-76504",
+  "ea6b3d531b32228e5717b1cf0fb7f63d1844737321b4195e984e5f87c45974ef",
+  "https://thehackernews.com/2026/10/qilin-and-inc-ransomware-groups-exploit.html",
+  "slug_qilin_inc_ransomware_groups_exploit_palo",
+  "CVE_CVE-2026-0257",
+  "5d21d5eb9e3792c7cf7ebf69df23eb4440e92fd78823b6c66fe6d118a7684d7d",
+  "https://cybersecuritynews.com/emudhra-security-compromise",
+  "slug_emudhra_certificate_authority_compromise_triggers_emergency",
+  "f40f67d57da99b51be25096f554fc121ed0266a35b23538c0c4ae94bfa5a3e45",
+  "https://www.securityweek.com/ai-platform-cairn-abused-to-hack-over-100-organizations",
+  "slug_ai_platform_cairn_abused_hack_over"
 ]
