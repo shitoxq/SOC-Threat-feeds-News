@@ -1,13 +1,4 @@
 [
-  "0a87e7e2ec15eb138eb8e2eb0de3f302ad71e1fe00ad1b8dd0ee757be6d34748",
-  "https://www.vulncheck.com/blog/pwning-the-ai-stack",
-  "slug_same_target_different_playbooks_two_attackers",
-  "7d96c85341cf3b2bcf45add157d1b01210a93b104ad368ab9759c5426b342365",
-  "https://ipurple.team/2026/09/21/dump-encoding-library",
-  "slug_dump_encoding_library",
-  "bd18b57a89a822b3fe69cba32139cacd122efbdb181df554ea458e6fbb747434",
-  "https://cybersecuritynews.com/gitlab-ai-gateway-vulnerability",
-  "slug_critical_gitlab_ai_gateway_vulnerability_enables",
   "CVE_CVE-2026-90970",
   "04d07d847c1f27e3c414789ea6d774acebfeadd54f0aab95fce381296ebc6dea",
   "https://www.securityweek.com/warlock-expands-sharepoint-exploitation-in-critical-infrastructure-attacks",
@@ -998,5 +989,14 @@
   "slug_cisa_hackers_chain_plex_plex2shell_attacks",
   "ce2310e91d89304eb3936b9da443c75bc72b43877ca7276e4a6732086a50c549",
   "https://cybersecuritynews.com/the-ai-adoption-blind-spot-how-fake-ai-tools-put-enterprises-at-risk",
-  "slug_ai_adoption_blind_spot_how_fake"
+  "slug_ai_adoption_blind_spot_how_fake",
+  "6815f2a0b4a0d8cf043fde44d9443d90822dee334dd86f143e7cce8ec37d7ae5",
+  "https://thehackernews.com/2026/10/critical-gitlab-flaw-cvss-100-could.html",
+  "slug_critical_gitlab_cvss_100_could_allow",
+  "da801ae6378fd88fd436c6c68d8b7ca26f4186c65b4c77ba677ecdec9b856b3d",
+  "https://www.bleepingcomputer.com/news/security/japans-onamae-desktop-cloud-hacked-up-to-27-000-servers-affected",
+  "slug_japanx27s_onamae_desktop_cloud_hacked_up",
+  "7318ea6a0859a74cbe9c99ac0a59099fe98b4d6c528888cf1ee8fc9d0b36f0fb",
+  "https://cybersecuritynews.com/hackers-use-ai-powered-browsers",
+  "slug_hackers_use_aipowered_browsers_hide_thousands"
 ]
