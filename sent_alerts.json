@@ -1,13 +1,4 @@
 [
-  "https://www.bleepingcomputer.com/news/security/gitlab-warns-of-critical-rce-vulnerability-in-ai-gateway-service",
-  "slug_gitlab_warns_critical_rce_vulnerability_ai",
-  "14c6a8861104906e15809718bea40438f24de6cb1080eedcacca59658a52ded6",
-  "https://cybersecuritynews.com/hackers-turned-a-microsoft-sql-server",
-  "slug_hackers_turned_microsoft_sql_server_into",
-  "5f13530361d7760b64b43979cd241364ec98ddd8abe4e1e18dfea966d64ba380",
-  "https://thehackernews.com/2026/10/dell-csm-flaws-enable-unauthenticated.html",
-  "slug_dell_csm_enable_unauthenticated_admin_access",
-  "CVE_CVE-2026-63688",
   "ddf68a3b14b984552f97cc92fa9ab41a2d4154d1ee2849b5ec255223a450c270",
   "https://www.bleepingcomputer.com/news/security/frontline-education-data-breach-impacts-school-district-employees",
   "slug_frontline_education_breach_exposes_school_district",
@@ -998,5 +989,14 @@
   "https://www.securityweek.com/php2shell-mass-exploitation-looms-for-leaked-critical-php-flaws",
   "slug_php2shell_mass_exploitation_looms_leaked_critical",
   "CVE_CVE-2026-109618",
-  "CVE_CVE-2026-109619"
+  "CVE_CVE-2026-109619",
+  "e2527452350fa74e2228678b88b36304d835c228438d170475aa98f796f4f0dc",
+  "https://thehackernews.com/2026/10/google-chrome-adds-clickfix-warnings-to.html",
+  "slug_google_chrome_adds_clickfix_warnings_stop",
+  "8c2f7f751d6e9901eefcbd413561cf8a731f4eafffda77e45f145120baa90538",
+  "https://www.bleepingcomputer.com/news/security/clickfix-has-never-been-bigger-and-ai-tools-are-its-most-convincing-lure-yet",
+  "slug_clickfix_has_never_been_bigger_ai",
+  "e6384cca5b3cda798fdeeaa18baee624aa85286aabfc68258e22e1090e291c4f",
+  "https://www.securityweek.com/memory-bugs-account-for-most-of-chromes-353-new-security-fixes",
+  "slug_memory_bugs_account_most_chromes_353"
 ]
