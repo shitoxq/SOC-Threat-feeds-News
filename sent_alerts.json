@@ -1,13 +1,4 @@
 [
-  "f976444fc13ca998876fc2b5776144a3c8318dd7f3b1559693f330cee313311b",
-  "https://www.bleepingcomputer.com/news/security/fortinet-warns-of-critical-fortimail-flaw-exploited-in-zero-day-attacks",
-  "slug_fortinet_warns_critical_fortimail_exploited_zeroday",
-  "CVE_CVE-2026-104286",
-  "d110e1884522f76b6cb948ff92ac2a10007ec488982a2a2b226bd7e3b18b9368",
-  "https://www.securityweek.com/police-shut-down-killsec-ransomware-identify-alleged-teen-leader",
-  "slug_police_shut_down_killsec_ransomware_identify",
-  "1866931397eaa08cbf0d4d262ecee7cccf4ef71fce9f592341dba41a4caa5c75",
-  "https://thehackernews.com/2026/10/how-financial-services-companies-can.html",
   "slug_how_financial_services_companies_can_modernize",
   "c5b60b042df43c76aaefc818d245cc6bc7761d81e771db4237a0035a916fbecf",
   "https://www.bleepingcomputer.com/news/security/autonomous-ai-agents-tried-to-hack-us-canadian-government-websites",
@@ -998,5 +989,14 @@
   "slug_emudhra_certificate_authority_compromise_triggers_emergency",
   "f40f67d57da99b51be25096f554fc121ed0266a35b23538c0c4ae94bfa5a3e45",
   "https://www.securityweek.com/ai-platform-cairn-abused-to-hack-over-100-organizations",
-  "slug_ai_platform_cairn_abused_hack_over"
+  "slug_ai_platform_cairn_abused_hack_over",
+  "cca7cc882101073b1925112b97b10d455a26bbbb9a9710fcc6c6fa5fa81e63f6",
+  "https://www.bleepingcomputer.com/news/security/stolen-updraftcentral-keys-used-to-backdoor-wordpress-sites",
+  "slug_stolen_updraftcentral_keys_used_backdoor_wordpress",
+  "a1219d9c01fb761850dd758ccbef7eb19f5e379ae70e28a5987e809c1e06c0ac",
+  "https://cybersecuritynews.com/hackers-exploit-open-banking-services",
+  "slug_hackers_exploit_open_banking_services_test",
+  "ea6cbc17d7d18c8680ffe773b22d84e02d5a0d384ceaf529d72f939d439f312e",
+  "https://www.securityweek.com/microsoft-targets-rogue-ai-agents-with-dynamic-permissions-risk-scoring",
+  "slug_microsoft_targets_rogue_ai_agents_dynamic"
 ]
