@@ -1,13 +1,4 @@
 [
-  "cf16166a90364442b49e8d13da3218b2b90238ed5f66130ccdd9631b8add532c",
-  "https://cybersecuritynews.com/hackers-poison-trusted-software-updates",
-  "slug_hackers_poison_trusted_software_updates_steal",
-  "16384a18ae1ec6f276e9132dabc49050344c9567556634487a6ed6e9647a5c03",
-  "https://www.securityweek.com/macos-users-targeted-by-fake-zoom-installer-carrying-cloudsyncd-backdoor",
-  "slug_macos_users_targeted_fake_zoom_installer",
-  "619298c41e95319a96d6b21cac1b9ef2d1874d1943f8e66b80c1618f1af4aaa3",
-  "https://www.securityweek.com/crypto-scammers-hijack-microsofts-official-x-account",
-  "slug_crypto_scammers_hijack_microsofts_official_x",
   "0a87e7e2ec15eb138eb8e2eb0de3f302ad71e1fe00ad1b8dd0ee757be6d34748",
   "https://www.vulncheck.com/blog/pwning-the-ai-stack",
   "slug_same_target_different_playbooks_two_attackers",
@@ -998,5 +989,14 @@
   "slug_microsoft_powertoys_adds_cursorhide_button_lock",
   "bfde0fdd86ff8d908f49d622004b7cfb62ed48175ee1d22ccdb77f93df60c8b0",
   "https://cybersecuritynews.com/hackers-use-gentlemen-ransomware",
-  "slug_hackers_use_gentlemen_ransomware_disable_windows"
+  "slug_hackers_use_gentlemen_ransomware_disable_windows",
+  "d9304dd4f7f5ae5de2a3fda8e8a29fb19a4029fa769d0a779f3751101f28c01d",
+  "https://thehackernews.com/2026/10/litellm-compromised-in-supply-chain.html",
+  "slug_litellm_compromised_supply_chain_attack_delivering",
+  "5a196014b076e4d3360fd4645f447b9422aeacc2551d1e70e581d12d227c3efe",
+  "https://www.bleepingcomputer.com/news/security/cisa-hackers-chain-plex-flaws-in-plex2shell-attacks-to-breach-servers",
+  "slug_cisa_hackers_chain_plex_plex2shell_attacks",
+  "ce2310e91d89304eb3936b9da443c75bc72b43877ca7276e4a6732086a50c549",
+  "https://cybersecuritynews.com/the-ai-adoption-blind-spot-how-fake-ai-tools-put-enterprises-at-risk",
+  "slug_ai_adoption_blind_spot_how_fake"
 ]
