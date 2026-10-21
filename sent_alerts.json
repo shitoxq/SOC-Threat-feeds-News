@@ -1,13 +1,4 @@
 [
-  "ddf68a3b14b984552f97cc92fa9ab41a2d4154d1ee2849b5ec255223a450c270",
-  "https://www.bleepingcomputer.com/news/security/frontline-education-data-breach-impacts-school-district-employees",
-  "slug_frontline_education_breach_exposes_school_district",
-  "159f7997a51d26a5219de8d468058856819bb242f200ffc0e8e211669994d7f7",
-  "https://www.securityweek.com/in-other-news-15k-icloud-spoofing-bugs-ai-policy-experts-phished-adblocker-spies-on-ai-chats",
-  "slug_other_news_15k_icloud_spoofing_bugs",
-  "bdff0396443ec3a72030eb33379567a007a492960386b71eea2c0b8b5db4daba",
-  "https://www.bleepingcomputer.com/news/security/warlock-ransomware-breach-sharepoint-in-water-telecom-operator-attacks",
-  "slug_warlock_ransomware_breach_sharepoint_water_telecom",
   "cf16166a90364442b49e8d13da3218b2b90238ed5f66130ccdd9631b8add532c",
   "https://cybersecuritynews.com/hackers-poison-trusted-software-updates",
   "slug_hackers_poison_trusted_software_updates_steal",
@@ -998,5 +989,14 @@
   "slug_clickfix_has_never_been_bigger_ai",
   "e6384cca5b3cda798fdeeaa18baee624aa85286aabfc68258e22e1090e291c4f",
   "https://www.securityweek.com/memory-bugs-account-for-most-of-chromes-353-new-security-fixes",
-  "slug_memory_bugs_account_most_chromes_353"
+  "slug_memory_bugs_account_most_chromes_353",
+  "02b6efa6343689ed583be05adf75690545cd4254d298475797bf3fc21013f2a0",
+  "https://thehackernews.com/2026/10/php-issues-emergency-patches-for-two.html",
+  "slug_php_issues_emergency_patches_two_critical",
+  "9a4fb1da763d726db2e7d1d7f92e41a6cb7af4c88586b6aec81c3968f1536ffa",
+  "https://www.bleepingcomputer.com/news/microsoft/microsoft-powertoys-adds-cursorhide-button-lock-mouse-tools",
+  "slug_microsoft_powertoys_adds_cursorhide_button_lock",
+  "bfde0fdd86ff8d908f49d622004b7cfb62ed48175ee1d22ccdb77f93df60c8b0",
+  "https://cybersecuritynews.com/hackers-use-gentlemen-ransomware",
+  "slug_hackers_use_gentlemen_ransomware_disable_windows"
 ]
