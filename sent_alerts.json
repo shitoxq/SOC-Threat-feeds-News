@@ -1,13 +1,4 @@
 [
-  "slug_ai_giving_attackers_head_start_microsoft",
-  "b7a287cfbcada699c54933236ff485e9e5a539066c7b99a23362d48358b2660c",
-  "https://www.vulncheck.com/blog/cvss-severity",
-  "slug_critical_cves_cvss_v4_adoption_gap",
-  "93bf12fa973ba05d97e70376f00d18787634a2c7f330a4e642986a342f5ef476",
-  "https://www.helpnetsecurity.com/2026/10/02/china-aligned-ta419-phishing-ai-policy-experts",
-  "slug_chinese_spies_impersonate_white_house_anthropic",
-  "59730e2407b364de01a7249da986087d56b93894626ea4f6f58a09e1f487420d",
-  "https://ipurple.team/2026/09/09/windows-security-center",
   "slug_windows_security_center",
   "aac5cc1a7d26e13fa0a5f7d7365a0ed8fd8515b8b7334c47b468a810f22db7f6",
   "https://thehackernews.com/2026/10/china-aligned-ta419-targets-us-ai.html",
@@ -998,5 +989,14 @@
   "slug_amazon_says_php2shell_exploitation_began_4",
   "1c0514a9ac4652af18eaa34c23d1e7e39d951df3a440c5c636ed9ca429319c43",
   "https://cybersecuritynews.com/north-korean-hackers",
-  "slug_north_korean_hackers_use_postquantum_encryption"
+  "slug_north_korean_hackers_use_postquantum_encryption",
+  "d99ba89c8964f8cde6f533ec1b99a8d8c9747d92184cb870c77945106ab5b4b2",
+  "https://thehackernews.com/2026/10/threatsday-ai-secrets-leak-pingcap.html",
+  "slug_threatsday_ai_secrets_leak_pingcap_source",
+  "cf879587b537377b167988d23f1c459ee280c5984f8c212fd2871ffaaea9fc20",
+  "https://www.bleepingcomputer.com/news/security/litellm-release-pipeline-hacked-to-distribute-info-stealer-malware",
+  "slug_litellm_release_pipeline_hacked_distribute_infostealer",
+  "3098c6aae2ffad59f57890f109585c6081a299b8058fdd8ee37c2f0693710888",
+  "https://www.securityweek.com/signal-vulnerability-lets-malicious-callers-block-hang-ups",
+  "slug_signal_vulnerability_lets_malicious_callers_block"
 ]
