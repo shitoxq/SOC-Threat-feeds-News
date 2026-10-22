@@ -1,13 +1,4 @@
 [
-  "d5c541420322babeb3c1152b2e114e9fef6f46497bd59021f547ca128e5ef104",
-  "https://cybersecuritynews.com/microsoft-reissues-exchange-server-update",
-  "slug_microsoft_pushes_new_exchange_v2_update",
-  "d70478c2d2d873d5195251b8d7ffb91bcf4a628082f30acde10d63a8efe56f5c",
-  "https://www.vulncheck.com/blog/forticloud-sso-login-bypass",
-  "slug_forticloud_sso_login_bypass_vulnerabilities_exploited",
-  "e9798f994f19abfb402814b679f558de129c3f66f3db10bf11f0d40710a47290",
-  "https://gbhackers.com/cling-malware-masquerades-as-google-stun-traffic",
-  "slug_cling_malware_masquerades_google_stun_traffic",
   "73e8ac4f22faee52ebd68e4c571abccd3777d8c246e8c014392cfc904b8a0de3",
   "https://www.bleepingcomputer.com/news/google/google-gemini-could-soon-get-full-access-to-your-macs-files-apps-and-the-web",
   "slug_google_gemini_could_soon_get_full",
@@ -998,5 +989,14 @@
   "slug_chinalinked_hackers_use_artex_ai_target",
   "f4e575eb22134bcfcfe7f65aa69c03d5791197eda8563c53f31e098a41f26623",
   "https://www.securityweek.com/high-severity-flaws-exploited-in-three-days-as-ransomware-dominates-q3-rapid7",
-  "slug_highseverity_exploited_three_days_ransomware_dominates"
+  "slug_highseverity_exploited_three_days_ransomware_dominates",
+  "60f4824a9b3246055d90ea6dc2ed2ab96077914445771ac5b3a828d035d6e4e8",
+  "https://thehackernews.com/2026/10/interpol-arrests-1462-suspects-disrupts.html",
+  "slug_interpol_arrests_1462_suspects_disrupts_10909",
+  "dcd4266a8f995cbfb1097db8c802fe1111577996cf1169043d30a4e05344a606",
+  "https://www.bleepingcomputer.com/news/security/machine-speed-attacks-require-machine-speed-detection-and-response",
+  "slug_machine_speed_attacks_require_machine_speed",
+  "b7b2bc2610dd3a5c1bea9b7b417c0b78c9bb6d79ce8107f350e8748d6765a3fb",
+  "https://cybersecuritynews.com/hackers-planted-malware",
+  "slug_hackers_planted_malware_japanese_cloud_servers"
 ]
