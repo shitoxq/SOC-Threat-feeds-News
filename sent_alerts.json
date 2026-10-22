@@ -1,13 +1,4 @@
 [
-  "CVE_CVE-2026-90970",
-  "04d07d847c1f27e3c414789ea6d774acebfeadd54f0aab95fce381296ebc6dea",
-  "https://www.securityweek.com/warlock-expands-sharepoint-exploitation-in-critical-infrastructure-attacks",
-  "slug_warlock_expands_sharepoint_exploitation_critical_infrastructure",
-  "05a5a1aee543e61cea3cfbc3a097f7773276c420dcefb48f9381511dd9e2707d",
-  "https://www.vulncheck.com/blog/zbt-darklantern-speakingstone",
-  "slug_chinese_implants_supply_chainin_our_previous",
-  "3cc5b30efe782c628ff51883c929b3d8f1706250b9fdb4bd7d5f4be50d69ffd9",
-  "https://cybersecuritynews.com/citrix-netscaler-0-day-patch",
   "slug_citrix_netscaler_keeps_rebooting_following_0day",
   "a12b8aebc2b4232e6bfd801fb66ebf32efd6b640bce6fc4bbb694fe65b6874cf",
   "https://www.securityweek.com/fortra-patches-critical-vulnerabilities-in-boks",
@@ -998,5 +989,14 @@
   "slug_japanx27s_onamae_desktop_cloud_hacked_up",
   "7318ea6a0859a74cbe9c99ac0a59099fe98b4d6c528888cf1ee8fc9d0b36f0fb",
   "https://cybersecuritynews.com/hackers-use-ai-powered-browsers",
-  "slug_hackers_use_aipowered_browsers_hide_thousands"
+  "slug_hackers_use_aipowered_browsers_hide_thousands",
+  "5ff1dd07c5c834bcee5aa5259a351adb637a5b181b972bcfde822a4f08f18cf4",
+  "https://thehackernews.com/2026/10/china-aligned-bronze-sandcastle-abuses.html",
+  "slug_chinaaligned_bronze_sandcastle_abuses_sandboxie_dll",
+  "f49b8b6079f110272685524552fc53af4d0db0e6665573e73f78a0b8364be539",
+  "https://www.bleepingcomputer.com/news/google/google-chrome-adds-gemini-powered-scam-detection-warns-users-of-clickfix-attacks",
+  "slug_google_chrome_adds_geminipowered_scam_detection",
+  "1e4b4162ad834c7e309ea4c10e2422aac5cf501d8c15a74a04ba0f21abdbf2f8",
+  "https://cybersecuritynews.com/chrome-with-gemini-ai-to-detect-update-scams",
+  "slug_google_upgrades_chrome_gemini_ai_detect"
 ]
