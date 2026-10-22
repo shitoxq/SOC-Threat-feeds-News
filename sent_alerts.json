@@ -1,13 +1,4 @@
 [
-  "d5d7c3b1775bb907651a5209a9a02d959c4f1dc67651df4f839696133b3aac2b",
-  "https://thehackernews.com/2026/10/warlock-exploits-sharepoint-flaws-to.html",
-  "slug_warlock_exploits_sharepoint_disable_security_tools",
-  "cf6b796173d090fea0dd85bce92a9a3052caa7f107ab4bc9d8fd8a84c821a73c",
-  "https://cybersecuritynews.com/shinyhunters-hacker-helping-fbi",
-  "slug_shinyhunters_member_detained_jordan_reportedly_helping",
-  "628fc3790860a7c67fa37485106e36c4dd8d31c69e8b63c9fe64e2e7882e73e5",
-  "https://www.vulncheck.com/blog/death-by-20k-pocs",
-  "slug_death_20000_pocsvulnchecks_research_team_shares",
   "d5c541420322babeb3c1152b2e114e9fef6f46497bd59021f547ca128e5ef104",
   "https://cybersecuritynews.com/microsoft-reissues-exchange-server-update",
   "slug_microsoft_pushes_new_exchange_v2_update",
@@ -998,5 +989,14 @@
   "slug_lazarus_hackers_use_postquantum_cryptography_malware",
   "66de49493b7168bf40a85f172bd31f26593038959268a76866525f79903e3f51",
   "https://www.securityweek.com/google-hardens-chrome-against-clickfix-attacks-insecure-http-connections",
-  "slug_google_hardens_chrome_against_clickfix_attacks"
+  "slug_google_hardens_chrome_against_clickfix_attacks",
+  "2b1381b5788ddde481e0a2014bfe0b4b5e5d96422adceec0fab81d3c9d9484ce",
+  "https://thehackernews.com/2026/10/generative-ai-is-erasing-behavioral.html",
+  "slug_generative_ai_erasing_behavioral_tells_weakening",
+  "fe1d3e028fa74d9523d78c81a1d94bcdd72310cdf55589587c47b2047e617822",
+  "https://cybersecuritynews.com/china-linked-hackers-use-artex-ai",
+  "slug_chinalinked_hackers_use_artex_ai_target",
+  "f4e575eb22134bcfcfe7f65aa69c03d5791197eda8563c53f31e098a41f26623",
+  "https://www.securityweek.com/high-severity-flaws-exploited-in-three-days-as-ransomware-dominates-q3-rapid7",
+  "slug_highseverity_exploited_three_days_ransomware_dominates"
 ]
