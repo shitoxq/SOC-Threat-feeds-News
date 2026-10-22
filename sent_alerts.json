@@ -1,13 +1,4 @@
 [
-  "73e8ac4f22faee52ebd68e4c571abccd3777d8c246e8c014392cfc904b8a0de3",
-  "https://www.bleepingcomputer.com/news/google/google-gemini-could-soon-get-full-access-to-your-macs-files-apps-and-the-web",
-  "slug_google_gemini_could_soon_get_full",
-  "935f495f66e01e67be2c8ff8ce852927207983d9fea74232da627dda602dc75f",
-  "https://www.vulncheck.com/blog/triofox-exploit-cve-2025-12480",
-  "slug_tales_from_exploit_mines_gladinet_triofox",
-  "CVE_CVE-2025-12480",
-  "fdd03f8f52cae5454e66b9618815e37c80e967eaddbdac726fd5d34341464915",
-  "https://www.helpnetsecurity.com/2026/10/02/ai-cybersecurity-threats-microsoft-report",
   "slug_ai_giving_attackers_head_start_microsoft",
   "b7a287cfbcada699c54933236ff485e9e5a539066c7b99a23362d48358b2660c",
   "https://www.vulncheck.com/blog/cvss-severity",
@@ -998,5 +989,14 @@
   "slug_machine_speed_attacks_require_machine_speed",
   "b7b2bc2610dd3a5c1bea9b7b417c0b78c9bb6d79ce8107f350e8748d6765a3fb",
   "https://cybersecuritynews.com/hackers-planted-malware",
-  "slug_hackers_planted_malware_japanese_cloud_servers"
+  "slug_hackers_planted_malware_japanese_cloud_servers",
+  "63d6bc3687b50b5c1b6fba6b0e629d8a38f0ae7f68650d5e0a29456373f1fba0",
+  "https://thehackernews.com/2026/10/the-ai-agent-nobody-owns-watch-expert.html",
+  "slug_ai_agent_nobody_owns_watch_expert",
+  "d6276a425b1c8d3eb691ee78e31eb6946e056af8917372a92e331f4d220ba0f1",
+  "https://www.bleepingcomputer.com/news/security/amazon-says-php2shell-exploitation-began-4-days-before-patches",
+  "slug_amazon_says_php2shell_exploitation_began_4",
+  "1c0514a9ac4652af18eaa34c23d1e7e39d951df3a440c5c636ed9ca429319c43",
+  "https://cybersecuritynews.com/north-korean-hackers",
+  "slug_north_korean_hackers_use_postquantum_encryption"
 ]
