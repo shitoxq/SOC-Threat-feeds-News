@@ -1,13 +1,4 @@
 [
-  "slug_citrix_netscaler_keeps_rebooting_following_0day",
-  "a12b8aebc2b4232e6bfd801fb66ebf32efd6b640bce6fc4bbb694fe65b6874cf",
-  "https://www.securityweek.com/fortra-patches-critical-vulnerabilities-in-boks",
-  "slug_fortra_patches_critical_vulnerabilities_boks",
-  "dc77f70d96e38d2e02192fdf301144e9e3cc261b447a7cae965fe3b202a5d21e",
-  "https://www.vulncheck.com/blog/cve-2026-63520-sharepoint-unsafe-type-rce",
-  "slug_exploiting_sharepoint_cve202655040_cve202663520_rce_chainbuilding",
-  "CVE_CVE-2026-55040",
-  "CVE_CVE-2026-63520",
   "d5d7c3b1775bb907651a5209a9a02d959c4f1dc67651df4f839696133b3aac2b",
   "https://thehackernews.com/2026/10/warlock-exploits-sharepoint-flaws-to.html",
   "slug_warlock_exploits_sharepoint_disable_security_tools",
@@ -998,5 +989,14 @@
   "slug_google_chrome_adds_geminipowered_scam_detection",
   "1e4b4162ad834c7e309ea4c10e2422aac5cf501d8c15a74a04ba0f21abdbf2f8",
   "https://cybersecuritynews.com/chrome-with-gemini-ai-to-detect-update-scams",
-  "slug_google_upgrades_chrome_gemini_ai_detect"
+  "slug_google_upgrades_chrome_gemini_ai_detect",
+  "6f676746f765de6e990188fa5053c37f1ab9ae1b510645fb827f6dfa57919a06",
+  "https://thehackernews.com/2026/10/china-linked-hackers-use-artex-ai.html",
+  "slug_chinalinked_hackers_use_artex_ai_agents",
+  "44a0be61ca3594a74fa5a6710333f58cb443be2b514d3a997a0269c47783ae5f",
+  "https://www.bleepingcomputer.com/news/security/lazarus-hackers-use-post-quantum-cryptography-for-malware-delivery",
+  "slug_lazarus_hackers_use_postquantum_cryptography_malware",
+  "66de49493b7168bf40a85f172bd31f26593038959268a76866525f79903e3f51",
+  "https://www.securityweek.com/google-hardens-chrome-against-clickfix-attacks-insecure-http-connections",
+  "slug_google_hardens_chrome_against_clickfix_attacks"
 ]
