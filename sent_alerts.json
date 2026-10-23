@@ -1,13 +1,4 @@
 [
-  "slug_react2shell_exploits_githubvulncheck_reviewed_full_wave",
-  "b43811755f4371ef2b078851aa74fedddf9c1524436a9eb084a99240a3aef7b8",
-  "https://cybersecuritynews.com/kvm-zero-day-vm-escape",
-  "slug_vercel_confirms_kvm_zeroday_vm_escape",
-  "0e7bd557c102a452dd77b1d2be2cab5292240de5ad275d89f62bc71488e48789",
-  "https://www.securityweek.com/trump-names-national-intelligence-director-jay-clayton-to-lead-a-new-federal-ai-task-force",
-  "slug_trump_names_national_intelligence_director_jay",
-  "74eb2f41f5f5f652b004b879a9d969fefea3b8455a75e3e3c98565de6def4d15",
-  "https://www.vulncheck.com/blog/react2shell-canaries",
   "slug_react2shell_what_our_canaries_seewex27re_already",
   "aec8daffc0c2837f247ef9cc9673f84baf064659509adc5437cad58401d66f38",
   "https://www.vulncheck.com/blog/frost-checks-first",
@@ -998,5 +989,14 @@
   "slug_capcom_confirms_data_breach_affecting_117",
   "d4f83d796ec7522fa628ba121436234e954b6787e33c7d74d6e7cb82e5d9607a",
   "https://www.securityweek.com/splunk-solarwinds-release-fresh-security-updates",
-  "slug_splunk_solarwinds_release_fresh_security_updates"
+  "slug_splunk_solarwinds_release_fresh_security_updates",
+  "7c53f743c08237d2727ca65e473b4707a4d9bd06671d8e75282cc77ec6ec93c4",
+  "https://thehackernews.com/2026/10/two-cvss-90-linux-ksmbd-rce-flaws.html",
+  "slug_two_cvss_90_linux_ksmbd_rce",
+  "179faf62f2b237f0f3683e2d15631032f56fcceb3cb108c6544c8b0b0b859816",
+  "https://www.bleepingcomputer.com/news/security/arista-patches-new-velocloud-orchestrator-zero-day-exploited-in-attacks",
+  "slug_arista_patches_new_velocloud_orchestrator_zeroday",
+  "c55443470463ad9dcd3d3bcdce4dd9c7d6751940f38b54a2c6bfa41e9df3a027",
+  "https://cybersecuritynews.com/pwc-data-breach-claim",
+  "slug_pwc_data_breach_claim_everest_ransomware"
 ]
