@@ -1,13 +1,4 @@
 [
-  "https://www.securityweek.com/linux-backdoor-abuses-stun-protocol-exploits-dozens-of-flaws",
-  "slug_linux_backdoor_abuses_stun_protocol_exploits",
-  "b5ce63915515734944ec090ebb2ab6e62f2e0d9c1735d84e7034187f9b4115e9",
-  "https://thehackernews.com/2026/10/realtek-jungle-sdk-exploit-attempts.html",
-  "slug_realtek_jungle_sdk_exploit_attempts_deliver",
-  "5f3bbf3b5453a94a9761e74a9be1153fdf6d91fceaaf9b3e028c9ec707fac5cb",
-  "https://www.bleepingcomputer.com/news/security/tenfold-ce-our-free-identity-governance-tool-just-got-2-new-features",
-  "slug_tenfold_ce_our_free_identity_governance",
-  "6104e2d282389158d4639a9bf37c1f36a7e48d056976c41845fa0d120dce4d31",
   "https://cybersecuritynews.com/zammad-zero-day",
   "slug_zammad_zeroday_chain_lets_ai_agent",
   "f57b4be0b51a470e49c854e28c3b47b423c03f4ae85e5ddffa6e8b6091db56c5",
@@ -998,5 +989,14 @@
   "slug_microsoft_teams_get_aipowered_contextaware_phishing",
   "05c3addaba11e7b54f04fcff8e3654e23df40fb2efcc0d2b0294607a24d3751c",
   "https://cybersecuritynews.com/hackers-exploiting-velocloud-orchestrator-flaw",
-  "slug_hackers_actively_exploiting_critical_velocloud_orchestrator"
+  "slug_hackers_actively_exploiting_critical_velocloud_orchestrator",
+  "14b4c9cf953f428c07e635f73d4c9d140b94631d324ef43318893d31a39aadf2",
+  "https://thehackernews.com/2026/10/ruby-fixes-three-regex-engine-bugs.html",
+  "slug_ruby_fixes_three_regex_engine_bugs",
+  "0ae7a1508c3f482bfa2840b370d5c5eb5330221285429e5c3eaaa46ba96fa98d",
+  "https://www.bleepingcomputer.com/news/security/abandoned-popcorn-time-app-exposed-millions-of-device-to-rce-attacks",
+  "slug_abandoned_popcorn_time_app_exposed_millions",
+  "9c7f0712baff60658f44e72a467aa636e014c32b5e7207698ae98aad1fe9f327",
+  "https://cybersecuritynews.com/stealc-malware",
+  "slug_stealc_malware_returns_new_stadia_rat"
 ]
