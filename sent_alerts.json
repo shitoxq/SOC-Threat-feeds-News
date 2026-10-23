@@ -1,13 +1,4 @@
 [
-  "00260114e73039a46463a30a660066468c9584241fcb3af8c2accb8943f1194c",
-  "https://thehackernews.com/2026/10/microsoft-exchange-flaw-lets.html",
-  "slug_microsoft_exchange_lets_authenticated_attackers_read",
-  "CVE_CVE-2026-96940",
-  "0d95aed7cfa060c29cb99f271d78be5accf022e40b120dc5e7120b6637a27072",
-  "https://www.bleepingcomputer.com/news/security/rejetto-hfs-servers-now-actively-scanned-for-critical-rce-flaw",
-  "slug_rejetto_hfs_servers_now_actively_scanned",
-  "CVE_CVE-2026-61500",
-  "7319aa33c92308f5f8b5615a1fab388ce10f4a554237b0f8662c6bcdd5f584a5",
   "https://www.securityweek.com/linux-backdoor-abuses-stun-protocol-exploits-dozens-of-flaws",
   "slug_linux_backdoor_abuses_stun_protocol_exploits",
   "b5ce63915515734944ec090ebb2ab6e62f2e0d9c1735d84e7034187f9b4115e9",
@@ -998,5 +989,14 @@
   "4102659c6680701ce240289aadb52fa2d229ee801a7df48d72cd3dc26bad5635",
   "https://cybersecuritynews.com/new-node2shell-node-js-rce-exploit",
   "slug_new_node2shell_nodejs_rce_exploit_let",
-  "CVE_CVE-2026-111497"
+  "CVE_CVE-2026-111497",
+  "68f2c8a7a2b64fb92945ca756d6bbda3d540d334d327f72cc6598fc8fba846db",
+  "https://thehackernews.com/2026/10/blackx-uefi-bootkit-bypasses-secure.html",
+  "slug_blackx_uefi_bootkit_bypasses_secure_boot",
+  "62f3dad2c0ca74beaa87691dba380971a0c59155e05024b7569276fa5ad88404",
+  "https://www.bleepingcomputer.com/news/microsoft/microsoft-teams-to-get-ai-powered-context-aware-phishing-detection",
+  "slug_microsoft_teams_get_aipowered_contextaware_phishing",
+  "05c3addaba11e7b54f04fcff8e3654e23df40fb2efcc0d2b0294607a24d3751c",
+  "https://cybersecuritynews.com/hackers-exploiting-velocloud-orchestrator-flaw",
+  "slug_hackers_actively_exploiting_critical_velocloud_orchestrator"
 ]
