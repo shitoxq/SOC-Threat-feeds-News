@@ -1,14 +1,4 @@
 [
-  "slug_amsi_provider",
-  "634898ddff2f483c1ea54560c8413ee93a40b03703be7b8fc1df1ce3dce9c6dc",
-  "https://thehackernews.com/2026/10/weekly-recap-netscaler-and-fortimail-0.html",
-  "slug_weekly_recap_netscaler_fortimail_0days_ai",
-  "be23ec88333a096d23f6f1ce13deabf48c26f3418186a2097423a93d40630f46",
-  "https://www.bleepingcomputer.com/news/security/denmark-population-registry-data-breach-affects-88-million-people",
-  "slug_denmark_population_registry_data_breach_affects",
-  "805cad631d351a78f7fb701e0969792d3efb4c96b9897fdabe8c966e4412691c",
-  "https://www.securityweek.com/google-narrows-open-source-bug-bounty-amid-wave-of-invalid-automated-reports",
-  "slug_google_narrows_open_source_bug_bounty",
   "00260114e73039a46463a30a660066468c9584241fcb3af8c2accb8943f1194c",
   "https://thehackernews.com/2026/10/microsoft-exchange-flaw-lets.html",
   "slug_microsoft_exchange_lets_authenticated_attackers_read",
@@ -998,5 +988,15 @@
   "0632c3b1841306114fbe5e7fbb756bbf8126d2695dca796a440c6429cb96e5d8",
   "https://cybersecuritynews.com/okta-access-gateway-flaw",
   "slug_critical_okta_access_gateway_lets_attackers",
-  "CVE_CVE-2026-115547"
+  "CVE_CVE-2026-115547",
+  "76da60089176983713f45816e41f527b55fd384f7508dfc491f47b7b2284b45e",
+  "https://thehackernews.com/2026/10/russian-linked-hackers-used-new-mesh.html",
+  "slug_russianlinked_hackers_used_new_mesh_network",
+  "a46a3d4aa8e9f96fc8fa2756c05c2bae16f74012ea0f73a4c887dd172cad6c1f",
+  "https://www.bleepingcomputer.com/news/security/php-shares-mitigation-for-new-and-unpatched-rce-vulnerability",
+  "slug_php_shares_mitigation_new_rce_vulnerability",
+  "4102659c6680701ce240289aadb52fa2d229ee801a7df48d72cd3dc26bad5635",
+  "https://cybersecuritynews.com/new-node2shell-node-js-rce-exploit",
+  "slug_new_node2shell_nodejs_rce_exploit_let",
+  "CVE_CVE-2026-111497"
 ]
