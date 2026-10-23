@@ -1,13 +1,4 @@
 [
-  "slug_react2shell_what_our_canaries_seewex27re_already",
-  "aec8daffc0c2837f247ef9cc9673f84baf064659509adc5437cad58401d66f38",
-  "https://www.vulncheck.com/blog/frost-checks-first",
-  "slug_frost_checks_first_selective_exploitationnew_cve20252611",
-  "CVE_CVE-2025-2611",
-  "d41953a1f1ceb15fd48e86b320791f45bb7666ab3761532ced5adc63c7434c44",
-  "https://gbhackers.com/microsoft-warns-clickfix-attacks-use-fake-captcha",
-  "slug_microsoft_warns_clickfix_attacks_use_fake",
-  "8dfcd7e0aa6b20f58a52d43ceca28a5b25381ec8c63bac7e304268b7536c9ffa",
   "https://www.helpnetsecurity.com/2026/10/04/week-in-review-researcher-breaks-into-microsoft-analytics-service-netscaler-rce-0-day-exploited",
   "slug_week_review_researcher_breaks_into_microsoft",
   "ad1b2d493b1cdb8257f61f312f8bcffb5914eb886c9c3807c5d1fb5de13a690c",
@@ -998,5 +989,14 @@
   "slug_arista_patches_new_velocloud_orchestrator_zeroday",
   "c55443470463ad9dcd3d3bcdce4dd9c7d6751940f38b54a2c6bfa41e9df3a027",
   "https://cybersecuritynews.com/pwc-data-breach-claim",
-  "slug_pwc_data_breach_claim_everest_ransomware"
+  "slug_pwc_data_breach_claim_everest_ransomware",
+  "540959acae587c694ef2696435e571f014f82b0e5f40d927650108b643076794",
+  "https://www.bleepingcomputer.com/news/microsoft/microsoft-shares-how-to-fix-broken-exchange-online-ews-apps",
+  "slug_microsoft_shares_how_fix_broken_exchange",
+  "69b024c32e8e0d8d01c8d5b4011993adefa1f0d367f174cbb4faa070a7657ca4",
+  "https://www.securityweek.com/cisco-patches-34-vulnerabilities-across-multiple-products",
+  "slug_cisco_patches_34_vulnerabilities_across_multiple",
+  "088c90ff4e7dbcd8578e3cbfb8bf229c66dde5bf9a0bf8ccf9770b30e2975ded",
+  "https://www.vulncheck.com/blog/vulnerability-and-exploitation-risks-of-ai",
+  "slug_exploring_risks_impacts_ai_vulnerability_discovery"
 ]
