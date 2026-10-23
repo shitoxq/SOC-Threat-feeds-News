@@ -1,14 +1,4 @@
 [
-  "https://www.vulncheck.com/blog/mystery-oast",
-  "slug_mystery_oast_host_behind_regionally_focused",
-  "f84b183e212a78ce508d930f6deee090c2b6753d1c8ba89f480a27d50074a690",
-  "https://www.vulncheck.com/blog/introducing-vulncheck-canary-intelligence",
-  "slug_introducing_vulncheck_canary_intelligenceintroducing_vulncheck_canary",
-  "60721b6127c9da8d579d3baf48f12046e54bc6d695c41b4973aabd7679a44e0f",
-  "https://www.helpnetsecurity.com/2026/10/05/keyorix-open-source-on-premise-secrets-management",
-  "slug_keyorix_opensource_secrets_management_teams_that",
-  "2a7f9153c55ed3dec151b1ad1e720bc384484056d33a17df98ffca6aa51ce7bf",
-  "https://ipurple.team/2026/07/13/amsi-provider",
   "slug_amsi_provider",
   "634898ddff2f483c1ea54560c8413ee93a40b03703be7b8fc1df1ce3dce9c6dc",
   "https://thehackernews.com/2026/10/weekly-recap-netscaler-and-fortimail-0.html",
@@ -998,5 +988,15 @@
   "slug_hackers_use_new_blackx_bootkit_bypass",
   "bfe0ded4ce71747aa503e49239dbfb6f0288aa7159a0c0bdcb5e1278fe55fe40",
   "https://www.securityweek.com/china-apt-uses-ai-pentest-tool-artex-in-connectwise-attacks",
-  "slug_china_apt_uses_ai_pentest_tool"
+  "slug_china_apt_uses_ai_pentest_tool",
+  "64b0ac9d140d11671a4acbe942ade27af436c73b5627240eb087f5c95f9a86d0",
+  "https://thehackernews.com/2026/10/hackers-breach-enterprise-firewalls-and.html",
+  "slug_hackers_breach_enterprise_firewalls_vpns_exposing",
+  "ba3749ef980b3b5303bef6f1bde3dd8355f473f96cb6d404da27e8d682d6dc0c",
+  "https://www.bleepingcomputer.com/news/security/you-gave-your-ai-agent-access-but-who-is-giving-it-orders",
+  "slug_you_gave_your_ai_agent_access",
+  "0632c3b1841306114fbe5e7fbb756bbf8126d2695dca796a440c6429cb96e5d8",
+  "https://cybersecuritynews.com/okta-access-gateway-flaw",
+  "slug_critical_okta_access_gateway_lets_attackers",
+  "CVE_CVE-2026-115547"
 ]
