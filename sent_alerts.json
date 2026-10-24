@@ -1,13 +1,4 @@
 [
-  "https://www.securityweek.com/fbi-arrests-most-wanted-developer-of-ploutus-atm-malware",
-  "slug_fbi_arrests_most_wanted_developer_ploutus",
-  "d1f67c3b62dd684ac13e6dfea3f3035ecf3e8d4a21eba6fd9fee6b850ae884b4",
-  "https://thehackernews.com/2026/10/wikimedia-says-openai-agents-tried-to.html",
-  "slug_wikimedia_says_openai_agents_tried_compromise",
-  "3d6673e2afda75c847ff5772290ce03f9a18c09902c4134f3267b5279dbfade5",
-  "https://www.bleepingcomputer.com/news/security/asos-confirms-data-breach-after-hacked-in-app-notifications",
-  "slug_asos_confirms_data_breach_after_hacked",
-  "30ac4555f0044b08b2c68a57c365aa60aca6bf6dfa720f2c3f675cacafa7955d",
   "https://www.securityweek.com/cybersecurity-ma-roundup-39-deals-announced-in-september-2026",
   "slug_cybersecurity_mampa_roundup_39_deals_announced",
   "98f167473783047aae3ab93d4f0981529810bceca2913b52052d5b19ac0f566d",
@@ -998,5 +989,14 @@
   "slug_attackers_exploit_third_arista_vco_zeroday",
   "0a87e7e2ec15eb138eb8e2eb0de3f302ad71e1fe00ad1b8dd0ee757be6d34748",
   "https://www.vulncheck.com/blog/pwning-the-ai-stack",
-  "slug_same_target_different_playbooks_two_attackers"
+  "slug_same_target_different_playbooks_two_attackers",
+  "ed6cb319ad856dfd2ce738ab807d2266ea138e6be6befd7aedd84613d0cce1cf",
+  "https://thehackernews.com/2026/10/google-says-gmail-and-photos-data.html",
+  "slug_google_says_gmail_photos_data_shared",
+  "77de36c1a9c61f5d43e48235830027125bc885001e374cab842fe27f6d5c3059",
+  "https://www.securityweek.com/11-million-impacted-by-capcom-data-breach",
+  "slug_11_million_impacted_capcom_data_breach",
+  "05a5a1aee543e61cea3cfbc3a097f7773276c420dcefb48f9381511dd9e2707d",
+  "https://www.vulncheck.com/blog/zbt-darklantern-speakingstone",
+  "slug_chinese_implants_supply_chainin_our_previous"
 ]
