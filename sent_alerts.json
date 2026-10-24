@@ -1,13 +1,4 @@
 [
-  "https://www.securityweek.com/fbi-blames-contractors-missed-patch-for-shinyhunters-breach",
-  "slug_fbi_blames_contractors_missed_patch_shinyhunters",
-  "4bb0cd016dafda1dac27c663f4cc496f63bdb7b85cc8bb2808b71170095ae06d",
-  "https://thehackernews.com/2026/10/linux-backdoors-impersonate-email.html",
-  "slug_linux_backdoors_impersonate_email_security_tools",
-  "24c1770321189cb9f9cd7d670f1978b646d76c89773e2e0dcce37a38bd4188df",
-  "https://www.bleepingcomputer.com/news/security/ninja-forms-plugin-flaw-exploited-to-hack-wordpress-sites",
-  "slug_ninja_forms_plugin_exploited_hack_wordpress",
-  "73e29d10c96120d6a727e01cf45970f128d22c8d794a369519ce2c2378d120bd",
   "https://www.securityweek.com/fbi-arrests-most-wanted-developer-of-ploutus-atm-malware",
   "slug_fbi_arrests_most_wanted_developer_ploutus",
   "d1f67c3b62dd684ac13e6dfea3f3035ecf3e8d4a21eba6fd9fee6b850ae884b4",
@@ -998,5 +989,14 @@
   "slug_hpe_patches_eight_max_severity_rce",
   "ff92431b27f79a08e4ac19e62f6936d2e93a7461f2e95e46d3b0604a9b9d9cc5",
   "https://www.securityweek.com/mirai-botnet-operators-join-php2shell-attacks-as-aslr-bypass-exploits-emerge",
-  "slug_mirai_botnet_operators_join_php2shell_attacks"
+  "slug_mirai_botnet_operators_join_php2shell_attacks",
+  "c2f353f11fcac6078e3a8d417a06273b21c39d4ca93451ff32b6c5c6b61d7410",
+  "https://thehackernews.com/2026/10/leaked-litellm-master-key-let-attackers.html",
+  "slug_leaked_litellm_master_key_let_attackers",
+  "da8585ca808755980454ac2510a31aeac3b6404da09cbd00d469dda42389890c",
+  "https://www.securityweek.com/attackers-exploit-third-velocloud-orchestrator-zero-day-in-four-months",
+  "slug_attackers_exploit_third_arista_vco_zeroday",
+  "0a87e7e2ec15eb138eb8e2eb0de3f302ad71e1fe00ad1b8dd0ee757be6d34748",
+  "https://www.vulncheck.com/blog/pwning-the-ai-stack",
+  "slug_same_target_different_playbooks_two_attackers"
 ]
