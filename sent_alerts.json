@@ -1,14 +1,4 @@
 [
-  "3be158071409894d1caf06d796bfd33b3ede515ef79601e02d5cdc8de398b175",
-  "https://www.securityweek.com/250000-impacted-by-data-breaches-at-new-jersey-texas-healthcare-firms",
-  "slug_250000_impacted_data_breaches_new_jersey",
-  "0d2a51b21028dbfb807b576a115673f2b5f1977f4857a379b50021e8c738fa40",
-  "https://thehackernews.com/2026/10/libreoffice-and-openoffice-flaws-let.html",
-  "slug_libreoffice_openoffice_let_malicious_spreadsheets_run",
-  "6af1267f376a010af79bb08cfa988cb9beb965561fc9c4278191aaf359ae8ead",
-  "https://www.bleepingcomputer.com/news/security/how-to-secure-rmm-software-8-controls-msps-should-test",
-  "slug_how_secure_rmm_software_8_controls",
-  "4a8c04ab7a085d7ed8974bcccbaea60ff8586b0d5a8ae4bdd480af17c4303838",
   "https://cybersecuritynews.com/former-infrastructure-engineer-sentenced",
   "slug_former_infrastructure_engineer_sentenced_sabotaging_employers",
   "5024a2a66caca425bb20537f9ffb74592d8d91b9493dd21887d50bf1a00e4307",
@@ -998,5 +988,15 @@
   "slug_microsoft_windows_server_2016_reaches_end",
   "4f7342cb802292bb4e9dbda175fe165292a6480626b2a2a3bd16cd49d3828a03",
   "https://www.securityweek.com/in-other-news-tor-exit-relays-hijacked-banks-spot-rogue-ai-agents-self-rebuilding-macos-ransomware",
-  "slug_other_news_tor_exit_relays_hijacked"
+  "slug_other_news_tor_exit_relays_hijacked",
+  "e21e419ebac57752b2c8585063713a38c926778fef1e895d6969b0079746f373",
+  "https://thehackernews.com/2026/10/critical-flaw-in-pythons-popular-pillow.html",
+  "slug_critical_pythons_popular_pillow_image_library",
+  "CVE_CVE-2026-112900",
+  "651b9429c7fac0a1820a5cd6c7b7cf653a20b0761b5b1f7d58524fef14571e4c",
+  "https://www.bleepingcomputer.com/news/security/quest-diagnostics-confirms-data-breach-exposed-patient-records",
+  "slug_quest_diagnostics_confirms_data_breach_exposed",
+  "30e6ae1d2a889ea6f2d3e45deed175c943607db23ea44fb19cabb4fa74bd4345",
+  "https://cybersecuritynews.com/openai-ai-agents-bypass-security",
+  "slug_openai_ai_agents_bypass_security_isolation"
 ]
