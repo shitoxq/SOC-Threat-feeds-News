@@ -1,14 +1,4 @@
 [
-  "39f490a9561dabbd8fe35b167ed728435fb6509d6e3ca9294bf0f7d05c76da58",
-  "https://thehackernews.com/2026/10/eight-malicious-npm-packages-downloaded.html",
-  "slug_eight_malicious_npm_packages_downloaded_40767",
-  "03e22b898c9379f9f37c5d1657449c6dfce9034568d9e1034593697345a779fa",
-  "https://www.bleepingcomputer.com/news/security/ransomware-recovery-ceo-charged-over-secret-ransom-payments",
-  "slug_ransomware_recovery_ceo_charged_over_secret",
-  "5fbc7292d5ad91b7cd1ef9b9d1386068e5d57aaa102dea90a6c6ba68debb91f9",
-  "https://cybersecuritynews.com/hackers-hijack-domain-registry",
-  "slug_hackers_hijack_gh_sl_registry_obtain",
-  "6e23ba3132bb40b870711fe7b5b9d392ec69173b65473c3a0ed6d92ab6992ece",
   "https://thehackernews.com/2026/10/sonicwall-patches-cvss-100-pre.html",
   "slug_sonicwall_patches_cvss_100_preauthentication_ssrf",
   "1bf1451c82ff048b5b27b994d0ff3adbd7d26cfd29177e750a20000e6ae38a21",
@@ -998,5 +988,15 @@
   "slug_death_20000_pocsvulnchecks_research_team_shares",
   "0573684e07948a4609ceb6616950a2535717047241a5829574362fba1657a4aa",
   "https://gbhackers.com/openai-ai-agents-exploit-zero-day-vulnerabilities",
-  "slug_openai_ai_agents_exploit_zeroday_vulnerabilities"
+  "slug_openai_ai_agents_exploit_zeroday_vulnerabilities",
+  "b4502f9ad3573b1b289048e28dcb138b3860a33147cb18fe2cc5f8457a8dfd40",
+  "https://www.securityweek.com/atlassian-patches-75-third-party-flaws-in-data-center-and-server-products",
+  "slug_atlassian_patches_75_data_center_server",
+  "c21db5e5719b6ff94228ef25be61f7b6779fbfd303a26bf76ec89dbd5fffa56c",
+  "https://www.vulncheck.com/blog/smartermail-connecttohub-rce-cve-2026-24423",
+  "slug_street_smarts_smartermail_connecttohub_unauthenticated_rce",
+  "CVE_CVE-2026-24423",
+  "7f72480af124f110cdb35e2b27d883e3f0159bb45b5d9072f067860ed2196727",
+  "https://gbhackers.com/anthropic-ai-model-inject-malicious-code",
+  "slug_anthropic_ai_model_attempts_inject_malicious"
 ]
