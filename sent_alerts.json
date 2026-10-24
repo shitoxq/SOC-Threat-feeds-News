@@ -1,13 +1,4 @@
 [
-  "d19160e8f030fa9c6064cfaec96bb968f2a2e24e343f794891de058a198a39eb",
-  "https://thehackernews.com/2026/10/attackers-hijack-gh-sl-and-as.html",
-  "slug_attackers_hijack_gh_sl_registries_obtain",
-  "62cb1c40eea6be21de94fc495cda5e4ff5fe931dbde3cccc3b61dccd0066835b",
-  "https://www.bleepingcomputer.com/news/microsoft/microsoft-outlook-to-block-msix-attachments-used-in-attacks",
-  "slug_microsoft_outlook_block_msix_attachments_starting",
-  "97e84b0db361d7aa99e7da90fb2ac5acb812a9c601f254633ffdac00432a4c44",
-  "https://cybersecuritynews.com/alert-overload-tool-sprawl-and-evasive-phishing-the-5-bottlenecks-slowing-down-us-socs",
-  "slug_overload_tool_sprawl_evasive_phishing_5",
   "39f490a9561dabbd8fe35b167ed728435fb6509d6e3ca9294bf0f7d05c76da58",
   "https://thehackernews.com/2026/10/eight-malicious-npm-packages-downloaded.html",
   "slug_eight_malicious_npm_packages_downloaded_40767",
@@ -998,5 +989,14 @@
   "https://www.vulncheck.com/blog/cve-2026-63520-sharepoint-unsafe-type-rce",
   "slug_exploiting_sharepoint_cve202655040_cve202663520_rce_chainbuilding",
   "CVE_CVE-2026-55040",
-  "CVE_CVE-2026-63520"
+  "CVE_CVE-2026-63520",
+  "91662a8b43480e48077051c57706b8eb242dbcea49a0d2cddcb6ecc940416d43",
+  "https://www.securityweek.com/litellm-compromised-in-fresh-supply-chain-attack",
+  "slug_litellm_compromised_fresh_supply_chain_attack",
+  "628fc3790860a7c67fa37485106e36c4dd8d31c69e8b63c9fe64e2e7882e73e5",
+  "https://www.vulncheck.com/blog/death-by-20k-pocs",
+  "slug_death_20000_pocsvulnchecks_research_team_shares",
+  "0573684e07948a4609ceb6616950a2535717047241a5829574362fba1657a4aa",
+  "https://gbhackers.com/openai-ai-agents-exploit-zero-day-vulnerabilities",
+  "slug_openai_ai_agents_exploit_zeroday_vulnerabilities"
 ]
