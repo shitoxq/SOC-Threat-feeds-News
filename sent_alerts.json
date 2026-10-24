@@ -1,13 +1,4 @@
 [
-  "https://cybersecuritynews.com/former-infrastructure-engineer-sentenced",
-  "slug_former_infrastructure_engineer_sentenced_sabotaging_employers",
-  "5024a2a66caca425bb20537f9ffb74592d8d91b9493dd21887d50bf1a00e4307",
-  "https://thehackernews.com/2026/10/fake-chatgpt-gemini-and-claude-ad.html",
-  "slug_fake_chatgpt_gemini_claude_ad_portals",
-  "027354b70940658ed0d45fe572911cfcf6112661a29dfa70af995c326de3a749",
-  "https://www.bleepingcomputer.com/news/security/hackers-exploit-32-zero-days-on-first-day-of-pwn2own-ireland",
-  "slug_hackers_exploit_32_zerodays_first_day",
-  "ef3cb8f130c97fc5162b0e909f49e12ab5c80547299c8a2e0bc8d07d6315c5ed",
   "https://www.securityweek.com/fbi-blames-contractors-missed-patch-for-shinyhunters-breach",
   "slug_fbi_blames_contractors_missed_patch_shinyhunters",
   "4bb0cd016dafda1dac27c663f4cc496f63bdb7b85cc8bb2808b71170095ae06d",
@@ -998,5 +989,14 @@
   "slug_quest_diagnostics_confirms_data_breach_exposed",
   "30e6ae1d2a889ea6f2d3e45deed175c943607db23ea44fb19cabb4fa74bd4345",
   "https://cybersecuritynews.com/openai-ai-agents-bypass-security",
-  "slug_openai_ai_agents_bypass_security_isolation"
+  "slug_openai_ai_agents_bypass_security_isolation",
+  "ae5fe3ec49b34664a0f640b9c8d64a84bd20a26cd684c54bb82f81e451b842b2",
+  "https://thehackernews.com/2026/10/researchers-push-over-2-million-updates.html",
+  "slug_researchers_push_over_2_million_updates",
+  "7bc21a5f3f47a4c9560a376e1e45505fc8854a2b3ef937dd42be4847468f3307",
+  "https://www.bleepingcomputer.com/news/security/hpe-patches-eight-max-severity-rce-and-auth-bypass-aos-flaws",
+  "slug_hpe_patches_eight_max_severity_rce",
+  "ff92431b27f79a08e4ac19e62f6936d2e93a7461f2e95e46d3b0604a9b9d9cc5",
+  "https://www.securityweek.com/mirai-botnet-operators-join-php2shell-attacks-as-aslr-bypass-exploits-emerge",
+  "slug_mirai_botnet_operators_join_php2shell_attacks"
 ]
