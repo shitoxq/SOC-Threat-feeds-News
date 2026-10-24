@@ -1,15 +1,4 @@
 [
-  "https://www.securityweek.com/cybersecurity-ma-roundup-39-deals-announced-in-september-2026",
-  "slug_cybersecurity_mampa_roundup_39_deals_announced",
-  "98f167473783047aae3ab93d4f0981529810bceca2913b52052d5b19ac0f566d",
-  "https://thehackernews.com/2026/10/fbi-warns-fortibleed-remains-active.html",
-  "slug_fbi_warns_fortibleed_remains_active_after",
-  "fca691efb94559174106b6c1034cd94b6a8048ac0270bbaf1d37cedad4658b79",
-  "https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-max-severity-ssrf-flaw-in-sma1000-gateways",
-  "slug_sonicwall_warns_max_severity_ssrf_sma1000",
-  "5bdcd74dc343c865ffdede6bbd6c13f3142bc4aebfc670958d392952d6b68d09",
-  "https://cybersecuritynews.com/spread-lunexstealer",
-  "slug_hackers_compromise_100_websites_fake_cloudflare",
   "d19160e8f030fa9c6064cfaec96bb968f2a2e24e343f794891de058a198a39eb",
   "https://thehackernews.com/2026/10/attackers-hijack-gh-sl-and-as.html",
   "slug_attackers_hijack_gh_sl_registries_obtain",
@@ -998,5 +987,16 @@
   "slug_11_million_impacted_capcom_data_breach",
   "05a5a1aee543e61cea3cfbc3a097f7773276c420dcefb48f9381511dd9e2707d",
   "https://www.vulncheck.com/blog/zbt-darklantern-speakingstone",
-  "slug_chinese_implants_supply_chainin_our_previous"
+  "slug_chinese_implants_supply_chainin_our_previous",
+  "9fcce94ed3b1e9c4958aa9fdf55861c308d71d460948b415bee4d65d0c6e4d18",
+  "https://www.bleepingcomputer.com/news/security/blackx-uefi-bootkit-exploits-baton-drop-flaw-to-bypass-secure-boot",
+  "slug_blackx_uefi_bootkit_exploits_baton_drop",
+  "a49f7b643b78d75c4b1b4911d376f30a1f3fbcd5cb19a50bbeed8c4d26e3f2b3",
+  "https://www.securityweek.com/quest-diagnostics-reports-cyber-breach-affecting-certain-patient-records",
+  "slug_quest_diagnostics_data_breach_exposed_certain",
+  "dc77f70d96e38d2e02192fdf301144e9e3cc261b447a7cae965fe3b202a5d21e",
+  "https://www.vulncheck.com/blog/cve-2026-63520-sharepoint-unsafe-type-rce",
+  "slug_exploiting_sharepoint_cve202655040_cve202663520_rce_chainbuilding",
+  "CVE_CVE-2026-55040",
+  "CVE_CVE-2026-63520"
 ]
