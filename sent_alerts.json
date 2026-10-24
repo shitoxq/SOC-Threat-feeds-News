@@ -1,13 +1,4 @@
 [
-  "https://cybersecuritynews.com/zammad-zero-day",
-  "slug_zammad_zeroday_chain_lets_ai_agent",
-  "f57b4be0b51a470e49c854e28c3b47b423c03f4ae85e5ddffa6e8b6091db56c5",
-  "https://thehackernews.com/2026/10/critical-atlassian-flaw-lets.html",
-  "slug_critical_atlassian_lets_unauthenticated_attackers_read",
-  "CVE_CVE-2026-21589",
-  "8da16a39e01985ea6f2220f87bfbaf2f59dfd8f7d1bcaa83a70c2b4d7af16096",
-  "https://www.bleepingcomputer.com/news/security/engineer-sentenced-for-locking-thousands-of-devices-on-employer-network",
-  "slug_engineer_sentenced_locking_over_3000_devices",
   "3be158071409894d1caf06d796bfd33b3ede515ef79601e02d5cdc8de398b175",
   "https://www.securityweek.com/250000-impacted-by-data-breaches-at-new-jersey-texas-healthcare-firms",
   "slug_250000_impacted_data_breaches_new_jersey",
@@ -998,5 +989,14 @@
   "slug_abandoned_popcorn_time_app_exposed_millions",
   "9c7f0712baff60658f44e72a467aa636e014c32b5e7207698ae98aad1fe9f327",
   "https://cybersecuritynews.com/stealc-malware",
-  "slug_stealc_malware_returns_new_stadia_rat"
+  "slug_stealc_malware_returns_new_stadia_rat",
+  "6fb95eceef2a89d96948d566dbb004281ae2f9011c0a0c096d8652b0bd52402b",
+  "https://thehackernews.com/2026/10/exposed-infrastructure-reveals-how.html",
+  "slug_exposed_infrastructure_reveals_how_ransomware_affiliates",
+  "49d18bdd23778982b5687396066840912c7837edba28e0a07dff99c8d0a28839",
+  "https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-server-2016-reaches-end-of-support-in-january",
+  "slug_microsoft_windows_server_2016_reaches_end",
+  "4f7342cb802292bb4e9dbda175fe165292a6480626b2a2a3bd16cd49d3828a03",
+  "https://www.securityweek.com/in-other-news-tor-exit-relays-hijacked-banks-spot-rogue-ai-agents-self-rebuilding-macos-ransomware",
+  "slug_other_news_tor_exit_relays_hijacked"
 ]
