@@ -1,10 +1,4 @@
 [
-  "slug_p7_darksword_ios_exploit_kit_adds",
-  "6357cd14602a52ca9762e16100a4a3465b29db658ca32242bde61e3fd0eda9c1",
-  "https://www.bleepingcomputer.com/news/security/unpatched-ahsaycbs-flaws-exploited-to-deploy-webshells-mine-crypto",
-  "slug_unpatched_ahsaycbs_exploited_deploy_webshells_mine",
-  "45742b217c29393143479229395b5e15f96551bd2365436da001338aa3b725c8",
-  "https://www.securityweek.com/google-domains-impacted-by-recent-cctld-domain-hijacks",
   "slug_google_domains_impacted_recent_cctld_hijacks",
   "6df49761e69e4df829e7a2a170a85ff037fae5eb237d8351f6acebf8e004448f",
   "https://thehackernews.com/2026/10/anthropic-launches-free-ai.html",
@@ -998,5 +992,11 @@
   "slug_ai_taking_cybersecurity_jobs_junior_experienced",
   "2a7f9153c55ed3dec151b1ad1e720bc384484056d33a17df98ffca6aa51ce7bf",
   "https://ipurple.team/2026/07/13/amsi-provider",
-  "slug_amsi_provider"
+  "slug_amsi_provider",
+  "f84b183e212a78ce508d930f6deee090c2b6753d1c8ba89f480a27d50074a690",
+  "https://www.vulncheck.com/blog/introducing-vulncheck-canary-intelligence",
+  "slug_introducing_vulncheck_canary_intelligenceintroducing_vulncheck_canary",
+  "cb0fdf55f96712ca16ef7d4d0dd9a4fc26f4d0601d88c615d7313114b59bec0a",
+  "https://www.infosecurity-magazine.com/news/capcom-confirms-data-breach",
+  "slug_gaming_giant_capcom_confirms_data_breach"
 ]
