@@ -1,13 +1,4 @@
 [
-  "https://thehackernews.com/2026/10/16-malicious-firefox-extensions-pose-as.html",
-  "slug_16_malicious_firefox_extensions_pose_rabby",
-  "bd1cb388c205221de3a624062f9f259ab176e32eb3e0285ab6a492ea2081df15",
-  "https://www.bleepingcomputer.com/news/security/samsung-galaxy-s26-hacked-three-more-times-at-pwn2own-ireland",
-  "slug_samsung_galaxy_s26_hacked_three_more",
-  "219180b3a2de8c97195f8eb37abcb734d717bf8cceb71a607a904c0bf01d2726",
-  "https://cybersecuritynews.com/wolfssh-1-6-0-fixes-5-security-flaws",
-  "slug_wolfssh_160_fixes_5_security_including",
-  "7624a715a1f8ab1f679ab534ee1d3326cec19b1cedf02ada2efab15ed2945001",
   "https://thehackernews.com/2026/10/uac-0099-targets-ukrainian-government.html",
   "slug_uac0099_targets_ukrainian_government_personnel_ashvein",
   "8c1bbb95dd2b10b989b9e3155f772b96dd18266f42574a24e6007999ce6bea27",
@@ -998,5 +989,14 @@
   "slug_hackers_use_fake_chocolatey_microsoft_activation",
   "dfe4997e89e4ada96271d1ba22b13965d6312018565e7080eadd4c3b810be5e4",
   "https://ipurple.team/2026/10/22/custom-extensions",
-  "slug_custom_extensions"
+  "slug_custom_extensions",
+  "d70478c2d2d873d5195251b8d7ffb91bcf4a628082f30acde10d63a8efe56f5c",
+  "https://www.vulncheck.com/blog/forticloud-sso-login-bypass",
+  "slug_forticloud_sso_login_bypass_vulnerabilities_exploited",
+  "001c4650c49a43008686df8f739c84d85f195c8c3ddc3173889d2e9b75d8bfd9",
+  "https://gbhackers.com/anthropic-ai-model-infect-github-repository-malware",
+  "slug_anthropic_ai_model_attempts_infect_github",
+  "b6f5535e812fd75a1c06fadecbc5dc851ace3c9dae12841780333f52e108d19f",
+  "https://www.helpnetsecurity.com/2026/10/23/microsoft-365-accounts-stolen-sessions",
+  "slug_microsoft_365_accounts_compromised_79_organizations"
 ]
