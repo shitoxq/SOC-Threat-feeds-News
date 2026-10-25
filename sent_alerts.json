@@ -1,13 +1,4 @@
 [
-  "slug_threatsday_ransomware_affiliate_betrayal_whatsapp_rat",
-  "78e7c2a535ea391eca331cf62ea01e3d683f46669abb9d9adbee5c835b70f3af",
-  "https://www.bleepingcomputer.com/news/security/low-cost-android-phones-ship-with-residential-proxy-malware",
-  "slug_lowcost_android_phones_ship_residential_proxy",
-  "91815192666016fbf0457d9c79b5e37428cff250d7263d5446cdd0a2880a7d44",
-  "https://cybersecuritynews.com/citrix-netscaler-adc-and-gateway-rce",
-  "slug_citrix_urges_netscaler_adc_gateway_customers",
-  "CVE_CVE-2026-107406",
-  "50bd0eed89791785b860b12122c7d987b89014d2d16b8b44a0a1e7025805b9e4",
   "https://thehackernews.com/2026/10/artex-ai-pentesting-tool-used-in-data.html",
   "slug_artex_ai_pentesting_tool_used_data",
   "6ed2fa4a1567288428eddabc6dfcc14df1184366381a7d1de05eb6cbdd9d58dc",
@@ -998,5 +989,14 @@
   "slug_critical_cves_cvss_v4_adoption_gap",
   "067ec302f0813574e8ed69faf6ea52dc54c66919cf87aa3a8fbfa5a78e40fa52",
   "https://www.helpnetsecurity.com/2026/10/25/week-in-review-php-vulnerabilities-patched-exploited-palo-alto-globalprotect-vpn-flaw",
-  "slug_week_review_php_vulnerabilities_patched_exploited"
+  "slug_week_review_php_vulnerabilities_patched_exploited",
+  "b18f95dde996d13480676b41c54ab537e3327912eae59ec875b8c9f58321f884",
+  "https://cybersecuritynews.com/microsoft-teams-ai-detection",
+  "slug_microsoft_teams_use_ai_detecting_phishing",
+  "d22c4aa767cf58ec92e6a277ba43cca38228c7d2b1a6a30afb1d3fd4a491b8c4",
+  "https://www.vulncheck.com/blog/react2shell-github",
+  "slug_react2shell_exploits_githubvulncheck_reviewed_full_wave",
+  "2d7cf381fbd89e501c90e894ec9fb684b023d0be4a1add2c8ce6fea7e6838581",
+  "https://gbhackers.com/stealc-malware-resurfaces",
+  "slug_stealc_infostealer_returns_powerful_remote_access"
 ]
