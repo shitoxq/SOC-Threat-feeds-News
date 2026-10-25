@@ -1,13 +1,4 @@
 [
-  "slug_fbi_says_chinalinked_hackers_ran_portal",
-  "05bcef4e5eefe03b0090a51c98a21966618d411443890bb6f1d68b214fa19585",
-  "https://www.bleepingcomputer.com/news/security/ransomware-attack-disrupts-japans-idcf-cloud-used-by-govt-clients",
-  "slug_ransomware_attack_disrupts_japanx27s_idcf_cloud",
-  "8c2789085563f08225d9ca4867d9353b1d18461bf55a64a9bfe62bcb04ab8f77",
-  "https://cybersecuritynews.com/tensorlake-npm-package",
-  "slug_tensorlake_npm_package_compromised_spread_shaihulud",
-  "d4fcba26f34220f81c4eb6bb2e7467aafc06b0a40260e6384e42d98fbd44c1bc",
-  "https://thehackernews.com/2026/10/threatsday-ransomware-affiliate.html",
   "slug_threatsday_ransomware_affiliate_betrayal_whatsapp_rat",
   "78e7c2a535ea391eca331cf62ea01e3d683f46669abb9d9adbee5c835b70f3af",
   "https://www.bleepingcomputer.com/news/security/low-cost-android-phones-ship-with-residential-proxy-malware",
@@ -998,5 +989,14 @@
   "slug_hackers_breached_litellm_github_repository_11",
   "94eb894b9cee65c1ea9f51a28f9598e264578b67511a5762d3e81b016b6b49a7",
   "https://www.helpnetsecurity.com/2026/10/23/capcom-id-data-breach-11-million-records-exposed",
-  "slug_capcom_data_breach_exposes_117_million"
+  "slug_capcom_data_breach_exposes_117_million",
+  "2b44ac8d0a52ce9fe00c2800adcc48c1a378b3d1b6f776b22aaf7ccad9610208",
+  "https://thehackernews.com/2026/10/openai-ai-agents-demonstrate-vm-escapes.html",
+  "slug_openai_ai_agents_demonstrate_vm_escapes",
+  "b7a287cfbcada699c54933236ff485e9e5a539066c7b99a23362d48358b2660c",
+  "https://www.vulncheck.com/blog/cvss-severity",
+  "slug_critical_cves_cvss_v4_adoption_gap",
+  "067ec302f0813574e8ed69faf6ea52dc54c66919cf87aa3a8fbfa5a78e40fa52",
+  "https://www.helpnetsecurity.com/2026/10/25/week-in-review-php-vulnerabilities-patched-exploited-palo-alto-globalprotect-vpn-flaw",
+  "slug_week_review_php_vulnerabilities_patched_exploited"
 ]
