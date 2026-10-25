@@ -1,13 +1,4 @@
 [
-  "https://thehackernews.com/2026/10/sonicwall-patches-cvss-100-pre.html",
-  "slug_sonicwall_patches_cvss_100_preauthentication_ssrf",
-  "1bf1451c82ff048b5b27b994d0ff3adbd7d26cfd29177e750a20000e6ae38a21",
-  "https://www.bleepingcomputer.com/news/security/fbi-ongoing-fortibleed-attacks-lock-out-fortigate-vpn-admins",
-  "slug_fbi_ongoing_fortibleed_attacks_lock_out",
-  "7e53cb174fc6afea24fc8bbabacf94e73900cd410fcc70f7662f6e3eea5b506d",
-  "https://www.securityweek.com/georgia-power-alabama-power-data-breach-hits-400000-accounts",
-  "slug_georgia_power_alabama_power_data_breach",
-  "0a0a43d53f75003578ecb780aebe5ef6562c36d71a430df8f9f54b886f5bfbc5",
   "https://thehackernews.com/2026/10/16-malicious-firefox-extensions-pose-as.html",
   "slug_16_malicious_firefox_extensions_pose_rabby",
   "bd1cb388c205221de3a624062f9f259ab176e32eb3e0285ab6a492ea2081df15",
@@ -998,5 +989,14 @@
   "CVE_CVE-2026-24423",
   "7f72480af124f110cdb35e2b27d883e3f0159bb45b5d9072f067860ed2196727",
   "https://gbhackers.com/anthropic-ai-model-inject-malicious-code",
-  "slug_anthropic_ai_model_attempts_inject_malicious"
+  "slug_anthropic_ai_model_attempts_inject_malicious",
+  "df16f3107e9fe17e1d303bb80bc8e80568819131b858ce3298c0297ffea0388e",
+  "https://www.vulncheck.com/blog/state-of-exploitation-2026",
+  "slug_vulncheck_state_exploitation_2026key_trends_findings",
+  "8e1c44ee96c5a63b9aa704dc0ebcdb01140491c488d914114bf9e0c9ab07ae7c",
+  "https://gbhackers.com/hackers-fake-chocolatey-microsoft-activation-websites",
+  "slug_hackers_use_fake_chocolatey_microsoft_activation",
+  "dfe4997e89e4ada96271d1ba22b13965d6312018565e7080eadd4c3b810be5e4",
+  "https://ipurple.team/2026/10/22/custom-extensions",
+  "slug_custom_extensions"
 ]
