@@ -1,14 +1,4 @@
 [
-  "https://thehackernews.com/2026/10/researchers-publish-working-exploit-for.html",
-  "slug_researchers_publish_working_exploit_preauth_anydesk",
-  "dda72c84a1ac87a08eae0eaa14f2276e6ee2625fc19f09a8663895e97815df7f",
-  "https://www.bleepingcomputer.com/news/security/germany-arrests-alleged-core-qilin-ransomware-member-after-extradition",
-  "slug_germany_arrests_alleged_core_qilin_ransomware",
-  "f9bf89a754eb50a1103051850c6a90c66ac438bb1535737a426124e6650b3a87",
-  "https://cybersecuritynews.com/castlestealer-malware",
-  "slug_castlestealer_malware_uses_browser_protection_bypass",
-  "bf89595af7c39e7a025ec626eeeb09ce33b8e83a8d0e785473c5926e951fd3f1",
-  "https://thehackernews.com/2026/10/credential-stealing-github-actions.html",
   "slug_credentialstealing_github_actions_workflows_planted_tens",
   "c82eac134cb7c0f5d597b5df8cd175a88cb42d4510df6734ae0afc2fca447905",
   "https://www.bleepingcomputer.com/news/security/hackers-abuse-google-ads-bing-redirects-to-push-claude-clickfix-attacks",
@@ -998,5 +988,15 @@
   "slug_hackers_hijack_exposed_ai_models_launch",
   "7d96c85341cf3b2bcf45add157d1b01210a93b104ad368ab9759c5426b342365",
   "https://ipurple.team/2026/09/21/dump-encoding-library",
-  "slug_dump_encoding_library"
+  "slug_dump_encoding_library",
+  "aec8daffc0c2837f247ef9cc9673f84baf064659509adc5437cad58401d66f38",
+  "https://www.vulncheck.com/blog/frost-checks-first",
+  "slug_frost_checks_first_selective_exploitationnew_cve20252611",
+  "CVE_CVE-2025-2611",
+  "2cc1f841f29af0c2ee9f930f5d2038b88bc1a3865c5333bf4ea4e83aa85a712f",
+  "https://www.helpnetsecurity.com/2026/10/23/google-cloud-openai-models-private-preview",
+  "slug_google_opens_its_cloud_rival_openai",
+  "59730e2407b364de01a7249da986087d56b93894626ea4f6f58a09e1f487420d",
+  "https://ipurple.team/2026/09/09/windows-security-center",
+  "slug_windows_security_center"
 ]
