@@ -1,13 +1,4 @@
 [
-  "https://thehackernews.com/2026/10/artex-ai-pentesting-tool-used-in-data.html",
-  "slug_artex_ai_pentesting_tool_used_data",
-  "6ed2fa4a1567288428eddabc6dfcc14df1184366381a7d1de05eb6cbdd9d58dc",
-  "https://www.bleepingcomputer.com/news/security/citrix-warns-admins-to-patch-new-netscaler-rce-flaw-immediately",
-  "slug_citrix_warns_admins_patch_new_netscaler",
-  "85ac840b402d11a8f37c97c9f39401b1b16bf77df98c55d88291e8f906290f4b",
-  "https://cybersecuritynews.com/anthropic-oss-scanner",
-  "slug_new_anthropic_oss_scanner_tool_scan",
-  "b8e2f39fd1297ab6dbeb3bac5fdd0aa67885420082e4d6ed8c7ce7e1347fa9bc",
   "https://thehackernews.com/2026/10/researchers-publish-working-exploit-for.html",
   "slug_researchers_publish_working_exploit_preauth_anydesk",
   "dda72c84a1ac87a08eae0eaa14f2276e6ee2625fc19f09a8663895e97815df7f",
@@ -998,5 +989,14 @@
   "slug_react2shell_exploits_githubvulncheck_reviewed_full_wave",
   "2d7cf381fbd89e501c90e894ec9fb684b023d0be4a1add2c8ce6fea7e6838581",
   "https://gbhackers.com/stealc-malware-resurfaces",
-  "slug_stealc_infostealer_returns_powerful_remote_access"
+  "slug_stealc_infostealer_returns_powerful_remote_access",
+  "74eb2f41f5f5f652b004b879a9d969fefea3b8455a75e3e3c98565de6def4d15",
+  "https://www.vulncheck.com/blog/react2shell-canaries",
+  "slug_react2shell_what_our_canaries_seewex27re_already",
+  "87ef383f4229c22c84e7ef9754fb8cac6004928bafe3bc1de10368fe07ca224e",
+  "https://www.helpnetsecurity.com/2026/10/23/llmjacking-agent-hijacks-exposed-ai-models",
+  "slug_hackers_hijack_exposed_ai_models_launch",
+  "7d96c85341cf3b2bcf45add157d1b01210a93b104ad368ab9759c5426b342365",
+  "https://ipurple.team/2026/09/21/dump-encoding-library",
+  "slug_dump_encoding_library"
 ]
