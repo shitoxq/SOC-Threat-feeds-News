@@ -1,14 +1,4 @@
 [
-  "https://thehackernews.com/2026/10/uac-0099-targets-ukrainian-government.html",
-  "slug_uac0099_targets_ukrainian_government_personnel_ashvein",
-  "8c1bbb95dd2b10b989b9e3155f772b96dd18266f42574a24e6007999ce6bea27",
-  "https://www.bleepingcomputer.com/news/security/fakegit-malware-campaign-returns-with-17-610-malicious-github-repos",
-  "slug_fakegit_malware_campaign_returns_17610_malicious",
-  "45ab108680b7232d1413445ee720002862470c6d37b3590630f3da252f050e34",
-  "https://www.securityweek.com/cisco-patches-a-dozen-critical-vulnerabilities",
-  "slug_cisco_patches_dozen_critical_vulnerabilities",
-  "92f3696e16484178f00f49df4a6c67df3b79068c38e1683f7bb4b6d77724a4fe",
-  "https://thehackernews.com/2026/10/fbi-says-china-linked-hackers-ran.html",
   "slug_fbi_says_chinalinked_hackers_ran_portal",
   "05bcef4e5eefe03b0090a51c98a21966618d411443890bb6f1d68b214fa19585",
   "https://www.bleepingcomputer.com/news/security/ransomware-attack-disrupts-japans-idcf-cloud-used-by-govt-clients",
@@ -998,5 +988,15 @@
   "slug_anthropic_ai_model_attempts_infect_github",
   "b6f5535e812fd75a1c06fadecbc5dc851ace3c9dae12841780333f52e108d19f",
   "https://www.helpnetsecurity.com/2026/10/23/microsoft-365-accounts-stolen-sessions",
-  "slug_microsoft_365_accounts_compromised_79_organizations"
+  "slug_microsoft_365_accounts_compromised_79_organizations",
+  "935f495f66e01e67be2c8ff8ce852927207983d9fea74232da627dda602dc75f",
+  "https://www.vulncheck.com/blog/triofox-exploit-cve-2025-12480",
+  "slug_tales_from_exploit_mines_gladinet_triofox",
+  "CVE_CVE-2025-12480",
+  "18993fc9a11a3bb09e23b55100f81402121a28e33fa630e30b81c8621b737a45",
+  "https://gbhackers.com/hackers-breached-litellm-github-repository",
+  "slug_hackers_breached_litellm_github_repository_11",
+  "94eb894b9cee65c1ea9f51a28f9598e264578b67511a5762d3e81b016b6b49a7",
+  "https://www.helpnetsecurity.com/2026/10/23/capcom-id-data-breach-11-million-records-exposed",
+  "slug_capcom_data_breach_exposes_117_million"
 ]
