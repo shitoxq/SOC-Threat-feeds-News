@@ -1,13 +1,4 @@
 [
-  "CVE_CVE-2026-105133",
-  "CVE_CVE-2026-105134",
-  "0de6e8ffad49ea45dcf9d70a9fef575e283d806bcaeeb7579bf95368d9bb66a8",
-  "https://www.vulncheck.com/blog/zbt-endlessdoors",
-  "slug_endlessdoors_phoning_home_pick_uptwenty_router",
-  "8c263eaeb7a440aaf2ebca543b3f5c7f3819682ca51912d51adfd88fa8e28df4",
-  "https://cybersecuritynews.com/att-to-pay-177-million",
-  "slug_atampt_pay_177_million_after_two",
-  "2a20f651384088ebe3e686e8bab6eef43a9013752d8e6165ec8857337c590f23",
   "https://www.securityweek.com/pre-baked-firmware-malware-hits-budget-android-devices-in-150-countries",
   "slug_prebaked_firmware_malware_hits_budget_android",
   "1eb7892752fbb3017096d90ce76f720cc285d3b8edb6570a7c9a54243005190b",
@@ -998,5 +989,14 @@
   "slug_hackers_launch_mass_scanning_campaigns_using",
   "119033774a06ef8822064a963f34905a6dab5a36b35a1d8ae72ecf34da4ecd98",
   "https://www.helpnetsecurity.com/2026/10/26/arrakis-dormant-ai-agent-risks-report",
-  "slug_forgotten_ai_agents_may_still_access"
+  "slug_forgotten_ai_agents_may_still_access",
+  "20494af63ce3fb8e1268344e5a5e46a89fb8745f8a818ef14ed0d1f00c0af8a9",
+  "https://thehackernews.com/2026/10/ucreator-android-spyware-can-steal.html",
+  "slug_ucreator_android_spyware_can_steal_telegram",
+  "7d17df1a83c2eeaa320d76da0e00df0570592c44cea177f4cce25e6ff91b7638",
+  "https://www.bleepingcomputer.com/news/linux/kali-linux-20263-released-with-6-new-tools-desktop-updates",
+  "slug_kali_linux_20263_released_6_new",
+  "99de84c0b750a614df08693b0efafcb1b73942b59072b9f644c2e5a4d5b3ae22",
+  "https://www.securityweek.com/node2shell-brotli-flaw-triggers-patching-across-microsoft-node-js-python-packages",
+  "slug_node2shell_brotli_triggers_patching_across_microsoft"
 ]
