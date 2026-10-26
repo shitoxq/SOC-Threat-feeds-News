@@ -1,13 +1,4 @@
 [
-  "b45c4e673c3e586bc28bbecca3af0f675ad8c4b2621099876e11de86d81aee95",
-  "https://cybersecuritynews.com/reverse-engineer-anything-tool",
-  "slug_rea_tool_connects_claude_code_cursor",
-  "4e445b9b86a95c554a59927ffc6bb815ba719385ae7ee03eb5998fbfa39dc231",
-  "https://cybersecuritynews.com/agentcorruption-attack",
-  "slug_one_prompt_could_hijack_aws_ai",
-  "ed4cafcf9d3e69b08a192b21becd3cfdc7bc64b57ea40eab7e0d284b883c33ef",
-  "https://www.securityweek.com/unpatched-ahsaycbs-vulnerabilities-exploited-in-the-wild",
-  "slug_unpatched_ahsaycbs_vulnerabilities_exploited_wild",
   "CVE_CVE-2026-105133",
   "CVE_CVE-2026-105134",
   "0de6e8ffad49ea45dcf9d70a9fef575e283d806bcaeeb7579bf95368d9bb66a8",
@@ -998,5 +989,14 @@
   "e42043f62c15c8816844f61d2e29debb42bb7eaf69fff46febca3834981e5205",
   "https://www.vulncheck.com/blog/cve-2025-10035-fortra-go-anywhere-mft",
   "slug_cve202510035_critical_vulnerability_fortra_goanywhere_mfta",
-  "CVE_CVE-2025-10035"
+  "CVE_CVE-2025-10035",
+  "e06f16de0f43e3c70505aad2ad91c27818a4e931bbcc03f064f0240ea3594051",
+  "https://www.vulncheck.com/blog/vulncheck-initial-access",
+  "slug_getting_ahead_exploitation_initial_access_intelligenceiai",
+  "e286dcf783f8d96c32db6dc6b9fa9f1e4a4884fc58dab39b8c5719003bb07b31",
+  "https://gbhackers.com/php2shell-exploit-scripts",
+  "slug_hackers_launch_mass_scanning_campaigns_using",
+  "119033774a06ef8822064a963f34905a6dab5a36b35a1d8ae72ecf34da4ecd98",
+  "https://www.helpnetsecurity.com/2026/10/26/arrakis-dormant-ai-agent-risks-report",
+  "slug_forgotten_ai_agents_may_still_access"
 ]
