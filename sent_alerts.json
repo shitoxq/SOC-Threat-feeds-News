@@ -1,13 +1,4 @@
 [
-  "https://www.securityweek.com/us-disrupts-chinese-state-sponsored-hacking-tools",
-  "slug_us_disrupts_chinese_statesponsored_hacking_tools",
-  "cb62f7559c4f6ae9494e1cf1ef6167f30e7079f6f738aa3d9caf2f53c36b1820",
-  "https://www.vulncheck.com/blog/state-of-exploitation-1h-2026",
-  "slug_vulncheck_state_exploitation_1h2026key_trends_findings",
-  "7da0b055629db7d091e2d308abce95cf77943357a4f1f33f4387e50e0097d41b",
-  "https://www.securityweek.com/anthropic-fast-tracks-ai-bug-reports-to-oss-maintainers-taps-11-firms-for-ot-security",
-  "slug_anthropic_fasttracks_ai_bug_reports_oss",
-  "081f991a134abbe52bc59369ba427be63d27024dcb731b2756ec578cd3233abf",
   "https://www.vulncheck.com/blog/wp2shell",
   "slug_wp2shell_vulnerabilities_cve202660137_cve202663030two_new_wordpress",
   "CVE_CVE-2026-60137",
@@ -998,5 +989,14 @@
   "slug_microsoft_releases_emergency_net_patches_critical",
   "696f0ca9e09e0177f2a72253ed77637c6eb3a59c2429f241cf27e28690019903",
   "https://cybersecuritynews.com/codex-and-claude-code-hijack",
-  "slug_hackers_can_hijack_openai_codex_claude"
+  "slug_hackers_can_hijack_openai_codex_claude",
+  "399172439712b08d5e85ae1e75783c6c3387be4fdb196acb84a4e22c103b9a1f",
+  "https://thehackernews.com/2026/10/microsoft-365-token-replay-attacks.html",
+  "slug_microsoft_365_tokenreplay_attacks_compromise_97",
+  "d0a54491270e55b11ee237aceb1a2c315519d304d6d2b17d3fd8a76c8a418cc0",
+  "https://cybersecuritynews.com/microsoft-investigation-teams-issue",
+  "slug_microsoft_investigation_teams_issue_affecting_users",
+  "7ad5a03c8a5682579e51602c18eafcb1b1d67e0bcde4160159074e058ba8c93d",
+  "https://www.securityweek.com/php2shell-exploitation-moves-from-probes-to-working-shells",
+  "slug_php2shell_exploitation_moves_from_probes_working"
 ]
