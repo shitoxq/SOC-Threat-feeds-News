@@ -1,14 +1,4 @@
 [
-  "3d4c29ac23f8b637e048a6701a87f8b434ffba75da7f6d55543913127cff00e9",
-  "https://cybersecuritynews.com/teams-qr-code-protection",
-  "slug_microsoft_teams_warn_users_about_malicious",
-  "efd24bc6b14734d03e9ac7193fb1550b449dbf32ccc4fbc2a9aae45e0118f9bb",
-  "https://thehackernews.com/2026/10/anthropic-cuts-live-internet-access-for.html",
-  "slug_anthropic_cuts_live_internet_access_internal",
-  "392ae3e42bab5205fe60f560f95ebe695f8d4bde884887960ab9d59cab33cb14",
-  "https://www.bleepingcomputer.com/news/security/max-severity-sonicwall-sma1000-flaw-now-exploited-in-attacks",
-  "slug_max_severity_sonicwall_sma1000_now_exploited",
-  "CVE_CVE-2026-102255",
   "b45c4e673c3e586bc28bbecca3af0f675ad8c4b2621099876e11de86d81aee95",
   "https://cybersecuritynews.com/reverse-engineer-anything-tool",
   "slug_rea_tool_connects_claude_code_cursor",
@@ -998,5 +988,15 @@
   "CVE_CVE-2025-61882",
   "6e39d51aab82564f1be7ab7ce2641f6821f36f51be16db82369e267891fcb149",
   "https://www.infosecurity-magazine.com/news/tokenspraying-attacks-target",
-  "slug_widespread_tokenspraying_attacks_target_microsoft_365"
+  "slug_widespread_tokenspraying_attacks_target_microsoft_365",
+  "da19872bd8ebd641fd6397768aac402f3e921a7c58cec2a2b755c0ffbf10b243",
+  "https://thehackernews.com/2026/10/php2shell-exploitation-hits-government.html",
+  "slug_php2shell_exploitation_attempts_continue_amid_suspected",
+  "24c99f009fb604b20786d393ac27d6b3ce1398f104dc820eb36dba854ea10e15",
+  "https://cybersecuritynews.com/php2shell-flaws-exploited",
+  "slug_hacker_exploits_critical_php2shell_win_2000",
+  "e42043f62c15c8816844f61d2e29debb42bb7eaf69fff46febca3834981e5205",
+  "https://www.vulncheck.com/blog/cve-2025-10035-fortra-go-anywhere-mft",
+  "slug_cve202510035_critical_vulnerability_fortra_goanywhere_mfta",
+  "CVE_CVE-2025-10035"
 ]
