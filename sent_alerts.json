@@ -1,13 +1,4 @@
 [
-  "https://www.vulncheck.com/blog/wp2shell",
-  "slug_wp2shell_vulnerabilities_cve202660137_cve202663030two_new_wordpress",
-  "CVE_CVE-2026-60137",
-  "CVE_CVE-2026-63030",
-  "ac5618404f49a04c44fa8bcd2f2922526ae90dc3b2d03e82ae02e77327c2fdd5",
-  "https://www.helpnetsecurity.com/2026/10/09/nvidia-dcgm-exporter-vulnerability-cve-2026-47483",
-  "slug_highseverity_nvidia_vulnerability_lets_unauthenticated_attackers",
-  "CVE_CVE-2026-47483",
-  "da6a6aee817912704e114f1fe3180ca2780138d792350e8422282bf81be84c76",
   "https://www.vulncheck.com/blog/nvidia-gen3c-unauth-pickle-rce",
   "slug_nvidia_gen3c_unauthenticated_rce_via_pickle",
   "ebded08b2219cb4b1cda6036ef17fb2aa83077e91a2d7bb7164f2ad6456ffb70",
@@ -998,5 +989,14 @@
   "slug_microsoft_investigation_teams_issue_affecting_users",
   "7ad5a03c8a5682579e51602c18eafcb1b1d67e0bcde4160159074e058ba8c93d",
   "https://www.securityweek.com/php2shell-exploitation-moves-from-probes-to-working-shells",
-  "slug_php2shell_exploitation_moves_from_probes_working"
+  "slug_php2shell_exploitation_moves_from_probes_working",
+  "4764a547323cc60e09a947be683393ab6b2044139c1d655ed05398802e04247e",
+  "https://thehackernews.com/2026/10/hackers-infect-953-online-stores-with.html",
+  "slug_hackers_infect_953_online_stores_scannerevading",
+  "fe0322af886fa22cc7776aabcedb0f52abb287eceffd2fbbfd67a2369832c4ff",
+  "https://www.bleepingcomputer.com/news/security/dreamhost-forces-email-ftp-sftp-password-resets-in-ongoing-incident",
+  "slug_dreamhost_forces_password_resets_ongoing_quotincidentquot",
+  "0620b94d9828ebf8afcbc4b49cf1687376c289f11829cd5a3b12e6dd93be8eee",
+  "https://cybersecuritynews.com/emperador-ransomware-group-claim",
+  "slug_emperador_ransomware_group_claims_have_stolen"
 ]
