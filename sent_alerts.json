@@ -1,11 +1,4 @@
 [
-  "slug_google_domains_impacted_recent_cctld_hijacks",
-  "6df49761e69e4df829e7a2a170a85ff037fae5eb237d8351f6acebf8e004448f",
-  "https://thehackernews.com/2026/10/anthropic-launches-free-ai.html",
-  "slug_anthropic_launches_free_ai_vulnerability_scanner",
-  "8fdae48b6e18987622df20c4da4f7133a1c08ad31ed5ba3039520f7817ed4bb1",
-  "https://www.bleepingcomputer.com/news/security/how-to-keep-ai-agents-within-their-permissions",
-  "slug_how_keep_ai_agents_within_their",
   "3d4c29ac23f8b637e048a6701a87f8b434ffba75da7f6d55543913127cff00e9",
   "https://cybersecuritynews.com/teams-qr-code-protection",
   "slug_microsoft_teams_warn_users_about_malicious",
@@ -998,5 +991,12 @@
   "slug_introducing_vulncheck_canary_intelligenceintroducing_vulncheck_canary",
   "cb0fdf55f96712ca16ef7d4d0dd9a4fc26f4d0601d88c615d7313114b59bec0a",
   "https://www.infosecurity-magazine.com/news/capcom-confirms-data-breach",
-  "slug_gaming_giant_capcom_confirms_data_breach"
+  "slug_gaming_giant_capcom_confirms_data_breach",
+  "54857a42b21b7ac336a8d44e2ab2620158306cea6047022e8bbcbc5a3c1ca17a",
+  "https://www.vulncheck.com/blog/oracle-e-business-suite-cve-2025-61882-exploited-in-extortion-attacks",
+  "slug_oracle_ebusiness_suite_cve202561882_exploited_extortion",
+  "CVE_CVE-2025-61882",
+  "6e39d51aab82564f1be7ab7ce2641f6821f36f51be16db82369e267891fcb149",
+  "https://www.infosecurity-magazine.com/news/tokenspraying-attacks-target",
+  "slug_widespread_tokenspraying_attacks_target_microsoft_365"
 ]
