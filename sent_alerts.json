@@ -1,13 +1,4 @@
 [
-  "https://www.securityweek.com/pre-baked-firmware-malware-hits-budget-android-devices-in-150-countries",
-  "slug_prebaked_firmware_malware_hits_budget_android",
-  "1eb7892752fbb3017096d90ce76f720cc285d3b8edb6570a7c9a54243005190b",
-  "https://www.vulncheck.com/blog/aimy-captcha-less-form-guard-object-injection",
-  "slug_aimy_captchaless_form_guard_antibot_plugin",
-  "509051bad08c466b929d785a3db7af42bfdcc47ad866880400333a2b4ce6789f",
-  "https://cybersecuritynews.com/anydesk-linux-vulnerability",
-  "slug_anydesk_linux_lets_remote_attackers_execute",
-  "ba4ed3b0311d755b4af4f883548a1df55b47da9f8a00e64f3745336dcf04a414",
   "https://www.securityweek.com/us-disrupts-chinese-state-sponsored-hacking-tools",
   "slug_us_disrupts_chinese_statesponsored_hacking_tools",
   "cb62f7559c4f6ae9494e1cf1ef6167f30e7079f6f738aa3d9caf2f53c36b1820",
@@ -998,5 +989,14 @@
   "slug_kali_linux_20263_released_6_new",
   "99de84c0b750a614df08693b0efafcb1b73942b59072b9f644c2e5a4d5b3ae22",
   "https://www.securityweek.com/node2shell-brotli-flaw-triggers-patching-across-microsoft-node-js-python-packages",
-  "slug_node2shell_brotli_triggers_patching_across_microsoft"
+  "slug_node2shell_brotli_triggers_patching_across_microsoft",
+  "e0df996ac6f273db772adcd0c6a29aced11263ca5501f7bfb8c120e25427a665",
+  "https://thehackernews.com/2026/10/weekly-recap-this2shell-that2shell.html",
+  "slug_weekly_recap_this2shell_that2shell_everythingx27s_rce",
+  "cbcc5c5d1532cb4996baf7f9e9e1d40a2449285c46e9ea0a1f62db420e869ded",
+  "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-emergency-net-patches-for-critical-brotli-flaw",
+  "slug_microsoft_releases_emergency_net_patches_critical",
+  "696f0ca9e09e0177f2a72253ed77637c6eb3a59c2429f241cf27e28690019903",
+  "https://cybersecuritynews.com/codex-and-claude-code-hijack",
+  "slug_hackers_can_hijack_openai_codex_claude"
 ]
