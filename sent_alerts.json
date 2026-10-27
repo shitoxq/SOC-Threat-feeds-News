@@ -1,13 +1,4 @@
 [
-  "https://www.vulncheck.com/blog/copy-fails-descendants-recent-linux-lpes",
-  "slug_copy_fail_its_descendants_real_humanx27s",
-  "821b8662bae0971bb2aa0d9b0301507496de8a96eeda08c8b0d65fbbf411360c",
-  "https://www.helpnetsecurity.com/2026/10/09/fbi-flax-typhoon-microscan-fishhub-domains",
-  "slug_fbi_disrupts_flax_typhoon_hacking_tools",
-  "25722a03df89a0848c034e06ffa87304c86980dd79c4a1edc4674903ba75c3da",
-  "https://ipurple.team/2026/08/11/mandatory-user-profile",
-  "slug_mandatory_user_profile",
-  "ba6ce253b43ca689430a79d3dabc2af8e98ee9a42e6d17b0448419c6d8fb376e",
   "https://cybersecuritynews.com/discourse-image-pipeline-exploit",
   "slug_discourse_image_pipeline_exploit_chains_jpeg",
   "ef82d9f6c0879c3dcdc5139d077f28e800d4bd80b0f77886f83cbfcd9574062c",
@@ -998,5 +989,14 @@
   "08b01f91df934d0dbfc541ad1d2e60675253f6ae11563d8c0308f21783681182",
   "https://www.vulncheck.com/blog/cache-me-if-you-can",
   "slug_cache_me_if_you_can_unpacking",
-  "CVE_CVE-2026-42589"
+  "CVE_CVE-2026-42589",
+  "4e555997f2e11531cc20f448c98cfce8bfbdbb386f28c517553e412aabbe0cba",
+  "https://cybersecuritynews.com/aokigahara-malware",
+  "slug_new_aokigahara_malware_targets_chatgpt_claude",
+  "a70632833cc9fc2e3bc0ce493071ee9416ec537d41929c3576fc13a1ae89216e",
+  "https://www.vulncheck.com/blog/what-canaries-see",
+  "slug_what_canary_sees_that_kev_entry",
+  "aecc6870f646f888cb7b697d2be3b9b03a2f778efa46a69fd28ed67f84286eed",
+  "https://gbhackers.com/connectwise-cloud-backup",
+  "slug_hackers_abuse_connectwise_cloud_backup_credentials"
 ]
