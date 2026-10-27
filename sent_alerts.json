@@ -1,14 +1,4 @@
 [
-  "https://www.bleepingcomputer.com/news/security/nippon-columbia-malware-incident-exposes-86-million-karaoke-fan-records",
-  "slug_nippon_columbia_malware_incident_exposes_86",
-  "f30c22969f06f29dda9d85833c1b5bef2f9392d7eae2c872f6cd2b85ca66d88c",
-  "https://cybersecuritynews.com/claude-exploited-software-flaws",
-  "slug_claude_exploited_sql_injection_execute_commands",
-  "9636c568e50e698a97bc03a5b02984a27b84edccc0a7f033daefebc51cb31b5c",
-  "https://www.vulncheck.com/blog/fossbilling-auth-bypass-ssti-rce",
-  "slug_cve202628496_fossbilling_auth_bypass_twig_ssti",
-  "CVE_CVE-2026-28496",
-  "951314c27b65e520fe8f034e40358d0a416fa69912cf1f408600de654921f2ad",
   "https://www.vulncheck.com/blog/copy-fails-descendants-recent-linux-lpes",
   "slug_copy_fail_its_descendants_real_humanx27s",
   "821b8662bae0971bb2aa0d9b0301507496de8a96eeda08c8b0d65fbbf411360c",
@@ -998,5 +988,15 @@
   "slug_university_copenhagen_data_breach_exposes_data",
   "dc932cd0c0ecdb9a7295698d560a7154a83eb7c95ec1fa843265cbf7d7c4541e",
   "https://www.securityweek.com/953-online-stores-infected-in-long-lasting-malware-campaign",
-  "slug_953_online_stores_infected_longlasting_malware"
+  "slug_953_online_stores_infected_longlasting_malware",
+  "56a87724392e45d75d582f70ab6e53c3aaa2eb7a543bfc83bf93bb99d5edcdd5",
+  "https://cybersecuritynews.com/claudes-official-website",
+  "slug_hackers_abuse_claudes_official_website_google",
+  "e6f8b8cef107a25e16f98f7bfb023ef5d2b4a5f88938edb5983b958a38d07f15",
+  "https://www.securityweek.com/cybersecurity-issue-forces-a-major-new-mexico-hospital-to-divert-patients-and-close-clinics",
+  "slug_cybersecurity_issue_forces_major_new_mexico",
+  "08b01f91df934d0dbfc541ad1d2e60675253f6ae11563d8c0308f21783681182",
+  "https://www.vulncheck.com/blog/cache-me-if-you-can",
+  "slug_cache_me_if_you_can_unpacking",
+  "CVE_CVE-2026-42589"
 ]
