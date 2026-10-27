@@ -1,14 +1,4 @@
 [
-  "slug_cyberxero_uses_claude_code_campaign_that",
-  "24510e9c9f9260aa53595b66fb8d330baaeb9c5338bbe77d9d16f8db6abaa579",
-  "https://www.bleepingcomputer.com/news/security/norway-fines-microsoft-ad-firm-96-million-over-grindr-data-sharing",
-  "slug_norway_fines_microsoft_ad_firm_96",
-  "34ffc5ef9947bf1206adc3092de03c8222311fe73ba370acfae67965dfdee199",
-  "https://cybersecuritynews.com/critical-google-devsite-flaw",
-  "slug_google_devsite_let_attackers_execute_remote",
-  "cbeefa878ff83c60ff0ae118380c1ca1e3883f2d1654b68e96c545e74bce8ae7",
-  "https://cybersecuritynews.com/lg-webos-flaws",
-  "slug_lg_webos_let_remote_attackers_execute",
   "CVE_CVE-2023-6317",
   "CVE_CVE-2023-6320",
   "dd7cee5f6afa9ee1f6b7ab9a0e184665172c5c337cd64e70e078acfb283ed12c",
@@ -998,5 +988,15 @@
   "slug_tailscale_warns_ssh_allowing_root_privilege",
   "0de55835221a6f67d320329869e8ba7d01cfd70c458f8ca68d44509f5ee1c1fe",
   "https://www.securityweek.com/hpe-patches-dozens-of-critical-flaws-in-networking-products",
-  "slug_hpe_patches_dozens_critical_networking_products"
+  "slug_hpe_patches_dozens_critical_networking_products",
+  "6e33a6040a7d5deb5895de4af1b567745929b9730763e4a5298f46b2f03fac99",
+  "https://thehackernews.com/2026/10/apple-backports-fix-for-exploited.html",
+  "slug_apple_backports_fix_exploited_coregraphics_older",
+  "CVE_CVE-2026-86950",
+  "728f1e861a42ac6837a342aedb7bd2ef2dff68b2341dcddbde778babab7079f0",
+  "https://www.bleepingcomputer.com/news/security/the-huntress-tragic-quadrant-ranking-threats-hitting-businesses-hardest",
+  "slug_huntress_tragic_quadrant_ranking_threats_hitting",
+  "fe41de402816c681044a50f441ee99106c49c0fd4d4a3983ec6a580f04c30a51",
+  "https://cybersecuritynews.com/goahead-tls-vulnerabilities",
+  "slug_critical_goahead_tls_could_expose_hundreds"
 ]
