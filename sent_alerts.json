@@ -1,13 +1,4 @@
 [
-  "CVE_CVE-2023-6317",
-  "CVE_CVE-2023-6320",
-  "dd7cee5f6afa9ee1f6b7ab9a0e184665172c5c337cd64e70e078acfb283ed12c",
-  "https://www.securityweek.com/irhythm-data-breach-impacts-over-360000-people",
-  "slug_irhythm_data_breach_impacts_least_360000",
-  "782a519327351ce8026373bdccb4466355217a0874d40188db4941065e55ddca",
-  "https://www.vulncheck.com/blog/routinely-targeted-vulnerabilities-may-2026",
-  "slug_quantifying_2026_routinely_targeted_vulnerabilities_so",
-  "6888d3f1bf78a5a7891c1c4d827efa5333441cd2287e7f237c3f79511106f059",
   "https://thehackernews.com/2026/10/gitlab-patches-cvss-100-flaw-that-could.html",
   "slug_gitlab_patches_cvss_100_that_could",
   "6b8e0096ac8cbbecddc59ecc48c6eb068dabe60c8066eca6aefe63a3c313be87",
@@ -998,5 +989,14 @@
   "slug_huntress_tragic_quadrant_ranking_threats_hitting",
   "fe41de402816c681044a50f441ee99106c49c0fd4d4a3983ec6a580f04c30a51",
   "https://cybersecuritynews.com/goahead-tls-vulnerabilities",
-  "slug_critical_goahead_tls_could_expose_hundreds"
+  "slug_critical_goahead_tls_could_expose_hundreds",
+  "3f1af19eb7d09511a7e39525299058e4dd2bc40b4cd24ac59d6a7b55949b33ad",
+  "https://thehackernews.com/2026/10/cyberstrikeai-uses-44-ai-agents-to.html",
+  "slug_cyberstrikeai_uses_44_ai_agents_automate",
+  "2b90914d399ffff4d4054c8ba72a6c5db366f0a432a0c6b40127d0fb8bbb259f",
+  "https://www.bleepingcomputer.com/news/security/hackers-hijack-convertr-analytics-script-to-steal-payment-card-data",
+  "slug_hackers_hijack_convertr_analytics_script_steal",
+  "9888b23027f1d7c9aea795b8eeb956ae9924c651fc526a937dabe7169b1f175b",
+  "https://cybersecuritynews.com/researchers-exploit-openai-api-flaw",
+  "slug_researchers_exploit_openai_api_extract_hidden"
 ]
