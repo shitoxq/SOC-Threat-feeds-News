@@ -1,13 +1,4 @@
 [
-  "https://www.vulncheck.com/blog/nvidia-gen3c-unauth-pickle-rce",
-  "slug_nvidia_gen3c_unauthenticated_rce_via_pickle",
-  "ebded08b2219cb4b1cda6036ef17fb2aa83077e91a2d7bb7164f2ad6456ffb70",
-  "https://www.helpnetsecurity.com/2026/10/09/anthropic-oss-scanner-ai-security-scans",
-  "slug_anthropic_offers_free_ai_security_scans",
-  "ccc11eebb8ec70bcfacc68562e56ccda4476a20c51fd65ab9cfc19809a7a8e69",
-  "https://ipurple.team/2026/08/24/text-template",
-  "slug_text_template",
-  "9fc15fecc9ebb197f2935848c336aa8522c766e75f864407155e0a46a815293f",
   "https://www.bleepingcomputer.com/news/security/nippon-columbia-malware-incident-exposes-86-million-karaoke-fan-records",
   "slug_nippon_columbia_malware_incident_exposes_86",
   "f30c22969f06f29dda9d85833c1b5bef2f9392d7eae2c872f6cd2b85ca66d88c",
@@ -998,5 +989,14 @@
   "slug_dreamhost_forces_password_resets_ongoing_quotincidentquot",
   "0620b94d9828ebf8afcbc4b49cf1687376c289f11829cd5a3b12e6dd93be8eee",
   "https://cybersecuritynews.com/emperador-ransomware-group-claim",
-  "slug_emperador_ransomware_group_claims_have_stolen"
+  "slug_emperador_ransomware_group_claims_have_stolen",
+  "4b8826d6a66e074543d42962242b43c47c115efa1a641d10702956c2bb749253",
+  "https://thehackernews.com/2026/10/attackers-use-microsoft-teams-it.html",
+  "slug_attackers_use_microsoft_teams_it_support",
+  "46752dcf791041e1a30866c215a0e14dd2dc44ec8454a9eb93ca38c6fc5e76f3",
+  "https://www.bleepingcomputer.com/news/security/university-of-copenhagen-data-breach-exposes-data-of-525-000-people",
+  "slug_university_copenhagen_data_breach_exposes_data",
+  "dc932cd0c0ecdb9a7295698d560a7154a83eb7c95ec1fa843265cbf7d7c4541e",
+  "https://www.securityweek.com/953-online-stores-infected-in-long-lasting-malware-campaign",
+  "slug_953_online_stores_infected_longlasting_malware"
 ]
