@@ -1,14 +1,4 @@
 [
-  "slug_weekly_recap_helpdesk_0days_rogue_certs",
-  "926934a694d0abf2e1a33e58c8bcd2d804e915bb4db9ac08619a91394eb08ddf",
-  "https://www.bleepingcomputer.com/news/security/inside-avisloader-a-windows-malware-loader-built-to-resist-disruption",
-  "slug_inside_avisloader_windows_malware_loader_built",
-  "7f9b71e2b36c64667fe97d75691d89b782ce5f7a515da8cf9256f271761f237d",
-  "https://www.securityweek.com/bricksforge-wordpress-plugin-vulnerability-exploited-in-the-wild",
-  "slug_bricksforge_wordpress_plugin_vulnerability_exploited_wild",
-  "CVE_CVE-2026-85097",
-  "7e4ca9da052231497996de39f1fdabe7d2c2d1df4c1b6cf47d04e771ffbf9177",
-  "https://thehackernews.com/2026/10/cyberxero-uses-claude-code-in-campaign.html",
   "slug_cyberxero_uses_claude_code_campaign_that",
   "24510e9c9f9260aa53595b66fb8d330baaeb9c5338bbe77d9d16f8db6abaa579",
   "https://www.bleepingcomputer.com/news/security/norway-fines-microsoft-ad-firm-96-million-over-grindr-data-sharing",
@@ -998,5 +988,15 @@
   "b87dd3341dc7f2e7c90a75ed841226155aefc100f7886ec0186db6698fa37b07",
   "https://cybersecuritynews.com/hashicorp-consul-kubernetes-vulnerability",
   "slug_critical_hashicorp_consul_kubernetes_allows_attackers",
-  "CVE_CVE-2026-110720"
+  "CVE_CVE-2026-110720",
+  "b7d7e51c85e3c557c1699527a018e84ea617c68385c5bef58ae41c7332d4f7e6",
+  "https://thehackernews.com/2026/10/microsoft-authenticator-flaw-let.html",
+  "slug_microsoft_authenticator_let_permissionless_android_apps",
+  "CVE_CVE-2026-80097",
+  "97418a7f472c7c5a23269560378aa0ae690969091a7fc72de2215df38bd27950",
+  "https://www.bleepingcomputer.com/news/security/tailscale-warns-of-serious-ssh-flaws-allowing-root-privilege-escalation",
+  "slug_tailscale_warns_ssh_allowing_root_privilege",
+  "0de55835221a6f67d320329869e8ba7d01cfd70c458f8ca68d44509f5ee1c1fe",
+  "https://www.securityweek.com/hpe-patches-dozens-of-critical-flaws-in-networking-products",
+  "slug_hpe_patches_dozens_critical_networking_products"
 ]
