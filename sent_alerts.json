@@ -1,14 +1,4 @@
 [
-  "https://cybersecuritynews.com/discourse-image-pipeline-exploit",
-  "slug_discourse_image_pipeline_exploit_chains_jpeg",
-  "ef82d9f6c0879c3dcdc5139d077f28e800d4bd80b0f77886f83cbfcd9574062c",
-  "https://www.vulncheck.com/blog/anthropic-ledger",
-  "slug_observations_anthropics_vulnerability_disclosure_ledgerpublic_cve",
-  "56e673b239c6908fb24012eb1edde38be6db5bf3078e20473d2325dd91173700",
-  "https://gbhackers.com/ai-generated-event-lures",
-  "slug_hackers_use_aigenerated_event_lures_steal",
-  "6297931f11be8be3b1576ac6ea66cef90802dddda730cb48ac08a94cbda4b3f8",
-  "https://thehackernews.com/2026/10/weekly-recap-helpdesk-0-days-rogue.html",
   "slug_weekly_recap_helpdesk_0days_rogue_certs",
   "926934a694d0abf2e1a33e58c8bcd2d804e915bb4db9ac08619a91394eb08ddf",
   "https://www.bleepingcomputer.com/news/security/inside-avisloader-a-windows-malware-loader-built-to-resist-disruption",
@@ -998,5 +988,15 @@
   "slug_what_canary_sees_that_kev_entry",
   "aecc6870f646f888cb7b697d2be3b9b03a2f778efa46a69fd28ed67f84286eed",
   "https://gbhackers.com/connectwise-cloud-backup",
-  "slug_hackers_abuse_connectwise_cloud_backup_credentials"
+  "slug_hackers_abuse_connectwise_cloud_backup_credentials",
+  "eae2a3c7c621fbaa9377337e2a6174c936467e94d1f172c44c7b9931a768facd",
+  "https://thehackernews.com/2026/10/australia-gets-into-amadey-malware.html",
+  "slug_australia_gets_into_amadey_malware_backend",
+  "f3ab07cce1ac7752dbeb4a13b5572b3df2fbcd3f24e76901a1b5eb839bb356fa",
+  "https://www.bleepingcomputer.com/news/apple/apple-backports-coregraphics-zero-day-patches-to-older-iphones",
+  "slug_apple_backports_coregraphics_zeroday_patches_older",
+  "b87dd3341dc7f2e7c90a75ed841226155aefc100f7886ec0186db6698fa37b07",
+  "https://cybersecuritynews.com/hashicorp-consul-kubernetes-vulnerability",
+  "slug_critical_hashicorp_consul_kubernetes_allows_attackers",
+  "CVE_CVE-2026-110720"
 ]
