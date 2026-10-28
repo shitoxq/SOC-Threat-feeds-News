@@ -1,13 +1,4 @@
 [
-  "https://thehackernews.com/2026/10/github-tightens-npm-publishing-after.html",
-  "slug_github_tightens_npm_publishing_after_left",
-  "19dca54a76adbde053e8a87094705cfc7302078eedc695d641d72a32ed104bc7",
-  "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5127648-and-kb5126653-cumulative-updates-released",
-  "slug_windows_11_kb5127648_amp_kb5126653_cumulative",
-  "15eabb4936db4746ccb8b9a6157e677ab1ffcf0e634e76c77f695796064c1794",
-  "https://cybersecuritynews.com/fortisandbox-gui-vulnerability",
-  "slug_critical_fortisandbox_gui_vulnerability_allows_remote",
-  "CVE_CVE-2026-107656",
   "eb29e636423df09f9deac81a51b4a506a229100489af4cc61b31c30336747ead",
   "https://thehackernews.com/2026/10/anthropic-warns-small-ai-models-could.html",
   "slug_anthropic_warns_small_ai_models_could",
@@ -998,5 +989,14 @@
   "slug_japanx27s_gmo_urges_customers_shut_down",
   "f7fadab7472b958204a646ef73e3a56c563d246f85e2737bf426c1627a599824",
   "https://cybersecuritynews.com/hackers-target-u-s-election-commission-forcing-online-system-shutdown",
-  "slug_hackers_target_us_election_commission_forcing"
+  "slug_hackers_target_us_election_commission_forcing",
+  "b434e7ad4a7b0ac31514c152caffbadf1e157bc6df6b139bef7e740426b338db",
+  "https://thehackernews.com/2026/10/lazarus-abuses-south-korean-security.html",
+  "slug_lazarus_abuses_south_korean_security_software",
+  "8a9df3ce570e5539f47fe4951e38da1e313810c9ece9e0f81964f8ed5cb64472",
+  "https://www.bleepingcomputer.com/news/security/unm-health-ransomware-attack-disrupts-patient-care-surgeries",
+  "slug_unm_health_ransomware_attack_disrupts_patient",
+  "95777095fa4d4500355b7ff455bfbf66342bb6b3502b8fc0813d10c86aaf4b2e",
+  "https://cybersecuritynews.com/hackers-hijack-42-github-repositories",
+  "slug_hackers_hijack_42_github_repositories_plant"
 ]
