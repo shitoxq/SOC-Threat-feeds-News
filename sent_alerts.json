@@ -1,14 +1,4 @@
 [
-  "eb29e636423df09f9deac81a51b4a506a229100489af4cc61b31c30336747ead",
-  "https://thehackernews.com/2026/10/anthropic-warns-small-ai-models-could.html",
-  "slug_anthropic_warns_small_ai_models_could",
-  "90c3851b2fc258bb13e03fe843012d0dfca27055d93691761fd2eb2a40e388a0",
-  "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-engineer-arrested-for-allegedly-planting-spy-device-in-office",
-  "slug_openai_engineer_arrested_allegedly_planting_spy",
-  "5f107bea1835867c9bab369bd3e1a00d6c153321d5046ef97357eb34d098019d",
-  "https://cybersecuritynews.com/microsoft-october-patch-tuesday-2026",
-  "slug_microsoft_fixes_1118_vulnerabilities_october_patch",
-  "f459c5923c1f2f1f0f0399d778e50fd56cd0cc834f0c02647efe67e017a828a7",
   "https://thehackernews.com/2026/10/docker-fixes-critical-two-year-old-hub.html",
   "slug_docker_fixes_critical_twoyearold_hub_that",
   "af713d77fa98c062541e63b37195314b51ea0349f86b44f16a2edc495adb1014",
@@ -998,5 +988,15 @@
   "slug_unm_health_ransomware_attack_disrupts_patient",
   "95777095fa4d4500355b7ff455bfbf66342bb6b3502b8fc0813d10c86aaf4b2e",
   "https://cybersecuritynews.com/hackers-hijack-42-github-repositories",
-  "slug_hackers_hijack_42_github_repositories_plant"
+  "slug_hackers_hijack_42_github_repositories_plant",
+  "d4f5d5baa8252d3b756bc8a97ed72acd9be1111362a50f0db6b24997d529be5e",
+  "https://thehackernews.com/2026/10/adobe-fixes-8-critical-campaign-classic.html",
+  "slug_adobe_fixes_8_critical_campaign_classic",
+  "CVE_CVE-2026-104351",
+  "2cc03e2d2e6f4d9f3da001e62625f8df672416e9406829f60841ce0612481ea9",
+  "https://www.bleepingcomputer.com/news/security/hackers-now-scanning-systems-for-recently-patched-oracle-flaw",
+  "slug_hackers_now_scanning_systems_recentlypatched_oracle",
+  "040891e5d91857462e95eb70dc9180aa687a428300aceae403e77adf08ec337c",
+  "https://www.securityweek.com/china-linked-hackers-exploit-php2shell-to-root-firewalls",
+  "slug_chinalinked_hackers_exploit_php2shell_root_firewalls"
 ]
