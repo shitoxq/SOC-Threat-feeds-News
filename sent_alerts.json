@@ -1,13 +1,4 @@
 [
-  "slug_microsoft_windows_shell_0day_vulnerability_actively",
-  "CVE_CVE-2026-96951",
-  "2c2810e8b4ea0e8480b2ab75a2583c557e9b2be18a0688f12f37ecce43415c9c",
-  "https://thehackernews.com/2026/10/researchers-used-public-openai-model-to.html",
-  "slug_researchers_used_public_openai_model_build",
-  "bd41300e09337722ab0cb29c8aab4c8a686b1b8846b9a2902b0799ebc4910e1d",
-  "https://www.bleepingcomputer.com/news/security/hirudo-android-malware-replaces-banking-apps-to-evade-security-checks",
-  "slug_hirudo_android_malware_replaces_banking_apps",
-  "c66d339c947fb5e3943472e9572dc809e5cd8ea2c0e6af14d29db599a470f483",
   "https://cybersecuritynews.com/virustotal-chatgpt-integration",
   "slug_virustotal_integrates_threat_intelligence_chatgpt_malware",
   "6d011349c01c46dc04b8a0b81b3e1e8d62991f835d569a3a879e32821fe12c46",
@@ -998,5 +989,14 @@
   "slug_volt_typhoon_hides_zeroday_attacks_using",
   "7a893f620b237dbb34a35bdd0762d507b7438043d4ca73996f7c6ecb106bfbd2",
   "https://cybersecuritynews.com/offsec-launches-free-php2shell-lab-following-critical-vulnerability-discovery",
-  "slug_offsec_launches_free_php2shell_lab_following"
+  "slug_offsec_launches_free_php2shell_lab_following",
+  "346aefdaad097d5af65c53020f635dc9162b31a2aa95bfb94ae871855a6e652e",
+  "https://thehackernews.com/2026/10/google-to-allow-one-tap-android-app.html",
+  "slug_google_allow_onetap_android_app_installs",
+  "4a9db94d56e1f65315b82bfc56fd9e383367c0f3e394ad9993734b17e43b6373",
+  "https://www.bleepingcomputer.com/news/security/police-seize-virtualine-bulletproof-service-tied-to-ransowmare-cybercrime",
+  "slug_police_seize_virtualine_bulletproof_service_tied",
+  "e3c6ac526bff414541e023acd3fd93a28924f6b88ada05b3e4ed0afbf4ccda4b",
+  "https://cybersecuritynews.com/propellerads-why-modern-malware-delivery-starts-before-the-payload",
+  "slug_propellerads_why_modern_malware_delivery_starts"
 ]
