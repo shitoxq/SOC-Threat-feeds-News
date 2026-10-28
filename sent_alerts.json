@@ -1,13 +1,4 @@
 [
-  "CVE_CVE-2026-104935",
-  "0c18f2a3df012bdd1f2e05bbbd286d4b4bd89ecbd922d3596274cabf2f7db028",
-  "https://thehackernews.com/2026/10/four-byte-write-and-timing-bug-let.html",
-  "slug_fourbyte_write_timing_bug_let_researchers",
-  "952c1975fabe325b2a0c9fde83d99a48463630e9c1313277487fafc253c64e98",
-  "https://www.bleepingcomputer.com/news/security/anthropic-warns-self-replicating-ai-could-spread-to-your-smart-devices",
-  "slug_anthropic_warns_selfreplicating_ai_could_spread",
-  "be99c903ff7f727c681b0bfa11c2eb7d6065ce2018d94a05a04283e2e521c734",
-  "https://cybersecuritynews.com/windows-shell-0-day-exploited",
   "slug_microsoft_windows_shell_0day_vulnerability_actively",
   "CVE_CVE-2026-96951",
   "2c2810e8b4ea0e8480b2ab75a2583c557e9b2be18a0688f12f37ecce43415c9c",
@@ -998,5 +989,14 @@
   "slug_sony_isp_subsidiary_data_breach_exposes",
   "47553c73d2ac8a1b7f4f0b151e87468a5844b4fc53bbd0c6ae5f1a52480f2da8",
   "https://cybersecuritynews.com/cloudflare-xss-vulnerability",
-  "slug_researchers_chain_cloudflare_security_bypass_csp"
+  "slug_researchers_chain_cloudflare_security_bypass_csp",
+  "3402ef3be45eaaf5abfa887e5a5903a5fd4773a26c53e5d4f9d6720418fdd0e4",
+  "https://thehackernews.com/2026/10/volt-typhoon-used-covert-silent-train.html",
+  "slug_volt_typhoon_used_covert_silent_train",
+  "49d0f1bc00afd8c5aae1ca4a287e35adbdbc18ceb45444243d98c56ce6c51df2",
+  "https://www.bleepingcomputer.com/news/security/volt-typhoon-hides-zero-day-attacks-using-silent-train-framework",
+  "slug_volt_typhoon_hides_zeroday_attacks_using",
+  "7a893f620b237dbb34a35bdd0762d507b7438043d4ca73996f7c6ecb106bfbd2",
+  "https://cybersecuritynews.com/offsec-launches-free-php2shell-lab-following-critical-vulnerability-discovery",
+  "slug_offsec_launches_free_php2shell_lab_following"
 ]
