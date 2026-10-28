@@ -1,13 +1,4 @@
 [
-  "https://thehackernews.com/2026/10/docker-fixes-critical-two-year-old-hub.html",
-  "slug_docker_fixes_critical_twoyearold_hub_that",
-  "af713d77fa98c062541e63b37195314b51ea0349f86b44f16a2edc495adb1014",
-  "https://www.bleepingcomputer.com/news/security/ghostscript-flaw-lets-hackers-hijack-servers-via-pdf-uploads",
-  "slug_ghostscript_lets_hackers_hijack_servers_via",
-  "CVE_CVE-2026-39919",
-  "37e054a7ec8ca482be73f48db30e3a48f5da8c54f8887c1b14b4c3b0d442ccfd",
-  "https://www.securityweek.com/ivanti-zero-day-chain-gave-attackers-root-access-to-fully-patched-vpn",
-  "slug_ivanti_zeroday_chain_gave_attackers_root",
   "CVE_CVE-2026-104935",
   "0c18f2a3df012bdd1f2e05bbbd286d4b4bd89ecbd922d3596274cabf2f7db028",
   "https://thehackernews.com/2026/10/four-byte-write-and-timing-bug-let.html",
@@ -998,5 +989,14 @@
   "slug_hackers_now_scanning_systems_recentlypatched_oracle",
   "040891e5d91857462e95eb70dc9180aa687a428300aceae403e77adf08ec337c",
   "https://www.securityweek.com/china-linked-hackers-exploit-php2shell-to-root-firewalls",
-  "slug_chinalinked_hackers_exploit_php2shell_root_firewalls"
+  "slug_chinalinked_hackers_exploit_php2shell_root_firewalls",
+  "257599f0048efc914687bf8cbe309cf14c54b57259dbb661be83599a2c582e36",
+  "https://thehackernews.com/2026/10/php2shell-attack-roots-25-servers.html",
+  "slug_php2shell_attack_roots_25_servers_breaches",
+  "4a9f9892163db8473baf5d5e35d328921082ca9a9cc0ac92b5c864d54fccfbeb",
+  "https://www.bleepingcomputer.com/news/security/sony-isp-subsidiary-data-breach-exposes-25-million-customer-records",
+  "slug_sony_isp_subsidiary_data_breach_exposes",
+  "47553c73d2ac8a1b7f4f0b151e87468a5844b4fc53bbd0c6ae5f1a52480f2da8",
+  "https://cybersecuritynews.com/cloudflare-xss-vulnerability",
+  "slug_researchers_chain_cloudflare_security_bypass_csp"
 ]
