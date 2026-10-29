@@ -1,14 +1,4 @@
 [
-  "https://www.securityweek.com/harmonic-security-raises-50-million-for-workforce-ai-protection",
-  "slug_harmonic_security_raises_50_million_workforce",
-  "402aaeff71af9a0903716f2ab9c965044fe95b98a71ddd82b1e9397fc681f0ef",
-  "https://thehackernews.com/2026/10/cisco-warns-of-active-attacks.html",
-  "slug_cisco_warns_active_attacks_exploiting_new",
-  "9d685e67024bc1a8025daaf39c93f062ec9c161e55b5591fb0c0efa51101b146",
-  "https://www.bleepingcomputer.com/news/security/fbi-raids-dprk-it-worker-laptop-farms-in-texas-us-nationals-arrested",
-  "slug_fbi_raids_dprk_it_worker_laptop",
-  "37356df481d16ae2ef2d6cbadd00b71e6dcfb9133380aaaa56d275d25499e492",
-  "https://cybersecuritynews.com/multiple-nginx-vulnerabilities",
   "slug_multiple_nginx_let_remote_attackers_crash",
   "2720649a8fdd7cf6e4c8edecfb9604ba9a21cc78ab2d0373fb31c086339f95cf",
   "https://thehackernews.com/2026/10/hackers-backdoor-nextcloud-servers.html",
@@ -998,5 +988,15 @@
   "slug_microsoft_urges_entra_id_admins_migrate",
   "42b0b6bfa25f404f0324dd6c3449d0878f98248ef722ce08650c53eb52becd41",
   "https://cybersecuritynews.com/google-fixes-52-chrome-security-flaws",
-  "slug_google_fixes_52_chrome_security_including"
+  "slug_google_fixes_52_chrome_security_including",
+  "f83598082f121f26e38f677f533b4f91d72e5c052eacd1a3b46cc192c0c8b054",
+  "https://thehackernews.com/2026/10/hackers-target-critical-oracle-e.html",
+  "slug_hackers_target_critical_oracle_ebusiness_suite",
+  "CVE_CVE-2026-101767",
+  "f7c922d860fb31661e7c6eb57a464662affd78e916cc59f6ba7086e37066a0b5",
+  "https://www.bleepingcomputer.com/news/security/infratrust-report-warns-of-exploited-flaws-in-critical-network-infrastructure",
+  "slug_infratrust_report_warns_exploited_critical_network",
+  "ec343af06bac9432a0a41e0e660748561d33214024e4330267b1bd49f1065073",
+  "https://www.securityweek.com/ukrainian-hive-and-nefilim-ransomware-affiliate-gets-70-months-in-us-prison",
+  "slug_ukrainian_hive_nefilim_ransomware_affiliate_gets"
 ]
