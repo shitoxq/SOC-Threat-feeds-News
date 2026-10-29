@@ -1,14 +1,4 @@
 [
-  "slug_meta_google_microsoft_openai_join_global",
-  "8d01de033713a4844a3ccd01a059243ce975f05362b20225d853e7b457ee3b96",
-  "https://www.bleepingcomputer.com/news/security/global-takedown-hits-network-behind-1-billion-phishing-messages",
-  "slug_global_takedown_hits_network_behind_1",
-  "76cc12521d1e7eb740039a6f6527f0fe6a1557dd1773e0629a434fb3f48d7ba3",
-  "https://cybersecuritynews.com/fake-chrome-app",
-  "slug_fake_chrome_app_google_play_evades",
-  "cae07e36b99ca071f2cd3d60a04daa6196cfa7e11749de9db32cc1df0c64e795",
-  "https://www.securityweek.com/palo-alto-networks-patches-pan-os-zero-day-exploited-for-remote-code-execution",
-  "slug_palo_alto_networks_patches_panos_zeroday",
   "42bfa2e2916b0cdc5e7b46d1c6f3fc74e88804db75c6eda8824a4e785280a7ab",
   "https://thehackernews.com/2026/10/drupal-patches-critical-core-rce-flaw.html",
   "slug_drupal_patches_critical_core_rce_nologin",
@@ -998,5 +988,15 @@
   "slug_microsoft_fixes_remote_desktop_failures_caused",
   "f7bbff6e51aec84640b3ac2b5dfcfeb78098ea2b2d2b001a680d1128d19f6b33",
   "https://www.securityweek.com/google-says-gemini-4-carbon-leads-in-finding-exploiting-and-fixing-vulnerabilities",
-  "slug_google_touts_powerful_cybersecurity_capabilities_gemini"
+  "slug_google_touts_powerful_cybersecurity_capabilities_gemini",
+  "1be6a1df25ca72b4139ae0bbc1cbca5b2d85d4e6a6ea5b695bedf9a91f8eda37",
+  "https://thehackernews.com/2026/10/linux-kernel-tcp-flaw-with-98-cvss.html",
+  "slug_linux_kernel_tcp_98_cvss_score",
+  "CVE_CVE-2026-98432",
+  "3ee38022c040535cc42b026ad5bc7cb6d48d905ef941c7dbe27a7d40079584a3",
+  "https://www.bleepingcomputer.com/news/security/chrome-extensions-with-134-million-installs-caught-hijacking-searches",
+  "slug_chrome_extensions_134_million_installs_caught",
+  "2d227d60054f7c2d0b1a28295ddae73c86131f9d42cea730ddff748182ad3369",
+  "https://www.securityweek.com/cisco-open-sources-quarry-to-catch-ai-agent-attacks-hidden-in-harmless-steps",
+  "slug_cisco_open_sources_quarry_catch_ai"
 ]
