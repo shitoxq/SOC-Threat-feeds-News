@@ -1,14 +1,4 @@
 [
-  "slug_multiple_nginx_let_remote_attackers_crash",
-  "2720649a8fdd7cf6e4c8edecfb9604ba9a21cc78ab2d0373fb31c086339f95cf",
-  "https://thehackernews.com/2026/10/hackers-backdoor-nextcloud-servers.html",
-  "slug_hackers_backdoor_nextcloud_servers_through_critical",
-  "469f69b082b97ddb2a7b19a5068e13dd6c3616648e25b5139d5e74ecc05c73fa",
-  "https://www.bleepingcomputer.com/news/security/palo-alto-networks-warns-of-pan-os-rce-flaw-exploited-in-attacks",
-  "slug_palo_alto_networks_warns_panos_rce",
-  "CVE_CVE-2026-0322",
-  "c28ea0cccd9eb7ae9d248368047638780a6ea7a4ebd68630d8770943d5e5ce31",
-  "https://cybersecuritynews.com/microsoft-recent-update-remote-desktop",
   "slug_microsofts_recent_windows_updates_break_remote",
   "fbe33babcbabc6a0c3e7d55eb9e04074b2407a56aae3371c06f5eb77975f779d",
   "https://thehackernews.com/2026/10/microsoft-disrupts-3-phishing-kits.html",
@@ -998,5 +988,15 @@
   "slug_infratrust_report_warns_exploited_critical_network",
   "ec343af06bac9432a0a41e0e660748561d33214024e4330267b1bd49f1065073",
   "https://www.securityweek.com/ukrainian-hive-and-nefilim-ransomware-affiliate-gets-70-months-in-us-prison",
-  "slug_ukrainian_hive_nefilim_ransomware_affiliate_gets"
+  "slug_ukrainian_hive_nefilim_ransomware_affiliate_gets",
+  "48f467fc9990539a6e8ad8a2bbce0f0d1d0c63500e496a2e9335a95820f828df",
+  "https://thehackernews.com/2026/10/china-linked-hackers-exploited-vmware.html",
+  "slug_chinalinked_hackers_exploited_vmware_esx_zeroday",
+  "CVE_CVE-2026-41709",
+  "303c17a3cab1c27ee61b0863d9c486d6a8b17651bb71f3436a7af03cc8ec92f3",
+  "https://www.bleepingcomputer.com/news/security/even-after-php2shell-blast-radius-matters-more-than-a-cvss-score",
+  "slug_even_after_php2shell_blast_radius_matters",
+  "072011234341759a2d19f47f60ac54ea615acf68cf208c4e73e0a5fc163dcbd2",
+  "https://cybersecuritynews.com/microsoft-edge-zero-click-exploit",
+  "slug_microsoft_edge_zeroclick_exploit_chains_five"
 ]
