@@ -1,13 +1,4 @@
 [
-  "https://cybersecuritynews.com/virustotal-chatgpt-integration",
-  "slug_virustotal_integrates_threat_intelligence_chatgpt_malware",
-  "6d011349c01c46dc04b8a0b81b3e1e8d62991f835d569a3a879e32821fe12c46",
-  "https://thehackernews.com/2026/10/us-shuts-down-over-40-laptop-farms.html",
-  "slug_us_shuts_down_over_40_laptop",
-  "b84c40d0c528ab6b72d268e85026a18f4fc3324f91d9f7124e36464cc6039a57",
-  "https://www.bleepingcomputer.com/news/security/cisco-patches-actively-exploited-secure-email-gateway-zero-day",
-  "slug_cisco_patches_new_secure_email_gateway",
-  "9fb38a0019d938ad5c3fa0fcff2c1258a5e686dde939e25efb22315b69fc9f06",
   "https://www.securityweek.com/harmonic-security-raises-50-million-for-workforce-ai-protection",
   "slug_harmonic_security_raises_50_million_workforce",
   "402aaeff71af9a0903716f2ab9c965044fe95b98a71ddd82b1e9397fc681f0ef",
@@ -998,5 +989,14 @@
   "slug_police_seize_virtualine_bulletproof_service_tied",
   "e3c6ac526bff414541e023acd3fd93a28924f6b88ada05b3e4ed0afbf4ccda4b",
   "https://cybersecuritynews.com/propellerads-why-modern-malware-delivery-starts-before-the-payload",
-  "slug_propellerads_why_modern_malware_delivery_starts"
+  "slug_propellerads_why_modern_malware_delivery_starts",
+  "4abc2dcf4334fae95bb4786199ce0d0e7ccab68addad061697543ee26a700ac6",
+  "https://thehackernews.com/2026/10/researcher-reveals-how-logic-bugs-alone.html",
+  "slug_researcher_reveals_how_logic_bugs_alone",
+  "daccbc8b4a6551e35b0da0be3c702f8dc89d5f694509f106bb1d8f3636828587",
+  "https://www.bleepingcomputer.com/news/microsoft/microsoft-reminds-entra-id-admins-to-migrate-users-to-passkeys",
+  "slug_microsoft_urges_entra_id_admins_migrate",
+  "42b0b6bfa25f404f0324dd6c3449d0878f98248ef722ce08650c53eb52becd41",
+  "https://cybersecuritynews.com/google-fixes-52-chrome-security-flaws",
+  "slug_google_fixes_52_chrome_security_including"
 ]
