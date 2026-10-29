@@ -1,13 +1,4 @@
 [
-  "slug_microsofts_recent_windows_updates_break_remote",
-  "fbe33babcbabc6a0c3e7d55eb9e04074b2407a56aae3371c06f5eb77975f779d",
-  "https://thehackernews.com/2026/10/microsoft-disrupts-3-phishing-kits.html",
-  "slug_microsoft_disrupts_3_phishing_kits_linked",
-  "b4bcbb6518e68cb5a045ca319b2b0bf80be77567a5f73aeb90c4ec7d0462d94f",
-  "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-vpn-issues-caused-by-september-windows-updates",
-  "slug_microsoft_fixes_vpn_issues_caused_september",
-  "b8878da9165b8fb53edd43ca99bca1e39e1862a396b1bfb2163e2e0ac04cbfe2",
-  "https://cybersecuritynews.com/west-african-scam-networks",
   "slug_meta_google_microsoft_openai_join_global",
   "8d01de033713a4844a3ccd01a059243ce975f05362b20225d853e7b457ee3b96",
   "https://www.bleepingcomputer.com/news/security/global-takedown-hits-network-behind-1-billion-phishing-messages",
@@ -998,5 +989,14 @@
   "slug_even_after_php2shell_blast_radius_matters",
   "072011234341759a2d19f47f60ac54ea615acf68cf208c4e73e0a5fc163dcbd2",
   "https://cybersecuritynews.com/microsoft-edge-zero-click-exploit",
-  "slug_microsoft_edge_zeroclick_exploit_chains_five"
+  "slug_microsoft_edge_zeroclick_exploit_chains_five",
+  "17b1ed18b9db9df1dd4b4d47338a47c3092da53302d72c1b3e5c984c73d6af97",
+  "https://thehackernews.com/2026/10/googles-gemini-4-carbon-leads.html",
+  "slug_googlex27s_gemini_4_carbon_leads_benchmarks",
+  "ec60372839277a56324cde1a668bb12aedc37b72deb6a7fb6b0881fed7398864",
+  "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-remote-desktop-failures-caused-by-recent-windows-updates",
+  "slug_microsoft_fixes_remote_desktop_failures_caused",
+  "f7bbff6e51aec84640b3ac2b5dfcfeb78098ea2b2d2b001a680d1128d19f6b33",
+  "https://www.securityweek.com/google-says-gemini-4-carbon-leads-in-finding-exploiting-and-fixing-vulnerabilities",
+  "slug_google_touts_powerful_cybersecurity_capabilities_gemini"
 ]
