@@ -1,13 +1,4 @@
 [
-  "42bfa2e2916b0cdc5e7b46d1c6f3fc74e88804db75c6eda8824a4e785280a7ab",
-  "https://thehackernews.com/2026/10/drupal-patches-critical-core-rce-flaw.html",
-  "slug_drupal_patches_critical_core_rce_nologin",
-  "3f2ea439d67872821129d7c1a1d745789179406dd9bf46429bc8f25b7dc94695",
-  "https://www.bleepingcomputer.com/news/security/police-arrests-95-suspects-in-child-sexual-abuse-material-crackdown",
-  "slug_police_arrests_95_suspects_international_csam",
-  "09e12810b43dbdb36ea470a55a2774f363e4a400c40c0f786be880b4a99e510b",
-  "https://www.securityweek.com/cikabika-bot-rat-uses-discord-for-cc",
-  "slug_cikabika_bot_rat_uses_discord_campc",
   "c4b7926adcfb8ca7088112a52fbbc844a15a3773a88ab5e8232942633c27f4ed",
   "https://thehackernews.com/2026/10/silent-lynx-exploits-winrar-flaw-to.html",
   "slug_silent_lynx_exploits_winrar_deploy_reverse",
@@ -998,5 +989,14 @@
   "slug_chrome_extensions_134_million_installs_caught",
   "2d227d60054f7c2d0b1a28295ddae73c86131f9d42cea730ddff748182ad3369",
   "https://www.securityweek.com/cisco-open-sources-quarry-to-catch-ai-agent-attacks-hidden-in-harmless-steps",
-  "slug_cisco_open_sources_quarry_catch_ai"
+  "slug_cisco_open_sources_quarry_catch_ai",
+  "7f056f665bfe428e129ca46d0ad2f3372b43502d041f393e9bd2d3b0dd8f6dfc",
+  "https://thehackernews.com/2026/10/threatsday-critical-firewall-flaws.html",
+  "slug_threatsday_critical_firewall_banking_trojans_rented",
+  "207ac6ae9c2086a201581bab805ea47e1045f4a268c9e3362acd0891e50b1a98",
+  "https://www.bleepingcomputer.com/news/security/cisa-warns-of-fragnesia-linux-flaw-chained-in-php2shell-attacks",
+  "slug_cisa_warns_fragnesia_linux_chained_php2shell",
+  "0116e1bac2f47e6c81eeb710ba6d3c5d73fd886846e88bf00d2932c3bf6d3fcd",
+  "https://cybersecuritynews.com/state-of-ad-fraud-2026-52-of-schemes-use-ai-as-cloaking-loses-ground-to-ios-exploits-and-messenger-phishing",
+  "slug_state_ad_fraud_2026_52_schemes"
 ]
