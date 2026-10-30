@@ -1,13 +1,4 @@
 [
-  "https://www.securityweek.com/centerpoint-energy-data-breach-impacts-1-million-texans",
-  "slug_centerpoint_energy_data_breach_impacts_1",
-  "2f4ebff472d58347b5f4820386c92e2f654aff5966771c2acb787546316a49ac",
-  "https://thehackernews.com/2026/10/china-linked-hackers-exploited.html",
-  "slug_chinalinked_hackers_exploited_beyondtrust_zeroday_take",
-  "CVE_CVE-2026-102764",
-  "8df8bec4d0c190cb6bf9c3dbc06e7b1256b7a4b771e46feeae9af4cf4456e71e",
-  "https://www.bleepingcomputer.com/news/microsoft/kb5127648-windows-security-update-may-break-smart-app-control",
-  "slug_microsoft_october_windows_update_may_break",
   "def25bb495d6a4cc7e0e9fec0837866321bbf000748cf71b9f2d22fbfcc332ff",
   "https://cybersecuritynews.com/new-aoki-malware",
   "slug_new_aoki_malware_targets_chatgpt_claude",
@@ -998,5 +989,14 @@
   "slug_malicious_claude_code_extension_cursor_planted",
   "37e9afa5b7ecca447e0b2215d0fc6c854814590e8db3b045b0986534492f71c7",
   "https://cybersecuritynews.com/north-korean-hackers-2",
-  "slug_north_korean_hackers_steal_developer_credentials"
+  "slug_north_korean_hackers_steal_developer_credentials",
+  "4fa40013294f33ebe2ef52d52faa3d92a77d1ab7f076419c68c6641f2e680422",
+  "https://thehackernews.com/2026/10/chinese-hackers-use-ai-powered-artex-to.html",
+  "slug_chinese_hackers_use_aipowered_artex_target",
+  "504569e0ffffdf59919edbb3dddfd95f3c5608d0cc1971aca6b6dee3e09fb299",
+  "https://www.bleepingcomputer.com/news/security/ss7-and-diameter-attacks-how-signaling-flaws-expose-your-phone",
+  "slug_ss7_diameter_attacks_how_signaling_expose",
+  "2364037fb7029deb2ef40e8f59662e0faeba4a19f7be0e3fdff6554e6067c072",
+  "https://cybersecuritynews.com/when-threats-dont-wait-security-cant-either",
+  "slug_when_threats_dont_wait_security_cant"
 ]
