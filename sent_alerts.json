@@ -1,13 +1,4 @@
 [
-  "def25bb495d6a4cc7e0e9fec0837866321bbf000748cf71b9f2d22fbfcc332ff",
-  "https://cybersecuritynews.com/new-aoki-malware",
-  "slug_new_aoki_malware_targets_chatgpt_claude",
-  "3f11a9ccfb4f1a93f7c7a87a7450dc27107411d9b2b2b37a6164cc993a79a347",
-  "https://thehackernews.com/2026/10/ai-decision-models-and-their-impact-on.html",
-  "slug_ai_decision_models_their_impact_ai",
-  "f0d31725ce6b131c61dc3898de919cef44fc5009837e3f8bc8e6c666f225c06c",
-  "https://www.bleepingcomputer.com/news/security/employees-using-personal-chatgpt-at-work-heres-what-it-admins-need-to-do",
-  "slug_employees_using_personal_chatgpt_work_herex27s",
   "676b18d82b3dd7c553c827449f6221da59a7119436cb7d191763861df005befa",
   "https://cybersecuritynews.com/new-romulus-clickfix-platform",
   "slug_hackers_use_new_romulus_clickfix_platform",
@@ -998,5 +989,14 @@
   "slug_ss7_diameter_attacks_how_signaling_expose",
   "2364037fb7029deb2ef40e8f59662e0faeba4a19f7be0e3fdff6554e6067c072",
   "https://cybersecuritynews.com/when-threats-dont-wait-security-cant-either",
-  "slug_when_threats_dont_wait_security_cant"
+  "slug_when_threats_dont_wait_security_cant",
+  "8fc971e55b17c65a2d3492eb5e2c0ae31dd7abaf787a00f62ba8ad49a9585c7b",
+  "https://thehackernews.com/2026/10/wordpress-rce-flaw-draws-nearly-63000.html",
+  "slug_wordpress_rce_draws_nearly_63000_attack",
+  "6617c8ee53373e8872f5f73d715a2d396aca4428a8baa567862aead04ad640f3",
+  "https://www.bleepingcomputer.com/news/security/critical-linux-kernel-flaw-allows-remote-root-attacks-on-mptcp-servers",
+  "slug_critical_linux_kernel_allows_remote_root",
+  "7e5822c2be4d3a0b5c7ee4579a6c56d00eb2068a52492492b4e8f2d57e0c5c13",
+  "https://www.securityweek.com/php2shell-attacks-root-palo-alto-firewalls-but-fail-against-wordpress",
+  "slug_php2shell_attacks_root_palo_alto_firewalls"
 ]
