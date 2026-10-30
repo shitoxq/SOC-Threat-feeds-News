@@ -1,13 +1,4 @@
 [
-  "slug_novel_android_rat_hirudo_replaces_banking",
-  "3d53c1d5457e34e77ba4a53a8bf3b42ad2be1fa8781514ba2c059e800bc9635b",
-  "https://thehackernews.com/2026/10/help-tds-linked-to-hotejka-as-20000.html",
-  "slug_help_tds_linked_hotejka_20000_cloudflare",
-  "f6fec61ee9ad4fef5537dbcf5ed060ebe4a7bd8cb9302a6867281057d8932c9c",
-  "https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-server-2022-reached-end-of-mainstream-support",
-  "slug_microsoft_windows_server_2022_reached_end",
-  "431e343436e70b9162e892e385b8de9f28c5b281b26be84274c93d648ff70579",
-  "https://cybersecuritynews.com/0-click-spyware-infects-devices",
   "slug_just_viewing_online_ad_can_infect",
   "a2dfa0394e0653a8dabfc5abcf52d6ba3f9cba0fd2cb2dd6fbc5b238df868190",
   "https://thehackernews.com/2026/10/attackers-exploit-fortios-flaw-to.html",
@@ -998,5 +989,14 @@
   "0264607d9cd4c0f246415f5ffd730d0d3e35d5f2d7e7d847feab99fe33c70e16",
   "https://cybersecuritynews.com/linux-kernel-missing-initialization-vulnerability",
   "slug_cisa_warns_linux_kernel_missing_initialization",
-  "CVE_CVE-2026-46300"
+  "CVE_CVE-2026-46300",
+  "4b53227f9f3bab6085748e01fca8a8a2c1994ad7e861ac599d25f469a11851d4",
+  "https://thehackernews.com/2026/10/official-claude-code-vs-code-extension.html",
+  "slug_official_claude_code_extension_cursor_marketplace",
+  "0508d22cbda1d64187dd899cbd4d9761ba5f6b3ac56b4322dc3449c3e7b7092d",
+  "https://www.bleepingcomputer.com/news/security/hackers-now-exploiting-max-severity-gitlab-flaw-in-attacks",
+  "slug_cisa_says_max_severity_gitlab_now",
+  "829c8ea70e66f304af6307d6e1feda2aed110c5bbc61a055ecd7a4ac592de312",
+  "https://cybersecuritynews.com/hackers-use-zero-click-coruna",
+  "slug_hackers_use_zeroclick_coruna_darksword_exploits"
 ]
