@@ -1,13 +1,4 @@
 [
-  "06720af8fb4892a0dc1df4b42e82b12d260b3cea7fdd36baa09acf5c4acfc2d2",
-  "https://thehackernews.com/2026/10/threatsday-adobe-rce-dns-wallet-theft.html",
-  "slug_threatsday_adobe_rce_dns_wallet_theft",
-  "0036aa34917d3bf0b601d5216937ef9b9c5b65b6fbeb95b281312d06933ad37e",
-  "https://www.bleepingcomputer.com/news/security/hackers-exploit-collabora-rce-flaw-to-backdoor-nextcloud-servers",
-  "slug_hackers_exploit_collabora_rce_backdoor_nextcloud",
-  "CVE_CVE-2026-110447",
-  "4d80c79f180cd3490f0cdc549466cce525b94dd655f2ef46b293ba81bc9614b0",
-  "https://cybersecuritynews.com/hackers-use-clickfix",
   "slug_hackers_use_clickfix_python_tunnels_prepare",
   "e2089d243155ed7a05c2caf047206c938b1d7289ca984c3299fef5aac94b413c",
   "https://thehackernews.com/2026/10/critical-pwnescape-linux-kernel.html",
@@ -998,5 +989,14 @@
   "slug_binance_probes_potential_58_billion_cryptotheft",
   "0dbb240f9184bc6b153b011487a4a41f3d57b63bf91eeb9b37d12d08e9b6df3f",
   "https://cybersecuritynews.com/8200-ddos-attacks-every-hour",
-  "slug_hackers_launch_8200_ddos_attacks_every"
+  "slug_hackers_launch_8200_ddos_attacks_every",
+  "d563e9e1aaec1f91d767e2b0969b8f0b1738657d75a69c29f605085a2106660c",
+  "https://thehackernews.com/2026/10/binance-suffers-security-breach.html",
+  "slug_binance_suffers_security_breach_affecting_63",
+  "97e1eb09d975c625903cb93681569f3b278b48d71b03175a2cff0bf424727898",
+  "https://www.bleepingcomputer.com/news/security/hugging-face-malware-campaign-returns-to-hijack-gpus-for-crypto-mining",
+  "slug_hugging_face_malware_campaign_returns_hijack",
+  "1e4f832c81190733a6ec2d86424690ac07465de843b4ae103ced437e9d628dfd",
+  "https://cybersecuritynews.com/wordpress-rce-exploited",
+  "slug_hackers_actively_exploiting_wordpress_remote_code"
 ]
