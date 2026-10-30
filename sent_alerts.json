@@ -1,13 +1,4 @@
 [
-  "c4b7926adcfb8ca7088112a52fbbc844a15a3773a88ab5e8232942633c27f4ed",
-  "https://thehackernews.com/2026/10/silent-lynx-exploits-winrar-flaw-to.html",
-  "slug_silent_lynx_exploits_winrar_deploy_reverse",
-  "6c6c7e1d895a61ea95eb761d6f4e14ae1877b14f5faf72279bd896be16b54f11",
-  "https://www.bleepingcomputer.com/news/security/fake-arch-linux-packages-push-malware-with-root-privileges",
-  "slug_fake_arch_linux_packages_push_malware",
-  "a95fab72c9d5d64085887b824525703e0ab56750afe1953a7788ffd4543b2110",
-  "https://cybersecuritynews.com/burger-king-japan-data-breach",
-  "slug_burger_king_japan_confirms_data_breach",
   "06720af8fb4892a0dc1df4b42e82b12d260b3cea7fdd36baa09acf5c4acfc2d2",
   "https://thehackernews.com/2026/10/threatsday-adobe-rce-dns-wallet-theft.html",
   "slug_threatsday_adobe_rce_dns_wallet_theft",
@@ -998,5 +989,14 @@
   "slug_cisa_warns_fragnesia_linux_chained_php2shell",
   "0116e1bac2f47e6c81eeb710ba6d3c5d73fd886846e88bf00d2932c3bf6d3fcd",
   "https://cybersecuritynews.com/state-of-ad-fraud-2026-52-of-schemes-use-ai-as-cloaking-loses-ground-to-ios-exploits-and-messenger-phishing",
-  "slug_state_ad_fraud_2026_52_schemes"
+  "slug_state_ad_fraud_2026_52_schemes",
+  "d9e7c9ddc0eb7fb8a152a482b9f1de6f3b5a1598bbb6e21338ded62dba8f7868",
+  "https://thehackernews.com/2026/10/fake-chatgpt-and-claude-apps-abuse.html",
+  "slug_fake_chatgpt_claude_apps_abuse_signed",
+  "0d4158f28ceec8977e42ad36742265dc56c936ec610cbe1434391b6656995eb7",
+  "https://www.bleepingcomputer.com/news/security/binance-probes-potential-58-billion-crypto-theft-hack",
+  "slug_binance_probes_potential_58_billion_cryptotheft",
+  "0dbb240f9184bc6b153b011487a4a41f3d57b63bf91eeb9b37d12d08e9b6df3f",
+  "https://cybersecuritynews.com/8200-ddos-attacks-every-hour",
+  "slug_hackers_launch_8200_ddos_attacks_every"
 ]
