@@ -1,13 +1,4 @@
 [
-  "slug_just_viewing_online_ad_can_infect",
-  "a2dfa0394e0653a8dabfc5abcf52d6ba3f9cba0fd2cb2dd6fbc5b238df868190",
-  "https://thehackernews.com/2026/10/attackers-exploit-fortios-flaw-to.html",
-  "slug_peerstitch_malware_deployed_via_fortios_bypasses",
-  "CVE_CVE-2025-61624",
-  "379db0c8ad00f8039620736a4c0cf13b4678e0fd5ecb1878295b78c60452f469",
-  "https://www.bleepingcomputer.com/news/security/beyondtrust-patches-zero-day-exploited-in-attacks-since-august",
-  "slug_beyondtrust_patches_zeroday_exploited_attacks_since",
-  "26382fed63abf156d1acb6d50faf2e18afc5b6b3660cbe2a7ad28df6f7a23a30",
   "https://www.securityweek.com/centerpoint-energy-data-breach-impacts-1-million-texans",
   "slug_centerpoint_energy_data_breach_impacts_1",
   "2f4ebff472d58347b5f4820386c92e2f654aff5966771c2acb787546316a49ac",
@@ -998,5 +989,14 @@
   "slug_cisa_says_max_severity_gitlab_now",
   "829c8ea70e66f304af6307d6e1feda2aed110c5bbc61a055ecd7a4ac592de312",
   "https://cybersecuritynews.com/hackers-use-zero-click-coruna",
-  "slug_hackers_use_zeroclick_coruna_darksword_exploits"
+  "slug_hackers_use_zeroclick_coruna_darksword_exploits",
+  "33f30c5083f66cd6f44c09a0b5bac1262f215f8aaa3ea3f9b0ee77ab33fd1eb6",
+  "https://thehackernews.com/2026/10/teamviewer-flaw-lets-remote-computers.html",
+  "slug_teamviewer_lets_remote_computers_attack_users",
+  "3b99573e7ab441bb3e38b605c147a1e878166dd8398d54d7e4d8f4b996f194bc",
+  "https://www.bleepingcomputer.com/news/security/malicious-claude-code-extension-on-cursor-planted-ssh-backdoors",
+  "slug_malicious_claude_code_extension_cursor_planted",
+  "37e9afa5b7ecca447e0b2215d0fc6c854814590e8db3b045b0986534492f71c7",
+  "https://cybersecuritynews.com/north-korean-hackers-2",
+  "slug_north_korean_hackers_steal_developer_credentials"
 ]
