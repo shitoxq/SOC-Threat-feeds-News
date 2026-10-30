@@ -1,14 +1,4 @@
 [
-  "slug_hackers_use_clickfix_python_tunnels_prepare",
-  "e2089d243155ed7a05c2caf047206c938b1d7289ca984c3299fef5aac94b413c",
-  "https://thehackernews.com/2026/10/critical-pwnescape-linux-kernel.html",
-  "slug_critical_pwnescape_linux_kernel_vulnerability_lets",
-  "CVE_CVE-2026-99999",
-  "470fcf5377611ea1e436b183d4db5361ef448215d9f75863907feae8545ad322",
-  "https://www.bleepingcomputer.com/news/security/android-gets-ai-defenses-against-messaging-scams-fake-calls",
-  "slug_android_gets_ai_defenses_against_messaging",
-  "1a7b2c5f7f8c7aa14235d9ba114f0c12ccf862f7a34e587ea1062e1ccdad0266",
-  "https://www.securityweek.com/novel-android-banking-rat-hirudo-replaces-banking-apps-with-trojanized-copies",
   "slug_novel_android_rat_hirudo_replaces_banking",
   "3d53c1d5457e34e77ba4a53a8bf3b42ad2be1fa8781514ba2c059e800bc9635b",
   "https://thehackernews.com/2026/10/help-tds-linked-to-hotejka-as-20000.html",
@@ -998,5 +988,15 @@
   "slug_hugging_face_malware_campaign_returns_hijack",
   "1e4f832c81190733a6ec2d86424690ac07465de843b4ae103ced437e9d628dfd",
   "https://cybersecuritynews.com/wordpress-rce-exploited",
-  "slug_hackers_actively_exploiting_wordpress_remote_code"
+  "slug_hackers_actively_exploiting_wordpress_remote_code",
+  "89ba8a41a1ee0be07879dd6b06ecae43cee5c3370fad66c88f0b09cc1e218801",
+  "https://thehackernews.com/2026/08/learn-how-to-build-security-operations.html",
+  "slug_webinar_how_build_ai_threat_readiness",
+  "6c71e65e346126f63c912f31f05e1208df15edf408bcc2cbac79ea6b82e3c2dd",
+  "https://www.bleepingcomputer.com/news/security/japan-airlines-suffers-third-party-data-breach-exposing-passenger-info",
+  "slug_japan_airlines_suffers_thirdparty_data_breach",
+  "0264607d9cd4c0f246415f5ffd730d0d3e35d5f2d7e7d847feab99fe33c70e16",
+  "https://cybersecuritynews.com/linux-kernel-missing-initialization-vulnerability",
+  "slug_cisa_warns_linux_kernel_missing_initialization",
+  "CVE_CVE-2026-46300"
 ]
