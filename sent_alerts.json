@@ -1,14 +1,4 @@
 [
-  "470746d9a868cb54b002439550edfeeb371901cd07146a301c4241b0dea99597",
-  "https://www.securityweek.com/f5-juniper-networks-patch-critical-vulnerabilities",
-  "slug_f5_juniper_networks_patch_critical_vulnerabilities",
-  "6b64c86706d393dbdbba53e391c171c94748a235e14d9c36462e2c17594ecd0b",
-  "https://cybersecuritynews.com/hackers-use-ai-generated-scripts",
-  "slug_hackers_use_aigenerated_scripts_hijack_linux",
-  "2ec11da078d25fee175ec458db20de93359af81552fa2f85af27ce71c96bee74",
-  "https://www.securityweek.com/microsoft-patches-two-dozen-rce-flaws-in-office",
-  "slug_microsoft_patches_two_dozen_rce_office",
-  "ebba1f4e2733c67859d7cec5339b77f6cc60d556571b1bf743d8f7ee0c885d5d",
   "https://www.vulncheck.com/blog/xorbits-xoscar-unauth-cloudpickle-rce",
   "slug_xorbits_xoscar_unauthenticated_rce_via_cloudpickle",
   "df2c740cd6f2771956563271e8826f869d3b8b1ce716cfe5974d7b331b5345e9",
@@ -998,5 +988,15 @@
   "slug_google_launches_gemini_4_carbon_stateoftheart",
   "760fa3418b100519427d402d56e6a4684e2d3bf4b3b175895540b00cc763cf7e",
   "https://www.securityweek.com/in-other-news-anthropic-breach-dispute-uefi-flaw-hits-most-servers-cloudflare-ai-data-leak",
-  "slug_other_news_anthropic_breach_dispute_uefi"
+  "slug_other_news_anthropic_breach_dispute_uefi",
+  "c305d693e177d5ef64daf367acfc1e634711244980670e6d6392ac16514ee3d1",
+  "https://thehackernews.com/2026/10/attackers-chain-three-ivanti-connect.html",
+  "slug_attackers_chain_three_ivanti_connect_secure",
+  "CVE_CVE-2026-111357",
+  "71d92d6a48c1cf9968f4a3ec72c05f430be00da5bb5e84bc0e5af7d46ef6040b",
+  "https://www.bleepingcomputer.com/news/security/chainalysis-discloses-data-breach-from-offensive-agentic-techniques",
+  "slug_chainalysis_discloses_data_breach_from_quotoffensive",
+  "707c3f4ea1e86206ee14211115db2528dac3528282b924b1dc2eda7624e2ddf7",
+  "https://cybersecuritynews.com/malicious-claude-code-extension-with-cursor",
+  "slug_cursor_confirms_malicious_claude_code_extension"
 ]
