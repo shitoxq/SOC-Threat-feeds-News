@@ -1,13 +1,4 @@
 [
-  "219fd9eab491daf6e2fa95ed6dd86eea75a0ccb1886230efb6b82e44ee49d6c6",
-  "https://thehackernews.com/2026/10/malfex-npm-package-imgdecode-hides.html",
-  "slug_malfex_npm_package_x27imgdecodex27_hides_shellcode",
-  "5ada53a6ff00701fa6d19cd78b0887a4497d3022ed60da4c4ad0b8392e13e95c",
-  "https://cybersecuritynews.com/connectwise-credentials-microsoft-365-accounts",
-  "slug_hackers_used_compromised_connectwise_backup_credentials",
-  "ac6e3d37283a80f6a6580049a1ba8d25814e21a9728584ef34a482fdb08b270b",
-  "https://www.securityweek.com/israeli-ad-firm-doubled-as-candirus-zero-click-spyware-delivery-channel",
-  "slug_israeli_ad_firm_doubled_candirus_zeroclick",
   "d667e6f88587edd93237cf18ebf745b845a28118ae27fc302be81812257653be",
   "https://www.vulncheck.com/blog/cve-2017-9841",
   "slug_9_yearold_php_vulnerability_keeps_swinging",
@@ -998,5 +989,14 @@
   "slug_vulncheck_opens_initial_access_community_edition",
   "270afe21c1b17d4dfc5038cd57f8de6a21a3033378e5f61e668c786345555abb",
   "https://www.helpnetsecurity.com/2026/10/30/shufti-know-your-agent-kya",
-  "slug_shufti_ties_ai_agent_actions_verified"
+  "slug_shufti_ties_ai_agent_actions_verified",
+  "40cf3183ed46a5646b374afa47f01ca4adb1ccf76aaaba6ccecfdf5e7d4f5a5a",
+  "https://www.securityweek.com/fresh-wordpress-vulnerability-in-attackers-crosshairs",
+  "slug_fresh_wordpress_vulnerability_attackers_crosshairs",
+  "ebba1f4e2733c67859d7cec5339b77f6cc60d556571b1bf743d8f7ee0c885d5d",
+  "https://www.vulncheck.com/blog/xorbits-xoscar-unauth-cloudpickle-rce",
+  "slug_xorbits_xoscar_unauthenticated_rce_via_cloudpickle",
+  "206282bde5017b9841c45c516ec2d15ab2e6cf55186a50a57ca6b8003c1ddf1b",
+  "https://www.helpnetsecurity.com/2026/10/30/bedrock-data-ai-assisted-remediation",
+  "slug_bedrock_data_routes_data_exposure_fixes"
 ]
