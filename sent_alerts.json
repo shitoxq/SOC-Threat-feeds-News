@@ -1,15 +1,4 @@
 [
-  "https://www.vulncheck.com/blog/xorbits-xoscar-unauth-cloudpickle-rce",
-  "slug_xorbits_xoscar_unauthenticated_rce_via_cloudpickle",
-  "df2c740cd6f2771956563271e8826f869d3b8b1ce716cfe5974d7b331b5345e9",
-  "https://cybersecuritynews.com/openai-confirms-ai-model-hacked",
-  "slug_openai_confirms_its_ai_model_hacked",
-  "c81c8dc97699595287ae0c30b0e78137f35446b31f10b96a41575cbb8a1d13be",
-  "https://www.securityweek.com/proofpoint-inks-6-3-billion-all-cash-deal-to-acquire-varonis",
-  "slug_proofpoint_inks_63_billion_allcash_deal",
-  "4e31867fcf6f7c84838e390810a80ebb680b1871cea52dbe88aede73005796e6",
-  "https://www.vulncheck.com/blog/integrity-technology-group-advisory",
-  "slug_expanding_visibility_into_chinese_governmentlinked_cyber",
   "614eb364146c341c337919f1813cb668f6526229396ad4613cfe2a2f88155e03",
   "https://thehackernews.com/2026/10/hackers-use-compromised-connectwise.html",
   "slug_hackers_use_compromised_connectwise_credential_sign",
@@ -998,5 +987,16 @@
   "slug_chainalysis_discloses_data_breach_from_quotoffensive",
   "707c3f4ea1e86206ee14211115db2528dac3528282b924b1dc2eda7624e2ddf7",
   "https://cybersecuritynews.com/malicious-claude-code-extension-with-cursor",
-  "slug_cursor_confirms_malicious_claude_code_extension"
+  "slug_cursor_confirms_malicious_claude_code_extension",
+  "d14f290bbf9e3d459f59bb2b337c402b8918e863805cdbb06722140c6906a429",
+  "https://www.bleepingcomputer.com/news/security/new-android-sms-of-death-exploit-can-remotely-crash-unpatched-phones",
+  "slug_new_android_sms_death_exploit_can",
+  "CVE_CVE-2026-58882",
+  "16f320e92ddb98c4fa546c9e95d84ce306bda02be910522a68177ea93e187f20",
+  "https://cybersecuritynews.com/teamviewer-security-flaw",
+  "slug_teamviewer_security_could_turn_remote_support",
+  "CVE_CVE-2026-111585",
+  "4403c5324b9b8679d5b02eacac1abf66349d76a601a45ba3cf40ccb5eccb1601",
+  "https://www.securityweek.com/passkeys-are-better-than-passwords-but-they-are-not-enough",
+  "slug_passkeys_better_than_passwords_but_they"
 ]
