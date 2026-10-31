@@ -1,13 +1,4 @@
 [
-  "614eb364146c341c337919f1813cb668f6526229396ad4613cfe2a2f88155e03",
-  "https://thehackernews.com/2026/10/hackers-use-compromised-connectwise.html",
-  "slug_hackers_use_compromised_connectwise_credential_sign",
-  "6e2f1ad2a66d698966116a4c267b18c18521fdc409ff7506eaf4286c30a7690a",
-  "https://cybersecuritynews.com/google-fixes-10-chrome-vulnerabilities",
-  "slug_google_fixes_10_chrome_vulnerabilities_including",
-  "1946ff799b3393ee0f7d240d3108e018992d5d5b739e98558543da976a396f36",
-  "https://www.vulncheck.com/blog/virtualizor-billing-hook-unauthenticated-root-rce",
-  "slug_virtualizor_login_parameter_that_skips_loginvulncheckx27s",
   "219fd9eab491daf6e2fa95ed6dd86eea75a0ccb1886230efb6b82e44ee49d6c6",
   "https://thehackernews.com/2026/10/malfex-npm-package-imgdecode-hides.html",
   "slug_malfex_npm_package_x27imgdecodex27_hides_shellcode",
@@ -998,5 +989,14 @@
   "CVE_CVE-2026-111585",
   "4403c5324b9b8679d5b02eacac1abf66349d76a601a45ba3cf40ccb5eccb1601",
   "https://www.securityweek.com/passkeys-are-better-than-passwords-but-they-are-not-enough",
-  "slug_passkeys_better_than_passwords_but_they"
+  "slug_passkeys_better_than_passwords_but_they",
+  "b43200e98e60fd684ed4332382ee3bbef17be871acb8f3327c01b1fa2f644099",
+  "https://www.securityweek.com/bulletproof-host-virtualine-loses-its-domain-to-fbi-seizure",
+  "slug_bulletproof_host_virtualine_loses_its_domain",
+  "a7e9303f67b4e15e517082d4a85c111dd75dabde1ffd61f1091855579940b7cb",
+  "https://www.vulncheck.com/blog/initial-access-community",
+  "slug_vulncheck_opens_initial_access_community_edition",
+  "270afe21c1b17d4dfc5038cd57f8de6a21a3033378e5f61e668c786345555abb",
+  "https://www.helpnetsecurity.com/2026/10/30/shufti-know-your-agent-kya",
+  "slug_shufti_ties_ai_agent_actions_verified"
 ]
