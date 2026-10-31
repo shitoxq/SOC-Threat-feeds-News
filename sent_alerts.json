@@ -1,13 +1,4 @@
 [
-  "https://cybersecuritynews.com/new-yuankong-android-rat",
-  "slug_new_yuankong_android_rat_hijacks_phones",
-  "ffdcabb15288bf144b88d0dbd9598a1f314716e88738655af300cf637050828e",
-  "https://thehackernews.com/2026/10/attackers-tampered-with-aomei.html",
-  "slug_attackers_tampered_aomei_backupperx27s_update_servers",
-  "c0bd42b621bad7f686dba44568cc344233913d2ad7415250051c4af4d273a243",
-  "https://www.bleepingcomputer.com/news/security/critical-blockstrap-flaw-lets-hackers-run-code-on-magento-servers",
-  "slug_critical_blockstrap_lets_hackers_run_code",
-  "CVE_CVE-2026-103849",
   "cf304ded909ede943cb840bd25e9f3341c8388026738d6e6c933c0997570044d",
   "https://www.securityweek.com/in-other-news-ics-sniper-attack-hacking-xworm-malware-operators-250k-chrome-exploit",
   "slug_other_news_icssniper_attack_hacking_xworm",
@@ -998,5 +989,14 @@
   "slug_microsoft_finally_fixes_vpn_issues_caused",
   "dd720886bafe8b887a7a2f527d4ae7880fd15f316c8da85beaf3813f476ba1d9",
   "https://cybersecuritynews.com/netamloader-malware",
-  "slug_apt_hackers_use_netamloader_malware_target"
+  "slug_apt_hackers_use_netamloader_malware_target",
+  "293569318dde9da7ae44a07f3330bce40883d4ced65e6525e8d42d75ef80d154",
+  "https://thehackernews.com/2026/10/cloudflare-reports-182-million-network.html",
+  "slug_cloudflare_reports_182_million_networklayer_ddos",
+  "642f147345e48ec870d02954865d12004d6c2caba6e50f5b6674d978b80ecdfd",
+  "https://www.bleepingcomputer.com/news/security/drupal-warns-of-critical-commerce-core-flaw-exploited-in-attacks",
+  "slug_drupal_warns_critical_commerce_core_exploited",
+  "4c345be81311b6044c0bb29a632b9effa4bc4e3036820bfa93904585d18e64ee",
+  "https://cybersecuritynews.com/60000-attacks-targeting-wordpress",
+  "slug_over_60000_attacks_target_wordpress_rce"
 ]
