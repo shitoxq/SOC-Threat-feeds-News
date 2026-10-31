@@ -1,13 +1,4 @@
 [
-  "cf304ded909ede943cb840bd25e9f3341c8388026738d6e6c933c0997570044d",
-  "https://www.securityweek.com/in-other-news-ics-sniper-attack-hacking-xworm-malware-operators-250k-chrome-exploit",
-  "slug_other_news_icssniper_attack_hacking_xworm",
-  "23e4826e2b125739a8b095fb52756c3fda2fc1f6eaf919f78459099bef8e2583",
-  "https://thehackernews.com/2026/10/uat-11985-uses-fake-event-invites-to.html",
-  "slug_uat11985_uses_fake_event_invites_target",
-  "7cca0e591c03bec44f9e919a2980fcabcffd53754d1db8cc229655b839c8d6d3",
-  "https://cybersecuritynews.com/37-year-old-kernel-openbsd-flaw",
-  "slug_37yearold_kernel_exploited_gain_root_access",
   "470746d9a868cb54b002439550edfeeb371901cd07146a301c4241b0dea99597",
   "https://www.securityweek.com/f5-juniper-networks-patch-critical-vulnerabilities",
   "slug_f5_juniper_networks_patch_critical_vulnerabilities",
@@ -998,5 +989,14 @@
   "slug_drupal_warns_critical_commerce_core_exploited",
   "4c345be81311b6044c0bb29a632b9effa4bc4e3036820bfa93904585d18e64ee",
   "https://cybersecuritynews.com/60000-attacks-targeting-wordpress",
-  "slug_over_60000_attacks_target_wordpress_rce"
+  "slug_over_60000_attacks_target_wordpress_rce",
+  "8490e3bdfa1d6b635f7685f924153b729c2f759d0460d42b79da487adcdfc46c",
+  "https://www.bleepingcomputer.com/news/security/binance-links-63-billion-crypto-theft-to-compromised-devops-laptop",
+  "slug_binance_links_63_billion_crypto_theft",
+  "80a1cddc72d6acf6a0b62ebeb61605a06312c002eabe3de22323c6bb77f628ba",
+  "https://cybersecuritynews.com/google-launches-gemini-4-carbon",
+  "slug_google_launches_gemini_4_carbon_stateoftheart",
+  "760fa3418b100519427d402d56e6a4684e2d3bf4b3b175895540b00cc763cf7e",
+  "https://www.securityweek.com/in-other-news-anthropic-breach-dispute-uefi-flaw-hits-most-servers-cloudflare-ai-data-leak",
+  "slug_other_news_anthropic_breach_dispute_uefi"
 ]
