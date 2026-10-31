@@ -1,14 +1,4 @@
 [
-  "676b18d82b3dd7c553c827449f6221da59a7119436cb7d191763861df005befa",
-  "https://cybersecuritynews.com/new-romulus-clickfix-platform",
-  "slug_hackers_use_new_romulus_clickfix_platform",
-  "ebaf37949a88c936e530e83bfd13a0855d99a808c925f902d5ff17e1242b28eb",
-  "https://thehackernews.com/2026/10/researchers-demonstrate-openbsd-root.html",
-  "slug_researchers_demonstrate_openbsd_root_exploit_chaining",
-  "b337cc196c5b4695718d62391eb0459bf10efa9a0e66d54108c81b64d34f7e66",
-  "https://www.bleepingcomputer.com/news/security/burger-king-japan-data-breach-exposes-11-million-customer-records",
-  "slug_burger_king_japan_data_breach_exposes",
-  "01d9385d6c930d070f7e7a783d9ee3172ac48ed8415ef819eed5bda5e2314f02",
   "https://cybersecuritynews.com/new-yuankong-android-rat",
   "slug_new_yuankong_android_rat_hijacks_phones",
   "ffdcabb15288bf144b88d0dbd9598a1f314716e88738655af300cf637050828e",
@@ -998,5 +988,15 @@
   "slug_critical_linux_kernel_allows_remote_root",
   "7e5822c2be4d3a0b5c7ee4579a6c56d00eb2068a52492492b4e8f2d57e0c5c13",
   "https://www.securityweek.com/php2shell-attacks-root-palo-alto-firewalls-but-fail-against-wordpress",
-  "slug_php2shell_attacks_root_palo_alto_firewalls"
+  "slug_php2shell_attacks_root_palo_alto_firewalls",
+  "bc4258f9677bca1e1ae924948e90c7d96d320b088c7bee44bb969c86fb9d9f4b",
+  "https://thehackernews.com/2026/10/hackers-actively-exploit-highly.html",
+  "slug_hackers_actively_exploit_highly_critical_drupal",
+  "CVE_CVE-2026-118539",
+  "3871bb25ff93dffb222dbd4da4670bd063c245cd6cf061cb073175b3b81f0168",
+  "https://www.bleepingcomputer.com/news/microsoft/microsoft-finally-fixes-vpn-issues-caused-by-september-updates",
+  "slug_microsoft_finally_fixes_vpn_issues_caused",
+  "dd720886bafe8b887a7a2f527d4ae7880fd15f316c8da85beaf3813f476ba1d9",
+  "https://cybersecuritynews.com/netamloader-malware",
+  "slug_apt_hackers_use_netamloader_malware_target"
 ]
