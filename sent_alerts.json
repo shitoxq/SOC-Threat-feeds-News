@@ -1,13 +1,4 @@
 [
-  "slug_critical_wordpress_allow_attackers_execute_remote",
-  "78dba48bcdf2229a1dbdf292c4ee969f72886ad84894e368a5b1a2d786400ad6",
-  "https://www.vulncheck.com/blog/anthropic-glasswing-cves",
-  "slug_tracking_cves_attributed_anthropic_researchers_project",
-  "98b1a9b7bc3b13222260037ada8a83f86684a56be6d865d2d2c9a782bbbc7d06",
-  "https://gbhackers.com/openbsd-kernel-flaw",
-  "slug_openbsd_kernel_dating_back_37_years",
-  "bb0c72e8fb5237ff5533b2c7343e4c4fc1e3545271614ad8d5bf9071b85d4275",
-  "https://www.helpnetsecurity.com/2026/10/16/arch-linux-aur-malware-yay-paru",
   "slug_fake_arch_linux_aur_packages_exploit",
   "c24dc62865bc341a3432c2112ce3b1e1ce92f1a6ac266dd70b50c52d14ac9f2c",
   "https://www.vulncheck.com/blog/cisco-fmc-auth-bypass-cve-2026-20079",
@@ -998,5 +989,14 @@
   "slug_endlessdoors_phoning_home_pick_uptwenty_router",
   "f13b5b49e0d0976b88bd412eb0beb29974e829bef3a865d6c7ea0c74f9dd219a",
   "https://gbhackers.com/hackers-impersonate-it-help-desk-microsoft-teams",
-  "slug_hackers_impersonate_it_help_desk_microsoft"
+  "slug_hackers_impersonate_it_help_desk_microsoft",
+  "4432f1dbea0caa5b7f06abe6b418d0f65477d6b9f093ef9d580abf58fec337eb",
+  "https://thehackernews.com/2026/11/netamloader-malware-targets-government.html",
+  "slug_netamloader_malware_targets_government_windows_10",
+  "1eb7892752fbb3017096d90ce76f720cc285d3b8edb6570a7c9a54243005190b",
+  "https://www.vulncheck.com/blog/aimy-captcha-less-form-guard-object-injection",
+  "slug_aimy_captchaless_form_guard_antibot_plugin",
+  "8213186a735a2055b2e31fcfca614fab63051cc394dcbcf07c2959adeabe7188",
+  "https://www.helpnetsecurity.com/2026/11/01/week-in-review-binance-hit-by-6-3-billion-theft-impact-of-brotli-vulnerability",
+  "slug_week_review_binance_hit_63_billion"
 ]
