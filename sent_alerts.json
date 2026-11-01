@@ -1,13 +1,4 @@
 [
-  "slug_fake_arch_linux_aur_packages_exploit",
-  "c24dc62865bc341a3432c2112ce3b1e1ce92f1a6ac266dd70b50c52d14ac9f2c",
-  "https://www.vulncheck.com/blog/cisco-fmc-auth-bypass-cve-2026-20079",
-  "slug_cve202620079_cisco_fmc_authentication_bypass_rce",
-  "CVE_CVE-2026-20079",
-  "0c4f10201be54e2f28e5a150d0dc9f21faca66ed23ab9515fe3b7270ce63a01c",
-  "https://gbhackers.com/ghostaction-hackers-hide-credential-stealing-malware",
-  "slug_ghostaction_hackers_hide_credentialstealing_malware_fake",
-  "4870b077e38c79cbb60a1080c6458b9061ab967fbb3f463a164fe5334a804149",
   "https://www.helpnetsecurity.com/2026/10/16/android-enhanced-built-in-scam-protection",
   "slug_android_adds_aipowered_scam_alerts_hangs",
   "01f7e1fced898888d22da7cb1a586d324df2b8b1009732050d8380edb0db247a",
@@ -998,5 +989,14 @@
   "slug_aimy_captchaless_form_guard_antibot_plugin",
   "8213186a735a2055b2e31fcfca614fab63051cc394dcbcf07c2959adeabe7188",
   "https://www.helpnetsecurity.com/2026/11/01/week-in-review-binance-hit-by-6-3-billion-theft-impact-of-brotli-vulnerability",
-  "slug_week_review_binance_hit_63_billion"
+  "slug_week_review_binance_hit_63_billion",
+  "99e717f0ebbb40f1c39b1a5e09c3208aa87eb1979784d7868c381e50ab076bc5",
+  "https://www.bleepingcomputer.com/news/security/alpine-linux-rebuilds-gitlab-after-attempted-rce-attack",
+  "slug_alpine_linux_rebuilds_gitlab_after_attempted",
+  "cb62f7559c4f6ae9494e1cf1ef6167f30e7079f6f738aa3d9caf2f53c36b1820",
+  "https://www.vulncheck.com/blog/state-of-exploitation-1h-2026",
+  "slug_vulncheck_state_exploitation_1h2026key_trends_findings",
+  "cf3bfa6a60c40ad3f1dc3034bb674888a3aefe92e200596f736c230f1ac79e77",
+  "https://www.helpnetsecurity.com/2026/10/30/binance-crypto-hack",
+  "slug_binance_hit_63_billion_theft_what"
 ]
