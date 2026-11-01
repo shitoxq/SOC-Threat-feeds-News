@@ -1,13 +1,4 @@
 [
-  "d667e6f88587edd93237cf18ebf745b845a28118ae27fc302be81812257653be",
-  "https://www.vulncheck.com/blog/cve-2017-9841",
-  "slug_9_yearold_php_vulnerability_keeps_swinging",
-  "CVE_CVE-2017-9841",
-  "4673f62a501522618cfd69a13c26b9864e657b7aa8ab4bfcee7d3c2a170177c7",
-  "https://www.helpnetsecurity.com/2026/10/16/usa-2026-midterm-election-scams",
-  "slug_scammers_clone_candidates_voices_steal_cash",
-  "30c32e408bf70bc21f42c4302706cea081d8b6d13841cf8f75ab79766499b591",
-  "https://ipurple.team/2026/08/04/provisioning-packages",
   "slug_provisioning_packages",
   "cdb2e3ee5c435a5ed4fed0e08de0686b5099e7f75a155955dda607d4b7be6a4d",
   "https://www.bleepingcomputer.com/news/security/hackers-breach-microsoft-365-tenants-via-connectwise-supply-chain-attack",
@@ -998,5 +989,14 @@
   "slug_xorbits_xoscar_unauthenticated_rce_via_cloudpickle",
   "206282bde5017b9841c45c516ec2d15ab2e6cf55186a50a57ca6b8003c1ddf1b",
   "https://www.helpnetsecurity.com/2026/10/30/bedrock-data-ai-assisted-remediation",
-  "slug_bedrock_data_routes_data_exposure_fixes"
+  "slug_bedrock_data_routes_data_exposure_fixes",
+  "579acd58b51a0fe46feb089bbd522b81f62f449a421386c718b6afebe5fc2bb1",
+  "https://cybersecuritynews.com/apple-warns-iphone-users",
+  "slug_apple_warns_iphone_users_99_countries",
+  "649ffc6d4557dea4369f1bcd17688df03124d87393dd4adc0233ef6f1ce940de",
+  "https://www.securityweek.com/drupal-commerce-core-vulnerability-exploited-against-online-stores",
+  "slug_drupal_commerce_core_vulnerability_exploited_against",
+  "4e31867fcf6f7c84838e390810a80ebb680b1871cea52dbe88aede73005796e6",
+  "https://www.vulncheck.com/blog/integrity-technology-group-advisory",
+  "slug_expanding_visibility_into_chinese_governmentlinked_cyber"
 ]
