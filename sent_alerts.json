@@ -1,13 +1,4 @@
 [
-  "slug_provisioning_packages",
-  "cdb2e3ee5c435a5ed4fed0e08de0686b5099e7f75a155955dda607d4b7be6a4d",
-  "https://www.bleepingcomputer.com/news/security/hackers-breach-microsoft-365-tenants-via-connectwise-supply-chain-attack",
-  "slug_hackers_breach_microsoft_365_tenants_via",
-  "9e184f7cdec715a04d889fb69d1761930c4a7a721cb63a05269ea387f9754bf7",
-  "https://www.vulncheck.com/blog/ai-assisted-vulnerability-discovery",
-  "slug_first_cve_wave_signs_that_aiassisted",
-  "362b8996fe1a3c9c0edd60d8a2420a6a49ff89bd0edf35a733a9b27b99de582d",
-  "https://gbhackers.com/hackers-use-connectwise-skykick-credentials",
   "slug_hackers_use_connectwise_skykick_credentials_access",
   "58f47558d22e32b235c6f909a5b482a49e12ef9118f9b40647bf210b5b6ee566",
   "https://www.bleepingcomputer.com/news/security/drupal-patches-critical-rce-flaws-warns-exploits-may-emerge-soon",
@@ -998,5 +989,14 @@
   "slug_drupal_commerce_core_vulnerability_exploited_against",
   "4e31867fcf6f7c84838e390810a80ebb680b1871cea52dbe88aede73005796e6",
   "https://www.vulncheck.com/blog/integrity-technology-group-advisory",
-  "slug_expanding_visibility_into_chinese_governmentlinked_cyber"
+  "slug_expanding_visibility_into_chinese_governmentlinked_cyber",
+  "f065e27bf9470a34a3b15bcb7f18e4dfce2ca147f6d33be9cff4e59c3bdc6ded",
+  "https://www.securityweek.com/2-million-drained-from-polymarket-traders-in-new-supply-chain-attack",
+  "slug_2_million_drained_from_polymarket_traders",
+  "1946ff799b3393ee0f7d240d3108e018992d5d5b739e98558543da976a396f36",
+  "https://www.vulncheck.com/blog/virtualizor-billing-hook-unauthenticated-root-rce",
+  "slug_virtualizor_login_parameter_that_skips_loginvulncheckx27s",
+  "e1cd2f145232eea3d85c880a86ad80e26ea6d39ea9bf45f54a08e0e46edc86d9",
+  "https://www.helpnetsecurity.com/2026/10/30/claude-code-extension-ssh-backdoor",
+  "slug_claude_code_extension_poisoned_persistent_ssh"
 ]
