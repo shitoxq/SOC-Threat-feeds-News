@@ -1,13 +1,4 @@
 [
-  "slug_new_ghostbat_android_malware_targets_60",
-  "1b6c768c6ed76a4d5182965004992a9a3c677fc02dcd61efe225709a1d6ad78c",
-  "https://www.infosecurity-magazine.com/news/china-actor-beyondtrust-flaw-google",
-  "slug_china_espionage_actor_actively_targeting_critical",
-  "c96bea687e1c26b225816fa022d93a8d2cda1f66b9d08cad68a5e927f8a14a56",
-  "https://www.bleepingcomputer.com/news/security/hackers-exploit-siteguard-waf-flaw-to-run-commands-as-system-root",
-  "slug_hackers_exploit_siteguard_waf_run_commands",
-  "b3829597ab40e1153953e630ef1a36e27c5a16466383e99e11916e2df4030f96",
-  "https://www.vulncheck.com/blog/economic-value-lead-time",
   "slug_what_28_days_faster_vulnerability_intelligence",
   "657dd7743511efe8173daa0d86d93ec3167abcff94d775f7893b939553326743",
   "https://gbhackers.com/romulus-malware-platform",
@@ -998,5 +989,14 @@
   "slug_google_disrupts_milliondevice_xcpe_android_malware",
   "7b2235e7a663aceace3be695a671a7bef0b9c9fd6c8a835daffaaddbd8531ab8",
   "https://cybersecuritynews.com/mercado-bitcoin-suffers-cyberattack",
-  "slug_mercado_bitcoin_suffers_cyberattack_researchers_flag"
+  "slug_mercado_bitcoin_suffers_cyberattack_researchers_flag",
+  "7a8b5fe3b630ce05e6975a3a5dda0a650b6ec1c25855d4aef5701096a73dec8c",
+  "https://thehackernews.com/2026/11/google-disrupts-13-million-device.html",
+  "slug_google_disrupts_13_milliondevice_android_botnet",
+  "406768394f36ebd64c7854a2ca628c56c348a9ebf06a1e099d5d2a583f7828b4",
+  "https://www.bleepingcomputer.com/news/security/btcpay-server-warns-of-hot-wallet-thefts-targeting-outdated-instances",
+  "slug_btcpay_server_warns_hot_wallet_crypto",
+  "ee924f1f2f7714edc9b55a04ce21875be30cb86d09c51ecc0392fd336d6c6667",
+  "https://cybersecuritynews.com/guardz-brings-palo-alto-networks-prisma-browser-protection-to-small-businesses",
+  "slug_guardz_brings_palo_alto_networks_prisma"
 ]
