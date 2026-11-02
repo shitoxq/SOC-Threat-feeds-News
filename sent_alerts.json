@@ -1,13 +1,4 @@
 [
-  "CVE_CVE-2026-21858",
-  "2f5899b75f0bb4c386ff446f57c317a32d1567aebe9f631f085566e577838c22",
-  "https://gbhackers.com/sidecopy-hackers-target-indian-organizations",
-  "slug_sidecopy_hackers_target_indian_organizations_reverserat",
-  "1a74dd4c9004a29993dc050f85457de1b53f76396882a7ca967835ba0ecc59c1",
-  "https://thehackernews.com/2026/10/connectwise-suspends-cloud-backup-after.html",
-  "slug_connectwise_suspends_cloud_backup_after_attackers",
-  "435bd94b9a602296659790bbdbea37c863470d0ec0c9fa571380a430f7c4ff3c",
-  "https://www.vulncheck.com/blog/cisco-sd-wan-manager-vulns",
   "slug_herding_cats_recent_cisco_sdwan_manager",
   "CVE_CVE-2026-20127",
   "bc30c42926ae42ee56de9d1451086a80b4b54181f70a731c1552d75bc5945bb9",
@@ -998,5 +989,14 @@
   "slug_hackers_exploit_php2shell_rce_vulnerabilities_gain",
   "30c32e408bf70bc21f42c4302706cea081d8b6d13841cf8f75ab79766499b591",
   "https://ipurple.team/2026/08/04/provisioning-packages",
-  "slug_provisioning_packages"
+  "slug_provisioning_packages",
+  "b1c1d30dd8ee58aa9f8dbc651913efd0cf6fc81939572fda2754a1c9596d8363",
+  "https://thehackernews.com/2026/11/new-volta-infostealer-uses-claude.html",
+  "slug_new_volta_infostealer_uses_claude_gemini",
+  "26cf23de7eb476f3c3cfc6e079943177a84032ac517922870f2663579b1c52a1",
+  "https://cybersecuritynews.com/tightvnc-pre-auth-rce-vulnerability",
+  "slug_tightvnc_preauth_rce_vulnerability_lets_hackers",
+  "951314c27b65e520fe8f034e40358d0a416fa69912cf1f408600de654921f2ad",
+  "https://www.vulncheck.com/blog/copy-fails-descendants-recent-linux-lpes",
+  "slug_copy_fail_its_descendants_real_humanx27s"
 ]
