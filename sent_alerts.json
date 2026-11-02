@@ -1,13 +1,4 @@
 [
-  "slug_stolen_ai_api_keys_paying_hackers",
-  "8e57e2af1f9ba62a8b581de5de0f789d550ce703e0d2f5236a0ad0b50aedc947",
-  "https://www.infosecurity-magazine.com/news/ransomware-threats-physical",
-  "slug_ransomware_gangs_increasingly_turn_threats_physical",
-  "7bf6d5eb186443ef0d21f76e7a86cd8a914d7e6334a881ecb3e6c6d0b06f8dce",
-  "https://www.vulncheck.com/blog/2026-vulncheck-exploit-intelligence-report",
-  "slug_introducing_2026_vulncheck_exploit_intelligence_reportindepth",
-  "da5353915a04cdbd3384b097de56bc157257a9108089e02c75e4133c674190c3",
-  "https://gbhackers.com/ghostbat-android-malware",
   "slug_new_ghostbat_android_malware_targets_60",
   "1b6c768c6ed76a4d5182965004992a9a3c677fc02dcd61efe225709a1d6ad78c",
   "https://www.infosecurity-magazine.com/news/china-actor-beyondtrust-flaw-google",
@@ -998,5 +989,14 @@
   "slug_observations_anthropics_vulnerability_disclosure_ledgerpublic_cve",
   "e777b394c8b454fb26082cff949df04438c8862b24ca6cdfebd5fe029277f1da",
   "https://gbhackers.com/malicious-claude-code-extensions-in-cursor-marketplace",
-  "slug_malicious_claude_code_extensions_cursor_marketplace"
+  "slug_malicious_claude_code_extensions_cursor_marketplace",
+  "a3562df3fff969c304c828c1c4f1a3f36ce8570fa4befb07a56a56fcc14fb350",
+  "https://thehackernews.com/2026/11/weekly-recap-critical-cves-linux-ddos.html",
+  "slug_weekly_recap_critical_cves_linux_ddos",
+  "1675f5566da94dce828836c32c4c56088e5febde7625aeacc7a259203f8e7b23",
+  "https://www.bleepingcomputer.com/news/security/google-disrupts-million-device-xcpe-android-malware-botnet-bans-tv-box-maker",
+  "slug_google_disrupts_milliondevice_xcpe_android_malware",
+  "7b2235e7a663aceace3be695a671a7bef0b9c9fd6c8a835daffaaddbd8531ab8",
+  "https://cybersecuritynews.com/mercado-bitcoin-suffers-cyberattack",
+  "slug_mercado_bitcoin_suffers_cyberattack_researchers_flag"
 ]
