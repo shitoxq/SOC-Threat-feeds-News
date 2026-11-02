@@ -1,14 +1,4 @@
 [
-  "slug_herding_cats_recent_cisco_sdwan_manager",
-  "CVE_CVE-2026-20127",
-  "bc30c42926ae42ee56de9d1451086a80b4b54181f70a731c1552d75bc5945bb9",
-  "https://www.helpnetsecurity.com/2026/10/18/week-in-review-hidden-implant-in-ledger-wallets-linked-to-93m-theft-1500-npm-packages-exposed",
-  "slug_week_review_hidden_implant_ledger_wallets",
-  "25650ccc1da1c220b9459ea9a33a64f7b4c9217c57c3cfe9a00e2986e7b5ccc7",
-  "https://www.vulncheck.com/blog/siftrank_canaries",
-  "slug_siftranking_canary_intelligencecanary_intelligence_captures_thousands",
-  "3ed80a69971d806930c20333565eae8938db2d16d7ccb37d184fc3d70f65411b",
-  "https://www.helpnetsecurity.com/2026/10/16/stolen-ai-api-keys-autonomous-scans",
   "slug_stolen_ai_api_keys_paying_hackers",
   "8e57e2af1f9ba62a8b581de5de0f789d550ce703e0d2f5236a0ad0b50aedc947",
   "https://www.infosecurity-magazine.com/news/ransomware-threats-physical",
@@ -998,5 +988,15 @@
   "slug_tightvnc_preauth_rce_vulnerability_lets_hackers",
   "951314c27b65e520fe8f034e40358d0a416fa69912cf1f408600de654921f2ad",
   "https://www.vulncheck.com/blog/copy-fails-descendants-recent-linux-lpes",
-  "slug_copy_fail_its_descendants_real_humanx27s"
+  "slug_copy_fail_its_descendants_real_humanx27s",
+  "57a2b751fb1631f911f0518387a30af68e44a03593fb361ffa93a2c20d1af991",
+  "https://cybersecuritynews.com/critical-beyondtrust-vulnerability",
+  "slug_critical_beyondtrust_vulnerability_faces_fresh_exploitation",
+  "CVE_CVE-2026-102764",
+  "ef82d9f6c0879c3dcdc5139d077f28e800d4bd80b0f77886f83cbfcd9574062c",
+  "https://www.vulncheck.com/blog/anthropic-ledger",
+  "slug_observations_anthropics_vulnerability_disclosure_ledgerpublic_cve",
+  "e777b394c8b454fb26082cff949df04438c8862b24ca6cdfebd5fe029277f1da",
+  "https://gbhackers.com/malicious-claude-code-extensions-in-cursor-marketplace",
+  "slug_malicious_claude_code_extensions_cursor_marketplace"
 ]
