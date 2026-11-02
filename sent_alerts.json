@@ -1,14 +1,4 @@
 [
-  "90994d6b9c7e4de5418b3456b567532f8eaec9a6980a547f65cc89d8dd15f0b1",
-  "https://ipurple.team/2026/06/17/qos-policies",
-  "slug_qos_policies",
-  "695f2d054a12200a3783a097d854a9067dce87a1900ca16c967d861c5db945bd",
-  "https://cybersecuritynews.com/opencode-security-breach",
-  "slug_opencode_security_breach_exposes_thirdparty_api",
-  "bcbc0a3ccc03e12eac56e4c729c042fde86e6fc6a0916c8eebd02ad34de5b98a",
-  "https://www.vulncheck.com/blog/n8n-needs-more-kev",
-  "slug_n8n_should_have_more_than_one",
-  "CVE_CVE-2025-68613",
   "CVE_CVE-2026-21858",
   "2f5899b75f0bb4c386ff446f57c317a32d1567aebe9f631f085566e577838c22",
   "https://gbhackers.com/sidecopy-hackers-target-indian-organizations",
@@ -998,5 +988,15 @@
   "slug_hackers_distribute_malicious_claude_code_extension",
   "25722a03df89a0848c034e06ffa87304c86980dd79c4a1edc4674903ba75c3da",
   "https://ipurple.team/2026/08/11/mandatory-user-profile",
-  "slug_mandatory_user_profile"
+  "slug_mandatory_user_profile",
+  "9636c568e50e698a97bc03a5b02984a27b84edccc0a7f033daefebc51cb31b5c",
+  "https://www.vulncheck.com/blog/fossbilling-auth-bypass-ssti-rce",
+  "slug_cve202628496_fossbilling_auth_bypass_twig_ssti",
+  "CVE_CVE-2026-28496",
+  "2af73a675f9ee4172f56be46433a6629544758b7e0d091d1cb074874105f73c6",
+  "https://gbhackers.com/hackers-exploit-php2shell-rce-vulnerabilities",
+  "slug_hackers_exploit_php2shell_rce_vulnerabilities_gain",
+  "30c32e408bf70bc21f42c4302706cea081d8b6d13841cf8f75ab79766499b591",
+  "https://ipurple.team/2026/08/04/provisioning-packages",
+  "slug_provisioning_packages"
 ]
