@@ -1,13 +1,4 @@
 [
-  "slug_microsoft_disrupts_global_yam_store_network",
-  "d54a890b110ea2aba369f5443c9d4fa740bef9d494639cd46d10bc966baa0ab8",
-  "https://www.vulncheck.com/blog/xwiki-under-increased-attack",
-  "slug_xwiki_under_increased_attackwhat_began_one",
-  "CVE_CVE-2025-24893",
-  "c123cc6c1ceedbf6540224e16c4806c412dfb0e938cbc87e7ff928b8f43c0488",
-  "https://www.infosecurity-magazine.com/news/ico-reprimands-met-over-thirdparty",
-  "slug_ico_reprimands_met_over_thirdparty_data",
-  "aed7533007a48c8c40e813719962dc59466f8bd1b1d26af2040a1a5ae2a7d9cf",
   "https://www.vulncheck.com/blog/making-dotnet-gadgets",
   "slug_making_serialization_gadgets_hand_netcreating_languagenative",
   "d87986d9ec810097e08be622b19c6d7ce202baf77c21f927dbb902f1e9f38ccd",
@@ -998,5 +989,14 @@
   "slug_over_1000_gitlab_servers_vulnerable_ongoing",
   "374c7a9f701dbd1956ab92cd26f017a1dd523e424ed582ac0d6a4b5016f9a1e4",
   "https://cybersecuritynews.com/hackers-use-malicious-vhdx-files",
-  "slug_hackers_use_malicious_vhdx_files_webdav"
+  "slug_hackers_use_malicious_vhdx_files_webdav",
+  "c5631e1fe7c280d41ea0570b670335d706b6c1cb16d7cd716dfe164065975214",
+  "https://thehackernews.com/2026/11/google-warns-llmjacking-attacks-are.html",
+  "slug_google_warns_llmjacking_attacks_costing_some",
+  "4aec85e873ea6f797df71c02156bc90436845252a74bfd768edaf80fdd807425",
+  "https://www.bleepingcomputer.com/news/security/uk-school-estate-hit-by-3am-ransomware-in-suspected-ai-assisted-attack",
+  "slug_uk_school_estate_hit_3am_ransomware",
+  "63118abdbefbb97482cc5ac77a0c7d983ee1ad6f5f6c5b38a597c37fb68cd339",
+  "https://cybersecuritynews.com/hackers-use-ai-agents-2",
+  "slug_hackers_use_ai_agents_launch_3am"
 ]
