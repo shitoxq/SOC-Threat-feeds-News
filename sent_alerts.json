@@ -1,13 +1,4 @@
 [
-  "https://www.vulncheck.com/blog/making-dotnet-gadgets",
-  "slug_making_serialization_gadgets_hand_netcreating_languagenative",
-  "d87986d9ec810097e08be622b19c6d7ce202baf77c21f927dbb902f1e9f38ccd",
-  "https://www.helpnetsecurity.com/2026/10/19/bearer-cli-free-code-security-scanning-tool-sast",
-  "slug_bearer_cli_free_sourceavailable_code_security",
-  "0bba864fde4bc05b83f5e6d71df0236dbf7f847f9fc49e3658268340f5f0c0ec",
-  "https://cybersecuritynews.com/google-unveils-new-android-ai-protections",
-  "slug_google_unveils_new_android_ai_protections",
-  "45ade7ed19bf905bd1ea8c3caee1d7e348716e2199827a04ffef4fd3999b1764",
   "https://www.vulncheck.com/blog/november-2025-research-highlights",
   "slug_vulncheck_research_highlights_november_2025insights_emerging",
   "33190709bb6fe4e211bb22262974d8e2b2cbb41de04f61c6ba3a5c822f76ee74",
@@ -998,5 +989,14 @@
   "slug_uk_school_estate_hit_3am_ransomware",
   "63118abdbefbb97482cc5ac77a0c7d983ee1ad6f5f6c5b38a597c37fb68cd339",
   "https://cybersecuritynews.com/hackers-use-ai-agents-2",
-  "slug_hackers_use_ai_agents_launch_3am"
+  "slug_hackers_use_ai_agents_launch_3am",
+  "62e23c789fbfd2f85d19b5cda60f223a48c61e51317e15463cf2fb7e382d0fc7",
+  "https://thehackernews.com/2026/11/binance-reveals-how-fake-job-interviews.html",
+  "slug_binance_reveals_how_fake_job_interviews",
+  "87893c219097abee42a4be81d6ff289535df5695b5cd421ffbb3481f5e27d4b8",
+  "https://www.bleepingcomputer.com/news/security/police-seizes-over-100-servers-in-investment-scam-crackdown",
+  "slug_police_seizes_over_100_servers_investment",
+  "05062e0c3f8b1c01eac09b8de9f96df8953080b82ee688299d7b92fca0f50cec",
+  "https://cybersecuritynews.com/supermarket-refrigeration-systems-across-europe",
+  "slug_hackers_target_supermarket_refrigeration_systems_across"
 ]
