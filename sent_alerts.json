@@ -1,14 +1,4 @@
 [
-  "https://www.vulncheck.com/blog/november-2025-research-highlights",
-  "slug_vulncheck_research_highlights_november_2025insights_emerging",
-  "33190709bb6fe4e211bb22262974d8e2b2cbb41de04f61c6ba3a5c822f76ee74",
-  "https://gbhackers.com/u-s-agencies-warn-ai-agents",
-  "slug_us_agencies_warn_ai_agents_could",
-  "bdcf728a9e2a0cc66314adb0c36bd9399663ac73aa3057c3d1a4a521cb6c9bbf",
-  "https://thehackernews.com/2026/10/ghostaction-attackers-plant-credential.html",
-  "slug_ghostaction_attackers_plant_credential_stealer_disguised",
-  "4f6d5f64f253fb71e587b95e945d4ef3fb9b278e040e8ad8bfcc228ceace1964",
-  "https://www.bleepingcomputer.com/news/security/f5-releases-out-of-band-patches-for-critical-nginx-vulnerabilities",
   "slug_f5_releases_outofband_patches_critical_nginx",
   "17c77edc019b9131b0d86c5957889666378b69beddeafddce4fb52ada0a5b9e4",
   "https://www.securityweek.com/plex2shell-exploit-chain-weaponized-against-plex-servers-hours-after-disclosure",
@@ -998,5 +988,15 @@
   "slug_police_seizes_over_100_servers_investment",
   "05062e0c3f8b1c01eac09b8de9f96df8953080b82ee688299d7b92fca0f50cec",
   "https://cybersecuritynews.com/supermarket-refrigeration-systems-across-europe",
-  "slug_hackers_target_supermarket_refrigeration_systems_across"
+  "slug_hackers_target_supermarket_refrigeration_systems_across",
+  "5350cf64f29cdc8ac80e555f0f95287832f53528f8c51bf82ed1bf74b1669c24",
+  "https://thehackernews.com/2026/11/barracuda-flaws-could-be-chained-to.html",
+  "slug_barracuda_could_be_chained_bypass_authorization",
+  "CVE_CVE-2026-116606",
+  "d0f4d81a715c4404f84db1326814de8da2f2e7656abe924fa5e6a1bbcdb9a0e7",
+  "https://www.bleepingcomputer.com/news/security/workos-says-attacker-used-artex-ai-to-breach-internal-sales-app",
+  "slug_workos_says_attacker_used_artex_ai",
+  "dcb5f6891034556555b667012f482adaff93126f1ebae9afe115ffe08d66552e",
+  "https://cybersecuritynews.com/artex-ai-automate-enterprise-attacks",
+  "slug_hackers_use_artex_ai_automate_enterprise"
 ]
