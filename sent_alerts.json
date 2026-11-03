@@ -1,13 +1,4 @@
 [
-  "slug_warning_over_highrisk_vulnerabilities_widely_used",
-  "CVE_CVE-2026-35029",
-  "CVE_CVE-2026-59823",
-  "9959f25d0007181218f94a9b5acc1ae39aea4a1dcbf05396262e581569292fc1",
-  "https://www.vulncheck.com/blog/fortinet-forti-web-exploitation-hits-silently-patched-vulnerability",
-  "slug_fortinet_fortiweb_exploitation_hits_silently_patched",
-  "CVE_CVE-2025-64446",
-  "a85d713e1f8ca13870ba5f07113abd47d93090d893b62253507ef5596f95be39",
-  "https://www.infosecurity-magazine.com/news/microsoft-yam-store-one-billion",
   "slug_microsoft_disrupts_global_yam_store_network",
   "d54a890b110ea2aba369f5443c9d4fa740bef9d494639cd46d10bc966baa0ab8",
   "https://www.vulncheck.com/blog/xwiki-under-increased-attack",
@@ -998,5 +989,14 @@
   "CVE_CVE-2026-58115",
   "26db6f8a9060cd7620884bea096c304f029f361f122725879e14e74ffda271d8",
   "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-smart-app-control-broken-by-october-windows-update",
-  "slug_microsoft_fixes_smart_app_control_broken"
+  "slug_microsoft_fixes_smart_app_control_broken",
+  "9c59a38943c4d0ce11a585b60c8b101fd063ba55f9cb76b4642050d835c4ee4f",
+  "https://thehackernews.com/2026/11/synology-nas-devices-targeted-in.html",
+  "slug_synology_nas_devices_targeted_ransomware_attacks",
+  "835b820741288dcc30af45b96a03b6b6c96acdd8f5da796f90d4fb766b2c6b86",
+  "https://www.bleepingcomputer.com/news/security/over-1-000-gitlab-servers-vulnerable-to-code-execution-attacks",
+  "slug_over_1000_gitlab_servers_vulnerable_ongoing",
+  "374c7a9f701dbd1956ab92cd26f017a1dd523e424ed582ac0d6a4b5016f9a1e4",
+  "https://cybersecuritynews.com/hackers-use-malicious-vhdx-files",
+  "slug_hackers_use_malicious_vhdx_files_webdav"
 ]
