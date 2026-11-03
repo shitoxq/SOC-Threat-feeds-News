@@ -1,15 +1,4 @@
 [
-  "https://www.vulncheck.com/blog/making-java-gadgets",
-  "slug_making_serialization_gadgets_hand_javalearn_how",
-  "140852184889494dd34ba47fd8728c3c841b725f5f708d8ff593fe480bcc66e9",
-  "https://www.infosecurity-magazine.com/news/aoki-infostealer-ai-coding",
-  "slug_new_aoki_infostealer_targets_ai_coding",
-  "0c8973450c0343fc310d92f1d57876e0a035c38c20f61482da06294517f4ba35",
-  "https://www.vulncheck.com/blog/metro4shell_eitw",
-  "slug_metro4shell_exploitation_react_natives_metro_server",
-  "CVE_CVE-2025-11953",
-  "71d5ed65887334393436801d4ab0074f44fb25cd2d48a18714357633ff669371",
-  "https://www.infosecurity-magazine.com/news/high-risk-vulnerabilities-llm-tool",
   "slug_warning_over_highrisk_vulnerabilities_widely_used",
   "CVE_CVE-2026-35029",
   "CVE_CVE-2026-59823",
@@ -998,5 +987,16 @@
   "slug_chinese_hackers_use_artex_ai_automated",
   "774431e0b5858fadea29f1fce3b05d78f697d21323474baa0de6e419c31ce126",
   "https://cybersecuritynews.com/hackers-exploit-iphone-bootrom-flaws",
-  "slug_hackers_could_exploit_iphone_bootrom_compromise"
+  "slug_hackers_could_exploit_iphone_bootrom_compromise",
+  "18d4ac8f8ecac5a742c8886688eca44bed7b8eaec48f5fc67aa3918dccc1f4e0",
+  "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+  "slug_active_exploitation_gitlab_community_edition_enterprise",
+  "CVE_CVE-2026-97229",
+  "b9ba4e436fc8e927c57d6687f49e6c5a110203675a4b9b1fc106800ed0980395",
+  "https://thehackernews.com/2026/11/attackers-exploit-critical-siemens.html",
+  "slug_attackers_exploit_critical_siemens_iot2050_plant",
+  "CVE_CVE-2026-58115",
+  "26db6f8a9060cd7620884bea096c304f029f361f122725879e14e74ffda271d8",
+  "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-smart-app-control-broken-by-october-windows-update",
+  "slug_microsoft_fixes_smart_app_control_broken"
 ]
