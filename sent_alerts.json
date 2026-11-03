@@ -1,13 +1,4 @@
 [
-  "slug_what_28_days_faster_vulnerability_intelligence",
-  "657dd7743511efe8173daa0d86d93ec3167abcff94d775f7893b939553326743",
-  "https://gbhackers.com/romulus-malware-platform",
-  "slug_new_romulus_malware_platform_uses_six",
-  "18d4ac8f8ecac5a742c8886688eca44bed7b8eaec48f5fc67aa3918dccc1f4e0",
-  "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
-  "slug_active_exploitation_cisco_secure_email_gateway",
-  "CVE_CVE-2026-76519",
-  "afccb2950c0f74aabeede061cd9e431db3f0458e4af0d6c10a5531336e9d6c87",
   "https://www.vulncheck.com/blog/making-java-gadgets",
   "slug_making_serialization_gadgets_hand_javalearn_how",
   "140852184889494dd34ba47fd8728c3c841b725f5f708d8ff593fe480bcc66e9",
@@ -998,5 +989,14 @@
   "slug_btcpay_server_warns_hot_wallet_crypto",
   "ee924f1f2f7714edc9b55a04ce21875be30cb86d09c51ecc0392fd336d6c6667",
   "https://cybersecuritynews.com/guardz-brings-palo-alto-networks-prisma-browser-protection-to-small-businesses",
-  "slug_guardz_brings_palo_alto_networks_prisma"
+  "slug_guardz_brings_palo_alto_networks_prisma",
+  "772d27d38d32d9015ad1b31c6956a58c2f18bcf8704cb7baac836b5cd9973106",
+  "https://thehackernews.com/2026/11/darkblinders-compromises-israeli-target.html",
+  "slug_darkblinders_compromises_israeli_target_iraqi_kurdish",
+  "710515d713d53bab7df622d06f4d1a73c16ea1f804fee90da7b5a1bbda5e8a09",
+  "https://www.bleepingcomputer.com/news/security/chinese-hackers-use-artex-ai-in-automated-attacks-against-200-orgs",
+  "slug_chinese_hackers_use_artex_ai_automated",
+  "774431e0b5858fadea29f1fce3b05d78f697d21323474baa0de6e419c31ce126",
+  "https://cybersecuritynews.com/hackers-exploit-iphone-bootrom-flaws",
+  "slug_hackers_could_exploit_iphone_bootrom_compromise"
 ]
