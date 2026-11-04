@@ -1,14 +1,4 @@
 [
-  "slug_opencode_hack_exposes_api_keys_amid",
-  "b7d3f639b1676d54338f6865043cd53b28eb225e1d910af91d6b8da06cc4edf6",
-  "https://www.securityweek.com/siemens-software-center-vulnerability-exploited-in-clickfix-malware-attacks",
-  "slug_siemens_software_center_vulnerability_exploited_clickfix",
-  "8aec3f414ba4d7d53ed495a2c530cf612b0449be043654da2e59a5f0d8e1a75c",
-  "https://thehackernews.com/2026/10/clickfix-attackers-exploit-siemens.html",
-  "slug_clickfix_attackers_exploit_siemens_software_center",
-  "CVE_CVE-2026-110936",
-  "cb1432e2ab3f057b6d052f8dd305039cc590bbca9b1ae11999ccf54b9d4a3a6a",
-  "https://cybersecuritynews.com/fake-google-meet-pages",
   "slug_hackers_using_fake_google_meet_pages",
   "bff8b4d59775cf8a938205f9a23914d9f6510d5a467a5bfc46586e3496d4240e",
   "https://www.securityweek.com/drupal-warns-of-fast-exploitation-risk-for-critical-core-rce-flaw",
@@ -998,5 +988,15 @@
   "ce0e855e2ee653ddc4625cbfd047f457f32e0f55bd8256a98dd73ca78b830cef",
   "https://cybersecuritynews.com/debian-apt-flaw-lets-hackers-hijack-updates",
   "slug_debian_ubuntu_apt_lets_hackers_hijack",
-  "CVE_CVE-2026-109518"
+  "CVE_CVE-2026-109518",
+  "28cc7a562c85ad38a67f6487f871048cf5375f76437b5e0e668667d887e03163",
+  "https://thehackernews.com/2026/11/sonicwall-wont-patch-eol-gms-flaws-that.html",
+  "slug_sonicwall_wonx27t_patch_eol_gms_that",
+  "CVE_CVE-2026-109593",
+  "9db2bb1c771f0b75301228c6b9fae60473ca9d945628faa46f2b4734406b2f47",
+  "https://www.bleepingcomputer.com/news/security/vercel-rolls-out-new-protection-against-stolen-session-cookie-attacks",
+  "slug_vercel_rolls_out_new_protection_against",
+  "e4ca15d69695554fde7ad7b88c2d3eab701f17e0cdf0ed3669f04c63ace70ba7",
+  "https://cybersecuritynews.com/skyw4lker-phishing-campaign-expands-threatening-us-enterprises-with-microsoft-365-account-takeovers",
+  "slug_skyw4lker_phishing_campaign_expands_threatening_us"
 ]
