@@ -1,13 +1,4 @@
 [
-  "https://www.bleepingcomputer.com/news/security/nikkei-discloses-third-data-breach-in-a-month-18m-records-exposed",
-  "slug_nikkei_discloses_third_data_breach_month",
-  "804de865bccc9d682208fe9d28cfff41566d139cd44c28837d3b03b930fb00dd",
-  "https://cybersecuritynews.com/ai-models-as-insider-threats",
-  "slug_microsoft_says_ai_agents_cannot_be",
-  "8674d78c6f98bb17df7573235af22d07577de646f580e8a0b07db4e2c0979eb2",
-  "https://thehackernews.com/2026/10/from-email-to-case-to-boardroom-how.html",
-  "slug_from_emailtocase_boardroom_how_inherited_agents",
-  "ae719e30f803e843f76dba682b0fcc3fbb7c6b5f33be886dcfe07013080f57d9",
   "https://www.bleepingcomputer.com/news/security/wordpress-seo-plugin-rank-math-compromised-to-backdoor-websites",
   "slug_wordpress_seo_plugin_rank_math_compromised",
   "8705a4e7867a9dde41812b5ca438552fc0e54606fdd5ebba300fc323ed817870",
@@ -998,5 +989,14 @@
   "slug_hackers_use_new_infostealer_malware_steal",
   "c54cd27e35940ee5c917649529d83714567d2cb637a8cf4c9c505ec9e2bc8eb7",
   "https://www.securityweek.com/crowdstrike-reportedly-paying-495-million-for-ai-security-firms-fiddler-dreadnode",
-  "slug_crowdstrike_reportedly_paying_495_million_ai"
+  "slug_crowdstrike_reportedly_paying_495_million_ai",
+  "f4b7ff866caa5870696391c3e909a8ced18118ed8f39c23d3ca0496f20627acd",
+  "https://thehackernews.com/2026/11/apt29-linked-hackers-hijack-web.html",
+  "slug_apt29linked_hackers_hijack_web_analytics_script",
+  "6dc56b5d71ca081cfc2340b778a7943000d2cc15a98350f40df64cda63e62a76",
+  "https://www.bleepingcomputer.com/news/security/google-calendar-phishing-campaign-hijacks-sessions-bypasses-mfa",
+  "slug_google_calendar_phishing_campaign_hijacks_sessions",
+  "04874ef4cc2aa6b2d8f6bf44282057972536451443de4031a4d92dc9124bbc82",
+  "https://cybersecuritynews.com/gorbag-hackers-exploit-winrar-vulnerability",
+  "slug_gorbag_hackers_exploit_winrar_vulnerability_steal"
 ]
