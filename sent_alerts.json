@@ -1,13 +1,4 @@
 [
-  "slug_f5_releases_outofband_patches_critical_nginx",
-  "17c77edc019b9131b0d86c5957889666378b69beddeafddce4fb52ada0a5b9e4",
-  "https://www.securityweek.com/plex2shell-exploit-chain-weaponized-against-plex-servers-hours-after-disclosure",
-  "slug_plex2shell_exploit_chain_weaponized_against_plex",
-  "e6f76086848f718ff70f9bf84b6692c24974371aba24bfb2ef743b5309f12d42",
-  "https://thehackernews.com/2026/10/weekly-recap-98-zero-days-rogue-ai.html",
-  "slug_weekly_recap_98_zerodays_rogue_ai",
-  "9eca5e160adfccd045432eed4f36bcb3648cfd5d6ca802216380fdbfa760e034",
-  "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-game-app-crashes-caused-by-windows-kb5124010-preview-update",
   "slug_microsoft_fixes_game_app_crashes_caused",
   "469494426858ce094090b3a3a342f68a62eb91a504e53017bdfc31a5f8b3e7d8",
   "https://cybersecuritynews.com/hackers-exploit-siteguard-waf-vulnerability",
@@ -998,5 +989,14 @@
   "slug_workos_says_attacker_used_artex_ai",
   "dcb5f6891034556555b667012f482adaff93126f1ebae9afe115ffe08d66552e",
   "https://cybersecuritynews.com/artex-ai-automate-enterprise-attacks",
-  "slug_hackers_use_artex_ai_automate_enterprise"
+  "slug_hackers_use_artex_ai_automate_enterprise",
+  "c3e615c4c5d6d791ca5ef6728c497232c65b40f2c618d5af92f9e6911a95c7b9",
+  "https://thehackernews.com/2026/11/cpguard-update-channel-hijacked-to.html",
+  "slug_cpguard_update_channel_hijacked_backdoor_linux",
+  "e4e3580096b71b611f0f3db3a18dc8e325a75bf1cb1fd6cd7b4665e5764d5e3e",
+  "https://www.bleepingcomputer.com/news/security/hackers-hijack-cpguard-autoupdate-to-deploy-backdoor-steal-data",
+  "slug_hackers_hijack_cpguard_autoupdate_deploy_backdoor",
+  "c221f27834f2b64a27be39b2d10ec95f2c30829f5aaf42775351c80dc7e81f39",
+  "https://www.securityweek.com/frontline-education-data-breach-impacts-over-1-3-million",
+  "slug_frontline_education_data_breach_impacts_over"
 ]
