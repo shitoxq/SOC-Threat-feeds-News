@@ -1,14 +1,4 @@
 [
-  "https://www.bleepingcomputer.com/news/security/wordpress-seo-plugin-rank-math-compromised-to-backdoor-websites",
-  "slug_wordpress_seo_plugin_rank_math_compromised",
-  "8705a4e7867a9dde41812b5ca438552fc0e54606fdd5ebba300fc323ed817870",
-  "https://cybersecuritynews.com/bright-security-introduces-star-fuzzer-agentic-fuzzing-that-writes-its-own-harnesses-and-proves-every-finding",
-  "slug_bright_security_introduces_star_fuzzer_agentic",
-  "62badca6addc0ac9c83b2642b4361e5f1f19734989a09d5df8cacfc24a91e8e6",
-  "https://thehackernews.com/2026/10/fake-web3-accelerator-uses-npm-packages.html",
-  "slug_fake_web3_accelerator_uses_npm_packages",
-  "9a57b89ca868a05ddf09bc1df2578c1132d92cf92b5325b305dc9616ff2a2acb",
-  "https://www.bleepingcomputer.com/news/security/opencode-hack-exposes-api-keys-amid-ai-distillation-attacks",
   "slug_opencode_hack_exposes_api_keys_amid",
   "b7d3f639b1676d54338f6865043cd53b28eb225e1d910af91d6b8da06cc4edf6",
   "https://www.securityweek.com/siemens-software-center-vulnerability-exploited-in-clickfix-malware-attacks",
@@ -998,5 +988,15 @@
   "slug_google_calendar_phishing_campaign_hijacks_sessions",
   "04874ef4cc2aa6b2d8f6bf44282057972536451443de4031a4d92dc9124bbc82",
   "https://cybersecuritynews.com/gorbag-hackers-exploit-winrar-vulnerability",
-  "slug_gorbag_hackers_exploit_winrar_vulnerability_steal"
+  "slug_gorbag_hackers_exploit_winrar_vulnerability_steal",
+  "f72f567cab23b3cbd0eca3dc95c3b83530969869c99b07b72e968b0c88758eef",
+  "https://thehackernews.com/2026/11/debian-and-ubuntu-apt-flaw-lets-mitm.html",
+  "slug_debian_ubuntu_apt_lets_mitm_attackers",
+  "8ad61c6b684d33c3b1447d52e85cd27b02234c2ced265bd642e4963b9eceaffe",
+  "https://www.bleepingcomputer.com/news/security/nikke-pc-game-launcher-hacked-to-spread-remote-access-data-stealing-malware",
+  "slug_nikke_pc_game_launcher_hacked_spread",
+  "ce0e855e2ee653ddc4625cbfd047f457f32e0f55bd8256a98dd73ca78b830cef",
+  "https://cybersecuritynews.com/debian-apt-flaw-lets-hackers-hijack-updates",
+  "slug_debian_ubuntu_apt_lets_hackers_hijack",
+  "CVE_CVE-2026-109518"
 ]
