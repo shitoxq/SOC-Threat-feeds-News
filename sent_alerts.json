@@ -1,13 +1,4 @@
 [
-  "slug_google_cloud_outage_knocks_uk_banks",
-  "e576f652c7a1f74933a88d7529807e6fb10a6cb8fc9ce504f62d41f10d415050",
-  "https://www.securityweek.com/aomei-backupper-compromised-in-short-burst-supply-chain-campaign",
-  "slug_aomei_backupper_compromised_shortburst_supply_chain",
-  "1e26274c4cd9491712143e4ae714dfefb589c69eb42ff55f03efa741c51fcb58",
-  "https://thehackernews.com/2026/10/eight-emudhra-ca-keys-compromised.html",
-  "slug_eight_emudhra_ca_keys_compromised_triggering",
-  "8faa1def84c10a61d67d929aa3ee48fe4f0e6758b063e87777e094e39b10f48f",
-  "https://www.securityweek.com/ahold-delhaize-restoring-services-disrupted-by-cyberattack",
   "slug_ahold_delhaize_restoring_services_disrupted_cyberattack",
   "180b7269a390e96408f3caecd58f9e5dfa0578642befc687911c8ef6122f7bbd",
   "https://www.vulncheck.com/blog/revenge-of-the-sd-wan-cve-2026-76504",
@@ -998,5 +989,14 @@
   "slug_ghostmap_android_lets_malicious_app_trigger",
   "b4dc8ce4cd9ea9857169d3b027c37eab40474d39b126aef5cc1235cb6f6d38f9",
   "https://cybersecuritynews.com/hackers-trick-mac-users",
-  "slug_hackers_trick_mac_users_into_running"
+  "slug_hackers_trick_mac_users_into_running",
+  "7d3fdba5d29111d07393b9b4821508f0e85459682d17d6d0be86b19a5b543c18",
+  "https://thehackernews.com/2026/11/threatsday-apache-ofbiz-rce-dreamhost.html",
+  "slug_threatsday_apache_ofbiz_rce_dreamhost_breach",
+  "f4499c87874be1241cc7b6490e965bc630e44d594863f90f5d4b19afc41831b0",
+  "https://www.bleepingcomputer.com/news/security/hackers-backdoor-linux-servers-using-trojanized-cwp-web-server",
+  "slug_hackers_backdoor_linux_servers_using_trojanized",
+  "71a6fbad7ecbded7a1926d889f98148e1409b6c93b783107a7835f79a2db5a84",
+  "https://cybersecuritynews.com/chinese-keyboard-software",
+  "slug_hackers_turn_popular_chinese_keyboard_software"
 ]
