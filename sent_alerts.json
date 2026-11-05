@@ -1,13 +1,4 @@
 [
-  "slug_ahold_delhaize_restoring_services_disrupted_cyberattack",
-  "180b7269a390e96408f3caecd58f9e5dfa0578642befc687911c8ef6122f7bbd",
-  "https://www.vulncheck.com/blog/revenge-of-the-sd-wan-cve-2026-76504",
-  "slug_revenge_sdwan_exploring_exploiting_yet_another",
-  "CVE_CVE-2026-76504",
-  "ea6b3d531b32228e5717b1cf0fb7f63d1844737321b4195e984e5f87c45974ef",
-  "https://thehackernews.com/2026/10/qilin-and-inc-ransomware-groups-exploit.html",
-  "slug_qilin_inc_ransomware_groups_exploit_palo",
-  "CVE_CVE-2026-0257",
   "5d21d5eb9e3792c7cf7ebf69df23eb4440e92fd78823b6c66fe6d118a7684d7d",
   "https://cybersecuritynews.com/emudhra-security-compromise",
   "slug_emudhra_certificate_authority_compromise_triggers_emergency",
@@ -998,5 +989,14 @@
   "slug_hackers_backdoor_linux_servers_using_trojanized",
   "71a6fbad7ecbded7a1926d889f98148e1409b6c93b783107a7835f79a2db5a84",
   "https://cybersecuritynews.com/chinese-keyboard-software",
-  "slug_hackers_turn_popular_chinese_keyboard_software"
+  "slug_hackers_turn_popular_chinese_keyboard_software",
+  "c7e59b0d46842b6392615ae8f870defc69cc778ca3c5e1bf2b92f9b8687982db",
+  "https://thehackernews.com/2026/11/openai-ai-pipeline-generates-948-linux.html",
+  "slug_openai_ai_pipeline_generates_948_linux",
+  "f3d4fc33d1407bc088038e79c03155fde1fc5cd69c773aea4759312de403889b",
+  "https://www.bleepingcomputer.com/news/security/openssh-flaw-lets-attackers-log-into-password-disabled-linux-accounts",
+  "slug_openssh_lets_attackers_log_into_passworddisabled",
+  "b36be654d0d4335bbb1192ef4b3cda8b51b6f0fee58f5a46e87a72fc98cdd570",
+  "https://cybersecuritynews.com/openssh-flaw-bypass-password-authentication",
+  "slug_openssh_could_let_attackers_bypass_password"
 ]
