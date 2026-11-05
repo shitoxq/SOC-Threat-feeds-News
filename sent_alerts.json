@@ -1,13 +1,4 @@
 [
-  "5d21d5eb9e3792c7cf7ebf69df23eb4440e92fd78823b6c66fe6d118a7684d7d",
-  "https://cybersecuritynews.com/emudhra-security-compromise",
-  "slug_emudhra_certificate_authority_compromise_triggers_emergency",
-  "f40f67d57da99b51be25096f554fc121ed0266a35b23538c0c4ae94bfa5a3e45",
-  "https://www.securityweek.com/ai-platform-cairn-abused-to-hack-over-100-organizations",
-  "slug_ai_platform_cairn_abused_hack_over",
-  "cca7cc882101073b1925112b97b10d455a26bbbb9a9710fcc6c6fa5fa81e63f6",
-  "https://www.bleepingcomputer.com/news/security/stolen-updraftcentral-keys-used-to-backdoor-wordpress-sites",
-  "slug_stolen_updraftcentral_keys_used_backdoor_wordpress",
   "a1219d9c01fb761850dd758ccbef7eb19f5e379ae70e28a5987e809c1e06c0ac",
   "https://cybersecuritynews.com/hackers-exploit-open-banking-services",
   "slug_hackers_exploit_open_banking_services_test",
@@ -998,5 +989,14 @@
   "slug_openssh_lets_attackers_log_into_passworddisabled",
   "b36be654d0d4335bbb1192ef4b3cda8b51b6f0fee58f5a46e87a72fc98cdd570",
   "https://cybersecuritynews.com/openssh-flaw-bypass-password-authentication",
-  "slug_openssh_could_let_attackers_bypass_password"
+  "slug_openssh_could_let_attackers_bypass_password",
+  "90a9e74aa19bf7e06abb48514db4b1319a518011f5c671f0f183e02f0d456f80",
+  "https://thehackernews.com/2026/11/openssh-issues-emergency-fix-for-flaw.html",
+  "slug_openssh_issues_emergency_fix_letting_long",
+  "d1043c057c6734b8943c28a00cbffe1b5df0db347a6c099b33aa6fb9ea011d9c",
+  "https://www.bleepingcomputer.com/news/security/fake-openai-spacex-events-used-to-steal-microsoft-google-accounts",
+  "slug_fake_openai_spacex_events_used_steal",
+  "081d74e4e6e66aa2073d2c313df9706ff8a81edaf49df643249233ab654ceb82",
+  "https://cybersecuritynews.com/hyflock-ransomware",
+  "slug_hyflock_ransomware_encrypts_only_first_4kb"
 ]
