@@ -1,14 +1,4 @@
 [
-  "slug_ovhcloud_cli_releases_backdoored_github_steal",
-  "e290503e7f59ba7cd5248f4ca30073801182e8c79f9460f0ad4ddac40c1ffdee",
-  "https://cybersecuritynews.com/hackers-hijack-790-github-repositories",
-  "slug_hackers_hijack_790_github_repositories_steal",
-  "f000a8c0fede9d2d8cdb142840a7b493b5f08f31eff23495499a3ee94df92672",
-  "https://thehackernews.com/2026/10/pegasus-spyware-infection-confirmed-on.html",
-  "slug_pegasus_spyware_infection_confirmed_serbian_university",
-  "cf82a7c7a00534bd2127c6b04319217427ce1e89ce0ff356e0007f46f09ab45b",
-  "https://www.bleepingcomputer.com/news/microsoft/windows-server-2025-gets-support-for-quick-machine-recovery",
-  "slug_windows_server_2025_gets_support_quick",
   "3457d621d0b11e5370e0a5424f07c77fc91f5ecb8ff22c668204474c740bce5e",
   "https://cybersecuritynews.com/fbi-suspects-cybersecurity-executive-shinyhunters",
   "slug_fbi_suspects_cybersecurity_executive_helped_shinyhunters",
@@ -998,5 +988,15 @@
   "slug_zyxel_fixes_zeroday_exploited_hack_nearly",
   "90c09cd66f8ba4590d181024246f46ee2b247c748417bb006fcbfe730b86ecd0",
   "https://www.securityweek.com/barracuda-email-security-gateway-authentication-bypass-opens-path-to-root",
-  "slug_barracuda_esg_authentication_bypass_opens_path"
+  "slug_barracuda_esg_authentication_bypass_opens_path",
+  "16bf85bfb533fefee48b85fb3436fc4224373d29f54088a639e6c46ed49226e2",
+  "https://thehackernews.com/2026/11/hackers-exploit-patched-apple-flaw-to.html",
+  "slug_hackers_exploit_patched_apple_deliver_infostealing",
+  "CVE_CVE-2024-27834",
+  "0220f76c2f8e5f22a404f2efc489b2af8d851ed8324b78779b1652fbda931077",
+  "https://www.bleepingcomputer.com/news/security/dreamhost-confirms-data-breach-exposed-ftp-logins-and-webmail-sessions",
+  "slug_dreamhost_confirms_data_breach_exposed_ftp",
+  "31867e2ada5054628f399408c9acd3a398b782a59c211f0cf3a282775cec10cc",
+  "https://cybersecuritynews.com/digicert-confirms-data-breach",
+  "slug_digicert_confirms_data_breach_exposing_customer"
 ]
