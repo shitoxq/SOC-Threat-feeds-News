@@ -1,13 +1,4 @@
 [
-  "3457d621d0b11e5370e0a5424f07c77fc91f5ecb8ff22c668204474c740bce5e",
-  "https://cybersecuritynews.com/fbi-suspects-cybersecurity-executive-shinyhunters",
-  "slug_fbi_suspects_cybersecurity_executive_helped_shinyhunters",
-  "584d35c71235748c5853ae0ee8facd11c2557a1afe12b5bae233b2cc206ecade",
-  "https://thehackernews.com/2026/10/critical-fortisiem-flaw-gets-public.html",
-  "slug_critical_fortisiem_gets_public_exploit_poc",
-  "CVE_CVE-2026-106173",
-  "b33188cb23d42b8ab56aa0946a7a519c2bd262991e2d709fc2eeee986b26174b",
-  "https://cybersecuritynews.com/google-cloud-outage",
   "slug_google_cloud_outage_knocks_uk_banks",
   "e576f652c7a1f74933a88d7529807e6fb10a6cb8fc9ce504f62d41f10d415050",
   "https://www.securityweek.com/aomei-backupper-compromised-in-short-burst-supply-chain-campaign",
@@ -998,5 +989,14 @@
   "slug_dreamhost_confirms_data_breach_exposed_ftp",
   "31867e2ada5054628f399408c9acd3a398b782a59c211f0cf3a282775cec10cc",
   "https://cybersecuritynews.com/digicert-confirms-data-breach",
-  "slug_digicert_confirms_data_breach_exposing_customer"
+  "slug_digicert_confirms_data_breach_exposing_customer",
+  "9fb3d806b5214e2e6b9d7b6386be32010e75f4f0af5ac76eda6f7f5366db62fe",
+  "https://thehackernews.com/2026/11/backdoored-docker-image-for-artex-ai.html",
+  "slug_certin_flags_aidriven_attacks_backdoored_artex",
+  "dd3dbae0137e1e4cc8873a882463febc3ac6ef3122d8f95ec6fc6103c0c02391",
+  "https://www.bleepingcomputer.com/news/security/ghostmap-android-flaw-lets-malicious-app-trigger-persistent-boot-loop",
+  "slug_ghostmap_android_lets_malicious_app_trigger",
+  "b4dc8ce4cd9ea9857169d3b027c37eab40474d39b126aef5cc1235cb6f6d38f9",
+  "https://cybersecuritynews.com/hackers-trick-mac-users",
+  "slug_hackers_trick_mac_users_into_running"
 ]
