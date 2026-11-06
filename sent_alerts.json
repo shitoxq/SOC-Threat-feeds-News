@@ -1,13 +1,4 @@
 [
-  "slug_google_chrome_adds_clickfix_warnings_stop",
-  "8c2f7f751d6e9901eefcbd413561cf8a731f4eafffda77e45f145120baa90538",
-  "https://www.bleepingcomputer.com/news/security/clickfix-has-never-been-bigger-and-ai-tools-are-its-most-convincing-lure-yet",
-  "slug_clickfix_has_never_been_bigger_ai",
-  "e6384cca5b3cda798fdeeaa18baee624aa85286aabfc68258e22e1090e291c4f",
-  "https://www.securityweek.com/memory-bugs-account-for-most-of-chromes-353-new-security-fixes",
-  "slug_memory_bugs_account_most_chromes_353",
-  "02b6efa6343689ed583be05adf75690545cd4254d298475797bf3fc21013f2a0",
-  "https://thehackernews.com/2026/10/php-issues-emergency-patches-for-two.html",
   "slug_php_issues_emergency_patches_two_critical",
   "9a4fb1da763d726db2e7d1d7f92e41a6cb7af4c88586b6aec81c3968f1536ffa",
   "https://www.bleepingcomputer.com/news/microsoft/microsoft-powertoys-adds-cursorhide-button-lock-mouse-tools",
@@ -998,5 +989,14 @@
   "slug_artex_ai_hacking_framework_found_1465",
   "8f24f3bf401edee420d30f9e7a5b3e91aaf19f7b06e83772554f76055f83cda5",
   "https://www.securityweek.com/cisco-watchguard-release-patches-sonicwall-wont-fix-gms-flaws",
-  "slug_cisco_watchguard_release_patches_sonicwall_wont"
+  "slug_cisco_watchguard_release_patches_sonicwall_wont",
+  "319e7df558d145a4745207049c98e31986d82bd13413d5dcc2f64fa3982285bd",
+  "https://thehackernews.com/2026/11/installing-fix-for-exploited-wordpress.html",
+  "slug_installing_fix_exploited_wordpress_can_expose",
+  "c4df27c356c67381772081fe652ebde26ffc1665c464ca50453d1f3ad7f5717d",
+  "https://www.bleepingcomputer.com/news/security/qnap-says-hackers-breaching-nas-devices-in-plex2shell-attacks",
+  "slug_qnap_says_hackers_breaching_nas_devices",
+  "23539b6f794dab70cc4249352b2fc9d0dd293c3cebdc1c0fc5c469d4ba307f69",
+  "https://cybersecuritynews.com/new-dark-project-ransomware-group",
+  "slug_new_dark_project_ransomware_group_offers"
 ]
