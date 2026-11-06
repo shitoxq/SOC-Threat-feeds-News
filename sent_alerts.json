@@ -1,14 +1,4 @@
 [
-  "slug_php_issues_emergency_patches_two_critical",
-  "9a4fb1da763d726db2e7d1d7f92e41a6cb7af4c88586b6aec81c3968f1536ffa",
-  "https://www.bleepingcomputer.com/news/microsoft/microsoft-powertoys-adds-cursorhide-button-lock-mouse-tools",
-  "slug_microsoft_powertoys_adds_cursorhide_button_lock",
-  "bfde0fdd86ff8d908f49d622004b7cfb62ed48175ee1d22ccdb77f93df60c8b0",
-  "https://cybersecuritynews.com/hackers-use-gentlemen-ransomware",
-  "slug_hackers_use_gentlemen_ransomware_disable_windows",
-  "d9304dd4f7f5ae5de2a3fda8e8a29fb19a4029fa769d0a779f3751101f28c01d",
-  "https://thehackernews.com/2026/10/litellm-compromised-in-supply-chain.html",
-  "slug_litellm_compromised_supply_chain_attack_delivering",
   "5a196014b076e4d3360fd4645f447b9422aeacc2551d1e70e581d12d227c3efe",
   "https://www.bleepingcomputer.com/news/security/cisa-hackers-chain-plex-flaws-in-plex2shell-attacks-to-breach-servers",
   "slug_cisa_hackers_chain_plex_plex2shell_attacks",
@@ -998,5 +988,15 @@
   "slug_qnap_says_hackers_breaching_nas_devices",
   "23539b6f794dab70cc4249352b2fc9d0dd293c3cebdc1c0fc5c469d4ba307f69",
   "https://cybersecuritynews.com/new-dark-project-ransomware-group",
-  "slug_new_dark_project_ransomware_group_offers"
+  "slug_new_dark_project_ransomware_group_offers",
+  "12404fdb4aa2369898b863996b18c6ed8c1a8d6a1f79072a9ab2a87023c145c1",
+  "https://thehackernews.com/2026/11/hackers-exploited-openssh-sshole-flaw.html",
+  "slug_hackers_target_openssh_sshole_within_hours",
+  "CVE_CVE-2026-123158",
+  "95694e8580066fcc583c8630db128b2445a2b07a98f9c840293332149b8a2026",
+  "https://www.bleepingcomputer.com/news/security/veeam-software-appliance-vms-fail-to-boot-on-amd-epyc-hosts",
+  "slug_veeam_warns_software_appliance_boot_failures",
+  "fb813c8875fe52519e0c584ff01256c3f8e939350d085b098b42147059802b6d",
+  "https://cybersecuritynews.com/microsoft-warns-fake-game-downloads",
+  "slug_microsoft_warns_fake_game_downloads_secretly"
 ]
