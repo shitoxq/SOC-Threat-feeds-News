@@ -1,13 +1,4 @@
 [
-  "a1219d9c01fb761850dd758ccbef7eb19f5e379ae70e28a5987e809c1e06c0ac",
-  "https://cybersecuritynews.com/hackers-exploit-open-banking-services",
-  "slug_hackers_exploit_open_banking_services_test",
-  "ea6cbc17d7d18c8680ffe773b22d84e02d5a0d384ceaf529d72f939d439f312e",
-  "https://www.securityweek.com/microsoft-targets-rogue-ai-agents-with-dynamic-permissions-risk-scoring",
-  "slug_microsoft_targets_rogue_ai_agents_dynamic",
-  "8231b6f9ea3f8bfffda492a722692ea691123db4b56577d66b077e9a6648656e",
-  "https://thehackernews.com/2026/10/php2shell-two-unpatched-critical-php.html",
-  "slug_php2shell_two_unpatched_critical_php_rce",
   "0a8a1e3f4f528a68f5caad3c18420576995f84677e641c5a8d8c7263a5d77393",
   "https://www.bleepingcomputer.com/news/security/mozilla-google-apple-block-compromised-emudhra-ca-certificates",
   "slug_mozilla_google_apple_block_compromised_emudhra",
@@ -998,5 +989,14 @@
   "slug_fake_openai_spacex_events_used_steal",
   "081d74e4e6e66aa2073d2c313df9706ff8a81edaf49df643249233ab654ceb82",
   "https://cybersecuritynews.com/hyflock-ransomware",
-  "slug_hyflock_ransomware_encrypts_only_first_4kb"
+  "slug_hyflock_ransomware_encrypts_only_first_4kb",
+  "dd9d10ec61939a9712c1adfe2403f4d513a006f67dc05cf7e15e2de5979549c1",
+  "https://thehackernews.com/2026/11/researchers-bypass-chatgpt-lockdown.html",
+  "slug_researchers_bypass_chatgpt_lockdown_mode_exfiltrate",
+  "d329bb03cf8c1aab0fad00b1091fb502e043373162fec4118f3b726218170829",
+  "https://www.bleepingcomputer.com/news/security/digicert-data-breach-exposes-customer-information-identity-documents",
+  "slug_digicert_data_breach_exposes_customer_information",
+  "1a8fbb9357180f562549a6aa26ac6bc42fa04d5ffb17e01472d0da2072cc74f1",
+  "https://cybersecuritynews.com/openai-launches-gpt-6-cyber",
+  "slug_openai_launches_gpt6_cyber_that_finds"
 ]
