@@ -1,13 +1,4 @@
 [
-  "https://www.bleepingcomputer.com/news/security/cisa-and-fbi-safepay-ransomware-has-hit-over-600-critical-infrastructure-organizations",
-  "slug_cisa_safepay_ransomware_hit_over_600",
-  "28f60572de277545d9ba3df50847a36409f1d749372b2abd08522c027a3f13ac",
-  "https://www.securityweek.com/php2shell-mass-exploitation-looms-for-leaked-critical-php-flaws",
-  "slug_php2shell_mass_exploitation_looms_leaked_critical",
-  "CVE_CVE-2026-109618",
-  "CVE_CVE-2026-109619",
-  "e2527452350fa74e2228678b88b36304d835c228438d170475aa98f796f4f0dc",
-  "https://thehackernews.com/2026/10/google-chrome-adds-clickfix-warnings-to.html",
   "slug_google_chrome_adds_clickfix_warnings_stop",
   "8c2f7f751d6e9901eefcbd413561cf8a731f4eafffda77e45f145120baa90538",
   "https://www.bleepingcomputer.com/news/security/clickfix-has-never-been-bigger-and-ai-tools-are-its-most-convincing-lure-yet",
@@ -998,5 +989,14 @@
   "CVE_CVE-2026-83844",
   "56a46ba09614c66d622045425e422b2fe91abe2074ca32cd019b1a1a90e7248f",
   "https://www.securityweek.com/ai-agents-got-root-on-linux-via-948-kernel-flaws-in-openai-research",
-  "slug_ai_agents_got_root_linux_via"
+  "slug_ai_agents_got_root_linux_via",
+  "a3b94f1fb170a2b69842d6df107dd74cd808019727ad4afc93b8b8e93e5d6bf4",
+  "https://thehackernews.com/2026/11/chainalysis-breach-exposes-all-users.html",
+  "slug_chainalysis_breach_exposes_all_usersx27_credentials",
+  "a6058b157dc842e4d1d3719cad0ea05b2c5d00d72570fa1ec519233de6f47270",
+  "https://cybersecuritynews.com/artex-ai-hacking-framework",
+  "slug_artex_ai_hacking_framework_found_1465",
+  "8f24f3bf401edee420d30f9e7a5b3e91aaf19f7b06e83772554f76055f83cda5",
+  "https://www.securityweek.com/cisco-watchguard-release-patches-sonicwall-wont-fix-gms-flaws",
+  "slug_cisco_watchguard_release_patches_sonicwall_wont"
 ]
