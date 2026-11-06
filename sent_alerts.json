@@ -1,13 +1,4 @@
 [
-  "5a196014b076e4d3360fd4645f447b9422aeacc2551d1e70e581d12d227c3efe",
-  "https://www.bleepingcomputer.com/news/security/cisa-hackers-chain-plex-flaws-in-plex2shell-attacks-to-breach-servers",
-  "slug_cisa_hackers_chain_plex_plex2shell_attacks",
-  "ce2310e91d89304eb3936b9da443c75bc72b43877ca7276e4a6732086a50c549",
-  "https://cybersecuritynews.com/the-ai-adoption-blind-spot-how-fake-ai-tools-put-enterprises-at-risk",
-  "slug_ai_adoption_blind_spot_how_fake",
-  "6815f2a0b4a0d8cf043fde44d9443d90822dee334dd86f143e7cce8ec37d7ae5",
-  "https://thehackernews.com/2026/10/critical-gitlab-flaw-cvss-100-could.html",
-  "slug_critical_gitlab_cvss_100_could_allow",
   "da801ae6378fd88fd436c6c68d8b7ca26f4186c65b4c77ba677ecdec9b856b3d",
   "https://www.bleepingcomputer.com/news/security/japans-onamae-desktop-cloud-hacked-up-to-27-000-servers-affected",
   "slug_japanx27s_onamae_desktop_cloud_hacked_up",
@@ -998,5 +989,14 @@
   "slug_veeam_warns_software_appliance_boot_failures",
   "fb813c8875fe52519e0c584ff01256c3f8e939350d085b098b42147059802b6d",
   "https://cybersecuritynews.com/microsoft-warns-fake-game-downloads",
-  "slug_microsoft_warns_fake_game_downloads_secretly"
+  "slug_microsoft_warns_fake_game_downloads_secretly",
+  "4ab15b935f3f24ba1c9fc78799d4b471306a2a540e1477b612ba25823ac77a41",
+  "https://thehackernews.com/2026/11/openai-launches-gpt-6-cyber-after-ai.html",
+  "slug_openai_launches_gpt6_cyber_after_ai",
+  "09fa5f5c7742a60dd1b21e0a02b08e3dea50359d22eb3235186a4e289183bfeb",
+  "https://www.bleepingcomputer.com/news/security/openais-new-gpt-6-cyber-ai-finds-81-firefox-flaws-948-linux-bugs",
+  "slug_openaix27s_new_gpt6_cyber_ai_finds",
+  "835ede1801c9929bd120036179cfafac8bb7f5d4991c9751904ea54a048c06a2",
+  "https://cybersecuritynews.com/mirax-android-rat",
+  "slug_mirax_android_rat_hijacks_phones_through"
 ]
