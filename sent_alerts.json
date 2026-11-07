@@ -1,14 +1,4 @@
 [
-  "b7b2bc2610dd3a5c1bea9b7b417c0b78c9bb6d79ce8107f350e8748d6765a3fb",
-  "https://cybersecuritynews.com/hackers-planted-malware",
-  "slug_hackers_planted_malware_japanese_cloud_servers",
-  "63d6bc3687b50b5c1b6fba6b0e629d8a38f0ae7f68650d5e0a29456373f1fba0",
-  "https://thehackernews.com/2026/10/the-ai-agent-nobody-owns-watch-expert.html",
-  "slug_ai_agent_nobody_owns_watch_expert",
-  "d6276a425b1c8d3eb691ee78e31eb6946e056af8917372a92e331f4d220ba0f1",
-  "https://www.bleepingcomputer.com/news/security/amazon-says-php2shell-exploitation-began-4-days-before-patches",
-  "slug_amazon_says_php2shell_exploitation_began_4",
-  "1c0514a9ac4652af18eaa34c23d1e7e39d951df3a440c5c636ed9ca429319c43",
   "https://cybersecuritynews.com/north-korean-hackers",
   "slug_north_korean_hackers_use_postquantum_encryption",
   "d99ba89c8964f8cde6f533ec1b99a8d8c9747d92184cb870c77945106ab5b4b2",
@@ -998,5 +988,15 @@
   "https://www.vulncheck.com/blog/php2shell-vulnerabilities",
   "slug_php2shell_vulnerabilities_cve2026109618_cve2026109619two_critical_vulnerabilities",
   "CVE_CVE-2026-109618",
-  "CVE_CVE-2026-109619"
+  "CVE_CVE-2026-109619",
+  "1fd0d11ba6eead8ce472c33b091e3a98182544b380b37f986fd212ee23bd2b3f",
+  "https://www.securityweek.com/openai-says-new-gpt-6-cyber-model-hunts-flaws-without-crossing-the-line",
+  "slug_openai_says_new_gpt6_cyber_model",
+  "180b7269a390e96408f3caecd58f9e5dfa0578642befc687911c8ef6122f7bbd",
+  "https://www.vulncheck.com/blog/revenge-of-the-sd-wan-cve-2026-76504",
+  "slug_revenge_sdwan_exploring_exploiting_yet_another",
+  "CVE_CVE-2026-76504",
+  "352716a551808012140d0a986aff1d805feecf2f3fa77fced1cf6391f1e46915",
+  "https://gbhackers.com/workos-data-breach-artex-ai",
+  "slug_workos_confirms_data_breach_after_artex"
 ]
