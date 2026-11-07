@@ -1,13 +1,4 @@
 [
-  "https://cybersecuritynews.com/north-korean-hackers",
-  "slug_north_korean_hackers_use_postquantum_encryption",
-  "d99ba89c8964f8cde6f533ec1b99a8d8c9747d92184cb870c77945106ab5b4b2",
-  "https://thehackernews.com/2026/10/threatsday-ai-secrets-leak-pingcap.html",
-  "slug_threatsday_ai_secrets_leak_pingcap_source",
-  "cf879587b537377b167988d23f1c459ee280c5984f8c212fd2871ffaaea9fc20",
-  "https://www.bleepingcomputer.com/news/security/litellm-release-pipeline-hacked-to-distribute-info-stealer-malware",
-  "slug_litellm_release_pipeline_hacked_distribute_infostealer",
-  "3098c6aae2ffad59f57890f109585c6081a299b8058fdd8ee37c2f0693710888",
   "https://www.securityweek.com/signal-vulnerability-lets-malicious-callers-block-hang-ups",
   "slug_signal_vulnerability_lets_malicious_callers_block",
   "5a34460990741de0ec2f306d71086450fe8cea9333bee9066437eb487e523af2",
@@ -998,5 +989,14 @@
   "CVE_CVE-2026-76504",
   "352716a551808012140d0a986aff1d805feecf2f3fa77fced1cf6391f1e46915",
   "https://gbhackers.com/workos-data-breach-artex-ai",
-  "slug_workos_confirms_data_breach_after_artex"
+  "slug_workos_confirms_data_breach_after_artex",
+  "782a519327351ce8026373bdccb4466355217a0874d40188db4941065e55ddca",
+  "https://www.vulncheck.com/blog/routinely-targeted-vulnerabilities-may-2026",
+  "slug_quantifying_2026_routinely_targeted_vulnerabilities_so",
+  "bc1a715a61fc27b1bf0895398bcb3a29e612c6a659465e7215c3f38de943bd68",
+  "https://gbhackers.com/dark-project-ransomware",
+  "slug_dark_project_ransomware_gang_claims_38",
+  "2d210d7b2214e8d8a25ac868e109aa6b9b801f16939e007c40237e9882f57060",
+  "https://www.helpnetsecurity.com/2026/11/06/openai-gpt-6-cyber-released",
+  "slug_openais_gpt6_cyber_found_81_firefox"
 ]
