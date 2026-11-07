@@ -1,13 +1,4 @@
 [
-  "44a0be61ca3594a74fa5a6710333f58cb443be2b514d3a997a0269c47783ae5f",
-  "https://www.bleepingcomputer.com/news/security/lazarus-hackers-use-post-quantum-cryptography-for-malware-delivery",
-  "slug_lazarus_hackers_use_postquantum_cryptography_malware",
-  "66de49493b7168bf40a85f172bd31f26593038959268a76866525f79903e3f51",
-  "https://www.securityweek.com/google-hardens-chrome-against-clickfix-attacks-insecure-http-connections",
-  "slug_google_hardens_chrome_against_clickfix_attacks",
-  "2b1381b5788ddde481e0a2014bfe0b4b5e5d96422adceec0fab81d3c9d9484ce",
-  "https://thehackernews.com/2026/10/generative-ai-is-erasing-behavioral.html",
-  "slug_generative_ai_erasing_behavioral_tells_weakening",
   "fe1d3e028fa74d9523d78c81a1d94bcdd72310cdf55589587c47b2047e617822",
   "https://cybersecuritynews.com/china-linked-hackers-use-artex-ai",
   "slug_chinalinked_hackers_use_artex_ai_target",
@@ -998,5 +989,14 @@
   "slug_artex_ai_agents_steal_190000_gaming",
   "44974f8cf8a90e0076464193e4b255c4d9b090614579e13161276a0bc57a76a1",
   "https://www.securityweek.com/in-other-news-trezor-implant-llmjacking-bills-hit-1m-sap-flaws-weaponized-within-days",
-  "slug_other_news_trezor_implant_llmjacking_bills"
+  "slug_other_news_trezor_implant_llmjacking_bills",
+  "14556e7c131eba547a097fdab7c06117f14f3ee2a136194dfecf9c4fd324692f",
+  "https://www.securityweek.com/digicert-data-breach-impacts-business-customer-information",
+  "slug_digicert_data_breach_impacts_business_customer",
+  "ad61c53a6fad252cf9632a04ce7a98db10c935ce74ac6dc858199728fb0ea805",
+  "https://www.vulncheck.com/blog/control-web-panel-pre-auth-module-dispatch-rce",
+  "slug_cwp2shell_login_page_that_never_says",
+  "2718655e0224801d4037bf05ad7d9b0dc41c6ba9d212f2d6e29b20320a296aa9",
+  "https://gbhackers.com/hackers-use-fake-github-security-tools",
+  "slug_hackers_use_fake_github_security_tools"
 ]
