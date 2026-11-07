@@ -1,14 +1,4 @@
 [
-  "https://www.securityweek.com/signal-vulnerability-lets-malicious-callers-block-hang-ups",
-  "slug_signal_vulnerability_lets_malicious_callers_block",
-  "5a34460990741de0ec2f306d71086450fe8cea9333bee9066437eb487e523af2",
-  "https://thehackernews.com/2026/10/arista-warns-of-critical-velocloud-sql.html",
-  "slug_arista_warns_critical_velocloud_sql_injection",
-  "a327ea4199ec4c26f4bc21488bae9c662714249ca024427e6c9c39af8d8c854f",
-  "https://www.bleepingcomputer.com/news/security/capcom-confirms-data-breach-affecting-117-million-accounts",
-  "slug_capcom_confirms_data_breach_affecting_117",
-  "d4f83d796ec7522fa628ba121436234e954b6787e33c7d74d6e7cb82e5d9607a",
-  "https://www.securityweek.com/splunk-solarwinds-release-fresh-security-updates",
   "slug_splunk_solarwinds_release_fresh_security_updates",
   "7c53f743c08237d2727ca65e473b4707a4d9bd06671d8e75282cc77ec6ec93c4",
   "https://thehackernews.com/2026/10/two-cvss-90-linux-ksmbd-rce-flaws.html",
@@ -998,5 +988,15 @@
   "slug_dark_project_ransomware_gang_claims_38",
   "2d210d7b2214e8d8a25ac868e109aa6b9b801f16939e007c40237e9882f57060",
   "https://www.helpnetsecurity.com/2026/11/06/openai-gpt-6-cyber-released",
-  "slug_openais_gpt6_cyber_found_81_firefox"
+  "slug_openais_gpt6_cyber_found_81_firefox",
+  "d667e6f88587edd93237cf18ebf745b845a28118ae27fc302be81812257653be",
+  "https://www.vulncheck.com/blog/cve-2017-9841",
+  "slug_9_yearold_php_vulnerability_keeps_swinging",
+  "CVE_CVE-2017-9841",
+  "5340a9df470550543331d1afb3ab3b8f19ca534757dcba16e1eb12dd2153a63c",
+  "https://gbhackers.com/mirax-android-malware",
+  "slug_hackers_use_fake_streaming_apps_spread",
+  "057d384c9283fd38523574049481132b1a93195d24817d9b2586eac247a7be0f",
+  "https://www.helpnetsecurity.com/2026/11/06/cyberattacks-refrigeration-systems-cisa-fbi",
+  "slug_us_agencies_warn_attackers_targeting_refrigeration"
 ]
