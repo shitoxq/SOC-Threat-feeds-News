@@ -1,13 +1,4 @@
 [
-  "f49b8b6079f110272685524552fc53af4d0db0e6665573e73f78a0b8364be539",
-  "https://www.bleepingcomputer.com/news/google/google-chrome-adds-gemini-powered-scam-detection-warns-users-of-clickfix-attacks",
-  "slug_google_chrome_adds_geminipowered_scam_detection",
-  "1e4b4162ad834c7e309ea4c10e2422aac5cf501d8c15a74a04ba0f21abdbf2f8",
-  "https://cybersecuritynews.com/chrome-with-gemini-ai-to-detect-update-scams",
-  "slug_google_upgrades_chrome_gemini_ai_detect",
-  "6f676746f765de6e990188fa5053c37f1ab9ae1b510645fb827f6dfa57919a06",
-  "https://thehackernews.com/2026/10/china-linked-hackers-use-artex-ai.html",
-  "slug_chinalinked_hackers_use_artex_ai_agents",
   "44a0be61ca3594a74fa5a6710333f58cb443be2b514d3a997a0269c47783ae5f",
   "https://www.bleepingcomputer.com/news/security/lazarus-hackers-use-post-quantum-cryptography-for-malware-delivery",
   "slug_lazarus_hackers_use_postquantum_cryptography_malware",
@@ -998,5 +989,14 @@
   "slug_sonicwall_warns_new_sslvpn_mfa_bypass",
   "3fcf619c4834c79d65c5e5b3e70099b07998ba70d130b7c5c7c2d1e720310f1f",
   "https://cybersecuritynews.com/insignary-releases-free-insignary-chk-tool-to-detect-php2shell-and-node2shell-exposure",
-  "slug_insignary_releases_free_insignarychk_tool_detect"
+  "slug_insignary_releases_free_insignarychk_tool_detect",
+  "a94cd341e3be7a1974b36e6608a868168e525f9855dbd1d5413640474c7207eb",
+  "https://www.bleepingcomputer.com/news/security/fake-security-tools-on-github-push-backdoors-and-infostealers",
+  "slug_fake_security_tools_github_push_backdoors",
+  "93cd3cc7b032489e63b625634c5705f8fbfa53b9b0d783b2cc05fa9fdf378b7e",
+  "https://cybersecuritynews.com/artex-ai-agents",
+  "slug_artex_ai_agents_steal_190000_gaming",
+  "44974f8cf8a90e0076464193e4b255c4d9b090614579e13161276a0bc57a76a1",
+  "https://www.securityweek.com/in-other-news-trezor-implant-llmjacking-bills-hit-1m-sap-flaws-weaponized-within-days",
+  "slug_other_news_trezor_implant_llmjacking_bills"
 ]
