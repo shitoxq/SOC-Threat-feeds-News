@@ -1,13 +1,4 @@
 [
-  "da801ae6378fd88fd436c6c68d8b7ca26f4186c65b4c77ba677ecdec9b856b3d",
-  "https://www.bleepingcomputer.com/news/security/japans-onamae-desktop-cloud-hacked-up-to-27-000-servers-affected",
-  "slug_japanx27s_onamae_desktop_cloud_hacked_up",
-  "7318ea6a0859a74cbe9c99ac0a59099fe98b4d6c528888cf1ee8fc9d0b36f0fb",
-  "https://cybersecuritynews.com/hackers-use-ai-powered-browsers",
-  "slug_hackers_use_aipowered_browsers_hide_thousands",
-  "5ff1dd07c5c834bcee5aa5259a351adb637a5b181b972bcfde822a4f08f18cf4",
-  "https://thehackernews.com/2026/10/china-aligned-bronze-sandcastle-abuses.html",
-  "slug_chinaaligned_bronze_sandcastle_abuses_sandboxie_dll",
   "f49b8b6079f110272685524552fc53af4d0db0e6665573e73f78a0b8364be539",
   "https://www.bleepingcomputer.com/news/google/google-chrome-adds-gemini-powered-scam-detection-warns-users-of-clickfix-attacks",
   "slug_google_chrome_adds_geminipowered_scam_detection",
@@ -998,5 +989,14 @@
   "slug_openaix27s_new_gpt6_cyber_ai_finds",
   "835ede1801c9929bd120036179cfafac8bb7f5d4991c9751904ea54a048c06a2",
   "https://cybersecuritynews.com/mirax-android-rat",
-  "slug_mirax_android_rat_hijacks_phones_through"
+  "slug_mirax_android_rat_hijacks_phones_through",
+  "bf3ff9f08f48ce8744ddb262d0bf3fa0d22b0f2daf6a96dc72bda535383627e1",
+  "https://thehackernews.com/2026/11/malicious-browser-extensions-could-use.html",
+  "slug_malicious_browser_extensions_could_use_claude",
+  "238ba52c2ebada9760fa5dfe8b5c6e942ac405d40d86843d0edf8a3aeb03939d",
+  "https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-new-ssl-vpn-mfa-bypass-flaw-exploited-in-attacks",
+  "slug_sonicwall_warns_new_sslvpn_mfa_bypass",
+  "3fcf619c4834c79d65c5e5b3e70099b07998ba70d130b7c5c7c2d1e720310f1f",
+  "https://cybersecuritynews.com/insignary-releases-free-insignary-chk-tool-to-detect-php2shell-and-node2shell-exposure",
+  "slug_insignary_releases_free_insignarychk_tool_detect"
 ]
