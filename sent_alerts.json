@@ -1,13 +1,4 @@
 [
-  "76da60089176983713f45816e41f527b55fd384f7508dfc491f47b7b2284b45e",
-  "https://thehackernews.com/2026/10/russian-linked-hackers-used-new-mesh.html",
-  "slug_russianlinked_hackers_used_new_mesh_network",
-  "a46a3d4aa8e9f96fc8fa2756c05c2bae16f74012ea0f73a4c887dd172cad6c1f",
-  "https://www.bleepingcomputer.com/news/security/php-shares-mitigation-for-new-and-unpatched-rce-vulnerability",
-  "slug_php_shares_mitigation_new_rce_vulnerability",
-  "4102659c6680701ce240289aadb52fa2d229ee801a7df48d72cd3dc26bad5635",
-  "https://cybersecuritynews.com/new-node2shell-node-js-rce-exploit",
-  "slug_new_node2shell_nodejs_rce_exploit_let",
   "CVE_CVE-2026-111497",
   "68f2c8a7a2b64fb92945ca756d6bbda3d540d334d327f72cc6598fc8fba846db",
   "https://thehackernews.com/2026/10/blackx-uefi-bootkit-bypasses-secure.html",
@@ -998,5 +989,14 @@
   "slug_chinese_nationstate_threat_activity_falls_sharply",
   "8794c2fe6ee9e53a6c6fdd65c8730f4825751dc01dcd0c5dcd340f7079e4678e",
   "https://cisoseries.com/is-our-dated-hiring-process-creating-vulnerabilities",
-  "slug_our_dated_hiring_process_creating_vulnerabilities"
+  "slug_our_dated_hiring_process_creating_vulnerabilities",
+  "78dba48bcdf2229a1dbdf292c4ee969f72886ad84894e368a5b1a2d786400ad6",
+  "https://www.vulncheck.com/blog/anthropic-glasswing-cves",
+  "slug_tracking_cves_attributed_anthropic_researchers_project",
+  "bc28f0c1511af36491b031408f2ebdf4890e1409cdddf0d138deb691137acb00",
+  "https://www.infosecurity-magazine.com/news/ghostmap-bug-android-phones-stuck",
+  "slug_ghostmap_bug_leaves_android_phones_stuck",
+  "4c418d955a724ad14d92c75a21b122c9c5dbddd4e59800715f4ec5863e06fca8",
+  "https://cisoseries.com/cybersecurity-news-november-5-2026",
+  "slug_cybersecurity_news_blood_bank_fridge_hacks"
 ]
