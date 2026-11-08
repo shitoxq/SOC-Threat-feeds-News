@@ -1,13 +1,4 @@
 [
-  "https://thehackernews.com/2026/10/hackers-breach-enterprise-firewalls-and.html",
-  "slug_hackers_breach_enterprise_firewalls_vpns_exposing",
-  "ba3749ef980b3b5303bef6f1bde3dd8355f473f96cb6d404da27e8d682d6dc0c",
-  "https://www.bleepingcomputer.com/news/security/you-gave-your-ai-agent-access-but-who-is-giving-it-orders",
-  "slug_you_gave_your_ai_agent_access",
-  "0632c3b1841306114fbe5e7fbb756bbf8126d2695dca796a440c6429cb96e5d8",
-  "https://cybersecuritynews.com/okta-access-gateway-flaw",
-  "slug_critical_okta_access_gateway_lets_attackers",
-  "CVE_CVE-2026-115547",
   "76da60089176983713f45816e41f527b55fd384f7508dfc491f47b7b2284b45e",
   "https://thehackernews.com/2026/10/russian-linked-hackers-used-new-mesh.html",
   "slug_russianlinked_hackers_used_new_mesh_network",
@@ -998,5 +989,14 @@
   "slug_zyxel_switch_patch_missed_behind_wave",
   "5e37a7773575224ce4c808e0869cac832457f0d9e428d60eb3a12bc45e52b250",
   "https://cisoseries.com/cybersecurity-news-november-6-2026",
-  "slug_cybersecurity_news_norway_aid_agency_attack"
+  "slug_cybersecurity_news_norway_aid_agency_attack",
+  "088c90ff4e7dbcd8578e3cbfb8bf229c66dde5bf9a0bf8ccf9770b30e2975ded",
+  "https://www.vulncheck.com/blog/vulnerability-and-exploitation-risks-of-ai",
+  "slug_exploring_risks_impacts_ai_vulnerability_discovery",
+  "f706af1fff93f857ffc466baf208da696ae711d25d8de3d1a437b945e0b1f7d0",
+  "https://www.infosecurity-magazine.com/news/chinese-nation-activity-falls",
+  "slug_chinese_nationstate_threat_activity_falls_sharply",
+  "8794c2fe6ee9e53a6c6fdd65c8730f4825751dc01dcd0c5dcd340f7079e4678e",
+  "https://cisoseries.com/is-our-dated-hiring-process-creating-vulnerabilities",
+  "slug_our_dated_hiring_process_creating_vulnerabilities"
 ]
