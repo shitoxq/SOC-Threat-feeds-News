@@ -1,13 +1,4 @@
 [
-  "slug_pwc_data_breach_claim_everest_ransomware",
-  "540959acae587c694ef2696435e571f014f82b0e5f40d927650108b643076794",
-  "https://www.bleepingcomputer.com/news/microsoft/microsoft-shares-how-to-fix-broken-exchange-online-ews-apps",
-  "slug_microsoft_shares_how_fix_broken_exchange",
-  "69b024c32e8e0d8d01c8d5b4011993adefa1f0d367f174cbb4faa070a7657ca4",
-  "https://www.securityweek.com/cisco-patches-34-vulnerabilities-across-multiple-products",
-  "slug_cisco_patches_34_vulnerabilities_across_multiple",
-  "088c90ff4e7dbcd8578e3cbfb8bf229c66dde5bf9a0bf8ccf9770b30e2975ded",
-  "https://www.vulncheck.com/blog/vulnerability-and-exploitation-risks-of-ai",
   "slug_exploring_risks_impacts_ai_vulnerability_discovery",
   "d3e6fb1a3911b1e6b90b1f063808a68fb4504ce04882fd635da42147c19051ce",
   "https://thehackernews.com/2026/10/urgent-php-warns-of-another-unpatched.html",
@@ -998,5 +989,14 @@
   "slug_november_2026_patch_tuesday_forecast_old",
   "ad5c01cff9d35d86a1f98be60b7784edde8b9d710bf8633d57459e5a8dcb18e3",
   "https://ipurple.team/2026/07/06/windows-service",
-  "slug_windows_service"
+  "slug_windows_service",
+  "4ad381d57bc8a51f4d1bc750d9b11737cbfb4723a3f2f6d04b725128148cab51",
+  "https://www.vulncheck.com/blog/vulncheck-exploit-intelligence-app-in-splunkbase",
+  "slug_learn_how_operationalize_exploit_intelligence_splunk",
+  "e56840fe1598e9a233dd3346583308f4e886950e848924a086f8d5bc1d9ba83e",
+  "https://www.helpnetsecurity.com/2026/11/06/mariia-bakhtina-masaryk-university-security-certification",
+  "slug_security_certification_snapshot_buyers_read_too",
+  "446fd183df45680b5397ddc57ef835f26828086bec25fcd7f831aae5d8ad60ec",
+  "https://www.infosecurity-magazine.com/news/artex-activity-exceeds-reported",
+  "slug_artex_offensive_ai_tool_activity_far"
 ]
