@@ -1,7 +1,4 @@
 [
-  "CVE_CVE-2026-111497",
-  "68f2c8a7a2b64fb92945ca756d6bbda3d540d334d327f72cc6598fc8fba846db",
-  "https://thehackernews.com/2026/10/blackx-uefi-bootkit-bypasses-secure.html",
   "slug_blackx_uefi_bootkit_bypasses_secure_boot",
   "62f3dad2c0ca74beaa87691dba380971a0c59155e05024b7569276fa5ad88404",
   "https://www.bleepingcomputer.com/news/microsoft/microsoft-teams-to-get-ai-powered-context-aware-phishing-detection",
@@ -998,5 +995,8 @@
   "slug_ghostmap_bug_leaves_android_phones_stuck",
   "4c418d955a724ad14d92c75a21b122c9c5dbddd4e59800715f4ec5863e06fca8",
   "https://cisoseries.com/cybersecurity-news-november-5-2026",
-  "slug_cybersecurity_news_blood_bank_fridge_hacks"
+  "slug_cybersecurity_news_blood_bank_fridge_hacks",
+  "09d9323cdfde315a382287ad153001a2c3dd9925bd6a4f212da73ed50e7bbaf8",
+  "https://www.vulncheck.com/blog/microsoft-secret-hunter",
+  "slug_same_attacker_different_door_our_canaries"
 ]
