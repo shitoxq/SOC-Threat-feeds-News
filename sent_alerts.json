@@ -1,13 +1,4 @@
 [
-  "slug_splunk_solarwinds_release_fresh_security_updates",
-  "7c53f743c08237d2727ca65e473b4707a4d9bd06671d8e75282cc77ec6ec93c4",
-  "https://thehackernews.com/2026/10/two-cvss-90-linux-ksmbd-rce-flaws.html",
-  "slug_two_cvss_90_linux_ksmbd_rce",
-  "179faf62f2b237f0f3683e2d15631032f56fcceb3cb108c6544c8b0b0b859816",
-  "https://www.bleepingcomputer.com/news/security/arista-patches-new-velocloud-orchestrator-zero-day-exploited-in-attacks",
-  "slug_arista_patches_new_velocloud_orchestrator_zeroday",
-  "c55443470463ad9dcd3d3bcdce4dd9c7d6751940f38b54a2c6bfa41e9df3a027",
-  "https://cybersecuritynews.com/pwc-data-breach-claim",
   "slug_pwc_data_breach_claim_everest_ransomware",
   "540959acae587c694ef2696435e571f014f82b0e5f40d927650108b643076794",
   "https://www.bleepingcomputer.com/news/microsoft/microsoft-shares-how-to-fix-broken-exchange-online-ews-apps",
@@ -998,5 +989,14 @@
   "slug_hackers_use_fake_streaming_apps_spread",
   "057d384c9283fd38523574049481132b1a93195d24817d9b2586eac247a7be0f",
   "https://www.helpnetsecurity.com/2026/11/06/cyberattacks-refrigeration-systems-cisa-fbi",
-  "slug_us_agencies_warn_attackers_targeting_refrigeration"
+  "slug_us_agencies_warn_attackers_targeting_refrigeration",
+  "9e184f7cdec715a04d889fb69d1761930c4a7a721cb63a05269ea387f9754bf7",
+  "https://www.vulncheck.com/blog/ai-assisted-vulnerability-discovery",
+  "slug_first_cve_wave_signs_that_aiassisted",
+  "5bc14ebfbfd9c732a89c6105cdee3bf9372905d959599dd23015b1c6b3fbb4e5",
+  "https://www.helpnetsecurity.com/2026/11/06/november-2026-patch-tuesday-forecast",
+  "slug_november_2026_patch_tuesday_forecast_old",
+  "ad5c01cff9d35d86a1f98be60b7784edde8b9d710bf8633d57459e5a8dcb18e3",
+  "https://ipurple.team/2026/07/06/windows-service",
+  "slug_windows_service"
 ]
