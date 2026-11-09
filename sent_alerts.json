@@ -1,13 +1,4 @@
 [
-  "slug_critical_pythons_popular_pillow_image_library",
-  "CVE_CVE-2026-112900",
-  "651b9429c7fac0a1820a5cd6c7b7cf653a20b0761b5b1f7d58524fef14571e4c",
-  "https://www.bleepingcomputer.com/news/security/quest-diagnostics-confirms-data-breach-exposed-patient-records",
-  "slug_quest_diagnostics_confirms_data_breach_exposed",
-  "30e6ae1d2a889ea6f2d3e45deed175c943607db23ea44fb19cabb4fa74bd4345",
-  "https://cybersecuritynews.com/openai-ai-agents-bypass-security",
-  "slug_openai_ai_agents_bypass_security_isolation",
-  "ae5fe3ec49b34664a0f640b9c8d64a84bd20a26cd684c54bb82f81e451b842b2",
   "https://thehackernews.com/2026/10/researchers-push-over-2-million-updates.html",
   "slug_researchers_push_over_2_million_updates",
   "7bc21a5f3f47a4c9560a376e1e45505fc8854a2b3ef937dd42be4847468f3307",
@@ -998,5 +989,14 @@
   "https://www.vulncheck.com/blog/n8n-needs-more-kev",
   "slug_n8n_should_have_more_than_one",
   "CVE_CVE-2025-68613",
-  "CVE_CVE-2026-21858"
+  "CVE_CVE-2026-21858",
+  "99ca2ce9ce5fc1e7f33e8d0bc434b25185d752aff65d793e56dedc574f01efb4",
+  "https://thehackernews.com/2026/11/bitter-hackers-deploy-new-paprat.html",
+  "slug_bitter_hackers_deploy_new_paprat_backdoor",
+  "6fcafe6c8ffb348738271e16ca347f552200b3a77005b3d8c82770d92bba3404",
+  "https://www.bleepingcomputer.com/news/security/us-bans-mexc-crypto-exchange-over-sanctions-evasion-cybercrime-links",
+  "slug_us_bans_mexc_crypto_exchange_over",
+  "30475340df776b9ff6791a99ab30cf8acedcec5c89be97d9747210d6e06e0e1c",
+  "https://www.securityweek.com/revolve-puts-data-breach-victim-count-at-1-5-million",
+  "slug_revolve_puts_data_breach_victim_count"
 ]
