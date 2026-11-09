@@ -1,13 +1,4 @@
 [
-  "14b4c9cf953f428c07e635f73d4c9d140b94631d324ef43318893d31a39aadf2",
-  "https://thehackernews.com/2026/10/ruby-fixes-three-regex-engine-bugs.html",
-  "slug_ruby_fixes_three_regex_engine_bugs",
-  "0ae7a1508c3f482bfa2840b370d5c5eb5330221285429e5c3eaaa46ba96fa98d",
-  "https://www.bleepingcomputer.com/news/security/abandoned-popcorn-time-app-exposed-millions-of-device-to-rce-attacks",
-  "slug_abandoned_popcorn_time_app_exposed_millions",
-  "9c7f0712baff60658f44e72a467aa636e014c32b5e7207698ae98aad1fe9f327",
-  "https://cybersecuritynews.com/stealc-malware",
-  "slug_stealc_malware_returns_new_stadia_rat",
   "6fb95eceef2a89d96948d566dbb004281ae2f9011c0a0c096d8652b0bd52402b",
   "https://thehackernews.com/2026/10/exposed-infrastructure-reveals-how.html",
   "slug_exposed_infrastructure_reveals_how_ransomware_affiliates",
@@ -998,5 +989,14 @@
   "CVE_CVE-2026-20079",
   "2ef198a55c57b3ca30480bff8c1a8610fdf34d2bf3cdf5b80abaabd34179fe60",
   "https://securityboulevard.com/2026/11/agent-vs-agent-can-cyber-defense-keep-up-at-machine-speed",
-  "slug_agent_vs_agent_can_cyber_defense"
+  "slug_agent_vs_agent_can_cyber_defense",
+  "ee9d2ca62ad99883e856eb0c6166e5fbabdea2e3d6c29f5484e363d87363bd6a",
+  "https://cybersecuritynews.com/openssh-sshole-flaw-exploited",
+  "slug_hackers_begin_exploiting_openssh_sshole_authentication",
+  "a821996a2d0f5a0e43407402faf1f4833713d8e25a6afcc6558ce0986d90eec8",
+  "https://www.vulncheck.com/blog/network-edge-device-report-2026",
+  "slug_2026_state_exploitation_exploiting_network_edgewhats",
+  "bf237ef595e3779a1301062d3a13a8152ef26d1a5f0349a6f30f5e19787605a5",
+  "https://gbhackers.com/armorsteal-malware-attack",
+  "slug_armorsteal_malware_steals_passwords_crypto_wallet"
 ]
