@@ -1,11 +1,4 @@
 [
-  "slug_blackx_uefi_bootkit_bypasses_secure_boot",
-  "62f3dad2c0ca74beaa87691dba380971a0c59155e05024b7569276fa5ad88404",
-  "https://www.bleepingcomputer.com/news/microsoft/microsoft-teams-to-get-ai-powered-context-aware-phishing-detection",
-  "slug_microsoft_teams_get_aipowered_contextaware_phishing",
-  "05c3addaba11e7b54f04fcff8e3654e23df40fb2efcc0d2b0294607a24d3751c",
-  "https://cybersecuritynews.com/hackers-exploiting-velocloud-orchestrator-flaw",
-  "slug_hackers_actively_exploiting_critical_velocloud_orchestrator",
   "14b4c9cf953f428c07e635f73d4c9d140b94631d324ef43318893d31a39aadf2",
   "https://thehackernews.com/2026/10/ruby-fixes-three-regex-engine-bugs.html",
   "slug_ruby_fixes_three_regex_engine_bugs",
@@ -998,5 +991,12 @@
   "slug_cybersecurity_news_blood_bank_fridge_hacks",
   "09d9323cdfde315a382287ad153001a2c3dd9925bd6a4f212da73ed50e7bbaf8",
   "https://www.vulncheck.com/blog/microsoft-secret-hunter",
-  "slug_same_attacker_different_door_our_canaries"
+  "slug_same_attacker_different_door_our_canaries",
+  "c24dc62865bc341a3432c2112ce3b1e1ce92f1a6ac266dd70b50c52d14ac9f2c",
+  "https://www.vulncheck.com/blog/cisco-fmc-auth-bypass-cve-2026-20079",
+  "slug_cve202620079_cisco_fmc_authentication_bypass_rce",
+  "CVE_CVE-2026-20079",
+  "2ef198a55c57b3ca30480bff8c1a8610fdf34d2bf3cdf5b80abaabd34179fe60",
+  "https://securityboulevard.com/2026/11/agent-vs-agent-can-cyber-defense-keep-up-at-machine-speed",
+  "slug_agent_vs_agent_can_cyber_defense"
 ]
