@@ -1,13 +1,4 @@
 [
-  "https://thehackernews.com/2026/10/researchers-push-over-2-million-updates.html",
-  "slug_researchers_push_over_2_million_updates",
-  "7bc21a5f3f47a4c9560a376e1e45505fc8854a2b3ef937dd42be4847468f3307",
-  "https://www.bleepingcomputer.com/news/security/hpe-patches-eight-max-severity-rce-and-auth-bypass-aos-flaws",
-  "slug_hpe_patches_eight_max_severity_rce",
-  "ff92431b27f79a08e4ac19e62f6936d2e93a7461f2e95e46d3b0604a9b9d9cc5",
-  "https://www.securityweek.com/mirai-botnet-operators-join-php2shell-attacks-as-aslr-bypass-exploits-emerge",
-  "slug_mirai_botnet_operators_join_php2shell_attacks",
-  "c2f353f11fcac6078e3a8d417a06273b21c39d4ca93451ff32b6c5c6b61d7410",
   "https://thehackernews.com/2026/10/leaked-litellm-master-key-let-attackers.html",
   "slug_leaked_litellm_master_key_let_attackers",
   "da8585ca808755980454ac2510a31aeac3b6404da09cbd00d469dda42389890c",
@@ -998,5 +989,14 @@
   "slug_us_bans_mexc_crypto_exchange_over",
   "30475340df776b9ff6791a99ab30cf8acedcec5c89be97d9747210d6e06e0e1c",
   "https://www.securityweek.com/revolve-puts-data-breach-victim-count-at-1-5-million",
-  "slug_revolve_puts_data_breach_victim_count"
+  "slug_revolve_puts_data_breach_victim_count",
+  "ee5e2ceda03abe1e3e50107e66b55dd1b6946aaa557a689bc746ce443472aac7",
+  "https://thehackernews.com/2026/11/hackers-exploit-quboles-trusted-aws.html",
+  "slug_hackers_exploit_qubolex27s_trusted_aws_access",
+  "896bc9c4d2ed439e669e82f7956d17e0ba4223debad70011b4469ccbffe29aa8",
+  "https://www.bleepingcomputer.com/news/security/russian-cloud-firm-beget-rebuilds-from-scratch-after-data-wiper-attack",
+  "slug_russian_cloud_firm_beget_rebuilds_from",
+  "5258c52aba9d036076b774bcea3e78fecd77e5236bb9d211ff0f6eb2525012c8",
+  "https://cybersecuritynews.com/abe-office-malware",
+  "slug_new_abe_office_malware_bypasses_chrome"
 ]
