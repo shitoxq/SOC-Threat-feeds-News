@@ -1,15 +1,4 @@
 [
-  "6fb95eceef2a89d96948d566dbb004281ae2f9011c0a0c096d8652b0bd52402b",
-  "https://thehackernews.com/2026/10/exposed-infrastructure-reveals-how.html",
-  "slug_exposed_infrastructure_reveals_how_ransomware_affiliates",
-  "49d18bdd23778982b5687396066840912c7837edba28e0a07dff99c8d0a28839",
-  "https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-server-2016-reaches-end-of-support-in-january",
-  "slug_microsoft_windows_server_2016_reaches_end",
-  "4f7342cb802292bb4e9dbda175fe165292a6480626b2a2a3bd16cd49d3828a03",
-  "https://www.securityweek.com/in-other-news-tor-exit-relays-hijacked-banks-spot-rogue-ai-agents-self-rebuilding-macos-ransomware",
-  "slug_other_news_tor_exit_relays_hijacked",
-  "e21e419ebac57752b2c8585063713a38c926778fef1e895d6969b0079746f373",
-  "https://thehackernews.com/2026/10/critical-flaw-in-pythons-popular-pillow.html",
   "slug_critical_pythons_popular_pillow_image_library",
   "CVE_CVE-2026-112900",
   "651b9429c7fac0a1820a5cd6c7b7cf653a20b0761b5b1f7d58524fef14571e4c",
@@ -998,5 +987,16 @@
   "slug_2026_state_exploitation_exploiting_network_edgewhats",
   "bf237ef595e3779a1301062d3a13a8152ef26d1a5f0349a6f30f5e19787605a5",
   "https://gbhackers.com/armorsteal-malware-attack",
-  "slug_armorsteal_malware_steals_passwords_crypto_wallet"
+  "slug_armorsteal_malware_steals_passwords_crypto_wallet",
+  "58a49828244205471a6ee53805903c4e9f1b636dfc941e8c8813d1305859810b",
+  "https://thehackernews.com/2026/11/us-agencies-warn-refrigeration.html",
+  "slug_us_agencies_warn_refrigeration_controller_attacks",
+  "a95801d27b69ac971b0dee0bedfba77a0f98e10ab95979581f1aa6d2cfb268c4",
+  "https://cybersecuritynews.com/react-server-components-vulnerability-patch",
+  "slug_critical_react_server_components_lets_hackers",
+  "bcbc0a3ccc03e12eac56e4c729c042fde86e6fc6a0916c8eebd02ad34de5b98a",
+  "https://www.vulncheck.com/blog/n8n-needs-more-kev",
+  "slug_n8n_should_have_more_than_one",
+  "CVE_CVE-2025-68613",
+  "CVE_CVE-2026-21858"
 ]
