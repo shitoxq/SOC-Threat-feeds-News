@@ -1,13 +1,4 @@
 [
-  "https://thehackernews.com/2026/10/leaked-litellm-master-key-let-attackers.html",
-  "slug_leaked_litellm_master_key_let_attackers",
-  "da8585ca808755980454ac2510a31aeac3b6404da09cbd00d469dda42389890c",
-  "https://www.securityweek.com/attackers-exploit-third-velocloud-orchestrator-zero-day-in-four-months",
-  "slug_attackers_exploit_third_arista_vco_zeroday",
-  "0a87e7e2ec15eb138eb8e2eb0de3f302ad71e1fe00ad1b8dd0ee757be6d34748",
-  "https://www.vulncheck.com/blog/pwning-the-ai-stack",
-  "slug_same_target_different_playbooks_two_attackers",
-  "ed6cb319ad856dfd2ce738ab807d2266ea138e6be6befd7aedd84613d0cce1cf",
   "https://thehackernews.com/2026/10/google-says-gmail-and-photos-data.html",
   "slug_google_says_gmail_photos_data_shared",
   "77de36c1a9c61f5d43e48235830027125bc885001e374cab842fe27f6d5c3059",
@@ -998,5 +989,14 @@
   "slug_russian_cloud_firm_beget_rebuilds_from",
   "5258c52aba9d036076b774bcea3e78fecd77e5236bb9d211ff0f6eb2525012c8",
   "https://cybersecuritynews.com/abe-office-malware",
-  "slug_new_abe_office_malware_bypasses_chrome"
+  "slug_new_abe_office_malware_bypasses_chrome",
+  "2ba6cb1be9af9cf5c4949d27312809f69218f914960dcb1a9478518527a1d653",
+  "https://thehackernews.com/2026/11/hackers-compromise-etherspheres-bee-js.html",
+  "slug_hackers_compromise_etherspherex27s_beejs_swarm_desktop",
+  "5fa4642d1d14b30c1783273f985c20019687ecd80927d85ccbec622bf2c7b92e",
+  "https://www.bleepingcomputer.com/news/security/vanderbilt-university-hit-in-byod-ransomware-attack-data-theft-claimed",
+  "slug_vanderbilt_university_hit_byod_ransomware_attack",
+  "bff4641c93f14b4c5f4cf4026bf80d9fe0ce7096b94b6eb0e6acc04441617c37",
+  "https://cybersecuritynews.com/notepad-8-9-9-released",
+  "slug_notepad_899_released_fixes_6_vulnerabilities"
 ]
