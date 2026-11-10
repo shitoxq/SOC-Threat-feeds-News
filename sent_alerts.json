@@ -1,13 +1,4 @@
 [
-  "91662a8b43480e48077051c57706b8eb242dbcea49a0d2cddcb6ecc940416d43",
-  "https://www.securityweek.com/litellm-compromised-in-fresh-supply-chain-attack",
-  "slug_litellm_compromised_fresh_supply_chain_attack",
-  "628fc3790860a7c67fa37485106e36c4dd8d31c69e8b63c9fe64e2e7882e73e5",
-  "https://www.vulncheck.com/blog/death-by-20k-pocs",
-  "slug_death_20000_pocsvulnchecks_research_team_shares",
-  "0573684e07948a4609ceb6616950a2535717047241a5829574362fba1657a4aa",
-  "https://gbhackers.com/openai-ai-agents-exploit-zero-day-vulnerabilities",
-  "slug_openai_ai_agents_exploit_zeroday_vulnerabilities",
   "b4502f9ad3573b1b289048e28dcb138b3860a33147cb18fe2cc5f8457a8dfd40",
   "https://www.securityweek.com/atlassian-patches-75-third-party-flaws-in-data-center-and-server-products",
   "slug_atlassian_patches_75_data_center_server",
@@ -998,5 +989,14 @@
   "slug_nable_takes_cloud_platform_offline_after",
   "600b1a9e52fcc04faf86c56ad7cab24edac61bbd997f0136c5df8f67c136c274",
   "https://cybersecuritynews.com/terminal2shell-55-year-old-zero-day",
-  "slug_terminal2shell_55yearold_zeroday_dating_back_1971"
+  "slug_terminal2shell_55yearold_zeroday_dating_back_1971",
+  "d195f153eca0098451028934649e678bf667541b4352da51166bf67f3061d4ca",
+  "https://thehackernews.com/2026/11/binance-warns-of-ios-sandbox-escape.html",
+  "slug_binance_warns_ios_sandbox_escape_that",
+  "3d246f2dc682166bf7124d2d772dbcf9b66fc3ba21c821dd0ca2c02d567513ca",
+  "https://www.bleepingcomputer.com/news/security/ransomware-recovery-is-now-a-client-retention-metric",
+  "slug_ransomware_recovery_now_client_retention_metric",
+  "94c412da59b5b679c5855cccda727d49991ccff076155ad2717d97fa62389416",
+  "https://cybersecuritynews.com/north-korean-hackers-3",
+  "slug_north_korean_hackers_target_drone_technology"
 ]
