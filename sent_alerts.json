@@ -1,13 +1,4 @@
 [
-  "slug_blackx_uefi_bootkit_exploits_baton_drop",
-  "a49f7b643b78d75c4b1b4911d376f30a1f3fbcd5cb19a50bbeed8c4d26e3f2b3",
-  "https://www.securityweek.com/quest-diagnostics-reports-cyber-breach-affecting-certain-patient-records",
-  "slug_quest_diagnostics_data_breach_exposed_certain",
-  "dc77f70d96e38d2e02192fdf301144e9e3cc261b447a7cae965fe3b202a5d21e",
-  "https://www.vulncheck.com/blog/cve-2026-63520-sharepoint-unsafe-type-rce",
-  "slug_exploiting_sharepoint_cve202655040_cve202663520_rce_chainbuilding",
-  "CVE_CVE-2026-55040",
-  "CVE_CVE-2026-63520",
   "91662a8b43480e48077051c57706b8eb242dbcea49a0d2cddcb6ecc940416d43",
   "https://www.securityweek.com/litellm-compromised-in-fresh-supply-chain-attack",
   "slug_litellm_compromised_fresh_supply_chain_attack",
@@ -998,5 +989,14 @@
   "slug_sega_newsletter_data_breach_exposes_22",
   "80ab3626e5aefe2b96fa765b3a7a4949f5d6048d74216a4a589297842604db75",
   "https://cybersecuritynews.com/revstealer-uses-100-domains",
-  "slug_revstealer_uses_100_domains_hijacked_youtube"
+  "slug_revstealer_uses_100_domains_hijacked_youtube",
+  "f0d40b6eb5cac62ee86cf717f406d05317d47708def4f82c98769f895c4ecee0",
+  "https://thehackernews.com/2026/11/n-able-takes-hosted-n-central-offline.html",
+  "slug_nable_takes_ncentral_cloud_offline_after",
+  "b024199ea3b9c78497997d4933f515b81e19b7ebd08c4b65f169d08b4866ac6d",
+  "https://www.bleepingcomputer.com/news/security/n-able-takes-cloud-platform-offline-after-30-plus-zero-days-published",
+  "slug_nable_takes_cloud_platform_offline_after",
+  "600b1a9e52fcc04faf86c56ad7cab24edac61bbd997f0136c5df8f67c136c274",
+  "https://cybersecuritynews.com/terminal2shell-55-year-old-zero-day",
+  "slug_terminal2shell_55yearold_zeroday_dating_back_1971"
 ]
