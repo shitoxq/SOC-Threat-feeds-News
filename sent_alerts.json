@@ -1,14 +1,4 @@
 [
-  "https://thehackernews.com/2026/10/google-says-gmail-and-photos-data.html",
-  "slug_google_says_gmail_photos_data_shared",
-  "77de36c1a9c61f5d43e48235830027125bc885001e374cab842fe27f6d5c3059",
-  "https://www.securityweek.com/11-million-impacted-by-capcom-data-breach",
-  "slug_11_million_impacted_capcom_data_breach",
-  "05a5a1aee543e61cea3cfbc3a097f7773276c420dcefb48f9381511dd9e2707d",
-  "https://www.vulncheck.com/blog/zbt-darklantern-speakingstone",
-  "slug_chinese_implants_supply_chainin_our_previous",
-  "9fcce94ed3b1e9c4958aa9fdf55861c308d71d460948b415bee4d65d0c6e4d18",
-  "https://www.bleepingcomputer.com/news/security/blackx-uefi-bootkit-exploits-baton-drop-flaw-to-bypass-secure-boot",
   "slug_blackx_uefi_bootkit_exploits_baton_drop",
   "a49f7b643b78d75c4b1b4911d376f30a1f3fbcd5cb19a50bbeed8c4d26e3f2b3",
   "https://www.securityweek.com/quest-diagnostics-reports-cyber-breach-affecting-certain-patient-records",
@@ -998,5 +988,15 @@
   "slug_vanderbilt_university_hit_byod_ransomware_attack",
   "bff4641c93f14b4c5f4cf4026bf80d9fe0ce7096b94b6eb0e6acc04441617c37",
   "https://cybersecuritynews.com/notepad-8-9-9-released",
-  "slug_notepad_899_released_fixes_6_vulnerabilities"
+  "slug_notepad_899_released_fixes_6_vulnerabilities",
+  "749cd79bf9b6b051f921dd2a0964c78940dcc9dddee5e4ca849f6e61ef2c0c97",
+  "https://thehackernews.com/2026/11/google-issues-chrome-security-update.html",
+  "slug_google_issues_chrome_security_update_eighth",
+  "CVE_CVE-2026-125350",
+  "303462b7c9a401596c897dced383cf730fa67e9a818d5db7bff1d75a0b598145",
+  "https://www.bleepingcomputer.com/news/security/sega-newsletter-data-breach-exposes-22-million-email-addresses",
+  "slug_sega_newsletter_data_breach_exposes_22",
+  "80ab3626e5aefe2b96fa765b3a7a4949f5d6048d74216a4a589297842604db75",
+  "https://cybersecuritynews.com/revstealer-uses-100-domains",
+  "slug_revstealer_uses_100_domains_hijacked_youtube"
 ]
