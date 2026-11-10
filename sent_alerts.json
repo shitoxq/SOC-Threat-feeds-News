@@ -1,15 +1,4 @@
 [
-  "b4502f9ad3573b1b289048e28dcb138b3860a33147cb18fe2cc5f8457a8dfd40",
-  "https://www.securityweek.com/atlassian-patches-75-third-party-flaws-in-data-center-and-server-products",
-  "slug_atlassian_patches_75_data_center_server",
-  "c21db5e5719b6ff94228ef25be61f7b6779fbfd303a26bf76ec89dbd5fffa56c",
-  "https://www.vulncheck.com/blog/smartermail-connecttohub-rce-cve-2026-24423",
-  "slug_street_smarts_smartermail_connecttohub_unauthenticated_rce",
-  "CVE_CVE-2026-24423",
-  "7f72480af124f110cdb35e2b27d883e3f0159bb45b5d9072f067860ed2196727",
-  "https://gbhackers.com/anthropic-ai-model-inject-malicious-code",
-  "slug_anthropic_ai_model_attempts_inject_malicious",
-  "df16f3107e9fe17e1d303bb80bc8e80568819131b858ce3298c0297ffea0388e",
   "https://www.vulncheck.com/blog/state-of-exploitation-2026",
   "slug_vulncheck_state_exploitation_2026key_trends_findings",
   "8e1c44ee96c5a63b9aa704dc0ebcdb01140491c488d914114bf9e0c9ab07ae7c",
@@ -998,5 +987,16 @@
   "slug_ransomware_recovery_now_client_retention_metric",
   "94c412da59b5b679c5855cccda727d49991ccff076155ad2717d97fa62389416",
   "https://cybersecuritynews.com/north-korean-hackers-3",
-  "slug_north_korean_hackers_target_drone_technology"
+  "slug_north_korean_hackers_target_drone_technology",
+  "db01d072adb842da9f5aad746996ccc62cdcf6a34da7fd4ece962950c6b90920",
+  "https://thehackernews.com/2026/11/attackers-exploit-ahsaycbs-flaws-to.html",
+  "slug_attackers_exploit_ahsaycbs_deploy_sandboxevading_python",
+  "CVE_CVE-2026-105133",
+  "CVE_CVE-2026-105134",
+  "4d844152923c736724adc8df7b477aa382a5367f4dbe81f739d07b6bb567acd7",
+  "https://www.bleepingcomputer.com/news/security/critical-xen-orchestra-auth-bypass-flaw-exploited-to-hijack-vm-servers",
+  "slug_critical_xen_orchestra_auth_bypass_exploited",
+  "9f6f483f0ccf40c08a8cdd462dc2653b7230524e13d3b84cb3769685c34172ec",
+  "https://cybersecuritynews.com/sap-proxygate-and-icm2shell-flaws",
+  "slug_hackers_can_exploit_sap_proxygate_icm2shell"
 ]
