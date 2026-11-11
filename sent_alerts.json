@@ -1,13 +1,4 @@
 [
-  "CVE_CVE-2025-2611",
-  "2cc1f841f29af0c2ee9f930f5d2038b88bc1a3865c5333bf4ea4e83aa85a712f",
-  "https://www.helpnetsecurity.com/2026/10/23/google-cloud-openai-models-private-preview",
-  "slug_google_opens_its_cloud_rival_openai",
-  "59730e2407b364de01a7249da986087d56b93894626ea4f6f58a09e1f487420d",
-  "https://ipurple.team/2026/09/09/windows-security-center",
-  "slug_windows_security_center",
-  "10da45e9ae675ce5bba287425416eb70729a8c32a49f22a7611bd449d97034dc",
-  "https://www.vulncheck.com/blog/mystery-oast",
   "slug_mystery_oast_host_behind_regionally_focused",
   "c6047c0030ed593b58c7ae66b89628a0fd3c063106b67d990e98bed1b042ff69",
   "https://www.helpnetsecurity.com/2026/10/23/barracuda-cybersecurity-career-development-report",
@@ -998,5 +989,14 @@
   "slug_maersk_confirms_data_breach_whitearmor_ransomware",
   "fde43478c2022c5da00dd85e7670c3050e6f0d15276f3c9b968224c8091e104b",
   "https://www.securityweek.com/critical-xen-orchestra-flaws-exploited-in-attacks",
-  "slug_critical_xen_orchestra_exploited_attacks"
+  "slug_critical_xen_orchestra_exploited_attacks",
+  "b4b549aacbc41c785d5486f1807cf831d896bb3793bb397da240e5ee7bd1c0d6",
+  "https://thehackernews.com/2026/11/microsoft-patches-1259-flaws-including.html",
+  "slug_microsoft_patches_1259_including_exploited_outlook",
+  "e9b1651e2709b7ea14f395fd455f4fa11f87f6bf842add147b7e66e43b4f2ad8",
+  "https://www.bleepingcomputer.com/news/security/notion-says-fireworks-breach-exposed-customer-ai-chat-transcripts",
+  "slug_notion_says_fireworks_breach_exposed_customer",
+  "6c193b8df2c8157cbd05dcfe4d2f809e79c4fc79825ad969a11b4c297d47bf3e",
+  "https://cybersecuritynews.com/hackers-could-abuse-microsoft-entra-ai-agents",
+  "slug_hackers_could_abuse_microsoft_entra_ai"
 ]
