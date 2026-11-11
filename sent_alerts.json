@@ -1,14 +1,4 @@
 [
-  "slug_react2shell_what_our_canaries_seewex27re_already",
-  "87ef383f4229c22c84e7ef9754fb8cac6004928bafe3bc1de10368fe07ca224e",
-  "https://www.helpnetsecurity.com/2026/10/23/llmjacking-agent-hijacks-exposed-ai-models",
-  "slug_hackers_hijack_exposed_ai_models_launch",
-  "7d96c85341cf3b2bcf45add157d1b01210a93b104ad368ab9759c5426b342365",
-  "https://ipurple.team/2026/09/21/dump-encoding-library",
-  "slug_dump_encoding_library",
-  "aec8daffc0c2837f247ef9cc9673f84baf064659509adc5437cad58401d66f38",
-  "https://www.vulncheck.com/blog/frost-checks-first",
-  "slug_frost_checks_first_selective_exploitationnew_cve20252611",
   "CVE_CVE-2025-2611",
   "2cc1f841f29af0c2ee9f930f5d2038b88bc1a3865c5333bf4ea4e83aa85a712f",
   "https://www.helpnetsecurity.com/2026/10/23/google-cloud-openai-models-private-preview",
@@ -998,5 +988,15 @@
   "slug_hackers_use_antifox_ai_agents_aws",
   "5e61b0dcd30a8b8818431f2f8c413aa1f7d8b1fa1a29a5e52f26985cc5f4d23e",
   "https://cybersecuritynews.com/criminal-ip-ti-feed-app-splunkbase",
-  "slug_criminal_ip_launches_new_ti_feed"
+  "slug_criminal_ip_launches_new_ti_feed",
+  "95bc7c63c87673bf5406f856eb6b28ac769056cdcac8a1052753303b53dd16b3",
+  "https://thehackernews.com/2026/11/critical-zoom-workplace-flaw-could.html",
+  "slug_critical_zoom_workplace_could_allow_unauthenticated",
+  "CVE_CVE-2026-108186",
+  "7123cd190c188339d05d02625c9c7ffdd801a73b9e06a54369e5a1dc3e7af93d",
+  "https://www.bleepingcomputer.com/news/security/maersk-confirms-data-breach-as-whitearmor-ransomware-demands-5-million",
+  "slug_maersk_confirms_data_breach_whitearmor_ransomware",
+  "fde43478c2022c5da00dd85e7670c3050e6f0d15276f3c9b968224c8091e104b",
+  "https://www.securityweek.com/critical-xen-orchestra-flaws-exploited-in-attacks",
+  "slug_critical_xen_orchestra_exploited_attacks"
 ]
