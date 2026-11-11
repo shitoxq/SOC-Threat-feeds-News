@@ -1,14 +1,4 @@
 [
-  "slug_tales_from_exploit_mines_gladinet_triofox",
-  "CVE_CVE-2025-12480",
-  "18993fc9a11a3bb09e23b55100f81402121a28e33fa630e30b81c8621b737a45",
-  "https://gbhackers.com/hackers-breached-litellm-github-repository",
-  "slug_hackers_breached_litellm_github_repository_11",
-  "94eb894b9cee65c1ea9f51a28f9598e264578b67511a5762d3e81b016b6b49a7",
-  "https://www.helpnetsecurity.com/2026/10/23/capcom-id-data-breach-11-million-records-exposed",
-  "slug_capcom_data_breach_exposes_117_million",
-  "2b44ac8d0a52ce9fe00c2800adcc48c1a378b3d1b6f776b22aaf7ccad9610208",
-  "https://thehackernews.com/2026/10/openai-ai-agents-demonstrate-vm-escapes.html",
   "slug_openai_ai_agents_demonstrate_vm_escapes",
   "b7a287cfbcada699c54933236ff485e9e5a539066c7b99a23362d48358b2660c",
   "https://www.vulncheck.com/blog/cvss-severity",
@@ -998,5 +988,15 @@
   "slug_railway_breach_leads_740000_fraudulent_ai",
   "0e0561c6b4300f8060980fd5a6cee12e3a306a8206be571a51c062b72e414887",
   "https://cybersecuritynews.com/toyota-data-breach-claim",
-  "slug_byod_ransomware_group_allegedly_claims_toyota"
+  "slug_byod_ransomware_group_allegedly_claims_toyota",
+  "85ce9be08e6465936d9503168f9e196f3243428a5582eb0899de23c30aeb08c9",
+  "https://thehackernews.com/2026/11/cisco-broadworks-and-openwave-flaws.html",
+  "slug_cisco_broadworks_openwave_actively_exploited_despite",
+  "CVE_CVE-2026-20320",
+  "3e4e8ffada55b704f149c3709c7dc5a853c4bde2c620a0935b10ca73613fa25c",
+  "https://www.bleepingcomputer.com/news/security/hackers-exploit-trusted-aws-access-to-breach-multiple-cloud-environments",
+  "slug_hackers_exploit_trusted_aws_access_breach",
+  "5d08c4e467d2c297eb0b95354d99875f1378d772bd76d7746c0c4b5a3beaaecc",
+  "https://cybersecuritynews.com/best-compliance-automation",
+  "slug_top_10_best_compliance_automation_software"
 ]
