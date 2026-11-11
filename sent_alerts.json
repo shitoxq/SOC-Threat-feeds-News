@@ -1,13 +1,4 @@
 [
-  "slug_forticloud_sso_login_bypass_vulnerabilities_exploited",
-  "001c4650c49a43008686df8f739c84d85f195c8c3ddc3173889d2e9b75d8bfd9",
-  "https://gbhackers.com/anthropic-ai-model-infect-github-repository-malware",
-  "slug_anthropic_ai_model_attempts_infect_github",
-  "b6f5535e812fd75a1c06fadecbc5dc851ace3c9dae12841780333f52e108d19f",
-  "https://www.helpnetsecurity.com/2026/10/23/microsoft-365-accounts-stolen-sessions",
-  "slug_microsoft_365_accounts_compromised_79_organizations",
-  "935f495f66e01e67be2c8ff8ce852927207983d9fea74232da627dda602dc75f",
-  "https://www.vulncheck.com/blog/triofox-exploit-cve-2025-12480",
   "slug_tales_from_exploit_mines_gladinet_triofox",
   "CVE_CVE-2025-12480",
   "18993fc9a11a3bb09e23b55100f81402121a28e33fa630e30b81c8621b737a45",
@@ -998,5 +989,14 @@
   "slug_microsoft_releases_windows_10_kb5131096_extended",
   "bb90177fc5d679f34e949aa8f9e10718c871e6cd658955b4dec085d758130565",
   "https://cybersecuritynews.com/microsoft-november-2026-patch-tuesday",
-  "slug_microsoft_november_2026_patch_tuesday_fixes"
+  "slug_microsoft_november_2026_patch_tuesday_fixes",
+  "12e10543ab563fddc87647c91d53777ed5f01237be25af71d41b8a4b76c08084",
+  "https://thehackernews.com/2026/11/sglang-rce-exploit-breaches-near-ai.html",
+  "slug_sglang_rce_exploit_breaches_near_ai",
+  "57a6c8e304dfd2761397da7a17c5e6612b3af609c4411632d201bda14b2d8c39",
+  "https://www.bleepingcomputer.com/news/apple/railway-breach-leads-to-740-000-in-fraudulent-ai-charges",
+  "slug_railway_breach_leads_740000_fraudulent_ai",
+  "0e0561c6b4300f8060980fd5a6cee12e3a306a8206be571a51c062b72e414887",
+  "https://cybersecuritynews.com/toyota-data-breach-claim",
+  "slug_byod_ransomware_group_allegedly_claims_toyota"
 ]
