@@ -1,13 +1,4 @@
 [
-  "slug_microsoft_teams_use_ai_detecting_phishing",
-  "d22c4aa767cf58ec92e6a277ba43cca38228c7d2b1a6a30afb1d3fd4a491b8c4",
-  "https://www.vulncheck.com/blog/react2shell-github",
-  "slug_react2shell_exploits_githubvulncheck_reviewed_full_wave",
-  "2d7cf381fbd89e501c90e894ec9fb684b023d0be4a1add2c8ce6fea7e6838581",
-  "https://gbhackers.com/stealc-malware-resurfaces",
-  "slug_stealc_infostealer_returns_powerful_remote_access",
-  "74eb2f41f5f5f652b004b879a9d969fefea3b8455a75e3e3c98565de6def4d15",
-  "https://www.vulncheck.com/blog/react2shell-canaries",
   "slug_react2shell_what_our_canaries_seewex27re_already",
   "87ef383f4229c22c84e7ef9754fb8cac6004928bafe3bc1de10368fe07ca224e",
   "https://www.helpnetsecurity.com/2026/10/23/llmjacking-agent-hijacks-exposed-ai-models",
@@ -998,5 +989,14 @@
   "slug_windows_11_kb5132061_amp_kb5131087_cumulative",
   "f6a27a94993c2f9e13b72728d39c14d0bf7610553f8144ddcd0a5fa2107fb842",
   "https://cybersecuritynews.com/best-audit-management-software",
-  "slug_top_10_best_audit_management_software"
+  "slug_top_10_best_audit_management_software",
+  "d8637e378806af0b6063819219a872d1d727c9e72c0ee5aa0ce63049cd389965",
+  "https://thehackernews.com/2026/11/hackers-target-qlik-sense-servers-with.html",
+  "slug_hackers_target_qlik_sense_servers_reverse",
+  "5e323827c0692e3d7550560af2977bfc0d9f80dbaa83cfad55526ebce7b80dc7",
+  "https://www.bleepingcomputer.com/news/security/hackers-use-antifox-ai-agents-in-aws-credential-theft-attacks",
+  "slug_hackers_use_antifox_ai_agents_aws",
+  "5e61b0dcd30a8b8818431f2f8c413aa1f7d8b1fa1a29a5e52f26985cc5f4d23e",
+  "https://cybersecuritynews.com/criminal-ip-ti-feed-app-splunkbase",
+  "slug_criminal_ip_launches_new_ti_feed"
 ]
