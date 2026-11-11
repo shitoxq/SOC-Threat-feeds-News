@@ -1,13 +1,4 @@
 [
-  "slug_openai_ai_agents_demonstrate_vm_escapes",
-  "b7a287cfbcada699c54933236ff485e9e5a539066c7b99a23362d48358b2660c",
-  "https://www.vulncheck.com/blog/cvss-severity",
-  "slug_critical_cves_cvss_v4_adoption_gap",
-  "067ec302f0813574e8ed69faf6ea52dc54c66919cf87aa3a8fbfa5a78e40fa52",
-  "https://www.helpnetsecurity.com/2026/10/25/week-in-review-php-vulnerabilities-patched-exploited-palo-alto-globalprotect-vpn-flaw",
-  "slug_week_review_php_vulnerabilities_patched_exploited",
-  "b18f95dde996d13480676b41c54ab537e3327912eae59ec875b8c9f58321f884",
-  "https://cybersecuritynews.com/microsoft-teams-ai-detection",
   "slug_microsoft_teams_use_ai_detecting_phishing",
   "d22c4aa767cf58ec92e6a277ba43cca38228c7d2b1a6a30afb1d3fd4a491b8c4",
   "https://www.vulncheck.com/blog/react2shell-github",
@@ -998,5 +989,14 @@
   "slug_hackers_exploit_trusted_aws_access_breach",
   "5d08c4e467d2c297eb0b95354d99875f1378d772bd76d7746c0c4b5a3beaaecc",
   "https://cybersecuritynews.com/best-compliance-automation",
-  "slug_top_10_best_compliance_automation_software"
+  "slug_top_10_best_compliance_automation_software",
+  "452012a5ab466238f0d93e380465ce8ba39abe29e0f1d91091c0682f096d8efd",
+  "https://thehackernews.com/2026/11/hackers-exploit-critical-xen-orchestra.html",
+  "slug_hackers_exploit_critical_xen_orchestra_auth",
+  "d630fc1c0bc98812360f9dc94cd736ee537d1a7ea0a8f5fdf7383890728bdeb8",
+  "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5132061-and-kb5131087-cumulative-updates-released",
+  "slug_windows_11_kb5132061_amp_kb5131087_cumulative",
+  "f6a27a94993c2f9e13b72728d39c14d0bf7610553f8144ddcd0a5fa2107fb842",
+  "https://cybersecuritynews.com/best-audit-management-software",
+  "slug_top_10_best_audit_management_software"
 ]
