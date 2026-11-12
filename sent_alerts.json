@@ -1,13 +1,4 @@
 [
-  "slug_introducing_vulncheck_canary_intelligenceintroducing_vulncheck_canary",
-  "cb0fdf55f96712ca16ef7d4d0dd9a4fc26f4d0601d88c615d7313114b59bec0a",
-  "https://www.infosecurity-magazine.com/news/capcom-confirms-data-breach",
-  "slug_gaming_giant_capcom_confirms_data_breach",
-  "54857a42b21b7ac336a8d44e2ab2620158306cea6047022e8bbcbc5a3c1ca17a",
-  "https://www.vulncheck.com/blog/oracle-e-business-suite-cve-2025-61882-exploited-in-extortion-attacks",
-  "slug_oracle_ebusiness_suite_cve202561882_exploited_extortion",
-  "CVE_CVE-2025-61882",
-  "6e39d51aab82564f1be7ab7ce2641f6821f36f51be16db82369e267891fcb149",
   "https://www.infosecurity-magazine.com/news/tokenspraying-attacks-target",
   "slug_widespread_tokenspraying_attacks_target_microsoft_365",
   "da19872bd8ebd641fd6397768aac402f3e921a7c58cec2a2b755c0ffbf10b243",
@@ -998,5 +989,14 @@
   "slug_hackers_could_exploit_mcp_server_supply",
   "5ac8fa0ed61346f7abcd5bb2e89241f451398b98d4083331d3c191ddfb90f566",
   "https://www.securityweek.com/asus-zoom-release-security-patches",
-  "slug_asus_zoom_release_security_patches"
+  "slug_asus_zoom_release_security_patches",
+  "b1fc427f51ef7a02649c1c794d08b9b215281aa61217249cda566c99413a49f7",
+  "https://thehackernews.com/2026/11/4837-hijacked-github-accounts-ran-ci.html",
+  "slug_attacker_used_4837_hijacked_github_accounts",
+  "99798711eb74097d76dafaccac802ab00892df71fe767109ac98e180b1f5a965",
+  "https://www.bleepingcomputer.com/news/security/active-screenconnect-attacks-breach-msps-impact-dozens-of-organizations",
+  "slug_active_screenconnect_attacks_breach_msps_impact",
+  "b80c44e0e732e0b235a8f60b4975e3077348ee2097709967777d78af51df71fc",
+  "https://cybersecuritynews.com/best-gdpr-compliance-software",
+  "slug_top_10_best_gdpr_compliance_software"
 ]
