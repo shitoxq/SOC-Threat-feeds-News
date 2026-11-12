@@ -1,13 +1,4 @@
 [
-  "slug_cve202510035_critical_vulnerability_fortra_goanywhere_mfta",
-  "CVE_CVE-2025-10035",
-  "e06f16de0f43e3c70505aad2ad91c27818a4e931bbcc03f064f0240ea3594051",
-  "https://www.vulncheck.com/blog/vulncheck-initial-access",
-  "slug_getting_ahead_exploitation_initial_access_intelligenceiai",
-  "e286dcf783f8d96c32db6dc6b9fa9f1e4a4884fc58dab39b8c5719003bb07b31",
-  "https://gbhackers.com/php2shell-exploit-scripts",
-  "slug_hackers_launch_mass_scanning_campaigns_using",
-  "119033774a06ef8822064a963f34905a6dab5a36b35a1d8ae72ecf34da4ecd98",
   "https://www.helpnetsecurity.com/2026/10/26/arrakis-dormant-ai-agent-risks-report",
   "slug_forgotten_ai_agents_may_still_access",
   "20494af63ce3fb8e1268344e5a5e46a89fb8745f8a818ef14ed0d1f00c0af8a9",
@@ -998,5 +989,14 @@
   "slug_microsoft_confirms_windows_security_updates_installation",
   "f67cf9faad0cd05814ba3e8b9f9a5ca10d933944b4eab21f09fc4b30b2316e30",
   "https://cybersecuritynews.com/hackers-target-ai-coding-tools",
-  "slug_hackers_target_ai_coding_tools_steal"
+  "slug_hackers_target_ai_coding_tools_steal",
+  "897c1c6b0f49846c4620bcc969ece882c8f640ada7112d9e5b8d6579c4a272f5",
+  "https://thehackernews.com/2026/11/threatsday-59-linux-kernel-bugs-falcon.html",
+  "slug_threatsday_59_linux_kernel_bugs_falcon",
+  "65f3f63f46e66dd3b467213e5a1386a7c10b02ed4193611777f592d92111bd05",
+  "https://www.bleepingcomputer.com/news/security/new-windows-signdrop-zero-day-gives-hackers-system-privileges",
+  "slug_new_windows_signdrop_zeroday_gives_hackers",
+  "9d8d559ff64d3a5c9ace81ef67ccc7049bb10adccac70e004ef065487bbd4ce2",
+  "https://cybersecuritynews.com/malware-infrastructure-disrupted",
+  "slug_europol_takes_down_235_servers_257"
 ]
