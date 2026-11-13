@@ -1,14 +1,4 @@
 [
-  "https://www.securityweek.com/php2shell-exploitation-moves-from-probes-to-working-shells",
-  "slug_php2shell_exploitation_moves_from_probes_working",
-  "4764a547323cc60e09a947be683393ab6b2044139c1d655ed05398802e04247e",
-  "https://thehackernews.com/2026/10/hackers-infect-953-online-stores-with.html",
-  "slug_hackers_infect_953_online_stores_scannerevading",
-  "fe0322af886fa22cc7776aabcedb0f52abb287eceffd2fbbfd67a2369832c4ff",
-  "https://www.bleepingcomputer.com/news/security/dreamhost-forces-email-ftp-sftp-password-resets-in-ongoing-incident",
-  "slug_dreamhost_forces_password_resets_ongoing_quotincidentquot",
-  "0620b94d9828ebf8afcbc4b49cf1687376c289f11829cd5a3b12e6dd93be8eee",
-  "https://cybersecuritynews.com/emperador-ransomware-group-claim",
   "slug_emperador_ransomware_group_claims_have_stolen",
   "4b8826d6a66e074543d42962242b43c47c115efa1a641d10702956c2bb749253",
   "https://thehackernews.com/2026/10/attackers-use-microsoft-teams-it.html",
@@ -998,5 +988,15 @@
   "slug_hackers_compromise_4800_github_accounts_steal",
   "44ef18b7215e81137d965dbfbab97f028b4adcd5fe87e0b19ea0cb143c2448f7",
   "https://cybersecuritynews.com/microsoft-365-massive-outage-fixes-fail-as-restored-servers-keep-going-unresponsive",
-  "slug_microsoft_365_massive_outage_fixes_fail"
+  "slug_microsoft_365_massive_outage_fixes_fail",
+  "96d21dc534c051cb0f29d1744dd1c2f5728e232665b89f4e5c3e9609688e4436",
+  "https://thehackernews.com/2026/11/citrix-patches-12-netscaler-and-secure.html",
+  "slug_citrix_patches_12_netscaler_secure_access",
+  "CVE_CVE-2026-120868",
+  "80787513604626539d2dbe88b4ed512968ac06c6bedadbe460fc6ffa63eac372",
+  "https://www.bleepingcomputer.com/news/microsoft/massive-microsoft-365-outage-disrupts-outlook-teams-copilot-worldwide",
+  "slug_massive_microsoft_365_outage_disrupts_outlook",
+  "b8a63a8c0c77416a43af36c60629891ee284398d3ef477cc9fa9d294b391b784",
+  "https://cybersecuritynews.com/massive-microsoft-365-outage",
+  "slug_massive_microsoft_365_outage_impacts_exchange"
 ]
