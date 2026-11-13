@@ -1,13 +1,4 @@
 [
-  "https://cybersecuritynews.com/codex-and-claude-code-hijack",
-  "slug_hackers_can_hijack_openai_codex_claude",
-  "399172439712b08d5e85ae1e75783c6c3387be4fdb196acb84a4e22c103b9a1f",
-  "https://thehackernews.com/2026/10/microsoft-365-token-replay-attacks.html",
-  "slug_microsoft_365_tokenreplay_attacks_compromise_97",
-  "d0a54491270e55b11ee237aceb1a2c315519d304d6d2b17d3fd8a76c8a418cc0",
-  "https://cybersecuritynews.com/microsoft-investigation-teams-issue",
-  "slug_microsoft_investigation_teams_issue_affecting_users",
-  "7ad5a03c8a5682579e51602c18eafcb1b1d67e0bcde4160159074e058ba8c93d",
   "https://www.securityweek.com/php2shell-exploitation-moves-from-probes-to-working-shells",
   "slug_php2shell_exploitation_moves_from_probes_working",
   "4764a547323cc60e09a947be683393ab6b2044139c1d655ed05398802e04247e",
@@ -998,5 +989,14 @@
   "slug_new_wormlike_x27sckitx27_malware_targets_msps",
   "b904269902ce98e488e1ef681e1e9b887be7e00f0a8fd2582eee3ed6516b248b",
   "https://cybersecuritynews.com/microsoft-teams-outagenorth-america",
-  "slug_microsoft_teams_outage_hits_users_north"
+  "slug_microsoft_teams_outage_hits_users_north",
+  "5f110aa5732b2dc45743bffb4ec8f01edfbc6771aac0ad2c4c0722b2c5e49093",
+  "https://thehackernews.com/2026/11/hackers-exploit-n-central-flaws-to.html",
+  "slug_hackers_exploit_ncentral_infect_21_servers",
+  "6abd62e4f49f309c04d1126f14148f2ac2af862777a1701719345d04f1d960e5",
+  "https://www.bleepingcomputer.com/news/security/hackers-compromise-4-800-github-accounts-to-steal-cloud-credentials",
+  "slug_hackers_compromise_4800_github_accounts_steal",
+  "44ef18b7215e81137d965dbfbab97f028b4adcd5fe87e0b19ea0cb143c2448f7",
+  "https://cybersecuritynews.com/microsoft-365-massive-outage-fixes-fail-as-restored-servers-keep-going-unresponsive",
+  "slug_microsoft_365_massive_outage_fixes_fail"
 ]
