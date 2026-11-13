@@ -1,13 +1,4 @@
 [
-  "CVE_CVE-2026-42589",
-  "4e555997f2e11531cc20f448c98cfce8bfbdbb386f28c517553e412aabbe0cba",
-  "https://cybersecuritynews.com/aokigahara-malware",
-  "slug_new_aokigahara_malware_targets_chatgpt_claude",
-  "a70632833cc9fc2e3bc0ce493071ee9416ec537d41929c3576fc13a1ae89216e",
-  "https://www.vulncheck.com/blog/what-canaries-see",
-  "slug_what_canary_sees_that_kev_entry",
-  "aecc6870f646f888cb7b697d2be3b9b03a2f778efa46a69fd28ed67f84286eed",
-  "https://gbhackers.com/connectwise-cloud-backup",
   "slug_hackers_abuse_connectwise_cloud_backup_credentials",
   "eae2a3c7c621fbaa9377337e2a6174c936467e94d1f172c44c7b9931a768facd",
   "https://thehackernews.com/2026/10/australia-gets-into-amadey-malware.html",
@@ -998,5 +989,14 @@
   "slug_check_point_gateways_hacked_via_php2shell",
   "3c60cf1894a92116e4f38009aa9db9352b75b1924741253ed8107dc92f6b4b97",
   "https://cybersecuritynews.com/hackers-use-sansar-linux-malware",
-  "slug_hackers_use_sansar_linux_malware_hide"
+  "slug_hackers_use_sansar_linux_malware_hide",
+  "7f22b6cf300a8942da8fe9a0870fb66247b6fc42f4b0085fe3387cbc76540282",
+  "https://thehackernews.com/2026/11/silentair-hijacks-asian-telecom.html",
+  "slug_silentair_hijacks_asian_telecom_networks_intercept",
+  "1b4785a1c9f30cfa8328bdffc2b68c43f886866c702e8e5f725d7ad2f055261d",
+  "https://www.bleepingcomputer.com/news/security/check-point-patches-zero-day-that-lets-hackers-get-root-access",
+  "slug_check_point_warns_zeroday_exploited_root",
+  "0e1fee9abba42b1ee756da53e57f1517e20ec997a370cff7357ce4634ea47a81",
+  "https://cybersecuritynews.com/break-into-microsoft-sql-servers",
+  "slug_hackers_use_2700_passwords_break_into"
 ]
