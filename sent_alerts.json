@@ -1,13 +1,4 @@
 [
-  "https://www.securityweek.com/node2shell-brotli-flaw-triggers-patching-across-microsoft-node-js-python-packages",
-  "slug_node2shell_brotli_triggers_patching_across_microsoft",
-  "e0df996ac6f273db772adcd0c6a29aced11263ca5501f7bfb8c120e25427a665",
-  "https://thehackernews.com/2026/10/weekly-recap-this2shell-that2shell.html",
-  "slug_weekly_recap_this2shell_that2shell_everythingx27s_rce",
-  "cbcc5c5d1532cb4996baf7f9e9e1d40a2449285c46e9ea0a1f62db420e869ded",
-  "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-emergency-net-patches-for-critical-brotli-flaw",
-  "slug_microsoft_releases_emergency_net_patches_critical",
-  "696f0ca9e09e0177f2a72253ed77637c6eb3a59c2429f241cf27e28690019903",
   "https://cybersecuritynews.com/codex-and-claude-code-hijack",
   "slug_hackers_can_hijack_openai_codex_claude",
   "399172439712b08d5e85ae1e75783c6c3387be4fdb196acb84a4e22c103b9a1f",
@@ -998,5 +989,14 @@
   "slug_police_dismantle_gootloader_castlerat_stealc_malware",
   "956ac4ed339c3f554bf80a5875e4482f68ca66ed6bf797433d78b048f38e6556",
   "https://cybersecuritynews.com/n-able-n-central-zero-day-exploits",
-  "slug_new_nable_ncentral_zeroday_exploits_target"
+  "slug_new_nable_ncentral_zeroday_exploits_target",
+  "83f9d15e0e3302c8a9c39ec9e9b0d7fd95efb259eac14606c96ce42a0ab43d5c",
+  "https://thehackernews.com/2026/11/critical-red-hat-quay-flaw-lets.html",
+  "slug_critical_red_hat_quay_lets_attackers",
+  "7434649087922c0548e2de3696ae4d6e3f08e2f324f2537f01b2890bb59ba702",
+  "https://www.bleepingcomputer.com/news/security/new-worm-like-sckit-malware-targets-msps-in-screenconnect-attacks",
+  "slug_new_wormlike_x27sckitx27_malware_targets_msps",
+  "b904269902ce98e488e1ef681e1e9b887be7e00f0a8fd2582eee3ed6516b248b",
+  "https://cybersecuritynews.com/microsoft-teams-outagenorth-america",
+  "slug_microsoft_teams_outage_hits_users_north"
 ]
