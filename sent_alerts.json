@@ -1,13 +1,4 @@
 [
-  "slug_emperador_ransomware_group_claims_have_stolen",
-  "4b8826d6a66e074543d42962242b43c47c115efa1a641d10702956c2bb749253",
-  "https://thehackernews.com/2026/10/attackers-use-microsoft-teams-it.html",
-  "slug_attackers_use_microsoft_teams_it_support",
-  "46752dcf791041e1a30866c215a0e14dd2dc44ec8454a9eb93ca38c6fc5e76f3",
-  "https://www.bleepingcomputer.com/news/security/university-of-copenhagen-data-breach-exposes-data-of-525-000-people",
-  "slug_university_copenhagen_data_breach_exposes_data",
-  "dc932cd0c0ecdb9a7295698d560a7154a83eb7c95ec1fa843265cbf7d7c4541e",
-  "https://www.securityweek.com/953-online-stores-infected-in-long-lasting-malware-campaign",
   "slug_953_online_stores_infected_longlasting_malware",
   "56a87724392e45d75d582f70ab6e53c3aaa2eb7a543bfc83bf93bb99d5edcdd5",
   "https://cybersecuritynews.com/claudes-official-website",
@@ -998,5 +989,14 @@
   "slug_massive_microsoft_365_outage_disrupts_outlook",
   "b8a63a8c0c77416a43af36c60629891ee284398d3ef477cc9fa9d294b391b784",
   "https://cybersecuritynews.com/massive-microsoft-365-outage",
-  "slug_massive_microsoft_365_outage_impacts_exchange"
+  "slug_massive_microsoft_365_outage_impacts_exchange",
+  "d32b5f97fc676bf8272f9f6b95d6e0c8472686ed16071e93e6db39669ab36383",
+  "https://thehackernews.com/2026/11/fbi-says-north-korean-hackers-stole.html",
+  "slug_fbi_says_north_korean_hackers_stole",
+  "99b6dbedc6234c7fb6aed0a3d3ff8284395976023a1cca0cd1a3d14f2d0e8c2c",
+  "https://www.bleepingcomputer.com/news/microsoft/microsoft-says-november-security-updates-cause-printing-issues",
+  "slug_microsoft_says_november_security_updates_cause",
+  "326b380c11e9f84653c8caa6e96a01e7868e27dad8e7325316eb49e564da9121",
+  "https://cybersecuritynews.com/new-typoprompting-attacks",
+  "slug_new_typoprompting_attacks_turn_mistyped_ai"
 ]
