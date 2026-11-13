@@ -1,14 +1,4 @@
 [
-  "slug_953_online_stores_infected_longlasting_malware",
-  "56a87724392e45d75d582f70ab6e53c3aaa2eb7a543bfc83bf93bb99d5edcdd5",
-  "https://cybersecuritynews.com/claudes-official-website",
-  "slug_hackers_abuse_claudes_official_website_google",
-  "e6f8b8cef107a25e16f98f7bfb023ef5d2b4a5f88938edb5983b958a38d07f15",
-  "https://www.securityweek.com/cybersecurity-issue-forces-a-major-new-mexico-hospital-to-divert-patients-and-close-clinics",
-  "slug_cybersecurity_issue_forces_major_new_mexico",
-  "08b01f91df934d0dbfc541ad1d2e60675253f6ae11563d8c0308f21783681182",
-  "https://www.vulncheck.com/blog/cache-me-if-you-can",
-  "slug_cache_me_if_you_can_unpacking",
   "CVE_CVE-2026-42589",
   "4e555997f2e11531cc20f448c98cfce8bfbdbb386f28c517553e412aabbe0cba",
   "https://cybersecuritynews.com/aokigahara-malware",
@@ -998,5 +988,15 @@
   "slug_microsoft_says_november_security_updates_cause",
   "326b380c11e9f84653c8caa6e96a01e7868e27dad8e7325316eb49e564da9121",
   "https://cybersecuritynews.com/new-typoprompting-attacks",
-  "slug_new_typoprompting_attacks_turn_mistyped_ai"
+  "slug_new_typoprompting_attacks_turn_mistyped_ai",
+  "d8cc2172e29e81d09fbb89cde9eaa285ffcbda93c8f5827b528880d87378bbfe",
+  "https://thehackernews.com/2026/11/postgresql-patches-52-flaws-including.html",
+  "slug_postgresql_patches_52_including_22yearold_bug",
+  "CVE_CVE-2026-6460",
+  "f171629b63a7babe05ac8b8461e18a09584ab020f2caca1577091ddc6ffbfaf2",
+  "https://www.bleepingcomputer.com/news/security/check-point-gateways-hacked-via-php2shell-to-deploy-vmware-esxi-wiper",
+  "slug_check_point_gateways_hacked_via_php2shell",
+  "3c60cf1894a92116e4f38009aa9db9352b75b1924741253ed8107dc92f6b4b97",
+  "https://cybersecuritynews.com/hackers-use-sansar-linux-malware",
+  "slug_hackers_use_sansar_linux_malware_hide"
 ]
