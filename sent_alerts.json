@@ -1,15 +1,4 @@
 [
-  "fe41de402816c681044a50f441ee99106c49c0fd4d4a3983ec6a580f04c30a51",
-  "https://cybersecuritynews.com/goahead-tls-vulnerabilities",
-  "slug_critical_goahead_tls_could_expose_hundreds",
-  "3f1af19eb7d09511a7e39525299058e4dd2bc40b4cd24ac59d6a7b55949b33ad",
-  "https://thehackernews.com/2026/10/cyberstrikeai-uses-44-ai-agents-to.html",
-  "slug_cyberstrikeai_uses_44_ai_agents_automate",
-  "2b90914d399ffff4d4054c8ba72a6c5db366f0a432a0c6b40127d0fb8bbb259f",
-  "https://www.bleepingcomputer.com/news/security/hackers-hijack-convertr-analytics-script-to-steal-payment-card-data",
-  "slug_hackers_hijack_convertr_analytics_script_steal",
-  "9888b23027f1d7c9aea795b8eeb956ae9924c651fc526a937dabe7169b1f175b",
-  "https://cybersecuritynews.com/researchers-exploit-openai-api-flaw",
   "slug_researchers_exploit_openai_api_extract_hidden",
   "ee7d5cd794be00773ca8cb1c52fde21af8dbd3dc113b9260466c930a95c32ca7",
   "https://thehackernews.com/2026/10/ai-generated-fake-login-pages-are.html",
@@ -998,5 +987,16 @@
   "slug_silentair_hackers_intercept_calls_sms_from",
   "2b1a51c62db6caf6b7980237937255c7fdd673a7ce146660ea91c5356da2a01a",
   "https://www.vulncheck.com/blog/anthropic-glasswing-november-update",
-  "slug_after_7months_glasswing_overwelms_maintainers_underwhelming"
+  "slug_after_7months_glasswing_overwelms_maintainers_underwhelming",
+  "e577b898eca3316fd935fc7a4df7581c97404779a3c38de8336c453132c69549",
+  "https://thehackernews.com/2026/11/attackers-exploit-unrealircd-flaw-that.html",
+  "slug_attackers_exploit_unrealircd_that_enables_serverlevel",
+  "CVE_CVE-2026-114713",
+  "95ab10b6a5fa1cd15d313b40d40a3151e598af3359b0b81aabeea616a888b862",
+  "https://cybersecuritynews.com/fbi-reveals-hackers-artex-ai-usage",
+  "slug_fbi_reveals_how_hackers_use_artex",
+  "08b01f91df934d0dbfc541ad1d2e60675253f6ae11563d8c0308f21783681182",
+  "https://www.vulncheck.com/blog/cache-me-if-you-can",
+  "slug_cache_me_if_you_can_unpacking",
+  "CVE_CVE-2026-42589"
 ]
