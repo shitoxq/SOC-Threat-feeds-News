@@ -1,13 +1,4 @@
 [
-  "slug_researchers_exploit_openai_api_extract_hidden",
-  "ee7d5cd794be00773ca8cb1c52fde21af8dbd3dc113b9260466c930a95c32ca7",
-  "https://thehackernews.com/2026/10/ai-generated-fake-login-pages-are.html",
-  "slug_aigenerated_fake_login_pages_making_account",
-  "8cd2ef6409774ff8e021b7e6e5e868a86e71339857bc97183a871357452ee6f9",
-  "https://www.bleepingcomputer.com/news/security/japans-gmo-urges-customers-to-shut-down-pcs-amid-ransomware-threat",
-  "slug_japanx27s_gmo_urges_customers_shut_down",
-  "f7fadab7472b958204a646ef73e3a56c563d246f85e2737bf426c1627a599824",
-  "https://cybersecuritynews.com/hackers-target-u-s-election-commission-forcing-online-system-shutdown",
   "slug_hackers_target_us_election_commission_forcing",
   "b434e7ad4a7b0ac31514c152caffbadf1e157bc6df6b139bef7e740426b338db",
   "https://thehackernews.com/2026/10/lazarus-abuses-south-korean-security.html",
@@ -998,5 +989,14 @@
   "08b01f91df934d0dbfc541ad1d2e60675253f6ae11563d8c0308f21783681182",
   "https://www.vulncheck.com/blog/cache-me-if-you-can",
   "slug_cache_me_if_you_can_unpacking",
-  "CVE_CVE-2026-42589"
+  "CVE_CVE-2026-42589",
+  "3634e34b7392b62bb52fda4fa9908cd0bcd4ff44b3080743d908879844b8c309",
+  "https://www.bleepingcomputer.com/news/security/us-disrupts-north-korean-campaign-behind-400-million-crypto-theft",
+  "slug_us_disrupts_north_korean_campaign_behind",
+  "accce921ba27824f8cfd2fbd2cbe84ca4ce517b03f12414aecf61062e8d62b32",
+  "https://cybersecuritynews.com/active-password-stealing-attack-microsoft-365",
+  "slug_microsoft_warns_active_password_stealing_attack",
+  "a70632833cc9fc2e3bc0ce493071ee9416ec537d41929c3576fc13a1ae89216e",
+  "https://www.vulncheck.com/blog/what-canaries-see",
+  "slug_what_canary_sees_that_kev_entry"
 ]
