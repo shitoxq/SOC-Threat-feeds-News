@@ -1,13 +1,4 @@
 [
-  "slug_hackers_hijack_42_github_repositories_plant",
-  "d4f5d5baa8252d3b756bc8a97ed72acd9be1111362a50f0db6b24997d529be5e",
-  "https://thehackernews.com/2026/10/adobe-fixes-8-critical-campaign-classic.html",
-  "slug_adobe_fixes_8_critical_campaign_classic",
-  "CVE_CVE-2026-104351",
-  "2cc03e2d2e6f4d9f3da001e62625f8df672416e9406829f60841ce0612481ea9",
-  "https://www.bleepingcomputer.com/news/security/hackers-now-scanning-systems-for-recently-patched-oracle-flaw",
-  "slug_hackers_now_scanning_systems_recentlypatched_oracle",
-  "040891e5d91857462e95eb70dc9180aa687a428300aceae403e77adf08ec337c",
   "https://www.securityweek.com/china-linked-hackers-exploit-php2shell-to-root-firewalls",
   "slug_chinalinked_hackers_exploit_php2shell_root_firewalls",
   "257599f0048efc914687bf8cbe309cf14c54b57259dbb661be83599a2c582e36",
@@ -998,5 +989,14 @@
   "slug_fake_gta_6_download_goes_after",
   "eb20fd93cfe3be494f41fb84126fe94885fdc4998249e77cf026d6dc00845175",
   "https://ipurple.team/2026/11/11/scriptblock-smuggling",
-  "slug_scriptblock_smuggling"
+  "slug_scriptblock_smuggling",
+  "e926c40e646ac78df2d9cc59e15acef254b125753c0487e8397584c5a6176cd6",
+  "https://cybersecuritynews.com/cursor-data-breach",
+  "slug_cursor_reveals_how_leaked_fireworks_ai",
+  "05a5a1aee543e61cea3cfbc3a097f7773276c420dcefb48f9381511dd9e2707d",
+  "https://www.vulncheck.com/blog/zbt-darklantern-speakingstone",
+  "slug_chinese_implants_supply_chainin_our_previous",
+  "e18d79091a65140908d44d404e751bbefc2a6d7e789c32783d612c06fb074df8",
+  "https://gbhackers.com/blacknevas-ransomware-attacks-vmware-esxi-servers",
+  "slug_blacknevas_ransomware_attacks_vmware_esxi_servers"
 ]
