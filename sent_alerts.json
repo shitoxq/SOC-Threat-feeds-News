@@ -1,14 +1,4 @@
 [
-  "slug_critical_hashicorp_consul_kubernetes_allows_attackers",
-  "CVE_CVE-2026-110720",
-  "b7d7e51c85e3c557c1699527a018e84ea617c68385c5bef58ae41c7332d4f7e6",
-  "https://thehackernews.com/2026/10/microsoft-authenticator-flaw-let.html",
-  "slug_microsoft_authenticator_let_permissionless_android_apps",
-  "CVE_CVE-2026-80097",
-  "97418a7f472c7c5a23269560378aa0ae690969091a7fc72de2215df38bd27950",
-  "https://www.bleepingcomputer.com/news/security/tailscale-warns-of-serious-ssh-flaws-allowing-root-privilege-escalation",
-  "slug_tailscale_warns_ssh_allowing_root_privilege",
-  "0de55835221a6f67d320329869e8ba7d01cfd70c458f8ca68d44509f5ee1c1fe",
   "https://www.securityweek.com/hpe-patches-dozens-of-critical-flaws-in-networking-products",
   "slug_hpe_patches_dozens_critical_networking_products",
   "6e33a6040a7d5deb5895de4af1b567745929b9730763e4a5298f46b2f03fac99",
@@ -998,5 +988,15 @@
   "slug_microsoft_confirms_windows_activation_failures_after",
   "cb849dba965d8086417ca60d72085decd7774729b63bd553a7c4cdddb2a6e647",
   "https://www.securityweek.com/in-other-news-new-cisa-director-nominee-connected-car-hacking-baker-tilly-data-breach",
-  "slug_other_news_new_cisa_director_nominee"
+  "slug_other_news_new_cisa_director_nominee",
+  "69d1a63879fd152b3ec7ee2e666f0ba12fe3b0a54d2ab668c2bdd0f0547ed489",
+  "https://thehackernews.com/2026/11/hackers-exploit-php2shell-flaws-in.html",
+  "slug_hackers_exploit_php2shell_check_point_gateways",
+  "08ca763e0dd61e6f21358af58571cac76749276a084c121fa75352d1ab307ee0",
+  "https://cybersecuritynews.com/check-point-0-day-vulnerability",
+  "slug_cisa_warns_check_point_0day_vulnerability",
+  "CVE_CVE-2026-123039",
+  "b291b300ac5dc98b0ea92c062ad267d39b83b4670e020903e2717376233b62ff",
+  "https://www.securityweek.com/microsoft-struggles-to-restore-email-and-other-services-in-a-global-outage",
+  "slug_microsoft_struggles_restore_email_other_services"
 ]
