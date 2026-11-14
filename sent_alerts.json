@@ -1,13 +1,4 @@
 [
-  "slug_hackers_target_us_election_commission_forcing",
-  "b434e7ad4a7b0ac31514c152caffbadf1e157bc6df6b139bef7e740426b338db",
-  "https://thehackernews.com/2026/10/lazarus-abuses-south-korean-security.html",
-  "slug_lazarus_abuses_south_korean_security_software",
-  "8a9df3ce570e5539f47fe4951e38da1e313810c9ece9e0f81964f8ed5cb64472",
-  "https://www.bleepingcomputer.com/news/security/unm-health-ransomware-attack-disrupts-patient-care-surgeries",
-  "slug_unm_health_ransomware_attack_disrupts_patient",
-  "95777095fa4d4500355b7ff455bfbf66342bb6b3502b8fc0813d10c86aaf4b2e",
-  "https://cybersecuritynews.com/hackers-hijack-42-github-repositories",
   "slug_hackers_hijack_42_github_repositories_plant",
   "d4f5d5baa8252d3b756bc8a97ed72acd9be1111362a50f0db6b24997d529be5e",
   "https://thehackernews.com/2026/10/adobe-fixes-8-critical-campaign-classic.html",
@@ -998,5 +989,14 @@
   "slug_microsoft_warns_active_password_stealing_attack",
   "a70632833cc9fc2e3bc0ce493071ee9416ec537d41929c3576fc13a1ae89216e",
   "https://www.vulncheck.com/blog/what-canaries-see",
-  "slug_what_canary_sees_that_kev_entry"
+  "slug_what_canary_sees_that_kev_entry",
+  "0a87e7e2ec15eb138eb8e2eb0de3f302ad71e1fe00ad1b8dd0ee757be6d34748",
+  "https://www.vulncheck.com/blog/pwning-the-ai-stack",
+  "slug_same_target_different_playbooks_two_attackers",
+  "d1bdf107facfbb1c795f3a6e1189bf72fcf4c553c35ffe9ca0eeaef669ac64d5",
+  "https://www.helpnetsecurity.com/2026/11/13/fake-gta-6-download-scam",
+  "slug_fake_gta_6_download_goes_after",
+  "eb20fd93cfe3be494f41fb84126fe94885fdc4998249e77cf026d6dc00845175",
+  "https://ipurple.team/2026/11/11/scriptblock-smuggling",
+  "slug_scriptblock_smuggling"
 ]
