@@ -1,13 +1,4 @@
 [
-  "slug_hackers_abuse_connectwise_cloud_backup_credentials",
-  "eae2a3c7c621fbaa9377337e2a6174c936467e94d1f172c44c7b9931a768facd",
-  "https://thehackernews.com/2026/10/australia-gets-into-amadey-malware.html",
-  "slug_australia_gets_into_amadey_malware_backend",
-  "f3ab07cce1ac7752dbeb4a13b5572b3df2fbcd3f24e76901a1b5eb839bb356fa",
-  "https://www.bleepingcomputer.com/news/apple/apple-backports-coregraphics-zero-day-patches-to-older-iphones",
-  "slug_apple_backports_coregraphics_zeroday_patches_older",
-  "b87dd3341dc7f2e7c90a75ed841226155aefc100f7886ec0186db6698fa37b07",
-  "https://cybersecuritynews.com/hashicorp-consul-kubernetes-vulnerability",
   "slug_critical_hashicorp_consul_kubernetes_allows_attackers",
   "CVE_CVE-2026-110720",
   "b7d7e51c85e3c557c1699527a018e84ea617c68385c5bef58ae41c7332d4f7e6",
@@ -998,5 +989,14 @@
   "slug_check_point_warns_zeroday_exploited_root",
   "0e1fee9abba42b1ee756da53e57f1517e20ec997a370cff7357ce4634ea47a81",
   "https://cybersecuritynews.com/break-into-microsoft-sql-servers",
-  "slug_hackers_use_2700_passwords_break_into"
+  "slug_hackers_use_2700_passwords_break_into",
+  "d25f99854f909af54099cfc40f5de8da9f0d19bbfb833557978ef6ead30cca94",
+  "https://thehackernews.com/2026/11/operation-endgame-takes-down-gootloader.html",
+  "slug_operation_endgame_takes_down_gootloader_castlerat",
+  "a5f7a5d903c7d49d7035f84b339738cd83bef20a32237965a933cf20d21a2acd",
+  "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-windows-activation-failures-after-november-updates",
+  "slug_microsoft_confirms_windows_activation_failures_after",
+  "cb849dba965d8086417ca60d72085decd7774729b63bd553a7c4cdddb2a6e647",
+  "https://www.securityweek.com/in-other-news-new-cisa-director-nominee-connected-car-hacking-baker-tilly-data-breach",
+  "slug_other_news_new_cisa_director_nominee"
 ]
