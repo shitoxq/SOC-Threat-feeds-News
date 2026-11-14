@@ -1,13 +1,4 @@
 [
-  "https://www.securityweek.com/hpe-patches-dozens-of-critical-flaws-in-networking-products",
-  "slug_hpe_patches_dozens_critical_networking_products",
-  "6e33a6040a7d5deb5895de4af1b567745929b9730763e4a5298f46b2f03fac99",
-  "https://thehackernews.com/2026/10/apple-backports-fix-for-exploited.html",
-  "slug_apple_backports_fix_exploited_coregraphics_older",
-  "CVE_CVE-2026-86950",
-  "728f1e861a42ac6837a342aedb7bd2ef2dff68b2341dcddbde778babab7079f0",
-  "https://www.bleepingcomputer.com/news/security/the-huntress-tragic-quadrant-ranking-threats-hitting-businesses-hardest",
-  "slug_huntress_tragic_quadrant_ranking_threats_hitting",
   "fe41de402816c681044a50f441ee99106c49c0fd4d4a3983ec6a580f04c30a51",
   "https://cybersecuritynews.com/goahead-tls-vulnerabilities",
   "slug_critical_goahead_tls_could_expose_hundreds",
@@ -998,5 +989,14 @@
   "CVE_CVE-2026-123039",
   "b291b300ac5dc98b0ea92c062ad267d39b83b4670e020903e2717376233b62ff",
   "https://www.securityweek.com/microsoft-struggles-to-restore-email-and-other-services-in-a-global-outage",
-  "slug_microsoft_struggles_restore_email_other_services"
+  "slug_microsoft_struggles_restore_email_other_services",
+  "3323708eedc1652bcfad6ed983ddfc6f951dc31e4cc2e3ba922e53bbee89b5cd",
+  "https://cybersecuritynews.com/uber-confirms-data-breach",
+  "slug_uber_confirms_data_breach_hackers_stole",
+  "4f3fa919241a106d6546c76d78dcd4b1d0e9feae36ce336f2bfe01c17233bd06",
+  "https://www.securityweek.com/silentair-hackers-intercept-calls-sms-from-inside-mobile-networks",
+  "slug_silentair_hackers_intercept_calls_sms_from",
+  "2b1a51c62db6caf6b7980237937255c7fdd673a7ce146660ea91c5356da2a01a",
+  "https://www.vulncheck.com/blog/anthropic-glasswing-november-update",
+  "slug_after_7months_glasswing_overwelms_maintainers_underwhelming"
 ]
