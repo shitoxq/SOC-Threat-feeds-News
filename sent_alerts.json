@@ -1,13 +1,4 @@
 [
-  "https://thehackernews.com/2026/10/researcher-reveals-how-logic-bugs-alone.html",
-  "slug_researcher_reveals_how_logic_bugs_alone",
-  "daccbc8b4a6551e35b0da0be3c702f8dc89d5f694509f106bb1d8f3636828587",
-  "https://www.bleepingcomputer.com/news/microsoft/microsoft-reminds-entra-id-admins-to-migrate-users-to-passkeys",
-  "slug_microsoft_urges_entra_id_admins_migrate",
-  "42b0b6bfa25f404f0324dd6c3449d0878f98248ef722ce08650c53eb52becd41",
-  "https://cybersecuritynews.com/google-fixes-52-chrome-security-flaws",
-  "slug_google_fixes_52_chrome_security_including",
-  "f83598082f121f26e38f677f533b4f91d72e5c052eacd1a3b46cc192c0c8b054",
   "https://thehackernews.com/2026/10/hackers-target-critical-oracle-e.html",
   "slug_hackers_target_critical_oracle_ebusiness_suite",
   "CVE_CVE-2026-101767",
@@ -998,5 +989,14 @@
   "CVE_CVE-2026-20127",
   "770f84d95fac0c7c431843e9b7be658326d0f84ea096cd5cfc4278afd181f0e4",
   "https://gbhackers.com/fbi-warns-artex-ai-framework",
-  "slug_fbi_warns_hackers_weaponizing_artex_ai"
+  "slug_fbi_warns_hackers_weaponizing_artex_ai",
+  "06523011a689844611e1c026edc7a1737d4eb9b4ef449ff06f640731988d1dc1",
+  "https://www.bleepingcomputer.com/news/security/tsmc-employee-data-breach-linked-to-cloud-provider",
+  "slug_tsmc_employee_data_breach_linked_cloud",
+  "e05b2f0337110f8f7cde0d27904e09ca178011f6d6516a33a059c24721433541",
+  "https://cybersecuritynews.com/supermarket-refrigeration-systems-0-day",
+  "slug_researchers_find_six_0days_allowing_unauthorized",
+  "25650ccc1da1c220b9459ea9a33a64f7b4c9217c57c3cfe9a00e2986e7b5ccc7",
+  "https://www.vulncheck.com/blog/siftrank_canaries",
+  "slug_siftranking_canary_intelligencecanary_intelligence_captures_thousands"
 ]
