@@ -1,13 +1,4 @@
 [
-  "https://thehackernews.com/2026/10/hackers-target-critical-oracle-e.html",
-  "slug_hackers_target_critical_oracle_ebusiness_suite",
-  "CVE_CVE-2026-101767",
-  "f7c922d860fb31661e7c6eb57a464662affd78e916cc59f6ba7086e37066a0b5",
-  "https://www.bleepingcomputer.com/news/security/infratrust-report-warns-of-exploited-flaws-in-critical-network-infrastructure",
-  "slug_infratrust_report_warns_exploited_critical_network",
-  "ec343af06bac9432a0a41e0e660748561d33214024e4330267b1bd49f1065073",
-  "https://www.securityweek.com/ukrainian-hive-and-nefilim-ransomware-affiliate-gets-70-months-in-us-prison",
-  "slug_ukrainian_hive_nefilim_ransomware_affiliate_gets",
   "48f467fc9990539a6e8ad8a2bbce0f0d1d0c63500e496a2e9335a95820f828df",
   "https://thehackernews.com/2026/10/china-linked-hackers-exploited-vmware.html",
   "slug_chinalinked_hackers_exploited_vmware_esx_zeroday",
@@ -998,5 +989,14 @@
   "slug_researchers_find_six_0days_allowing_unauthorized",
   "25650ccc1da1c220b9459ea9a33a64f7b4c9217c57c3cfe9a00e2986e7b5ccc7",
   "https://www.vulncheck.com/blog/siftrank_canaries",
-  "slug_siftranking_canary_intelligencecanary_intelligence_captures_thousands"
+  "slug_siftranking_canary_intelligencecanary_intelligence_captures_thousands",
+  "7bf6d5eb186443ef0d21f76e7a86cd8a914d7e6334a881ecb3e6c6d0b06f8dce",
+  "https://www.vulncheck.com/blog/2026-vulncheck-exploit-intelligence-report",
+  "slug_introducing_2026_vulncheck_exploit_intelligence_reportindepth",
+  "01148a3ceeaea932ac550d97632c4a9e61b5e69941c801067b3da5090e2810e1",
+  "https://www.helpnetsecurity.com/2026/11/15/week-in-review-secret-stealer-hits-github-repos-claude-code-turned-into-remote-controlled-implant",
+  "slug_week_review_secret_stealer_hits_github",
+  "7d96c85341cf3b2bcf45add157d1b01210a93b104ad368ab9759c5426b342365",
+  "https://ipurple.team/2026/09/21/dump-encoding-library",
+  "slug_dump_encoding_library"
 ]
