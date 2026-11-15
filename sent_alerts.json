@@ -1,13 +1,4 @@
 [
-  "48f467fc9990539a6e8ad8a2bbce0f0d1d0c63500e496a2e9335a95820f828df",
-  "https://thehackernews.com/2026/10/china-linked-hackers-exploited-vmware.html",
-  "slug_chinalinked_hackers_exploited_vmware_esx_zeroday",
-  "CVE_CVE-2026-41709",
-  "303c17a3cab1c27ee61b0863d9c486d6a8b17651bb71f3436a7af03cc8ec92f3",
-  "https://www.bleepingcomputer.com/news/security/even-after-php2shell-blast-radius-matters-more-than-a-cvss-score",
-  "slug_even_after_php2shell_blast_radius_matters",
-  "072011234341759a2d19f47f60ac54ea615acf68cf208c4e73e0a5fc163dcbd2",
-  "https://cybersecuritynews.com/microsoft-edge-zero-click-exploit",
   "slug_microsoft_edge_zeroclick_exploit_chains_five",
   "17b1ed18b9db9df1dd4b4d47338a47c3092da53302d72c1b3e5c984c73d6af97",
   "https://thehackernews.com/2026/10/googles-gemini-4-carbon-leads.html",
@@ -998,5 +989,14 @@
   "slug_week_review_secret_stealer_hits_github",
   "7d96c85341cf3b2bcf45add157d1b01210a93b104ad368ab9759c5426b342365",
   "https://ipurple.team/2026/09/21/dump-encoding-library",
-  "slug_dump_encoding_library"
+  "slug_dump_encoding_library",
+  "a6a20519109be054045489caf66ea769d428fa34dc753eee41d43847506224a3",
+  "https://www.bleepingcomputer.com/news/security/fbi-warns-artex-ai-hacking-tool-is-powering-global-cyberattacks",
+  "slug_fbi_warns_artex_ai_hacking_tool",
+  "e525e7ac54448ecd534e3c4305417d69151bf5ab662b3c6f76543c8cd4956301",
+  "https://www.vulncheck.com/blog/exploitation-activity-targeting-japan",
+  "slug_exploitation_flows_targeting_japanlast_week_we",
+  "2709e0a7b4d2a77b54b86c17900bb2f83484ca63e9a61b2f63a9879e6f2ef44e",
+  "https://gbhackers.com/hackers-use-falcon-c2-framework",
+  "slug_hackers_use_falcon_c2_framework_hijack"
 ]
