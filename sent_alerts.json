@@ -1,13 +1,4 @@
 [
-  "3402ef3be45eaaf5abfa887e5a5903a5fd4773a26c53e5d4f9d6720418fdd0e4",
-  "https://thehackernews.com/2026/10/volt-typhoon-used-covert-silent-train.html",
-  "slug_volt_typhoon_used_covert_silent_train",
-  "49d0f1bc00afd8c5aae1ca4a287e35adbdbc18ceb45444243d98c56ce6c51df2",
-  "https://www.bleepingcomputer.com/news/security/volt-typhoon-hides-zero-day-attacks-using-silent-train-framework",
-  "slug_volt_typhoon_hides_zeroday_attacks_using",
-  "7a893f620b237dbb34a35bdd0762d507b7438043d4ca73996f7c6ecb106bfbd2",
-  "https://cybersecuritynews.com/offsec-launches-free-php2shell-lab-following-critical-vulnerability-discovery",
-  "slug_offsec_launches_free_php2shell_lab_following",
   "346aefdaad097d5af65c53020f635dc9162b31a2aa95bfb94ae871855a6e652e",
   "https://thehackernews.com/2026/10/google-to-allow-one-tap-android-app.html",
   "slug_google_allow_onetap_android_app_installs",
@@ -998,5 +989,14 @@
   "slug_hackers_use_stolen_llm_api_keys",
   "bdf2df440d90268fa398e6ca573b96d772166cb396eeadc0854f3d2d9dc89c54",
   "https://www.helpnetsecurity.com/2026/11/13/europol-dark-web-arrests-cybercrime",
-  "slug_354_dark_web_vendors_buyers_arrested"
+  "slug_354_dark_web_vendors_buyers_arrested",
+  "628fc3790860a7c67fa37485106e36c4dd8d31c69e8b63c9fe64e2e7882e73e5",
+  "https://www.vulncheck.com/blog/death-by-20k-pocs",
+  "slug_death_20000_pocsvulnchecks_research_team_shares",
+  "30818f652a899320f7639258cea0486b5a56db2ab894bb83485c662cab0e1d59",
+  "https://www.helpnetsecurity.com/2026/11/13/fbi-north-korean-fake-zoom-calls",
+  "slug_stolen_webcam_clips_900_victims_feed",
+  "dfe4997e89e4ada96271d1ba22b13965d6312018565e7080eadd4c3b810be5e4",
+  "https://ipurple.team/2026/10/22/custom-extensions",
+  "slug_custom_extensions"
 ]
