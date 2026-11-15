@@ -1,14 +1,4 @@
 [
-  "346aefdaad097d5af65c53020f635dc9162b31a2aa95bfb94ae871855a6e652e",
-  "https://thehackernews.com/2026/10/google-to-allow-one-tap-android-app.html",
-  "slug_google_allow_onetap_android_app_installs",
-  "4a9db94d56e1f65315b82bfc56fd9e383367c0f3e394ad9993734b17e43b6373",
-  "https://www.bleepingcomputer.com/news/security/police-seize-virtualine-bulletproof-service-tied-to-ransowmare-cybercrime",
-  "slug_police_seize_virtualine_bulletproof_service_tied",
-  "e3c6ac526bff414541e023acd3fd93a28924f6b88ada05b3e4ed0afbf4ccda4b",
-  "https://cybersecuritynews.com/propellerads-why-modern-malware-delivery-starts-before-the-payload",
-  "slug_propellerads_why_modern_malware_delivery_starts",
-  "4abc2dcf4334fae95bb4786199ce0d0e7ccab68addad061697543ee26a700ac6",
   "https://thehackernews.com/2026/10/researcher-reveals-how-logic-bugs-alone.html",
   "slug_researcher_reveals_how_logic_bugs_alone",
   "daccbc8b4a6551e35b0da0be3c702f8dc89d5f694509f106bb1d8f3636828587",
@@ -998,5 +988,15 @@
   "slug_stolen_webcam_clips_900_victims_feed",
   "dfe4997e89e4ada96271d1ba22b13965d6312018565e7080eadd4c3b810be5e4",
   "https://ipurple.team/2026/10/22/custom-extensions",
-  "slug_custom_extensions"
+  "slug_custom_extensions",
+  "d5585df40181d87d8a2f8949ffca3455429d8ce6354cf971c14ca7c6294e0061",
+  "https://thehackernews.com/2026/11/stolen-fireworks-ai-key-led-to-cursor.html",
+  "slug_cursor_says_stolen_fireworks_ai_key",
+  "435bd94b9a602296659790bbdbea37c863470d0ec0c9fa571380a430f7c4ff3c",
+  "https://www.vulncheck.com/blog/cisco-sd-wan-manager-vulns",
+  "slug_herding_cats_recent_cisco_sdwan_manager",
+  "CVE_CVE-2026-20127",
+  "770f84d95fac0c7c431843e9b7be658326d0f84ea096cd5cfc4278afd181f0e4",
+  "https://gbhackers.com/fbi-warns-artex-ai-framework",
+  "slug_fbi_warns_hackers_weaponizing_artex_ai"
 ]
