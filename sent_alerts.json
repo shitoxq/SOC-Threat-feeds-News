@@ -1,13 +1,4 @@
 [
-  "https://www.securityweek.com/cisco-open-sources-quarry-to-catch-ai-agent-attacks-hidden-in-harmless-steps",
-  "slug_cisco_open_sources_quarry_catch_ai",
-  "7f056f665bfe428e129ca46d0ad2f3372b43502d041f393e9bd2d3b0dd8f6dfc",
-  "https://thehackernews.com/2026/10/threatsday-critical-firewall-flaws.html",
-  "slug_threatsday_critical_firewall_banking_trojans_rented",
-  "207ac6ae9c2086a201581bab805ea47e1045f4a268c9e3362acd0891e50b1a98",
-  "https://www.bleepingcomputer.com/news/security/cisa-warns-of-fragnesia-linux-flaw-chained-in-php2shell-attacks",
-  "slug_cisa_warns_fragnesia_linux_chained_php2shell",
-  "0116e1bac2f47e6c81eeb710ba6d3c5d73fd886846e88bf00d2932c3bf6d3fcd",
   "https://cybersecuritynews.com/state-of-ad-fraud-2026-52-of-schemes-use-ai-as-cloaking-loses-ground-to-ios-exploits-and-messenger-phishing",
   "slug_state_ad_fraud_2026_52_schemes",
   "d9e7c9ddc0eb7fb8a152a482b9f1de6f3b5a1598bbb6e21338ded62dba8f7868",
@@ -998,5 +989,14 @@
   "slug_making_serialization_gadgets_hand_javalearn_how",
   "50150c5327db3f263e1bab26e2d037478159deaffae002e1436de2a2b2ce8eee",
   "https://gbhackers.com/rbvm-buyers-guide",
-  "slug_10_riskbased_vulnerability_management_tools_2026"
+  "slug_10_riskbased_vulnerability_management_tools_2026",
+  "d6a0c3df6c7fff40e930551d8ba0fc12d9365fc03422dd9ebb5ed951b2e5d812",
+  "https://thehackernews.com/2026/11/amazon-uncovers-ai-agent-campaign.html",
+  "slug_amazon_uncovers_ai_agent_campaign_targeting",
+  "b644e2010a0630fa1cadc5d4a370276afae9c23fe7630bea73105a7662637ded",
+  "https://www.bleepingcomputer.com/news/microsoft/microsoft-new-windows-emergency-updates-fix-activation-licensing-failures",
+  "slug_microsoft_pushes_windows_emergency_updates_fix",
+  "e8259e1ec3708a988f1fdb4721cbabc47842f50eb7b0f1627cdb963f6acdc347",
+  "https://cybersecuritynews.com/microsoft-outage-incident-report",
+  "slug_microsoft_reveals_how_hidden_windows_bug"
 ]
