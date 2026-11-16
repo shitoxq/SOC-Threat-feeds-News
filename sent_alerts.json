@@ -1,13 +1,4 @@
 [
-  "https://cybersecuritynews.com/8200-ddos-attacks-every-hour",
-  "slug_hackers_launch_8200_ddos_attacks_every",
-  "d563e9e1aaec1f91d767e2b0969b8f0b1738657d75a69c29f605085a2106660c",
-  "https://thehackernews.com/2026/10/binance-suffers-security-breach.html",
-  "slug_binance_suffers_security_breach_affecting_63",
-  "97e1eb09d975c625903cb93681569f3b278b48d71b03175a2cff0bf424727898",
-  "https://www.bleepingcomputer.com/news/security/hugging-face-malware-campaign-returns-to-hijack-gpus-for-crypto-mining",
-  "slug_hugging_face_malware_campaign_returns_hijack",
-  "1e4f832c81190733a6ec2d86424690ac07465de843b4ae103ced437e9d628dfd",
   "https://cybersecuritynews.com/wordpress-rce-exploited",
   "slug_hackers_actively_exploiting_wordpress_remote_code",
   "89ba8a41a1ee0be07879dd6b06ecae43cee5c3370fad66c88f0b09cc1e218801",
@@ -998,5 +989,14 @@
   "slug_microsoft_says_monthsold_bug_caused_global",
   "68e8a12fb0b7b4a568fe6727f508ca54a10c73d32fe575011e9fce6df48ad417",
   "https://cybersecuritynews.com/patch-management-tools",
-  "slug_15_best_patch_management_tools_2027"
+  "slug_15_best_patch_management_tools_2027",
+  "e021b9febf9ed0b72381678ae1e4f38416a2854947429d039f6506c3c5ee0c2c",
+  "https://thehackernews.com/2026/11/weekly-recap-n-able-0-days-windows-0.html",
+  "slug_weekly_recap_nable_0days_windows_0days",
+  "4a6f74b2f2cec2957f49135bee8f0c5870fe8f72d60ae41a7aff9b213d9bf195",
+  "https://www.bleepingcomputer.com/news/security/fandango-says-hackers-stole-payment-card-details-from-checkout-pages",
+  "slug_fandango_says_hackers_stole_payment_card",
+  "c32c1f7680c0316f0aed1a706a023d43acc8342bd992f0bdd2349c15f265356f",
+  "https://cybersecuritynews.com/claude-code-vs-code-extension",
+  "slug_researchers_reveal_how_claude_code_vs"
 ]
