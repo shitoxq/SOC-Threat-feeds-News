@@ -1,13 +1,4 @@
 [
-  "slug_microsoft_edge_zeroclick_exploit_chains_five",
-  "17b1ed18b9db9df1dd4b4d47338a47c3092da53302d72c1b3e5c984c73d6af97",
-  "https://thehackernews.com/2026/10/googles-gemini-4-carbon-leads.html",
-  "slug_googlex27s_gemini_4_carbon_leads_benchmarks",
-  "ec60372839277a56324cde1a668bb12aedc37b72deb6a7fb6b0881fed7398864",
-  "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-remote-desktop-failures-caused-by-recent-windows-updates",
-  "slug_microsoft_fixes_remote_desktop_failures_caused",
-  "f7bbff6e51aec84640b3ac2b5dfcfeb78098ea2b2d2b001a680d1128d19f6b33",
-  "https://www.securityweek.com/google-says-gemini-4-carbon-leads-in-finding-exploiting-and-fixing-vulnerabilities",
   "slug_google_touts_powerful_cybersecurity_capabilities_gemini",
   "1be6a1df25ca72b4139ae0bbc1cbca5b2d85d4e6a6ea5b695bedf9a91f8eda37",
   "https://thehackernews.com/2026/10/linux-kernel-tcp-flaw-with-98-cvss.html",
@@ -998,5 +989,14 @@
   "slug_exploitation_flows_targeting_japanlast_week_we",
   "2709e0a7b4d2a77b54b86c17900bb2f83484ca63e9a61b2f63a9879e6f2ef44e",
   "https://gbhackers.com/hackers-use-falcon-c2-framework",
-  "slug_hackers_use_falcon_c2_framework_hijack"
+  "slug_hackers_use_falcon_c2_framework_hijack",
+  "b3829597ab40e1153953e630ef1a36e27c5a16466383e99e11916e2df4030f96",
+  "https://www.vulncheck.com/blog/economic-value-lead-time",
+  "slug_what_28_days_faster_vulnerability_intelligence",
+  "7a897f15bfeb2486e9f57417dc6ab4136e967504b24a625f512386e3a089a490",
+  "https://gbhackers.com/japan-cyberattack-ai-security-vulnerabilities",
+  "slug_japan_hit_record_cyberattack_surge_hackers",
+  "9a0761487294f5ebd53e5dce4b693631e7e87cfcd7887e212a3b9d39656f9ea1",
+  "https://www.helpnetsecurity.com/2026/11/13/microsoft-teams-device-code-phishing",
+  "slug_how_attackers_turned_teams_meeting_booking"
 ]
