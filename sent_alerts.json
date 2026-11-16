@@ -1,13 +1,4 @@
 [
-  "slug_google_touts_powerful_cybersecurity_capabilities_gemini",
-  "1be6a1df25ca72b4139ae0bbc1cbca5b2d85d4e6a6ea5b695bedf9a91f8eda37",
-  "https://thehackernews.com/2026/10/linux-kernel-tcp-flaw-with-98-cvss.html",
-  "slug_linux_kernel_tcp_98_cvss_score",
-  "CVE_CVE-2026-98432",
-  "3ee38022c040535cc42b026ad5bc7cb6d48d905ef941c7dbe27a7d40079584a3",
-  "https://www.bleepingcomputer.com/news/security/chrome-extensions-with-134-million-installs-caught-hijacking-searches",
-  "slug_chrome_extensions_134_million_installs_caught",
-  "2d227d60054f7c2d0b1a28295ddae73c86131f9d42cea730ddff748182ad3369",
   "https://www.securityweek.com/cisco-open-sources-quarry-to-catch-ai-agent-attacks-hidden-in-harmless-steps",
   "slug_cisco_open_sources_quarry_catch_ai",
   "7f056f665bfe428e129ca46d0ad2f3372b43502d041f393e9bd2d3b0dd8f6dfc",
@@ -998,5 +989,14 @@
   "slug_japan_hit_record_cyberattack_surge_hackers",
   "9a0761487294f5ebd53e5dce4b693631e7e87cfcd7887e212a3b9d39656f9ea1",
   "https://www.helpnetsecurity.com/2026/11/13/microsoft-teams-device-code-phishing",
-  "slug_how_attackers_turned_teams_meeting_booking"
+  "slug_how_attackers_turned_teams_meeting_booking",
+  "a20f57985f7ba5a1d73ec77afe4233849d2475d8c5c71732589eb93de17b83e7",
+  "https://cybersecuritynews.com/best-caasm-tools",
+  "slug_top_10_best_cyber_asset_attack",
+  "afccb2950c0f74aabeede061cd9e431db3f0458e4af0d6c10a5531336e9d6c87",
+  "https://www.vulncheck.com/blog/making-java-gadgets",
+  "slug_making_serialization_gadgets_hand_javalearn_how",
+  "50150c5327db3f263e1bab26e2d037478159deaffae002e1436de2a2b2ce8eee",
+  "https://gbhackers.com/rbvm-buyers-guide",
+  "slug_10_riskbased_vulnerability_management_tools_2026"
 ]
