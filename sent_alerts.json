@@ -1,13 +1,4 @@
 [
-  "https://cybersecuritynews.com/state-of-ad-fraud-2026-52-of-schemes-use-ai-as-cloaking-loses-ground-to-ios-exploits-and-messenger-phishing",
-  "slug_state_ad_fraud_2026_52_schemes",
-  "d9e7c9ddc0eb7fb8a152a482b9f1de6f3b5a1598bbb6e21338ded62dba8f7868",
-  "https://thehackernews.com/2026/10/fake-chatgpt-and-claude-apps-abuse.html",
-  "slug_fake_chatgpt_claude_apps_abuse_signed",
-  "0d4158f28ceec8977e42ad36742265dc56c936ec610cbe1434391b6656995eb7",
-  "https://www.bleepingcomputer.com/news/security/binance-probes-potential-58-billion-crypto-theft-hack",
-  "slug_binance_probes_potential_58_billion_cryptotheft",
-  "0dbb240f9184bc6b153b011487a4a41f3d57b63bf91eeb9b37d12d08e9b6df3f",
   "https://cybersecuritynews.com/8200-ddos-attacks-every-hour",
   "slug_hackers_launch_8200_ddos_attacks_every",
   "d563e9e1aaec1f91d767e2b0969b8f0b1738657d75a69c29f605085a2106660c",
@@ -998,5 +989,14 @@
   "slug_microsoft_pushes_windows_emergency_updates_fix",
   "e8259e1ec3708a988f1fdb4721cbabc47842f50eb7b0f1627cdb963f6acdc347",
   "https://cybersecuritynews.com/microsoft-outage-incident-report",
-  "slug_microsoft_reveals_how_hidden_windows_bug"
+  "slug_microsoft_reveals_how_hidden_windows_bug",
+  "a863217f46213f9487e009921451d33ad0304af967cea2283f07b0f2628f99b6",
+  "https://thehackernews.com/2026/11/google-finds-hackers-using-ai-agents-to.html",
+  "slug_google_finds_hackers_using_ai_agents",
+  "dd1f91326b0e713a5b7f9c0fbba3214969f239b08232165c7cea2e532abe46dd",
+  "https://www.bleepingcomputer.com/news/microsoft/microsoft-says-months-old-bug-caused-global-microsoft-365-outage",
+  "slug_microsoft_says_monthsold_bug_caused_global",
+  "68e8a12fb0b7b4a568fe6727f508ca54a10c73d32fe575011e9fce6df48ad417",
+  "https://cybersecuritynews.com/patch-management-tools",
+  "slug_15_best_patch_management_tools_2027"
 ]
