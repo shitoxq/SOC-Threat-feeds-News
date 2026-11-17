@@ -1,13 +1,4 @@
 [
-  "https://cybersecuritynews.com/when-threats-dont-wait-security-cant-either",
-  "slug_when_threats_dont_wait_security_cant",
-  "8fc971e55b17c65a2d3492eb5e2c0ae31dd7abaf787a00f62ba8ad49a9585c7b",
-  "https://thehackernews.com/2026/10/wordpress-rce-flaw-draws-nearly-63000.html",
-  "slug_wordpress_rce_draws_nearly_63000_attack",
-  "6617c8ee53373e8872f5f73d715a2d396aca4428a8baa567862aead04ad640f3",
-  "https://www.bleepingcomputer.com/news/security/critical-linux-kernel-flaw-allows-remote-root-attacks-on-mptcp-servers",
-  "slug_critical_linux_kernel_allows_remote_root",
-  "7e5822c2be4d3a0b5c7ee4579a6c56d00eb2068a52492492b4e8f2d57e0c5c13",
   "https://www.securityweek.com/php2shell-attacks-root-palo-alto-firewalls-but-fail-against-wordpress",
   "slug_php2shell_attacks_root_palo_alto_firewalls",
   "bc4258f9677bca1e1ae924948e90c7d96d320b088c7bee44bb969c86fb9d9f4b",
@@ -998,5 +989,14 @@
   "slug_researchers_hijack_hugging_face_account_popular",
   "997c49b5de742930e47ba7ac29314f438f9fd05a581053598a0f82da7b05e84a",
   "https://cybersecuritynews.com/malicious-ios-scripts-now-behind-1-in-5-advertiser-suspensions-as-coruna-exploit-kit-hides-inside-ad-landing-pages",
-  "slug_malicious_ios_scripts_now_behind_1"
+  "slug_malicious_ios_scripts_now_behind_1",
+  "4f9516b8f5d72d7aacdd2019c89a70ba5b7d120f880fe9df41ffddb86f861d17",
+  "https://thehackernews.com/2026/11/trigram-campaign-impersonates-about-50.html",
+  "slug_trigram_campaign_impersonates_about_50_ai",
+  "089a26d26696ca1b8a4f15ef4ae8d36e184664fe7e16a99775305e2032736b83",
+  "https://www.bleepingcomputer.com/news/hardware/flipper-devices-launches-399-flipper-one-linux-based-multi-tool",
+  "slug_flipper_devices_launches_399_flipper_one",
+  "5666c77aebcbd69d34ef23bb04d521202611fbe9c2d9c9d12798a02f57232534",
+  "https://cybersecuritynews.com/mssp-threat-intelligence-soc-capacity",
+  "slug_how_fiveanalyst_mssp_increased_soc_capacity"
 ]
