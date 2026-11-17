@@ -1,13 +1,4 @@
 [
-  "https://cybersecuritynews.com/wordpress-rce-exploited",
-  "slug_hackers_actively_exploiting_wordpress_remote_code",
-  "89ba8a41a1ee0be07879dd6b06ecae43cee5c3370fad66c88f0b09cc1e218801",
-  "https://thehackernews.com/2026/08/learn-how-to-build-security-operations.html",
-  "slug_webinar_how_build_ai_threat_readiness",
-  "6c71e65e346126f63c912f31f05e1208df15edf408bcc2cbac79ea6b82e3c2dd",
-  "https://www.bleepingcomputer.com/news/security/japan-airlines-suffers-third-party-data-breach-exposing-passenger-info",
-  "slug_japan_airlines_suffers_thirdparty_data_breach",
-  "0264607d9cd4c0f246415f5ffd730d0d3e35d5f2d7e7d847feab99fe33c70e16",
   "https://cybersecuritynews.com/linux-kernel-missing-initialization-vulnerability",
   "slug_cisa_warns_linux_kernel_missing_initialization",
   "CVE_CVE-2026-46300",
@@ -998,5 +989,14 @@
   "slug_fandango_says_hackers_stole_payment_card",
   "c32c1f7680c0316f0aed1a706a023d43acc8342bd992f0bdd2349c15f265356f",
   "https://cybersecuritynews.com/claude-code-vs-code-extension",
-  "slug_researchers_reveal_how_claude_code_vs"
+  "slug_researchers_reveal_how_claude_code_vs",
+  "c4086de05142b1d96dc6abdf45a86ccca6c3ecb2902b35f2ced2d37e4be178b2",
+  "https://thehackernews.com/2026/11/retadup-worm-resurfaces-7-years-after.html",
+  "slug_retadup_worm_resurfaces_7_years_after",
+  "b6a6574d8a217709a3b5475689c1460d5d99fae693d66398e9c54b82834aadfe",
+  "https://www.bleepingcomputer.com/news/security/optimizely-supply-chain-attack-infects-major-brands-sites-with-malware",
+  "slug_optimizely_supply_chain_attack_infects_major",
+  "37578d656063a93dff4c812044581705418af0318a5cd7eb5afdf9f95cac7a24",
+  "https://cybersecuritynews.com/optimizely-websites-hijacked",
+  "slug_hackers_infect_178_major_websites_via"
 ]
