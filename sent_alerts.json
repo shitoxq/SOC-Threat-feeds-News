@@ -1,13 +1,4 @@
 [
-  "https://cybersecuritynews.com/linux-kernel-missing-initialization-vulnerability",
-  "slug_cisa_warns_linux_kernel_missing_initialization",
-  "CVE_CVE-2026-46300",
-  "4b53227f9f3bab6085748e01fca8a8a2c1994ad7e861ac599d25f469a11851d4",
-  "https://thehackernews.com/2026/10/official-claude-code-vs-code-extension.html",
-  "slug_official_claude_code_extension_cursor_marketplace",
-  "0508d22cbda1d64187dd899cbd4d9761ba5f6b3ac56b4322dc3449c3e7b7092d",
-  "https://www.bleepingcomputer.com/news/security/hackers-now-exploiting-max-severity-gitlab-flaw-in-attacks",
-  "slug_cisa_says_max_severity_gitlab_now",
   "829c8ea70e66f304af6307d6e1feda2aed110c5bbc61a055ecd7a4ac592de312",
   "https://cybersecuritynews.com/hackers-use-zero-click-coruna",
   "slug_hackers_use_zeroclick_coruna_darksword_exploits",
@@ -998,5 +989,14 @@
   "slug_optimizely_supply_chain_attack_infects_major",
   "37578d656063a93dff4c812044581705418af0318a5cd7eb5afdf9f95cac7a24",
   "https://cybersecuritynews.com/optimizely-websites-hijacked",
-  "slug_hackers_infect_178_major_websites_via"
+  "slug_hackers_infect_178_major_websites_via",
+  "64d59e5e3ac8caa011479b109b3f63b6273bd0f6e77f7a66cd16658dddf3bf07",
+  "https://thehackernews.com/2026/11/hijacked-optimizely-scripts-served-card.html",
+  "slug_hijacked_optimizely_scripts_served_card_skimmer",
+  "37dfb9dd86d3051ad8cc75d2e45965f9b69221788eff62b0241c21be1400904a",
+  "https://www.bleepingcomputer.com/news/security/uber-notifies-drivers-of-data-breach-affecting-nearly-150-000-people",
+  "slug_uber_notifies_drivers_data_breach_affecting",
+  "043f914aa534463862b7d74e886321be8d73da76edb38eff13f3aa70c6b91717",
+  "https://www.securityweek.com/cursor-supply-chain-attack-started-at-fireworks",
+  "slug_cursor_supply_chain_attack_started_fireworks"
 ]
