@@ -1,13 +1,4 @@
 [
-  "829c8ea70e66f304af6307d6e1feda2aed110c5bbc61a055ecd7a4ac592de312",
-  "https://cybersecuritynews.com/hackers-use-zero-click-coruna",
-  "slug_hackers_use_zeroclick_coruna_darksword_exploits",
-  "33f30c5083f66cd6f44c09a0b5bac1262f215f8aaa3ea3f9b0ee77ab33fd1eb6",
-  "https://thehackernews.com/2026/10/teamviewer-flaw-lets-remote-computers.html",
-  "slug_teamviewer_lets_remote_computers_attack_users",
-  "3b99573e7ab441bb3e38b605c147a1e878166dd8398d54d7e4d8f4b996f194bc",
-  "https://www.bleepingcomputer.com/news/security/malicious-claude-code-extension-on-cursor-planted-ssh-backdoors",
-  "slug_malicious_claude_code_extension_cursor_planted",
   "37e9afa5b7ecca447e0b2215d0fc6c854814590e8db3b045b0986534492f71c7",
   "https://cybersecuritynews.com/north-korean-hackers-2",
   "slug_north_korean_hackers_steal_developer_credentials",
@@ -998,5 +989,14 @@
   "slug_uber_notifies_drivers_data_breach_affecting",
   "043f914aa534463862b7d74e886321be8d73da76edb38eff13f3aa70c6b91717",
   "https://www.securityweek.com/cursor-supply-chain-attack-started-at-fireworks",
-  "slug_cursor_supply_chain_attack_started_fireworks"
+  "slug_cursor_supply_chain_attack_started_fireworks",
+  "7d8a94de5f64d8dd628d4dd4be859a1254f8fc4848345d3fe581be40559e31d1",
+  "https://thehackernews.com/2026/11/n-able-patches-17-n-central-flaws-as.html",
+  "slug_nable_patches_17_ncentral_attackers_exploit",
+  "19845655e1a8d2fb9f4e925cc2f898f7456cd3e22bfc200fb63a243d35330e1e",
+  "https://www.bleepingcomputer.com/news/security/court-clears-brothers-of-25-million-ethereum-crypto-heist-charges",
+  "slug_court_clears_brothers_25_million_ethereum",
+  "e56e2fc0565c16ebdf2a51e78c47b12beff5e69797b6542b95b0c6f31c198830",
+  "https://cybersecuritynews.com/gemini-4-argon-ai-agents-hack-website",
+  "slug_google_gemini_4_argon_ai_agents"
 ]
