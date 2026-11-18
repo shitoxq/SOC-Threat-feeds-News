@@ -1,13 +1,4 @@
 [
-  "dd720886bafe8b887a7a2f527d4ae7880fd15f316c8da85beaf3813f476ba1d9",
-  "https://cybersecuritynews.com/netamloader-malware",
-  "slug_apt_hackers_use_netamloader_malware_target",
-  "293569318dde9da7ae44a07f3330bce40883d4ced65e6525e8d42d75ef80d154",
-  "https://thehackernews.com/2026/10/cloudflare-reports-182-million-network.html",
-  "slug_cloudflare_reports_182_million_networklayer_ddos",
-  "642f147345e48ec870d02954865d12004d6c2caba6e50f5b6674d978b80ecdfd",
-  "https://www.bleepingcomputer.com/news/security/drupal-warns-of-critical-commerce-core-flaw-exploited-in-attacks",
-  "slug_drupal_warns_critical_commerce_core_exploited",
   "4c345be81311b6044c0bb29a632b9effa4bc4e3036820bfa93904585d18e64ee",
   "https://cybersecuritynews.com/60000-attacks-targeting-wordpress",
   "slug_over_60000_attacks_target_wordpress_rce",
@@ -998,5 +989,14 @@
   "slug_critical_java4shell_allows_rce_attacks_major",
   "fbb5369b65cd3536df3e85330873024835f0a477b3a91d3e67504884b5808aa6",
   "https://cybersecuritynews.com/graphdoor-sharepoint-backdoor",
-  "slug_hackers_abuse_microsoft_sharepoint_github_hide"
+  "slug_hackers_abuse_microsoft_sharepoint_github_hide",
+  "533b590042a015080bb5ceb318949a4db906b41c1a62e336003cbb72fb077463",
+  "https://thehackernews.com/2026/11/attackers-compromise-microsofts-agent.html",
+  "slug_attackers_compromise_microsoftx27s_agent_framework_pypi",
+  "6496df90b5f7d21d42399e208fcef60eaf3c4ef1fcee55f9969900e550201c72",
+  "https://www.bleepingcomputer.com/news/security/cloud-keys-leaked-in-docker-hub-images-are-stolen-within-seconds",
+  "slug_cloud_keys_leaked_docker_hub_images",
+  "f1fea468105089bb777ef711f42470b71101f276c879f53875710217c523971e",
+  "https://cybersecuritynews.com/stolen-fortigate-vpn-credentials",
+  "slug_hackers_use_stolen_fortigate_vpn_credentials"
 ]
