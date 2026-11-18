@@ -1,14 +1,4 @@
 [
-  "4c345be81311b6044c0bb29a632b9effa4bc4e3036820bfa93904585d18e64ee",
-  "https://cybersecuritynews.com/60000-attacks-targeting-wordpress",
-  "slug_over_60000_attacks_target_wordpress_rce",
-  "8490e3bdfa1d6b635f7685f924153b729c2f759d0460d42b79da487adcdfc46c",
-  "https://www.bleepingcomputer.com/news/security/binance-links-63-billion-crypto-theft-to-compromised-devops-laptop",
-  "slug_binance_links_63_billion_crypto_theft",
-  "80a1cddc72d6acf6a0b62ebeb61605a06312c002eabe3de22323c6bb77f628ba",
-  "https://cybersecuritynews.com/google-launches-gemini-4-carbon",
-  "slug_google_launches_gemini_4_carbon_stateoftheart",
-  "760fa3418b100519427d402d56e6a4684e2d3bf4b3b175895540b00cc763cf7e",
   "https://www.securityweek.com/in-other-news-anthropic-breach-dispute-uefi-flaw-hits-most-servers-cloudflare-ai-data-leak",
   "slug_other_news_anthropic_breach_dispute_uefi",
   "c305d693e177d5ef64daf367acfc1e634711244980670e6d6392ac16514ee3d1",
@@ -998,5 +988,15 @@
   "slug_cloud_keys_leaked_docker_hub_images",
   "f1fea468105089bb777ef711f42470b71101f276c879f53875710217c523971e",
   "https://cybersecuritynews.com/stolen-fortigate-vpn-credentials",
-  "slug_hackers_use_stolen_fortigate_vpn_credentials"
+  "slug_hackers_use_stolen_fortigate_vpn_credentials",
+  "eeab189c347513181f34ff4f3eeace5dc417447761b145a6a5dfbcbac39fe6d3",
+  "https://thehackernews.com/2026/11/hackers-exploiting-critical-puppet-rce.html",
+  "slug_hackers_exploiting_critical_puppet_rce_affecting",
+  "CVE_CVE-2026-115731",
+  "67fb8342564fdb872420f0b0a039b2e5e26ccaeed8707dce9d78248334c7e63c",
+  "https://www.bleepingcomputer.com/news/microsoft/microsoft-announces-windows-server-2028-with-hardened-security",
+  "slug_microsoft_announces_windows_server_2028_hardened",
+  "2b4a94934779c5dd382a0757b3f57fccc1b2acacf958c78eb0ac51264e7f6f4e",
+  "https://cybersecuritynews.com/anthropic-cuts-critical-vulnerability-disclosure-deadline",
+  "slug_anthropic_reduces_vulnerability_disclosure_deadline_from"
 ]
