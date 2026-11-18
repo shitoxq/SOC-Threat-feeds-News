@@ -1,13 +1,4 @@
 [
-  "https://www.securityweek.com/php2shell-attacks-root-palo-alto-firewalls-but-fail-against-wordpress",
-  "slug_php2shell_attacks_root_palo_alto_firewalls",
-  "bc4258f9677bca1e1ae924948e90c7d96d320b088c7bee44bb969c86fb9d9f4b",
-  "https://thehackernews.com/2026/10/hackers-actively-exploit-highly.html",
-  "slug_hackers_actively_exploit_highly_critical_drupal",
-  "CVE_CVE-2026-118539",
-  "3871bb25ff93dffb222dbd4da4670bd063c245cd6cf061cb073175b3b81f0168",
-  "https://www.bleepingcomputer.com/news/microsoft/microsoft-finally-fixes-vpn-issues-caused-by-september-updates",
-  "slug_microsoft_finally_fixes_vpn_issues_caused",
   "dd720886bafe8b887a7a2f527d4ae7880fd15f316c8da85beaf3813f476ba1d9",
   "https://cybersecuritynews.com/netamloader-malware",
   "slug_apt_hackers_use_netamloader_malware_target",
@@ -998,5 +989,14 @@
   "slug_flipper_devices_launches_399_flipper_one",
   "5666c77aebcbd69d34ef23bb04d521202611fbe9c2d9c9d12798a02f57232534",
   "https://cybersecuritynews.com/mssp-threat-intelligence-soc-capacity",
-  "slug_how_fiveanalyst_mssp_increased_soc_capacity"
+  "slug_how_fiveanalyst_mssp_increased_soc_capacity",
+  "6bab39afba048d48cb977b3c7ea49658ba95d039105dff5cdeec3fff2f1cde5f",
+  "https://thehackernews.com/2026/11/researchers-claim-two-rce-exploits-that.html",
+  "slug_researchers_claim_two_rce_exploits_that",
+  "e53ed293c7ab77efbf338f066f93729174c158034073bccf831039e3c79b66b5",
+  "https://www.bleepingcomputer.com/news/security/critical-java4shell-flaw-allows-rce-attacks-on-major-java-applications",
+  "slug_critical_java4shell_allows_rce_attacks_major",
+  "fbb5369b65cd3536df3e85330873024835f0a477b3a91d3e67504884b5808aa6",
+  "https://cybersecuritynews.com/graphdoor-sharepoint-backdoor",
+  "slug_hackers_abuse_microsoft_sharepoint_github_hide"
 ]
