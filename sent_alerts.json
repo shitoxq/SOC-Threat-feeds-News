@@ -1,13 +1,4 @@
 [
-  "https://www.securityweek.com/in-other-news-anthropic-breach-dispute-uefi-flaw-hits-most-servers-cloudflare-ai-data-leak",
-  "slug_other_news_anthropic_breach_dispute_uefi",
-  "c305d693e177d5ef64daf367acfc1e634711244980670e6d6392ac16514ee3d1",
-  "https://thehackernews.com/2026/10/attackers-chain-three-ivanti-connect.html",
-  "slug_attackers_chain_three_ivanti_connect_secure",
-  "CVE_CVE-2026-111357",
-  "71d92d6a48c1cf9968f4a3ec72c05f430be00da5bb5e84bc0e5af7d46ef6040b",
-  "https://www.bleepingcomputer.com/news/security/chainalysis-discloses-data-breach-from-offensive-agentic-techniques",
-  "slug_chainalysis_discloses_data_breach_from_quotoffensive",
   "707c3f4ea1e86206ee14211115db2528dac3528282b924b1dc2eda7624e2ddf7",
   "https://cybersecuritynews.com/malicious-claude-code-extension-with-cursor",
   "slug_cursor_confirms_malicious_claude_code_extension",
@@ -998,5 +989,14 @@
   "slug_microsoft_announces_windows_server_2028_hardened",
   "2b4a94934779c5dd382a0757b3f57fccc1b2acacf958c78eb0ac51264e7f6f4e",
   "https://cybersecuritynews.com/anthropic-cuts-critical-vulnerability-disclosure-deadline",
-  "slug_anthropic_reduces_vulnerability_disclosure_deadline_from"
+  "slug_anthropic_reduces_vulnerability_disclosure_deadline_from",
+  "16d1e418da7ea1b76c1da0a8c2ed408b55a89e5c36435283c9a09c14095531e6",
+  "https://thehackernews.com/2026/11/eggstreme-hackers-rebuild-malware-with.html",
+  "slug_new_eggstreme_malware_variant_goes_silent",
+  "2f0e5fdb0863109af43b2d8a92a063d6157aa9705deb50fd2daea6089f922714",
+  "https://www.bleepingcomputer.com/news/security/microsofts-agent-framework-pypi-package-compromised-to-steal-credentials",
+  "slug_microsofts_agent_framework_pypi_package_compromised",
+  "e43ee09ff5f8589cf5985844b96a1265155f99bee59f34bb550e55f4c4a791ec",
+  "https://cybersecuritynews.com/hackers-use-ghostmap-ebpf-rootkit",
+  "slug_hackers_use_ghostmap_ebpf_rootkit_hide"
 ]
