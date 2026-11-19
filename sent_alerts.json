@@ -1,15 +1,4 @@
 [
-  "https://www.helpnetsecurity.com/2026/10/30/bedrock-data-ai-assisted-remediation",
-  "slug_bedrock_data_routes_data_exposure_fixes",
-  "579acd58b51a0fe46feb089bbd522b81f62f449a421386c718b6afebe5fc2bb1",
-  "https://cybersecuritynews.com/apple-warns-iphone-users",
-  "slug_apple_warns_iphone_users_99_countries",
-  "649ffc6d4557dea4369f1bcd17688df03124d87393dd4adc0233ef6f1ce940de",
-  "https://www.securityweek.com/drupal-commerce-core-vulnerability-exploited-against-online-stores",
-  "slug_drupal_commerce_core_vulnerability_exploited_against",
-  "4e31867fcf6f7c84838e390810a80ebb680b1871cea52dbe88aede73005796e6",
-  "https://www.vulncheck.com/blog/integrity-technology-group-advisory",
-  "slug_expanding_visibility_into_chinese_governmentlinked_cyber",
   "f065e27bf9470a34a3b15bcb7f18e4dfce2ca147f6d33be9cff4e59c3bdc6ded",
   "https://www.securityweek.com/2-million-drained-from-polymarket-traders-in-new-supply-chain-attack",
   "slug_2_million_drained_from_polymarket_traders",
@@ -998,5 +987,16 @@
   "https://cybersecuritynews.com/splunk-patches-vulnerabilities",
   "slug_splunk_patches_critical_99_rce_authentication",
   "CVE_CVE-2026-131253",
-  "CVE_CVE-2026-76535"
+  "CVE_CVE-2026-76535",
+  "dcfa8134ceac9ad36d391ec751f393f616b6754a914d8ab0001a06e1984a476f",
+  "https://thehackernews.com/2026/11/php-fixes-7-critical-flaws-including.html",
+  "slug_php_fixes_7_critical_including_bugs",
+  "CVE_CVE-2026-115560",
+  "a03a64540c0ef47a3e55e9b01b655b499e2d079c621bacc46440a76dafa47716",
+  "https://www.bleepingcomputer.com/news/security/php-security-updates-fix-18-flaws-including-critical-rce-bugs",
+  "slug_php_security_updates_fix_18_including",
+  "9c40ece8f8e17d762725901689626e65a167738852f38092777be071e272e7aa",
+  "https://cybersecuritynews.com/vmware-vcenter-authentication-bypass",
+  "slug_critical_vmware_vcenter_let_hackers_bypass",
+  "CVE_CVE-2026-123890"
 ]
