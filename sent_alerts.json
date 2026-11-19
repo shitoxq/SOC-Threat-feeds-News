@@ -1,13 +1,4 @@
 [
-  "https://cybersecuritynews.com/hacktober-cyberattack-wave",
-  "slug_hacktober_cyberattack_wave_hits_php_nodejs",
-  "0de6e8ffad49ea45dcf9d70a9fef575e283d806bcaeeb7579bf95368d9bb66a8",
-  "https://www.vulncheck.com/blog/zbt-endlessdoors",
-  "slug_endlessdoors_phoning_home_pick_uptwenty_router",
-  "f13b5b49e0d0976b88bd412eb0beb29974e829bef3a865d6c7ea0c74f9dd219a",
-  "https://gbhackers.com/hackers-impersonate-it-help-desk-microsoft-teams",
-  "slug_hackers_impersonate_it_help_desk_microsoft",
-  "4432f1dbea0caa5b7f06abe6b418d0f65477d6b9f093ef9d580abf58fec337eb",
   "https://thehackernews.com/2026/11/netamloader-malware-targets-government.html",
   "slug_netamloader_malware_targets_government_windows_10",
   "1eb7892752fbb3017096d90ce76f720cc285d3b8edb6570a7c9a54243005190b",
@@ -998,5 +989,14 @@
   "slug_transport_london_breach_exposes_265000_oyster",
   "823a2e0f479c84eba5105779e9c76efb278d0049caa8883ee73fb7e6c0762071",
   "https://cybersecuritynews.com/criminal-ip-launches-aitem-to-connect-asset-discovery-with-ai-powered-exposure-management",
-  "slug_criminal_ip_launches_aitem_connect_asset"
+  "slug_criminal_ip_launches_aitem_connect_asset",
+  "cc7a5715391457a2474f1dad0012251c9585ac7b4704d92ad465acd473d4704f",
+  "https://thehackernews.com/2026/11/threatsday-gpt-62-jailbreak-flaws.html",
+  "slug_threatsday_gpt62_jailbreak_bubbleloader_png_malware",
+  "0c4021ed0cdc2b771b03b92a5b005fdf2e67d608934ca5bd782bf933ef107379",
+  "https://www.bleepingcomputer.com/news/security/hackers-steal-data-of-16-million-sbc-medical-group-customers",
+  "slug_hackers_steal_data_16_million_sbc",
+  "59abdd6bc9b66821f617d03820a8e70a59ddf16e417a0ca1fc2174eabcfdd587",
+  "https://cybersecuritynews.com/badbox-3-0-malware",
+  "slug_badbox_30_malware_infects_android_tv"
 ]
