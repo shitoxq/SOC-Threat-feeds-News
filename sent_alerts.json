@@ -1,14 +1,4 @@
 [
-  "slug_teamviewer_security_could_turn_remote_support",
-  "CVE_CVE-2026-111585",
-  "4403c5324b9b8679d5b02eacac1abf66349d76a601a45ba3cf40ccb5eccb1601",
-  "https://www.securityweek.com/passkeys-are-better-than-passwords-but-they-are-not-enough",
-  "slug_passkeys_better_than_passwords_but_they",
-  "b43200e98e60fd684ed4332382ee3bbef17be871acb8f3327c01b1fa2f644099",
-  "https://www.securityweek.com/bulletproof-host-virtualine-loses-its-domain-to-fbi-seizure",
-  "slug_bulletproof_host_virtualine_loses_its_domain",
-  "a7e9303f67b4e15e517082d4a85c111dd75dabde1ffd61f1091855579940b7cb",
-  "https://www.vulncheck.com/blog/initial-access-community",
   "slug_vulncheck_opens_initial_access_community_edition",
   "270afe21c1b17d4dfc5038cd57f8de6a21a3033378e5f61e668c786345555abb",
   "https://www.helpnetsecurity.com/2026/10/30/shufti-know-your-agent-kya",
@@ -998,5 +988,15 @@
   "slug_apache_warns_roller_rce_vulnerability_exploited",
   "f25157d6f11d18a13258b72377d2bcd4ffcd62c5b8e9ab2294dbc2e677ae8002",
   "https://cybersecuritynews.com/hackers-use-hidden-cron-jobs",
-  "slug_hackers_use_hidden_cron_jobs_reinstall"
+  "slug_hackers_use_hidden_cron_jobs_reinstall",
+  "04e49dcbdb74573337afa5ecc35cbbbeba68aa7e36a9fce9c51b4d9485c13293",
+  "https://thehackernews.com/2026/11/10-year-old-nginx-http2-flaw-lets.html",
+  "slug_10yearold_nginx_http2_lets_unauthenticated_attackers",
+  "CVE_CVE-2026-123007",
+  "a799be44dacf0d3801ea090862986f7d6a746a0307ad6a2eea683173b12f25e8",
+  "https://www.bleepingcomputer.com/news/security/ukraine-fbi-arrest-ransomware-gang-members-tied-to-40m-in-ransoms",
+  "slug_ukraine_fbi_arrest_ransomware_gang_members",
+  "c41c2d04fcbe2bfd72f89b565ca637075fd3a1f817ffdbf8db078021085f211a",
+  "https://cybersecuritynews.com/eggstreme-malware",
+  "slug_chinese_hackers_upgrade_eggstreme_malware_silent"
 ]
