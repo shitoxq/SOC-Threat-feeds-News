@@ -1,15 +1,4 @@
 [
-  "slug_vulncheck_opens_initial_access_community_edition",
-  "270afe21c1b17d4dfc5038cd57f8de6a21a3033378e5f61e668c786345555abb",
-  "https://www.helpnetsecurity.com/2026/10/30/shufti-know-your-agent-kya",
-  "slug_shufti_ties_ai_agent_actions_verified",
-  "40cf3183ed46a5646b374afa47f01ca4adb1ccf76aaaba6ccecfdf5e7d4f5a5a",
-  "https://www.securityweek.com/fresh-wordpress-vulnerability-in-attackers-crosshairs",
-  "slug_fresh_wordpress_vulnerability_attackers_crosshairs",
-  "ebba1f4e2733c67859d7cec5339b77f6cc60d556571b1bf743d8f7ee0c885d5d",
-  "https://www.vulncheck.com/blog/xorbits-xoscar-unauth-cloudpickle-rce",
-  "slug_xorbits_xoscar_unauthenticated_rce_via_cloudpickle",
-  "206282bde5017b9841c45c516ec2d15ab2e6cf55186a50a57ca6b8003c1ddf1b",
   "https://www.helpnetsecurity.com/2026/10/30/bedrock-data-ai-assisted-remediation",
   "slug_bedrock_data_routes_data_exposure_fixes",
   "579acd58b51a0fe46feb089bbd522b81f62f449a421386c718b6afebe5fc2bb1",
@@ -998,5 +987,16 @@
   "slug_ukraine_fbi_arrest_ransomware_gang_members",
   "c41c2d04fcbe2bfd72f89b565ca637075fd3a1f817ffdbf8db078021085f211a",
   "https://cybersecuritynews.com/eggstreme-malware",
-  "slug_chinese_hackers_upgrade_eggstreme_malware_silent"
+  "slug_chinese_hackers_upgrade_eggstreme_malware_silent",
+  "4ab4f5e03685767a0a27b7d9fc27b733513f92ea8211c6d54bcdbb0ff2caeee9",
+  "https://thehackernews.com/2026/11/f5-warns-6-critical-big-ip-flaws-can.html",
+  "slug_f5_warns_6_critical_bigip_can",
+  "15c72b037d4b5333138c10514d8de4ffee71befb30d5c91bfde490dfa0fd11d0",
+  "https://www.bleepingcomputer.com/news/security/data-breach-impacts-40-irish-credit-unions-in-reported-it-provider-hack",
+  "slug_data_breach_impacts_40_irish_credit",
+  "c1800d310c22606a33a20f135211f087144835d6bbb8a8c4b507907425fa12fc",
+  "https://cybersecuritynews.com/splunk-patches-vulnerabilities",
+  "slug_splunk_patches_critical_99_rce_authentication",
+  "CVE_CVE-2026-131253",
+  "CVE_CVE-2026-76535"
 ]
