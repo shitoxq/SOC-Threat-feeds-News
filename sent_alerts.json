@@ -1,14 +1,4 @@
 [
-  "f065e27bf9470a34a3b15bcb7f18e4dfce2ca147f6d33be9cff4e59c3bdc6ded",
-  "https://www.securityweek.com/2-million-drained-from-polymarket-traders-in-new-supply-chain-attack",
-  "slug_2_million_drained_from_polymarket_traders",
-  "1946ff799b3393ee0f7d240d3108e018992d5d5b739e98558543da976a396f36",
-  "https://www.vulncheck.com/blog/virtualizor-billing-hook-unauthenticated-root-rce",
-  "slug_virtualizor_login_parameter_that_skips_loginvulncheckx27s",
-  "e1cd2f145232eea3d85c880a86ad80e26ea6d39ea9bf45f54a08e0e46edc86d9",
-  "https://www.helpnetsecurity.com/2026/10/30/claude-code-extension-ssh-backdoor",
-  "slug_claude_code_extension_poisoned_persistent_ssh",
-  "25f58bce9e5b7f98600e57f2e489338c1778a8c6efa6b063481f8bda9c6d39f0",
   "https://cybersecuritynews.com/hacktober-cyberattack-wave",
   "slug_hacktober_cyberattack_wave_hits_php_nodejs",
   "0de6e8ffad49ea45dcf9d70a9fef575e283d806bcaeeb7579bf95368d9bb66a8",
@@ -998,5 +988,15 @@
   "9c40ece8f8e17d762725901689626e65a167738852f38092777be071e272e7aa",
   "https://cybersecuritynews.com/vmware-vcenter-authentication-bypass",
   "slug_critical_vmware_vcenter_let_hackers_bypass",
-  "CVE_CVE-2026-123890"
+  "CVE_CVE-2026-123890",
+  "ea8cebf5d32bea67ec9b45b3a9488b797cb92985bc8d0d0052450b1cd7b841d3",
+  "https://thehackernews.com/2026/11/phpaftershell-explained-how-hackers.html",
+  "slug_phpaftershell_explained_how_hackers_could_turn",
+  "CVE_CVE-2026-126714",
+  "3c83563b2f3b61138cc9aa60f94c59a051ccbf84e696746f988aa398901f1d85",
+  "https://www.bleepingcomputer.com/news/security/transport-for-london-breach-exposes-265-000-oyster-card-users-data",
+  "slug_transport_london_breach_exposes_265000_oyster",
+  "823a2e0f479c84eba5105779e9c76efb278d0049caa8883ee73fb7e6c0762071",
+  "https://cybersecuritynews.com/criminal-ip-launches-aitem-to-connect-asset-discovery-with-ai-powered-exposure-management",
+  "slug_criminal_ip_launches_aitem_connect_asset"
 ]
