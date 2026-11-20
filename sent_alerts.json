@@ -1,14 +1,4 @@
 [
-  "https://www.vulncheck.com/blog/wp2shell",
-  "slug_wp2shell_vulnerabilities_cve202660137_cve202663030two_new_wordpress",
-  "CVE_CVE-2026-60137",
-  "CVE_CVE-2026-63030",
-  "c54cf3ff407de8117857d918d1e8cf85482cc4cc5e1581c9451a34f0e5b8f51c",
-  "https://www.helpnetsecurity.com/2026/10/30/cisco-talos-it-help-desk-vishing",
-  "slug_fake_it_help_desk_callers_got",
-  "ccc11eebb8ec70bcfacc68562e56ccda4476a20c51fd65ab9cfc19809a7a8e69",
-  "https://ipurple.team/2026/08/24/text-template",
-  "slug_text_template",
   "da6a6aee817912704e114f1fe3180ca2780138d792350e8422282bf81be84c76",
   "https://www.vulncheck.com/blog/nvidia-gen3c-unauth-pickle-rce",
   "slug_nvidia_gen3c_unauthenticated_rce_via_pickle",
@@ -998,5 +988,15 @@
   "slug_five_warning_signs_ransomware_breach_before",
   "52fb495ea1e2d470ce5aabc43b8e1464b7ba90645a1d4010a07051d7b82aa688",
   "https://cybersecuritynews.com/ai-assisted-powershell",
-  "slug_hackers_use_aiassisted_powershell_toolkit_41"
+  "slug_hackers_use_aiassisted_powershell_toolkit_41",
+  "c7b209f2aed89407eb0e30e59fe706dfcf15164ad089b4177ac11b5e2ba6ddd0",
+  "https://thehackernews.com/2026/11/new-linux-kvm-flaw-cve-2026-99312-lets.html",
+  "slug_linux_kvm_cve202699312_lets_guest_vms",
+  "CVE_CVE-2026-99312",
+  "c5a74bf61689c064f049e4324551b2bbbb04644e71a9032947f8d6a37ba82796",
+  "https://www.bleepingcomputer.com/news/microsoft/microsoft-now-automatically-installs-windows-11-26h2-on-personal-and-unmanaged-pcs",
+  "slug_microsoft_now_automatically_installs_windows_11",
+  "2b4a78c5639e7b5e66e217b741f1e4d72b37b1c1153ac1db19cfafb15cac6ff9",
+  "https://cybersecuritynews.com/fake-gta-6-pc-launchers",
+  "slug_hackers_use_355_domains_spread_fake"
 ]
