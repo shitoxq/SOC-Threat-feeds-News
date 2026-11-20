@@ -1,13 +1,4 @@
 [
-  "da6a6aee817912704e114f1fe3180ca2780138d792350e8422282bf81be84c76",
-  "https://www.vulncheck.com/blog/nvidia-gen3c-unauth-pickle-rce",
-  "slug_nvidia_gen3c_unauthenticated_rce_via_pickle",
-  "f8fab2a7c8b3e7c289c1ec6c08cb9248992965cca2c010064fd5f3e2a92e2862",
-  "https://gbhackers.com/hackers-distribute-malicious-claude-code-extension",
-  "slug_hackers_distribute_malicious_claude_code_extension",
-  "25722a03df89a0848c034e06ffa87304c86980dd79c4a1edc4674903ba75c3da",
-  "https://ipurple.team/2026/08/11/mandatory-user-profile",
-  "slug_mandatory_user_profile",
   "9636c568e50e698a97bc03a5b02984a27b84edccc0a7f033daefebc51cb31b5c",
   "https://www.vulncheck.com/blog/fossbilling-auth-bypass-ssti-rce",
   "slug_cve202628496_fossbilling_auth_bypass_twig_ssti",
@@ -998,5 +989,14 @@
   "slug_microsoft_now_automatically_installs_windows_11",
   "2b4a78c5639e7b5e66e217b741f1e4d72b37b1c1153ac1db19cfafb15cac6ff9",
   "https://cybersecuritynews.com/fake-gta-6-pc-launchers",
-  "slug_hackers_use_355_domains_spread_fake"
+  "slug_hackers_use_355_domains_spread_fake",
+  "0b4042589720c6043be8f15212c3ff02caceb4eb28c9f2695b0c55d4e8beacbc",
+  "https://thehackernews.com/2026/11/bazuka-android-malware-uses-fake-screen.html",
+  "slug_bazuka_android_malware_uses_fake_screen",
+  "087ffc09c10626b8f7985b10bad1e317ba5b4ce9d15ae433daad1229817ffaa9",
+  "https://www.bleepingcomputer.com/news/security/hackers-use-autonomous-ai-tool-cairn-to-find-zero-day-take-over-server",
+  "slug_hackers_use_autonomous_ai_tool_cairn",
+  "c24c233392863517f2ed5c3c50d265ed82ac6632da5b30af066cbe1fd3ddfd82",
+  "https://cybersecuritynews.com/microsoft-attachment-upload-failures",
+  "slug_microsoft_investigates_attachment_upload_failures_new"
 ]
