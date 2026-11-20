@@ -1,13 +1,4 @@
 [
-  "https://www.bleepingcomputer.com/news/security/alpine-linux-rebuilds-gitlab-after-attempted-rce-attack",
-  "slug_alpine_linux_rebuilds_gitlab_after_attempted",
-  "cb62f7559c4f6ae9494e1cf1ef6167f30e7079f6f738aa3d9caf2f53c36b1820",
-  "https://www.vulncheck.com/blog/state-of-exploitation-1h-2026",
-  "slug_vulncheck_state_exploitation_1h2026key_trends_findings",
-  "cf3bfa6a60c40ad3f1dc3034bb674888a3aefe92e200596f736c230f1ac79e77",
-  "https://www.helpnetsecurity.com/2026/10/30/binance-crypto-hack",
-  "slug_binance_hit_63_billion_theft_what",
-  "081f991a134abbe52bc59369ba427be63d27024dcb731b2756ec578cd3233abf",
   "https://www.vulncheck.com/blog/wp2shell",
   "slug_wp2shell_vulnerabilities_cve202660137_cve202663030two_new_wordpress",
   "CVE_CVE-2026-60137",
@@ -998,5 +989,14 @@
   "slug_vmware_patches_vcenter_zeroday_exploited_attacks",
   "de625eaae38a4faa67452de62497e994a6affafea58865f6dcebb3c637282c34",
   "https://www.securityweek.com/newly-patched-vmware-vcenter-flaw-exploited-as-zero-day-by-chinese-apt",
-  "slug_newly_patched_vmware_vcenter_exploited_zeroday"
+  "slug_newly_patched_vmware_vcenter_exploited_zeroday",
+  "e40617893cabf092a419255ae36022015317a5fc469ec227aec29b8e1902d5dd",
+  "https://thehackernews.com/2026/11/romulus-clickfix-attacks-deliver-rat.html",
+  "slug_romulus_clickfix_attacks_deliver_rat_that",
+  "3f0cae6c7721af8aa66c77a2d5e29d931e21f306e875ba2694cdccae841f0982",
+  "https://www.bleepingcomputer.com/news/security/five-warning-signs-of-ransomware-breach-before-encryption-or-data-theft",
+  "slug_five_warning_signs_ransomware_breach_before",
+  "52fb495ea1e2d470ce5aabc43b8e1464b7ba90645a1d4010a07051d7b82aa688",
+  "https://cybersecuritynews.com/ai-assisted-powershell",
+  "slug_hackers_use_aiassisted_powershell_toolkit_41"
 ]
