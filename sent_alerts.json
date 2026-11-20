@@ -1,13 +1,4 @@
 [
-  "https://thehackernews.com/2026/11/netamloader-malware-targets-government.html",
-  "slug_netamloader_malware_targets_government_windows_10",
-  "1eb7892752fbb3017096d90ce76f720cc285d3b8edb6570a7c9a54243005190b",
-  "https://www.vulncheck.com/blog/aimy-captcha-less-form-guard-object-injection",
-  "slug_aimy_captchaless_form_guard_antibot_plugin",
-  "8213186a735a2055b2e31fcfca614fab63051cc394dcbcf07c2959adeabe7188",
-  "https://www.helpnetsecurity.com/2026/11/01/week-in-review-binance-hit-by-6-3-billion-theft-impact-of-brotli-vulnerability",
-  "slug_week_review_binance_hit_63_billion",
-  "99e717f0ebbb40f1c39b1a5e09c3208aa87eb1979784d7868c381e50ab076bc5",
   "https://www.bleepingcomputer.com/news/security/alpine-linux-rebuilds-gitlab-after-attempted-rce-attack",
   "slug_alpine_linux_rebuilds_gitlab_after_attempted",
   "cb62f7559c4f6ae9494e1cf1ef6167f30e7079f6f738aa3d9caf2f53c36b1820",
@@ -998,5 +989,14 @@
   "slug_hackers_steal_data_16_million_sbc",
   "59abdd6bc9b66821f617d03820a8e70a59ddf16e417a0ca1fc2174eabcfdd587",
   "https://cybersecuritynews.com/badbox-3-0-malware",
-  "slug_badbox_30_malware_infects_android_tv"
+  "slug_badbox_30_malware_infects_android_tv",
+  "63edce0941e0edb0a008ee05ffa1dfd8557531a968d9f5798bd55c0b3ce04d88",
+  "https://thehackernews.com/2026/11/critical-vmware-vcenter-flaw-cvss-98.html",
+  "slug_critical_vmware_vcenter_zeroday_lets_network",
+  "94b6abb9d2c301cd64f436ea2a3d228e450be38c7b540fd3909383940b838ccf",
+  "https://www.bleepingcomputer.com/news/security/vmware-patches-vcenter-zero-day-exploited-in-attacks-since-september",
+  "slug_vmware_patches_vcenter_zeroday_exploited_attacks",
+  "de625eaae38a4faa67452de62497e994a6affafea58865f6dcebb3c637282c34",
+  "https://www.securityweek.com/newly-patched-vmware-vcenter-flaw-exploited-as-zero-day-by-chinese-apt",
+  "slug_newly_patched_vmware_vcenter_exploited_zeroday"
 ]
