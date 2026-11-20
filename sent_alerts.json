@@ -1,15 +1,4 @@
 [
-  "9636c568e50e698a97bc03a5b02984a27b84edccc0a7f033daefebc51cb31b5c",
-  "https://www.vulncheck.com/blog/fossbilling-auth-bypass-ssti-rce",
-  "slug_cve202628496_fossbilling_auth_bypass_twig_ssti",
-  "CVE_CVE-2026-28496",
-  "2af73a675f9ee4172f56be46433a6629544758b7e0d091d1cb074874105f73c6",
-  "https://gbhackers.com/hackers-exploit-php2shell-rce-vulnerabilities",
-  "slug_hackers_exploit_php2shell_rce_vulnerabilities_gain",
-  "30c32e408bf70bc21f42c4302706cea081d8b6d13841cf8f75ab79766499b591",
-  "https://ipurple.team/2026/08/04/provisioning-packages",
-  "slug_provisioning_packages",
-  "b1c1d30dd8ee58aa9f8dbc651913efd0cf6fc81939572fda2754a1c9596d8363",
   "https://thehackernews.com/2026/11/new-volta-infostealer-uses-claude.html",
   "slug_new_volta_infostealer_uses_claude_gemini",
   "26cf23de7eb476f3c3cfc6e079943177a84032ac517922870f2663579b1c52a1",
@@ -998,5 +987,16 @@
   "slug_hackers_use_autonomous_ai_tool_cairn",
   "c24c233392863517f2ed5c3c50d265ed82ac6632da5b30af066cbe1fd3ddfd82",
   "https://cybersecuritynews.com/microsoft-attachment-upload-failures",
-  "slug_microsoft_investigates_attachment_upload_failures_new"
+  "slug_microsoft_investigates_attachment_upload_failures_new",
+  "c99f552cbbef77a02904205c80d2b25fb655679f47a756e545a2bb4d820d35fe",
+  "https://thehackernews.com/2026/11/hackers-exploit-critical-cisco.html",
+  "slug_hackers_exploit_critical_cisco_expressway_breach",
+  "CVE_CVE-2026-76466",
+  "0bac7f269a924e7246723274609732d124b694f79cf7936fce3000e9e0096923",
+  "https://www.bleepingcomputer.com/news/security/bell-canada-says-agentic-hacker-stole-enterprise-customer-data",
+  "slug_bell_canada_says_x27agenticx27_hacker_stole",
+  "7da05b7d10eacd7620c5cd246af8d8f90514d05346ee8d332cdd9d739ac843dd",
+  "https://cybersecuritynews.com/critical-apache-tomcat-flaw",
+  "slug_critical_apache_tomcat_lets_remote_attackers",
+  "CVE_CVE-2026-133325"
 ]
