@@ -1,14 +1,4 @@
 [
-  "slug_google_disrupts_13_milliondevice_android_botnet",
-  "406768394f36ebd64c7854a2ca628c56c348a9ebf06a1e099d5d2a583f7828b4",
-  "https://www.bleepingcomputer.com/news/security/btcpay-server-warns-of-hot-wallet-thefts-targeting-outdated-instances",
-  "slug_btcpay_server_warns_hot_wallet_crypto",
-  "ee924f1f2f7714edc9b55a04ce21875be30cb86d09c51ecc0392fd336d6c6667",
-  "https://cybersecuritynews.com/guardz-brings-palo-alto-networks-prisma-browser-protection-to-small-businesses",
-  "slug_guardz_brings_palo_alto_networks_prisma",
-  "772d27d38d32d9015ad1b31c6956a58c2f18bcf8704cb7baac836b5cd9973106",
-  "https://thehackernews.com/2026/11/darkblinders-compromises-israeli-target.html",
-  "slug_darkblinders_compromises_israeli_target_iraqi_kurdish",
   "710515d713d53bab7df622d06f4d1a73c16ea1f804fee90da7b5a1bbda5e8a09",
   "https://www.bleepingcomputer.com/news/security/chinese-hackers-use-artex-ai-in-automated-attacks-against-200-orgs",
   "slug_chinese_hackers_use_artex_ai_automated",
@@ -998,5 +988,15 @@
   "slug_windows_11_kb5132057_update_released_28",
   "05979729c6eb47d0a0e21eff5e6dd793c24b2f233b9ccb978fb9a75b1ca9f4f7",
   "https://cybersecuritynews.com/legitimate-vpn-software",
-  "slug_hackers_turn_legitimate_vpn_software_into"
+  "slug_hackers_turn_legitimate_vpn_software_into",
+  "3b426a1ae4872b68d25bbba331a65da5910e737396686526cdd4f211ec3c5161",
+  "https://thehackernews.com/2026/11/gnupg-warns-critical-gpgme-flaw-could.html",
+  "slug_gnupg_warns_critical_gpgme_could_expose",
+  "CVE_CVE-2026-129975",
+  "e972e8964cf86a8a3da1d0283c1cc3b032b171a5be12aaf4553aa773605b27f9",
+  "https://www.bleepingcomputer.com/news/security/badbox-30-botnet-returns-with-record-breaking-40-billion-daily-ad-requests",
+  "slug_badbox_botnet_returns_recordbreaking_40_billion",
+  "848f21a0df98dc1cd8558a893da1688d66d01f07179a22b54ea787f4d9a14c11",
+  "https://cybersecuritynews.com/crowdstrike-to-acquire-zscaler",
+  "slug_crowdstrike_talks_acquire_zscaler_one_biggest"
 ]
