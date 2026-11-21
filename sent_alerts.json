@@ -1,14 +1,4 @@
 [
-  "https://thehackernews.com/2026/11/weekly-recap-critical-cves-linux-ddos.html",
-  "slug_weekly_recap_critical_cves_linux_ddos",
-  "1675f5566da94dce828836c32c4c56088e5febde7625aeacc7a259203f8e7b23",
-  "https://www.bleepingcomputer.com/news/security/google-disrupts-million-device-xcpe-android-malware-botnet-bans-tv-box-maker",
-  "slug_google_disrupts_milliondevice_xcpe_android_malware",
-  "7b2235e7a663aceace3be695a671a7bef0b9c9fd6c8a835daffaaddbd8531ab8",
-  "https://cybersecuritynews.com/mercado-bitcoin-suffers-cyberattack",
-  "slug_mercado_bitcoin_suffers_cyberattack_researchers_flag",
-  "7a8b5fe3b630ce05e6975a3a5dda0a650b6ec1c25855d4aef5701096a73dec8c",
-  "https://thehackernews.com/2026/11/google-disrupts-13-million-device.html",
   "slug_google_disrupts_13_milliondevice_android_botnet",
   "406768394f36ebd64c7854a2ca628c56c348a9ebf06a1e099d5d2a583f7828b4",
   "https://www.bleepingcomputer.com/news/security/btcpay-server-warns-of-hot-wallet-thefts-targeting-outdated-instances",
@@ -998,5 +988,15 @@
   "slug_f5_releases_emergency_patches_critical_bigip",
   "d131419aa599d4c75362acf3e454cd35b3703a2bdc52846808556a80dea98570",
   "https://cybersecuritynews.com/critical-f5-big-ip-vulnerabilities",
-  "slug_6_critical_f5_bigip_vulnerabilities_could"
+  "slug_6_critical_f5_bigip_vulnerabilities_could",
+  "552b60cb29a0722aae4ac33a120683a38e43ab0877860e0b1d05f566e283f830",
+  "https://thehackernews.com/2026/11/hackers-exploit-critical-vmware-cisco.html",
+  "slug_hackers_exploit_critical_vmware_cisco_apache",
+  "CVE_CVE-2026-129448",
+  "d6701e70db092b15d1b97f79fc8f2496b6ec6cce70eafc70574708670c63a5b2",
+  "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5132057-update-released-with-28-changes-and-fixes",
+  "slug_windows_11_kb5132057_update_released_28",
+  "05979729c6eb47d0a0e21eff5e6dd793c24b2f233b9ccb978fb9a75b1ca9f4f7",
+  "https://cybersecuritynews.com/legitimate-vpn-software",
+  "slug_hackers_turn_legitimate_vpn_software_into"
 ]
