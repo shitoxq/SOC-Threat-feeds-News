@@ -1,14 +1,4 @@
 [
-  "CVE_CVE-2026-97229",
-  "b9ba4e436fc8e927c57d6687f49e6c5a110203675a4b9b1fc106800ed0980395",
-  "https://thehackernews.com/2026/11/attackers-exploit-critical-siemens.html",
-  "slug_attackers_exploit_critical_siemens_iot2050_plant",
-  "CVE_CVE-2026-58115",
-  "26db6f8a9060cd7620884bea096c304f029f361f122725879e14e74ffda271d8",
-  "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-smart-app-control-broken-by-october-windows-update",
-  "slug_microsoft_fixes_smart_app_control_broken",
-  "9c59a38943c4d0ce11a585b60c8b101fd063ba55f9cb76b4642050d835c4ee4f",
-  "https://thehackernews.com/2026/11/synology-nas-devices-targeted-in.html",
   "slug_synology_nas_devices_targeted_ransomware_attacks",
   "835b820741288dcc30af45b96a03b6b6c96acdd8f5da796f90d4fb766b2c6b86",
   "https://www.bleepingcomputer.com/news/security/over-1-000-gitlab-servers-vulnerable-to-code-execution-attacks",
@@ -998,5 +988,15 @@
   "slug_fbi_reportedly_hacked_again_this_time",
   "2ac19622335dbd7a3c4accf67a9fea784d1cabebcadcb938bf33be1b950ff8f7",
   "https://www.securityweek.com/amazon-china-linked-hackers-ai-agents-exploited-medical-software-zero-day",
-  "slug_amazon_chinalinked_hackers_ai_agents_exploited"
+  "slug_amazon_chinalinked_hackers_ai_agents_exploited",
+  "18d4ac8f8ecac5a742c8886688eca44bed7b8eaec48f5fc67aa3918dccc1f4e0",
+  "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+  "slug_active_exploitation_sap_netweaver_cve202542884",
+  "CVE_CVE-2025-42884",
+  "9ca347eca23a18a62d23140911a5715786f41127cc304502646056f44201b3c5",
+  "https://www.bleepingcomputer.com/news/security/microsoft-entra-connect-health-flaw-exploited-to-steal-tenant-data",
+  "slug_microsoft_entra_connect_health_exploited_steal",
+  "fd55c66825acffbd3b54c602e70d09616c377c6e0d0862dde655776e65a4ac9f",
+  "https://www.securityweek.com/sbc-medical-group-data-breach-impacts-over-2-million",
+  "slug_sbc_medical_group_data_breach_impacts"
 ]
