@@ -1,13 +1,4 @@
 [
-  "710515d713d53bab7df622d06f4d1a73c16ea1f804fee90da7b5a1bbda5e8a09",
-  "https://www.bleepingcomputer.com/news/security/chinese-hackers-use-artex-ai-in-automated-attacks-against-200-orgs",
-  "slug_chinese_hackers_use_artex_ai_automated",
-  "774431e0b5858fadea29f1fce3b05d78f697d21323474baa0de6e419c31ce126",
-  "https://cybersecuritynews.com/hackers-exploit-iphone-bootrom-flaws",
-  "slug_hackers_could_exploit_iphone_bootrom_compromise",
-  "18d4ac8f8ecac5a742c8886688eca44bed7b8eaec48f5fc67aa3918dccc1f4e0",
-  "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
-  "slug_active_exploitation_gitlab_community_edition_enterprise",
   "CVE_CVE-2026-97229",
   "b9ba4e436fc8e927c57d6687f49e6c5a110203675a4b9b1fc106800ed0980395",
   "https://thehackernews.com/2026/11/attackers-exploit-critical-siemens.html",
@@ -998,5 +989,14 @@
   "slug_badbox_botnet_returns_recordbreaking_40_billion",
   "848f21a0df98dc1cd8558a893da1688d66d01f07179a22b54ea787f4d9a14c11",
   "https://cybersecuritynews.com/crowdstrike-to-acquire-zscaler",
-  "slug_crowdstrike_talks_acquire_zscaler_one_biggest"
+  "slug_crowdstrike_talks_acquire_zscaler_one_biggest",
+  "31de93106fde76af067132c2074f35816b81b1994667613fd946e222261ea799",
+  "https://thehackernews.com/2026/11/attackers-ai-agents-found-zero-day-in.html",
+  "slug_attackersx27_ai_agents_found_zeroday_medicalimaging",
+  "c2801d1f674464d87baa7fcca643fa625707809307139cfab3607dd71b414069",
+  "https://www.bleepingcomputer.com/news/security/fbi-reportedly-hacked-again-this-time-targeting-nationwide-police-database",
+  "slug_fbi_reportedly_hacked_again_this_time",
+  "2ac19622335dbd7a3c4accf67a9fea784d1cabebcadcb938bf33be1b950ff8f7",
+  "https://www.securityweek.com/amazon-china-linked-hackers-ai-agents-exploited-medical-software-zero-day",
+  "slug_amazon_chinalinked_hackers_ai_agents_exploited"
 ]
