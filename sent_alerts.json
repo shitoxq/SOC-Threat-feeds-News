@@ -1,13 +1,4 @@
 [
-  "slug_critical_beyondtrust_vulnerability_faces_fresh_exploitation",
-  "CVE_CVE-2026-102764",
-  "ef82d9f6c0879c3dcdc5139d077f28e800d4bd80b0f77886f83cbfcd9574062c",
-  "https://www.vulncheck.com/blog/anthropic-ledger",
-  "slug_observations_anthropics_vulnerability_disclosure_ledgerpublic_cve",
-  "e777b394c8b454fb26082cff949df04438c8862b24ca6cdfebd5fe029277f1da",
-  "https://gbhackers.com/malicious-claude-code-extensions-in-cursor-marketplace",
-  "slug_malicious_claude_code_extensions_cursor_marketplace",
-  "a3562df3fff969c304c828c1c4f1a3f36ce8570fa4befb07a56a56fcc14fb350",
   "https://thehackernews.com/2026/11/weekly-recap-critical-cves-linux-ddos.html",
   "slug_weekly_recap_critical_cves_linux_ddos",
   "1675f5566da94dce828836c32c4c56088e5febde7625aeacc7a259203f8e7b23",
@@ -998,5 +989,14 @@
   "slug_vendor_data_breach_exposes_chase_visa",
   "1ce0e23cb1c30f5381e14450f949fb48f9292fbae99963e9565e03599c7dba74",
   "https://www.securityweek.com/in-other-news-norwegian-energy-firm-cyberattacks-supercomputer-hack-new-nightmare-eclipse-exploit",
-  "slug_other_news_norwegian_energy_firm_cyberattacks"
+  "slug_other_news_norwegian_energy_firm_cyberattacks",
+  "823ccfebdf7ab435a089b021ac132d119d229a228734cd2854f6bbf65dbf5945",
+  "https://thehackernews.com/2026/11/sonicwall-warns-gen-6-firewalls-wont.html",
+  "slug_sonicwall_warns_gen_6_firewalls_wonx27t",
+  "64a50c668fe35c31ab1c22f726be4f1764057ca93d702a2850b0746c4699be65",
+  "https://www.bleepingcomputer.com/news/security/f5-releases-emergency-patches-for-critical-big-ip-rce-flaws",
+  "slug_f5_releases_emergency_patches_critical_bigip",
+  "d131419aa599d4c75362acf3e454cd35b3703a2bdc52846808556a80dea98570",
+  "https://cybersecuritynews.com/critical-f5-big-ip-vulnerabilities",
+  "slug_6_critical_f5_bigip_vulnerabilities_could"
 ]
