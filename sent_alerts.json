@@ -1,14 +1,4 @@
 [
-  "https://thehackernews.com/2026/11/new-volta-infostealer-uses-claude.html",
-  "slug_new_volta_infostealer_uses_claude_gemini",
-  "26cf23de7eb476f3c3cfc6e079943177a84032ac517922870f2663579b1c52a1",
-  "https://cybersecuritynews.com/tightvnc-pre-auth-rce-vulnerability",
-  "slug_tightvnc_preauth_rce_vulnerability_lets_hackers",
-  "951314c27b65e520fe8f034e40358d0a416fa69912cf1f408600de654921f2ad",
-  "https://www.vulncheck.com/blog/copy-fails-descendants-recent-linux-lpes",
-  "slug_copy_fail_its_descendants_real_humanx27s",
-  "57a2b751fb1631f911f0518387a30af68e44a03593fb361ffa93a2c20d1af991",
-  "https://cybersecuritynews.com/critical-beyondtrust-vulnerability",
   "slug_critical_beyondtrust_vulnerability_faces_fresh_exploitation",
   "CVE_CVE-2026-102764",
   "ef82d9f6c0879c3dcdc5139d077f28e800d4bd80b0f77886f83cbfcd9574062c",
@@ -998,5 +988,15 @@
   "7da05b7d10eacd7620c5cd246af8d8f90514d05346ee8d332cdd9d739ac843dd",
   "https://cybersecuritynews.com/critical-apache-tomcat-flaw",
   "slug_critical_apache_tomcat_lets_remote_attackers",
-  "CVE_CVE-2026-133325"
+  "CVE_CVE-2026-133325",
+  "b44c0a854e15b1852d0ece8a64e0acd1db9eb19271c34c1eeef276701d27db06",
+  "https://thehackernews.com/2026/11/whatsapp-patches-3-security-flaws.html",
+  "slug_whatsapp_patches_3_security_including_android",
+  "CVE_CVE-2026-23871",
+  "6ac4c079c01f11167285aaf0b1c5b92c2b34cb88aa5e2643af62e273da138011",
+  "https://www.bleepingcomputer.com/news/security/vendor-data-breach-exposes-chase-visa-mastercard-customer-info",
+  "slug_vendor_data_breach_exposes_chase_visa",
+  "1ce0e23cb1c30f5381e14450f949fb48f9292fbae99963e9565e03599c7dba74",
+  "https://www.securityweek.com/in-other-news-norwegian-energy-firm-cyberattacks-supercomputer-hack-new-nightmare-eclipse-exploit",
+  "slug_other_news_norwegian_energy_firm_cyberattacks"
 ]
