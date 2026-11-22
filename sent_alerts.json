@@ -1,13 +1,4 @@
 [
-  "5b4ae26ebf95ceee1ce3b6d62715ceacc99fc64e5290d15beb06462c62464d9c",
-  "https://www.bleepingcomputer.com/news/security/binance-says-fake-job-interview-led-to-63-billion-crypto-heist",
-  "slug_binance_says_fake_job_interview_led",
-  "5b3f236a2e394e7c170d239ec24f4dc3e888e4b7c1805d360416ca67be4b3d09",
-  "https://cybersecuritynews.com/hackers-use-fake-software-downloads",
-  "slug_hackers_use_fake_software_downloads_secretly",
-  "25e5bb6556bee58188171950a7b1718b0c4d52d2fcc707677afcf1097414b976",
-  "https://www.bleepingcomputer.com/news/security/google-llmjacking-attacks-rack-up-1-million-in-cloud-ai-charges",
-  "slug_google_llmjacking_attacks_rack_up_1",
   "88feed821173f77ca00b7d067042cc8dc63c740bfbd4d76190223452bed3f8c9",
   "https://cybersecuritynews.com/hackers-use-new-infostealer-malware",
   "slug_hackers_use_new_infostealer_malware_steal",
@@ -998,5 +989,14 @@
   "slug_vulncheck_opens_initial_access_community_edition",
   "29b50c2ef64e90af2458a3ec30354ccb94d6807361636cc15b01ef9eeac66d5b",
   "https://gbhackers.com/china-linked-webworm-softether-vpn",
-  "slug_chinalinked_webworm_hackers_deploy_custom_softether"
+  "slug_chinalinked_webworm_hackers_deploy_custom_softether",
+  "86d05566c7a214bc432a39da04766658142a1eb8ed7d02ad0e1e382caadd856a",
+  "https://www.bleepingcomputer.com/news/security/hackers-exploit-glinet-cloud-flaw-to-infect-routers-kvm-devices",
+  "slug_hackers_exploit_glinet_cloud_infect_routers",
+  "ebba1f4e2733c67859d7cec5339b77f6cc60d556571b1bf743d8f7ee0c885d5d",
+  "https://www.vulncheck.com/blog/xorbits-xoscar-unauth-cloudpickle-rce",
+  "slug_xorbits_xoscar_unauthenticated_rce_via_cloudpickle",
+  "f6eeabc38570842d092f79e57220ec50158475527c4b858ec24b7bac1d4b015b",
+  "https://www.helpnetsecurity.com/2026/11/22/week-in-review-java4shell-proves-tricky-to-exploit-malware-planted-via-optimizely-hits-178-orgs",
+  "slug_week_review_java4shell_proves_tricky_exploit"
 ]
