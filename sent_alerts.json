@@ -1,13 +1,4 @@
 [
-  "slug_synology_nas_devices_targeted_ransomware_attacks",
-  "835b820741288dcc30af45b96a03b6b6c96acdd8f5da796f90d4fb766b2c6b86",
-  "https://www.bleepingcomputer.com/news/security/over-1-000-gitlab-servers-vulnerable-to-code-execution-attacks",
-  "slug_over_1000_gitlab_servers_vulnerable_ongoing",
-  "374c7a9f701dbd1956ab92cd26f017a1dd523e424ed582ac0d6a4b5016f9a1e4",
-  "https://cybersecuritynews.com/hackers-use-malicious-vhdx-files",
-  "slug_hackers_use_malicious_vhdx_files_webdav",
-  "c5631e1fe7c280d41ea0570b670335d706b6c1cb16d7cd716dfe164065975214",
-  "https://thehackernews.com/2026/11/google-warns-llmjacking-attacks-are.html",
   "slug_google_warns_llmjacking_attacks_costing_some",
   "4aec85e873ea6f797df71c02156bc90436845252a74bfd768edaf80fdd807425",
   "https://www.bleepingcomputer.com/news/security/uk-school-estate-hit-by-3am-ransomware-in-suspected-ai-assisted-attack",
@@ -998,5 +989,14 @@
   "slug_microsoft_entra_connect_health_exploited_steal",
   "fd55c66825acffbd3b54c602e70d09616c377c6e0d0862dde655776e65a4ac9f",
   "https://www.securityweek.com/sbc-medical-group-data-breach-impacts-over-2-million",
-  "slug_sbc_medical_group_data_breach_impacts"
+  "slug_sbc_medical_group_data_breach_impacts",
+  "3f3621acc381dab2e6cfd3098bbc0ed199d5547714f22bd6ad9d385afa245efd",
+  "https://www.securityweek.com/fbi-investigating-apparent-hack-of-its-key-national-criminal-justice-database-ap-source-says",
+  "slug_fbi_investigating_apparent_hack_its_key",
+  "9b8412e706a0de534e636bbdcb076f8e8945e07a74a044a25222deb2803c3954",
+  "https://www.vulncheck.com/blog/recognition-signals-how-security-teams-are-changing",
+  "slug_what_this_years_recognition_signals_about",
+  "59730e2407b364de01a7249da986087d56b93894626ea4f6f58a09e1f487420d",
+  "https://ipurple.team/2026/09/09/windows-security-center",
+  "slug_windows_security_center"
 ]
