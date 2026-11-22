@@ -1,14 +1,4 @@
 [
-  "slug_google_warns_llmjacking_attacks_costing_some",
-  "4aec85e873ea6f797df71c02156bc90436845252a74bfd768edaf80fdd807425",
-  "https://www.bleepingcomputer.com/news/security/uk-school-estate-hit-by-3am-ransomware-in-suspected-ai-assisted-attack",
-  "slug_uk_school_estate_hit_3am_ransomware",
-  "63118abdbefbb97482cc5ac77a0c7d983ee1ad6f5f6c5b38a597c37fb68cd339",
-  "https://cybersecuritynews.com/hackers-use-ai-agents-2",
-  "slug_hackers_use_ai_agents_launch_3am",
-  "62e23c789fbfd2f85d19b5cda60f223a48c61e51317e15463cf2fb7e382d0fc7",
-  "https://thehackernews.com/2026/11/binance-reveals-how-fake-job-interviews.html",
-  "slug_binance_reveals_how_fake_job_interviews",
   "87893c219097abee42a4be81d6ff289535df5695b5cd421ffbb3481f5e27d4b8",
   "https://www.bleepingcomputer.com/news/security/police-seizes-over-100-servers-in-investment-scam-crackdown",
   "slug_police_seizes_over_100_servers_investment",
@@ -998,5 +988,15 @@
   "slug_what_this_years_recognition_signals_about",
   "59730e2407b364de01a7249da986087d56b93894626ea4f6f58a09e1f487420d",
   "https://ipurple.team/2026/09/09/windows-security-center",
-  "slug_windows_security_center"
+  "slug_windows_security_center",
+  "a3c63e958cb92eef3df0aa513c9e2bcc89f1a4d836647a4f3bac9eefc4d8cd48",
+  "https://thehackernews.com/2026/11/researchers-demonstrate-ghostscript.html",
+  "slug_researchers_demonstrate_ghostscript_sandboxescape_rce_via",
+  "55b1f425f0e6c87ea584fb38210f4267655ff33d8bfdf6bdde9538f3f5a67009",
+  "https://cybersecuritynews.com/upload2shell-flaw",
+  "slug_hackers_could_execute_commands_wordpress_email",
+  "CVE_CVE-2026-125396",
+  "c2cce02efbf63d2b99ae584e3f9c6ebb025e2d4d2ee3a5e255f6617a8b40e352",
+  "https://www.securityweek.com/european-commission-confirms-ai-assisted-cyberattack-disrupted-services",
+  "slug_european_commission_confirms_aiassisted_cyberattack_disrupted"
 ]
