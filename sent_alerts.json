@@ -1,14 +1,4 @@
 [
-  "d0f4d81a715c4404f84db1326814de8da2f2e7656abe924fa5e6a1bbcdb9a0e7",
-  "https://www.bleepingcomputer.com/news/security/workos-says-attacker-used-artex-ai-to-breach-internal-sales-app",
-  "slug_workos_says_attacker_used_artex_ai",
-  "dcb5f6891034556555b667012f482adaff93126f1ebae9afe115ffe08d66552e",
-  "https://cybersecuritynews.com/artex-ai-automate-enterprise-attacks",
-  "slug_hackers_use_artex_ai_automate_enterprise",
-  "c3e615c4c5d6d791ca5ef6728c497232c65b40f2c618d5af92f9e6911a95c7b9",
-  "https://thehackernews.com/2026/11/cpguard-update-channel-hijacked-to.html",
-  "slug_cpguard_update_channel_hijacked_backdoor_linux",
-  "e4e3580096b71b611f0f3db3a18dc8e325a75bf1cb1fd6cd7b4665e5764d5e3e",
   "https://www.bleepingcomputer.com/news/security/hackers-hijack-cpguard-autoupdate-to-deploy-backdoor-steal-data",
   "slug_hackers_hijack_cpguard_autoupdate_deploy_backdoor",
   "c221f27834f2b64a27be39b2d10ec95f2c30829f5aaf42775351c80dc7e81f39",
@@ -998,5 +988,15 @@
   "bdeee7888de05c4d0d85be5ca67e9ea965c0cfd008afdee53a75c52e19472b42",
   "https://gbhackers.com/critical-f5-big-ip-stack-buffer-overflow-flaw",
   "slug_critical_f5_bigip_stack_buffer_overflow",
-  "CVE_CVE-2026-123637"
+  "CVE_CVE-2026-123637",
+  "64b20ec1d532f296fe6f0fffb42fec5052f08b70cbe8a8abf5000f036c5ebed1",
+  "https://www.bleepingcomputer.com/news/security/cleverbridge-warns-hackers-stole-credit-card-numbers-cvvs-in-data-breach",
+  "slug_cleverbridge_warns_hackers_stole_credit_card",
+  "2e79b69cd682f6e6f27b5af9e7453688b46793e213070e5c7a3d25e0844baf39",
+  "https://cybersecuritynews.com/virustotal-ransomware-detection",
+  "slug_virustotals_new_ransomware_detection_catches_malware",
+  "43a227e871d32a13c682d4ea34ae41eef2fcee8fbf892d6bdc155e42aa68a1cb",
+  "https://www.vulncheck.com/blog/exploitation-targeting-node-red",
+  "slug_exploitation_targeting_nodered_tool_embedded_ics",
+  "CVE_CVE-2026-58115"
 ]
