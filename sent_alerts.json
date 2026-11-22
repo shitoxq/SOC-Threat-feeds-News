@@ -1,14 +1,4 @@
 [
-  "87893c219097abee42a4be81d6ff289535df5695b5cd421ffbb3481f5e27d4b8",
-  "https://www.bleepingcomputer.com/news/security/police-seizes-over-100-servers-in-investment-scam-crackdown",
-  "slug_police_seizes_over_100_servers_investment",
-  "05062e0c3f8b1c01eac09b8de9f96df8953080b82ee688299d7b92fca0f50cec",
-  "https://cybersecuritynews.com/supermarket-refrigeration-systems-across-europe",
-  "slug_hackers_target_supermarket_refrigeration_systems_across",
-  "5350cf64f29cdc8ac80e555f0f95287832f53528f8c51bf82ed1bf74b1669c24",
-  "https://thehackernews.com/2026/11/barracuda-flaws-could-be-chained-to.html",
-  "slug_barracuda_could_be_chained_bypass_authorization",
-  "CVE_CVE-2026-116606",
   "d0f4d81a715c4404f84db1326814de8da2f2e7656abe924fa5e6a1bbcdb9a0e7",
   "https://www.bleepingcomputer.com/news/security/workos-says-attacker-used-artex-ai-to-breach-internal-sales-app",
   "slug_workos_says_attacker_used_artex_ai",
@@ -998,5 +988,15 @@
   "CVE_CVE-2026-125396",
   "c2cce02efbf63d2b99ae584e3f9c6ebb025e2d4d2ee3a5e255f6617a8b40e352",
   "https://www.securityweek.com/european-commission-confirms-ai-assisted-cyberattack-disrupted-services",
-  "slug_european_commission_confirms_aiassisted_cyberattack_disrupted"
+  "slug_european_commission_confirms_aiassisted_cyberattack_disrupted",
+  "c0a6118942d1754a835429090ea705c9ff44c96bcd39dc344476297b3bf08cc0",
+  "https://cybersecuritynews.com/microsoft-entra-connect-health-flaw",
+  "slug_hackers_exploit_microsoft_entra_connect_health",
+  "c61d6923c6958ca1a6fe11279e2797c37e8b32fe2453521e185371dbc69c31d1",
+  "https://www.vulncheck.com/blog/fortigate-firmware-clienthello",
+  "slug_identifying_fortigate_firmware_from_single_clienthelloabout",
+  "bdeee7888de05c4d0d85be5ca67e9ea965c0cfd008afdee53a75c52e19472b42",
+  "https://gbhackers.com/critical-f5-big-ip-stack-buffer-overflow-flaw",
+  "slug_critical_f5_bigip_stack_buffer_overflow",
+  "CVE_CVE-2026-123637"
 ]
