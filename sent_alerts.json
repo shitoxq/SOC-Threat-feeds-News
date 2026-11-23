@@ -1,13 +1,4 @@
 [
-  "CVE_CVE-2026-109593",
-  "9db2bb1c771f0b75301228c6b9fae60473ca9d945628faa46f2b4734406b2f47",
-  "https://www.bleepingcomputer.com/news/security/vercel-rolls-out-new-protection-against-stolen-session-cookie-attacks",
-  "slug_vercel_rolls_out_new_protection_against",
-  "e4ca15d69695554fde7ad7b88c2d3eab701f17e0cdf0ed3669f04c63ace70ba7",
-  "https://cybersecuritynews.com/skyw4lker-phishing-campaign-expands-threatening-us-enterprises-with-microsoft-365-account-takeovers",
-  "slug_skyw4lker_phishing_campaign_expands_threatening_us",
-  "049f0818282ab399258fe338eda08df3b5ffb7673952dd110dd5bec4ca24ead8",
-  "https://thehackernews.com/2026/11/researchers-uncover-prompt-adware.html",
   "slug_researchers_uncover_prompt_adware_hidden_openai",
   "8548203aec91f02a8ae5d272f3609755636e8535040cff31bf65706ed16835d9",
   "https://www.bleepingcomputer.com/news/security/zyxel-fixes-zero-day-exploited-to-hack-nearly-1-000-network-switches",
@@ -998,5 +989,14 @@
   "slug_microsoft_testing_fix_windows_11_bluetooth",
   "bd12c1cbf27f57cfdb63b0351ae78d4b48b7f98372b1439b3423955265265b94",
   "https://cybersecuritynews.com/crowdstrike-acquire-zscaler",
-  "slug_crowdstrike_acquire_zscaler_massive_439_billion"
+  "slug_crowdstrike_acquire_zscaler_massive_439_billion",
+  "5495a06dee26529fd91c294dd847c1ac8a7e2598d92424d1ec0956e2c216e645",
+  "https://thehackernews.com/2026/11/webworm-suspected-of-modifying.html",
+  "slug_webworm_suspected_modifying_softether_vpn_evade",
+  "11d7d6584ec1d0026c62bd53b066906747335a908c663f55a8814d8cbd256328",
+  "https://www.bleepingcomputer.com/news/security/south-koreas-power-giant-kepco-confirms-data-breach-impacting-15-million",
+  "slug_south_koreas_power_giant_kepco_confirms",
+  "fb18018ad2f4f6e836dc971fb619d72218d39f2ed6b6f17fbc3d8adbcdde7794",
+  "https://cybersecuritynews.com/hackers-hide-revstealer-malware",
+  "slug_hackers_hide_revstealer_malware_fake_claude"
 ]
