@@ -1,14 +1,4 @@
 [
-  "8ad61c6b684d33c3b1447d52e85cd27b02234c2ced265bd642e4963b9eceaffe",
-  "https://www.bleepingcomputer.com/news/security/nikke-pc-game-launcher-hacked-to-spread-remote-access-data-stealing-malware",
-  "slug_nikke_pc_game_launcher_hacked_spread",
-  "ce0e855e2ee653ddc4625cbfd047f457f32e0f55bd8256a98dd73ca78b830cef",
-  "https://cybersecuritynews.com/debian-apt-flaw-lets-hackers-hijack-updates",
-  "slug_debian_ubuntu_apt_lets_hackers_hijack",
-  "CVE_CVE-2026-109518",
-  "28cc7a562c85ad38a67f6487f871048cf5375f76437b5e0e668667d887e03163",
-  "https://thehackernews.com/2026/11/sonicwall-wont-patch-eol-gms-flaws-that.html",
-  "slug_sonicwall_wonx27t_patch_eol_gms_that",
   "CVE_CVE-2026-109593",
   "9db2bb1c771f0b75301228c6b9fae60473ca9d945628faa46f2b4734406b2f47",
   "https://www.bleepingcomputer.com/news/security/vercel-rolls-out-new-protection-against-stolen-session-cookie-attacks",
@@ -998,5 +988,15 @@
   "slug_openais_gpt62_astra_discovers_0day_vulnerabilities",
   "1946ff799b3393ee0f7d240d3108e018992d5d5b739e98558543da976a396f36",
   "https://www.vulncheck.com/blog/virtualizor-billing-hook-unauthenticated-root-rce",
-  "slug_virtualizor_login_parameter_that_skips_loginvulncheckx27s"
+  "slug_virtualizor_login_parameter_that_skips_loginvulncheckx27s",
+  "2da724996ccb9ddbf7a504e372055974323de6fbf7e52f1e12aa893c5f1fc6ff",
+  "https://thehackernews.com/2026/11/hackers-exploit-critical-screenconnect.html",
+  "slug_hackers_exploit_critical_screenconnect_hijack_msp",
+  "CVE_CVE-2026-84869",
+  "7e0ab8486aa30ee5c283e4a95ed463842f3986d11d1445c08b80d8d14ecfe147",
+  "https://www.bleepingcomputer.com/news/microsoft/microsoft-testing-fix-for-windows-11-bluetooth-audio-quality-drops",
+  "slug_microsoft_testing_fix_windows_11_bluetooth",
+  "bd12c1cbf27f57cfdb63b0351ae78d4b48b7f98372b1439b3423955265265b94",
+  "https://cybersecuritynews.com/crowdstrike-acquire-zscaler",
+  "slug_crowdstrike_acquire_zscaler_massive_439_billion"
 ]
