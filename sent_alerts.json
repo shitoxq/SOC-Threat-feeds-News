@@ -1,13 +1,4 @@
 [
-  "88feed821173f77ca00b7d067042cc8dc63c740bfbd4d76190223452bed3f8c9",
-  "https://cybersecuritynews.com/hackers-use-new-infostealer-malware",
-  "slug_hackers_use_new_infostealer_malware_steal",
-  "c54cd27e35940ee5c917649529d83714567d2cb637a8cf4c9c505ec9e2bc8eb7",
-  "https://www.securityweek.com/crowdstrike-reportedly-paying-495-million-for-ai-security-firms-fiddler-dreadnode",
-  "slug_crowdstrike_reportedly_paying_495_million_ai",
-  "f4b7ff866caa5870696391c3e909a8ced18118ed8f39c23d3ca0496f20627acd",
-  "https://thehackernews.com/2026/11/apt29-linked-hackers-hijack-web.html",
-  "slug_apt29linked_hackers_hijack_web_analytics_script",
   "6dc56b5d71ca081cfc2340b778a7943000d2cc15a98350f40df64cda63e62a76",
   "https://www.bleepingcomputer.com/news/security/google-calendar-phishing-campaign-hijacks-sessions-bypasses-mfa",
   "slug_google_calendar_phishing_campaign_hijacks_sessions",
@@ -998,5 +989,14 @@
   "slug_xorbits_xoscar_unauthenticated_rce_via_cloudpickle",
   "f6eeabc38570842d092f79e57220ec50158475527c4b858ec24b7bac1d4b015b",
   "https://www.helpnetsecurity.com/2026/11/22/week-in-review-java4shell-proves-tricky-to-exploit-malware-planted-via-optimizely-hits-178-orgs",
-  "slug_week_review_java4shell_proves_tricky_exploit"
+  "slug_week_review_java4shell_proves_tricky_exploit",
+  "4e31867fcf6f7c84838e390810a80ebb680b1871cea52dbe88aede73005796e6",
+  "https://www.vulncheck.com/blog/integrity-technology-group-advisory",
+  "slug_expanding_visibility_into_chinese_governmentlinked_cyber",
+  "7045228caaf2fad4434c3a923cf6b055207c5c5bc64ee3ff201efc51bc707b9c",
+  "https://www.helpnetsecurity.com/2026/11/23/google-semantic-governance-policies",
+  "slug_googles_semantic_governance_policies_can_block",
+  "ccc11eebb8ec70bcfacc68562e56ccda4476a20c51fd65ab9cfc19809a7a8e69",
+  "https://ipurple.team/2026/08/24/text-template",
+  "slug_text_template"
 ]
