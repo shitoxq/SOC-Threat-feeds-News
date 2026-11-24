@@ -1,13 +1,4 @@
 [
-  "slug_researchers_uncover_prompt_adware_hidden_openai",
-  "8548203aec91f02a8ae5d272f3609755636e8535040cff31bf65706ed16835d9",
-  "https://www.bleepingcomputer.com/news/security/zyxel-fixes-zero-day-exploited-to-hack-nearly-1-000-network-switches",
-  "slug_zyxel_fixes_zeroday_exploited_hack_nearly",
-  "90c09cd66f8ba4590d181024246f46ee2b247c748417bb006fcbfe730b86ecd0",
-  "https://www.securityweek.com/barracuda-email-security-gateway-authentication-bypass-opens-path-to-root",
-  "slug_barracuda_esg_authentication_bypass_opens_path",
-  "16bf85bfb533fefee48b85fb3436fc4224373d29f54088a639e6c46ed49226e2",
-  "https://thehackernews.com/2026/11/hackers-exploit-patched-apple-flaw-to.html",
   "slug_hackers_exploit_patched_apple_deliver_infostealing",
   "CVE_CVE-2024-27834",
   "0220f76c2f8e5f22a404f2efc489b2af8d851ed8324b78779b1652fbda931077",
@@ -998,5 +989,14 @@
   "slug_south_koreas_power_giant_kepco_confirms",
   "fb18018ad2f4f6e836dc971fb619d72218d39f2ed6b6f17fbc3d8adbcdde7794",
   "https://cybersecuritynews.com/hackers-hide-revstealer-malware",
-  "slug_hackers_hide_revstealer_malware_fake_claude"
+  "slug_hackers_hide_revstealer_malware_fake_claude",
+  "a75fd36abba0068884a2947b988146ee3b4b275e95cdaa2368a6bb4dda72d713",
+  "https://thehackernews.com/2026/11/weekly-recap-vmware-0-day-java4shell.html",
+  "slug_weekly_recap_vmware_0day_java4shell_nginx2root",
+  "a0de9d3c092a62fb4ff38ac8ccc3d2e584f3f95bce1a788b6d95edf0308e1442",
+  "https://www.bleepingcomputer.com/news/security/microsoft-azure-flaw-exploited-to-steal-customers-api-credentials",
+  "slug_microsoft_azure_exploited_steal_customersx27_api",
+  "b730210876560af62edc40e598397cb4e676b8095b4ff97aa684108b6d274263",
+  "https://cybersecuritynews.com/vmcloudoor-malware",
+  "slug_vmcloudoor_malware_could_let_hackers_secretly"
 ]
