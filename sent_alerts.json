@@ -1,14 +1,4 @@
 [
-  "https://thehackernews.com/2026/11/threatsday-apache-ofbiz-rce-dreamhost.html",
-  "slug_threatsday_apache_ofbiz_rce_dreamhost_breach",
-  "f4499c87874be1241cc7b6490e965bc630e44d594863f90f5d4b19afc41831b0",
-  "https://www.bleepingcomputer.com/news/security/hackers-backdoor-linux-servers-using-trojanized-cwp-web-server",
-  "slug_hackers_backdoor_linux_servers_using_trojanized",
-  "71a6fbad7ecbded7a1926d889f98148e1409b6c93b783107a7835f79a2db5a84",
-  "https://cybersecuritynews.com/chinese-keyboard-software",
-  "slug_hackers_turn_popular_chinese_keyboard_software",
-  "c7e59b0d46842b6392615ae8f870defc69cc778ca3c5e1bf2b92f9b8687982db",
-  "https://thehackernews.com/2026/11/openai-ai-pipeline-generates-948-linux.html",
   "slug_openai_ai_pipeline_generates_948_linux",
   "f3d4fc33d1407bc088038e79c03155fde1fc5cd69c773aea4759312de403889b",
   "https://www.bleepingcomputer.com/news/security/openssh-flaw-lets-attackers-log-into-password-disabled-linux-accounts",
@@ -998,5 +988,15 @@
   "slug_hackers_compromise_check_point_servers_22",
   "489a4420ecd430d3a56f148cf05ec679f5edfba60e02e1753a917140977e5eea",
   "https://cybersecuritynews.com/mcdonalds-japan-data-breach",
-  "slug_mcdonalds_japan_confirms_data_breach_customer"
+  "slug_mcdonalds_japan_confirms_data_breach_customer",
+  "aa014f4b55f462a96af72e8e2ecc5e5bb0cff4d6097b23678ad6ab20d1bd1122",
+  "https://thehackernews.com/2026/11/vmware-vcenter-hit-by-another-critical.html",
+  "slug_vmware_vcenter_hit_another_critical_98rated",
+  "CVE_CVE-2026-123903",
+  "aed7501519e9304fff184577d3ac897d40b515cd0fee120d3c84616c787260a2",
+  "https://www.bleepingcomputer.com/news/security/police-disrupt-57-illegal-streaming-services-with-73-million-visits",
+  "slug_police_disrupt_57_illegal_streaming_services",
+  "bcfe961f92745a2ffc61b366f37c512a456a406d2b001057d7817bf63aa071d7",
+  "https://cybersecuritynews.com/vmware-esx-host-vulnerabilities",
+  "slug_critical_vmware_esx_let_remote_attackers"
 ]
