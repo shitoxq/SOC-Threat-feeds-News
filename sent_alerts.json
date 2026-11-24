@@ -1,13 +1,4 @@
 [
-  "slug_hackers_exploit_patched_apple_deliver_infostealing",
-  "CVE_CVE-2024-27834",
-  "0220f76c2f8e5f22a404f2efc489b2af8d851ed8324b78779b1652fbda931077",
-  "https://www.bleepingcomputer.com/news/security/dreamhost-confirms-data-breach-exposed-ftp-logins-and-webmail-sessions",
-  "slug_dreamhost_confirms_data_breach_exposed_ftp",
-  "31867e2ada5054628f399408c9acd3a398b782a59c211f0cf3a282775cec10cc",
-  "https://cybersecuritynews.com/digicert-confirms-data-breach",
-  "slug_digicert_confirms_data_breach_exposing_customer",
-  "9fb3d806b5214e2e6b9d7b6386be32010e75f4f0af5ac76eda6f7f5366db62fe",
   "https://thehackernews.com/2026/11/backdoored-docker-image-for-artex-ai.html",
   "slug_certin_flags_aidriven_attacks_backdoored_artex",
   "dd3dbae0137e1e4cc8873a882463febc3ac6ef3122d8f95ec6fc6103c0c02391",
@@ -998,5 +989,14 @@
   "slug_microsoft_azure_exploited_steal_customersx27_api",
   "b730210876560af62edc40e598397cb4e676b8095b4ff97aa684108b6d274263",
   "https://cybersecuritynews.com/vmcloudoor-malware",
-  "slug_vmcloudoor_malware_could_let_hackers_secretly"
+  "slug_vmcloudoor_malware_could_let_hackers_secretly",
+  "47c6e40ac66c9d3b81c5f40c195b2b4419709a2d0249484182b879258a330a6a",
+  "https://thehackernews.com/2026/11/microsoft-fixes-azure-api-management.html",
+  "slug_microsoft_fixes_azure_api_management_classic",
+  "6fd89acf9e3aa36a899fa0e436902ffc672bdcfb44c2e7f337556a3dfa9b32b3",
+  "https://www.bleepingcomputer.com/news/security/spanish-laliga-confirms-hackers-stole-soccer-fans-personal-data",
+  "slug_spanish_laliga_confirms_hackers_stole_soccer",
+  "7c919ae7d76f3f175ee4e61b1c6ba670f0163975f95f5cf839c3972c8ed7e513",
+  "https://cybersecuritynews.com/bypass-mfa-through-phone-scams",
+  "slug_hackers_bypass_mfa_through_phone_scams"
 ]
