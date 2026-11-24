@@ -1,13 +1,4 @@
 [
-  "https://thehackernews.com/2026/11/backdoored-docker-image-for-artex-ai.html",
-  "slug_certin_flags_aidriven_attacks_backdoored_artex",
-  "dd3dbae0137e1e4cc8873a882463febc3ac6ef3122d8f95ec6fc6103c0c02391",
-  "https://www.bleepingcomputer.com/news/security/ghostmap-android-flaw-lets-malicious-app-trigger-persistent-boot-loop",
-  "slug_ghostmap_android_lets_malicious_app_trigger",
-  "b4dc8ce4cd9ea9857169d3b027c37eab40474d39b126aef5cc1235cb6f6d38f9",
-  "https://cybersecuritynews.com/hackers-trick-mac-users",
-  "slug_hackers_trick_mac_users_into_running",
-  "7d3fdba5d29111d07393b9b4821508f0e85459682d17d6d0be86b19a5b543c18",
   "https://thehackernews.com/2026/11/threatsday-apache-ofbiz-rce-dreamhost.html",
   "slug_threatsday_apache_ofbiz_rce_dreamhost_breach",
   "f4499c87874be1241cc7b6490e965bc630e44d594863f90f5d4b19afc41831b0",
@@ -998,5 +989,14 @@
   "slug_spanish_laliga_confirms_hackers_stole_soccer",
   "7c919ae7d76f3f175ee4e61b1c6ba670f0163975f95f5cf839c3972c8ed7e513",
   "https://cybersecuritynews.com/bypass-mfa-through-phone-scams",
-  "slug_hackers_bypass_mfa_through_phone_scams"
+  "slug_hackers_bypass_mfa_through_phone_scams",
+  "9582e29a3fdc5bee41c2e6a92f9415a2684891ced3082e3757203fc594e7c0b2",
+  "https://thehackernews.com/2026/11/iran-aligned-volant-manticore-uses-ipfs.html",
+  "slug_iranaligned_volant_manticore_uses_ipfsbased_kuboshell",
+  "67f9828a0486125710bdced84705f40a2e3e4f87f69e14dd37b2180853a6d924",
+  "https://www.bleepingcomputer.com/news/security/hackers-compromise-check-point-servers-in-22-organizations",
+  "slug_hackers_compromise_check_point_servers_22",
+  "489a4420ecd430d3a56f148cf05ec679f5edfba60e02e1753a917140977e5eea",
+  "https://cybersecuritynews.com/mcdonalds-japan-data-breach",
+  "slug_mcdonalds_japan_confirms_data_breach_customer"
 ]
