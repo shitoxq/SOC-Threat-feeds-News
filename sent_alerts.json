@@ -1,14 +1,4 @@
 [
-  "slug_openssh_issues_emergency_fix_letting_long",
-  "d1043c057c6734b8943c28a00cbffe1b5df0db347a6c099b33aa6fb9ea011d9c",
-  "https://www.bleepingcomputer.com/news/security/fake-openai-spacex-events-used-to-steal-microsoft-google-accounts",
-  "slug_fake_openai_spacex_events_used_steal",
-  "081d74e4e6e66aa2073d2c313df9706ff8a81edaf49df643249233ab654ceb82",
-  "https://cybersecuritynews.com/hyflock-ransomware",
-  "slug_hyflock_ransomware_encrypts_only_first_4kb",
-  "dd9d10ec61939a9712c1adfe2403f4d513a006f67dc05cf7e15e2de5979549c1",
-  "https://thehackernews.com/2026/11/researchers-bypass-chatgpt-lockdown.html",
-  "slug_researchers_bypass_chatgpt_lockdown_mode_exfiltrate",
   "d329bb03cf8c1aab0fad00b1091fb502e043373162fec4118f3b726218170829",
   "https://www.bleepingcomputer.com/news/security/digicert-data-breach-exposes-customer-information-identity-documents",
   "slug_digicert_data_breach_exposes_customer_information",
@@ -998,5 +988,15 @@
   "slug_microsoft_declares_code_red_after_historic",
   "735fcd710d408e0a1e1be46a76b9d4ebba2636975e3177d3d4aff7afa4a615ba",
   "https://www.securityweek.com/an-unclassified-cia-system-was-breached-in-a-cyberattack-ap-source-says",
-  "slug_unclassified_cia_system_was_breached_cyberattack"
+  "slug_unclassified_cia_system_was_breached_cyberattack",
+  "d5f3ce6a4d9a56a9ddbb16bc7fa352d7d3db9d7b00faee4765c5b4ec71edc5d1",
+  "https://thehackernews.com/2026/11/hackers-compromise-24-check-point.html",
+  "slug_hackers_compromise_24_check_point_management",
+  "e322e54857532fe90476b4fa5d9b7f00cb3876bf41072c83778cb9e7cda36b8e",
+  "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-authentication-issues-after-november-updates",
+  "slug_microsoft_confirms_authentication_issues_after_november",
+  "b018a12c3f9e06a0c0a93c6c8ba3ec53dcdf681714ec830d44131715fefbcaff",
+  "https://www.securityweek.com/hackers-exploit-unpatched-flaw-in-defunct-idunno-anticsrf-library",
+  "slug_hackers_exploit_unpatched_defunct_idunno_anticsrf",
+  "CVE_CVE-2026-131914"
 ]
