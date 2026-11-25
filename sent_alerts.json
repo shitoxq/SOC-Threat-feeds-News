@@ -1,13 +1,4 @@
 [
-  "slug_microsoft_paint_0click_vulnerability_could_allow",
-  "CVE_CVE-2026-83844",
-  "56a46ba09614c66d622045425e422b2fe91abe2074ca32cd019b1a1a90e7248f",
-  "https://www.securityweek.com/ai-agents-got-root-on-linux-via-948-kernel-flaws-in-openai-research",
-  "slug_ai_agents_got_root_linux_via",
-  "a3b94f1fb170a2b69842d6df107dd74cd808019727ad4afc93b8b8e93e5d6bf4",
-  "https://thehackernews.com/2026/11/chainalysis-breach-exposes-all-users.html",
-  "slug_chainalysis_breach_exposes_all_usersx27_credentials",
-  "a6058b157dc842e4d1d3719cad0ea05b2c5d00d72570fa1ec519233de6f47270",
   "https://cybersecuritynews.com/artex-ai-hacking-framework",
   "slug_artex_ai_hacking_framework_found_1465",
   "8f24f3bf401edee420d30f9e7a5b3e91aaf19f7b06e83772554f76055f83cda5",
@@ -998,5 +989,14 @@
   "slug_microsoft_fixes_microsoft_365_bug_blocking",
   "274f8b23720360586803ce287f0b178ad82a9aef6066e3e3d3b20871776ebbc5",
   "https://cybersecuritynews.com/hugging-face-ai-phishing-pages",
-  "slug_hackers_use_hugging_face_ai_build"
+  "slug_hackers_use_hugging_face_ai_build",
+  "b72d4a699599c9acdb9f71b4bd6cd2a25824680d37c9ec3550259de1044347f4",
+  "https://thehackernews.com/2026/11/us-treasurys-fincen-takes-some-systems.html",
+  "slug_us_treasuryx27s_financial_crimes_agency_takes",
+  "8318524db78437fcc8e5f94ac7d16ea7a55a6ecfa89cbe540bd444cb3e4a98cb",
+  "https://www.bleepingcomputer.com/news/security/infratrust-warns-of-exploited-supply-chain-flaws-in-network-appliances",
+  "slug_infratrust_warns_exploited_supply_chain_network",
+  "4d45f7e1fcdf8a29eeeb10677898824b1666c20d15f2ef065f59c54d3d5dfcb6",
+  "https://cybersecuritynews.com/fincen-confirms-cyberattack",
+  "slug_us_treasurys_fincen_confirms_cyberattack_takes"
 ]
