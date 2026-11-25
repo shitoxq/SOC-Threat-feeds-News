@@ -1,14 +1,4 @@
 [
-  "https://cybersecuritynews.com/artex-ai-hacking-framework",
-  "slug_artex_ai_hacking_framework_found_1465",
-  "8f24f3bf401edee420d30f9e7a5b3e91aaf19f7b06e83772554f76055f83cda5",
-  "https://www.securityweek.com/cisco-watchguard-release-patches-sonicwall-wont-fix-gms-flaws",
-  "slug_cisco_watchguard_release_patches_sonicwall_wont",
-  "319e7df558d145a4745207049c98e31986d82bd13413d5dcc2f64fa3982285bd",
-  "https://thehackernews.com/2026/11/installing-fix-for-exploited-wordpress.html",
-  "slug_installing_fix_exploited_wordpress_can_expose",
-  "c4df27c356c67381772081fe652ebde26ffc1665c464ca50453d1f3ad7f5717d",
-  "https://www.bleepingcomputer.com/news/security/qnap-says-hackers-breaching-nas-devices-in-plex2shell-attacks",
   "slug_qnap_says_hackers_breaching_nas_devices",
   "23539b6f794dab70cc4249352b2fc9d0dd293c3cebdc1c0fc5c469d4ba307f69",
   "https://cybersecuritynews.com/new-dark-project-ransomware-group",
@@ -998,5 +988,15 @@
   "slug_infratrust_warns_exploited_supply_chain_network",
   "4d45f7e1fcdf8a29eeeb10677898824b1666c20d15f2ef065f59c54d3d5dfcb6",
   "https://cybersecuritynews.com/fincen-confirms-cyberattack",
-  "slug_us_treasurys_fincen_confirms_cyberattack_takes"
+  "slug_us_treasurys_fincen_confirms_cyberattack_takes",
+  "f8d0d1935ac4bbfbbe273bf5120c429d9e39607df621762a3b96a72df4367204",
+  "https://thehackernews.com/2026/11/drupal-fail2install-exploit-details.html",
+  "slug_drupal_fail2install_exploit_details_emerge_critical",
+  "CVE_CVE-2026-132165",
+  "3668d7ed9e5233055b79e61d45fd6b9e5bea70f8e4c7a078ab6b82f90a9b947d",
+  "https://www.bleepingcomputer.com/news/security/palo-alto-networks-warns-of-fragnesia-flaw-exploited-in-pan-os-attacks",
+  "slug_palo_alto_networks_warns_fragnesia_exploited",
+  "5429114753f0ce8df1abd082ad82d74a58ab95e2aa9e5507ad3b0a93529daa39",
+  "https://cybersecuritynews.com/drupal-idunno-anticsrf-optimizely-flaws-exploited",
+  "slug_cisa_warns_drupal_core_rce_idunno"
 ]
