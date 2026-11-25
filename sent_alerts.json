@@ -1,15 +1,4 @@
 [
-  "d329bb03cf8c1aab0fad00b1091fb502e043373162fec4118f3b726218170829",
-  "https://www.bleepingcomputer.com/news/security/digicert-data-breach-exposes-customer-information-identity-documents",
-  "slug_digicert_data_breach_exposes_customer_information",
-  "1a8fbb9357180f562549a6aa26ac6bc42fa04d5ffb17e01472d0da2072cc74f1",
-  "https://cybersecuritynews.com/openai-launches-gpt-6-cyber",
-  "slug_openai_launches_gpt6_cyber_that_finds",
-  "97fd8de188fcd37eb9f38e849a29d4afc8d41b619370cb2e8be6c80880105678",
-  "https://thehackernews.com/2026/11/hackers-hide-linux-backdoor-in-control.html",
-  "slug_hackers_hide_linux_backdoor_control_web",
-  "10ee0a6af1e6f34c48be36073eefeeb37c7cc741a2663bbee9fbd12b90c3e48e",
-  "https://cybersecuritynews.com/windows-paint-rce-vulnerability",
   "slug_microsoft_paint_0click_vulnerability_could_allow",
   "CVE_CVE-2026-83844",
   "56a46ba09614c66d622045425e422b2fe91abe2074ca32cd019b1a1a90e7248f",
@@ -998,5 +987,16 @@
   "b018a12c3f9e06a0c0a93c6c8ba3ec53dcdf681714ec830d44131715fefbcaff",
   "https://www.securityweek.com/hackers-exploit-unpatched-flaw-in-defunct-idunno-anticsrf-library",
   "slug_hackers_exploit_unpatched_defunct_idunno_anticsrf",
-  "CVE_CVE-2026-131914"
+  "CVE_CVE-2026-131914",
+  "27873297949c895bf89f668a64fdd7de7399eee262e09b5b63ea44c5ebded3af",
+  "https://thehackernews.com/2026/11/hackers-exploit-two-geoserver-flaws-as.html",
+  "slug_hackers_exploit_two_geoserver_researchers_warn",
+  "CVE_CVE-2026-120705",
+  "CVE_CVE-2026-129243",
+  "ed35acea853028e5fa8408196233e637ba8fb528fab99653e5efba17731cf3a9",
+  "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-blank-dialog-that-made-microsoft-365-office-apps-unusable",
+  "slug_microsoft_fixes_microsoft_365_bug_blocking",
+  "274f8b23720360586803ce287f0b178ad82a9aef6066e3e3d3b20871776ebbc5",
+  "https://cybersecuritynews.com/hugging-face-ai-phishing-pages",
+  "slug_hackers_use_hugging_face_ai_build"
 ]
