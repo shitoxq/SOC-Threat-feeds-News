@@ -1,13 +1,4 @@
 [
-  "slug_openai_ai_pipeline_generates_948_linux",
-  "f3d4fc33d1407bc088038e79c03155fde1fc5cd69c773aea4759312de403889b",
-  "https://www.bleepingcomputer.com/news/security/openssh-flaw-lets-attackers-log-into-password-disabled-linux-accounts",
-  "slug_openssh_lets_attackers_log_into_passworddisabled",
-  "b36be654d0d4335bbb1192ef4b3cda8b51b6f0fee58f5a46e87a72fc98cdd570",
-  "https://cybersecuritynews.com/openssh-flaw-bypass-password-authentication",
-  "slug_openssh_could_let_attackers_bypass_password",
-  "90a9e74aa19bf7e06abb48514db4b1319a518011f5c671f0f183e02f0d456f80",
-  "https://thehackernews.com/2026/11/openssh-issues-emergency-fix-for-flaw.html",
   "slug_openssh_issues_emergency_fix_letting_long",
   "d1043c057c6734b8943c28a00cbffe1b5df0db347a6c099b33aa6fb9ea011d9c",
   "https://www.bleepingcomputer.com/news/security/fake-openai-spacex-events-used-to-steal-microsoft-google-accounts",
@@ -998,5 +989,14 @@
   "slug_police_disrupt_57_illegal_streaming_services",
   "bcfe961f92745a2ffc61b366f37c512a456a406d2b001057d7817bf63aa071d7",
   "https://cybersecuritynews.com/vmware-esx-host-vulnerabilities",
-  "slug_critical_vmware_esx_let_remote_attackers"
+  "slug_critical_vmware_esx_let_remote_attackers",
+  "c4ed564253ff3bb566e8a696af105218d334ad799bf86e224045909db929c35a",
+  "https://thehackernews.com/2026/11/okta-links-shinyhunters-associated.html",
+  "slug_okta_links_shinyhuntersassociated_vishing_group_new",
+  "5259a09a437792203c2628372ae23f1a6d2471444d877c0e34231f566135f9aa",
+  "https://cybersecuritynews.com/microsoft-declares-code-red",
+  "slug_microsoft_declares_code_red_after_historic",
+  "735fcd710d408e0a1e1be46a76b9d4ebba2636975e3177d3d4aff7afa4a615ba",
+  "https://www.securityweek.com/an-unclassified-cia-system-was-breached-in-a-cyberattack-ap-source-says",
+  "slug_unclassified_cia_system_was_breached_cyberattack"
 ]
