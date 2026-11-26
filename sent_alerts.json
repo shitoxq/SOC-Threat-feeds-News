@@ -1,13 +1,4 @@
 [
-  "slug_qnap_says_hackers_breaching_nas_devices",
-  "23539b6f794dab70cc4249352b2fc9d0dd293c3cebdc1c0fc5c469d4ba307f69",
-  "https://cybersecuritynews.com/new-dark-project-ransomware-group",
-  "slug_new_dark_project_ransomware_group_offers",
-  "12404fdb4aa2369898b863996b18c6ed8c1a8d6a1f79072a9ab2a87023c145c1",
-  "https://thehackernews.com/2026/11/hackers-exploited-openssh-sshole-flaw.html",
-  "slug_hackers_target_openssh_sshole_within_hours",
-  "CVE_CVE-2026-123158",
-  "95694e8580066fcc583c8630db128b2445a2b07a98f9c840293332149b8a2026",
   "https://www.bleepingcomputer.com/news/security/veeam-software-appliance-vms-fail-to-boot-on-amd-epyc-hosts",
   "slug_veeam_warns_software_appliance_boot_failures",
   "fb813c8875fe52519e0c584ff01256c3f8e939350d085b098b42147059802b6d",
@@ -998,5 +989,14 @@
   "slug_palo_alto_networks_warns_fragnesia_exploited",
   "5429114753f0ce8df1abd082ad82d74a58ab95e2aa9e5507ad3b0a93529daa39",
   "https://cybersecuritynews.com/drupal-idunno-anticsrf-optimizely-flaws-exploited",
-  "slug_cisa_warns_drupal_core_rce_idunno"
+  "slug_cisa_warns_drupal_core_rce_idunno",
+  "8720d53f4644220497d09ae0e4fefc30a3d6e059bb517f88c5c8c24437c11a11",
+  "https://thehackernews.com/2026/11/13-malicious-nuget-packages-turn-fake.html",
+  "slug_13_malicious_nuget_packages_turn_fake",
+  "1b6ec2368eae77ff8ad7b683728c7166edad8fd6f52bbb424fb0c801e88c57cc",
+  "https://www.bleepingcomputer.com/news/security/1password-customer-data-stolen-after-employee-github-account-breach",
+  "slug_1password_customer_data_stolen_after_employee",
+  "047198bd31ac0bdd02fc7c1b2f484e9fd3d508182b5442cdeb8639eb8950623c",
+  "https://cybersecuritynews.com/microsoft-365-white-screen-bug",
+  "slug_microsoft_365_bug_blocked_users_from"
 ]
