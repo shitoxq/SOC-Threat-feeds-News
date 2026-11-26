@@ -1,13 +1,4 @@
 [
-  "835ede1801c9929bd120036179cfafac8bb7f5d4991c9751904ea54a048c06a2",
-  "https://cybersecuritynews.com/mirax-android-rat",
-  "slug_mirax_android_rat_hijacks_phones_through",
-  "bf3ff9f08f48ce8744ddb262d0bf3fa0d22b0f2daf6a96dc72bda535383627e1",
-  "https://thehackernews.com/2026/11/malicious-browser-extensions-could-use.html",
-  "slug_malicious_browser_extensions_could_use_claude",
-  "238ba52c2ebada9760fa5dfe8b5c6e942ac405d40d86843d0edf8a3aeb03939d",
-  "https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-new-ssl-vpn-mfa-bypass-flaw-exploited-in-attacks",
-  "slug_sonicwall_warns_new_sslvpn_mfa_bypass",
   "3fcf619c4834c79d65c5e5b3e70099b07998ba70d130b7c5c7c2d1e720310f1f",
   "https://cybersecuritynews.com/insignary-releases-free-insignary-chk-tool-to-detect-php2shell-and-node2shell-exposure",
   "slug_insignary_releases_free_insignarychk_tool_detect",
@@ -998,5 +989,14 @@
   "74032d8181ee5dc79a9a9280e1ace154071d830a7d674a8853bebe7909d9d4cb",
   "https://cybersecuritynews.com/drupal-website-takeover-flaw",
   "slug_drupal_warns_active_attacks_exploiting_new",
-  "CVE_CVE-2026-136716"
+  "CVE_CVE-2026-136716",
+  "0574110d7d17666e48071c3c326a9c786cb5bc6888a2dad7c05d3cc974fd57ee",
+  "https://thehackernews.com/2026/11/north-korea-linked-polinrider-poisons.html",
+  "slug_north_korealinked_polinrider_poisons_over_7600",
+  "92401dca047c23f9523f40c8cf231aacc9b37f7e00656f641ad4aa678c524e94",
+  "https://www.bleepingcomputer.com/news/security/sys010-malware-abuses-browser-management-to-spy-on-gmail-outlook",
+  "slug_sys010_malware_abuses_browser_management_spy",
+  "ea55dd3e6901c24c01b6268cbc2436d98b783b0437fbe5313900b68bbcc1c540",
+  "https://cybersecuritynews.com/password-stealing-malware",
+  "slug_hackers_hide_passwordstealing_malware_github_code"
 ]
