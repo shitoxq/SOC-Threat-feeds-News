@@ -1,15 +1,4 @@
 [
-  "https://www.bleepingcomputer.com/news/security/veeam-software-appliance-vms-fail-to-boot-on-amd-epyc-hosts",
-  "slug_veeam_warns_software_appliance_boot_failures",
-  "fb813c8875fe52519e0c584ff01256c3f8e939350d085b098b42147059802b6d",
-  "https://cybersecuritynews.com/microsoft-warns-fake-game-downloads",
-  "slug_microsoft_warns_fake_game_downloads_secretly",
-  "4ab15b935f3f24ba1c9fc78799d4b471306a2a540e1477b612ba25823ac77a41",
-  "https://thehackernews.com/2026/11/openai-launches-gpt-6-cyber-after-ai.html",
-  "slug_openai_launches_gpt6_cyber_after_ai",
-  "09fa5f5c7742a60dd1b21e0a02b08e3dea50359d22eb3235186a4e289183bfeb",
-  "https://www.bleepingcomputer.com/news/security/openais-new-gpt-6-cyber-ai-finds-81-firefox-flaws-948-linux-bugs",
-  "slug_openaix27s_new_gpt6_cyber_ai_finds",
   "835ede1801c9929bd120036179cfafac8bb7f5d4991c9751904ea54a048c06a2",
   "https://cybersecuritynews.com/mirax-android-rat",
   "slug_mirax_android_rat_hijacks_phones_through",
@@ -998,5 +987,16 @@
   "slug_1password_customer_data_stolen_after_employee",
   "047198bd31ac0bdd02fc7c1b2f484e9fd3d508182b5442cdeb8639eb8950623c",
   "https://cybersecuritynews.com/microsoft-365-white-screen-bug",
-  "slug_microsoft_365_bug_blocked_users_from"
+  "slug_microsoft_365_bug_blocked_users_from",
+  "451f3a785e324bf13d51d4b964273dd3e6a14ccdf2a0fe98efcbcc358a416902",
+  "https://thehackernews.com/2026/11/hackers-exploit-10-vulnerabilities.html",
+  "slug_hackers_exploit_10_vulnerabilities_across_mitel",
+  "CVE_CVE-2026-133275",
+  "21a19dccacb58acdc884d27b3d719f5cc716b95f1be30ec507b8e78d68ad428e",
+  "https://www.bleepingcomputer.com/news/security/hackers-now-exploit-critical-drupal-rce-flaw-to-hijack-sites",
+  "slug_hackers_now_exploit_critical_drupal_rce",
+  "74032d8181ee5dc79a9a9280e1ace154071d830a7d674a8853bebe7909d9d4cb",
+  "https://cybersecuritynews.com/drupal-website-takeover-flaw",
+  "slug_drupal_warns_active_attacks_exploiting_new",
+  "CVE_CVE-2026-136716"
 ]
