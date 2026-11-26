@@ -1,14 +1,4 @@
 [
-  "44974f8cf8a90e0076464193e4b255c4d9b090614579e13161276a0bc57a76a1",
-  "https://www.securityweek.com/in-other-news-trezor-implant-llmjacking-bills-hit-1m-sap-flaws-weaponized-within-days",
-  "slug_other_news_trezor_implant_llmjacking_bills",
-  "14556e7c131eba547a097fdab7c06117f14f3ee2a136194dfecf9c4fd324692f",
-  "https://www.securityweek.com/digicert-data-breach-impacts-business-customer-information",
-  "slug_digicert_data_breach_impacts_business_customer",
-  "ad61c53a6fad252cf9632a04ce7a98db10c935ce74ac6dc858199728fb0ea805",
-  "https://www.vulncheck.com/blog/control-web-panel-pre-auth-module-dispatch-rce",
-  "slug_cwp2shell_login_page_that_never_says",
-  "2718655e0224801d4037bf05ad7d9b0dc41c6ba9d212f2d6e29b20320a296aa9",
   "https://gbhackers.com/hackers-use-fake-github-security-tools",
   "slug_hackers_use_fake_github_security_tools",
   "384d647e41e467fec0312f1c967763d6598248bec9472fef5c4d0f14d4e30743",
@@ -998,5 +988,15 @@
   "slug_fake_paid_expert_interviews_impersonate_brands",
   "f5e40f0c83d7d76261847e9d6e21d9d83b2582a87cfd5ee2179718ef5a5d6d12",
   "https://cybersecuritynews.com/bithumb-hacked-for-15-days",
-  "slug_bithumb_hacked_15_days_customer_passport"
+  "slug_bithumb_hacked_15_days_customer_passport",
+  "928a41a9b2193962d67a92d2e58d8ccc72904d394871209b0219e3ae7c4e34fa",
+  "https://www.bleepingcomputer.com/news/security/remus-malware-steals-gmail-messages-via-fake-google-sheets-extension",
+  "slug_remus_malware_steals_gmail_messages_via",
+  "0157fb63f8360aa5e193212798057c80e4aa172ae0be6850ec679916a840bc7f",
+  "https://cybersecuritynews.com/cisa-adds-10-flaws-to-kev",
+  "slug_cisa_adds_10_from_danfoss_hpe",
+  "a179a17c70a588b188477f1642e226377ce1687e20e265c2ceecf1ed73f7d085",
+  "https://www.securityweek.com/critical-juniper-session-smart-conductor-flaw-exploited-in-attacks",
+  "slug_critical_juniper_session_smart_conductor_exploited",
+  "CVE_CVE-2026-103406"
 ]
