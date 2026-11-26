@@ -1,13 +1,4 @@
 [
-  "3fcf619c4834c79d65c5e5b3e70099b07998ba70d130b7c5c7c2d1e720310f1f",
-  "https://cybersecuritynews.com/insignary-releases-free-insignary-chk-tool-to-detect-php2shell-and-node2shell-exposure",
-  "slug_insignary_releases_free_insignarychk_tool_detect",
-  "a94cd341e3be7a1974b36e6608a868168e525f9855dbd1d5413640474c7207eb",
-  "https://www.bleepingcomputer.com/news/security/fake-security-tools-on-github-push-backdoors-and-infostealers",
-  "slug_fake_security_tools_github_push_backdoors",
-  "93cd3cc7b032489e63b625634c5705f8fbfa53b9b0d783b2cc05fa9fdf378b7e",
-  "https://cybersecuritynews.com/artex-ai-agents",
-  "slug_artex_ai_agents_steal_190000_gaming",
   "44974f8cf8a90e0076464193e4b255c4d9b090614579e13161276a0bc57a76a1",
   "https://www.securityweek.com/in-other-news-trezor-implant-llmjacking-bills-hit-1m-sap-flaws-weaponized-within-days",
   "slug_other_news_trezor_implant_llmjacking_bills",
@@ -998,5 +989,14 @@
   "slug_sys010_malware_abuses_browser_management_spy",
   "ea55dd3e6901c24c01b6268cbc2436d98b783b0437fbe5313900b68bbcc1c540",
   "https://cybersecuritynews.com/password-stealing-malware",
-  "slug_hackers_hide_passwordstealing_malware_github_code"
+  "slug_hackers_hide_passwordstealing_malware_github_code",
+  "5e5b0d3bb248d414374e3a8d55b76caf5cad21992bd3766660657468a247d1a6",
+  "https://thehackernews.com/2026/11/1password-hacked-customer-data-and.html",
+  "slug_1password_hacked_customer_data_source_code",
+  "08c326dd24dcd490b8f8e60579f567c05cd00eb5ecab5dddf064de4b6445bbc9",
+  "https://www.bleepingcomputer.com/news/apple/fake-paid-expert-interviews-impersonate-brands-to-steal-google-logins",
+  "slug_fake_paid_expert_interviews_impersonate_brands",
+  "f5e40f0c83d7d76261847e9d6e21d9d83b2582a87cfd5ee2179718ef5a5d6d12",
+  "https://cybersecuritynews.com/bithumb-hacked-for-15-days",
+  "slug_bithumb_hacked_15_days_customer_passport"
 ]
