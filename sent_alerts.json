@@ -1,13 +1,4 @@
 [
-  "https://www.vulncheck.com/blog/revenge-of-the-sd-wan-cve-2026-76504",
-  "slug_revenge_sdwan_exploring_exploiting_yet_another",
-  "CVE_CVE-2026-76504",
-  "352716a551808012140d0a986aff1d805feecf2f3fa77fced1cf6391f1e46915",
-  "https://gbhackers.com/workos-data-breach-artex-ai",
-  "slug_workos_confirms_data_breach_after_artex",
-  "782a519327351ce8026373bdccb4466355217a0874d40188db4941065e55ddca",
-  "https://www.vulncheck.com/blog/routinely-targeted-vulnerabilities-may-2026",
-  "slug_quantifying_2026_routinely_targeted_vulnerabilities_so",
   "bc1a715a61fc27b1bf0895398bcb3a29e612c6a659465e7215c3f38de943bd68",
   "https://gbhackers.com/dark-project-ransomware",
   "slug_dark_project_ransomware_gang_claims_38",
@@ -998,5 +989,14 @@
   "slug_tor_browser_could_reveal_users_real",
   "ae2c9dfba41e1efb8a46ce0c735db2d2082ce865f158d53f87efb53df392cd69",
   "https://www.securityweek.com/hex-package-manager-warns-of-potential-data-breach",
-  "slug_hex_package_manager_warns_potential_data"
+  "slug_hex_package_manager_warns_potential_data",
+  "c60eeeaa334b435fe2df496ffce78876d8c3bf149035e885dc199506a17bc665",
+  "https://thehackernews.com/2026/11/microsoft-store-app-found-delivering.html",
+  "slug_microsoft_store_app_found_delivering_vinci",
+  "dc478ba580bb86300247546d0ed671de47f26090ec570d19b1b02acd3659b186",
+  "https://www.bleepingcomputer.com/news/security/unpatched-cacti-zero-day-with-public-poc-gives-remote-code-execution",
+  "slug_unpatched_cacti_zeroday_public_poc_gives",
+  "71303f180a77ed09bef7f4d4f470bcd194d4fb3f102c381bad354c716316e2d3",
+  "https://www.securityweek.com/in-other-news-tanker-cyberattacks-eu-quantum-act-new-virustotal-capabilities",
+  "slug_other_news_tanker_cyberattacks_eu_quantum"
 ]
