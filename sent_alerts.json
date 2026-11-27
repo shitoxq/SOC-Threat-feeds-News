@@ -1,13 +1,4 @@
 [
-  "bf90a82d9b9573abad89d9aab5ed364c267595bdb588503abca9a098d1647997",
-  "https://www.vulncheck.com/blog/php2shell-vulnerabilities",
-  "slug_php2shell_vulnerabilities_cve2026109618_cve2026109619two_critical_vulnerabilities",
-  "CVE_CVE-2026-109618",
-  "CVE_CVE-2026-109619",
-  "1fd0d11ba6eead8ce472c33b091e3a98182544b380b37f986fd212ee23bd2b3f",
-  "https://www.securityweek.com/openai-says-new-gpt-6-cyber-model-hunts-flaws-without-crossing-the-line",
-  "slug_openai_says_new_gpt6_cyber_model",
-  "180b7269a390e96408f3caecd58f9e5dfa0578642befc687911c8ef6122f7bbd",
   "https://www.vulncheck.com/blog/revenge-of-the-sd-wan-cve-2026-76504",
   "slug_revenge_sdwan_exploring_exploiting_yet_another",
   "CVE_CVE-2026-76504",
@@ -998,5 +989,14 @@
   "slug_hackers_test_malware_against_microsoft_defender",
   "5b03a45cee39b79a58f3de2545b8506e88357f7ed44377f257b86f914ba36822",
   "https://www.securityweek.com/mitel-micollab-zero-days-exploited-in-suspected-ai-assisted-attacks",
-  "slug_mitel_micollab_zerodays_exploited_suspected_aiassisted"
+  "slug_mitel_micollab_zerodays_exploited_suspected_aiassisted",
+  "29c9bd71aeb075289f7dc1c0a1dc2e19f15698023b487262bd5e210adebfeab4",
+  "https://www.bleepingcomputer.com/news/microsoft/new-out-of-band-oob-emergency-hotpatch-fixes-windows-server-2025-crashes",
+  "slug_microsoft_pushes_emergency_hotpatch_fix_windows",
+  "8d3194681821a5e92f3c1074b20854a9af5a009a782120319f454d6d8ba8d7c1",
+  "https://cybersecuritynews.com/tor-browser-flaw",
+  "slug_tor_browser_could_reveal_users_real",
+  "ae2c9dfba41e1efb8a46ce0c735db2d2082ce865f158d53f87efb53df392cd69",
+  "https://www.securityweek.com/hex-package-manager-warns-of-potential-data-breach",
+  "slug_hex_package_manager_warns_potential_data"
 ]
