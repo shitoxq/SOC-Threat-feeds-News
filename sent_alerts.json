@@ -1,13 +1,4 @@
 [
-  "https://gbhackers.com/hackers-use-fake-github-security-tools",
-  "slug_hackers_use_fake_github_security_tools",
-  "384d647e41e467fec0312f1c967763d6598248bec9472fef5c4d0f14d4e30743",
-  "https://www.bleepingcomputer.com/news/security/ctm360-exposes-fake-gift-card-scams-exploiting-trusted-brands",
-  "slug_ctm360_exposes_fake_gift_card_scams",
-  "b7e94ee8d516ad0408879d79086528c3218c4d0b2901fe36f16386690661ff8d",
-  "https://www.securityweek.com/sonicwall-patches-exploited-sonicos-bug-that-weakens-vpn-logins",
-  "slug_sonicwall_patches_exploited_sonicos_vulnerability_that",
-  "CVE_CVE-2026-19868",
   "bf90a82d9b9573abad89d9aab5ed364c267595bdb588503abca9a098d1647997",
   "https://www.vulncheck.com/blog/php2shell-vulnerabilities",
   "slug_php2shell_vulnerabilities_cve2026109618_cve2026109619two_critical_vulnerabilities",
@@ -998,5 +989,14 @@
   "a179a17c70a588b188477f1642e226377ce1687e20e265c2ceecf1ed73f7d085",
   "https://www.securityweek.com/critical-juniper-session-smart-conductor-flaw-exploited-in-attacks",
   "slug_critical_juniper_session_smart_conductor_exploited",
-  "CVE_CVE-2026-103406"
+  "CVE_CVE-2026-103406",
+  "27f1645ed04a4e7e9931ae5a0f86eafec12f065f534add389908bc165f68c607",
+  "https://thehackernews.com/2026/11/unpatched-cacti-zero-day-enables-rce-in.html",
+  "slug_unpatched_cacti_zeroday_enables_rce_just",
+  "6d73dccc6d29aa390ec6ca27494f702b20e83e1fb4a1c9178e605e3e17cd38f1",
+  "https://cybersecuritynews.com/malware-against-microsoft-defender",
+  "slug_hackers_test_malware_against_microsoft_defender",
+  "5b03a45cee39b79a58f3de2545b8506e88357f7ed44377f257b86f914ba36822",
+  "https://www.securityweek.com/mitel-micollab-zero-days-exploited-in-suspected-ai-assisted-attacks",
+  "slug_mitel_micollab_zerodays_exploited_suspected_aiassisted"
 ]
