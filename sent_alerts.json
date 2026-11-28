@@ -1,13 +1,4 @@
 [
-  "e56840fe1598e9a233dd3346583308f4e886950e848924a086f8d5bc1d9ba83e",
-  "https://www.helpnetsecurity.com/2026/11/06/mariia-bakhtina-masaryk-university-security-certification",
-  "slug_security_certification_snapshot_buyers_read_too",
-  "446fd183df45680b5397ddc57ef835f26828086bec25fcd7f831aae5d8ad60ec",
-  "https://www.infosecurity-magazine.com/news/artex-activity-exceeds-reported",
-  "slug_artex_offensive_ai_tool_activity_far",
-  "01f7e1fced898888d22da7cb1a586d324df2b8b1009732050d8380edb0db247a",
-  "https://www.vulncheck.com/blog/return-of-the-kinsing",
-  "slug_return_kinsingcanary_intelligence_linked_exploitation_cve202346604",
   "CVE_CVE-2023-46604",
   "CVE_CVE-2023-38646",
   "CVE_CVE-2025-55182",
@@ -998,5 +989,14 @@
   "slug_hackers_break_into_us_air_force",
   "0434c971935f3bbd7a68f9de6570ff5bca1ad999d70ed55bf0e1e83d44ec632a",
   "https://www.securityweek.com/sap-confirms-cyberattack-source-code-reportedly-compromised",
-  "slug_sap_confirms_cyberattack_source_code_reportedly"
+  "slug_sap_confirms_cyberattack_source_code_reportedly",
+  "ebebe104d19597b031058de418d68a96264f329c70ef5df8129e5bd746730ddb",
+  "https://www.bleepingcomputer.com/news/security/malwarebytes-antivirus-get-50-percent-off-during-black-friday-2026",
+  "slug_malwarebytes_antivirus_get_50_off_during",
+  "201da1957913adc3ce492d1faa858511c3709e3168cd9ad45e0c6a1f6efbe3d8",
+  "https://cybersecuritynews.com/new-sys010-malware",
+  "slug_new_sys010_malware_uses_fake_facebook",
+  "56a74088527af9689187a09795e7ecad007bee4958b0859056d2b26c32d53d03",
+  "https://www.securityweek.com/drupal-installer-patch-left-a-gap-attackers-are-already-exploiting",
+  "slug_drupal_installer_patch_left_gap_attackers"
 ]
