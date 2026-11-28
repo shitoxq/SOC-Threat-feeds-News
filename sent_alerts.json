@@ -1,14 +1,4 @@
 [
-  "CVE_CVE-2017-9841",
-  "5340a9df470550543331d1afb3ab3b8f19ca534757dcba16e1eb12dd2153a63c",
-  "https://gbhackers.com/mirax-android-malware",
-  "slug_hackers_use_fake_streaming_apps_spread",
-  "057d384c9283fd38523574049481132b1a93195d24817d9b2586eac247a7be0f",
-  "https://www.helpnetsecurity.com/2026/11/06/cyberattacks-refrigeration-systems-cisa-fbi",
-  "slug_us_agencies_warn_attackers_targeting_refrigeration",
-  "9e184f7cdec715a04d889fb69d1761930c4a7a721cb63a05269ea387f9754bf7",
-  "https://www.vulncheck.com/blog/ai-assisted-vulnerability-discovery",
-  "slug_first_cve_wave_signs_that_aiassisted",
   "5bc14ebfbfd9c732a89c6105cdee3bf9372905d959599dd23015b1c6b3fbb4e5",
   "https://www.helpnetsecurity.com/2026/11/06/november-2026-patch-tuesday-forecast",
   "slug_november_2026_patch_tuesday_forecast_old",
@@ -998,5 +988,15 @@
   "slug_new_boston_scientific_data_breach_exposes",
   "0b68c1c81a8ea1e49296adc9fe6d6a88fd21efa6949f2725b5dd7a50efbcf126",
   "https://cybersecuritynews.com/freezer-control-cyberattack",
-  "slug_hackers_set_freezer_controls_100c_then"
+  "slug_hackers_set_freezer_controls_100c_then",
+  "4ccd215b311b434ddde248cdc6e3531ed30d8add3209f76638ce4613ef454222",
+  "https://www.bleepingcomputer.com/news/security/us-air-force-cloud-platform-reportedly-hacked-in-latest-federal-breach",
+  "slug_us_air_force_cloud_platform_reportedly",
+  "93bc43748736292e8b46ecf9e64f6ef38022731b301ec34b9b6c42f30980d93e",
+  "https://cybersecuritynews.com/nfs2root-linux-vulnerability",
+  "slug_12yearold_nfs2root_linux_let_hackers_take",
+  "CVE_CVE-2026-99362",
+  "ebd56ce0aa6042657209da43eb65244531f44a974ac785779505642667fc0462",
+  "https://www.securityweek.com/100000-potentially-impacted-by-colorado-data-breach",
+  "slug_100000_potentially_impacted_colorado_data_breach"
 ]
